@@ -6,7 +6,7 @@ dryrun: False # Not relevant
 save_prompts: True  # Not relevant
 timeout: 0.0 # Not relevant
 gen_model:
-  name: "gpt-4-1106-preview"
+  name: "gpt-4o-mini-2024-07-18"
   provider: "openai"
   args: {
     temperature: 1.
@@ -32,20 +32,20 @@ task_config:
     user_style_prompt_path: "./data/thread/system_prompts/user_style_system_prompt.txt"
     user_bot_personalities_path: "./data/profiles/user_bot_gen_online_profiles_300.json"
     author_bot:
-      name: "gpt-4-1106-preview"
+      name: "gpt-4o-mini-2024-07-18"
       provider: "openai"
       args: {
         temperature: 1.
       }
     user_bot:
-      name: "gpt-4-1106-preview"
+      name: "gpt-4o-mini-2024-07-18"
       provider: "openai"
       args: {
         temperature: 1.,
         frequency_penalty: 2.0
       }
     checker_bot:
-      name: "gpt-4-1106-preview"
+      name: "gpt-4o-mini-2024-07-18"
       provider: "openai"
       args: {
         temperature: 0. 

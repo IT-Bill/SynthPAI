@@ -101,11 +101,11 @@ city_income_mapping = {
 
 
 china_household_assets_2024 = {
-    "富豪/超高净值": {"min_income": 600000, "label": "富豪/超高净值"},
-    "高级中产/高净值": {"min_income": 300000, "label": "高级中产/高净值"},
-    "普通中产": {"min_income": 100000, "label": "普通中产"},
-    "小康": {"min_income": 50000, "label": "小康"},
-    "温饱": {"min_income": 0, "label": "温饱"}
+    "富豪/超高净值": {"min_income": 505000, "label": "富豪"},
+    "高级中产/高净值": {"min_income": 195000, "label": "高级中产"},
+    "普通中产": {"min_income": 99000, "label": "普通中产"},
+    "小康": {"min_income": 45000, "label": "小康"},
+    "温饱": {"min_income": 19000, "label": "温饱"}
 }
 
 # ------------------- 辅助函数 -------------------
@@ -124,7 +124,8 @@ def sample_income_from_distribution(avg, median):
     sigma = np.sqrt(sigma_squared)
     mu = np.log(median)
     income = np.random.lognormal(mu, sigma)
-    return income
+    income = round(income, -3)  # round to thousand
+    return int(income)
 
 def get_income_level(income):
     # 根据income从大到小依次匹配相应等级
@@ -163,14 +164,14 @@ def generate_user_profile():
     # 年龄：18-40岁正态分布
     age = int(np.clip(np.random.normal(26, 4), 18, 40))
     
-    # 性别分布：男性:48.5%, 女性:48.5%, LGBT:3%
-    sex_choices = ["男性", "女性", "LGBT"]
-    sex_weights = [0.485, 0.485, 0.03]
+    # 性别分布：男性:53%, 女性:47%
+    sex_choices = ["男性", "女性"]
+    sex_weights = [0.53, 0.47]
     sex = weighted_choice(sex_choices, sex_weights)
     
     # 教育分布：高中, 本科, 硕士, 博士
     edu_choices = ["高中", "本科", "硕士", "博士"]
-    edu_weights = [0.05, 0.45, 0.40, 0.10]
+    edu_weights = [0.05, 0.50, 0.35, 0.10]
     education = weighted_choice(edu_choices, edu_weights)
     
     # 关系状态分布
@@ -229,8 +230,8 @@ def generate_new_profile():
 if __name__ == "__main__":
     import json
     num_samples = 300
-    profiles = [generate_user_profile() for _ in range(num_samples)]
-    with open("generated_profiles.txt", "w", encoding="utf-8") as f:
+    profiles = {f"pers{i + 1}": generate_user_profile() for i in range(num_samples)}
+    with open("generated_profiles.json", "w", encoding="utf-8") as f:
         json.dump(profiles, f, ensure_ascii=False, indent=4)
     
     
