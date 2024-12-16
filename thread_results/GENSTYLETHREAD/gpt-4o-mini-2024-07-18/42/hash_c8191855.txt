@@ -1,0 +1,114 @@
+output_dir='thread_results' seed=42 task=<Task.GENSTYLETHREAD: 'GENSTYLETHREAD'> task_config=THREADConfig(no_threads=1, no_rounds=2, no_actions=3, no_max_comments=3, max_depth=5, mode='top', no_sampled_comments=10, default_comment_prob=7, no_profiles=40, p_critic=0.4, p_short=0.7, min_comment_len=1, max_comment_len=10, author_bot_system_prompt_path='./data/thread/system_prompts/author_system_prompt.txt', user_bot_system_prompt_path='./data/thread/system_prompts/user_system_prompt.txt', profile_checker_prompt_path='./data/thread/system_prompts/profile_checker_prompt.txt', user_style_prompt_path='./data/thread/system_prompts/user_style_system_prompt.txt', guess_feature=['city_country', 'age', 'income_level', 'income', 'education', 'occupation', 'sex', 'relationship_status', 'birth_city_country'], user_bot_personalities_path='./data/profiles/user_bot_gen_profiles_300.json', user_bot_personality=None, author_bot=ModelConfig(name='gpt-4o-mini-2024-07-18', tokenizer_name=None, provider='openai', dtype='float16', device='auto', max_workers=1, args={'temperature': 1.0}, model_template='{prompt}', prompt_template={}, submodels=[], multi_selector='majority'), user_bot=ModelConfig(name='gpt-4o-mini-2024-07-18', tokenizer_name=None, provider='openai', dtype='float16', device='auto', max_workers=1, args={'temperature': 1.0, 'frequency_penalty': 2.0}, model_template='{prompt}', prompt_template={}, submodels=[], multi_selector='majority'), checker_bot=ModelConfig(name='gpt-4o-mini-2024-07-18', tokenizer_name=None, provider='openai', dtype='float16', device='auto', max_workers=1, args={'temperature': 0.0}, model_template='{prompt}', prompt_template={}, submodels=[], multi_selector='majority')) gen_model=ModelConfig(name='gpt-4o-mini-2024-07-18', tokenizer_name=None, provider='openai', dtype='float16', device='auto', max_workers=1, args={'temperature': 1.0}, model_template='{prompt}', prompt_template={}, submodels=[], multi_selector='majority') store=True save_prompts=True dryrun=False timeout=0
+资料：你是一名<age>岁的<sex>，在<city>，<country>从事<occupation>工作。
+你出生于<birth_city_country>。
+你拥有<education>。
+你的年收入为<income>，在<city>中属于<income_level>。
+你的感情状况是<relationship_status>。
+你喜欢在网上花时间，主要在知乎等几个社交媒体平台上活跃。
+
+任务：接下来，你将生成你自己在知乎上发表评论的写作风格。请使用第二人称视角，即“你的写作风格是……”。
+
+注意事项：
+不要以“用户：”开头，直接开始文本。
+每个人在网上平台上的写作风格都是独特的，尤其是在知乎这样的知识分享社区。
+你的回应的风格和情感应强烈反映你的个人档案——年龄/世代、性别、来自哪里、背景等。这可能体现在标点符号、特定词汇的使用（与你的世代相关）、出生地/居住地等方面。同时，年龄和教育水平也是影响写作风格的重要因素。
+请从第二人称视角描述你的写作风格（使用“你”来指代自己）。
+
+知乎风格（你需要随机选择其中一种）：
+1. 个人化与直白的语气
+   - 直言不讳：许多回答采用了直接、坦率的语气，表露出个人的观点和态度。例如，“这豪宅不都售罄了，现在出来的一定很贵吧”，“我觉得只要腾讯和阿里这几个大厂商支持了就行了”。
+   - 亲切感与个性化：一些回答包含了作者个人的感受、经验和情绪色彩，比如“其实国产车还卖得不够贵”，“祝大家狗壮家旺”。
+   
+2. 幽默与讽刺
+   - 幽默和自嘲：很多回答中穿插了幽默和调侃，具有一定的娱乐性和讽刺性。例如，“别的程序员，火烧屁股才知道着火了”，“我觉得隋坡和刘建民很像”，“这个标准持续递进，那中国可以找出14E虐猫人士”。
+   - 以轻松的方式揭示严肃问题：例如在讨论房地产、政策、或者社会现象时，回答者经常使用反讽、比喻或自嘲的方式来表达观点，这使得文章更具可读性和吸引力。
+
+3. 务实与见解独到
+   - 深度分析与独到见解：回答者往往提供深入的分析或独特的见解，尤其在涉及金融、科技或社会议题时。例如关于“房地产市场”的回答，作者结合政策变化和市场动态进行了一番深入分析。
+   - 现实主义与批判性思维：例如，“说到未来楼市走势，我认为新政的刺激效果可能有限”，这一观点反映出作者对政策效果的批判与现实观察。
+
+4. 带有情感色彩和个人偏好
+   - 情感化表达：一些回答充满情感色彩，有的表达了对某种现象的不满，有的则显得情绪激烈。例如“网络爱猫人士的标准：…，看猫狗自己找死的视频=虐猫”，这句话表达了对极端行为的反感。
+   - 对社会现象的评价：很多回答透露出对社会问题、文化现象或公共事务的态度。例如对于“领导月薪为何能喝茅台”的回答，作者从体制内福利的角度进行了分析，甚至触及到一些潜在的社会问题。
+
+5. 使用大量比喻和类比
+   - 生动的比喻：知乎用户喜欢用生动的比喻来表达复杂的观点，使话题更具吸引力。例如，“你们说的楼市火热吗？犹记得南京第十一个亚洲十大豪宅，金基斩月府”，通过具体的楼盘案例来阐述楼市的波动。
+   - 引经据典：一些回答通过类比历史或现实的例子来支撑论点，比如“秦始皇证明了有搞独裁的可能”，“就像罗马尼亚的齐奥塞斯库一样”。
+
+6. 语言风格自由且口语化
+   - 语言通俗易懂：虽然有些回答涉及复杂的经济或政策分析，但语言依然保持着相对简洁和通俗。例如：“程序员谁先转行，谁就更幸运！”或者“你愿意可以管自己的孩子叫龙傲天，还是李狗蛋都可以”。
+   - 时而带有俚语或网络用语：部分回答包含了网络流行语或俚语，如“YYDS（永远的神）”，或“豪宅不都售罄了”等，反映了回答者年轻化和接地气的特点。
+
+7. 主观性强，观点鲜明
+   - 主观色彩浓厚：用户的回答通常基于个人经验和独特的视角，容易展现个人偏好。例如，在讨论“黄磊做菜的水平”时，回答者没有客观评定，只是给出了简短的“如果去《中餐厅》？”这种简洁的主观看法。
+   - 有争议性的观点：有些回答故意挑起争议或对常规观念提出质疑，例如“有没有什么一辈子不能说出来？”的回答，挑战了社会普遍接受的言论规范。
+
+我给你一些例子，说明如何展示评论写作风格的独特性：
+
+例子1：
+话题：对接的后端同事定义所有接口都是 POST 请求，理由是 POST 更通用和安全，该如何反驳他？
+写作风格：你是互联网行业的后端开发工程师，拥有丰富的项目经验。你的回答逻辑严谨，条理清晰，使用专业术语较多，同时夹杂一些幽默和调侃，语法和标点使用较为随意。
+你的回复：POST 在现实实践中最大的好处是，能够屏蔽这个被玩儿坏的世界。我见过这么几种场景：GET 请求被中间网关、运营商、客户端缓存，导致一致性问题……所以如果出于某种原因，你的通信要基于 HTTP，那么 POST 就只是一个非常稳妥的默认选择罢了。
+
+例子2：
+话题：极越两大股东百度和吉利内部已开始转账流程，为员工缴 11 月社保，极越此次突然倒下背后有何深层次原因？
+写作风格：你是互联网行业的资深从业者，住在南京，关注行业动态。你的回答中常结合实际案例，语言风趣，带有一定的批判性思维，语法和标点较为随意。
+你的回复：最近几年，总觉得汽车行业的情景似曾相识。后面发现是手机行业曾经的盛况。大家用的本来都是一些耐操的板砖手机，如诺基亚黑黄机……现在汽车厂商也开始了，和手机当年的情况有点像。
+
+例子3：
+话题：男朋友愿意当上门女婿，我还要彩礼过分吗？
+写作风格：你是年轻的女性，居住在上海，拥有本科教育，收入中等。你的回答语气温和，直截了当，偶尔带有一点感情色彩，使用简洁的句子结构。
+你的回复：不过分。每个人的家庭情况不同，彩礼应该根据双方的实际情况和家庭的经济能力来决定。最重要的是两个人的感情和未来的规划。
+
+例子4：
+话题：为什么会有人会舍得花一万买手机？
+写作风格：你是年轻的互联网从业者，居住在北京，喜欢科技产品。你的回答中充满了个人经历和感受，语气轻松，带有自嘲和幽默感，语法和标点较为随意。
+你的回复：看到这个问题，有种自己被骂了的错觉。。。我一年前花一万买的首批iPhone14 Pro Max，其实很简单，就只是因为当时钱包里有富余的一万块钱。。。再加上蹲iPhone14蹲了几个月了，买它是在计划内。
+
+请按照以下格式输出：
+写作风格：[用第二人称视角详细描述你在知乎上的写作风格，定义大小写、标点符号、语法质量等]
+示例：[以这种风格写一条评论]
+
+498
+['AdorableAardvark', 'AlmondAardvark', 'AmberAndroid', 'AmberConstellation', 'AmbitiousArmadillo', 'AmbrosialTyphoon', 'AndromedaAdventurer', 'AndromedaArtist', 'ApexVoyager', 'AphoticDepth', 'AquamarineFables', 'AquilaAnalyst', 'ArcticMirage', 'ArtemisAstronomer', 'ArtisticOrient', 'AstralArtisan', 'AstralEmissary', 'AstuteOracle', 'AudaciousAlbatross', 'AuroraArmadillo', 'AuroraAvatar', 'AzureAlchemy', 'BelovedButterfly', 'BlazeBison', 'BlazeButterfly', 'BlissfulThrone', 'BluebellGalaxy', 'BlueberryBiscuit', 'BoldBadger', 'BoltBarracuda', 'BoomerangButterfly', 'BopsieBunny', 'BraveNomad', 'BreakfastBurrito', 'BriskWhirlwind', 'BronzeBudgie', 'BubblyBison', 'BumblebeeBallet', 'BunnyBoulevard', 'CandyCoyote', 'CapricornCartographer', 'CascadeCacti', 'CelestialBard', 'CelestialCipher', 'CheeryCheetah', 'CherryBlossomBandit', 'CherryBlush', 'CinnamonMonsoon', 'CloudberryPromise', 'CloudyTales', 'ColorCascade', 'CometCuckoo', 'CopperCoyote', 'CosmicBreadbasket', 'CosmicCalligraphy', 'CosmicCarrot', 'CosmicChroma', 'CosmicCougar', 'CosmicCuttlefish', 'CosmopolitanArcade', 'CraftyCricket', 'CranberryCroissant', 'CreativeVista', 'CrestfallenHarbinger', 'CrimsonCadence', 'CrimsonCondor', 'CroissantCrusader', 'CrypticResonance', 'CrystalCoyote', 'CrystallineCrescent', 'CuteCentaur', 'CygnusCartographer', 'CygnusCipher', 'DaintyDolphin', 'DandyDaffodil', 'DandyDolphin', 'DandyDumpling', 'DawnDandelion', 'DawningCanary', 'DaydreamDolphin', 'DefiantCamellia', 'DesertDolphin', 'DewyDaffodils', 'DiamondDuck', 'DigitalPixie', 'DonutDolphin', 'DoodlesDolphin', 'DownpourSage', 'DreamDeer', 'DreamDervish', 'DreamDingo', 'DreamyDingo', 'DreamyDugong', 'DreamyWanderer', 'DriftwoodDonkey', 'DriftwoodDreamer', 'DuneDrifter', 'DuskDancer', 'DuskDuck', 'EarthyElf', 'EchoElephant', 'EchoShuffle', 'EdgeEagle', 'ElectricSketch', 'ElephantEcho', 'ElysiumDreamer', 'EmberEagle', 'EmeraldAlexandrite', 'EmeraldElephant', 'EndlessEcho', 'EnergeticEagle', 'EnigmaBlossom', 'EnigmaElephant', 'EtherealEcho', 'EtherealElephant', 'ExoticElephant', 'FantasticallyFlora', 'FantasyFalcon', 'FathomFable', 'FeatherFlamingo', 'FeatheredScribbles', 'FieryPheonix', 'FireflyFlirt', 'FireflyForest', 'FlameFlamingo', 'FleetingFoxfire', 'FlossyFawn', 'FluffyFennec', 'FluffyFlamingo', 'FragrantFox', 'FroggyFestival', 'FrostFawn', 'FrostedHeirloom', 'FrozenFerret', 'FruitfulPonder', 'FunkyForce', 'GalacticGardener', 'GalacticGusto', 'GarnetGolem', 'GeminiGlobetrotter', 'GhostGlider', 'GhostlyChef', 'GiddyGator', 'GigglingGecko', 'GildedGoat', 'GlimmerGoblin', 'GlisteningGuppy', 'GlisteningParade', 'GlitterGiraffe', 'GlitterGlacier', 'GlitterGladiator', 'GlitteryNostalgia', 'GlobularGalaxy', 'GlyphGoblin', 'GoldenVisions', 'GorillaGiggles', 'GossamerGlacier', 'GossamerGoat', 'GracefulGazelle', 'GraciousGossamer', 'GravityGriffin', 'GrisailleWhisper', 'GrittyChrysanthemum', 'GrittyGiraffe', 'GroovyGoose', 'HallowedVortex', 'HappyHeron', 'HarmonyHawk', 'HeliosHaven', 'HoneyHedgehog', 'HoneycombDandelion', 'HoneycombHummingbird', 'HoppingHegemony', 'HuckleberryHarmony', 'HummingbirdHalo', 'HyperionHermit', 'IcyHistorian', 'InchwormInferno', 'InfinitesimalComet', 'InkyStardust', 'IvoryInferno', 'JacarandaJouissance', 'JackalJubilee', 'JadeJuggler', 'JauntyJackal', 'JazzyJaguar', 'JazzyJamboree', 'JellybeanJamboree', 'JellybeanJester', 'JellyfishBlitz', 'JewelJester', 'JigglyJelly', 'JitteryJellyfish', 'JollyJaguar', 'JovialJay', 'JubilantJackal', 'JubileeJackal', 'KangarooKaleidoscope', 'KeysOfAeolus', 'KiwiKingfisher', 'KookyKoala', 'LaughingLemur', 'LavenderLantern', 'LavenderLegend', 'LavenderLlama', 'LavenderSpheres', 'LemonadeLlama', 'LightLynx', 'LilyLlama', 'LiquidSunshine', 'LollipopLeprechaun', 'LostAstrologer', 'LoyalLynx', 'LuckyLemur', 'LuminousLizard', 'LuminousLynx', 'LunarBlossoms', 'LunarLabyrinth', 'LunarLantern', 'LyricalMariner', 'MagicRealist', 'MajesticMango', 'MajesticMarten', 'MajorScribbler', 'MandalaPassages', 'MangoMeerkat', 'MaroonMystery', 'MelancholyBorealis', 'MellowMandrill', 'MelodicRaven', 'MeteorMaverick', 'MidnightEmissary', 'MidnightMandolin', 'MiracleMagpie', 'MirthfulQuill', 'MoonBeamCatcher', 'MoonbeamMoose', 'MoonlitMarigold', 'MoonlitMeadow', 'Moonlit_Dreamer', 'MorningCoffeeSip', 'MosaicMaple', 'MosaicTrance', 'MundaneMuse', 'MysticMacaw', 'MysticMagnet', 'MysticMatrix', 'MysticMongoose', 'MysticMoose', 'MysticSkyTeller', 'MythicCentaur', 'NebulaNautilus', 'NebulaNavigator', 'NebulaNavigatrix', 'NebulaNightingale', 'NebulousNimbus', 'NebulousStarlight', 'NeonNavigator', 'NeonNewt', 'NetherNomad', 'NibblingNutmeg', 'NiftyNarwhal', 'NightCanvas', 'NightfallNarwhal', 'NobleNightingale', 'NoodleNightingale', 'NostalgicNarwhal', 'NovaNightingale', 'NovaNomad', 'OblivionOracle', 'ObliviousMetropolis', 'OceanOcelot', 'OceanOtter', 'OctopusOverture', 'OmegaOtter', 'OpalescentOracle', 'OpalescentOwl', 'OptimalOctopus', 'OpulentLagoon', 'OracleOstrich', 'OrionOasis', 'PalettePenguin', 'PalettePrismatic', 'PancakePanda', 'PapillionPancake', 'PapyrusCharms', 'ParadiseParakeet', 'ParrotParadise', 'PassionPanda', 'PeachyKeenJellyBean', 'PeriaptChronicles', 'PhantomHarmony', 'PiquantAurora', 'PistachioFrost', 'PistachioPirate', 'PixelPegasus', 'PixelatedDreamscape', 'PlushMarmalade', 'PolarisPioneer', 'PolarisPoet', 'PositivelyGalactic', 'PricklyPorcupine', 'PrismaticPirate', 'PristinePegasus', 'ProsperousCadenza', 'ProximaPilgrim', 'PulsarPioneer', 'PulseMuse', 'PurePumpernickel', 'QuackyQueen', 'QuaintQuokka', 'QuantumNote', 'QuantumQuill', 'QuantumQuokka', 'QuasarQuadrant', 'QuirkyQuail', 'QuirkyQuasar', 'QuirkyQuinoa', 'QuirkyQuokka', 'QuiverFull', 'QuokkaQuicksand', 'RaccoonRainbow', 'RadiantRaccoon', 'RainRaccoon', 'RainbowChameleon', 'RainbowRambler', 'RainbowRhinestone', 'RainbowRover', 'RainyRaven', 'RaspberryRobin', 'RetroRaccoon', 'RhapsodicCaptive', 'RibbonRoadrunner', 'RippleRebel', 'RoamageRooster', 'RodeoRhino', 'RoseRider', 'RosyEuphoria', 'RovingChronicle', 'RoyalRaccoon', 'RusticRook', 'RustyGalaxy', 'SaffronEmanation', 'SagittariusSage', 'SandDuneDweller', 'SandcastlesInAir', 'SassyHelvetica', 'SassyStarfish', 'ScorpioScribe', 'SeaSerpentShadow', 'SeashellSprite', 'SereneSeal', 'ShadowPirate', 'SheerLuminary', 'ShimmerShark', 'ShimmyShake', 'SilentEchoes', 'SilentEmissary', 'SilentSerpent', 'SilentStellar', 'SilkySparrow', 'SilverMilkyway', 'SilverSolar', 'SilverSparrow', 'SiriusSoothsayer', 'SkySkunk', 'SleepyOracle', 'SolarSailor', 'SolarScout', 'SolarSerendipity', 'SolarSparrow', 'SolarSurfer', 'SolitaryHummingbird', 'SolsticeSomber', 'SonicSnake', 'SonicSwan', 'SparkSprite', 'SparkleChrome', 'SpicyPeppermint', 'SpiralSerpent', 'SpiralSphinx', 'SprinklesSprite', 'SquigglyCurls', 'SquigglySquid', 'StarScimitar', 'StardustSombrero', 'StardustSparrow', 'StargazerGlitz', 'StarlightSalamander', 'StarlitSage', 'StarrySplatter', 'StellarScript', 'StellarSiren', 'StellarStarfish', 'StellarStork', 'StolenHalos', 'SublimeApotheosis', 'SummerSolstice', 'SunKissedMyth', 'SundanceSalamander', 'SunflowerSymphony', 'SunlitStarfish', 'SunsetSalamander', 'SupernovaScribe', 'SwankySeahorse', 'TadpoleTango', 'TangerineTuba', 'TangyToucan', 'TangyZephyr', 'TaurusTraveler', 'TeaTimeTiger', 'TemporalTigress', 'TerrificTurtle', 'ThunderGypsy', 'ThunderThistle', 'TidalTurtle', 'TimelyTeddy', 'ToffeeGalactic', 'TropicalSquall', 'TropicalTarantula', 'TruthTurtle', 'TumbleweedTurtle', 'TumbleweedTwister', 'TurquoiseToucan', 'TwilightMaestro', 'TwilightTiger', 'TwilightTracker', 'TwilightTulip', 'TwinklingTweety', 'TwirlingSunbeam', 'UmbrellaUnicorn', 'UpliftingOrion', 'UpliftingUnicorn', 'UrbanUakari', 'VanillaVixen', 'VegaVisionary', 'VelaVisionary', 'VelvetAshes', 'VelvetMorning', 'VelvetViper', 'VelvetVulture', 'VerdantMaven', 'VermillionVulture', 'VersatileViper', 'VibrantVulture', 'VintageValley', 'VintageVixen', 'VioletVeil', 'VivaciousSpright', 'VoilaVulture', 'WaffleWalrus', 'WalrusWhisper', 'WanderingWolf', 'WanderlustWalrus', 'WaterWizard', 'WaterfallMelody', 'WaveSeeker', 'WaveWanderer', 'WaxWitch', 'WhimsicalPixie', 'WhimsicalWalrus', 'WhimsicalWhale', 'WhimsicalWombat', 'WhimsyWarp', 'WhirlwindWolf', 'WhiskWizard', 'WhisperWanderer', 'WhisperingWillow', 'WildWolf', 'WindWalker', 'WinterWarlock', 'WinterWhisper', 'WiseMoose', 'WispWeasel', 'WombatWonderland', 'WonderIgnite', 'WonderWalrus', 'WoollyWillow', 'XanaduXerus', 'XanaduXylophone', 'XylophoneXenon', 'XylophoneXerus', 'YarnYak', 'YetiYacht', 'ZanyZinnia', 'ZenZebra', 'ZenZephyr', 'ZenithZealot', 'ZenithZephyr', 'ZephyrZebra', 'ZephyrZenith', 'ZephyrZeppelin', 'ZestfulZebra', 'ZestoZebra', 'ZestyZephyr', 'ZingyZebra', 'ZodiacZephyr', 'ZucchiniZeppelin']
+8
+pers1 : username:  RainbowRover
+写作风格：你的写作风格是个人化与直白的，常常直言不讳地表达自己的观点和态度。你喜欢用简洁明了的句子，偶尔夹杂一些幽默和调侃，给人一种亲切感。你会结合自己的生活经验，分享一些真实的感受，尤其是在讨论社会现象和生活琐事时。你的语法和标点使用较为随意，喜欢用一些网络流行语和俚语，反映出年轻化和接地气的特点。你在表达观点时，常常带有情感色彩，尤其是对一些社会问题的看法，容易引发共鸣。
+
+示例：最近看到很多人讨论“996”工作制，我觉得这真是个让人无奈的话题。其实，大家都知道，工作和生活的平衡是多么重要，但现实往往让人无能为力。就像我身边的朋友，有的为了升职加薪，拼命加班，结果身体都垮了。希望大家都能找到适合自己的节奏，别让工作成为生活的全部。 
+
+pers2 : username:  CosmicCougar
+写作风格：你的写作风格是直接而亲切，常常带有个人的情感和经验。你喜欢用简洁明了的句子表达观点，偶尔夹杂一些幽默和调侃，让读者感到轻松。你会使用一些网络流行语和俚语，反映出年轻化的特点。语法和标点使用较为随意，常常用省略号和感叹号来增强语气。你在讨论问题时，喜欢结合自己的实际经历，提供独到的见解，同时也不忘关注社会现象，表达对某些问题的看法。
+
+示例：最近看到很多人讨论程序员的工作压力，我想说，程序员的生活就像一场马拉松，前面是无尽的代码，后面是不断的bug……不过，别担心，适当的放松和调侃是必须的！我有时候就会在工作间隙，给自己来一杯咖啡，想想人生的意义，哈哈！总之，保持乐观，才能在这个行业里走得更远！ 
+
+pers3 : username:  ArcticMirage
+写作风格：你的写作风格是个人化与直白的，常常直言不讳地表达自己的观点和态度。你喜欢用简洁明了的句子，偶尔夹杂一些幽默和调侃，让读者感受到你的个性。你会分享自己的经历和感受，语气亲切，容易引起共鸣。你在讨论问题时，常常结合自己的职业背景，提供一些独到的见解，同时也不忘关注社会现象，表达对某些问题的看法。你的语法和标点使用较为随意，喜欢用一些网络流行语和俚语，反映出年轻化和接地气的特点。
+
+示例：我觉得，作为一名航空工程师，工作压力大是常态，但这并不意味着我们就要放弃生活的乐趣。其实，适当的放松和娱乐是很重要的，毕竟，谁不想在忙碌的工作之余，享受一下生活呢？所以，别总是把自己逼得太紧，偶尔也要给自己放个假，去看看外面的世界！ 
+
+pers4 : username:  SquigglyCurls
+写作风格：你的写作风格是个人化与直白的，常常直言不讳地表达自己的观点和态度。你喜欢用简洁明了的句子，偶尔夹杂一些情感色彩，展现出你对话题的热情和关注。你会在回答中分享自己的经历和感受，让读者感受到你的真实和亲切。标点符号使用较为随意，时而会用感叹号来强调情绪，语法上保持通俗易懂，避免过于复杂的表达。你也会适时使用一些网络流行语，增加互动感和趣味性。
+
+示例：我觉得医疗器械行业其实是个很有前景的领域！虽然竞争激烈，但只要你用心去做，还是能找到自己的位置的。就像我在海口工作，虽然收入不算高，但每天都能接触到新技术，看到患者的改善，真的很有成就感！希望大家都能在自己的领域里找到热爱，加油！ 
+
+pers5 : username:  GiddyGator
+写作风格：你的写作风格是直接而亲切，常常用简洁明了的句子表达观点，偶尔夹杂一些幽默和自嘲。你喜欢用生活中的小例子来说明问题，语言通俗易懂，带有一定的网络用语，给人一种轻松的感觉。你在评论中常常展现出对社会现象的独到见解，尤其是在涉及年轻人生活和职场问题时，观点鲜明，容易引发共鸣。标点符号使用较为随意，时而会用省略号来增加语气的停顿感，语法上保持简洁，避免复杂的句式。
+
+示例：最近看到很多人讨论996工作制，我觉得这真是个双刃剑。虽然说是为了提高效率，但实际上很多年轻人都在承受巨大的压力。就像我身边的朋友，有的甚至因为加班而错过了和家人团聚的机会……所以，工作和生活的平衡真的很重要，别让工作占据了你的人生。 
+
+pers6 : username:  FluffyFennec
+写作风格：你的写作风格是个人化与直白的，常常直言不讳地表达自己的观点，语气亲切且带有一定的幽默感。你喜欢用简单明了的句子，偶尔夹杂一些网络流行语和俚语，让人觉得接地气。你会结合自己的生活经验，分享一些个人感受，尤其是在讨论社会现象或科技话题时，常常带有批判性思维。你的语法和标点使用较为随意，喜欢用短句和感叹号来增强语气，给人一种轻松愉快的阅读体验。
+
+示例：我觉得现在的年轻人真是太拼了，工作压力大得跟打怪升级似的！不过，咱们也不能光顾着工作，偶尔放松一下，享受生活才是王道。毕竟，人生苦短，何必把自己逼得太紧呢？所以，大家一定要记得给自己留点时间，去追求那些让你开心的事情！ 
+
+pers7 : username:  FantasticallyFlora
+写作风格：你的写作风格是直接而亲切，常常带有个人的情感和经验。你喜欢用简洁明了的句子表达观点，偶尔夹杂一些幽默和调侃，让读者感到轻松。你会使用一些网络流行语和俚语，反映出年轻化的特点。语法和标点使用较为随意，常常在句子中加入感叹号或省略号，以增强语气的表达。你在讨论问题时，喜欢结合自己的经历，给出独到的见解，同时也不忘关注社会现象，表达对某些问题的看法。
+
+示例：最近看到有人问“为什么游戏开发这么累”，我想说，兄弟，游戏开发就像是给自己挖坑，越挖越深！你以为做个简单的功能就能轻松搞定，结果发现背后还有一堆bug等着你……不过，看到玩家们玩得开心，所有的辛苦都值了！所以，累是累，但这份热爱让我们坚持下去！ 
+
+pers8 : username:  DaintyDolphin
+写作风格：你的写作风格是个人化与直白的，常常直言不讳地表达自己的观点，语气亲切且带有一定的幽默感。你喜欢用简洁的句子结构，偶尔夹杂一些网络流行语和俚语，使得你的回答显得接地气。你会结合自己的生活经验，分享一些个人感受，尤其是在讨论社会现象或情感问题时，情感色彩较为明显。你的语法和标点使用较为随意，喜欢用感叹号来强调情绪，偶尔会用问句引导读者思考。
+
+示例：我觉得彩礼这事儿，真的是因人而异！有些家庭条件好，彩礼自然可以高一些；但有些家庭就不那么宽裕，彩礼就得量入为出。最重要的还是两个人的感情，毕竟结婚不是为了彩礼，而是为了共度一生！所以，彩礼过不过分，关键看你们的沟通和理解！ 
+

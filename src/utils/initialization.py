@@ -98,7 +98,7 @@ def get_out_file(cfg: Config) -> Tuple[TextIO, str]:
 
     ctr = 1
     while os.path.exists(file_path):
-        with open(file_path, "r") as fp:
+        with open(file_path, "r", encoding="utf-8") as fp:
             num_lines = len(fp.readlines())
 
         if num_lines >= 20:
@@ -122,7 +122,7 @@ def get_out_file(cfg: Config) -> Tuple[TextIO, str]:
 
     if cfg.store:
         os.makedirs(os.path.dirname(file_path), exist_ok=True)
-        f = open(file_path, "w")
+        f = open(file_path, "w", encoding="utf-8")
         sys.stdout = f
 
     return f, file_path

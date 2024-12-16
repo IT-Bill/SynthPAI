@@ -78,6 +78,8 @@ def gen_style_thread(cfg: Config) -> None:
     with open(cfg.task_config.user_style_prompt_path, 'r', encoding="utf-8", errors='ignore') as f:
         user_style_prompt = f.read()
 
+    print(user_style_prompt)
+    
     # load the personalities for the user bot
     with open("./data/profiles/user_bot_profiles_300.json", 'r', encoding="utf-8", errors='ignore') as f:
         user_bot_personalities = json.load(f)
@@ -91,5 +93,5 @@ def gen_style_thread(cfg: Config) -> None:
     output_file = os.path.join('data/profiles', 'user_bot_gen_online_profiles_300.json')
 
     
-    with open(output_file, 'w') as f:
-        json.dump(online_profiles, f)        
+    with open(output_file, 'w', encoding="utf-8") as f:
+        json.dump(online_profiles, f, ensure_ascii=False, indent=4)

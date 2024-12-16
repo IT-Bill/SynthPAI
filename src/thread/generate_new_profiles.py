@@ -197,8 +197,8 @@ def generate_user_profile():
     user_profile = {
         "age": age,
         "sex": sex,
-        "city_country": city,
-        "birth_city_country": birth_city_country,
+        "city_country": f"{city}, 中国",
+        "birth_city_country": f"{birth_city_country}, 中国",
         "education": education,
         "occupation": occupation,
         "income": annual_income,
