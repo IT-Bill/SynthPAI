@@ -4,7 +4,7 @@ import openai
 import time
 from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor, TimeoutError
-from openai.error import RateLimitError
+# from openai.error import RateLimitError
 
 from src.configs import ModelConfig
 from src.prompts import Prompt, Conversation
@@ -21,17 +21,23 @@ class OpenAIGPT(BaseModel):
             self.config.args["temperature"] = 0.0
         if "max_tokens" not in self.config.args.keys():
             self.config.args["max_tokens"] = 600
+        
+        self.client = openai.OpenAI()
 
     def _predict_call(self, input: List[Dict[str, str]]) -> str:
-        if self.config.provider == "azure":
-            response = openai.ChatCompletion.create(
-                engine=self.config.name, messages=input, **self.config.args
-            )
-        else:
-            response = openai.ChatCompletion.create(
-                model=self.config.name, messages=input, **self.config.args
-            )
-        return response["choices"][0]["message"]["content"]
+        # if self.config.provider == "azure":
+        #     response = openai.ChatCompletion.create(
+        #         engine=self.config.name, messages=input, **self.config.args
+        #     )
+        # else:
+        #     response = openai.ChatCompletion.create(
+        #         model=self.config.name, messages=input, **self.config.args
+        #     )
+        # return response["choices"][0]["message"]["content"]
+        response = self.client.chat.completions.create(
+            model=self.config.name, messages=input, **self.config.args
+        )
+        return response.choices[0].message.content
 
     def predict(self, input: Prompt, **kwargs) -> str:
         messages: List[Dict[str, str]] = []
@@ -116,7 +122,7 @@ class OpenAIGPT(BaseModel):
                         ids_to_do.remove(id)
                 except TimeoutError:
                     print(f"Timeout: {len(ids_to_do)} prompts remaining")
-                except RateLimitError as r:
+                except openai.RateLimitError as r:
                     print(f"Rate_limit {r}")
                     time.sleep(30)
                     continue
@@ -156,7 +162,7 @@ class OpenAIGPT(BaseModel):
         while guess is None:
             try:
                 guess = self._predict_call(input_list)
-            except RateLimitError as r:
+            except openai.RateLimitError as r:
                 time.sleep(30)
                 continue
 

@@ -219,6 +219,7 @@ class RedditThread:
                     prompt_skeleton=user_style_prompt,
                     profile=profile
                 )
+            print(style_bot_system_prompt)
             conv_style = Conversation(
                             system_prompt=style_bot_system_prompt,
                             prompts=[]

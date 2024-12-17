@@ -2,6 +2,7 @@ import json
 import os
 import random
 import numpy as np
+from tqdm import tqdm
 from src.configs import Config
 from src.models.model_factory import get_model
 from src.prompts import Prompt, Conversation
@@ -35,19 +36,30 @@ def get_usernames(bot):
     return usernames
 
 
-def get_styles(bot, profiles, user_style_prompt):
+def get_styles(bot, profiles, user_style_prompt, user_examples):
                     # sample writing styles before running thread using GPT
         
         usernames = get_usernames(bot)
 
         print(len(profiles.items()))
         
-        for pers, profile in profiles.items():
+        for pers, profile in tqdm(profiles.items()):
+            examples = []
+            for user in random.choices(user_examples, k=4):
+                qa = random.choice(user["qas"])
+                examples.append({
+                    "style": user["style"],
+                    "question": qa["question"],
+                    "answer": qa["answer"][:150] # limit to 150 tokens
+                })
+            
             try:
                 style_bot_system_prompt = build_writing_style_prompt(
                         prompt_skeleton=user_style_prompt,
-                        profile=profile
+                        profile=profile,
+                        examples=examples
                     )
+                print(style_bot_system_prompt)
                 conv_style = Conversation(
                                 system_prompt=style_bot_system_prompt,
                                 prompts=[]
@@ -83,13 +95,19 @@ def gen_style_thread(cfg: Config) -> None:
     # load the personalities for the user bot
     with open("./data/profiles/user_bot_profiles_300.json", 'r', encoding="utf-8", errors='ignore') as f:
         user_bot_personalities = json.load(f)
+        
+    with open("./data/profiles/zhihu_comments_with_styles.json", 'r', encoding="utf-8", errors='ignore') as f:
+        user_examples = json.load(f)
+    
+    # examples = sum([comment["qas"] for comment in zhihu_comments], [])
+    
 
     keys = list(user_bot_personalities.keys())
     user_bot_personalities = {key: user_bot_personalities[key] for key in keys}
             
 
     # generate writing styles + usernames
-    online_profiles = get_styles(checker, user_bot_personalities, user_style_prompt)
+    online_profiles = get_styles(checker, user_bot_personalities, user_style_prompt, user_examples)
     output_file = os.path.join('data/profiles', 'user_bot_gen_online_profiles_300.json')
 
     

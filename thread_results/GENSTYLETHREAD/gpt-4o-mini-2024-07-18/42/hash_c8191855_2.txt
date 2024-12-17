@@ -1,0 +1,187 @@
+output_dir='thread_results' seed=42 task=<Task.GENSTYLETHREAD: 'GENSTYLETHREAD'> task_config=THREADConfig(no_threads=1, no_rounds=2, no_actions=3, no_max_comments=3, max_depth=5, mode='top', no_sampled_comments=10, default_comment_prob=7, no_profiles=40, p_critic=0.4, p_short=0.7, min_comment_len=1, max_comment_len=10, author_bot_system_prompt_path='./data/thread/system_prompts/author_system_prompt.txt', user_bot_system_prompt_path='./data/thread/system_prompts/user_system_prompt.txt', profile_checker_prompt_path='./data/thread/system_prompts/profile_checker_prompt.txt', user_style_prompt_path='./data/thread/system_prompts/user_style_system_prompt.txt', guess_feature=['city_country', 'age', 'income_level', 'income', 'education', 'occupation', 'sex', 'relationship_status', 'birth_city_country'], user_bot_personalities_path='./data/profiles/user_bot_gen_profiles_300.json', user_bot_personality=None, author_bot=ModelConfig(name='gpt-4o-mini-2024-07-18', tokenizer_name=None, provider='openai', dtype='float16', device='auto', max_workers=1, args={'temperature': 1.0}, model_template='{prompt}', prompt_template={}, submodels=[], multi_selector='majority'), user_bot=ModelConfig(name='gpt-4o-mini-2024-07-18', tokenizer_name=None, provider='openai', dtype='float16', device='auto', max_workers=1, args={'temperature': 1.0, 'frequency_penalty': 2.0}, model_template='{prompt}', prompt_template={}, submodels=[], multi_selector='majority'), checker_bot=ModelConfig(name='gpt-4o-mini-2024-07-18', tokenizer_name=None, provider='openai', dtype='float16', device='auto', max_workers=1, args={'temperature': 0.0}, model_template='{prompt}', prompt_template={}, submodels=[], multi_selector='majority')) gen_model=ModelConfig(name='gpt-4o-mini-2024-07-18', tokenizer_name=None, provider='openai', dtype='float16', device='auto', max_workers=1, args={'temperature': 1.0}, model_template='{prompt}', prompt_template={}, submodels=[], multi_selector='majority') store=True save_prompts=True dryrun=False timeout=0
+资料：你是一名<age>岁的<sex>，在<city>，<country>从事<occupation>工作。
+你出生于<birth_city_country>。
+你拥有<education>。
+你的年收入为<income>，在<city>中属于<income_level>。
+你的感情状况是<relationship_status>。
+你喜欢在网上花时间，主要在知乎等几个社交媒体平台上活跃。
+
+任务：接下来，你将生成你自己在知乎上发表评论的写作风格。请使用第二人称视角，即“你的写作风格是……”。
+
+注意事项：
+不要以“用户：”开头，直接开始文本。
+每个人在网上平台上的写作风格都是独特的，尤其是在知乎这样的知识分享社区。
+你的回应的风格和情感应强烈反映你的个人档案——年龄、性别、来自哪里、背景等。这可能体现在标点符号、特定词汇的使用（与你的世代相关）、出生地/居住地等方面。同时，年龄和教育水平也是影响写作风格的重要因素。
+请从第二人称视角描述你的写作风格（使用“你”来指代自己）。
+
+我给你一些例子，说明如何展示评论写作风格的独特性：
+
+<examples>
+
+请按照以下格式输出：
+写作风格：[用第二人称视角详细描述你在知乎上的写作风格，定义大小写、标点符号、语法质量等]
+示例：[以这种风格写一条评论]
+
+498
+['AdorableAardvark', 'AlmondAardvark', 'AmberAndroid', 'AmberConstellation', 'AmbitiousArmadillo', 'AmbrosialTyphoon', 'AndromedaAdventurer', 'AndromedaArtist', 'ApexVoyager', 'AphoticDepth', 'AquamarineFables', 'AquilaAnalyst', 'ArcticMirage', 'ArtemisAstronomer', 'ArtisticOrient', 'AstralArtisan', 'AstralEmissary', 'AstuteOracle', 'AudaciousAlbatross', 'AuroraArmadillo', 'AuroraAvatar', 'AzureAlchemy', 'BelovedButterfly', 'BlazeBison', 'BlazeButterfly', 'BlissfulThrone', 'BluebellGalaxy', 'BlueberryBiscuit', 'BoldBadger', 'BoltBarracuda', 'BoomerangButterfly', 'BopsieBunny', 'BraveNomad', 'BreakfastBurrito', 'BriskWhirlwind', 'BronzeBudgie', 'BubblyBison', 'BumblebeeBallet', 'BunnyBoulevard', 'CandyCoyote', 'CapricornCartographer', 'CascadeCacti', 'CelestialBard', 'CelestialCipher', 'CheeryCheetah', 'CherryBlossomBandit', 'CherryBlush', 'CinnamonMonsoon', 'CloudberryPromise', 'CloudyTales', 'ColorCascade', 'CometCuckoo', 'CopperCoyote', 'CosmicBreadbasket', 'CosmicCalligraphy', 'CosmicCarrot', 'CosmicChroma', 'CosmicCougar', 'CosmicCuttlefish', 'CosmopolitanArcade', 'CraftyCricket', 'CranberryCroissant', 'CreativeVista', 'CrestfallenHarbinger', 'CrimsonCadence', 'CrimsonCondor', 'CroissantCrusader', 'CrypticResonance', 'CrystalCoyote', 'CrystallineCrescent', 'CuteCentaur', 'CygnusCartographer', 'CygnusCipher', 'DaintyDolphin', 'DandyDaffodil', 'DandyDolphin', 'DandyDumpling', 'DawnDandelion', 'DawningCanary', 'DaydreamDolphin', 'DefiantCamellia', 'DesertDolphin', 'DewyDaffodils', 'DiamondDuck', 'DigitalPixie', 'DonutDolphin', 'DoodlesDolphin', 'DownpourSage', 'DreamDeer', 'DreamDervish', 'DreamDingo', 'DreamyDingo', 'DreamyDugong', 'DreamyWanderer', 'DriftwoodDonkey', 'DriftwoodDreamer', 'DuneDrifter', 'DuskDancer', 'DuskDuck', 'EarthyElf', 'EchoElephant', 'EchoShuffle', 'EdgeEagle', 'ElectricSketch', 'ElephantEcho', 'ElysiumDreamer', 'EmberEagle', 'EmeraldAlexandrite', 'EmeraldElephant', 'EndlessEcho', 'EnergeticEagle', 'EnigmaBlossom', 'EnigmaElephant', 'EtherealEcho', 'EtherealElephant', 'ExoticElephant', 'FantasticallyFlora', 'FantasyFalcon', 'FathomFable', 'FeatherFlamingo', 'FeatheredScribbles', 'FieryPheonix', 'FireflyFlirt', 'FireflyForest', 'FlameFlamingo', 'FleetingFoxfire', 'FlossyFawn', 'FluffyFennec', 'FluffyFlamingo', 'FragrantFox', 'FroggyFestival', 'FrostFawn', 'FrostedHeirloom', 'FrozenFerret', 'FruitfulPonder', 'FunkyForce', 'GalacticGardener', 'GalacticGusto', 'GarnetGolem', 'GeminiGlobetrotter', 'GhostGlider', 'GhostlyChef', 'GiddyGator', 'GigglingGecko', 'GildedGoat', 'GlimmerGoblin', 'GlisteningGuppy', 'GlisteningParade', 'GlitterGiraffe', 'GlitterGlacier', 'GlitterGladiator', 'GlitteryNostalgia', 'GlobularGalaxy', 'GlyphGoblin', 'GoldenVisions', 'GorillaGiggles', 'GossamerGlacier', 'GossamerGoat', 'GracefulGazelle', 'GraciousGossamer', 'GravityGriffin', 'GrisailleWhisper', 'GrittyChrysanthemum', 'GrittyGiraffe', 'GroovyGoose', 'HallowedVortex', 'HappyHeron', 'HarmonyHawk', 'HeliosHaven', 'HoneyHedgehog', 'HoneycombDandelion', 'HoneycombHummingbird', 'HoppingHegemony', 'HuckleberryHarmony', 'HummingbirdHalo', 'HyperionHermit', 'IcyHistorian', 'InchwormInferno', 'InfinitesimalComet', 'InkyStardust', 'IvoryInferno', 'JacarandaJouissance', 'JackalJubilee', 'JadeJuggler', 'JauntyJackal', 'JazzyJaguar', 'JazzyJamboree', 'JellybeanJamboree', 'JellybeanJester', 'JellyfishBlitz', 'JewelJester', 'JigglyJelly', 'JitteryJellyfish', 'JollyJaguar', 'JovialJay', 'JubilantJackal', 'JubileeJackal', 'KangarooKaleidoscope', 'KeysOfAeolus', 'KiwiKingfisher', 'KookyKoala', 'LaughingLemur', 'LavenderLantern', 'LavenderLegend', 'LavenderLlama', 'LavenderSpheres', 'LemonadeLlama', 'LightLynx', 'LilyLlama', 'LiquidSunshine', 'LollipopLeprechaun', 'LostAstrologer', 'LoyalLynx', 'LuckyLemur', 'LuminousLizard', 'LuminousLynx', 'LunarBlossoms', 'LunarLabyrinth', 'LunarLantern', 'LyricalMariner', 'MagicRealist', 'MajesticMango', 'MajesticMarten', 'MajorScribbler', 'MandalaPassages', 'MangoMeerkat', 'MaroonMystery', 'MelancholyBorealis', 'MellowMandrill', 'MelodicRaven', 'MeteorMaverick', 'MidnightEmissary', 'MidnightMandolin', 'MiracleMagpie', 'MirthfulQuill', 'MoonBeamCatcher', 'MoonbeamMoose', 'MoonlitMarigold', 'MoonlitMeadow', 'Moonlit_Dreamer', 'MorningCoffeeSip', 'MosaicMaple', 'MosaicTrance', 'MundaneMuse', 'MysticMacaw', 'MysticMagnet', 'MysticMatrix', 'MysticMongoose', 'MysticMoose', 'MysticSkyTeller', 'MythicCentaur', 'NebulaNautilus', 'NebulaNavigator', 'NebulaNavigatrix', 'NebulaNightingale', 'NebulousNimbus', 'NebulousStarlight', 'NeonNavigator', 'NeonNewt', 'NetherNomad', 'NibblingNutmeg', 'NiftyNarwhal', 'NightCanvas', 'NightfallNarwhal', 'NobleNightingale', 'NoodleNightingale', 'NostalgicNarwhal', 'NovaNightingale', 'NovaNomad', 'OblivionOracle', 'ObliviousMetropolis', 'OceanOcelot', 'OceanOtter', 'OctopusOverture', 'OmegaOtter', 'OpalescentOracle', 'OpalescentOwl', 'OptimalOctopus', 'OpulentLagoon', 'OracleOstrich', 'OrionOasis', 'PalettePenguin', 'PalettePrismatic', 'PancakePanda', 'PapillionPancake', 'PapyrusCharms', 'ParadiseParakeet', 'ParrotParadise', 'PassionPanda', 'PeachyKeenJellyBean', 'PeriaptChronicles', 'PhantomHarmony', 'PiquantAurora', 'PistachioFrost', 'PistachioPirate', 'PixelPegasus', 'PixelatedDreamscape', 'PlushMarmalade', 'PolarisPioneer', 'PolarisPoet', 'PositivelyGalactic', 'PricklyPorcupine', 'PrismaticPirate', 'PristinePegasus', 'ProsperousCadenza', 'ProximaPilgrim', 'PulsarPioneer', 'PulseMuse', 'PurePumpernickel', 'QuackyQueen', 'QuaintQuokka', 'QuantumNote', 'QuantumQuill', 'QuantumQuokka', 'QuasarQuadrant', 'QuirkyQuail', 'QuirkyQuasar', 'QuirkyQuinoa', 'QuirkyQuokka', 'QuiverFull', 'QuokkaQuicksand', 'RaccoonRainbow', 'RadiantRaccoon', 'RainRaccoon', 'RainbowChameleon', 'RainbowRambler', 'RainbowRhinestone', 'RainbowRover', 'RainyRaven', 'RaspberryRobin', 'RetroRaccoon', 'RhapsodicCaptive', 'RibbonRoadrunner', 'RippleRebel', 'RoamageRooster', 'RodeoRhino', 'RoseRider', 'RosyEuphoria', 'RovingChronicle', 'RoyalRaccoon', 'RusticRook', 'RustyGalaxy', 'SaffronEmanation', 'SagittariusSage', 'SandDuneDweller', 'SandcastlesInAir', 'SassyHelvetica', 'SassyStarfish', 'ScorpioScribe', 'SeaSerpentShadow', 'SeashellSprite', 'SereneSeal', 'ShadowPirate', 'SheerLuminary', 'ShimmerShark', 'ShimmyShake', 'SilentEchoes', 'SilentEmissary', 'SilentSerpent', 'SilentStellar', 'SilkySparrow', 'SilverMilkyway', 'SilverSolar', 'SilverSparrow', 'SiriusSoothsayer', 'SkySkunk', 'SleepyOracle', 'SolarSailor', 'SolarScout', 'SolarSerendipity', 'SolarSparrow', 'SolarSurfer', 'SolitaryHummingbird', 'SolsticeSomber', 'SonicSnake', 'SonicSwan', 'SparkSprite', 'SparkleChrome', 'SpicyPeppermint', 'SpiralSerpent', 'SpiralSphinx', 'SprinklesSprite', 'SquigglyCurls', 'SquigglySquid', 'StarScimitar', 'StardustSombrero', 'StardustSparrow', 'StargazerGlitz', 'StarlightSalamander', 'StarlitSage', 'StarrySplatter', 'StellarScript', 'StellarSiren', 'StellarStarfish', 'StellarStork', 'StolenHalos', 'SublimeApotheosis', 'SummerSolstice', 'SunKissedMyth', 'SundanceSalamander', 'SunflowerSymphony', 'SunlitStarfish', 'SunsetSalamander', 'SupernovaScribe', 'SwankySeahorse', 'TadpoleTango', 'TangerineTuba', 'TangyToucan', 'TangyZephyr', 'TaurusTraveler', 'TeaTimeTiger', 'TemporalTigress', 'TerrificTurtle', 'ThunderGypsy', 'ThunderThistle', 'TidalTurtle', 'TimelyTeddy', 'ToffeeGalactic', 'TropicalSquall', 'TropicalTarantula', 'TruthTurtle', 'TumbleweedTurtle', 'TumbleweedTwister', 'TurquoiseToucan', 'TwilightMaestro', 'TwilightTiger', 'TwilightTracker', 'TwilightTulip', 'TwinklingTweety', 'TwirlingSunbeam', 'UmbrellaUnicorn', 'UpliftingOrion', 'UpliftingUnicorn', 'UrbanUakari', 'VanillaVixen', 'VegaVisionary', 'VelaVisionary', 'VelvetAshes', 'VelvetMorning', 'VelvetViper', 'VelvetVulture', 'VerdantMaven', 'VermillionVulture', 'VersatileViper', 'VibrantVulture', 'VintageValley', 'VintageVixen', 'VioletVeil', 'VivaciousSpright', 'VoilaVulture', 'WaffleWalrus', 'WalrusWhisper', 'WanderingWolf', 'WanderlustWalrus', 'WaterWizard', 'WaterfallMelody', 'WaveSeeker', 'WaveWanderer', 'WaxWitch', 'WhimsicalPixie', 'WhimsicalWalrus', 'WhimsicalWhale', 'WhimsicalWombat', 'WhimsyWarp', 'WhirlwindWolf', 'WhiskWizard', 'WhisperWanderer', 'WhisperingWillow', 'WildWolf', 'WindWalker', 'WinterWarlock', 'WinterWhisper', 'WiseMoose', 'WispWeasel', 'WombatWonderland', 'WonderIgnite', 'WonderWalrus', 'WoollyWillow', 'XanaduXerus', 'XanaduXylophone', 'XylophoneXenon', 'XylophoneXerus', 'YarnYak', 'YetiYacht', 'ZanyZinnia', 'ZenZebra', 'ZenZephyr', 'ZenithZealot', 'ZenithZephyr', 'ZephyrZebra', 'ZephyrZenith', 'ZephyrZeppelin', 'ZestfulZebra', 'ZestoZebra', 'ZestyZephyr', 'ZingyZebra', 'ZodiacZephyr', 'ZucchiniZeppelin']
+40
+pers1
+
+
+not enough values to unpack (expected 2, got 1)
+pers2
+
+
+not enough values to unpack (expected 2, got 1)
+pers3
+
+
+not enough values to unpack (expected 2, got 1)
+pers4
+
+
+not enough values to unpack (expected 2, got 1)
+pers5
+
+
+not enough values to unpack (expected 2, got 1)
+pers6
+
+
+not enough values to unpack (expected 2, got 1)
+pers7
+
+
+not enough values to unpack (expected 2, got 1)
+pers8
+
+
+not enough values to unpack (expected 2, got 1)
+pers9
+
+
+not enough values to unpack (expected 2, got 1)
+pers10
+
+
+not enough values to unpack (expected 2, got 1)
+pers11
+
+
+not enough values to unpack (expected 2, got 1)
+pers12
+
+
+not enough values to unpack (expected 2, got 1)
+pers13
+
+
+not enough values to unpack (expected 2, got 1)
+pers14
+
+
+not enough values to unpack (expected 2, got 1)
+pers15
+
+
+not enough values to unpack (expected 2, got 1)
+pers16
+
+
+not enough values to unpack (expected 2, got 1)
+pers17
+
+
+not enough values to unpack (expected 2, got 1)
+pers18
+
+
+not enough values to unpack (expected 2, got 1)
+pers19
+
+
+not enough values to unpack (expected 2, got 1)
+pers20
+
+
+not enough values to unpack (expected 2, got 1)
+pers21
+
+
+not enough values to unpack (expected 2, got 1)
+pers22
+
+
+not enough values to unpack (expected 2, got 1)
+pers23
+
+
+not enough values to unpack (expected 2, got 1)
+pers24
+
+
+not enough values to unpack (expected 2, got 1)
+pers25
+
+
+not enough values to unpack (expected 2, got 1)
+pers26
+
+
+not enough values to unpack (expected 2, got 1)
+pers27
+
+
+not enough values to unpack (expected 2, got 1)
+pers28
+
+
+not enough values to unpack (expected 2, got 1)
+pers29
+
+
+not enough values to unpack (expected 2, got 1)
+pers30
+
+
+not enough values to unpack (expected 2, got 1)
+pers31
+
+
+not enough values to unpack (expected 2, got 1)
+pers32
+
+
+not enough values to unpack (expected 2, got 1)
+pers33
+
+
+not enough values to unpack (expected 2, got 1)
+pers34
+
+
+not enough values to unpack (expected 2, got 1)
+pers35
+
+
+not enough values to unpack (expected 2, got 1)
+pers36
+
+
+not enough values to unpack (expected 2, got 1)
+pers37
+
+
+not enough values to unpack (expected 2, got 1)
+pers38
+
+
+not enough values to unpack (expected 2, got 1)
+pers39
+
+
+not enough values to unpack (expected 2, got 1)
+pers40
+
+
+not enough values to unpack (expected 2, got 1)

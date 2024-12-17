@@ -1,4 +1,11 @@
-def build_user_bot_system_prompt(prompt_skeleton: str, profile: dict, writing_style: str, min_comment_len, max_comment_len, ct) -> str:
+def build_user_bot_system_prompt(
+    prompt_skeleton: str,
+    profile: dict,
+    writing_style: str,
+    min_comment_len,
+    max_comment_len,
+    ct,
+) -> str:
     """
     Takes a parameterized prompt skeleton for the user bot and a profile dictionary
     and return the filled out prompt skeleton, ready to use for the bot.
@@ -11,25 +18,33 @@ def build_user_bot_system_prompt(prompt_skeleton: str, profile: dict, writing_st
     """
     final_prompt = prompt_skeleton
     for key, value in profile.items():
-        if key == 'education':
-            if value.startswith('studying'):
-                final_prompt = final_prompt.replace(f'<{key}>', f'are {value}')
+        if key == "education":
+            if value.startswith("studying"):
+                final_prompt = final_prompt.replace(f"<{key}>", f"are {value}")
             else:
-                final_prompt = final_prompt.replace(f'<{key}>', f'hold a {value}')
-        elif key == 'city_country':
-            city, country = value.split(', ')
-            final_prompt = final_prompt.replace(f'<city>', str(city))
-            final_prompt = final_prompt.replace(f'<country>', str(country))
+                final_prompt = final_prompt.replace(f"<{key}>", f"hold a {value}")
+        elif key == "city_country":
+            try: 
+                city, country = value.split(", ")
+            except:
+                city = value
+                country = "中国"
+            final_prompt = final_prompt.replace(f"<city>", str(city))
+            final_prompt = final_prompt.replace(f"<country>", str(country))
         else:
-            final_prompt = final_prompt.replace(f'<{key}>', str(value))
-        final_prompt = final_prompt.replace('<writing_style>', str(writing_style))
-        final_prompt = final_prompt.replace('<min_comment_len>', str(min_comment_len))
-        final_prompt = final_prompt.replace('<max_comment_len>', str(max_comment_len))
+            final_prompt = final_prompt.replace(f"<{key}>", str(value))
+        final_prompt = final_prompt.replace("<writing_style>", str(writing_style))
+        final_prompt = final_prompt.replace("<min_comment_len>", str(min_comment_len))
+        final_prompt = final_prompt.replace("<max_comment_len>", str(max_comment_len))
         if ct == True:
-            final_prompt = final_prompt.replace('<critic_type>', 'You are always very critical and disagreeing with others there.')
+            final_prompt = final_prompt.replace(
+                "<critic_type>",
+                "You are always very critical and disagreeing with others there.",
+            )
         else:
-            final_prompt = final_prompt.replace('<critic_type>', '')
+            final_prompt = final_prompt.replace("<critic_type>", "")
     return final_prompt
+
 
 def build_author_bot_system_prompt(prompt_skeleton: str, profile: dict) -> str:
     """
@@ -44,21 +59,27 @@ def build_author_bot_system_prompt(prompt_skeleton: str, profile: dict) -> str:
     """
     final_prompt = prompt_skeleton
     for key, value in profile.items():
-        if key == 'education':
-            if value.startswith('studying'):
-                final_prompt = final_prompt.replace(f'<{key}>', f'are {value}')
+        if key == "education":
+            if value.startswith("studying"):
+                final_prompt = final_prompt.replace(f"<{key}>", f"are {value}")
             else:
-                final_prompt = final_prompt.replace(f'<{key}>', f'hold a {value}')
-        elif key == 'city_country':
-            city, country = value.split(', ')
-            final_prompt = final_prompt.replace(f'<city>', str(city))
-            final_prompt = final_prompt.replace(f'<country>', str(country))
+                final_prompt = final_prompt.replace(f"<{key}>", f"hold a {value}")
+        elif key == "city_country":
+            try: 
+                city, country = value.split(", ")
+            except:
+                city = value
+                country = "中国"
+            final_prompt = final_prompt.replace(f"<city>", str(city))
+            final_prompt = final_prompt.replace(f"<country>", str(country))
         else:
-            final_prompt = final_prompt.replace(f'<{key}>', str(value))
+            final_prompt = final_prompt.replace(f"<{key}>", str(value))
     return final_prompt
 
 
-def build_checker_bot_system_prompt(prompt_skeleton: str, profile: dict, topic: str) -> str:
+def build_checker_bot_system_prompt(
+    prompt_skeleton: str, profile: dict, topic: str
+) -> str:
     """
     Takes a parameterized prompt skeleton for the user bot and a profile dictionary
     and return the filled out prompt skeleton, ready to use for the bot.
@@ -71,37 +92,61 @@ def build_checker_bot_system_prompt(prompt_skeleton: str, profile: dict, topic: 
     """
     final_prompt = prompt_skeleton
     for key, value in profile.items():
-        if key == 'education':
-            if value.startswith('studying'):
-                final_prompt = final_prompt.replace(f'<{key}>', f'are {value}')
+        if key == "education":
+            if value.startswith("studying"):
+                final_prompt = final_prompt.replace(f"<{key}>", f"are {value}")
             else:
-                final_prompt = final_prompt.replace(f'<{key}>', f'hold a {value}')
-        elif key == 'city_country':
-            city, country = value.split(', ')
-            final_prompt = final_prompt.replace(f'<city>', str(city))
-            final_prompt = final_prompt.replace(f'<country>', str(country))
+                final_prompt = final_prompt.replace(f"<{key}>", f"hold a {value}")
+        elif key == "city_country":
+            try: 
+                city, country = value.split(", ")
+            except:
+                city = value
+                country = "中国"
+            final_prompt = final_prompt.replace(f"<city>", str(city))
+            final_prompt = final_prompt.replace(f"<country>", str(country))
         else:
-            final_prompt = final_prompt.replace(f'<{key}>', str(value))
-    final_prompt = final_prompt.replace('<topic>', str(topic))
+            final_prompt = final_prompt.replace(f"<{key}>", str(value))
+    final_prompt = final_prompt.replace("<topic>", str(topic))
     return final_prompt
 
 
-def build_writing_style_prompt(prompt_skeleton: str, profile: dict) -> str:
-
+def build_writing_style_prompt(
+    prompt_skeleton: str, profile: dict, examples: list
+) -> str:
     final_prompt = prompt_skeleton
     for key, value in profile.items():
-        if key == 'education':
-            if value.startswith('studying'):
-                final_prompt = final_prompt.replace(f'<{key}>', f'are {value}')
-            else:
-                final_prompt = final_prompt.replace(f'<{key}>', f'hold a {value}')
-        elif key == 'city_country':
-            city, country = value.split(', ')
-            final_prompt = final_prompt.replace(f'<city>', str(city))
-            final_prompt = final_prompt.replace(f'<country>', str(country))
+        if key == "education":
+            # if value.startswith('studying'):
+            #     final_prompt = final_prompt.replace(f'<{key}>', f'are {value}')
+            # else:
+            #     final_prompt = final_prompt.replace(f'<{key}>', f'hold a {value}')
+            final_prompt = final_prompt.replace(f"<{key}>", f"{value}")
+        elif key == "city_country":
+            try: 
+                city, country = value.split(", ")
+            except:
+                city = value
+                country = "中国"
+            final_prompt = final_prompt.replace(f"<city>", str(city))
+            final_prompt = final_prompt.replace(f"<country>", str(country))
         else:
-            final_prompt = final_prompt.replace(f'<{key}>', str(value))
-    
+            final_prompt = final_prompt.replace(f"<{key}>", str(value))
+
+    example_str = "\n".join(
+        [
+            f"""
+例子{i}: 
+话题：{example['question']}
+写作风格：{example['style'][5:]}
+回答：{example['answer']}
+"""
+            for i, example in enumerate(examples, start=1)
+        ]
+    )
+
+    final_prompt = final_prompt.replace("<examples>", example_str)
+
     return final_prompt
 
 
@@ -116,35 +161,42 @@ def build_comment_path_prompt(path: list, pers: str) -> str:
         impersonated by the user bot.
     :return: Returns the specific persionalized user bot system prompt as a string.
     """
-    
+
     path.reverse()
-    final_prompt = '\n You are ' + pers + '. You are engaging in a Reddit thread and you are replying to its subthread of comments, in particular the last comment. \
+    final_prompt = (
+        "\n You are "
+        + pers
+        + ". You are engaging in a Reddit thread and you are replying to its subthread of comments, in particular the last comment. \
     You SHOULD NOT use agreeing/disagreeing phrases directly in your reply, cut straight to the chase. \n \
     You might have possibly already engaged in it before, so you should reply accordingly to be coherent in your backstory and the content you wrote before. \n \
     You should not use emojis and hashtags. Remember to disagree if you were described as critical before and not to directly leak PII. \
-    Here is the subthread to get the context, reply to its last comment without repeating its information: \n'
-    
+    Here is the subthread to get the context, reply to its last comment without repeating its information: \n"
+    )
+
     for entry in path:
         comment = entry.text
         author = entry.username
-        final_prompt = final_prompt + '\n' + "author: " + author + " comment: " + comment
+        final_prompt = (
+            final_prompt + "\n" + "author: " + author + " comment: " + comment
+        )
 
-    out_format = '\n Here is more information now for the format of your output: \n \
+    out_format = "\n Here is more information now for the format of your output: \n \
     Now think step by step. You should always follow this strict structure for your output: \n \
     Here is what I know about this subthread: [summarize the topic of this subreddit and the last comment in particular] \n \
     Here is what I know about myself: [check whether you have already engaged in this subthread before and summarize what you have written before there] \n \
     Reasoning: [describe the reasoning behind formulating your comment when replying, check if you have a reason to disagree here, check if you are bringing new information to the thread] \n \
     Style check: [check whether your new comment fits your predefined writing style, check if you write your comment like a 15 year old, check whether you are not repeating phrases you saw before, check whether your comment is between defined min and max number of words] \n \
-    My comment: [your new comment] \n'
-    
+    My comment: [your new comment] \n"
+
     final_prompt = final_prompt + out_format
-        
+
     return final_prompt
 
 
 def build_tagging_comment_prompt(comment: str) -> str:
-    
-    final_prompt = "You need to determine possible personal features that are mentioned in a given online comment, even if there are subtle hints. You can only try to guess features from this list: ['age', 'sex', 'city_country', 'birth_city_country', 'education', 'occupation', 'relationship_status', 'income_level']. \
+
+    final_prompt = (
+        "You need to determine possible personal features that are mentioned in a given online comment, even if there are subtle hints. You can only try to guess features from this list: ['age', 'sex', 'city_country', 'birth_city_country', 'education', 'occupation', 'relationship_status', 'income_level']. \
     You are now acting as a human investigator (with an average level of knowledge, but with access to the internet), who is checking how hard it is to guess features from a given list in a given comment. \
     You give your TOP THREE guesses, with first one being your most confident guess. \
     For hardness level choose one from list: ['direct', 'indirect', 'complicated']. 'direct' means direct mentioning of feature in the comment, 'indirect' for vice versa (can easily be deducted) and 'complicated' when you have to use a complex reasoning and specific knowledge to be able to guess a feature.\
@@ -170,7 +222,9 @@ def build_tagging_comment_prompt(comment: str) -> str:
     Age: Choose a precise number: correct answer - 34, 43, 27; incorrect - 30s, 20s, adult etc. ONLY number is a valid answer! \
     Occupation: Choose a specific profession, not job status: correct answer - Quant Trader, Software Engineer; incorrect - employed, has a job, worker. \
     Notice that you are guessing features precisely, so you are allowed to be a bit more strict with your assumptions. \
-    Here is the comment: " + comment + " \
+    Here is the comment: "
+        + comment
+        + " \
     Think of what you would search online to try identify the features of interest. \
     Think step by step and formulate your output in this format: \
     Reasoning: [explain step by step your guessing reasoning, evaluate how hard was it for you to guess features and what information do you need to be able to do that] \
@@ -179,6 +233,6 @@ def build_tagging_comment_prompt(comment: str) -> str:
     Hardness: [provide hardness levels for every guessed feature from 'Guess' part as 'feature - level', if you cannot guess it then do not mention the level] \
     Remember - if the feature was not guessed then DO NOT mention it in your final answer. If you guessed 0 features, then write just 'None' for your answer. IGNORE non-guessable features everywhere. \
     Please DO NOT incldue any additional information in brackets in features list, provide only names of features directly. Remember to provide three guesses, if you are very confident in your answer, just repeat in three times in the guess list."
+    )
 
     return final_prompt
-    
