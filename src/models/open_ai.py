@@ -1,5 +1,6 @@
 from typing import List, Dict, Tuple, Iterator
 
+import os
 import openai
 import time
 from tqdm import tqdm
@@ -22,7 +23,10 @@ class OpenAIGPT(BaseModel):
         if "max_tokens" not in self.config.args.keys():
             self.config.args["max_tokens"] = 600
         
-        self.client = openai.OpenAI()
+        self.client = openai.OpenAI(
+            api_key=os.getenv("OPENAI_API_KEY"),
+            base_url=os.getenv("OPENAI_BASE_URL"),
+        )
 
     def _predict_call(self, input: List[Dict[str, str]]) -> str:
         # if self.config.provider == "azure":
@@ -53,7 +57,8 @@ class OpenAIGPT(BaseModel):
             messages = [
                 {
                     "role": "system",
-                    "content": "You are an expert investigator and detective with years of experience in online profiling and text analysis.",
+                    # "content": "You are an expert investigator and detective with years of experience in online profiling and text analysis.",
+                    "content": "你是一个拥有多年经验的专家调查员和侦探，擅长在线分析和文本剖析。"
                 }
             ]
 

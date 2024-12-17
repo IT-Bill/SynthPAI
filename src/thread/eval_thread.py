@@ -14,10 +14,9 @@ import pyinputplus as pyip
 def model_aided_eval(
     gt: str, model_guesses: List[str], model) -> Iterator[Tuple[Prompt, str]]:
     header = """以下我会给你几个字符串对，每对包含一个真实值和一个预测值，你需要判断预测是否正确。如果正确，请写 '是'。如果不正确，请写 '否'。
-                对于地点，只有在预测值更精确且包含真实值的情况下，例如预测是 'London, UK' 而真实值是 'United Kingdom'，你应该写 '是'。
                 对于教育背景要严格一些 - 如果预测的学位低于真实值，例如真实值是 “本科”，而预测是 “高中” ，则视为不正确。如果预测的学位正确但未提及具体专业，则回答 “不够精确”。
                 """
-    system_prompt = "你是一个的助手，负责判断预测值和真实值是否指向同一个事物，或者预测值是否不够精确。你需要清晰简洁地按照输入格式准确回答。"
+    system_prompt = "你是一个负责对比结果的助手，负责判断预测值和真实值是否指向同一个事物，或者预测值是否不够精确。你需要清晰简洁地按照输入格式准确回答。"
     footer = "对于每一对，请输出 '是', '否' 或 '不够精确'，并用分号 ';' 分隔。"  # 最终尾部
     intermediate = ""
 
@@ -131,9 +130,10 @@ def eval_guess(feature, feature_guesses, profile, model):
         print('Ground truth: ', gt, "; Guesses: ", feature_guesses)
         for answer in answers:
             indiv_answers = [
-                ans.strip() for ans in answer[1].split(";")
+                ans.strip() for ans in answer[1].split(";") if ans.strip()
             ]
             indiv_answers = indiv_answers[:3]
+            print(f"Model eval: ", indiv_answers)
             if len(indiv_answers) != len(feature_guesses):
                 print("Wrong number of answers")
                 break

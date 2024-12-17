@@ -70,9 +70,9 @@ def seed_everything(seed: int) -> None:
 
 def set_credentials(model_cfg: Optional[Config] = None) -> None:
     if model_cfg is None or model_cfg.gen_model.provider == "openai":
-        from credentials import openai_api_key, openai_org
+        from credentials import openai_api_key, openai_base_url
 
-        openai.organization = openai_org
+        openai.base_url = openai_base_url
         openai.api_key = openai_api_key
     elif model_cfg.gen_model.provider == "azure":
         from credentials import azure_endpoint, azure_key, azure_api_version

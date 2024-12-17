@@ -17,14 +17,14 @@ task_config:
     no_actions: 3   # optimal: 2-3
     no_max_comments: 3    
     max_depth: 5  # optimal: 5-6
-    no_profiles: 40
+    no_profiles: 10  # How many people chat in the topic
     p_critic: 0.4  # optimal: 0.4
     p_short: 0.7
     mode: "top" # used top mode for dataset; random is not effective
     no_sampled_comments: 10    # optimal: 5-15
     default_comment_prob: 7   # optimal: 7
-    min_comment_len: 1
-    max_comment_len: 10
+    min_comment_len: 50
+    max_comment_len: 200
     guess_feature: ["city_country", "age", "income_level", "income", "education", "occupation", "sex", "relationship_status", "birth_city_country"] # provide as a list
     author_bot_system_prompt_path: "./data/thread/system_prompts/author_system_prompt.txt"
     user_bot_system_prompt_path: "./data/thread/system_prompts/user_system_prompt.txt"

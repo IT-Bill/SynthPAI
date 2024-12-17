@@ -385,11 +385,12 @@ class RedditThread:
         comment_text = bot.continue_conversation(conv_user)
 
         # Adding regex checks for special cases of model writing "my comment" in different forms due to high temperature            
-        comment_text = comment_text.split('My comment:')[-1].replace("\n"," ") # retrieve generated comment
-        comment_text = comment_text.split('My Comment:')[-1].replace("\n"," ") # uppercase check (rare occasion)
-        comment_text = comment_text.split('My-comment:')[-1].replace("\n"," ") # dash check (very rare occasion)
-        comment_text = comment_text.split('My_comment:')[-1].replace("\n"," ") # underscore check (very rare occasion)
-        comment_text = comment_text.split('My new comment:')[-1].replace("\n"," ") # special case check (very rare occasion)
+        # comment_text = comment_text.split('My comment:')[-1].replace("\n"," ") # retrieve generated comment
+        # comment_text = comment_text.split('My Comment:')[-1].replace("\n"," ") # uppercase check (rare occasion)
+        # comment_text = comment_text.split('My-comment:')[-1].replace("\n"," ") # dash check (very rare occasion)
+        # comment_text = comment_text.split('My_comment:')[-1].replace("\n"," ") # underscore check (very rare occasion)
+        # comment_text = comment_text.split('My new comment:')[-1].replace("\n"," ") # special case check (very rare occasion)
+        comment_text = comment_text.split('我的评论')[-1].replace("\n"," ")
         comment = Node(pers, profile, user_name, comment_text, parent_node)
         parent_node.children.append(comment)
        
@@ -422,12 +423,12 @@ class RedditThread:
 
         for feature in features:
             guess_match = re.search(f'{feature} - \[(.*?)\]', guessed_output)
-            hrd = re.findall(r'Hardness: (.+)', guessed_output)
+            hrd = re.findall(r'难度: (.+)', guessed_output)
             if len(hrd) != 0:
                 hrd = hrd[0]
             else:
                 hrd = None
-            crt = re.findall(r'Certainty: (.+)', guessed_output)[0]
+            crt = re.findall(r'确信度: (.+)', guessed_output)[0]
             hardness_match = re.search(rf'{feature} - (\w+)', hrd)
 
             if guess_match and hardness_match:
@@ -484,9 +485,11 @@ def node_to_dict(node):
     }
 
 def generate_new_filename(feature):
-    # helper function to check directory of generated threads to avoid rewriting files
+    # Define directory and filename pattern
     directory = f'./data/thread/generated_threads/json_threads/{feature}/'
-    pattern = f'thread_{feature}_*.json' 
+    pattern = f'thread_{feature}_*.json'
+    
+    # Check if the directory exists, and create it if not
     files = glob.glob(os.path.join(directory, pattern))
     
     highest_number = 0   
@@ -501,7 +504,7 @@ def generate_new_filename(feature):
                 highest_number = number
     
     new_number = highest_number + 1
-    new_filename = f'./data/thread/generated_threads/json_threads/{feature}/thread_{feature}_{new_number}.json'
+    new_filename = f'{directory}thread_{feature}_{new_number}.json'
     
     return new_filename
 
@@ -559,7 +562,8 @@ def run_thread(cfg: Config) -> None:
     p_critic = cfg.task_config.p_critic
 
     
-    for feature in guess_features:
+    # for feature in guess_features:
+    for feature in ["city_country"]:
 
         thread_names = []
 
@@ -577,13 +581,12 @@ def run_thread(cfg: Config) -> None:
             keys.remove(thread_author)
             user_bot_personalities = {key: user_bot_personalities[key] for key in keys}
             
-
             thread.create_thread(author, thread_author, thread_profile, author_bot_system_prompt, feature, checker)
             reddit_topic = thread.root.text
             sampled_profiles = thread.choose_profiles(checker, profile_checker_prompt, user_bot_personalities, reddit_topic, no_profiles)    
             sampled_profiles = dict((k, user_bot_personalities[k]) for k in sampled_profiles)
-            print(f'\n\n No. of engaged profiles: for {feature} thread no. {t+1}: ', len(list(sampled_profiles.keys())))
-            
+            # print(f'\n\n No. of engaged profiles: for {feature}, thread {t+1}: ', len(list(sampled_profiles.keys())))
+            print(f'\n{"-" * 10} {feature}, Thread {t+1}, Num of profiles: {len(list(sampled_profiles.keys()))} {"-" * 10}\n')
             # score root for all sampled profiles
             for pers, _ in sampled_profiles.items():
                 path_empty = []
@@ -593,12 +596,14 @@ def run_thread(cfg: Config) -> None:
 
             # iterate over the personalities and simualate the thread n=no_rounds times
             for n in range(no_rounds):
+                print(f'\n{"-" * 10} Round {n+1} {"-" * 10}\n')
 
                 # sample p% of critisizing profiles before start of round
                 sampled_keys = list(sampled_profiles.keys())
                 thread.critics = np.random.choice(sampled_keys, int(no_profiles*p_critic))
 
-                for pers, pers_profile in sampled_profiles.items():
+                for _i, (pers, pers_profile) in enumerate(sampled_profiles.items()):
+                    print(f'\n\n{"-" * 10} Profile {_i}: {pers_profile["username"]} {"-" * 10}\n')
                     try:
                         if thread.root.text == None: # by default now topic will exist before iterating over sampled profiles
                             # if topic does not exist a profile can generate a subreddit post or abstain
@@ -631,9 +636,8 @@ def run_thread(cfg: Config) -> None:
                                                                 min_comment_len, max_comment_len, sampled_profiles, cfg, checker)
 
                     except Exception as e:
-                        e = e
-                        print('\n')
-                        print(e)
+                        import traceback
+                        traceback.print_exc()
 
                 # after round exclude root from comments to avoid replying twice
                 if n == 0:
@@ -651,6 +655,10 @@ def run_thread(cfg: Config) -> None:
             # save the thread
             thread_filename = generate_new_filename(feature)
             thread_names.append(thread_filename)             
+            
+            if not os.path.exists(os.path.dirname(thread_filename)):
+                os.makedirs(os.path.dirname(thread_filename))
+                
             save_thread_as_json(thread, thread_filename)
 
             # save in HTML format
@@ -658,6 +666,10 @@ def run_thread(cfg: Config) -> None:
                 data = json.load(f)
             html_data = json_to_html(data)
             html_filename = thread_filename.replace("json", "html")
+            
+            if not os.path.exists(os.path.dirname(html_filename)):
+                os.makedirs(os.path.dirname(html_filename))
+            
             save_as_html(html_filename, html_data)
             
         # print the thread

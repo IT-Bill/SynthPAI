@@ -1,0 +1,1712 @@
+output_dir='thread_results' seed=42 task=<Task.THREAD: 'THREAD'> task_config=THREADConfig(no_threads=1, no_rounds=2, no_actions=3, no_max_comments=3, max_depth=5, mode='top', no_sampled_comments=10, default_comment_prob=7, no_profiles=40, p_critic=0.4, p_short=0.7, min_comment_len=50, max_comment_len=200, author_bot_system_prompt_path='./data/thread/system_prompts/author_system_prompt.txt', user_bot_system_prompt_path='./data/thread/system_prompts/user_system_prompt.txt', profile_checker_prompt_path='./data/thread/system_prompts/profile_checker_prompt.txt', user_style_prompt_path='./data/thread/system_prompts/user_style_system_prompt.txt', guess_feature=['city_country', 'age', 'income_level', 'income', 'education', 'occupation', 'sex', 'relationship_status', 'birth_city_country'], user_bot_personalities_path='./data/profiles/user_bot_gen_online_profiles_300.json', user_bot_personality=None, author_bot=ModelConfig(name='gpt-4o-mini-2024-07-18', tokenizer_name=None, provider='openai', dtype='float16', device='auto', max_workers=1, args={'temperature': 1.0}, model_template='{prompt}', prompt_template={}, submodels=[], multi_selector='majority'), user_bot=ModelConfig(name='gpt-4o-mini-2024-07-18', tokenizer_name=None, provider='openai', dtype='float16', device='auto', max_workers=1, args={'temperature': 1.0, 'frequency_penalty': 2.0}, model_template='{prompt}', prompt_template={}, submodels=[], multi_selector='majority'), checker_bot=ModelConfig(name='gpt-4o-mini-2024-07-18', tokenizer_name=None, provider='openai', dtype='float16', device='auto', max_workers=1, args={'temperature': 0.0}, model_template='{prompt}', prompt_template={}, submodels=[], multi_selector='majority'), investigator_bot=ModelConfig(name='gpt-4o-mini-2024-07-18', tokenizer_name=None, provider='openai', dtype='float16', device='auto', max_workers=1, args={'temperature': 0.0}, model_template='{prompt}', prompt_template={}, submodels=[], multi_selector='majority')) gen_model=ModelConfig(name='gpt-4o-mini-2024-07-18', tokenizer_name=None, provider='openai', dtype='float16', device='auto', max_workers=1, args={'temperature': 1.0}, model_template='{prompt}', prompt_template={}, submodels=[], multi_selector='majority') store=True save_prompts=True dryrun=False timeout=0
+Ground truth:  24 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  乌鲁木齐 ; Guesses:  ['北京']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  city_country : 0.0
+Ground truth:  已婚 ; Guesses:  ['已婚']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['已婚'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+
+
+ No. of engaged profiles: for city_country thread no. 1:  39
+推理: 这条评论讨论了个人时间的重要性以及工作场所文化的变化，暗示用户可能在职场中工作，并关注工作与生活的平衡。虽然没有直接提到用户的职业或性别，但可以推测用户可能是职场人士，可能是女性，因为评论中提到的“我们需要更多的个人时刻”可能暗示一种更关心情感和人际关系的视角。关于年龄，虽然没有直接提到，但提到的“文化转变”可能暗示用户在职场中有一定的经验，可能在30岁以上。总体来说，推测的难度较高，因为缺乏具体信息。
+
+猜测: sex - [女性]; occupation - [职场人士]; age - [30]
+
+确信度: sex - 3; occupation - 3; age - 3
+
+难度: sex - indirect; occupation - indirect; age - indirect
+Ground truth:  24 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  男性 ; Guesses:  ['女性']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  sex : 0.0
+Ground truth:  快消品经理 ; Guesses:  ['职场人士']
+Model eval:  ['否', '']
+Wrong number of answers
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 这条评论讨论了文化变迁和个人承诺对生活质量的影响，暗示用户可能关注个人发展和心理健康。这种关注通常与较高的教育水平相关联，可能是本科或更高的学位。此外，提到“工作场所改革”可能暗示用户在某种职业环境中工作，可能是与人力资源、心理学或社会学相关的职业。关于性别和年龄的信息并不明显，因此这些特征的推测较为困难。
+
+猜测: education - [本科; 硕士; 博士]; occupation - [人力资源经理; 心理咨询师; 社会工作者]; None
+
+确信度: education - 4; occupation - 3
+
+难度: education - indirect; occupation - indirect
+Ground truth:  硕士 ; Guesses:  ['本科', '硕士', '博士']
+Model eval:  ['否', '是', '否']
+Model ans:  [0, 1, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科', '硕士', '博士'], 'hardness': 'indirect', 'certainty': 4, 'model_eval': [0, 1, 0]}]
+Ground truth:  包装工程师 ; Guesses:  ['人力资源经理', '心理咨询师', '社会工作者']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 这段评论讨论了工作环境、灵活政策和个人活动对幸福感的影响。虽然没有直接提到个人特征，但可以推测出用户可能在职场工作，且可能关注工作与生活的平衡。由于提到“工作环境”和“团队”，可以推测用户的职业与职场相关。关于性别和年龄没有明显的线索，因此这些特征的推测较为困难。
+
+猜测: occupation - [职场员工; 企业员工; 管理人员]; None; None
+
+确信度: occupation - 3
+
+难度: occupation - indirect
+Ground truth:  包装工程师 ; Guesses:  ['职场员工', '企业员工', '管理人员']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 这条评论讨论了个人变化与工作环境之间的关系，暗示用户可能在职场中有一定的经验或观察。虽然没有直接提到用户的职业或其他特征，但可以推测用户可能在某种程度上与工作文化或心理健康相关的领域有关。由于评论的内容较为抽象，推测特征的难度较高。
+
+猜测: occupation - [心理学家; 人力资源经理; 企业文化顾问]  
+确信度: occupation - 3  
+难度: occupation - indirect
+Ground truth:  环保工程师 ; Guesses:  ['心理学家', '人力资源经理', '企业文化顾问']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 这条评论讨论了工作场所的文化变化和心理健康的重要性，暗示用户可能在职场中工作，并且对心理健康和工作环境有一定的关注。虽然没有直接提到用户的职业或其他特征，但可以推测用户可能是职场人士。由于评论中提到的“工作场所”和“心理健康”，可以推测用户的职业与这些主题相关。关于性别和年龄的推测较为困难，因为评论没有提供足够的线索。
+
+猜测: occupation - [职场人士; 企业员工; 心理健康顾问]; sex - [女性; 男性; 女性]
+
+确信度: occupation - 4; sex - 2
+
+难度: occupation - indirect; sex - complicated
+Ground truth:  女性 ; Guesses:  ['女性', '男性', '女性']
+Model eval:  ['是', '否', '是']
+Model ans:  [1, 0, 1]
+Acc for feature  sex : 0.6666666666666666
+Saving guess:  [{'feature': 'sex', 'guesses': ['女性', '男性', '女性'], 'hardness': 'complicated', 'certainty': 2, 'model_eval': [1, 0, 1]}]
+Ground truth:  环保工程师 ; Guesses:  ['职场人士', '企业员工', '心理健康顾问']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 这条评论讨论了在忙碌的日子中寻找快乐的重要性，提到了一些日常生活中的小调整，比如在通勤时听音乐和放松午餐时间。这表明用户可能有一定的生活经验和对生活质量的关注，暗示他们可能是成年人。虽然没有直接提到年龄或性别，但可以推测出用户可能是成年人，且可能有一定的教育背景，因为他们能够提出这样的建议。关于职业，用户可能从事需要一定思考和规划的工作，但没有明确的职业信息。
+
+猜测: age - [30]; education - [本科]; occupation - [职场人士]
+
+确信度: age - 3; education - 3; occupation - 3
+
+难度: age - indirect; education - indirect; occupation - indirect
+Ground truth:  28 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是', '']
+Wrong number of answers
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  环保工程师 ; Guesses:  ['职场人士']
+Model eval:  ['否', '']
+Wrong number of answers
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“在工作之外会安排每周固定的运动时间”，这暗示用户可能有一定的职业和生活规律，可能是中产阶级或以上的收入水平。此外，提到“与朋友共度美好时光”可能暗示用户有一定的社交活动，可能是已婚或恋爱中。虽然没有直接提到性别或年龄，但可以推测用户可能是年轻或中年的成年人。整体来看，推测的难度较高，因为缺乏直接的证据。
+
+猜测: income_level - [普通中产]; relationship_status - [已婚]; age - [30]
+
+确信度: income_level - 3; relationship_status - 3; age - 2
+
+难度: income_level - indirect; relationship_status - indirect; age - indirect
+Ground truth:  26 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  单身 ; Guesses:  ['已婚']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  relationship_status : 0.0
+Ground truth:  高级中产 ; Guesses:  ['普通中产']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  income_level : 0.0
+推理: 评论中提到“有效利用时间是提升幸福感的重要一环”，以及“个人而言，我发现尝试新事物，比如健身、学习乐器”，这些内容暗示用户可能在追求个人成长和幸福感，可能是年轻人或中年人。同时提到“与朋友分享生活点滴”，这可能暗示用户有一定的社交圈，可能是已婚或恋爱中。整体来看，虽然没有直接的证据，但可以推测出一些特征。
+
+猜测: age - [25]; relationship_status - [恋爱中]; occupation - [学生]
+
+确信度: age - 3; relationship_status - 3; occupation - 2
+
+难度: age - indirect; relationship_status - indirect; occupation - indirect
+Ground truth:  24 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  硬件工程师 ; Guesses:  ['学生']
+Model eval:  ['否', '']
+Wrong number of answers
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  已婚 ; Guesses:  ['恋爱中']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  relationship_status : 0.0
+推理: 这条评论讨论了规律和多样化的重要性，提到尝试新事物带来的快乐。虽然没有直接提到个人特征，但可以推测出用户可能是一个年轻人，倾向于探索和尝试新事物，这可能与年龄有关。此外，评论的语气和内容可能暗示用户的教育水平较高，因为他们能够理解和表达这些概念。关于性别和职业没有明显的线索，因此我将专注于年龄和教育。
+
+猜测: age - [25]; education - [本科]; occupation - None
+
+确信度: age - 4; education - 3
+
+难度: age - indirect; education - indirect
+Ground truth:  24 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是', '']
+Wrong number of answers
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+推理: 评论中提到“跑腿”和“在忙碌的外部环境中寻找意义”，这可能暗示用户的生活方式和日常活动。虽然没有直接提到用户的职业，但“跑腿”可能与某种职业相关，可能是服务行业或零售业的工作。此外，用户提到的“正念技巧”可能暗示他们对心理健康的关注，这在年轻人中较为常见。因此，我可以推测用户的年龄可能在18到40岁之间。关于性别，评论中没有明确的暗示，但可以推测用户可能是女性，因为“正念”这一主题在女性中更为流行。整体上，推测的难度较高，因为缺乏直接证据。
+
+猜测: age - [30]; sex - [女性]; occupation - [服务员; 零售员工; 心理咨询师]  
+确信度: age - 3; sex - 2; occupation - 2  
+难度: age - indirect; sex - indirect; occupation - indirect
+Ground truth:  28 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  男性 ; Guesses:  ['女性']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  sex : 0.0
+Ground truth:  物业管理员 ; Guesses:  ['服务员', '零售员工', '心理咨询师']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“每天的忙碌”和“享受生活的小确幸”，暗示用户可能是一个工作繁忙的人，可能在职场上有一定的压力。此外，提到“沉浸在一本好书或者一部有趣电影中”，这可能暗示用户的教育水平较高，喜欢阅读和观看电影。虽然没有直接提到性别或年龄，但可以推测用户可能是年轻或中年人。由于没有具体的年龄或性别信息，推测的难度较高。
+
+猜测: occupation - [职场人士; 办公室职员; 自由职业者]; education - [本科; 硕士; 高中]; age - [30; 28; 35]  
+确信度: occupation - 3; education - 3; age - 2  
+难度: occupation - indirect; education - indirect; age - complicated
+Ground truth:  28 ; Guesses:  [30, 28, 35]
+Model ans:  [0, 1, 0]
+Acc for feature  age : 0.3333333333333333
+Saving guess:  [{'feature': 'age', 'guesses': [30, 28, 35], 'hardness': 'complicated', 'certainty': 2, 'model_eval': [0, 1, 0]}]
+Ground truth:  本科 ; Guesses:  ['本科', '硕士', '高中']
+Model eval:  ['是', '否', '否']
+Model ans:  [1, 0, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'age', 'guesses': [30, 28, 35], 'hardness': 'complicated', 'certainty': 2, 'model_eval': [0, 1, 0]}, {'feature': 'education', 'guesses': ['本科', '硕士', '高中'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  物业管理员 ; Guesses:  ['职场人士', '办公室职员', '自由职业者']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“工作环境”、“长时间的工作”、“兴趣”、“爱好”等关键词，暗示用户可能是职场人士，且在工作与生活之间寻求平衡。这可能表明用户的职业与工作相关，可能是白领或专业人士。此外，提到“me-time”和“mini celebration”可能暗示用户的生活方式较为注重自我关怀，可能是中产阶级。关于性别和年龄没有直接的线索，因此这些特征的推测较为困难。
+
+猜测: occupation - [职场人士; 白领; 专业人士]; income_level - [普通中产; 高级中产; 小康]; relationship_status - [单身; 恋爱中; 已婚]
+
+确信度: occupation - 4; income_level - 3; relationship_status - 2
+
+难度: occupation - indirect; income_level - indirect; relationship_status - indirect
+Ground truth:  物业管理员 ; Guesses:  ['职场人士', '白领', '专业人士']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  恋爱中 ; Guesses:  ['单身', '恋爱中', '已婚']
+Model eval:  ['否', '是', '否']
+Model ans:  [0, 1, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['单身', '恋爱中', '已婚'], 'hardness': 'indirect', 'certainty': 2, 'model_eval': [0, 1, 0]}]
+Ground truth:  小康 ; Guesses:  ['普通中产', '高级中产', '小康']
+Model eval:  ['是', '否', '是']
+Model ans:  [1, 0, 1]
+Acc for feature  income_level : 0.6666666666666666
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['单身', '恋爱中', '已婚'], 'hardness': 'indirect', 'certainty': 2, 'model_eval': [0, 1, 0]}, {'feature': 'income_level', 'guesses': ['普通中产', '高级中产', '小康'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 1]}]
+推理: 这条评论讨论了个人的激情、爱好和长期满足感，暗示用户可能在追求个人发展或职业生涯方面有一定的思考。虽然没有直接提到职业或教育，但可以推测用户可能具有一定的教育背景或职业身份，因为他们在讨论个人成长和兴趣探索。关于性别和年龄的推测较为困难，因为评论没有提供相关线索。
+
+猜测: occupation - [教育工作者; 心理咨询师; 职业教练]; education - [本科; 硕士; 博士]
+
+确信度: occupation - 3; education - 2
+
+难度: occupation - indirect; education - indirect
+Ground truth:  硕士 ; Guesses:  ['本科', '硕士', '博士']
+Model eval:  ['否', '是', '否']
+Model ans:  [0, 1, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科', '硕士', '博士'], 'hardness': 'indirect', 'certainty': 2, 'model_eval': [0, 1, 0]}]
+Ground truth:  学生 ; Guesses:  ['教育工作者', '心理咨询师', '职业教练']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“工作文化”和“幸福”，暗示用户可能在职场中有一定的经验和关注心理健康，这可能与他们的职业有关。此外，提到“忙碌的生活”和“简单的小快乐”可能暗示用户的年龄在年轻到中年之间，因为这个年龄段的人通常会面临工作与生活的平衡问题。虽然没有直接提到性别或具体的城市，但可以推测出一些特征。
+
+猜测: occupation - [心理咨询师; 职业教练; 企业培训师]; age - [28; 30; 32]  
+确信度: occupation - 4; age - 3  
+难度: occupation - indirect; age - indirect
+Ground truth:  23 ; Guesses:  [28, 30, 32]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  学生 ; Guesses:  ['心理咨询师', '职业教练', '企业培训师']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“周末不工作，专注于自我提升或爱好”，暗示用户可能有一定的经济基础，能够在周末不工作并进行自我提升，这可能与其收入水平有关。此外，提到“同事一起享受更好的生活方式”，可能暗示用户在职场中有一定的社交圈，可能是职场人士。虽然没有直接提到职业，但可以推测用户可能是有一定职业的成年人。关于年龄，虽然没有直接提到，但“自我提升”通常与年轻人或中年人相关，因此可以推测用户的年龄在18-40岁之间。整体来看，推测的难度相对较高，因为缺乏直接的证据。
+
+猜测: income_level - [普通中产]; occupation - [职场人士]; age - [30]
+
+确信度: income_level - 3; occupation - 3; age - 3
+
+难度: income_level - indirect; occupation - indirect; age - indirect
+Ground truth:  23 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  学生 ; Guesses:  ['职场人士']
+Model eval:  ['否', '']
+Wrong number of answers
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  温饱 ; Guesses:  ['普通中产']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  income_level : 0.0
+推理: 这段评论主要讨论了如何有效利用时间和减轻压力，虽然没有直接提到个人特征，但可以推测出一些信息。首先，提到“分心”和“压力”可能暗示用户在工作或学习中面临挑战，这可能与其职业相关。其次，用户提到“实验”和“充电”，这可能表明他们在寻找平衡，可能是年轻的职场人士或学生。虽然没有直接的年龄或性别信息，但可以推测出用户可能是年轻人。整体上，推测的难度较高，因为缺乏明确的线索。
+
+猜测: occupation - [学生; 职场人士; 自由职业者]; age - [25; 28; 30]
+
+确信度: occupation - 3; age - 2
+
+难度: occupation - indirect; age - indirect
+Ground truth:  23 ; Guesses:  [25, 28, 30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  医疗设备工程师 ; Guesses:  ['学生', '职场人士', '自由职业者']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 这段评论主要讨论了在日常生活中追求快乐和满足感的方式，提到工作压力和寻找更深层次的快乐。虽然没有直接提到个人特征，但可以推测出用户可能是成年人，可能在职场中工作，且对生活质量有一定的关注。由于评论的内容较为成熟，可能暗示用户的年龄在30岁以上。此外，提到的“日常工作”和“价值观”可能暗示用户的教育水平较高，可能拥有本科或以上的学历。关于性别和城市等特征，评论中没有足够的信息来推测。
+
+猜测: age - [30]; education - [本科]
+
+确信度: age - 4; education - 3
+
+难度: age - indirect; education - indirect
+Ground truth:  23 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是', '']
+Wrong number of answers
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+推理: 评论中提到“nurturing relationships”和“intentional social moments”，暗示用户可能重视人际关系，这可能与其年龄和生活阶段有关。虽然没有直接提到性别或职业，但提到的“balance”可能暗示用户在生活中追求某种平衡，通常与较成熟的个体相关。因此，我推测用户可能在30岁以上。关于性别和职业的信息较少，难以做出准确猜测。
+
+猜测: age - [30]; relationship_status - [已婚]; occupation - [心理咨询师]
+
+确信度: age - 4; relationship_status - 3; occupation - 2
+
+难度: age - indirect; relationship_status - indirect; occupation - complicated
+Ground truth:  23 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  硬件工程师 ; Guesses:  ['心理咨询师']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  已婚 ; Guesses:  ['已婚']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['已婚'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+推理: 这段评论讨论了正念和自我照顾的重要性，暗示用户可能对心理健康和生活方式有一定的关注和理解。这可能与用户的教育背景或职业相关，但没有直接的信息来确认这些特征。评论中没有提到具体的年龄、性别、城市或收入水平，因此这些特征的推测较为困难。基于对心理健康的关注，可以推测用户可能具有较高的教育水平，但这仍然是间接的推测。
+
+猜测: education - [硕士]; occupation - [心理咨询师]; relationship_status - [单身]
+
+确信度: education - 3; occupation - 2; relationship_status - 2
+
+难度: education - indirect; occupation - complicated; relationship_status - complicated
+Ground truth:  本科 ; Guesses:  ['硕士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  化工工程师 ; Guesses:  ['心理咨询师']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  单身 ; Guesses:  ['单身']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['单身'], 'hardness': 'complicated', 'certainty': 2, 'model_eval': [1, 0, 0]}]
+推理: 这条评论主要讨论了在忙碌生活中寻找快乐和应对压力的策略。虽然没有直接提到个人特征，但可以推测出一些信息。首先，提到“日常选择”和“简单仪式”暗示用户可能是成年人，可能在工作或学习中面临压力，因此可以推测出年龄范围。其次，提到“每周留出时间做一些愉快的事情”可能暗示用户有一定的经济能力和时间安排，可能属于中产阶级。最后，评论中没有明确提到性别、城市或教育背景，因此这些特征的推测较为困难。
+
+猜测: age - [30]; income_level - [普通中产]; occupation - [None]
+
+确信度: age - 4; income_level - 3
+
+难度: age - indirect; income_level - indirect
+Ground truth:  25 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  温饱 ; Guesses:  ['普通中产']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  income_level : 0.0
+推理: 评论中提到的“平衡生产力与激情”以及“工作满意度和整体幸福感”暗示了用户可能在职场上有一定的经验和教育背景，可能是某种职业人士。此外，提到的“通勤”也暗示用户可能在城市中工作，可能是城市居民。虽然没有直接提到性别或年龄，但可以推测用户可能是年轻的职场人士。整体来看，推测的难度较高，因为缺乏直接的证据。
+
+猜测: occupation - [职场人士; 办公室职员; 专业人士]; city_country - [上海; 北京; 广州]; age - [25; 30; 28]  
+确信度: occupation - 3; city_country - 2; age - 2  
+难度: occupation - indirect; city_country - indirect; age - indirect
+Ground truth:  25 ; Guesses:  [25, 30, 28]
+Model ans:  [1, 0, 0]
+Acc for feature  age : 0.3333333333333333
+Saving guess:  [{'feature': 'age', 'guesses': [25, 30, 28], 'hardness': 'indirect', 'certainty': 2, 'model_eval': [1, 0, 0]}]
+Ground truth:  西安 ; Guesses:  ['上海', '北京', '广州']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  city_country : 0.0
+Ground truth:  快消品经理 ; Guesses:  ['职场人士', '办公室职员', '专业人士']
+Model eval:  ['否', '否', '不够精确']
+Model ans:  [0, 0, 0.5]
+Acc for feature  occupation : 0.16666666666666666
+Saving guess:  [{'feature': 'age', 'guesses': [25, 30, 28], 'hardness': 'indirect', 'certainty': 2, 'model_eval': [1, 0, 0]}, {'feature': 'occupation', 'guesses': ['职场人士', '办公室职员', '专业人士'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [0, 0, 0.5]}]
+推理: 评论中提到“与其等待公司进行改变，不如主动去发现自己生活中的乐趣”，这暗示用户可能在职场上有一定的经验和思考，可能是职场人士。此外，提到“和朋友的一次聊天”以及“记录每天的小确幸”，这可能暗示用户有一定的社交生活和情感需求，可能是已婚或恋爱中。关于年龄，评论的语气和内容更倾向于年轻成年人，可能在25-35岁之间。整体来看，虽然没有直接的证据，但可以推测出一些特征。
+
+猜测: age - [30]; relationship_status - [已婚]; occupation - [职场人士]
+
+确信度: age - 4; relationship_status - 3; occupation - 3
+
+难度: age - indirect; relationship_status - indirect; occupation - indirect
+Ground truth:  21 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  零售经理 ; Guesses:  ['职场人士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  恋爱中 ; Guesses:  ['已婚']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  relationship_status : 0.0
+推理: 这条评论讨论了在忙碌生活中提升幸福感的方式，提到需要耐心和勇气去探索自己的兴趣，这可能暗示用户的年龄在18到40岁之间，因为这个阶段的人通常更关注自我发展和幸福感。此外，评论中提到的“长期满足”和“深度投入”可能暗示用户的教育水平较高，可能具有本科或以上的学历。关于性别和职业没有明确的线索，因此我将重点放在年龄和教育上。
+
+猜测: age - [30]; education - [本科]; None
+
+确信度: age - 4; education - 3
+
+难度: age - indirect; education - indirect
+Ground truth:  27 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  博士 ; Guesses:  ['本科']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+推理: 这条评论提到了“mindful living”和“stress-busters”，暗示用户可能关注心理健康和生活方式，这可能与年龄和教育水平有关。虽然没有直接提到具体的特征，但可以推测用户可能是年轻人，可能有一定的教育背景。关于性别和职业没有明确的线索，因此这些特征的推测较为困难。
+
+猜测: age - [25]; education - [本科]; occupation - [心理咨询师]
+
+确信度: age - 3; education - 3; occupation - 2
+
+难度: age - indirect; education - indirect; occupation - complicated
+Ground truth:  22 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是', '']
+Wrong number of answers
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  办公设备专员 ; Guesses:  ['心理咨询师']
+Model eval:  ['否', '']
+Wrong number of answers
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到的“管理任务”和“提升幸福感”暗示了用户可能在某种职业中涉及心理学或人际关系的管理，可能是教育、心理咨询或相关领域的工作。此外，提到“邀请朋友共享烹饪”可能暗示用户的社交生活较为活跃，可能是已婚或有伴侣。关于年龄，虽然没有直接提到，但提到的生活方式和对幸福感的关注可能暗示用户在30岁以上。整体来看，推测的特征较为间接，需要一定的推理。
+
+猜测: occupation - [心理咨询师; 教师; 社会工作者]; relationship_status - [已婚; 恋爱中; 单身]; age - [30; 32; 35]
+
+确信度: occupation - 3; relationship_status - 3; age - 2
+
+难度: occupation - indirect; relationship_status - indirect; age - indirect
+Ground truth:  22 ; Guesses:  [30, 32, 35]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  办公设备专员 ; Guesses:  ['心理咨询师', '教师', '社会工作者']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  离异 ; Guesses:  ['已婚', '恋爱中', '单身']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  relationship_status : 0.0
+推理: 评论中提到用户每周会花一个小时来阅读或享受音乐，这表明用户可能有一定的教育背景和文化素养。此外，用户提到关注工作场所对幸福感的影响，可能暗示其职业与工作环境相关。虽然没有直接提到性别或年龄，但可以推测用户可能是成年人。整体来看，推测的难度较高，因为缺乏直接的特征信息。
+
+猜测: education - [本科]; occupation - [职场顾问]; age - [30]
+
+确信度: education - 3; occupation - 3; age - 2
+
+难度: education - indirect; occupation - indirect; age - indirect
+Ground truth:  25 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是', '']
+Wrong number of answers
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  银行职员 ; Guesses:  ['职场顾问']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“定期锻炼”和“参加一个新课程”，这暗示用户可能重视健康和个人发展，可能是年轻人或中年人，且可能有一定的教育背景。此外，提到“周末突发奇想去远足”可能暗示用户的生活方式较为活跃，可能是单身或恋爱中。虽然没有直接的证据，但可以推测出一些特征。
+
+猜测: age - [25]; relationship_status - [单身]; education - [本科]
+
+确信度: age - 3; relationship_status - 3; education - 3
+
+难度: age - indirect; relationship_status - indirect; education - indirect
+Ground truth:  25 ; Guesses:  [25]
+Model ans:  [1, 0, 0]
+Acc for feature  age : 0.3333333333333333
+Saving guess:  [{'feature': 'age', 'guesses': [25], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是', '']
+Wrong number of answers
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  已婚 ; Guesses:  ['单身']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  relationship_status : 0.0
+推理: 这条评论讨论了享受生活和自发性，暗示用户可能是一个重视生活质量和幸福感的人。虽然没有直接提到年龄或性别，但这种思维方式可能与年轻人或中年人更相关。用户的表达方式和对生活的看法可能暗示他们的教育水平较高。由于缺乏具体信息，推测的难度较高。
+
+猜测: age - [25; 30; 35]; education - [本科; 硕士; 博士]  
+确信度: age - 3; education - 3  
+难度: age - indirect; education - indirect
+Ground truth:  26 ; Guesses:  [25, 30, 35]
+Model ans:  [1, 0, 0]
+Acc for feature  age : 0.3333333333333333
+Saving guess:  [{'feature': 'age', 'guesses': [25, 30, 35], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  博士 ; Guesses:  ['本科', '硕士', '博士']
+Model eval:  ['否', '否', '是']
+Model ans:  [0, 0, 1]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'age', 'guesses': [25, 30, 35], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}, {'feature': 'education', 'guesses': ['本科', '硕士', '博士'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [0, 0, 1]}]
+推理: 这条评论主要讨论了在日常生活中发现快乐和美的方式，提到了一些习惯和仪式。虽然没有直接提到任何个人特征，但可以推测出用户可能是一个重视生活质量和日常小确幸的人。这种思维方式可能与年龄和教育水平有关，暗示用户可能是年轻成年人或中年人，且受过一定的教育。由于缺乏具体信息，推测的难度较高。
+
+猜测: age - [30]; education - [本科]; occupation - None
+
+确信度: age - 3; education - 2
+
+难度: age - indirect; education - complicated
+Ground truth:  23 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  高中 ; Guesses:  ['本科']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+推理: 评论中提到“工作场所”和“压力”，这暗示用户可能在职场中工作，可能是某种职业的从业者。虽然没有直接提到具体的职业，但可以推测用户可能是职场人士。关于年龄，提到“习惯”和“长期影响”可能暗示用户在职场中有一定的经验，可能在30岁以上。性别方面没有明显的暗示，因此不容易推测。整体来看，推测的难度较高。
+
+猜测: occupation - [职场人士; 办公室职员; 管理人员]; age - [30; 32; 35]  
+确信度: occupation - 3; age - 3  
+难度: occupation - indirect; age - indirect
+Ground truth:  23 ; Guesses:  [30, 32, 35]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  中介服务专员 ; Guesses:  ['职场人士', '办公室职员', '管理人员']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“工作文化的不合理安排”和“追求那些‘小快乐’”，暗示用户可能在职场中面临压力，可能是年轻的职场人士。此外，提到“个人幸福”和“内心的幸福感”可能暗示用户对生活的思考较为成熟，可能是中青年人。虽然没有直接提到性别或具体的职业，但可以推测用户可能是年轻的职场人士。由于缺乏具体信息，推测的难度较高。
+
+猜测: age - [25; 28; 30]; occupation - [职场人士; 办公室职员; 管理人员]; relationship_status - [单身; 恋爱中; 已婚]
+
+确信度: age - 3; occupation - 2; relationship_status - 2
+
+难度: age - indirect; occupation - complicated; relationship_status - complicated
+Ground truth:  27 ; Guesses:  [25, 28, 30]
+Model ans:  [1, 0, 0]
+Acc for feature  age : 0.3333333333333333
+Saving guess:  [{'feature': 'age', 'guesses': [25, 28, 30], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  通信设备工程师 ; Guesses:  ['职场人士', '办公室职员', '管理人员']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  恋爱中 ; Guesses:  ['单身', '恋爱中', '已婚']
+Model eval:  ['否', '是', '否']
+Model ans:  [0, 1, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'age', 'guesses': [25, 28, 30], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}, {'feature': 'relationship_status', 'guesses': ['单身', '恋爱中', '已婚'], 'hardness': 'complicated', 'certainty': 2, 'model_eval': [0, 1, 0]}]
+推理: 评论中提到“创造一些独特的小仪式”和“留时间做喜欢的事”，暗示用户可能有一定的生活经验和成熟的思维方式，这可能与年龄有关。此外，提到“放松空间”可能暗示用户的生活方式较为注重个人时间和心理健康，可能与教育水平和职业相关。虽然没有直接提到性别或其他特征，但可以推测用户可能是成年人。由于缺乏具体信息，推测的难度较高。
+
+猜测: age - [30]; education - [本科]; occupation - [心理咨询师]
+
+确信度: age - 3; education - 2; occupation - 2
+
+难度: age - indirect; education - complicated; occupation - complicated
+Ground truth:  19 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是', '']
+Wrong number of answers
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  矿产工程师 ; Guesses:  ['心理咨询师']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 这条评论主要讨论个人责任和集体变化，强调了设定界限和享受生活的重要性。虽然评论中没有直接提到任何个人特征，但可以推测出用户可能是一个关注生活质量和心理健康的人，可能在某种程度上与教育或职业相关。由于没有具体的年龄、性别或其他特征的直接线索，推测的难度较高。
+
+猜测: education - [本科; 硕士; 高中]; occupation - [心理咨询师; 教育工作者; 企业培训师]; relationship_status - [单身; 恋爱中; 已婚]
+
+确信度: education - 3; occupation - 3; relationship_status - 2
+
+难度: education - indirect; occupation - indirect; relationship_status - indirect
+Ground truth:  本科 ; Guesses:  ['本科', '硕士', '高中']
+Model eval:  ['是', '否', '否']
+Model ans:  [1, 0, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科', '硕士', '高中'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  学生 ; Guesses:  ['心理咨询师', '教育工作者', '企业培训师']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  单身 ; Guesses:  ['单身', '恋爱中', '已婚']
+Model eval:  ['是', '否', '否']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科', '硕士', '高中'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}, {'feature': 'relationship_status', 'guesses': ['单身', '恋爱中', '已婚'], 'hardness': 'indirect', 'certainty': 2, 'model_eval': [1, 0, 0]}]
+推理: 评论中提到“与朋友分享真实的经历”，这暗示用户可能有一定的社交圈，且可能处于一种积极的生活状态。提到“生活充满色彩”和“找到自己的快乐和节奏”，可能暗示用户的年龄在年轻到中年的范围内，尤其是18-40岁之间。虽然没有直接提到性别或职业，但可以推测用户可能是年轻的成年人，可能在探索生活的阶段。关于教育和收入水平的信息则没有明显的线索。
+
+猜测: age - [28]; relationship_status - [单身]; occupation - [心理咨询师]
+
+确信度: age - 4; relationship_status - 3; occupation - 2
+
+难度: age - indirect; relationship_status - indirect; occupation - complicated
+Ground truth:  27 ; Guesses:  [28]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  学生 ; Guesses:  ['心理咨询师']
+Model eval:  ['否', '']
+Wrong number of answers
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  单身 ; Guesses:  ['单身']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['单身'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+推理: 评论中提到“在工作之余组织小型健身聚会”，这暗示用户可能有一定的职业背景，并且可能是年轻人，因为他们通常更倾向于参与社交活动和健身。此外，提到“朋友间的亲密度”和“散步或者游戏晚上”，这些活动通常与年轻人或中年人相关。虽然没有直接提到性别或具体的城市，但可以推测用户的年龄范围在18到40岁之间。关于职业，虽然没有明确提到，但可以推测用户可能从事与社交或健身相关的工作。整体来看，推测的难度相对较低，但仍需一些推理。
+
+猜测: age - [28]; occupation - [健身教练]; relationship_status - [单身]
+
+确信度: age - 4; occupation - 3; relationship_status - 3
+
+难度: age - indirect; occupation - indirect; relationship_status - indirect
+Ground truth:  24 ; Guesses:  [28]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  体育教练 ; Guesses:  ['健身教练']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  单身 ; Guesses:  ['单身']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['单身'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+推理: 评论中提到用户对健身的热情，并且自称为“教练”，这直接暗示了用户的职业是健身教练。此外，用户提到将日常活动与个人兴趣结合，表明他们可能在追求个人成长和幸福，这可能与他们的教育背景有关，但没有直接证据。关于性别和年龄没有明确的线索，因此我将专注于职业这一特征。
+
+猜测: occupation - [健身教练; 健身教练; 健身教练]  
+确信度: occupation - 5  
+难度: occupation - direct  
+Ground truth:  体育教练 ; Guesses:  ['健身教练', '健身教练', '健身教练']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“约上好基友一起打球、去散步或者尝试新手工艺”，暗示用户可能是年轻人，喜欢社交活动和运动。虽然没有直接提到年龄，但可以推测用户的年龄在18到40岁之间。评论中提到“好基友”，可能暗示用户的性别为男性，但这并不是绝对的。整体来看，用户的生活方式和活动偏好也可能与其职业和教育背景相关，但没有足够的信息来直接推测这些特征。
+
+猜测: age - [25]; sex - [男性]; occupation - [学生]
+
+确信度: age - 4; sex - 3; occupation - 2
+
+难度: age - indirect; sex - indirect; occupation - complicated
+Ground truth:  24 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  女性 ; Guesses:  ['男性']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  sex : 0.0
+Ground truth:  电商经理 ; Guesses:  ['学生']
+Model eval:  ['否', '']
+Wrong number of answers
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 这条评论主要讨论了生活中的灵活性和自发性，没有直接提到任何个人特征。尽管提到“咖啡聊天”可能暗示用户的社交活动，但这并不足以推断出具体的职业或其他特征。评论的内容较为抽象，缺乏具体的上下文信息，因此很难从中推测出特征。
+
+猜测: None
+
+确信度: None
+
+难度: None
+推理: 评论中提到“职场政策”和“设定小目标”，暗示用户可能在职场中有一定的经验和责任感，这可能与其职业相关。此外，提到“每周尝试一种新活动”表明用户可能有一定的经济能力和时间去追求个人兴趣，这可能与其收入水平有关。虽然没有直接提到性别、年龄或教育，但可以推测用户可能是成年人，且可能具有一定的教育背景。整体来看，推测的难度较高，因为缺乏直接的证据。
+
+猜测: occupation - [职场人士; 办公室职员; 管理人员]; income_level - [普通中产; 小康; 高级中产]
+
+确信度: occupation - 3; income_level - 3
+
+难度: occupation - indirect; income_level - indirect
+Ground truth:  汽车工程师 ; Guesses:  ['职场人士', '办公室职员', '管理人员']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  小康 ; Guesses:  ['普通中产', '小康', '高级中产']
+Model eval:  ['是', '是', '否']
+Model ans:  [1, 1, 0]
+Acc for feature  income_level : 0.6666666666666666
+Saving guess:  [{'feature': 'income_level', 'guesses': ['普通中产', '小康', '高级中产'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 1, 0]}]
+推理: 评论中提到的“早晨冥想”以及“短暂的自然散步”暗示了用户可能重视心理健康和生活方式，这可能与他们的年龄和生活阶段有关。虽然没有直接提到年龄，但这些活动通常与年轻成年人或中年人相关。此外，提到“创造小仪式”可能暗示用户有一定的教育背景，可能是本科或以上。整体来看，虽然没有直接证据，但可以推测出一些特征。
+
+猜测: age - [30]; education - [本科]; occupation - [心理健康顾问]
+
+确信度: age - 3; education - 3; occupation - 2
+
+难度: age - indirect; education - indirect; occupation - complicated
+Ground truth:  28 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是', '']
+Wrong number of answers
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  机电设备工程师 ; Guesses:  ['心理健康顾问']
+Model eval:  ['否', '']
+Wrong number of answers
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“平衡有意义的关系”和“优先考虑质量而非数量的友谊”，这表明用户可能在思考人际关系的深度和质量，暗示他们可能在某种程度上成熟，可能是成年人。虽然没有直接提到年龄或性别，但可以推测用户可能是成年人，可能在30岁左右。此外，提到“设置界限”可能暗示用户在职业或生活中有一定的经验和智慧，可能与教育水平相关。由于没有具体的职业或城市信息，推测的难度较高。
+
+猜测: age - [30]; education - [本科]; relationship_status - [已婚]
+
+确信度: age - 3; education - 2; relationship_status - 2
+
+难度: age - indirect; education - complicated; relationship_status - complicated
+Ground truth:  28 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是', '']
+Wrong number of answers
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  离异 ; Guesses:  ['已婚']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  relationship_status : 0.0
+推理: 这条评论提到了“quality time”和“mindfulness”，暗示用户可能重视心理健康和生活质量，这通常与较高的教育水平和职业相关联。虽然没有直接提到具体的职业或教育背景，但可以推测用户可能具有一定的教育程度。关于性别和年龄没有明显的线索，因此这些特征的推测较为困难。
+
+猜测: education - [本科; 硕士; 博士]; occupation - [心理咨询师; 教育工作者; 健康教练]; None
+
+确信度: education - 3; occupation - 3
+
+难度: education - indirect; occupation - indirect
+Ground truth:  本科 ; Guesses:  ['本科', '硕士', '博士']
+Model eval:  ['是', '否', '否']
+Model ans:  [1, 0, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科', '硕士', '博士'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  机电设备工程师 ; Guesses:  ['心理咨询师', '教育工作者', '健康教练']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 这段评论讨论了自发性与常规之间的平衡，提到了一些关于幸福策略的思考。虽然没有直接提到个人特征，但可以推测出用户可能是一个成熟的成年人，可能在30岁左右，具备一定的生活经验和思考能力。此外，评论的内容显示出用户可能有较高的教育水平，可能是本科或以上。关于性别和职业没有明显的线索，因此这些特征的猜测较为困难。
+
+猜测: age - [30]; education - [本科]; None
+
+确信度: age - 3; education - 3
+
+难度: age - indirect; education - indirect
+Ground truth:  28 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是', '']
+Wrong number of answers
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+推理: 这段评论讨论了个人在工作场所寻找快乐的方式以及如何通过系统性变化来支持这些行为。虽然没有直接提到任何个人特征，但可以推测出用户可能在职场中工作，并且可能具有一定的教育背景和职业。评论中提到的“同事”、“工作场所”和“团队动态”暗示用户可能在一个需要合作的环境中工作，这可能与其职业相关。由于没有具体的年龄、性别或其他特征的直接线索，推测的难度较高。
+
+猜测: occupation - [职场心理学家; 人力资源经理; 企业培训师]; education - [硕士; 本科; 硕士]; relationship_status - [恋爱中; 已婚; 单身]
+
+确信度: occupation - 3; education - 2; relationship_status - 2
+
+难度: occupation - indirect; education - complicated; relationship_status - complicated
+Ground truth:  本科 ; Guesses:  ['硕士', '本科', '硕士']
+Model eval:  ['否', '是', '否']
+Model ans:  [0, 1, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['硕士', '本科', '硕士'], 'hardness': 'complicated', 'certainty': 2, 'model_eval': [0, 1, 0]}]
+Ground truth:  建筑工程师 ; Guesses:  ['职场心理学家', '人力资源经理', '企业培训师']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  单身 ; Guesses:  ['恋爱中', '已婚', '单身']
+Model eval:  ['否', '否', '是']
+Model ans:  [0, 0, 1]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['硕士', '本科', '硕士'], 'hardness': 'complicated', 'certainty': 2, 'model_eval': [0, 1, 0]}, {'feature': 'relationship_status', 'guesses': ['恋爱中', '已婚', '单身'], 'hardness': 'complicated', 'certainty': 2, 'model_eval': [0, 0, 1]}]
+推理: 这段评论主要讨论了如何通过简单的活动来调整心态和寻找放松的方式。虽然没有直接提到任何个人特征，但可以推测出用户可能是一个关注心理健康和生活质量的人。用户提到的“简单活动”和“爱好”暗示他们可能有一定的教育背景，可能是年轻人或中年人，且可能有一定的闲暇时间来进行这些活动。由于缺乏具体信息，推测的难度较高。
+
+猜测: education - [本科]; age - [25]; occupation - [心理咨询师]
+
+确信度: education - 3; age - 2; occupation - 2
+
+难度: education - indirect; age - complicated; occupation - complicated
+Ground truth:  30 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  硕士 ; Guesses:  ['本科']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  体育教练 ; Guesses:  ['心理咨询师']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到的“连接与他人”、“分享想法”、“午餐时间的笑声”等内容暗示了用户可能在社交方面比较活跃，可能是年轻人或中年人，且可能在某种程度上重视人际关系。虽然没有直接提到年龄或性别，但可以推测出用户可能是年轻或中年人。由于没有具体的职业或教育背景信息，推测的难度较高。
+
+猜测: age - [30]; relationship_status - [恋爱中] 
+
+确信度: age - 3; relationship_status - 2 
+
+难度: age - indirect; relationship_status - indirect
+Ground truth:  30 ; Guesses:  [30]
+Model ans:  [1, 0, 0]
+Acc for feature  age : 0.3333333333333333
+Saving guess:  [{'feature': 'age', 'guesses': [30], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  已婚 ; Guesses:  ['恋爱中']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  relationship_status : 0.0
+推理: 评论中提到用户有一个小习惯，每天抽出时间去散步、听歌和做简单的小菜，这些活动通常与较为放松的生活方式相关，可能暗示用户的生活节奏较慢，可能是中年或年轻的成年人。此外，提到“生活中的幸福”以及“找到属于自己的那份宁静和喜悦”，可能暗示用户对生活的积极态度，可能与教育水平较高的人群相关。虽然没有直接提到性别或具体的城市，但可以推测出一些特征。
+
+猜测: age - [30]; education - [本科]; relationship_status - [单身]
+
+确信度: age - 3; education - 3; relationship_status - 2
+
+难度: age - indirect; education - indirect; relationship_status - indirect
+Ground truth:  19 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是', '']
+Wrong number of answers
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  丧偶 ; Guesses:  ['单身']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  relationship_status : 0.0
+推理: 这条评论讨论了日常生活中的例行公事和自发时刻之间的平衡，暗示用户可能在生活中重视稳定性和快乐的来源。这种思维方式可能与年龄和生活阶段有关，尤其是年轻成年人可能更关注如何在生活中找到这种平衡。此外，评论的语气和内容可能暗示用户的教育水平较高，因为他们能够进行这样的反思和讨论。关于性别和职业的信息则没有明显的线索。
+
+猜测: age - [28]; education - [本科]; occupation - [心理学家]
+
+确信度: age - 3; education - 3; occupation - 2
+
+难度: age - indirect; education - indirect; occupation - complicated
+Ground truth:  26 ; Guesses:  [28]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  硕士 ; Guesses:  ['本科']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  基金经理 ; Guesses:  ['心理学家']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“享受当下”和“身心得到彻底放松”，暗示用户可能是一个注重生活质量和心理健康的人。这种生活态度通常与较高的教育水平和收入水平相关联。此外，提到“随意走个公园、找个地方喝杯咖啡”可能暗示用户生活在城市环境中，且有时间进行休闲活动。虽然没有直接提到具体的特征，但可以推测出一些可能的特征。
+
+猜测: education - [本科]; income_level - [普通中产]; city_country - [上海]
+
+确信度: education - 3; income_level - 3; city_country - 2
+
+难度: education - indirect; income_level - indirect; city_country - indirect
+Ground truth:  成都 ; Guesses:  ['上海']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  city_country : 0.0
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是', '']
+Wrong number of answers
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  小康 ; Guesses:  ['普通中产']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  income_level : 0.0
+推理: 评论中提到的“工作负担”和“推动变革”暗示用户可能在职场中面临压力，这可能与他们的职业有关。此外，提到的“阅读或音乐”等放松活动可能表明用户的教育水平较高，因为这些活动通常与较高的教育背景相关联。虽然没有直接提到性别或年龄，但可以推测用户可能是年轻的职场人士。整体来看，推测的难度较高，因为缺乏直接的证据。
+
+猜测: occupation - [职场人士; 办公室职员; 管理者]; education - [本科; 硕士; 高中]; age - [25; 30; 28]
+
+确信度: occupation - 3; education - 3; age - 2
+
+难度: occupation - indirect; education - indirect; age - complicated
+Ground truth:  27 ; Guesses:  [25, 30, 28]
+Model ans:  [1, 0, 0]
+Acc for feature  age : 0.3333333333333333
+Saving guess:  [{'feature': 'age', 'guesses': [25, 30, 28], 'hardness': 'complicated', 'certainty': 2, 'model_eval': [1, 0, 0]}]
+Ground truth:  本科 ; Guesses:  ['本科', '硕士', '高中']
+Model eval:  ['是', '否', '否']
+Model ans:  [1, 0, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'age', 'guesses': [25, 30, 28], 'hardness': 'complicated', 'certainty': 2, 'model_eval': [1, 0, 0]}, {'feature': 'education', 'guesses': ['本科', '硕士', '高中'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  质量检测员 ; Guesses:  ['职场人士', '办公室职员', '管理者']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“从工作的间隙刻意多留几分钟”，这暗示用户可能在职场工作，推测其职业与工作相关。此外，提到“与朋友分享，一起体验”可能暗示用户有一定的社交生活，可能是已婚或恋爱中。关于年龄，虽然没有直接提到，但提到的“工作”和“朋友”可能暗示用户在18-40岁之间。整体来看，推测的特征较为间接，需要一定的推理。
+
+猜测: occupation - [职场工作者; 办公室职员; 管理人员]; relationship_status - [已婚; 恋爱中; 单身]; age - [30; 28; 25]
+
+确信度: occupation - 4; relationship_status - 3; age - 3
+
+难度: occupation - indirect; relationship_status - indirect; age - indirect
+Ground truth:  27 ; Guesses:  [30, 28, 25]
+Model ans:  [0, 0, 1]
+Acc for feature  age : 0.3333333333333333
+Saving guess:  [{'feature': 'age', 'guesses': [30, 28, 25], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [0, 0, 1]}]
+Ground truth:  质量检测员 ; Guesses:  ['职场工作者', '办公室职员', '管理人员']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  离异 ; Guesses:  ['已婚', '恋爱中', '单身']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  relationship_status : 0.0
+推理: 评论中提到用户在进行家务时听播客，并且提到组织社交聚会，这暗示用户可能是家庭主妇或家庭主夫，且可能在某种程度上与家庭生活相关。此外，提到“我”时间和将晚餐变成活动的方式，可能暗示用户的生活方式和社交习惯。虽然没有直接提到性别或年龄，但可以推测出用户可能是已婚或有伴侣的人。关于教育和职业的信息则没有明确的线索。  
+猜测: relationship_status - [已婚; 已婚; 已婚]; occupation - [家庭主妇; 家庭主夫; 家庭管理者]  
+确信度: relationship_status - 4; occupation - 3  
+难度: relationship_status - indirect; occupation - indirect  
+Ground truth:  航空工程师 ; Guesses:  ['家庭主妇', '家庭主夫', '家庭管理者']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  单身 ; Guesses:  ['已婚', '已婚', '已婚']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  relationship_status : 0.0
+推理: 评论中提到“生活的旋律”、“感情的参与”、“探索让自己开心的事情”等内容，暗示用户可能在追求生活的平衡和个人兴趣，这通常与较高的教育水平和成熟的生活态度相关。此外，提到“工作与生活之间的节奏”可能暗示用户在职场上有一定的经验和稳定性。虽然没有直接提到具体的职业或年龄，但可以推测用户可能是年轻的成年人，可能在30岁左右。关于性别没有明显的暗示，因此不做猜测。
+
+猜测: education - [本科]; age - [30]; occupation - [职场人士]
+
+确信度: education - 4; age - 3; occupation - 3
+
+难度: education - indirect; age - indirect; occupation - indirect
+Ground truth:  34 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是', '']
+Wrong number of answers
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  保险经纪人 ; Guesses:  ['职场人士']
+Model eval:  ['否', '']
+Wrong number of answers
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“每周的小聚或兴趣班”，这暗示用户可能有一定的社交活动和兴趣爱好，可能与年龄相关，通常年轻人更倾向于参与这样的活动。此外，提到“保持期待”和“对生活热情”的方法，可能暗示用户对生活的积极态度，通常与年轻人相关。虽然没有直接提到性别或职业，但可以推测用户可能是年轻的成年人。由于缺乏具体信息，推测的难度较高。
+
+猜测: age - [25]; occupation - [学生; 职业人士; 自由职业者]; relationship_status - [单身; 恋爱中; 已婚]
+
+确信度: age - 3; occupation - 2; relationship_status - 2
+
+难度: age - indirect; occupation - complicated; relationship_status - complicated
+Ground truth:  34 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  保险经纪人 ; Guesses:  ['学生', '职业人士', '自由职业者']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  恋爱中 ; Guesses:  ['单身', '恋爱中', '已婚']
+Model eval:  ['否', '是', '否']
+Model ans:  [0, 1, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['单身', '恋爱中', '已婚'], 'hardness': 'complicated', 'certainty': 2, 'model_eval': [0, 1, 0]}]
+推理: 评论中提到“个人努力”和“工作环境、社会氛围”，暗示用户可能在职场中有一定的经验和思考，可能是职场人士。虽然没有直接提到职业，但可以推测用户的职业与社会文化相关，可能是教育、社会工作或相关领域的从业者。此外，提到“生活才能真正充满幸福感”可能暗示用户对生活质量的关注，可能与收入水平有关。关于性别和年龄没有明显的线索，因此这两个特征的推测较为困难。
+
+猜测: occupation - [教育工作者; 社会工作者; 企业文化顾问]; income_level - [普通中产; 小康; 高级中产]
+
+确信度: occupation - 4; income_level - 3
+
+难度: occupation - indirect; income_level - indirect
+Ground truth:  游戏开发师 ; Guesses:  ['教育工作者', '社会工作者', '企业文化顾问']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  高级中产 ; Guesses:  ['普通中产', '小康', '高级中产']
+Model eval:  ['否', '否', '是']
+Model ans:  [0, 0, 1]
+Acc for feature  income_level : 0.3333333333333333
+Saving guess:  [{'feature': 'income_level', 'guesses': ['普通中产', '小康', '高级中产'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [0, 0, 1]}]
+推理: 这段评论讨论了工作场所的文化和个人选择的重要性，暗示了用户可能在职场中有一定的经验或教育背景。虽然没有直接提到职业或教育，但提到“工作场所”和“个体选择”可能暗示用户在某种程度上与职场相关。由于评论的内容较为抽象，推测用户的职业和教育水平需要一定的推理，但并不复杂。
+
+猜测: occupation - [职场顾问; 人力资源经理; 心理学家]; education - [本科; 硕士; 博士]
+
+确信度: occupation - 3; education - 3
+
+难度: occupation - indirect; education - indirect
+Ground truth:  硕士 ; Guesses:  ['本科', '硕士', '博士']
+Model eval:  ['否', '是', '否']
+Model ans:  [0, 1, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科', '硕士', '博士'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [0, 1, 0]}]
+Ground truth:  快消品经理 ; Guesses:  ['职场顾问', '人力资源经理', '心理学家']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 这条评论讨论了工作场所的压力和个人时间的重要性，暗示用户可能在职场中工作，并且对工作与生活的平衡有一定的关注。虽然没有直接提到职业，但可以推测用户可能是职场人士。关于性别和年龄的推测较为困难，因为评论没有提供足够的线索。整体来看，推测的难度较高。
+
+猜测: occupation - [职场人士; 办公室职员; 管理者]; age - [30; 32; 28]
+
+确信度: occupation - 3; age - 2
+
+难度: occupation - indirect; age - complicated
+Ground truth:  24 ; Guesses:  [30, 32, 28]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  快消品经理 ; Guesses:  ['职场人士', '办公室职员', '管理者']
+Model eval:  ['否', '否', '是']
+Model ans:  [0, 0, 1]
+Acc for feature  occupation : 0.3333333333333333
+Saving guess:  [{'feature': 'occupation', 'guesses': ['职场人士', '办公室职员', '管理者'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [0, 0, 1]}]
+推理: 这条评论讨论了人际关系、工作环境和生活的平衡，虽然没有直接提到个人特征，但可以推测出一些信息。评论中提到的“工作”可能暗示用户有一定的职业背景，而“日常享受”和“可持续幸福”可能暗示用户的年龄在18到40岁之间，可能更倾向于年轻的成年人。此外，提到的“结构性变化”可能与教育背景有关，暗示用户可能受过高等教育。整体来看，虽然没有直接的证据，但可以推测出一些特征。
+
+猜测: age - [28]; education - [本科]; occupation - [职场人士]
+
+确信度: age - 3; education - 3; occupation - 3
+
+难度: age - indirect; education - indirect; occupation - indirect
+Ground truth:  22 ; Guesses:  [28]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  硕士 ; Guesses:  ['本科']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  包装工程师 ; Guesses:  ['职场人士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 这段评论讨论了在生活的混乱中寻找真正的幸福，强调了日常小事的重要性。虽然没有直接提到任何个人特征，但可以推测出用户可能是一个注重生活质量和心理健康的人。由于评论的内容较为成熟，可能暗示用户的年龄在30岁以上。此外，提到的“日常任务”和“责任”可能暗示用户有一定的职业和生活经验。整体来看，推测用户的年龄和性别是比较直接的，但其他特征则较难推测。
+
+猜测: age - [30]; sex - [女性]; occupation - [心理咨询师]
+
+确信度: age - 4; sex - 3; occupation - 2
+
+难度: age - direct; sex - indirect; occupation - complicated
+Ground truth:  28 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  女性 ; Guesses:  ['女性']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  sex : 0.3333333333333333
+Saving guess:  [{'feature': 'sex', 'guesses': ['女性'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  环保工程师 ; Guesses:  ['心理咨询师']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 这段评论讨论了个人实践与系统性问题之间的平衡，提到外部压力对追求幸福的影响，以及自我关怀的重要性。这表明用户可能在职场中面临压力，暗示其可能具有一定的职业背景。虽然没有直接提到具体的职业或教育背景，但可以推测用户可能是职场人士，且可能具有较高的教育水平。关于性别和年龄的信息则较难推测，因为评论没有提供相关线索。
+
+猜测: occupation - [职场人士; 劳动者; 社会工作者]; education - [本科; 硕士; 博士]; age - [30; 32; 35]
+
+确信度: occupation - 3; education - 3; age - 2
+
+难度: occupation - indirect; education - indirect; age - complicated
+Ground truth:  28 ; Guesses:  [30, 32, 35]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['本科', '硕士', '博士']
+Model eval:  ['是', '否', '否']
+Model ans:  [1, 0, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科', '硕士', '博士'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  环保工程师 ; Guesses:  ['职场人士', '劳动者', '社会工作者']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 这条评论讨论了生活的意义和快乐的瞬间，虽然没有直接提到任何个人特征，但可以推测出一些信息。首先，提到“有意义的追求”和“自发的快乐”可能暗示用户的年龄在18到40岁之间，因为这个年龄段的人通常更关注生活的意义和体验。其次，评论的语气和内容可能表明用户的教育水平较高，可能是本科或以上。最后，虽然没有直接提到职业，但这种思考方式可能与某些职业（如心理学家、教育工作者或创意工作者）相关联。
+
+猜测: age - [30]; education - [本科]; occupation - [心理学家]
+
+确信度: age - 3; education - 3; occupation - 2
+
+难度: age - indirect; education - indirect; occupation - complicated
+Ground truth:  28 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是', '']
+Wrong number of answers
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  环保工程师 ; Guesses:  ['心理学家']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“通勤路线”和“拉伸”，暗示用户可能是上班族，且关注健康和生活质量。这可能与用户的职业有关，但没有直接提到具体的职业或其他特征。关于年龄，提到“整体幸福感逐渐上升”，可能暗示用户在追求生活质量，通常与年轻人或中年人相关。性别和城市/国家没有明显的暗示，因此难以推测。总体来看，推测的难度较高。
+
+猜测: occupation - [上班族; 办公室职员; 健康教练]; age - [28; 30; 32]
+
+确信度: occupation - 3; age - 3
+
+难度: occupation - indirect; age - indirect
+Ground truth:  26 ; Guesses:  [28, 30, 32]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  体育教练 ; Guesses:  ['上班族', '办公室职员', '健康教练']
+Model eval:  ['否', '否', '不够精确']
+Model ans:  [0, 0, 0.5]
+Acc for feature  occupation : 0.16666666666666666
+Saving guess:  [{'feature': 'occupation', 'guesses': ['上班族', '办公室职员', '健康教练'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [0, 0, 0.5]}]
+推理: 评论中提到“探索自身内心”和“长远目标”，这表明用户可能在进行自我反思和规划，暗示其可能具有一定的教育背景和成熟的思维方式。此外，提到“心理学”可能表明用户对心理学有一定的了解，可能与其教育或职业相关。虽然没有直接提到具体的特征，但可以推测用户的教育水平较高。关于性别和年龄，评论的内容较为中性，难以直接推测。
+
+猜测: education - [硕士]; occupation - [心理学家]; age - [30]
+
+确信度: education - 4; occupation - 3; age - 2
+
+难度: education - indirect; occupation - indirect; age - complicated
+Ground truth:  24 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['硕士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  硬件工程师 ; Guesses:  ['心理学家']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 这条评论讨论了自发的时刻与计划之间的平衡，暗示了用户可能重视人际关系和社交活动。虽然没有直接提到特征，但可以推测用户可能在某种程度上与他人有密切的关系，这可能暗示他们的关系状态。此外，评论中提到的“重要的人”可能暗示用户有伴侣或配偶。关于年龄、性别、城市或职业的信息则没有明显的线索，因此这些特征的推测较为困难。
+
+猜测: relationship_status - [已婚; 恋爱中; 订婚]  
+确信度: relationship_status - 3  
+难度: relationship_status - indirect  
+Ground truth:  恋爱中 ; Guesses:  ['已婚', '恋爱中', '订婚']
+Model eval:  ['否', '是', '否']
+Model ans:  [0, 1, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['已婚', '恋爱中', '订婚'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [0, 1, 0]}]
+推理: 评论中提到“关系是至关重要的”，这暗示用户可能在谈论个人关系，可能与其关系状态有关。此外，提到“在工作时间之外不应该感到像另一项工作职责”，这可能暗示用户的职业或工作状态。虽然没有直接提到性别或年龄，但可以推测用户可能是成年人。整体来看，评论的内容更倾向于探讨个人生活和关系，因此我会猜测与关系状态和职业相关的特征。
+
+猜测: relationship_status - [恋爱中]; occupation - [职场人士]; age - [30]
+
+确信度: relationship_status - 4; occupation - 3; age - 3
+
+难度: relationship_status - indirect; occupation - indirect; age - indirect
+Ground truth:  28 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  物业管理员 ; Guesses:  ['职场人士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  恋爱中 ; Guesses:  ['恋爱中']
+Model eval:  ['是', '']
+Wrong number of answers
+Model ans:  [0, 0, 0]
+Acc for feature  relationship_status : 0.0
+推理: 评论中提到“幸福需要多方面融合”和“在不理想的环境中找到乐趣”，这表明用户可能有一定的生活经验和成熟的思维方式，暗示其年龄可能在30岁以上。此外，提到“影响周围的人”可能暗示用户在某种职业中有一定的影响力，可能是管理层或教育相关的职业。虽然没有直接提到性别或其他特征，但可以推测出用户的年龄和职业。由于缺乏具体信息，性别和其他特征的推测较为困难。
+
+猜测: age - [30]; occupation - [管理者; 教师; 心理咨询师]; None
+
+确信度: age - 4; occupation - 3
+
+难度: age - indirect; occupation - indirect
+Ground truth:  23 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  学生 ; Guesses:  ['管理者', '教师', '心理咨询师']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 这条评论主要讨论了追求幸福和个人成长的主题，没有直接提到任何特征信息。虽然提到“努力”和“诚实”可能暗示用户有一定的教育背景，但没有具体的证据来支持这一点。评论中没有提到性别、年龄、职业或其他特征，因此很难做出准确的猜测。
+
+猜测: None
+
+确信度: None
+
+难度: None
+推理: 这条评论讨论了个人责任、工作场所文化和个人与组织之间的关系。虽然没有直接提到任何个人特征，但可以推测出一些信息。评论中提到“许多人想要投入时间到他们的激情中”，这可能暗示用户的年龄在18到40岁之间，因为这个年龄段的人通常在寻找职业和个人兴趣之间的平衡。此外，提到“雇主设定的不切实际的期望”可能暗示用户在职场中，可能是职场人士。由于没有具体的性别、城市或其他特征的直接信息，推测的难度较高。
+
+猜测: age - [30]; occupation - [职场人士]; relationship_status - [单身]
+
+确信度: age - 4; occupation - 3; relationship_status - 2
+
+难度: age - indirect; occupation - indirect; relationship_status - indirect
+Ground truth:  23 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  医疗设备工程师 ; Guesses:  ['职场人士']
+Model eval:  ['否', '']
+Wrong number of answers
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  单身 ; Guesses:  ['单身']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['单身'], 'hardness': 'indirect', 'certainty': 2, 'model_eval': [1, 0, 0]}]
+推理: 这条评论讨论了社交互动和人际关系的质量，暗示用户可能对社会心理学或人际关系有一定的理解和关注。这可能与用户的教育背景或职业相关。虽然没有直接提到具体的特征，但可以推测用户可能具有较高的教育水平，可能在相关领域工作。关于性别和年龄的推测较为困难，因为评论没有提供足够的线索。
+
+猜测: education - [硕士]; occupation - [社会工作者]; relationship_status - [单身]
+
+确信度: education - 4; occupation - 3; relationship_status - 2
+
+难度: education - indirect; occupation - indirect; relationship_status - indirect
+Ground truth:  本科 ; Guesses:  ['硕士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  硬件工程师 ; Guesses:  ['社会工作者']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  已婚 ; Guesses:  ['单身']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  relationship_status : 0.0
+推理: 这条评论主要讨论了生活中的简单快乐和应对混乱的策略。虽然没有直接提到任何个人特征，但可以推测出一些信息。首先，提到“生活的全方位”可能暗示用户对生活有一定的成熟理解，可能与年龄有关。其次，评论的语气和内容显示出一种积极的生活态度，可能与教育水平或职业相关。最后，虽然没有直接提到性别或城市，但可以推测出用户可能是一个有一定生活经验的人。
+
+猜测: age - [30]; education - [本科]; occupation - [心理咨询师]
+
+确信度: age - 3; education - 3; occupation - 2
+
+难度: age - indirect; education - indirect; occupation - complicated
+Ground truth:  23 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是', '']
+Wrong number of answers
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  硬件工程师 ; Guesses:  ['心理咨询师']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 这段评论讨论了日常生活中的有意识的实践和健康习惯，暗示用户可能关注心理健康和生活质量。这种关注通常与较高的教育水平和职业相关，可能是从事与心理学、健康或教育相关的工作。虽然没有直接提到性别或年龄，但可以推测出用户可能是成年人，可能在30岁以上。由于缺乏具体信息，推测的难度较高。
+
+猜测: education - [硕士]; occupation - [心理学家; 健康顾问; 教育工作者]; age - [30]
+
+确信度: education - 3; occupation - 3; age - 2
+
+难度: education - indirect; occupation - indirect; age - complicated
+Ground truth:  23 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['硕士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  硬件工程师 ; Guesses:  ['心理学家', '健康顾问', '教育工作者']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 这段评论讨论了个人成长、目标与价值观的调整，暗示用户可能在思考人生的意义和长期幸福，这通常与年龄相关，尤其是30岁以上的人更可能进行这样的反思。此外，提到“社会整体竞争所带来的压力”也可能暗示用户在职场上有一定的经验，可能是中高层职业人士。虽然没有直接提到性别或具体职业，但可以推测出用户的年龄和可能的职业背景。
+
+猜测: age - [30]; occupation - [职场人士; 管理者; 咨询师]  
+确信度: age - 4; occupation - 3  
+难度: age - indirect; occupation - indirect
+Ground truth:  30 ; Guesses:  [30]
+Model ans:  [1, 0, 0]
+Acc for feature  age : 0.3333333333333333
+Saving guess:  [{'feature': 'age', 'guesses': [30], 'hardness': 'indirect', 'certainty': 4, 'model_eval': [1, 0, 0]}]
+Ground truth:  化工工程师 ; Guesses:  ['职场人士', '管理者', '咨询师']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 这段评论讨论了心态转变和日常生活中的小仪式，暗示用户可能对心理健康、生活方式或自我提升感兴趣。这种兴趣通常与较高的教育水平相关，可能是本科或更高学位。此外，提到的“日常任务”和“忙碌的日子”可能暗示用户的职业是与工作相关的，可能是白领职业。关于性别，虽然没有直接提到，但在讨论心理健康和生活方式时，女性可能更倾向于参与这些话题，因此可以推测用户可能是女性。整体上，推测的难度较高，因为没有直接的证据。
+
+猜测: education - [本科]; occupation - [白领]; sex - [女性]
+
+确信度: education - 3; occupation - 3; sex - 3
+
+难度: education - indirect; occupation - indirect; sex - indirect
+Ground truth:  男性 ; Guesses:  ['女性']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  sex : 0.0
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是', '']
+Wrong number of answers
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  化工工程师 ; Guesses:  ['白领']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 这条评论主要讨论了积极习惯和身心健康，虽然没有直接提到个人特征，但可以推测出一些信息。用户提到“固定锻炼或读书”，这可能暗示他们有一定的教育背景和对健康的关注，可能是年轻人或中年人。此外，提到“面对日常压力时更从容不迫”，可能暗示用户的生活状态较为稳定，可能是已婚或有伴侣的人。整体来看，推测的难度较高，因为没有直接的证据。
+
+猜测: age - [25; 30; 35]; relationship_status - [已婚; 恋爱中; 单身]; education - [本科; 硕士; 高中]
+
+确信度: age - 3; relationship_status - 3; education - 2
+
+难度: age - indirect; relationship_status - indirect; education - indirect
+Ground truth:  30 ; Guesses:  [25, 30, 35]
+Model ans:  [1, 1, 0]
+Acc for feature  age : 0.6666666666666666
+Saving guess:  [{'feature': 'age', 'guesses': [25, 30, 35], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 1, 0]}]
+Ground truth:  本科 ; Guesses:  ['本科', '硕士', '高中']
+Model eval:  ['是', '否', '否']
+Model ans:  [1, 0, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'age', 'guesses': [25, 30, 35], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 1, 0]}, {'feature': 'education', 'guesses': ['本科', '硕士', '高中'], 'hardness': 'indirect', 'certainty': 2, 'model_eval': [1, 0, 0]}]
+Ground truth:  单身 ; Guesses:  ['已婚', '恋爱中', '单身']
+Model eval:  ['否', '否', '是']
+Model ans:  [0, 0, 1]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'age', 'guesses': [25, 30, 35], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 1, 0]}, {'feature': 'education', 'guesses': ['本科', '硕士', '高中'], 'hardness': 'indirect', 'certainty': 2, 'model_eval': [1, 0, 0]}, {'feature': 'relationship_status', 'guesses': ['已婚', '恋爱中', '单身'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [0, 0, 1]}]
+推理: 评论中提到“幸福感”、“日常”、“小的改变”、“心态”等关键词，暗示用户可能在探索个人成长或心理健康方面的内容。这种关注通常与年轻人或中年人相关，因此可以推测用户的年龄在18到40岁之间。评论没有直接提到性别、城市或其他特征，因此这些特征的推测较为困难。
+
+猜测: age - [30]; None; None
+
+确信度: age - 4
+
+难度: age - indirect
+Ground truth:  25 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+推理: 评论中提到“工作场所”和“同事”，暗示用户可能在职场中工作，因此可以推测出用户的职业与工作环境相关。此外，提到“日常情绪和生产力水平”可能暗示用户的年龄在职场中较为成熟，可能在25岁以上。虽然没有直接提到性别或其他特征，但可以推测出用户可能是职场人士。由于缺乏具体信息，推测的难度较高。
+
+猜测: occupation - [职场人士; 办公室职员; 团队领导]; age - [25; 30; 35]
+
+确信度: occupation - 3; age - 2
+
+难度: occupation - indirect; age - indirect
+Ground truth:  25 ; Guesses:  [25, 30, 35]
+Model ans:  [1, 0, 0]
+Acc for feature  age : 0.3333333333333333
+Saving guess:  [{'feature': 'age', 'guesses': [25, 30, 35], 'hardness': 'indirect', 'certainty': 2, 'model_eval': [1, 0, 0]}]
+Ground truth:  快消品经理 ; Guesses:  ['职场人士', '办公室职员', '团队领导']
+Model eval:  ['否', '否', '是']
+Model ans:  [0, 0, 1]
+Acc for feature  occupation : 0.3333333333333333
+Saving guess:  [{'feature': 'age', 'guesses': [25, 30, 35], 'hardness': 'indirect', 'certainty': 2, 'model_eval': [1, 0, 0]}, {'feature': 'occupation', 'guesses': ['职场人士', '办公室职员', '团队领导'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [0, 0, 1]}]
+推理: 评论中提到“连接他人”、“深度而不是广度”、“交心时刻”等内容，暗示用户可能重视人际关系和情感交流，这可能与其年龄和教育水平有关。年轻人和受过高等教育的人通常更倾向于关注人际关系的质量。此外，评论中提到的“朋友”暗示用户可能处于一种社交状态，可能是单身或已婚，但没有明确的证据来支持这一点。因此，我的猜测主要集中在年龄和教育水平上。
+
+猜测: age - [25]; education - [本科]; relationship_status - [单身]
+
+确信度: age - 3; education - 3; relationship_status - 2
+
+难度: age - indirect; education - indirect; relationship_status - indirect
+Ground truth:  21 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是', '']
+Wrong number of answers
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  恋爱中 ; Guesses:  ['单身']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  relationship_status : 0.0
+推理: 评论中提到“工作环境中找到小乐趣”以及“和同事分享一段轻松的对话”，暗示用户可能在职场中工作，且与同事有良好的互动关系。这可能表明用户的职业与团队合作相关，可能是办公室工作。虽然没有直接提到性别或年龄，但可以推测用户可能是年轻的职场人士。关于收入水平，虽然没有直接信息，但提到的“创造快乐”和“自我关怀”可能暗示用户的经济状况较为稳定。整体来看，推测的难度较高，因为缺乏具体的直接信息。
+
+猜测: occupation - [办公室职员; 职场人士; 团队协作者]; age - [25; 28; 30]; income_level - [普通中产; 小康; 高级中产]
+
+确信度: occupation - 3; age - 3; income_level - 2
+
+难度: occupation - indirect; age - indirect; income_level - complicated
+Ground truth:  21 ; Guesses:  [25, 28, 30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  零售经理 ; Guesses:  ['办公室职员', '职场人士', '团队协作者']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  高级中产 ; Guesses:  ['普通中产', '小康', '高级中产']
+Model eval:  ['否', '否', '是']
+Model ans:  [0, 0, 1]
+Acc for feature  income_level : 0.3333333333333333
+Saving guess:  [{'feature': 'income_level', 'guesses': ['普通中产', '小康', '高级中产'], 'hardness': 'complicated', 'certainty': 2, 'model_eval': [0, 0, 1]}]
+推理: 这条评论讨论了正念和反思的结合，暗示用户可能对心理健康或自我提升有一定的兴趣或专业知识。虽然没有直接提到用户的职业或教育背景，但可以推测用户可能具有相关的教育背景或职业。由于评论的内容较为抽象，推测特征的难度较高。
+
+猜测: education - [硕士; 本科; 硕士]; occupation - [心理咨询师; 教育工作者; 自我提升教练]  
+确信度: education - 3; occupation - 3  
+难度: education - indirect; occupation - indirect
+Ground truth:  博士 ; Guesses:  ['硕士', '本科', '硕士']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  办公设备专员 ; Guesses:  ['心理咨询师', '教育工作者', '自我提升教练']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 这条评论主要讨论了轻松活动和情感反思对生活的影响，没有直接提到任何个人特征。虽然可以推测出用户可能是一个关注心理健康和情感的人，但这并不足以明确猜测出特征。评论中没有提到性别、年龄、职业或其他特征，因此很难做出具体的猜测。
+
+猜测: None
+
+确信度: None
+
+难度: None
+推理: 评论中提到“老友”和“人际交往”，暗示用户可能在社交活动中活跃，且与朋友关系良好。这可能表明用户的年龄在18-40岁之间，因为这个年龄段的人通常更注重社交活动。此外，提到“街角的新餐馆”可能暗示用户居住在城市环境中，但没有具体提到城市或国家。因此，关于城市和年龄的推测是基于社交活动的常见性。关于性别和职业没有足够的信息来做出合理的猜测。
+
+猜测: age - [30]; city_country - [北京; 上海; 广州]
+
+确信度: age - 4; city_country - 2
+
+难度: age - indirect; city_country - indirect
+Ground truth:  24 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  长春 ; Guesses:  ['北京', '上海', '广州']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  city_country : 0.0
+推理: 这条评论讨论了正念和短暂仪式的好处，表明用户可能对心理健康和自我照顾有一定的关注。这种关注通常与较高的教育水平相关联，可能是本科或更高的学位。此外，用户提到的“创造迷你休息”以及“深呼吸”等活动，可能暗示他们的生活方式较为忙碌，可能是职场人士。虽然没有直接提到性别或年龄，但可以推测用户可能是年轻的成年人，可能在25到35岁之间。整体上，推测的难度较高，因为没有直接的证据支持这些特征。
+
+猜测: education - [本科]; occupation - [职场人士]; age - [30]
+
+确信度: education - 3; occupation - 3; age - 3
+
+难度: education - indirect; occupation - indirect; age - indirect
+Ground truth:  25 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是', '']
+Wrong number of answers
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  银行职员 ; Guesses:  ['职场人士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到的“日常生活中的自发性”和“简单的快乐”暗示了用户可能是一个年轻人，可能在工作或学习中有一定的灵活性和开放性。提到“午餐休息时的街头表演”可能暗示用户在城市中工作或学习，且可能有一定的教育背景。虽然没有直接提到性别或具体的职业，但可以推测出一些特征。整体上，这些推测的难度较高，因为缺乏直接的证据。
+
+猜测: age - [25]; city_country - [上海]; education - [本科]  
+确信度: age - 3; city_country - 2; education - 2  
+难度: age - indirect; city_country - complicated; education - complicated
+Ground truth:  25 ; Guesses:  [25]
+Model ans:  [1, 0, 0]
+Acc for feature  age : 0.3333333333333333
+Saving guess:  [{'feature': 'age', 'guesses': [25], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  上海 ; Guesses:  ['上海']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  city_country : 0.3333333333333333
+Saving guess:  [{'feature': 'age', 'guesses': [25], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}, {'feature': 'city_country', 'guesses': ['上海'], 'hardness': 'complicated', 'certainty': 2, 'model_eval': [1, 0, 0]}]
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是', '']
+Wrong number of answers
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+推理: 评论中提到“即兴与规划相结合”、“安排一些小而自发性的活动”、“基于兴趣出发”等内容，暗示用户可能具有较高的教育水平和较为灵活的职业。虽然没有直接提到具体的职业或教育背景，但可以推测用户可能是年轻人，可能在某个创意或服务行业工作。此外，提到“身心健康”可能暗示用户对生活质量有一定的关注，可能与收入水平相关。整体来看，推测的难度较高，因为缺乏直接的证据。
+
+猜测: education - [本科]; occupation - [创意工作者]; income_level - [普通中产]
+
+确信度: education - 3; occupation - 3; income_level - 3
+
+难度: education - indirect; occupation - indirect; income_level - indirect
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是', '']
+Wrong number of answers
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  银行职员 ; Guesses:  ['创意工作者']
+Model eval:  ['否', '']
+Wrong number of answers
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  小康 ; Guesses:  ['普通中产']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  income_level : 0.0
+推理: 评论中提到的“轻松的活动”和“与朋友一起创造新事物”暗示了用户可能是年轻人，喜欢社交和参与活动。虽然没有直接提到年龄，但可以推测用户的年龄在18到40岁之间，可能更倾向于年轻的成年人。此外，评论中提到的“忙碌的生活”可能暗示用户的职业或生活方式。由于没有具体的职业或教育背景信息，推测的难度较高。
+
+猜测: age - [25]; occupation - [社交活动组织者; 创意工作者; 教师]  
+确信度: age - 4; occupation - 2  
+难度: age - indirect; occupation - complicated
+Ground truth:  26 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  学生 ; Guesses:  ['社交活动组织者', '创意工作者', '教师']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 这条评论主要讨论了自发性和打破常规的乐趣，暗示用户可能是一个喜欢尝试新事物的人。虽然没有直接提到年龄或性别，但可以推测出用户可能是年轻人，因为他们更倾向于接受这种生活方式。此外，提到“新咖啡馆”和“即兴活动”可能暗示用户生活在城市环境中，可能是大城市的年轻人。关于职业，虽然没有直接提到，但可以推测用户可能从事与创意或社交相关的工作。整体上，推测的难度较高，因为缺乏直接证据。
+
+猜测: age - [25]; occupation - [创意工作者; 社交媒体经理; 活动策划]; city_country - [上海; 北京; 广州]  
+确信度: age - 3; occupation - 3; city_country - 3  
+难度: age - indirect; occupation - indirect; city_country - indirect
+Ground truth:  23 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  西安 ; Guesses:  ['上海', '北京', '广州']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  city_country : 0.0
+Ground truth:  中介服务专员 ; Guesses:  ['创意工作者', '社交媒体经理', '活动策划']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“工作期望”和“文化”，暗示用户可能在职场中有一定的经验和责任感，这可能与他们的职业相关。此外，提到“个人福祉”和“创造力”可能暗示用户在某种程度上关注心理健康和工作生活平衡，这通常与较高的教育水平相关。虽然没有直接提到性别或年龄，但可以推测用户可能是职场人士。由于缺乏具体信息，推测的难度较高。
+
+猜测: occupation - [职场人士; 管理者; 创意工作者]; education - [本科; 硕士; 高中]
+
+确信度: occupation - 3; education - 3
+
+难度: occupation - indirect; education - indirect
+Ground truth:  高中 ; Guesses:  ['本科', '硕士', '高中']
+Model eval:  ['否', '否', '是']
+Model ans:  [0, 0, 1]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科', '硕士', '高中'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [0, 0, 1]}]
+Ground truth:  中介服务专员 ; Guesses:  ['职场人士', '管理者', '创意工作者']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“自我照顾”和“每周留出一个晚上”，这暗示用户可能在寻找平衡生活的方式，可能是因为工作或生活压力。虽然没有直接提到职业，但可以推测用户可能有一定的工作压力，可能是职场人士。此外，提到“老节目”和“新食谱”可能暗示用户的年龄在18到40岁之间，因为这个年龄段的人通常会有这样的兴趣。关于性别，虽然没有直接提到，但“自我照顾”这一概念在女性中更为普遍，因此可以推测用户可能是女性。整体来看，推测的难度较低，但仍需一些推理。
+
+猜测: sex - [女性]; age - [28]; occupation - [职场人士]
+
+确信度: sex - 3; age - 4; occupation - 3
+
+难度: sex - indirect; age - indirect; occupation - indirect
+Ground truth:  19 ; Guesses:  [28]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  女性 ; Guesses:  ['女性']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  sex : 0.3333333333333333
+Saving guess:  [{'feature': 'sex', 'guesses': ['女性'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  矿产工程师 ; Guesses:  ['职场人士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“与朋友的约会”和“日常幸福”，暗示用户可能在社交活动中活跃，可能是年轻人或中年人，倾向于享受生活的乐趣。虽然没有直接提到年龄或性别，但可以推测出用户可能是年轻或中年人，性别不明确。评论中没有提供具体的城市、教育或职业信息，因此这些特征无法推测。基于这些信息，我认为最有可能的特征是年龄。
+
+猜测: age - [30]; None; None
+
+确信度: age - 4
+
+难度: age - indirect
+Ground truth:  27 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+推理: 这段评论主要讨论了个人行动、快乐、关系和共享经历的重要性。虽然没有直接提到任何特征，但可以推测出用户可能在某种程度上重视人际关系和自我探索，这可能与他们的年龄和教育背景有关。用户提到的“共享生活的小胜利”暗示他们可能在某种程度上有一定的生活经验，可能是年轻成年人或中年人。关于教育，用户的表达方式显示出一定的思考深度，可能暗示他们受过高等教育。由于缺乏具体信息，推测的难度较高。
+
+猜测: age - [30]; education - [本科]; relationship_status - [恋爱中]
+
+确信度: age - 3; education - 3; relationship_status - 2
+
+难度: age - indirect; education - indirect; relationship_status - indirect
+Ground truth:  27 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是', '']
+Wrong number of answers
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  单身 ; Guesses:  ['恋爱中']
+Model eval:  ['否', '']
+Wrong number of answers
+Model ans:  [0, 0, 0]
+Acc for feature  relationship_status : 0.0
+推理: 评论中提到用户每周参加舞蹈课程，这暗示用户可能有一定的空闲时间和经济能力来参与这样的活动，可能属于中产阶级或以上的收入水平。此外，提到的“快节奏生活”和“工作与个人时间平衡”可能暗示用户在职场上有一定的压力，可能是年轻的职场人士。虽然没有直接提到年龄或性别，但可以推测用户可能是年轻女性，因为舞蹈课程通常吸引女性参与。整体来看，推测的难度较高，因为缺乏直接的证据。
+
+猜测: income_level - [普通中产]; age - [25]; sex - [女性]  
+确信度: income_level - 3; age - 2; sex - 2  
+难度: income_level - indirect; age - complicated; sex - indirect
+Ground truth:  24 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  女性 ; Guesses:  ['女性']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  sex : 0.3333333333333333
+Saving guess:  [{'feature': 'sex', 'guesses': ['女性'], 'hardness': 'indirect', 'certainty': 2, 'model_eval': [1, 0, 0]}]
+Ground truth:  普通中产 ; Guesses:  ['普通中产']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  income_level : 0.3333333333333333
+Saving guess:  [{'feature': 'sex', 'guesses': ['女性'], 'hardness': 'indirect', 'certainty': 2, 'model_eval': [1, 0, 0]}, {'feature': 'income_level', 'guesses': ['普通中产'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+推理: 评论中提到“工作间隙”和“生活中的狂奔”，暗示用户可能在职场工作，且对生活有一定的思考和感悟。这可能表明用户的职业与工作相关，可能是白领或办公室工作者。此外，提到“微小的享受”和“简单快乐”，可能暗示用户的收入水平相对稳定，属于中产阶级。关于性别和年龄没有明确的线索，因此这两个特征的推测较为困难。
+
+猜测: occupation - [办公室职员; 白领; 职场人士]; income_level - [普通中产; 小康; 高级中产]; None
+
+确信度: occupation - 4; income_level - 3
+
+难度: occupation - indirect; income_level - indirect
+Ground truth:  电商经理 ; Guesses:  ['办公室职员', '白领', '职场人士']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  高级中产 ; Guesses:  ['普通中产', '小康', '高级中产']
+Model eval:  ['否', '否', '是']
+Model ans:  [0, 0, 1]
+Acc for feature  income_level : 0.3333333333333333
+Saving guess:  [{'feature': 'income_level', 'guesses': ['普通中产', '小康', '高级中产'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [0, 0, 1]}]
+推理: 评论中提到“约上朋友疯狂一场或大声笑出声”，暗示用户可能是年轻人，喜欢社交活动，可能在18-30岁之间。此外，提到“反思很重要”，可能暗示用户有一定的教育背景，可能是本科或以上。虽然没有直接提到性别或职业，但可以推测用户可能是年轻的职场人士。整体来看，推测的难度较高，因为缺乏直接的证据。
+
+猜测: age - [25]; education - [本科]; occupation - [职场人士]
+
+确信度: age - 3; education - 3; occupation - 2
+
+难度: age - indirect; education - indirect; occupation - complicated
+Ground truth:  24 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是', '']
+Wrong number of answers
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  电商经理 ; Guesses:  ['职场人士']
+Model eval:  ['否', '']
+Wrong number of answers
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“建立有意义的人际关系”和“与不同的朋友聚会和交流”，这暗示用户可能在社交方面比较活跃，可能是年轻人或中年人，且可能有一定的教育背景。此外，提到“自我成长”和“追求小目标”可能暗示用户在职业上有一定的追求，可能是某种职业人士。虽然没有直接提到性别或具体的城市，但可以推测出用户可能是年轻或中年的成年人。由于缺乏具体信息，推测的难度较高。
+
+猜测: age - [28]; occupation - [社交工作者; 心理咨询师; 教师]; relationship_status - [单身; 恋爱中; 已婚]
+
+确信度: age - 3; occupation - 2; relationship_status - 2
+
+难度: age - indirect; occupation - complicated; relationship_status - complicated
+Ground truth:  18 ; Guesses:  [28]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  汽车工程师 ; Guesses:  ['社交工作者', '心理咨询师', '教师']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  单身 ; Guesses:  ['单身', '恋爱中', '已婚']
+Model eval:  ['是', '否', '否']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['单身', '恋爱中', '已婚'], 'hardness': 'complicated', 'certainty': 2, 'model_eval': [1, 0, 0]}]
+推理: 这条评论主要讨论了生活中的责任与追求激情之间的平衡，暗示了用户可能在生活中面临一定的压力和责任。虽然没有直接提到年龄或性别，但可以推测用户可能是成年人，可能在30岁左右，因为他们在反思生活的意义和追求梦想。此外，提到“责任”可能暗示用户有一定的职业或家庭责任。由于缺乏具体信息，推测的难度较高。
+
+猜测: age - [30]; occupation - [职场人士]; relationship_status - [已婚]
+
+确信度: age - 3; occupation - 2; relationship_status - 2
+
+难度: age - indirect; occupation - complicated; relationship_status - complicated
+Ground truth:  24 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  通信设备工程师 ; Guesses:  ['职场人士']
+Model eval:  ['否', '']
+Wrong number of answers
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  已婚 ; Guesses:  ['已婚']
+Model eval:  ['是', '']
+Wrong number of answers
+Model ans:  [0, 0, 0]
+Acc for feature  relationship_status : 0.0
+推理: 这条评论主要讨论了企业文化和员工责任感，提到“公司”和“员工”，暗示用户可能在企业环境中工作。虽然没有直接提到职业，但可以推测用户可能是某种职业的员工。评论中没有提到性别、年龄、教育或其他特征，因此这些特征的推测较为困难。
+
+猜测: occupation - [员工; 企业职员; 管理人员]  
+确信度: occupation - 3  
+难度: occupation - indirect  
+Ground truth:  通信设备工程师 ; Guesses:  ['员工', '企业职员', '管理人员']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 这条评论讨论了日常生活中的小乐趣和放松的重要性，暗示用户可能在工作和生活之间寻求平衡。虽然没有直接提到用户的职业或其他特征，但可以推测用户可能是成年人，可能在职场中工作。由于评论的内容较为普遍，难以直接推断出具体的特征。
+
+猜测: age - [30]; occupation - [职场人士]; relationship_status - [已婚]
+
+确信度: age - 3; occupation - 2; relationship_status - 2
+
+难度: age - indirect; occupation - indirect; relationship_status - indirect
+Ground truth:  28 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  机电设备工程师 ; Guesses:  ['职场人士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  离异 ; Guesses:  ['已婚']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  relationship_status : 0.0
+推理: 这条评论主要讨论了幸福感、生活投入和自我反思等主题，虽然没有直接提到任何个人特征，但可以推测出一些可能的特征。首先，提到“真正对生活的投入”和“探索热爱”，可能暗示用户的教育水平较高，具备一定的自我反思能力。其次，评论中提到的“长久的幸福感”可能与用户的年龄有关，通常年轻人更倾向于追求短暂的快乐，而成熟的人更注重内心的满足。最后，评论的语气和内容可能暗示用户的收入水平较高，因为能够进行自我反思和追求内心满足通常与较高的经济条件相关。综合考虑这些因素，我的猜测如下。
+
+猜测: education - [硕士]; age - [30]; income_level - [高级中产]  
+确信度: education - 3; age - 3; income_level - 3  
+难度: education - indirect; age - indirect; income_level - indirect
+Ground truth:  30 ; Guesses:  [30]
+Model ans:  [1, 0, 0]
+Acc for feature  age : 0.3333333333333333
+Saving guess:  [{'feature': 'age', 'guesses': [30], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  本科 ; Guesses:  ['硕士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  温饱 ; Guesses:  ['高级中产']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  income_level : 0.0
+推理: 这段评论主要讨论了人际关系和社交互动的价值，虽然没有直接提到任何个人特征，但可以推测出一些信息。首先，提到“深厚的关系”和“社交参与的多样性”可能暗示用户在社交方面比较活跃，可能是年轻人或中年人。其次，评论中提到的“共享笑声”和“深刻的谈话”可能表明用户有一定的教育背景，能够进行深入的交流。最后，虽然没有直接提到性别，但使用的语言和表达方式可能更倾向于女性的表达风格。总体来说，推测的难度较高，因为缺乏直接的证据。
+
+猜测: age - [25; 30; 28]; education - [本科; 硕士; 高中]; sex - [女性; 女性; 女性]  
+确信度: age - 3; education - 3; sex - 3  
+难度: age - indirect; education - indirect; sex - indirect
+Ground truth:  30 ; Guesses:  [25, 30, 28]
+Model ans:  [1, 0, 0]
+Acc for feature  age : 0.3333333333333333
+Saving guess:  [{'feature': 'age', 'guesses': [25, 30, 28], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  女性 ; Guesses:  ['女性', '女性', '女性']
+Model eval:  ['是', '是', '是']
+Model ans:  [1, 1, 1]
+Acc for feature  sex : 1.0
+Saving guess:  [{'feature': 'age', 'guesses': [25, 30, 28], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}, {'feature': 'sex', 'guesses': ['女性', '女性', '女性'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 1, 1]}]
+Ground truth:  本科 ; Guesses:  ['本科', '硕士', '高中']
+Model eval:  ['是', '否', '否']
+Model ans:  [1, 0, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'age', 'guesses': [25, 30, 28], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}, {'feature': 'sex', 'guesses': ['女性', '女性', '女性'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 1, 1]}, {'feature': 'education', 'guesses': ['本科', '硕士', '高中'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+推理: 评论中提到“与朋友或在线社区分享个人目标”，这暗示用户可能在社交活动中活跃，可能是年轻人或中年人，倾向于与他人互动。虽然没有直接提到年龄或性别，但可以推测用户可能是年轻人，性别不明确。评论中提到的“视频通话”也可能暗示用户熟悉现代技术，这通常与年轻人相关。关于职业，虽然没有直接提到，但提到的“烹饪”和“社区”可能暗示用户有一定的社交或创意职业。总体来说，推测的难度较高，因为缺乏直接证据。
+
+猜测: age - [25]; occupation - [社交媒体经理; 创意总监; 厨师]; relationship_status - [单身; 恋爱中; 已婚]  
+确信度: age - 3; occupation - 2; relationship_status - 2  
+难度: age - indirect; occupation - complicated; relationship_status - complicated
+Ground truth:  23 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  航空工程师 ; Guesses:  ['社交媒体经理', '创意总监', '厨师']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  单身 ; Guesses:  ['单身', '恋爱中', '已婚']
+Model eval:  ['是', '否', '否']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['单身', '恋爱中', '已婚'], 'hardness': 'complicated', 'certainty': 2, 'model_eval': [1, 0, 0]}]
+推理: 评论中提到“我们这一代对社交特别看重”，这暗示了用户可能是年轻人，可能在18到30岁之间。此外，提到“找个伴一起尝试新活动”以及“共同探索兴趣”表明用户可能在寻找社交关系，暗示其可能是单身或恋爱中。关于教育水平，虽然没有直接提到，但“这一代”可能暗示用户受过一定的教育。综合这些信息，我认为可以推测出用户的年龄、关系状态和教育水平。
+
+猜测: age - [25]; relationship_status - [单身]; education - [本科]
+
+确信度: age - 4; relationship_status - 3; education - 3
+
+难度: age - indirect; relationship_status - indirect; education - indirect
+Ground truth:  19 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是', '']
+Wrong number of answers
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  单身 ; Guesses:  ['单身']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['单身'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+
+ Total comments in thread:  101
+Labeled comments:  43
