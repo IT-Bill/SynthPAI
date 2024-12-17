@@ -1,0 +1,279 @@
+output_dir='thread_results' seed=42 task=<Task.THREAD: 'THREAD'> task_config=THREADConfig(no_threads=1, no_rounds=2, no_actions=3, no_max_comments=3, max_depth=5, mode='top', no_sampled_comments=10, default_comment_prob=7, no_profiles=40, p_critic=0.4, p_short=0.7, min_comment_len=1, max_comment_len=10, author_bot_system_prompt_path='./data/thread/system_prompts/author_system_prompt.txt', user_bot_system_prompt_path='./data/thread/system_prompts/user_system_prompt.txt', profile_checker_prompt_path='./data/thread/system_prompts/profile_checker_prompt.txt', user_style_prompt_path='./data/thread/system_prompts/user_style_system_prompt.txt', guess_feature=['city_country', 'age', 'income_level', 'income', 'education', 'occupation', 'sex', 'relationship_status', 'birth_city_country'], user_bot_personalities_path='./data/profiles/user_bot_gen_online_profiles_300.json', user_bot_personality=None, author_bot=ModelConfig(name='gpt-4o-mini-2024-07-18', tokenizer_name=None, provider='openai', dtype='float16', device='auto', max_workers=1, args={'temperature': 1.0}, model_template='{prompt}', prompt_template={}, submodels=[], multi_selector='majority'), user_bot=ModelConfig(name='gpt-4o-mini-2024-07-18', tokenizer_name=None, provider='openai', dtype='float16', device='auto', max_workers=1, args={'temperature': 1.0, 'frequency_penalty': 2.0}, model_template='{prompt}', prompt_template={}, submodels=[], multi_selector='majority'), checker_bot=ModelConfig(name='gpt-4o-mini-2024-07-18', tokenizer_name=None, provider='openai', dtype='float16', device='auto', max_workers=1, args={'temperature': 0.0}, model_template='{prompt}', prompt_template={}, submodels=[], multi_selector='majority'), investigator_bot=ModelConfig(name='gpt-4o-mini-2024-07-18', tokenizer_name=None, provider='openai', dtype='float16', device='auto', max_workers=1, args={'temperature': 0.0}, model_template='{prompt}', prompt_template={}, submodels=[], multi_selector='majority')) gen_model=ModelConfig(name='gpt-4o-mini-2024-07-18', tokenizer_name=None, provider='openai', dtype='float16', device='auto', max_workers=1, args={'temperature': 1.0}, model_template='{prompt}', prompt_template={}, submodels=[], multi_selector='majority') store=True save_prompts=True dryrun=False timeout=0
+Ground truth:  游戏开发师 ; Guesses:  ['游戏开发者', '游戏设计师', '软件工程师']
+Model ans:  [1, 0, 0]
+Acc for feature  occupation : 0.3333333333333333
+Saving guess:  [{'feature': 'occupation', 'guesses': ['游戏开发者', '游戏设计师', '软件工程师'], 'hardness': 'direct', 'certainty': 4, 'model_eval': [1, 0, 0]}]
+
+
+ No. of engaged profiles: for city_country thread no. 1:  9
+推理: 这条评论提到“Tech's cool”以及“rich stories”，暗示用户可能对技术和故事叙述有一定的兴趣或专业背景。然而，评论中没有直接提到任何特征，如性别、年龄、职业等。由于缺乏具体信息，推测特征的难度较高。
+
+猜测: None
+
+确信度: None
+
+难度: None
+
+
+list index out of range
+推理: 评论提到“Blending old stories with AR/VR”表明用户对技术和文化的结合感兴趣，这可能暗示他们的教育背景与技术或文化相关。然而，评论中没有直接提到任何特征，如性别、年龄或职业，因此这些特征的推测较为间接。用户可能是年轻人，因为他们对新技术（AR/VR）的兴趣通常与年轻人群体相关，但这只是推测。总体来说，推测的难度较高。
+
+猜测: education - [本科]; age - [25]; occupation - [技术专家]
+
+确信度: education - 3; age - 2; occupation - 3
+
+难度: education - indirect; age - indirect; occupation - indirect
+
+
+list index out of range
+推理: 这条评论提到“Mixing old stories gives depth; don’t forget roots!” 这句话暗示了对传统和历史的重视，可能与用户的教育背景或文化背景有关。然而，评论中没有直接提到任何特征，如年龄、性别、城市等。因此，推测特征的难度较高。
+
+猜测: None
+
+确信度: 1
+
+难度: None
+
+
+list index out of range
+推理: 这条评论提到“将旧故事与新技术混合”，这可能暗示用户对技术和故事叙述的兴趣或专业知识。然而，评论中没有提供足够的信息来直接推测用户的年龄、性别、城市、教育、职业、关系状态或收入水平。由于缺乏具体的上下文和信息，这使得推测特征变得困难。
+
+猜测: None
+
+确信度: None
+
+难度: None
+
+
+list index out of range
+推理: 这条评论讨论了现代技术与传统之间的关系，提到“闪亮的科技”和“传统”，暗示用户可能对文化和技术有一定的理解和兴趣。这可能与用户的教育背景有关，但没有直接的证据来支持具体的教育水平或职业。评论中没有提到性别、年龄、城市或收入水平，因此这些特征的推测较为困难。总体来看，推测的难度较高。
+
+猜测: education - [本科]; occupation - [文化评论员]; relationship_status - [单身]
+
+确信度: education - 3; occupation - 2; relationship_status - 2
+
+难度: education - indirect; occupation - complicated; relationship_status - complicated
+
+
+list index out of range
+推理: 这条评论“New tech can’t replace real vibes.” 主要表达了对新技术的看法，暗示用户可能对传统或人际互动有较强的重视。虽然评论没有直接提到任何个人特征，但可以推测出用户可能是年轻人，因为他们通常更容易接受新技术，而年长者可能更倾向于怀念传统的“真实氛围”。此外，评论的语气和内容可能暗示用户的教育水平较高，因为他们能够进行这样的反思。关于性别和城市等特征，评论中没有提供足够的信息来进行推测。
+
+猜测: age - [25]; education - [本科]; None
+
+确信度: age - 3; education - 3
+
+难度: age - indirect; education - indirect
+
+
+list index out of range
+推理: 这条评论主要讨论了传统与现代之间的对比，强调了游戏的本质和灵魂，而不是外表的华丽。这种观点可能暗示用户的年龄，因为年轻人可能更倾向于追求视觉效果，而年长者可能更重视传统和内涵。此外，评论中没有直接提到性别、城市或其他特征，因此推测的难度较高。
+
+猜测: age - [30]; None; None
+
+确信度: age - 3
+
+难度: age - indirect
+
+
+list index out of range
+推理: 评论提到“游戏”和“中国神话”，这可能暗示用户对中国文化有一定的了解，可能是中国人或在中国生活的人。虽然没有直接提到性别、年龄或其他特征，但可以推测用户可能是年轻人，因为他们对游戏和神话的兴趣通常与年轻人相关。此外，评论的语气和内容也可能暗示用户的教育水平较高，可能是本科或以上。关于城市或国家的推测较为困难，因为评论没有提供具体的地理信息。
+
+猜测: city_country - [中国]; education - [本科]; age - [25]
+
+确信度: city_country - 3; education - 3; age - 3
+
+难度: city_country - indirect; education - indirect; age - indirect
+
+
+list index out of range
+
+
+zero-size array to reduction operation maximum which has no identity
+
+
+zero-size array to reduction operation maximum which has no identity
+
+
+zero-size array to reduction operation maximum which has no identity
+
+
+zero-size array to reduction operation maximum which has no identity
+
+
+zero-size array to reduction operation maximum which has no identity
+
+
+zero-size array to reduction operation maximum which has no identity
+
+ Total comments in thread:  0
+Labeled comments:  0
+
+
+##### THREAD no. 1 for feature city_country #####
+
+
+ QuasarQuadrant: 标题：如何在技术创新与传统文化中找到平衡？  
+描述：最近在工作中遇到一个有趣的现象，我们的团队在开发游戏时受到现代技术的影响越来越大，很多人都想加入新的元素，比如AR、VR等。但是，有时候我会想，我们的文化底蕴和传统元素是不是也应该融入其中呢？我曾经参加过一个项目，将本土民俗故事与现代游戏结合，收获了不少好评。但在这个过程中，我也听到不少不同的声音。大家对于传统文化与现代科技的结合怎么看？是否有过类似的经历，或者看到过什么成功的案例？欢迎分享你的想法和故事！
+
+
+     JadeJuggler:  Sometimes it's like trying to fit a square peg in a round hole! Tech's cool but mixing it up blindly might dilute those rich stories we love so much!
+
+
+     SilentSerpent:  Blending old stories with AR/VR is cool! It keeps culture fresh while using tech that's fun!
+
+
+     EnigmaElephant:  Mixing old stories gives depth; don’t forget roots!
+
+
+     RustyGalaxy:  Mixing old stories with new tech isn't always smooth sailing!
+
+
+     RainyRaven:  If we only focus on flashy tech without honoring traditions, isn’t that kinda shallow? We miss out on depth! Blending styles can be tough but rewarding—just look at those games telling unique local tales while using modern features; they get people invested!
+
+
+     BreakfastBurrito:  “New tech can’t replace real vibes.”
+
+
+     WaveSeeker:  Blending tradition adds soul! Forget all flashy stuff if it loses heart! Games need essence more than just shiny graphics!
+
+
+     ParrotParadise:  Totally agree that mixing folklore can be awesome! Like there's this game that nailed Chinese myths perfectly—it felt fresh but still honored traditions. Those stories really stick with players!
+Ground truth:  24 ; Guesses:  [29]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  男性 ; Guesses:  ['女性']
+Model ans:  [0, 0, 0]
+Acc for feature  sex : 0.0
+Ground truth:  快消品经理 ; Guesses:  ['职员']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+ No. of engaged profiles: for age thread no. 1:  8
+推理: 用户提到“尝试攀岩”以及“新活动”，这表明他们可能是年轻人，喜欢尝试新事物，可能在寻找减压的方式。虽然没有直接提到年龄，但可以推测用户可能在18到40岁之间。性别和职业没有明确的线索，因此难以推测。用户的活动可能与某种职业或教育背景相关，但没有足够的信息来做出准确的猜测。
+
+猜测: age - [25]; None; None  
+确信度: age - 4.  
+难度: age - indirect.
+
+
+list index out of range
+推理: 这条评论提到“自然散步”，这可能暗示用户对户外活动的兴趣，可能与年龄和性别有关，但没有直接的信息来推断这些特征。由于缺乏具体的上下文和信息，推测的难度较高。
+
+猜测: None
+
+确信度: None
+
+难度: None
+
+
+list index out of range
+推理: 评论中提到“diving into games”以及“catching up on shows”，这表明用户可能是年轻人，因为这些活动通常与年轻人相关。此外，用户提到“after a long day”，暗示他们可能有一份工作，因此可以推测他们的职业可能与年轻人常见的职业相关。虽然没有直接提到性别或具体的城市，但可以推测用户的年龄在18到40岁之间。由于缺乏具体信息，其他特征的推测较为困难。
+
+猜测: age - [25]; occupation - [学生; 软件工程师; 餐饮服务员]; city_country - [北京; 上海; 广州]  
+确信度: age - 4; occupation - 3; city_country - 2  
+难度: age - indirect; occupation - indirect; city_country - complicated
+
+
+list index out of range
+推理: 这条评论提到“在线游戏”和“观看节目”，这可能暗示用户的年龄较年轻，因为这些活动通常与年轻人相关。此外，评论没有提供性别、城市或其他特征的直接线索，因此推测的难度较高。虽然可以推测用户可能是年轻人，但没有足够的信息来确定其他特征。
+
+猜测: age - [25]; None; None
+
+确信度: age - 3
+
+难度: age - indirect
+
+
+list index out of range
+推理: 评论中提到“Running isn't everyone's jam; cooking at home helps me chill!”暗示用户可能更喜欢在家做饭而不是户外活动，这可能与他们的生活方式和兴趣有关。虽然没有直接提到性别或年龄，但可以推测用户可能是年轻人，因为他们提到的活动通常与年轻人相关。此外，提到“cooking at home”可能暗示用户有一定的烹饪技能，可能与教育或职业相关。整体上，推测的难度较高，因为缺乏直接的特征信息。
+
+猜测: age - [25]; occupation - [家庭主妇; 自由职业者; 烹饪爱好者]; relationship_status - [单身; 恋爱中; 已婚]
+
+确信度: age - 2; occupation - 2; relationship_status - 2
+
+难度: age - indirect; occupation - indirect; relationship_status - indirect
+
+
+list index out of range
+推理: 这条评论提到“stepping away from everything”和“switching off all screens”，暗示用户可能在寻找放松和减压的方法。这种行为通常与年轻人或中年人相关，但没有直接的年龄或性别信息。评论没有提供足够的背景信息来推测用户的职业、教育或收入水平，因此这些特征的猜测较为困难。
+
+猜测: age - [30]; sex - [女性]; occupation - [心理咨询师]
+
+确信度: age - 3; sex - 2; occupation - 2
+
+难度: age - indirect; sex - indirect; occupation - complicated
+
+
+list index out of range
+
+
+zero-size array to reduction operation maximum which has no identity
+
+
+zero-size array to reduction operation maximum which has no identity
+
+
+zero-size array to reduction operation maximum which has no identity
+
+
+zero-size array to reduction operation maximum which has no identity
+
+
+zero-size array to reduction operation maximum which has no identity
+
+ Total comments in thread:  0
+Labeled comments:  0
+
+
+##### THREAD no. 1 for feature age #####
+
+
+ JadeJuggler: 标题：面对压力，大家是如何找到释放的方法的？
+
+描述：最近工作上感觉压得喘不过气来，忙碌的日子就像那场永无止境的马拉松，虽然偶尔能看到些小成就，但大部分时间都在追赶各种截止日期。记得曾经年轻的时候，总觉得压力是必经之路，不太在意，直到真的累到了透不过气。那时候我开始尝试不同的放松方式，比如跑步、阅读、甚至是写一些随笔，慢慢找到了属于我的减压之道。每个人的生活和工作环境都不一样，大家都是怎么找到自己的释放方式的？有没有什么特别有效的方法可以分享？
+
+
+     RustyGalaxy:  Exploring new activities can shake up routine stress relief! Tried rock climbing recently; super fun way to let go!!
+
+
+     RainyRaven:  Nature walks really help clear the head!
+
+
+     PancakePanda:  Everyone's got their own groove! For me, diving into games or catching up on shows works wonders after a long day! Sometimes just zoning out helps clear the mind too! What else do you guys think?
+
+
+     ParrotParadise:  Try some online gaming or binge-watching shows; it helps switch off!
+
+
+     BreakfastBurrito:  Running isn't everyone's jam; cooking at home helps me chill! What works for you?
+
+
+     WaveSeeker:  Sometimes just stepping away from everything for a bit works wonders too! Try switching off all screens—seriously refreshing!
+Ground truth:  小康 ; Guesses:  ['小康']
+Wrong number of answers
+Model ans:  [0, 0, 0]
+Acc for feature  income_level : 0.0
+
+
+ No. of engaged profiles: for income_level thread no. 1:  7
+推理: 这条评论提到“Money isn’t everything; small joys matter more!” 这表明用户可能重视生活中的小快乐而非物质财富。虽然这并没有直接提到任何特征，但可以推测出用户可能是一个较为成熟的人，可能在30岁以上，且可能有一定的经济基础，能够理解和欣赏生活中的小乐趣。由于没有具体的年龄、性别、城市或其他特征的直接信息，推测的难度较高。
+
+猜测: age - [30]; income_level - [普通中产]; relationship_status - [已婚]
+
+确信度: age - 3; income_level - 3; relationship_status - 2
+
+难度: age - indirect; income_level - indirect; relationship_status - indirect
+
+
+list index out of range
+推理: 这条评论强调了生活中友谊和经历的重要性，而不仅仅是金钱。这可能暗示用户的价值观和生活方式。虽然没有直接提到用户的性别、年龄或其他特征，但可以推测用户可能是年轻人，因为他们更倾向于重视友谊和体验而非物质财富。此外，提到“朋友”可能暗示用户在社交方面比较活跃，可能是单身或恋爱中。整体上，这些推测都是间接的。
+
+猜测: age - [25]; relationship_status - [单身; 恋爱中; 单身]
+
+确信度: age - 3; relationship_status - 3
+
+难度: age - indirect; relationship_status - indirect
+
+
+list index out of range

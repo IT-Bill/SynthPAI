@@ -340,6 +340,10 @@ class THREADConfig(PBM):
     checker_bot: ModelConfig = Field(
         default=None, description="Checker model used in generation"
     )
+    
+    investigator_bot: ModelConfig = Field(
+        default=None, description="Investigator model used in generation"
+    )
 
     class Config:
         extra = Extra.forbid

@@ -197,8 +197,10 @@ class RedditThread:
                             prompts=[]
                         )
             answer = bot.continue_conversation(conv_checker)
-            if bool(re.search("[yesYES]", answer)): # added regex checker to check if user is "interested"
-                keys.append(pers) # add profile
+            # if bool(re.search("[yesYES]", answer)): # added regex checker to check if user is "interested"
+            #     keys.append(pers) # add profile
+            if bool(re.search("[是]", answer)):
+                keys.append(pers)
 
             profile_count += 1
             if profile_count > no_profiles:
@@ -240,19 +242,26 @@ class RedditThread:
         
         # fix guess feature string to pass to post builder prompt to fix ambiguity
         if guess_feature == "city_country":
-            guess_feature = "current place of living (city and country)"
+            # guess_feature = "current place of living (city and country)"
+            guess_feature = "现居地点（中国城市）"
         if guess_feature == "birth_city_country":
-            guess_feature = "place of birth (city and country)"
+            # guess_feature = "place of birth (city and country)"
+            guess_feature = "出生地点（中国城市）"
         if guess_feature == "relationship_status":
-            guess_feature = "relationship status"
+            # guess_feature = "relationship status"
+            guess_feature = "感情状况"
         if guess_feature == "income_level":
-            guess_feature = "level of income" 
+            # guess_feature = "level of income"
+            guess_feature = "收入水平" 
         if guess_feature == "sex":
-            guess_feature = "gender" 
+            # guess_feature = "gender" 
+            guess_feature = "性别"
         if guess_feature == "occupation":
-            guess_feature = "profession/current job"     
+            # guess_feature = "profession/current job"
+            guess_feature = "职业/当前工作"     
         if guess_feature == "education":
-            guess_feature = "degree and field of studies"
+            # guess_feature = "degree and field of studies"
+            guess_feature = "学位和专业"
 
         profile_skeleton["guess_feature"] = guess_feature
 
@@ -290,8 +299,8 @@ class RedditThread:
 
         for feature in features:
             guess_match = re.search(f'{feature} - \[(.*?)\]', guessed_output)
-            hrd = re.findall(r'Hardness: (.+)', guessed_output)[0]
-            crt = re.findall(r'Certainty: (.+)', guessed_output)[0]
+            hrd = re.findall(r'难度: (.+)', guessed_output)[0]
+            crt = re.findall(r'确信度: (.+)', guessed_output)[0]
             hardness_match = re.search(rf'{feature} - (\w+)', hrd)
 
             if guess_match and hardness_match:
@@ -501,8 +510,8 @@ def save_thread_as_json(thread, filename):
 
     thread_dict = node_to_dict(thread.root)
     
-    with open(filename, 'w') as f:
-        json.dump(thread_dict, f)
+    with open(filename, 'w', encoding="utf-8") as f:
+        json.dump(thread_dict, f, ensure_ascii=False)
 
 def json_to_html(data, indent=0):
     # convert generated thread to HTML page for better readibility
@@ -645,7 +654,7 @@ def run_thread(cfg: Config) -> None:
             save_thread_as_json(thread, thread_filename)
 
             # save in HTML format
-            with open(thread_filename, 'r') as f:
+            with open(thread_filename, 'r', encoding="utf-8") as f:
                 data = json.load(f)
             html_data = json_to_html(data)
             html_filename = thread_filename.replace("json", "html")

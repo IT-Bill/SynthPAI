@@ -1,0 +1,292 @@
+output_dir='thread_results' seed=42 task=<Task.THREAD: 'THREAD'> task_config=THREADConfig(no_threads=1, no_rounds=2, no_actions=3, no_max_comments=3, max_depth=5, mode='top', no_sampled_comments=10, default_comment_prob=7, no_profiles=40, p_critic=0.4, p_short=0.7, min_comment_len=1, max_comment_len=10, author_bot_system_prompt_path='./data/thread/system_prompts/author_system_prompt.txt', user_bot_system_prompt_path='./data/thread/system_prompts/user_system_prompt.txt', profile_checker_prompt_path='./data/thread/system_prompts/profile_checker_prompt.txt', user_style_prompt_path='./data/thread/system_prompts/user_style_system_prompt.txt', guess_feature=['city_country', 'age', 'income_level', 'income', 'education', 'occupation', 'sex', 'relationship_status', 'birth_city_country'], user_bot_personalities_path='./data/profiles/user_bot_gen_online_profiles_300.json', user_bot_personality=None, author_bot=ModelConfig(name='gpt-4o-mini-2024-07-18', tokenizer_name=None, provider='openai', dtype='float16', device='auto', max_workers=1, args={'temperature': 1.0}, model_template='{prompt}', prompt_template={}, submodels=[], multi_selector='majority'), user_bot=ModelConfig(name='gpt-4o-mini-2024-07-18', tokenizer_name=None, provider='openai', dtype='float16', device='auto', max_workers=1, args={'temperature': 1.0, 'frequency_penalty': 2.0}, model_template='{prompt}', prompt_template={}, submodels=[], multi_selector='majority'), checker_bot=ModelConfig(name='gpt-4o-mini-2024-07-18', tokenizer_name=None, provider='openai', dtype='float16', device='auto', max_workers=1, args={'temperature': 0.0}, model_template='{prompt}', prompt_template={}, submodels=[], multi_selector='majority'), investigator_bot=ModelConfig(name='gpt-4o-mini-2024-07-18', tokenizer_name=None, provider='openai', dtype='float16', device='auto', max_workers=1, args={'temperature': 0.0}, model_template='{prompt}', prompt_template={}, submodels=[], multi_selector='majority')) gen_model=ModelConfig(name='gpt-4o-mini-2024-07-18', tokenizer_name=None, provider='openai', dtype='float16', device='auto', max_workers=1, args={'temperature': 1.0}, model_template='{prompt}', prompt_template={}, submodels=[], multi_selector='majority') store=True save_prompts=True dryrun=False timeout=0
+Ground truth:  19 ; Guesses:  [28, 30, 35]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  游戏开发师 ; Guesses:  ['游戏开发者', '软件工程师', '程序员']
+Model ans:  [1, 0, 0]
+Acc for feature  occupation : 0.3333333333333333
+Saving guess:  [{'feature': 'occupation', 'guesses': ['游戏开发者', '软件工程师', '程序员'], 'hardness': 'direct', 'certainty': 4, 'model_eval': [1, 0, 0]}]
+
+
+ No. of engaged profiles: for city_country thread no. 1:  9
+推理: 评论中提到“每周留出几个小时，像定期约朋友那样约自己做热爱的事”，这表明用户可能有一定的闲暇时间和生活方式，暗示他们可能是年轻人或中年人，且可能有一定的经济能力来安排这样的活动。虽然没有直接提到年龄或性别，但可以推测出用户可能是年轻或中年人。关于职业，用户提到“热爱的事”，可能暗示他们有一份工作或职业与他们的兴趣相关。由于没有具体的城市或国家信息，无法推测城市或国家。整体来看，推测的难度较高。
+
+猜测: age - [25; 30; 28]; occupation - [自由职业者; 创意工作者; 教师]; relationship_status - [单身; 恋爱中; 已婚]  
+确信度: age - 3; occupation - 3; relationship_status - 2  
+难度: age - indirect; occupation - indirect; relationship_status - indirect
+
+
+list index out of range
+推理: 评论中提到“每天抽点儿十五分钟投入旧爱”，这可能暗示用户的年龄在年轻到中年之间，因为这个时间段通常与个人兴趣和爱好相关。此外，提到“旧爱”可能暗示用户有一定的情感经历，可能是已婚或恋爱中。关于性别，虽然没有直接提到，但“旧爱”一词可能暗示用户是女性，因为在中文语境中，女性更常使用这样的表达。整体来看，推测的难度较高，因为缺乏直接的证据。
+
+猜测: age - [25]; relationship_status - [恋爱中]; sex - [女性]
+
+确信度: age - 3; relationship_status - 3; sex - 2
+
+难度: age - indirect; relationship_status - indirect; sex - indirect
+
+
+list index out of range
+推理: 这段评论主要讨论时间管理和个人反思，虽然没有直接提到任何特征，但可以推测出一些信息。用户提到“每天花十分钟回忆一下自己真正想做什么”，这可能暗示用户有一定的教育背景，能够进行自我反思和时间管理。此外，提到“久违的感觉”可能暗示用户的年龄在18到40岁之间，可能是年轻人或年轻成年人。关于性别和职业没有明确的线索，因此这些特征的推测较为困难。
+
+猜测: education - [本科]; age - [28]; occupation - None
+
+确信度: education - 3; age - 3
+
+难度: education - indirect; age - indirect
+
+
+list index out of range
+推理: 用户提到“每天留一个小时给自己的兴趣”，这表明他们可能有一定的闲暇时间，暗示他们的收入水平可能较高。此外，提到“野外徒步”和“玩小游戏”可能暗示用户的年龄在年轻到中年之间，因为这些活动通常与年轻人相关。虽然没有直接提到性别或职业，但可以推测用户可能是一个有一定教育背景的人，因为他们提到“看看文档”。因此，我的猜测主要集中在收入水平、年龄和教育上。
+
+猜测: income_level - [高级中产]; age - [28]; education - [本科]  
+确信度: income_level - 4; age - 3; education - 3  
+难度: income_level - indirect; age - indirect; education - indirect
+
+
+list index out of range
+推理: 这条评论提到追求兴趣和个人成长，暗示用户可能在寻找生活的平衡和自我提升。这种思维方式通常与年轻人或中年人相关，因此可以推测用户的年龄在18到40岁之间。评论中没有直接提到性别、城市或其他特征，因此这些特征的推测较为困难。
+
+猜测: age - [30]; None; None
+
+确信度: age - 4
+
+难度: age - indirect
+
+
+list index out of range
+推理: 评论中提到“本职工作再重要，也别忘了享受生活中的乐趣”，暗示用户可能在职场上有一定的压力，可能是职场人士。此外，提到“每天抽出半小时，设定小目标”，显示出用户可能有一定的自我管理能力和生活规划能力，这可能与教育水平和职业相关。虽然没有直接提到性别、年龄或具体的城市，但可以推测用户可能是年轻的职场人士。由于缺乏具体信息，推测的难度较高。
+
+猜测: occupation - [职场人士; 办公室职员; 管理人员]; education - [本科; 硕士; 高中]; age - [25; 30; 28]
+
+确信度: occupation - 3; education - 2; age - 2
+
+难度: occupation - indirect; education - complicated; age - complicated
+
+
+list index out of range
+推理: 评论中提到“职场压力”和“找到时间做自己喜欢的事情”，这暗示用户可能在职场中工作，且可能面临一定的职业压力。虽然没有直接提到职业，但可以推测用户的职业与职场相关。此外，提到“志同道合的人”可能暗示用户在寻找社交或职业网络，这可能与其年龄和教育背景有关。由于没有具体的年龄、性别或其他特征的直接信息，推测的难度较高。
+
+猜测: occupation - [职场人士; 办公室职员; 职业经理]; age - [25; 30; 35]
+
+确信度: occupation - 4; age - 3
+
+难度: occupation - indirect; age - indirect
+
+
+list index out of range
+推理: 这条评论提到制定计划和为兴趣留出时间，暗示用户可能是一个注重自我管理和个人发展的成年人。虽然没有直接提到年龄或性别，但可以推测用户可能在18到40岁之间，因为这个年龄段的人通常更关注个人兴趣和生活平衡。关于性别，评论没有明确的暗示，因此不容易推测。职业方面，虽然没有直接提到，但可以推测用户可能有一定的职业背景，因为他们提到“即使再忙”也能腾出时间，暗示他们可能有一份工作。总体来说，推测的难度较高。
+
+猜测: age - [30]; occupation - [职场人士]; relationship_status - [单身]
+
+确信度: age - 3; occupation - 2; relationship_status - 2
+
+难度: age - indirect; occupation - indirect; relationship_status - indirect
+
+
+list index out of range
+
+
+zero-size array to reduction operation maximum which has no identity
+
+
+zero-size array to reduction operation maximum which has no identity
+
+
+zero-size array to reduction operation maximum which has no identity
+
+
+zero-size array to reduction operation maximum which has no identity
+
+
+zero-size array to reduction operation maximum which has no identity
+
+
+zero-size array to reduction operation maximum which has no identity
+
+ Total comments in thread:  0
+Labeled comments:  0
+
+
+##### THREAD no. 1 for feature city_country #####
+
+
+ QuasarQuadrant: ⣺æµҵԼȤ飿  
+ռˣҵʱȥԼϲ顣ʼӴϷʱ򣬰ҹԴ˷ܸУǳʵֿ֡ڣ˹飬˰üˡôæµȻҵʱȥ׷ԼȤأʲôõĽҺҵľ
+
+
+     JadeJuggler:  ÿСʱԼԼԼȰ¡һʹæҲʧȥ˼飬ǰճһ֣
+
+
+     SilentSerpent:  СĿĺܹؼÿʮͶɰСȷŶ
+
+
+     EnigmaElephant:  ʱʵһԿȰһڵСʱ¼磬ÿ컨ʮӻһԼʲôͨϰܻᷢһЩСȤͬʱҲŽЩ˲ͶСĿ۾һ־Υĸоˡ
+
+
+     RustyGalaxy:  ʱĲףÿһСʱԼȤ翴ĵСϷҰͽʹæҲܽһֿ֡ճд飬ܱȫռҪǿˣ
+
+
+     RainyRaven:  ҵʱ׷ԼȤʵԴ΢Сĸı俪ʼÿֳ10-15ϲС£Ҫгɹֻ۲ܴȤҲΪעȫµĻ
+
+
+     BreakfastBurrito:  æµѹˡÿСʱ趨СĿ꣬һع˷ܸУһԼְҪҲеȤ
+
+
+     WaveSeeker:  ְѹҵʱԼϲȷʵףʱԼÿһСʱı䡣磬ÿʮһ¸Ȥ׷־ͬϵˣعǷ顣æµԼĿְ
+
+
+     ParrotParadise:  ƶһ򵥵ļƻÿΪԼȤ̶ʱΡһϰߣּᷢʹæҲڳһռԼϲ¡ĹУҲ㻹ҵµļ飡
+Ground truth:  24 ; Guesses:  [30, 28, 32]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  快消品经理 ; Guesses:  ['职场人士', '办公室职员', '管理人员']
+Model ans:  [0, 0, 1]
+Acc for feature  occupation : 0.3333333333333333
+Saving guess:  [{'feature': 'occupation', 'guesses': ['职场人士', '办公室职员', '管理人员'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [0, 0, 1]}]
+Ground truth:  恋爱中 ; Guesses:  ['已婚', '恋爱中', '已婚']
+Model ans:  [0, 1, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'occupation', 'guesses': ['职场人士', '办公室职员', '管理人员'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [0, 0, 1]}, {'feature': 'relationship_status', 'guesses': ['已婚', '恋爱中', '已婚'], 'hardness': 'indirect', 'certainty': 4, 'model_eval': [0, 1, 0]}]
+
+
+ No. of engaged profiles: for age thread no. 1:  8
+推理: 这条评论提到“提前规划质量时间”，暗示用户可能重视家庭或人际关系的质量，可能与其生活阶段或关系状态有关。然而，评论中没有直接提到任何具体的个人特征，如性别、年龄或职业。因此，推测的难度较高。
+
+猜测: relationship_status - [已婚; 恋爱中; 单身]  
+确信度: relationship_status - 3  
+难度: relationship_status - indirect  
+
+
+list index out of range
+推理: 评论中提到“每周留出固定约会时间”，这暗示用户可能处于一种关系状态，可能是已婚或恋爱中。此外，提到“创造属于你们的‘小时间’”也表明用户与伴侣之间的亲密关系。虽然没有直接提到性别或年龄，但可以推测用户可能是成年人。由于评论的内容主要围绕关系和活动，因此我将重点放在关系状态上。
+
+猜测: relationship_status - [已婚; 恋爱中; 已婚]; age - [30; 28; 35]  
+确信度: relationship_status - 4; age - 2  
+难度: relationship_status - indirect; age - indirect
+
+
+list index out of range
+推理: 评论中提到“维持联系最关键的是深入交流”，这表明用户可能在谈论人际关系，尤其是亲密关系。提到“关系更稳固”暗示用户可能处于某种关系状态。此外，提到“状态更新”可能暗示用户在某种程度上重视沟通，这可能与年龄相关，因为年轻人可能更倾向于使用这种方式来维持关系。因此，我可以推测用户的关系状态和年龄，但性别、城市、教育和职业等特征则没有明显的线索。
+
+猜测: relationship_status - [恋爱中]; age - [28]; None
+
+确信度: relationship_status - 4; age - 3
+
+难度: relationship_status - indirect; age - indirect
+
+
+list index out of range
+推理: 评论中提到“制定固定约会时间，工作再忙也要坚持”，这暗示了用户可能在一段关系中，并且可能是已婚或恋爱中。虽然没有直接提到性别或年龄，但“固定约会时间”通常与成年人的关系相关，因此可以推测用户的年龄在18-40岁之间。关于职业，虽然没有直接提到，但“工作再忙”暗示用户可能有一份稳定的工作。综合考虑，最有可能的特征是关系状态和年龄。
+
+猜测: relationship_status - [恋爱中]; age - [28]; occupation - [职员]
+
+确信度: relationship_status - 4; age - 3; occupation - 2
+
+难度: relationship_status - indirect; age - indirect; occupation - indirect
+
+
+list index out of range
+推理: 评论中提到“工作上的经验”和“负责做晚饭的小约会”，暗示用户可能在职场上有一定的经验，可能是成年人。提到“晚饭的小约会”也暗示用户可能有伴侣关系，因此可以推测出用户的关系状态。此外，提到“合作或分享爱好的活动”可能暗示用户的教育水平较高，能够理解和参与这样的活动。虽然没有直接提到性别或具体的城市，但可以推测出用户可能是年轻成年人。 
+
+猜测: relationship_status - [恋爱中]; age - [28]; education - [本科]  
+确信度: relationship_status - 4; age - 3; education - 3  
+难度: relationship_status - indirect; age - indirect; education - indirect  
+
+
+list index out of range
+推理: 评论提到“强制约会”，暗示用户可能在谈论恋爱或婚姻相关的事情，这可能表明用户的关系状态。虽然没有直接提到性别或年龄，但“强制约会”可能暗示用户在某个年龄段，通常与约会相关的年龄在18-40岁之间。由于没有具体的城市或国家信息，无法推测城市或国家。基于这些推理，我认为最有可能的特征是关系状态和年龄。
+
+猜测: relationship_status - [恋爱中]; age - [28]; None
+
+确信度: relationship_status - 4; age - 3
+
+难度: relationship_status - indirect; age - indirect
+
+
+list index out of range
+
+
+zero-size array to reduction operation maximum which has no identity
+
+
+zero-size array to reduction operation maximum which has no identity
+
+
+zero-size array to reduction operation maximum which has no identity
+
+
+zero-size array to reduction operation maximum which has no identity
+
+
+zero-size array to reduction operation maximum which has no identity
+
+ Total comments in thread:  0
+Labeled comments:  0
+
+
+##### THREAD no. 1 for feature age #####
+
+
+ JadeJuggler: ⣺ƽ⹤ѵʲô  
+Ϊԭ򣬸оһʱԽԽˡƽʱæżӰ࣬ĩϢ˼ʱҲˮˡǵһΣƻһСԼΪʱȡˣʧ޷ȻҵҪҲͬܺӡæµУҵƽ⣬ֱ˴˵Ĭ͹ͨأûʲôõľ
+
+
+     RustyGalaxy:  ǰ滮ʱ䣬ܼʧ䣬ϧÿһ̡
+
+
+     RainyRaven:  æҪǵġСʱ䡱ÿ̶Լʱ䣬һЩ򵥵ĻһɢҵУܼ˴˵Ĭ
+
+
+     PancakePanda:  άϵؼ뽻СԼᣬ̸̸˴ĵ⣬ùϵȹ̡Ʋһ޲ȫӰ컥ˣԿǶڽһЩ̹ϵġ״̬¡
+
+
+     ParrotParadise:  ƶ̶Լʱ䣬æҲҪ֡
+
+
+     BreakfastBurrito:  ûʵһ㹵ͨСҿѹϵľתΪ˴ϵһַʽõĻһǷĬ뿴СԼᣬһ룬һٷһλ䣡
+
+
+     WaveSeeker:  ׼ڡǿԼᡱȻͱƽߣ
+Ground truth:  34 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  保险经纪人 ; Guesses:  ['职场新人']
+Wrong number of answers
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  小康 ; Guesses:  ['小康']
+Wrong number of answers
+Model ans:  [0, 0, 0]
+Acc for feature  income_level : 0.0
+
+
+ No. of engaged profiles: for income_level thread no. 1:  7
+推理: 这条评论提到“幸福感”与“消费”之间的关系，暗示用户可能对生活的价值观有一定的思考。这种思考通常与教育水平相关，可能暗示用户受过较高的教育。此外，关于消费的讨论可能与收入水平有关，但没有直接证据表明用户的具体收入水平或职业。因此，最有可能的特征是教育水平。其他特征如性别、年龄、城市等没有明显的暗示。
+
+猜测: education - [硕士]; income_level - [普通中产]; None
+
+确信度: education - 4; income_level - 3
+
+难度: education - indirect; income_level - indirect
+
+
+list index out of range
+推理: 这条评论提到“省下的钱比花出去更让人快乐”，暗示用户可能对金钱管理有一定的看法或经验。这可能与用户的收入水平有关，但没有直接的信息来推测其他特征，如年龄、性别或职业。因此，我只能推测收入水平。由于评论的内容较为模糊，推测的难度较高。
+
+猜测: income_level - [普通中产; 小康; 高级中产]  
+确信度: income_level - 3  
+难度: income_level - indirect  
+
+
+list index out of range
+推理: 评论中提到“收入提升”和“小康之路”，这暗示了用户可能处于小康收入水平，并且对生活方式和支出有一定的思考，可能与教育水平和职业相关。虽然没有直接提到具体的职业或教育背景，但可以推测用户的收入水平和对生活的理解与其教育程度有关。关于年龄，虽然没有直接提到，但提到的“小康之路”可能暗示用户在一定的生活阶段，可能在30岁左右。 
+
+猜测: income_level - [小康]; education - [本科]; age - [30] 
+
+确信度: income_level - 4; education - 3; age - 3 
+
+难度: income_level - indirect; education - indirect; age - indirect
+
+
+list index out of range
