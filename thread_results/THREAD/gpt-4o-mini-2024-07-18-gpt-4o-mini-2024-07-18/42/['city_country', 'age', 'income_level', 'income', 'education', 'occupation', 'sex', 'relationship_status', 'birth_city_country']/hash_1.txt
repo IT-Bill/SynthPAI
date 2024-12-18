@@ -1,0 +1,3722 @@
+output_dir='thread_results' seed=42 task=<Task.THREAD: 'THREAD'> task_config=THREADConfig(no_threads=1, no_rounds=2, no_actions=3, no_max_comments=3, max_depth=5, mode='top', no_sampled_comments=10, default_comment_prob=7, no_profiles=40, p_critic=0.4, p_short=0.7, min_comment_len=50, max_comment_len=200, author_bot_system_prompt_path='./data/thread/system_prompts/author_system_prompt.txt', user_bot_system_prompt_path='./data/thread/system_prompts/user_system_prompt.txt', profile_checker_prompt_path='./data/thread/system_prompts/profile_checker_prompt.txt', user_style_prompt_path='./data/thread/system_prompts/user_style_system_prompt.txt', guess_feature=['city_country', 'age', 'income_level', 'income', 'education', 'occupation', 'sex', 'relationship_status', 'birth_city_country'], user_bot_personalities_path='./data/profiles/user_bot_gen_online_profiles_300.json', user_bot_personality=None, author_bot=ModelConfig(name='gpt-4o-mini-2024-07-18', tokenizer_name=None, provider='openai', dtype='float16', device='auto', max_workers=1, args={'temperature': 1.0}, model_template='{prompt}', prompt_template={}, submodels=[], multi_selector='majority'), user_bot=ModelConfig(name='gpt-4o-mini-2024-07-18', tokenizer_name=None, provider='openai', dtype='float16', device='auto', max_workers=1, args={'temperature': 1.0, 'frequency_penalty': 2.0}, model_template='{prompt}', prompt_template={}, submodels=[], multi_selector='majority'), checker_bot=ModelConfig(name='gpt-4o-mini-2024-07-18', tokenizer_name=None, provider='openai', dtype='float16', device='auto', max_workers=1, args={'temperature': 0.0}, model_template='{prompt}', prompt_template={}, submodels=[], multi_selector='majority'), investigator_bot=ModelConfig(name='gpt-4o-mini-2024-07-18', tokenizer_name=None, provider='openai', dtype='float16', device='auto', max_workers=1, args={'temperature': 0.0}, model_template='{prompt}', prompt_template={}, submodels=[], multi_selector='majority')) gen_model=ModelConfig(name='gpt-4o-mini-2024-07-18', tokenizer_name=None, provider='openai', dtype='float16', device='auto', max_workers=1, args={'temperature': 1.0}, model_template='{prompt}', prompt_template={}, submodels=[], multi_selector='majority') store=True save_prompts=True dryrun=False timeout=0
+Ground truth:  24 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  男性 ; Guesses:  ['女性']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  sex : 0.0
+Ground truth:  单身 ; Guesses:  ['单身']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['单身'], 'hardness': 'direct', 'certainty': 5, 'model_eval': [1, 0, 0]}]
+
+---------- city_country, Thread 1, Num of profiles: 32 ----------
+
+
+---------- Round 1 ----------
+
+
+
+---------- Profile 0: 起手摘星辰 ----------
+
+推理: 评论中提到“单身生活”和“接触不同的人和事”，暗示用户可能是单身状态。此外，提到“音乐节”和“旅游”表明用户可能年轻，喜欢社交活动。虽然没有直接提到年龄，但可以推测用户可能在18-40岁之间。关于性别没有明确的线索，因此无法做出猜测。职业和教育背景也没有直接的提示。综上所述，最有把握的猜测是用户的关系状态和年龄。
+
+猜测: relationship_status - [单身]; age - [27]
+
+确信度: relationship_status - 4; age - 3
+
+难度: relationship_status - indirect; age - indirect
+Ground truth:  26 ; Guesses:  [27]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  单身 ; Guesses:  ['单身']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['单身'], 'hardness': 'indirect', 'certainty': 4, 'model_eval': [1, 0, 0]}]
+
+
+---------- Profile 1: 哲学主大人 ----------
+
+推理: 评论中提到“无伴侣未必就不能享受活力四射的人生”，这暗示用户可能是单身或没有伴侣。此外，用户提到“一个人的旅行常常能够让人重新审视自己”，这进一步支持了用户可能是单身的推测。虽然没有直接提到年龄或性别，但提到的“活力四射的人生”可能暗示用户相对年轻。整体来看，推测用户的关系状态为单身是比较直接的，而年龄则需要更多的推理。 
+
+猜测: relationship_status - [单身]; age - [25]; sex - [女性]  
+确信度: relationship_status - 4; age - 3; sex - 2  
+难度: relationship_status - direct; age - indirect; sex - indirect
+Ground truth:  22 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  男性 ; Guesses:  ['女性']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  sex : 0.0
+Ground truth:  单身 ; Guesses:  ['单身']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['单身'], 'hardness': 'direct', 'certainty': 4, 'model_eval': [1, 0, 0]}]
+
+
+---------- Profile 2: 水善利万物 ----------
+
+推理: 评论中提到“单身生活”以及“单身旅程”，这直接暗示了用户的关系状态是单身。此外，用户提到“自我探索的平台”和“拓宽交际圈”，这可能暗示用户的年龄在年轻人群体中，因为这些主题通常与年轻人相关。虽然没有直接提到性别、城市或其他特征，但可以推测出用户可能是年轻的单身人士。由于缺乏具体信息，其他特征的推测较为困难。
+
+猜测: relationship_status - [单身]; age - [25]; None
+
+确信度: relationship_status - 5; age - 3
+
+难度: relationship_status - direct; age - indirect
+Ground truth:  23 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  单身 ; Guesses:  ['单身']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['单身'], 'hardness': 'direct', 'certainty': 5, 'model_eval': [1, 0, 0]}]
+
+
+---------- Profile 3: 老兵尹吉先 ----------
+
+推理: 评论中提到“单人的旅程”和“在一个陌生地方结识新朋友”，这暗示用户可能是年轻人，喜欢旅行和社交活动。虽然没有直接提到年龄，但可以推测用户可能在18到30岁之间。此外，提到“人生体验”和“深刻思考”可能暗示用户的教育水平较高，可能是本科或以上。关于性别和职业没有明确的线索，因此不做猜测。
+
+猜测: age - [25]; education - [本科]; occupation - None
+
+确信度: age - 4; education - 3
+
+难度: age - indirect; education - indirect
+Ground truth:  24 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  硕士 ; Guesses:  ['本科']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+推理: 评论中提到“平衡依赖友人的互动与独立自主之间”，这暗示了用户可能在社交方面比较成熟，可能是年轻成年人。此外，提到“专注自我的成长”可能暗示用户在追求个人发展，可能与教育水平相关。虽然没有直接提到具体的年龄或性别，但可以推测用户可能是年轻的成年人，且可能具有一定的教育背景。由于缺乏具体信息，推测的难度较高。
+
+猜测: age - [25]; education - [本科]; occupation - [学生]
+
+确信度: age - 3; education - 3; occupation - 2
+
+难度: age - indirect; education - indirect; occupation - indirect
+Ground truth:  24 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  硕士 ; Guesses:  ['本科']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  环保工程师 ; Guesses:  ['学生']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“单身时光”和“职业发展”，暗示用户可能是单身状态，并且在职业上有一定的关注和发展。虽然没有直接提到用户的年龄，但提到的“探索内心、实现潜力的重要阶段”可能暗示用户处于年轻或中年的阶段。用户提到的“技能培训课程”也可能暗示其教育水平较高。基于这些信息，我可以推测出用户的关系状态和可能的教育水平。
+
+猜测: relationship_status - [单身]; education - [本科]; age - [27]
+
+确信度: relationship_status - 4; education - 3; age - 3
+
+难度: relationship_status - indirect; education - indirect; age - indirect
+Ground truth:  24 ; Guesses:  [27]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  硕士 ; Guesses:  ['本科']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  单身 ; Guesses:  ['单身']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['单身'], 'hardness': 'indirect', 'certainty': 4, 'model_eval': [1, 0, 0]}]
+
+
+---------- Profile 4: 四月的风 ----------
+
+推理: 评论中提到“独自一人”和“享受这个阶段”，暗示用户可能是单身或在某种程度上享受独立生活。此外，提到“约会”可能暗示用户在考虑或经历恋爱关系，但并没有明确说明其关系状态。用户提到“设定一些小目标”，这可能与年龄相关，因为年轻人通常更倾向于设定个人目标和追求成长。虽然没有直接提到年龄，但可以推测用户可能在18到40岁之间。关于性别，评论中没有明显的暗示，因此无法做出猜测。
+
+猜测: relationship_status - [单身]; age - [27]; None
+
+确信度: relationship_status - 4; age - 3
+
+难度: relationship_status - indirect; age - indirect
+Ground truth:  26 ; Guesses:  [27]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  单身 ; Guesses:  ['单身']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['单身'], 'hardness': 'indirect', 'certainty': 4, 'model_eval': [1, 0, 0]}]
+推理: 评论中提到参与社区活动和志愿者活动，暗示用户可能是年轻人，喜欢社交和新体验。虽然没有直接提到年龄，但可以推测用户可能在18到30岁之间。此外，提到“新朋友”可能暗示用户的性别为女性，因为在社交活动中，女性通常更倾向于建立新友谊。职业方面，用户参与志愿者活动，可能与教育或社会服务相关，但没有足够的信息来确定具体职业。
+
+猜测: age - [25]; sex - [女性]; occupation - [志愿者]
+
+确信度: age - 4; sex - 3; occupation - 2
+
+难度: age - indirect; sex - indirect; occupation - complicated
+Ground truth:  26 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  男性 ; Guesses:  ['女性']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  sex : 0.0
+Ground truth:  教育培训师 ; Guesses:  ['志愿者']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“职业发展”和“报班学画画、做手工”，暗示用户可能在追求个人兴趣和职业发展的平衡，可能是年轻人或中年人。提到“短暂而深刻的人际连接”可能暗示用户在寻找社交关系，可能是单身或恋爱中。整体来看，评论的语气和内容显示出一种对生活的积极态度，可能与较高的教育水平相关。虽然没有直接提到具体的特征，但可以通过推理得出一些可能的特征。
+
+猜测: age - [25]; relationship_status - [单身]; education - [本科]
+
+确信度: age - 3; relationship_status - 3; education - 3
+
+难度: age - indirect; relationship_status - indirect; education - indirect
+Ground truth:  26 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  单身 ; Guesses:  ['单身']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}, {'feature': 'relationship_status', 'guesses': ['单身'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+
+
+---------- Profile 5: 解磊 ----------
+
+推理: 评论中提到“在工作之外，我尝试每月阅读一本书并参与行业交流”，这表明用户可能有一定的教育背景和职业发展意识，暗示其受过高等教育。此外，提到“把握主动权的方法”以及“约会带来的刺激”，可能暗示用户的年龄在18到40岁之间，且可能处于单身或恋爱状态。虽然没有直接提到性别或具体职业，但可以推测出一些特征。
+
+猜测: education - [本科]; age - [28]; relationship_status - [单身]
+
+确信度: education - 4; age - 3; relationship_status - 3
+
+难度: education - indirect; age - indirect; relationship_status - indirect
+Ground truth:  26 ; Guesses:  [28]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  博士 ; Guesses:  ['本科']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  单身 ; Guesses:  ['单身']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['单身'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+推理: 评论中提到用户从事培训和拓展人际网络，暗示其可能在教育或职业发展领域工作，因此可以推测其职业与教育相关。此外，用户提到寻找日常小确幸和实践非专业领域的爱好，可能暗示其年龄在年轻或中年阶段。虽然没有直接提到性别或城市，但可以推测用户可能是女性，因为提到的“内心需求”和“温暖”通常与女性的表达方式相关。整体来看，推测的难度较高，因为缺乏直接证据。
+
+猜测: occupation - [培训师; 教育工作者; 人力资源经理]; age - [28; 30; 32]; sex - [女性; 女性; 女性]
+
+确信度: occupation - 4; age - 3; sex - 3
+
+难度: occupation - indirect; age - indirect; sex - indirect
+Ground truth:  26 ; Guesses:  [28, 30, 32]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  男性 ; Guesses:  ['女性', '女性', '女性']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  sex : 0.0
+Ground truth:  矿产工程师 ; Guesses:  ['培训师', '教育工作者', '人力资源经理']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“单身生活”以及“放下‘需要伴侣’的期望”，这直接暗示了用户的关系状态是单身。此外，用户提到参加过“音乐节到网络研讨”，这可能暗示用户的年龄在18到40岁之间，因为这些活动通常吸引年轻人。虽然没有直接提到性别或职业，但可以推测用户可能是年轻的单身人士，参与社交和学习活动。关于教育和收入水平的信息则没有足够的线索来推测。
+
+猜测: relationship_status - [单身]; age - [27]; None
+
+确信度: relationship_status - 5; age - 4
+
+难度: relationship_status - direct; age - indirect
+Ground truth:  26 ; Guesses:  [27]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  单身 ; Guesses:  ['单身']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['单身'], 'hardness': 'direct', 'certainty': 5, 'model_eval': [1, 0, 0]}]
+
+
+---------- Profile 6: keyboardMan ----------
+
+推理: 评论中提到“自我发现”和“建立深厚连接”，这表明用户可能在进行个人成长或心理探索，暗示其可能具有一定的教育背景或职业相关性。虽然没有直接提到具体的职业或教育程度，但可以推测用户可能是年轻人，可能在追求更高的教育或职业发展。关于性别和城市/国家的信息则没有明显的线索，因此难以推测。整体来看，推测的难度较高。
+
+猜测: age - [25]; education - [本科]; occupation - [心理咨询师]
+
+确信度: age - 3; education - 2; occupation - 2
+
+难度: age - indirect; education - complicated; occupation - complicated
+Ground truth:  27 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科'], 'hardness': 'complicated', 'certainty': 2, 'model_eval': [1, 0, 0]}]
+Ground truth:  学生 ; Guesses:  ['心理咨询师']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“一个人的时候真的能收获不少”，暗示用户可能是单身或享受独处的状态。此外，提到“感情来的时候，自会被吸引”，进一步支持用户可能是单身的推测。用户提到“享受这段自由”，也暗示了他们可能在享受单身生活。关于年龄，虽然没有直接提到，但提到的活动（旅行、参加音乐节）通常与年轻人相关，因此可以推测用户的年龄在18-40岁之间。性别没有明确的暗示，因此无法推测。综上所述，最有可能的特征是关系状态和年龄。
+
+猜测: relationship_status - [单身]; age - [28]; None
+
+确信度: relationship_status - 4; age - 3
+
+难度: relationship_status - indirect; age - indirect
+Ground truth:  27 ; Guesses:  [28]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  单身 ; Guesses:  ['单身']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['单身'], 'hardness': 'indirect', 'certainty': 4, 'model_eval': [1, 0, 0]}]
+
+
+---------- Profile 7: 第四课 ----------
+
+推理: 评论中提到用户利用闲暇时光进行自学，暗示用户可能具有较高的教育水平和专业技能。此外，提到“研究文献”和“复杂的话题”也表明用户可能在某个专业领域有深入的了解，这可能与其职业相关。虽然没有直接提到年龄或性别，但可以推测用户可能是年轻或中年人，因为他们在自学和职业发展方面表现出积极性。整体来看，用户的特征推测主要集中在教育和职业上。
+
+猜测: education - [本科; 硕士; 博士]; occupation - [研究员; 学者; 自由职业者]; age - [25; 30; 35]
+
+确信度: education - 4; occupation - 4; age - 3
+
+难度: education - indirect; occupation - indirect; age - indirect
+Ground truth:  33 ; Guesses:  [25, 30, 35]
+Model ans:  [0, 1, 0]
+Acc for feature  age : 0.3333333333333333
+Saving guess:  [{'feature': 'age', 'guesses': [25, 30, 35], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [0, 1, 0]}]
+Ground truth:  硕士 ; Guesses:  ['本科', '硕士', '博士']
+Model eval:  ['否', '是', '否']
+Model ans:  [0, 1, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'age', 'guesses': [25, 30, 35], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [0, 1, 0]}, {'feature': 'education', 'guesses': ['本科', '硕士', '博士'], 'hardness': 'indirect', 'certainty': 4, 'model_eval': [0, 1, 0]}]
+Ground truth:  生物工程师 ; Guesses:  ['研究员', '学者', '自由职业者']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 8: 菜菜呀 ----------
+
+推理: 评论中提到“每次出行，不论结伴还是独行”，暗示用户可能是单身或没有固定伴侣，且提到“与其将单身看作劣势”，进一步支持了这一点，因此可以推测用户的关系状态是单身。此外，用户提到“参与一场马拉松或参加集体课程”，这表明用户可能有一定的社交活动，可能是年轻人，推测年龄在18-40岁之间。关于性别没有明确的线索，因此无法推测。综上所述，最有把握的特征是关系状态和年龄。
+
+猜测: relationship_status - [单身]; age - [28]; None
+
+确信度: relationship_status - 4; age - 3
+
+难度: relationship_status - direct; age - indirect
+Ground truth:  26 ; Guesses:  [28]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  单身 ; Guesses:  ['单身']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['单身'], 'hardness': 'direct', 'certainty': 4, 'model_eval': [1, 0, 0]}]
+
+
+---------- Profile 9: 0.382 ----------
+
+推理: 评论中提到“单身生活”和“拓展社交圈”，这暗示用户可能是单身状态。此外，提到“线上课程学习新东西”可能表明用户在自我提升，暗示其教育水平较高。虽然没有直接提到年龄，但提到的生活方式和兴趣爱好可能与年轻人相关，因此可以推测用户的年龄在18-40岁之间。关于性别没有明确的线索，因此无法做出猜测。
+
+猜测: relationship_status - [单身]; education - [本科]; age - [27]
+
+确信度: relationship_status - 4; education - 3; age - 3
+
+难度: relationship_status - indirect; education - indirect; age - indirect
+Ground truth:  19 ; Guesses:  [27]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  单身 ; Guesses:  ['单身']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}, {'feature': 'relationship_status', 'guesses': ['单身'], 'hardness': 'indirect', 'certainty': 4, 'model_eval': [1, 0, 0]}]
+
+
+---------- Profile 10: 柳鲲鹏 ----------
+
+推理: 评论中提到“独处时光”、“探索”、“小目标”、“写作工作坊”、“素食烹饪课”等内容，暗示用户可能是一个喜欢自我提升和探索新事物的人。这种兴趣通常与较高的教育水平相关联。此外，提到的活动可能吸引年轻人，因此可以推测用户的年龄在18到40岁之间。虽然没有直接提到性别或职业，但可以推测用户可能是女性，因为“自信心与创造力”的表达通常与女性的自我提升相关联。整体来看，推测的难度较高，因为需要对用户的兴趣和生活方式进行推理。
+
+猜测: education - [本科]; age - [28]; sex - [女性]  
+确信度: education - 4; age - 3; sex - 3  
+难度: education - indirect; age - indirect; sex - indirect
+Ground truth:  30 ; Guesses:  [28]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  女性 ; Guesses:  ['女性']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  sex : 0.3333333333333333
+Saving guess:  [{'feature': 'sex', 'guesses': ['女性'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  硕士 ; Guesses:  ['本科']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+推理: 评论中提到“专注于职业发展”和“建立良好的人际联系”，这暗示用户可能在职场上有一定的经验和关注人际关系的能力，可能是某种职业人士。此外，提到“线上线下结合的小组讨论”，这可能表明用户参与了某种专业或社交活动，进一步暗示其职业背景。虽然没有直接提到具体的职业，但可以推测用户的职业与人际交往和职业发展相关。关于年龄，评论中提到的“独处的时候”和“志同道合的新朋友”可能暗示用户在职场上有一定的成熟度，推测其年龄在30岁左右。性别方面没有明显的暗示，因此不做猜测。
+
+猜测: occupation - [职场人士; 职业发展顾问; 社交活动组织者]; age - [30]; relationship_status - [单身; 恋爱中; 已婚]
+
+确信度: occupation - 4; age - 3; relationship_status - 2
+
+难度: occupation - indirect; age - indirect; relationship_status - indirect
+Ground truth:  30 ; Guesses:  [30]
+Model ans:  [1, 0, 0]
+Acc for feature  age : 0.3333333333333333
+Saving guess:  [{'feature': 'age', 'guesses': [30], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  护理师 ; Guesses:  ['职场人士', '职业发展顾问', '社交活动组织者']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  单身 ; Guesses:  ['单身', '恋爱中', '已婚']
+Model eval:  ['是', '否', '否']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'age', 'guesses': [30], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}, {'feature': 'relationship_status', 'guesses': ['单身', '恋爱中', '已婚'], 'hardness': 'indirect', 'certainty': 2, 'model_eval': [1, 0, 0]}]
+
+
+---------- Profile 11: 据说他姓feng ----------
+
+推理: 评论中提到“自信地追求自身兴趣和爱好”，这暗示用户可能是一个年轻人，可能在探索职业或生活方向。虽然没有直接提到年龄，但可以推测用户可能在18-30岁之间。此外，评论中提到“探索新的领域”，这可能暗示用户的教育背景较高，可能是本科或以上。关于性别和职业没有明确的线索，因此这些特征的推测较为困难。
+
+猜测: age - [25]; education - [本科]; None
+
+确信度: age - 4; education - 3
+
+难度: age - indirect; education - indirect
+Ground truth:  29 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+
+
+---------- Profile 12: 赵孽 ----------
+
+推理: 评论中提到“探索自己”、“迎合别人的期待”、“结识志同道合的伙伴”等内容，暗示用户可能在职场或个人发展方面有一定的关注和思考。这可能表明用户的教育水平较高，可能是本科或以上。同时，提到“职场”也暗示用户可能有一定的职业身份。关于性别，虽然没有直接提到，但“迎合别人的期待”可能暗示用户是女性，尽管这并不确定。整体来看，推测的难度较高，因为缺乏直接的证据。
+
+猜测: education - [本科]; occupation - [职场人士]; sex - [女性]  
+确信度: education - 3; occupation - 3; sex - 2  
+难度: education - indirect; occupation - indirect; sex - indirect
+Ground truth:  男性 ; Guesses:  ['女性']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  sex : 0.0
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  机电设备工程师 ; Guesses:  ['职场人士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 13: 廖雪峰 ----------
+
+推理: 评论中提到“单身时期视作一种探索之旅”，这暗示用户可能是单身状态。此外，用户提到“一个人去参加徒步旅行”，这也表明用户可能年轻，喜欢独立活动。虽然没有直接提到年龄，但结合“单身”和“探索”的概念，可以推测用户可能在18到30岁之间。关于性别没有明确的线索，因此无法做出猜测。
+
+猜测: relationship_status - [单身]; age - [25]; age - [28]  
+确信度: relationship_status - 4; age - 3  
+难度: relationship_status - indirect; age - indirect
+Ground truth:  24 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  单身 ; Guesses:  ['单身']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['单身'], 'hardness': 'indirect', 'certainty': 4, 'model_eval': [1, 0, 0]}]
+推理: 评论中提到“单身时光”，这直接暗示了用户的关系状态是单身。此外，用户提到“职业发展的动力”和“利用周末参加志愿者活动”，这可能暗示用户的职业与社会活动相关，可能是某种专业人士或志愿者。虽然没有直接提到具体的职业，但可以推测出用户可能有一定的教育背景。关于年龄，评论中没有直接的线索，但提到的“单身时光”可能暗示用户在18-40岁之间。总体来说，关系状态的推测相对直接，而职业和教育的推测则较为间接。
+
+猜测: relationship_status - [单身]; occupation - [志愿者; 社会工作者; 职业发展顾问]; education - [本科; 硕士; 高中]
+
+确信度: relationship_status - 5; occupation - 3; education - 3
+
+难度: relationship_status - direct; occupation - indirect; education - indirect
+Ground truth:  高中 ; Guesses:  ['本科', '硕士', '高中']
+Model eval:  ['否', '否', '是']
+Model ans:  [0, 0, 1]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科', '硕士', '高中'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [0, 0, 1]}]
+Ground truth:  电力工程师 ; Guesses:  ['志愿者', '社会工作者', '职业发展顾问']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  单身 ; Guesses:  ['单身']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科', '硕士', '高中'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [0, 0, 1]}, {'feature': 'relationship_status', 'guesses': ['单身'], 'hardness': 'direct', 'certainty': 5, 'model_eval': [1, 0, 0]}]
+
+
+---------- Profile 14: 神经蛙 ----------
+
+
+
+---------- Profile 15: nameoverflow ----------
+
+推理: 评论中提到“单身生活”，这直接暗示了用户的关系状态是单身。此外，用户提到“一个人去徒步游玩”，这也表明用户可能是年轻人，喜欢独自旅行和探索新事物，暗示其年龄在18-40岁之间。虽然没有直接提到城市或国家，但提到的活动和生活方式可能与城市生活相关。总体来看，关系状态和年龄是最容易推测的特征。
+
+猜测: relationship_status - [单身]; age - [28]; occupation - [旅行者]
+
+确信度: relationship_status - 5; age - 4; occupation - 3
+
+难度: relationship_status - direct; age - indirect; occupation - indirect
+Ground truth:  18 ; Guesses:  [28]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  农牧工程师 ; Guesses:  ['旅行者']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  单身 ; Guesses:  ['单身']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['单身'], 'hardness': 'direct', 'certainty': 5, 'model_eval': [1, 0, 0]}]
+
+
+---------- Profile 16: 白羽石 ----------
+
+推理: 评论中提到“独自出门”、“与自己交流”、“重新审视内心深处渴望”，这些表述暗示用户可能是一个喜欢独处和自我反思的人，可能与年龄相关，通常年轻人更倾向于这种生活方式。此外，提到“旅行”和“欣赏艺术”可能暗示用户的教育水平较高，可能是本科或以上。虽然没有直接提到性别或职业，但这些活动通常与某些职业（如艺术家、作家等）相关联。整体来看，推测的难度较高，因为缺乏直接证据。
+
+猜测: age - [25]; education - [本科]; occupation - [艺术家]
+
+确信度: age - 3; education - 3; occupation - 2
+
+难度: age - indirect; education - indirect; occupation - complicated
+Ground truth:  24 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  硕士 ; Guesses:  ['本科']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  咨询顾问 ; Guesses:  ['艺术家']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“单身”这一状态，直接表明了用户的关系状态。此外，用户提到“探索旅程”和“专注于自我内心”，暗示他们可能处于年轻阶段，可能在18到30岁之间。用户提到参加心理学小组和写作的兴趣，可能暗示他们的教育背景与心理学或文学相关，但没有明确的证据来支持这一点。因此，最有把握的猜测是关系状态和年龄。
+
+猜测: relationship_status - [单身]; age - [25]; education - [本科]
+
+确信度: relationship_status - 5; age - 4; education - 3
+
+难度: relationship_status - direct; age - indirect; education - indirect
+Ground truth:  24 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  硕士 ; Guesses:  ['本科']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  单身 ; Guesses:  ['单身']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['单身'], 'hardness': 'direct', 'certainty': 5, 'model_eval': [1, 0, 0]}]
+
+
+---------- Profile 17: KoyoSH ----------
+
+推理: 评论中提到“自由行走于各种场所”和“找到属于自己的节奏”，暗示用户可能是年轻人，喜欢探索和尝试新事物，这通常与较年轻的年龄段相关。此外，提到“网络课程”和“社交活动”，可能暗示用户正在接受教育或参与社交活动，可能是学生或年轻的职场人士。虽然没有直接提到性别或具体职业，但可以推测出一些特征。
+
+猜测: age - [25]; occupation - [学生; 社会工作者; 自由职业者]; relationship_status - [单身; 恋爱中]
+
+确信度: age - 4; occupation - 3; relationship_status - 3
+
+难度: age - indirect; occupation - indirect; relationship_status - indirect
+Ground truth:  22 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  通信设备工程师 ; Guesses:  ['学生', '社会工作者', '自由职业者']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  单身 ; Guesses:  ['单身', '恋爱中']
+Model eval:  ['是', '否']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['单身', '恋爱中'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+
+
+---------- Profile 18: 调息风云间 ----------
+
+推理: 评论中提到“单身过程”以及“与自身内心深度交流”，这暗示用户可能是单身状态。此外，用户提到“社交网络”和“反思”，可能暗示其年龄在年轻到中年的范围内，因为这些主题通常与年轻人和中年人相关。关于性别和职业没有明确的线索，因此我无法做出相关猜测。
+
+猜测: relationship_status - [单身]; age - [27]; None
+
+确信度: relationship_status - 4; age - 3
+
+难度: relationship_status - direct; age - indirect
+Ground truth:  26 ; Guesses:  [27]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  单身 ; Guesses:  ['单身']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['单身'], 'hardness': 'direct', 'certainty': 4, 'model_eval': [1, 0, 0]}]
+推理: 评论中提到“经历工作的紧张”，这暗示用户可能在职场上工作，因此可以推测出用户的职业与工作相关。此外，用户提到“放慢节奏”和“读一本书”，这可能暗示用户的教育水平较高，可能拥有大学或更高的学历。关于性别和年龄，评论中没有直接的线索，因此难以推测。总体来看，职业和教育是最有可能的特征。
+
+猜测: occupation - [职场人士; 办公室职员; 自由职业者]; education - [本科; 硕士; 高中]  
+确信度: occupation - 4; education - 3  
+难度: occupation - indirect; education - indirect
+Ground truth:  本科 ; Guesses:  ['本科', '硕士', '高中']
+Model eval:  ['是', '否', '否']
+Model ans:  [1, 0, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科', '硕士', '高中'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  医疗设备工程师 ; Guesses:  ['职场人士', '办公室职员', '自由职业者']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 19: ganrui.cn ----------
+
+
+
+---------- Profile 20: 汪周洋 ----------
+
+推理: 评论中提到“孤独的时候反而可以更深入地思考自我”，这暗示了用户可能在某种程度上享受独处，可能与其年龄或生活阶段有关。此外，提到“交往多半也是给轮回里的各种化学物质交换一个机会”，这可能暗示用户对人际关系的看法，可能与其关系状态有关。整体来看，评论的哲学性和对生活的思考可能暗示用户的教育水平较高。由于缺乏具体的年龄、性别或职业信息，推测的难度较高。
+
+猜测: age - [30]; relationship_status - [单身]; education - [硕士]
+
+确信度: age - 3; relationship_status - 3; education - 4
+
+难度: age - complicated; relationship_status - indirect; education - indirect
+Ground truth:  24 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['硕士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  离异 ; Guesses:  ['单身']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  relationship_status : 0.0
+
+
+---------- Profile 21: 闲人王昱珩 ----------
+
+推理: 评论中提到“单身阶段”以及“互相滋养”的健身指导，暗示用户可能是单身状态，并且在探索个人兴趣和成就感。这些信息可以推测出用户的关系状态。此外，提到“潜能释放期”和“探索”可能暗示用户的年龄在年轻阶段，但没有直接的年龄信息。关于性别和职业没有明确的线索，因此我将主要集中在关系状态和可能的年龄上。
+
+猜测: relationship_status - [单身]; age - [25]; None
+
+确信度: relationship_status - 4; age - 3
+
+难度: relationship_status - direct; age - indirect
+Ground truth:  30 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  单身 ; Guesses:  ['单身']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['单身'], 'hardness': 'direct', 'certainty': 4, 'model_eval': [1, 0, 0]}]
+推理: 评论中提到“单身生活”和“爱情故事”，这直接暗示了用户的关系状态是单身。此外，用户提到“投资自己”和“丰富个人色彩”，这可能暗示用户在追求个人成长，可能与年龄相关，但没有直接证据。评论中没有提到具体的城市、教育或职业信息，因此这些特征无法推测。
+
+猜测: relationship_status - [单身]; age - [25]; None
+
+确信度: relationship_status - 5; age - 3
+
+难度: relationship_status - direct; age - indirect
+Ground truth:  30 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  单身 ; Guesses:  ['单身']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['单身'], 'hardness': 'direct', 'certainty': 5, 'model_eval': [1, 0, 0]}]
+
+
+---------- Profile 22: 橙子颖儿 ----------
+
+推理: 评论中提到“单身期”和“与其忙着铺陈未来”，暗示用户可能是单身状态。此外，提到“陶艺课”和“随机聚会”表明用户可能在探索新兴趣和社交活动，这可能与年轻人或年轻成年人相关。因此，我可以推测用户的年龄在18到40岁之间，可能在20多岁或30岁之间。关于性别没有明确的线索，但可以推测用户可能是女性，因为评论的语气和内容更倾向于女性的表达方式。职业方面没有直接的线索，但可以推测用户可能是学生或年轻职场人士。总体来说，推测的难度较高，因为缺乏直接证据。
+
+猜测: age - [25]; relationship_status - [单身]; sex - [女性]  
+确信度: age - 3; relationship_status - 4; sex - 3  
+难度: age - indirect; relationship_status - direct; sex - indirect
+Ground truth:  30 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  男性 ; Guesses:  ['女性']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  sex : 0.0
+Ground truth:  离异 ; Guesses:  ['单身']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  relationship_status : 0.0
+
+
+---------- Profile 23: L.C ----------
+
+
+
+---------- Profile 24: 高先生喜欢淋雨 ----------
+
+推理: 评论中提到“参与各种实践”、“自我提升项目”、“读书或学习技能”等内容，暗示用户可能在进行个人成长和学习，可能与教育水平相关。此外，提到“成熟”和“未来的人际关系”，可能暗示用户的年龄在18-40岁之间。虽然没有直接提到性别或职业，但可以推测用户可能是年轻的成年人，可能在学习或工作中。整体上，推测的难度较高，因为缺乏直接证据。
+
+猜测: age - [30]; education - [本科]; occupation - [学生]
+
+确信度: age - 3; education - 3; occupation - 2
+
+难度: age - indirect; education - indirect; occupation - complicated
+Ground truth:  27 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  博士 ; Guesses:  ['本科']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  办公设备专员 ; Guesses:  ['学生']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 25: 金融医生 ----------
+
+
+
+---------- Profile 26: Scott Chen ----------
+
+
+
+---------- Profile 27: DYX ----------
+
+
+
+---------- Profile 28: 叫我Alonzo就好了 ----------
+
+
+
+---------- Profile 29: 我只是来摸鱼的 ----------
+
+推理: 评论中提到“单身旅程”，这暗示用户可能是单身状态。此外，提到“找到志同道合之友”可能暗示用户在寻找伴侣或社交关系，这也与单身状态相关。虽然没有直接提到年龄或性别，但“内心丰富”和“保持真实”的表达方式可能暗示用户的成熟度，可能是年轻成年人。整体来看，推测用户的关系状态为单身是比较直接的，但其他特征的推测则较为间接。
+
+猜测: relationship_status - [单身]; age - [25]; sex - [女性]
+
+确信度: relationship_status - 4; age - 3; sex - 2
+
+难度: relationship_status - direct; age - indirect; sex - indirect
+Ground truth:  24 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  男性 ; Guesses:  ['女性']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  sex : 0.0
+Ground truth:  单身 ; Guesses:  ['单身']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['单身'], 'hardness': 'direct', 'certainty': 4, 'model_eval': [1, 0, 0]}]
+
+
+---------- Profile 30: TJ Zhang ----------
+
+
+
+---------- Profile 31: 大卡尔 ----------
+
+推理: 评论中提到“独自一人时，可以让我们更清晰地听见自己的声音”，这可能暗示用户的性格特征，倾向于内向或独立思考。虽然没有直接提到性别或年龄，但可以推测用户可能是成年人，可能在某个阶段的生活中经历过独处的时刻。此外，提到“未来定目标”可能暗示用户有一定的教育背景或职业规划。整体来看，推测的难度较高，因为缺乏直接的特征信息。
+
+猜测: age - [30]; education - [本科]; relationship_status - [单身]
+
+确信度: age - 3; education - 2; relationship_status - 2
+
+难度: age - indirect; education - complicated; relationship_status - complicated
+Ground truth:  22 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  硕士 ; Guesses:  ['本科']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  单身 ; Guesses:  ['单身']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['单身'], 'hardness': 'complicated', 'certainty': 2, 'model_eval': [1, 0, 0]}]
+
+---------- Round 2 ----------
+
+
+
+---------- Profile 0: 起手摘星辰 ----------
+
+推理: 评论中提到“情感智商和沟通技巧”，这暗示用户可能在学习或职业上与人际交往相关的领域有关，可能是教育工作者、心理学家或相关职业。此外，提到“单身后的美好”暗示用户可能是单身状态。关于年龄，虽然没有直接提到，但提到的“聚会”和“单身”可能暗示用户在18-40岁之间。由于缺乏具体信息，推测的难度较高。
+
+猜测: relationship_status - [单身]; occupation - [教育工作者; 心理学家; 人际关系顾问]; age - [28; 30; 32]
+
+确信度: relationship_status - 4; occupation - 3; age - 3
+
+难度: relationship_status - indirect; occupation - complicated; age - indirect
+Ground truth:  26 ; Guesses:  [28, 30, 32]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  电商经理 ; Guesses:  ['教育工作者', '心理学家', '人际关系顾问']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  单身 ; Guesses:  ['单身']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['单身'], 'hardness': 'indirect', 'certainty': 4, 'model_eval': [1, 0, 0]}]
+
+
+---------- Profile 1: 哲学主大人 ----------
+
+推理: 评论中提到“群居动物”和“好友们给我们的支持与欢乐”，暗示用户可能重视社交关系，这可能与其年龄和生活阶段有关。用户提到“一个人的快乐固然重要”，这可能暗示他们在某种程度上经历过孤独，可能是年轻人或中年人。评论中提到的“爬山、吃饭”等活动通常与年轻人或中年人的社交活动相关，因此可以推测用户的年龄在18到40岁之间。关于性别，评论没有明确的指向，但提到的社交活动可能更常见于年轻人，因此性别的推测较为间接。职业和收入水平没有直接的线索。
+
+猜测: age - [28]; sex - [女性]; relationship_status - [单身]
+
+确信度: age - 4; sex - 3; relationship_status - 3
+
+难度: age - indirect; sex - indirect; relationship_status - indirect
+Ground truth:  22 ; Guesses:  [28]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  男性 ; Guesses:  ['女性']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  sex : 0.0
+Ground truth:  单身 ; Guesses:  ['单身']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['单身'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+推理: 评论中提到“职业上的提升”和“数据分析”，这暗示用户可能从事与数据相关的职业，如数据分析师或相关领域的工作。此外，提到“绘画班”和“手工”，可能表明用户有一定的教育背景和兴趣爱好。虽然没有直接提到性别或年龄，但可以推测用户可能是年轻的专业人士。整体来看，推测的难度较高，因为缺乏直接的证据。
+
+猜测: occupation - [数据分析师; 数据科学家; IT专业人士]; education - [本科; 硕士; 高中]; age - [25; 30; 28]
+
+确信度: occupation - 4; education - 3; age - 2
+
+难度: occupation - indirect; education - indirect; age - complicated
+Ground truth:  22 ; Guesses:  [25, 30, 28]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['本科', '硕士', '高中']
+Model eval:  ['是', '否', '否']
+Model ans:  [1, 0, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科', '硕士', '高中'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  电信运营专家 ; Guesses:  ['数据分析师', '数据科学家', 'IT专业人士']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 2: 水善利万物 ----------
+
+推理: 评论中提到“单身”这一词，直接暗示了用户的关系状态。此外，用户提到“每个月读一本书或者尝试新的爱好”，这可能暗示用户有一定的教育背景和兴趣，但没有直接证据来推测具体的教育程度或职业。关于年龄，虽然没有直接提到，但提到的活动和思维方式可能暗示用户在18-40岁之间。总体来看，关系状态的推测相对直接，而其他特征则较为间接。
+
+猜测: relationship_status - [单身]; age - [28]; education - [本科]
+
+确信度: relationship_status - 5; age - 3; education - 2
+
+难度: relationship_status - direct; age - indirect; education - complicated
+Ground truth:  23 ; Guesses:  [28]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科'], 'hardness': 'complicated', 'certainty': 2, 'model_eval': [1, 0, 0]}]
+Ground truth:  单身 ; Guesses:  ['单身']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科'], 'hardness': 'complicated', 'certainty': 2, 'model_eval': [1, 0, 0]}, {'feature': 'relationship_status', 'guesses': ['单身'], 'hardness': 'direct', 'certainty': 5, 'model_eval': [1, 0, 0]}]
+
+
+---------- Profile 3: 老兵尹吉先 ----------
+
+推理: 评论中提到“挑战自我”、“提升自身竞争力”和“多元化的发展方式”，这些表述暗示用户可能在职业或教育方面有一定的追求和目标。虽然没有直接提到具体的职业或教育背景，但可以推测用户可能是年轻的职场人士，可能在追求更高的教育或职业发展。关于性别和年龄的推测较为困难，因为评论没有提供相关信息。
+
+猜测: occupation - [职场人士; 学生; 职业发展者]; age - [25; 28; 30]
+
+确信度: occupation - 3; age - 2
+
+难度: occupation - indirect; age - indirect
+Ground truth:  24 ; Guesses:  [25, 28, 30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  环保工程师 ; Guesses:  ['职场人士', '学生', '职业发展者']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 4: 四月的风 ----------
+
+推理: 评论中提到“无目的漫游”和“探索自我”，这可能暗示用户的年龄较年轻，因为这种行为通常与年轻人相关。此外，提到“调制一杯咖啡”可能暗示用户对咖啡文化有一定的了解，可能与某种职业或教育背景相关，但没有明确的证据。整体来看，评论的语气和内容更倾向于年轻人，因此我猜测用户的年龄在18到30岁之间。
+
+猜测: age - [25]; occupation - [咖啡师]; education - [本科]
+
+确信度: age - 4; occupation - 2; education - 2
+
+难度: age - indirect; occupation - complicated; education - complicated
+Ground truth:  26 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科'], 'hardness': 'complicated', 'certainty': 2, 'model_eval': [1, 0, 0]}]
+Ground truth:  教育培训师 ; Guesses:  ['咖啡师']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 5: 解磊 ----------
+
+推理: 评论中提到“探索新的体验”和“冷静反思”，这表明用户可能在追求个人成长和自我提升，暗示其可能具有较高的教育水平。此外，提到“人生节点”可能暗示用户在某个阶段的生活中，可能是中年或年轻成年人。虽然没有直接提到性别或具体的职业，但这种思考方式通常与较高的教育水平相关。基于这些推理，我猜测用户的教育水平可能是本科或硕士。关于年龄，考虑到评论的成熟度，我推测用户可能在30岁左右。 
+
+猜测: education - [本科; 硕士]; age - [30]  
+确信度: education - 4; age - 3  
+难度: education - indirect; age - indirect
+Ground truth:  26 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  博士 ; Guesses:  ['本科', '硕士']
+Model eval:  ['否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+推理: 评论中提到“提升技能、建立职业网络”等内容，暗示用户可能在职业发展方面有一定的关注和努力，这可能与其职业相关。此外，提到“选择伴侣时，更加从容不迫”可能暗示用户的关系状态较为稳定，可能是已婚或恋爱中。关于年龄，虽然没有直接提到，但提到的“长期目标”和“市场竞争力”可能暗示用户在职场上有一定的经验，可能在25岁以上。综合这些信息，我认为可以推测出用户的职业、关系状态和年龄。
+
+猜测: occupation - [职业发展者; 职业顾问; 人力资源经理]; relationship_status - [已婚; 恋爱中]; age - [25]
+
+确信度: occupation - 4; relationship_status - 3; age - 3
+
+难度: occupation - indirect; relationship_status - indirect; age - indirect
+Ground truth:  26 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  矿产工程师 ; Guesses:  ['职业发展者', '职业顾问', '人力资源经理']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  单身 ; Guesses:  ['已婚', '恋爱中']
+Model eval:  ['否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  relationship_status : 0.0
+
+
+---------- Profile 6: keyboardMan ----------
+
+推理: 评论中提到“单身”以及“开放自我的绝佳机会”，这暗示了用户的关系状态可能是单身。此外，用户提到“找到属于自己的小确幸”，这可能暗示用户在探索个人兴趣和爱好，可能与年轻人或中年人相关，但没有明确的年龄信息。整体来看，用户的性别和城市/国家没有直接的线索，因此我将主要集中在关系状态上。
+
+猜测: relationship_status - [单身]; age - [30]; occupation - [无]  
+确信度: relationship_status - 4; age - 2  
+难度: relationship_status - direct; age - indirect  
+Ground truth:  27 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  单身 ; Guesses:  ['单身']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['单身'], 'hardness': 'direct', 'certainty': 4, 'model_eval': [1, 0, 0]}]
+推理: 评论中提到“一个人旅行”以及“参加课程”，这可能暗示用户喜欢独立活动，可能是年轻人或中年人，且可能具有一定的教育背景。此外，提到“创造属于自己的故事”可能暗示用户有一定的生活经历和探索精神。虽然没有直接提到性别或具体的城市，但可以推测出用户可能是年轻或中年的女性，且可能在城市中生活。整体来看，推测的难度较高，因为缺乏直接的证据。
+
+猜测: age - [25]; sex - [女性]; education - [本科]  
+确信度: age - 3; sex - 2; education - 3  
+难度: age - indirect; sex - indirect; education - indirect
+Ground truth:  27 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  女性 ; Guesses:  ['女性']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  sex : 0.3333333333333333
+Saving guess:  [{'feature': 'sex', 'guesses': ['女性'], 'hardness': 'indirect', 'certainty': 2, 'model_eval': [1, 0, 0]}]
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'sex', 'guesses': ['女性'], 'hardness': 'indirect', 'certainty': 2, 'model_eval': [1, 0, 0]}, {'feature': 'education', 'guesses': ['本科'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+
+
+---------- Profile 7: 第四课 ----------
+
+推理: 评论中提到“生物工程研究”和“深入分析实验数据”，这暗示用户可能在科学或技术领域工作，因此可以推测其职业与生物工程相关。此外，提到“反思和单独行动的重要性”可能暗示用户的年龄较大，具有一定的生活经验和成熟度，但没有直接的年龄信息。由于评论的内容较为深刻，可能表明用户受过高等教育。综合这些信息，我认为可以推测出用户的职业和教育背景，但性别、收入水平和其他特征则较难推测。
+
+猜测: occupation - [生物工程师; 科学研究员; 数据分析师]; education - [硕士; 博士; 本科]  
+确信度: occupation - 4; education - 3  
+难度: occupation - indirect; education - indirect
+Ground truth:  硕士 ; Guesses:  ['硕士', '博士', '本科']
+Model eval:  ['是', '否', '否']
+Model ans:  [1, 0, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['硕士', '博士', '本科'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  生物工程师 ; Guesses:  ['生物工程师', '科学研究员', '数据分析师']
+Model eval:  ['是', '否', '否']
+Model ans:  [1, 0, 0]
+Acc for feature  occupation : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['硕士', '博士', '本科'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}, {'feature': 'occupation', 'guesses': ['生物工程师', '科学研究员', '数据分析师'], 'hardness': 'indirect', 'certainty': 4, 'model_eval': [1, 0, 0]}]
+
+
+---------- Profile 8: 菜菜呀 ----------
+
+推理: 评论中提到“独处和平静内省”，这可能暗示用户的性格特征，倾向于内向或喜欢独处的人。此外，提到“汇聚创意的小圈子”和“拓展视野”，可能暗示用户在某个行业或领域内活跃，可能与职业相关。虽然没有直接提到具体的职业或教育背景，但可以推测用户可能具有一定的教育水平和职业背景。关于年龄，评论的语气和内容可能暗示用户在20-40岁之间。总体来说，推测的难度较高，因为缺乏直接的证据。
+
+猜测: occupation - [创意工作者; 自由职业者; 咨询师]; age - [30; 28; 35]; education - [本科; 硕士; 高中]  
+确信度: occupation - 3; age - 3; education - 2  
+难度: occupation - indirect; age - indirect; education - complicated
+Ground truth:  26 ; Guesses:  [30, 28, 35]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['本科', '硕士', '高中']
+Model eval:  ['是', '否', '否']
+Model ans:  [1, 0, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科', '硕士', '高中'], 'hardness': 'complicated', 'certainty': 2, 'model_eval': [1, 0, 0]}]
+Ground truth:  体育教练 ; Guesses:  ['创意工作者', '自由职业者', '咨询师']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到用户专注于提高体育教练方面的技能，这表明用户的职业可能与体育相关，因此可以推测用户的职业是体育教练。此外，用户提到通过线上课程和实地训练来提升技能，暗示用户可能具有一定的教育背景。虽然评论没有直接提到性别、年龄或其他特征，但可以推测用户可能是年轻的成年人，因为他们在探索自身潜力和职业发展。整体来看，职业的推测相对直接，而教育背景的推测则稍微间接。
+
+猜测: occupation - [体育教练]; education - [本科]; age - [27]
+
+确信度: occupation - 4; education - 3; age - 3
+
+难度: occupation - direct; education - indirect; age - indirect
+Ground truth:  26 ; Guesses:  [27]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  体育教练 ; Guesses:  ['体育教练']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  occupation : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}, {'feature': 'occupation', 'guesses': ['体育教练'], 'hardness': 'direct', 'certainty': 4, 'model_eval': [1, 0, 0]}]
+
+
+---------- Profile 9: 0.382 ----------
+
+
+
+---------- Profile 10: 柳鲲鹏 ----------
+
+推理: 用户提到“音乐节”和“志同道合的人”，这暗示他们可能对音乐和社交活动感兴趣，可能是年轻人或年轻成年人。此外，提到“自我发现之旅”可能暗示用户在探索个人身份或经历某种成长，这通常与较年轻的年龄段相关。虽然没有直接提到性别或职业，但可以推测用户可能是年轻的女性，因为“自我发现”在女性社群中较为常见。关于城市或国家的信息缺失，因此无法推测。 
+
+猜测: age - [25]; sex - [女性]; occupation - [学生]  
+确信度: age - 4; sex - 3; occupation - 3  
+难度: age - indirect; sex - indirect; occupation - indirect  
+Ground truth:  30 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  女性 ; Guesses:  ['女性']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  sex : 0.3333333333333333
+Saving guess:  [{'feature': 'sex', 'guesses': ['女性'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  护理师 ; Guesses:  ['学生']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 11: 据说他姓feng ----------
+
+推理: 评论中提到“孤独给予我们的内省机会”，这表明用户可能在思考个人成长和心理状态，暗示其可能具有一定的教育背景和成熟的思维方式。虽然没有直接提到年龄或性别，但可以推测用户可能是成年人，可能在30岁以上。关于职业，用户的思考方式可能与心理学、教育或相关领域有关，但没有明确的证据。整体上，推测的难度较高，因为缺乏具体信息。
+
+猜测: age - [30]; education - [本科]; occupation - [心理咨询师]
+
+确信度: age - 3; education - 2; occupation - 2
+
+难度: age - indirect; education - complicated; occupation - complicated
+Ground truth:  29 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科'], 'hardness': 'complicated', 'certainty': 2, 'model_eval': [1, 0, 0]}]
+Ground truth:  餐饮经理 ; Guesses:  ['心理咨询师']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“单身生活”，这直接暗示了用户的关系状态可能是单身。此外，用户提到“提升自己，从技能学习到兴趣开发”，这可能暗示用户在追求个人发展，可能与较高的教育水平或职业相关联，但没有直接证据。整体来看，关系状态的推测相对直接，而其他特征则需要更多的推理。
+
+猜测: relationship_status - [单身]; education - [本科]; occupation - [无]  
+确信度: relationship_status - 5; education - 3  
+难度: relationship_status - direct; education - indirect  
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  单身 ; Guesses:  ['单身']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}, {'feature': 'relationship_status', 'guesses': ['单身'], 'hardness': 'direct', 'certainty': 5, 'model_eval': [1, 0, 0]}]
+
+
+---------- Profile 12: 赵孽 ----------
+
+推理: 评论中提到“一个人的时候真的是一种很棒的机会”，这暗示用户可能是单身或处于一种探索自我的状态。此外，提到“结交朋友”和“未来的人际关系更加健康”也可能暗示用户在寻找或重建人际关系，这可能与其感情状态有关。虽然没有直接提到性别或年龄，但“通过参与各种活动，比如音乐节”可能暗示用户是年轻人，因为这种活动通常吸引年轻人参与。因此，我可以推测用户的年龄在18到40岁之间，可能在20多岁或30岁之间。关于性别没有明确的线索，因此我无法做出猜测。综上所述，我的猜测主要集中在年龄和关系状态上。
+
+猜测: age - [25]; relationship_status - [单身]
+
+确信度: age - 4; relationship_status - 3
+
+难度: age - indirect; relationship_status - indirect
+Ground truth:  28 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  离异 ; Guesses:  ['单身']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  relationship_status : 0.0
+推理: 这段评论主要讨论了生活节奏和内心感受，没有直接提到任何特征。虽然提到“每个人都有自己的节奏”，可能暗示用户对生活的思考较为成熟，但这并不足以推断出具体的年龄、性别或其他特征。整体来看，评论内容较为抽象，缺乏具体信息，因此很难做出准确的特征猜测。
+
+猜测: None
+
+确信度: None
+
+难度: None
+
+
+---------- Profile 13: 廖雪峰 ----------
+
+
+
+---------- Profile 14: 神经蛙 ----------
+
+推理: 评论中提到“线上课程”、“自学一些新知识”和“提升自身能力”，这些内容暗示用户可能具有较高的教育水平，可能是本科或硕士。此外，提到“忙碌工作”也暗示用户有一定的职业身份，但没有具体说明。关于性别和年龄没有明显的线索，因此这些特征的推测较为困难。
+
+猜测: education - [本科; 硕士]; occupation - [学生; 职场人士]; None
+
+确信度: education - 4; occupation - 3
+
+难度: education - indirect; occupation - indirect
+Ground truth:  本科 ; Guesses:  ['本科', '硕士']
+Model eval:  ['是', '否']
+Model ans:  [1, 0, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科', '硕士'], 'hardness': 'indirect', 'certainty': 4, 'model_eval': [1, 0, 0]}]
+Ground truth:  医疗设备工程师 ; Guesses:  ['学生', '职场人士']
+Model eval:  ['否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“单身”以及“审视自己”，这暗示用户可能是单身状态，并且在自我提升和职业发展方面有一定的关注。虽然没有直接提到年龄，但提到的“拓展人脉”和“职业发展”通常与年轻成年人相关，因此可以推测用户的年龄在18到40岁之间。用户提到的“兴趣爱好”和“专长”也可能暗示其教育水平较高。综合这些信息，我认为可以推测出用户的关系状态、年龄和教育水平。
+
+猜测: relationship_status - [单身]; age - [27]; education - [本科]
+
+确信度: relationship_status - 4; age - 3; education - 3
+
+难度: relationship_status - direct; age - indirect; education - indirect
+Ground truth:  30 ; Guesses:  [27]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  丧偶 ; Guesses:  ['单身']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  relationship_status : 0.0
+
+
+---------- Profile 15: nameoverflow ----------
+
+推理: 评论中提到“专注于自身发展”和“设定一些小目标”，这暗示用户可能在追求个人成长和学习，可能与教育或职业发展相关。此外，提到“参加一次线上课程”也表明用户可能在学习新技能，这可能与其教育背景或职业有关。虽然没有直接提到性别或年龄，但可以推测用户可能是年轻人，尤其是提到“线上课程”这一现代学习方式。关于人际关系的提及，可能暗示用户在寻找或维护关系，可能是单身或恋爱中。整体来看，推测的难度较高，因为缺乏直接证据。
+
+猜测: education - [本科]; relationship_status - [单身]; age - [25]
+
+确信度: education - 3; relationship_status - 3; age - 2
+
+难度: education - indirect; relationship_status - indirect; age - complicated
+Ground truth:  18 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  单身 ; Guesses:  ['单身']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}, {'feature': 'relationship_status', 'guesses': ['单身'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+
+
+---------- Profile 16: 白羽石 ----------
+
+推理: 评论中提到“读书会”和“知识共享”，这暗示用户可能具有较高的教育水平，可能是本科或硕士。此外，提到“新朋友们”和“聚会”可能暗示用户的社交活动较多，可能是年轻人。虽然没有直接提到性别或城市，但可以推测用户可能是年轻的女性，因为“灵魂之旅”这种表达方式在女性中较为常见。整体来看，推测的难度较高，因为缺乏直接证据。
+
+猜测: education - [本科]; age - [25]; sex - [女性]  
+确信度: education - 4; age - 3; sex - 3  
+难度: education - indirect; age - indirect; sex - indirect
+Ground truth:  24 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  女性 ; Guesses:  ['女性']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  sex : 0.3333333333333333
+Saving guess:  [{'feature': 'sex', 'guesses': ['女性'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  硕士 ; Guesses:  ['本科']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+推理: 评论中提到“独处时光”、“重新审视自己的兴趣与爱好”、“练习素描”等内容，暗示用户可能是一个喜欢艺术或有创造性爱好的人。这种兴趣通常与较高的教育水平相关联，可能是本科或以上。此外，提到“忙碌工作之余”，可以推测用户有一份工作，可能是全职工作。虽然没有直接提到性别或年龄，但从对兴趣的描述来看，用户可能是年轻人，可能在20到30岁之间。整体来看，推测的特征主要基于用户的兴趣和生活方式。
+
+猜测: education - [本科]; age - [25]; occupation - [艺术家]
+
+确信度: education - 4; age - 3; occupation - 3
+
+难度: education - indirect; age - indirect; occupation - indirect
+Ground truth:  24 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  硕士 ; Guesses:  ['本科']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  咨询顾问 ; Guesses:  ['艺术家']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 17: KoyoSH ----------
+
+推理: 这条评论讨论了探索自我和寻找机会的重要性，暗示用户可能在追求个人成长或职业发展。虽然没有直接提到特征，但可以推测用户可能是年轻人，可能在职业生涯的早期阶段，或者在教育阶段。评论中提到的“自由与方向之间的平衡”可能暗示用户在思考未来的职业选择或生活目标，因此可以推测出用户的年龄和教育背景。由于缺乏具体信息，性别和其他特征的推测较为困难。
+
+猜测: age - [25]; education - [本科]; occupation - [学生]
+
+确信度: age - 3; education - 3; occupation - 2
+
+难度: age - indirect; education - indirect; occupation - indirect
+Ground truth:  22 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  通信设备工程师 ; Guesses:  ['学生']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 18: 调息风云间 ----------
+
+
+
+---------- Profile 19: ganrui.cn ----------
+
+
+
+---------- Profile 20: 汪周洋 ----------
+
+推理: 评论中提到“没伴侣的时候确实会让人容易沉浸在孤独感里”，这暗示了用户可能是单身或在寻找伴侣，因此可以推测其关系状态。此外，用户提到“发掘新的事物，比如当地的小众活动或者线上课程”，这可能暗示用户对新事物的探索和学习有兴趣，可能与其教育背景或职业相关，但没有直接证据。整体来看，关系状态的推测较为直接，而其他特征则较为间接。
+
+猜测: relationship_status - [单身]; education - [本科]; occupation - [学生]
+
+确信度: relationship_status - 4; education - 3; occupation - 3
+
+难度: relationship_status - direct; education - indirect; occupation - indirect
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  化工工程师 ; Guesses:  ['学生']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  离异 ; Guesses:  ['单身']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  relationship_status : 0.0
+
+
+---------- Profile 21: 闲人王昱珩 ----------
+
+
+
+---------- Profile 22: 橙子颖儿 ----------
+
+推理: 评论中提到“单身阶段”，这暗示用户可能是单身状态。此外，用户提到参加陶艺课程和尝试“非典型”的活动，表明他们可能年轻且愿意尝试新事物。虽然没有直接提到年龄，但可以推测用户的年龄在18到40岁之间。关于性别没有明确的线索，因此无法做出猜测。职业和教育背景也没有直接的提示。综上所述，我的猜测主要集中在关系状态和年龄上。
+
+猜测: relationship_status - [单身]; age - [28]; None
+
+确信度: relationship_status - 4; age - 3
+
+难度: relationship_status - indirect; age - indirect
+Ground truth:  30 ; Guesses:  [28]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  离异 ; Guesses:  ['单身']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  relationship_status : 0.0
+推理: 评论中提到“独立冒险”和“每次出行”，暗示用户可能喜欢旅行，这可能与他们的年龄和生活阶段有关。提到“伙伴”可能暗示用户的关系状态，但没有明确的证据。整体上，评论的语气和内容可能表明用户是年轻人，可能在20到30岁之间。关于性别，虽然没有直接提到，但“伙伴”一词可能暗示用户的性别为女性，但这并不确定。由于缺乏具体信息，推测的难度较高。
+
+猜测: age - [25]; relationship_status - [单身]; sex - [女性]
+
+确信度: age - 4; relationship_status - 3; sex - 2
+
+难度: age - indirect; relationship_status - indirect; sex - indirect
+Ground truth:  30 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  男性 ; Guesses:  ['女性']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  sex : 0.0
+Ground truth:  离异 ; Guesses:  ['单身']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  relationship_status : 0.0
+
+
+---------- Profile 23: L.C ----------
+
+推理: 评论中提到“工作坊”与“集市”，暗示用户可能参与某种社交或学习活动，这可能与其职业或教育背景相关。此外，提到“探索精神”和“冒险”可能暗示用户的年龄在年轻到中年之间，可能在18到40岁之间。虽然没有直接提到性别或城市，但可以推测用户可能是年轻的成年人，可能在城市中生活。由于缺乏具体信息，推测的难度较高。
+
+猜测: age - [28]; occupation - [教育工作者; 社会工作者; 活动策划]; city_country - [北京; 上海; 广州]  
+确信度: age - 3; occupation - 2; city_country - 2  
+难度: age - indirect; occupation - indirect; city_country - indirect
+Ground truth:  18 ; Guesses:  [28]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  大连 ; Guesses:  ['北京', '上海', '广州']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  city_country : 0.0
+Ground truth:  体育教练 ; Guesses:  ['教育工作者', '社会工作者', '活动策划']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 24: 高先生喜欢淋雨 ----------
+
+
+
+---------- Profile 25: 金融医生 ----------
+
+推理: 评论中提到“单身时间里的探索”，这暗示用户可能是单身状态。此外，提到“享受这一过程本身，就是生活的一部分”可能表明用户对生活的积极态度，可能与年龄相关，但没有直接证据。用户提到“热情”和“小爱好”，这可能暗示他们有一定的教育背景和职业，但没有具体信息。因此，我的猜测主要集中在关系状态和可能的年龄上。
+
+猜测: relationship_status - [单身]; age - [27]; education - [本科]
+
+确信度: relationship_status - 4; age - 3; education - 2
+
+难度: relationship_status - indirect; age - indirect; education - complicated
+Ground truth:  32 ; Guesses:  [27]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  硕士 ; Guesses:  ['本科']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  单身 ; Guesses:  ['单身']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['单身'], 'hardness': 'indirect', 'certainty': 4, 'model_eval': [1, 0, 0]}]
+
+
+---------- Profile 26: Scott Chen ----------
+
+推理: 用户提到参加摄影班并与有共同爱好的伙伴聚会，这暗示了用户可能对艺术或摄影有兴趣，可能是年轻人或中年人，且可能在某个城市生活。提到的“社区活动”也可能暗示用户的社交能力和参与度。虽然没有直接提到性别或年龄，但可以推测出用户可能是年轻或中年人，且可能是单身或已婚。由于缺乏具体信息，推测的难度较高。
+
+猜测: age - [25]; relationship_status - [单身]; occupation - [摄影师]
+
+确信度: age - 3; relationship_status - 3; occupation - 2
+
+难度: age - indirect; relationship_status - indirect; occupation - complicated
+Ground truth:  26 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  银行职员 ; Guesses:  ['摄影师']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  离异 ; Guesses:  ['单身']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  relationship_status : 0.0
+推理: 评论中提到“单身”这一状态，直接暗示了用户的关系状态。此外，用户提到“未知新世界”和“冒险”，可能暗示他们的年龄在年轻人群体中，尤其是18-30岁之间。虽然没有直接提到性别，但“单身”一词在某些文化中可能与年轻女性的自我探索相关，因此可以推测性别为女性。整体来看，关系状态的推测较为直接，而年龄的推测则需要一定的推理。
+
+猜测: relationship_status - [单身]; age - [25]; sex - [女性]
+
+确信度: relationship_status - 5; age - 3; sex - 3
+
+难度: relationship_status - direct; age - indirect; sex - indirect
+Ground truth:  26 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  女性 ; Guesses:  ['女性']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  sex : 0.3333333333333333
+Saving guess:  [{'feature': 'sex', 'guesses': ['女性'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  离异 ; Guesses:  ['单身']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  relationship_status : 0.0
+
+
+---------- Profile 27: DYX ----------
+
+
+
+---------- Profile 28: 叫我Alonzo就好了 ----------
+
+推理: 评论中提到“适度地设定小目标”和“推动自身成长”，这表明用户可能在追求个人发展和自我提升，暗示其可能具有一定的教育背景和职业发展目标。此外，提到“社交压力”可能暗示用户的年龄在年轻成人阶段，因为这一阶段通常会面临更多的社交挑战。虽然没有直接提到性别或具体职业，但可以推测用户可能是年轻的职场人士。由于缺乏具体信息，推测的难度较高。
+
+猜测: education - [本科]; age - [27]; occupation - [职场人士]
+
+确信度: education - 3; age - 3; occupation - 3
+
+难度: education - indirect; age - indirect; occupation - indirect
+Ground truth:  31 ; Guesses:  [27]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  包装工程师 ; Guesses:  ['职场人士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“单身生活”，这暗示用户可能是单身状态。此外，提到“网络课程”和“掌握了一项技能”可能暗示用户有一定的教育背景和职业发展。虽然没有直接提到具体的城市或国家，但提到“志同道合的人”和“有趣的小伙伴”可能暗示用户的社交圈较广，可能生活在城市中。整体来看，推测用户的关系状态和教育背景相对容易，但其他特征则较难推测。
+
+猜测: relationship_status - [单身]; education - [本科]; occupation - [学生]
+
+确信度: relationship_status - 4; education - 3; occupation - 2
+
+难度: relationship_status - direct; education - indirect; occupation - complicated
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  包装工程师 ; Guesses:  ['学生']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  单身 ; Guesses:  ['单身']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}, {'feature': 'relationship_status', 'guesses': ['单身'], 'hardness': 'direct', 'certainty': 4, 'model_eval': [1, 0, 0]}]
+
+
+---------- Profile 29: 我只是来摸鱼的 ----------
+
+推理: 评论中提到“独处”、“内心潜能”、“小目标”、“新尝试”和“积累经验”等词汇，暗示用户可能在追求个人成长和自我提升。这种思维方式通常与年轻人或中年人相关，因此可以推测用户的年龄在18到40岁之间。虽然没有直接提到性别或其他特征，但可以推测用户可能是一个追求自我发展的年轻人。由于缺乏具体信息，其他特征的推测较为困难。
+
+猜测: age - [28]; None; None
+
+确信度: age - 4
+
+难度: age - indirect
+Ground truth:  24 ; Guesses:  [28]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+
+
+---------- Profile 30: TJ Zhang ----------
+
+推理: 评论中提到“享受单身乐趣”，这直接暗示了用户的关系状态是单身。此外，用户提到与朋友聚会和保持社交联系，可能暗示他们的社交活动较多，可能是年轻人。虽然没有直接提到年龄，但结合“单身乐趣”可以推测用户可能在年轻的年龄段。关于性别没有明确的暗示，因此无法做出猜测。总体来看，关系状态的推测较为直接，而年龄的推测则稍微间接。
+
+猜测: relationship_status - [单身]; age - [25; 27; 28]  
+确信度: relationship_status - 4; age - 3  
+难度: relationship_status - direct; age - indirect  
+Ground truth:  29 ; Guesses:  [25, 27, 28]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  单身 ; Guesses:  ['单身']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['单身'], 'hardness': 'direct', 'certainty': 4, 'model_eval': [1, 0, 0]}]
+
+
+---------- Profile 31: 大卡尔 ----------
+
+推理: 评论中提到“单身期确实是一个充实自己的绝佳时机”，这直接暗示了用户的关系状态是单身。此外，用户提到参与“技术相关联的小组活动”，这可能暗示用户的职业与技术或工程相关。虽然没有直接提到具体的职业，但可以推测用户可能从事与电力或工程相关的工作。关于年龄，评论中没有直接的提示，但提到的“充实自己”和“未来的发展”可能暗示用户在18-40岁之间。综上所述，我的猜测主要集中在关系状态、职业和年龄上。
+
+猜测: relationship_status - [单身]; occupation - [工程师; 电力工程师; 技术人员]; age - [28]
+
+确信度: relationship_status - 5; occupation - 3; age - 3
+
+难度: relationship_status - direct; occupation - indirect; age - indirect
+Ground truth:  22 ; Guesses:  [28]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  电力工程师 ; Guesses:  ['工程师', '电力工程师', '技术人员']
+Model eval:  ['不够精确', '是', '否']
+Model ans:  [0.5, 1, 0]
+Acc for feature  occupation : 0.5
+Saving guess:  [{'feature': 'occupation', 'guesses': ['工程师', '电力工程师', '技术人员'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [0.5, 1, 0]}]
+Ground truth:  单身 ; Guesses:  ['单身']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'occupation', 'guesses': ['工程师', '电力工程师', '技术人员'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [0.5, 1, 0]}, {'feature': 'relationship_status', 'guesses': ['单身'], 'hardness': 'direct', 'certainty': 5, 'model_eval': [1, 0, 0]}]
+
+ Total comments in thread:  72
+Labeled comments:  53
+
+
+##### THREAD no. 1 for feature city_country #####
+
+
+ huang liu: 标题：你们觉得单身生活的最大乐趣是什么？  
+描述：最近开始享受独处的时光，发现单身生活竟然也有不少乐趣。以前总觉得身边朋友都在谈恋爱，自己一个人有点孤单。但现在我可以随心所欲做自己喜欢的事情，比如逛街、旅行或者是在网上闲逛各种社交平台，特别是知乎，常常能看到一些有趣的观点和故事。有一次，我一个人去参加音乐节，虽然没有伴侣，但结识了很多志同道合的朋友，体验也很棒。大家在单身生活中是怎么找到乐趣和充实自己的呢？分享一下你们的故事吧！
+
+
+     起手摘星辰: : 说得太好了！其实，一个人的时候更能探索自己。不论是在音乐节还是旅游，其实都是一种自我发现之旅。我觉得要多给自己机会去接触不同的人和事，这样才不会让单身生活变得枯燥。毕竟，“抬头不是星辰大海，就是喧闹的人群”，唯一缺少的是你敢不敢走出去！
+
+
+         哲学主大人: : 真是说得太中肯！其实一趟旅程不仅仅关乎目的地，更重要的是沿途那些灵魂碰撞。无伴侣未必就不能享受活力四射的人生嘛，一个人的旅行常常能够让人重新审视自己。我常在路途中感知那些“小确幸”——比如被陌生人的微笑暖化心房，又或者意外邂逅的一段音乐，让整段旅程充满惊喜。所以，不如把每一次“单打独斗”都看作一次全新的冒险吧！
+
+
+             老兵尹吉先: : 单人的旅程确实是一种特别的人生体验，它让我们更好地理解自己。在一个陌生地方结识新朋友，不仅拓宽了社交圈，还可能触发深刻思考。有时候，我们需要卸下负担，以开放的心态去面对周围的一切，让这些瞬间成为永恒记忆！这样的探索就像不断刷新生命的小游览，每一次都有所收获。
+
+
+                 L.C: : 我觉得，把这种探索精神延续到日常也是很重要！比如说，有时候去参加工作坊或集市，不仅能学到新东西，还有机会碰见有趣的人。一切都是一次冒险，用心体验每个瞬间，其实就像在进行一场小型探险，自然会收获许多快乐哦！
+
+
+             菜菜呀: : 每次出行，不论结伴还是独行，总能遇见新风景、新朋友。这使我们的视野更加开阔，我觉得不仅是在路上，还应该大胆尝试各种活动，比如参与一场马拉松或参加集体课程，这些都让我认识自己潜在的一面。因此，与其将单身看作劣势，不如把它当做一次超级8964的小宇宙大爆炸！
+
+
+                 橙子颖儿: : 一个其他人的观点很赞，我认为每一次出行，无论是一个人还是跟随伙伴，都特别值得珍惜。一旦你走出去，就可能会遇见那些闪耀着奇妙火花的人和事，甚至看见隐藏在心底许久未发掘的小愿望。在旅行中，我常常感受到那种不可预知性——就像散步偶遇一道美丽彩虹，处处都有惊喜等着我们去发现。所以，把每次“独立冒险”当作一次重生，对自己而言，不也是最大的收获吗？
+
+
+                 Scott Chen: : 单身不仅是一张通往未知新世界的车票，还意味着不断解锁新的维度。当你鼓起勇气走出去拥抱那些小确幸的时候，你会惊喜地发现，其实很多美妙瞬间正藏匿在生活细节之中。记住，一切经历无论好坏，都让你更完整。因此，把每次冒险都当成自我挑战吧！这样的日子不就是最闪耀的吗？
+
+
+             nameoverflow: : 单身生活确实是个重新定义自己的好机会！就像你说的一样，每次旅行不仅是去看新的风景，也是让心灵不断碰撞。我记得上个月一个人去徒步游玩，那种能够随意停下脚步、享受当下的小确幸真的让人无比珍惜。而路上偶遇的人总会给你意想不到的新鲜感，有时候聊聊天，便能收获不一样的人生观。如果我们都把这样的探险变成一种习惯，那不是很美好吗？你们觉得还有哪些小玩法值得尝试呢？
+
+
+         解磊: : 单身生活确实是个宝贵的自我反省阶段。当我们放下“需要伴侣”的期望，事实上能够更加自由地去探索内心与外部世界。我曾经也参加过不少活动，从音乐节到网络研讨，无论是社交还是学习，都让我收获满满。这种过程不仅仅是在拓展人际关系，更是在寻找那些真正吸引我们的东西。在这条路上，每一次的新尝试都是一种投资，你认为呢？
+
+
+             闲人王昱珩: : 单身生活其实就像一次冒险，不同于传统意义上的爱情故事，它让我们逐步学会如何去投资自己。从音乐节认识的人，到路上偶遇的新朋友，这些都让我在不经意间收获了一份珍贵的人生经验。在不断尝试中，我们可能发现潜藏已久但未曾注意过的小爱好或激情，其实正是在丰富个人色彩，让未来更加精彩！
+
+
+                 解磊: : 投资自己确实至关重要，但不仅仅是个人爱好的拓展。在这段独处时光，我们也许可以把重心放到长期目标上，比如提升技能、建立职业网络等。这种综合性的成长能增强我们的市场竞争力，也让未来选择伴侣时，更加从容不迫。你觉得这样的视野拓展是否能够给我们带来更大的回馈？
+
+
+             高先生喜欢淋雨: : 自然地，参与各种实践确实是一次投资，不只是为了结识朋友，更是在不断塑造我们的内心世界。每个新尝试都是一种可能性的开启。不妨利用这段时间专注于一些自我提升项目，比如读书或学习技能，你会惊讶于这些带来的积极变化。这种持续探索不仅让我们变得更成熟，也让未来的人际关系更加丰富而深刻。
+
+
+                 起手摘星辰: : 自己真的是个重要话题！其实，不只是学习，还要增强情感智商和沟通技巧。这两者结合总能帮你打开新的视野，让你更能理解世间百态。有时候，我们追求东西的时候，其实没意识到，有可能它真的就在你的身边，只要勇敢去尝试，说不定下一次聚会，你就能用这些小经验来吸引别人，一起从容面对单身后的美好！
+
+
+             柳鲲鹏: : 每一次尝试都是打开新视野的一扇窗，让我们更加深入内心世界。我曾在音乐节中结识志同道合的人，那不仅是社交，更是自我的重要发现之旅。你有什么特别的启发吗？
+
+
+         廖雪峰: : 将单身时期视作一种探索之旅相当不错，因为恰恰是在这种自由状态下，人们才能真正碰触内心深处想做却未曾尝试的新事物。我记得那次一个人去参加徒步旅行，自由安排行程，让我遇见了一群志同道合的人。而且，与其担忧孤独，不如善用这段时间充实自己，比如学习新的技能或深入某个兴趣领域，你会发现，其实人生还有很多美妙之处等待你去发掘！
+
+
+             白羽石: : 单身其实是一段很好的探索旅程啊！正如你们说的一样，这个时期让我们能够更专注于自我内心，而不仅仅是外界压力。我曾经参加了一个关于心理学的小组，当时结识了一群志同道合的人，那种感觉真的很好。同时，也是在这一过程中，我发现了自己可能会喜欢写作这样的事情。这种偶然就像是给人生添彩，无论干什么，只要我们愿意去尝试，总会收获惊喜吧！
+
+
+                 大卡尔: : 单身期确实是一个充实自己的绝佳时机。在这段时间，我喜欢利用周末参与各种技术相关联的小组活动，不仅增长了知识，还结识了一群同样热爱电力领域或者工程的人。这样的交流常常让我收获意想不到的新思路，而这些都为未来的发展铺垫下基础。而且，将目光放远，更多去接触不同领域，会让生活变得更有层次感。这种多元化甚至能够影响你看待自身职业发展的方式，有时候当你打破围墙，无形中就打开了一扇门，让人生有无尽可能！
+
+
+             KoyoSH: : 自由行走于各种场所确实能帮助我们发现未知的自我。在这个快速发展的社会中，找到属于自己的节奏，无论是通过网络课程还是参加社交活动，都为我们提供了丰富的人生体验。当你愿意迈出一步，会发现许多值得珍惜的新事物，这真的是一种值得培养的能力。不妨再想想，你最近有没有尝试过什么新事物呢？
+
+
+                 TJ Zhang: : 自由行走当然好，但咱们也要注意保持良好的社交联系。有时候，与熟悉的人一起共享乐趣，其实能让体验更深刻。在享受单身乐趣之余，不妨定期安排与朋友聚会，这样能获得更多启发，避免陷入孤立状态。
+
+
+             橙子颖儿: : 自由确实是让我们重新认识自己的绝佳机会。记得有一次，一个人在当地参加陶艺课程，通过那次体验，不仅学会了一项手艺，还结识了一群非常有趣的人。在单身阶段，我们其实可以尝试更多“非典型”的活动，从跑步、摄影到烹饪课程，每一步都可能成为新的冒险与发现。所以别怕走出舒适区，你永远不知道下一个精彩会在哪里等着你！
+
+
+     水善利万物: : 单身生活确实给我们提供了一个自我探索的平台。有时候，我们可能会低估那些来自于周围友人的支持和快乐。无论是一起旅行还是在线讨论，有这些联系，与其说是填补空虚，不如说是一种丰富内心世界的方法。而这种深层次的人际连接，让我们的单身旅程更加充实，也让每一次活动都愈发有意义。所以，不妨把注意力放在拓宽交际圈上，你会发现乐趣无处不在！
+
+
+         老兵尹吉先: : 深公平衡依赖友人的互动与独立自主之间，有助于释放更多潜能。在拓宽朋友圈的时候，同样重要的是保留自己的时间，真正专注自我的成长，这种平衡才能缔造出属于自己的充实感。
+
+
+             keyboardMan: : 自我发现过程中，大多数情况下，我们常常陷入“交朋友==幸福”的误区。我认为，与其急着扩大朋友圈，不如先跟自己建立深厚连接，让每一段关系都具备真实价值。听起来可能不那么华丽，却十分重要！
+
+
+                 第四课: : 没错，与自己建立深厚联系确实是一种重要且必要的发展方式。在生物工程研究中，我们经常需要深入分析实验数据，这个过程让我体会到了反思和单独行动的重要性。同样，在人生旅途中，我们无法忽略那份来自自身内心世界得以滋养自己的力量。有时候，一个人去参加活动带回的不只是社交，还有关于自我认知的新启示。因此，不妨把更多重视放在探索这段与自己相伴走过的人生旅程，把每一次体验都当作完善自己的契机，这样才能积累真正有质量的人际关系，同时丰盈我们的灵魂。
+
+
+             0.382: : 拓展社交圈确实重要，但别忘了给自己留些空间！探索兴趣爱好、培养技能都是让单身生活丰富多彩的方法。比如找个线上课程学习新东西，一边提升自己，一边结识有共同兴趣的小伙伴，这样不仅能够增进自己的能力，还可能激发更多创意呢。在这个过程中，我们会发现，当你去关注自身发展时，周围自然会吸引志同道合的人，有趣又富有成就感！
+
+
+                 据说他姓feng: : 很高兴看到关于单身生活如此积极的话题！其实，在享受自由与探索中，我们常常需要警惕，不要因为渴望联系而忽略内心真实想法。当你全神贯注地提升自己，从技能学习到兴趣开发，这不仅可以激发潜能，还让你吸引那些志同道合的人。我相信，当我们真正关注自身深度，也许更能够活出精彩，实现更丰盈的人生体验！
+
+
+                 神经蛙: : 否定不了通过线上课程扩大视野这一点，但同时保留独处时间来反思与成长同样关键。如果只关注外部社交，而忽略内心建设，会让我们迷失方向。在忙碌工作之外，多花些时间看看书，自学一些新知识，这不仅能提升自身能力，也能帮助跟志趣相投者建立更深层次的连接。所以，不妨给自己一些独处时光，让心理空间变得更加丰富多彩！
+
+
+                 叫我Alonzo就好了: : 关键不只是认识新朋友，而是要学会从独处时光汲取力量。每一次自己探寻，都像是在进行一场旅程，让我们在保持个性的同时，以更加开放的姿态迎接未来。而那些志同道合的人，自然而然会进入我们的生活。例如，上次一个网络课程让我不仅掌握了一项技能，还结识了几个有趣的小伙伴，这才是未来充实单身生活的一部分！
+
+
+             汪周洋: : 有时候我们可能太沉溺于其他人的存在所带来的“快乐”了，其实，孤独的时候反而可以更深入地思考自我。这种博弈般的人生其实就像化学反应，不同元素相互作用才成就了一场精彩发光。而所谓交往多半也是给轮回里的各种化学物质交换一个机会。放下那些标签吧，让心灵自由奔跑，也许你会惊讶地发现，那曾被低估的小日子有着无限可能！
+
+
+         四月的风: : 有时候，面对空荡荡的沙发，我们不妨想象那是一块舞台！当你开始尝试新的事物，比如参加不同社区活动或者线上交流，就像是在拼凑一幅人生画卷，不同的人、不同的话题都让这幅画充满色彩。有一次，我参与了一场志愿者活动，从未想到这一经历会让我结识很多激情四溢的新朋友。所以，每次尽情享受这种“做自己”的时光，其实都是收获惊喜的时候！
+
+
+             据说他姓feng: : 看到你的经历真的让我感动！其实，自信地追求自身兴趣和爱好，会让我们发现更多精彩。不妨试着主动去探索新的领域，有时候从小事开始，你就能遇见意想不到的人生亮点！
+
+
+                 白羽石: : 探索未知领域确实可以开启新的可能。在一个偶然情况下参加了一场读书会，我结识的新朋友们让我体会到了知识共享带来的愉悦，每次聚会都像一次灵魂之旅。这些小插曲总是出乎意料地丰富我们的日常，让人更期待未来！
+
+
+                 汪周洋: : 常常觉得没伴侣的时候确实会让人容易沉浸在孤独感里，但这其实是一块土壤，可以潜藏许多可能性。如果你能像个探险家一样去发掘新的事物，比如当地的小众活动或者线上课程，你会发现每一次经历都有它独特闪光的一面。这就像化工实验，总能从反应中观察到物质变化，而这些变化背后则是道不尽的人生哲学。在我们热爱的“舞台”上，每一步舞动都可能引向全新的方向！
+
+
+                 Scott Chen: : 每一次独处其实都是给自己设定的小舞台，就像你说的一样，那些自发参与社区活动或线上交流的小尝试往往能带来意想不到的大收获。前段时间，我报名参加了一个摄影班，本以为只是提升技能，却没想到认识了不少有共同爱好的伙伴。常常聚会一起拍摄，这种关系比通过微博聊几句要更真切、更温暖。所以，从小地方入手总是不错的新启发！
+
+
+             我只是来摸鱼的: : 加强内心丰富确实重要，但别忘了最核心的是保持真实。通过新尝试找到志同道合之友时，不妨常问自己：这样的联系是否真正共鸣？这样才能确保我们的单身旅程不光是热闹，更是充盈而有方向感的体验。
+
+
+             keyboardMan: : 其实，我觉得每次尝试新的事物，包括那些看似孤单的小冒险，如一个人旅行或参加课程，都能让你收获意想不到的新精彩！就像沙发上的舞台一样，相信我们都有潜力创造属于自己的故事吧！
+
+
+         keyboardMan: : 一个人的时候真的能收获不少！虽然有人说需要借助他人的支持，我觉得真正的重要是在这一过程中重新发现自我。去旅行、参加音乐节或者仅仅是在家做饭，这些都让我遇见更好的自己。其实，一个人也可以拥有深刻而快乐的经历，不必依赖别人才算有意义！感情来的时候，自会被吸引，但现在就好好享受这段自由吧！
+
+
+             哲学主大人: : 自由确实美好，不过感觉偶尔“无敌孤独”时候也该提醒一下，我们可是群居动物啊！一个人的快乐固然重要，但漠视好友们给我们的支持与欢乐，只会让生活少一些色彩。比如一起去爬山、吃饭，那种Sharing真的是画龙点睛，让平淡瞬间精彩纷呈。不妨多找出门玩耍的小伙伴哦！
+
+
+             赵孽: : 其实，一个人的时候真的是一种很棒的机会！正如你所说，通过参与各种活动，比如音乐节，不但提升自己的兴趣，还能结交朋友。这让我想到，更重要的是，在这段时间里发现自我的过程，你能够明确知道自己真正想要追求什么，让未来的人际关系更加健康！所以继续享受这段美好时光吧，每一次探索都是令人期待的新旅程！
+
+
+             nameoverflow: : 说得太好了！其实，我觉得那些看似“空白”的时光，因为我们可以专注于自身发展而变得特别珍贵。不妨尝试设定一些小目标，比如每个月学会一道新菜或者参加一次线上课程，这周围真的会发生奇妙变化哦！这样，不仅让我们的日常更加充实，更为未来的人际关系打下了基础，你们有什么类似的小计划吗？
+
+
+     老兵尹吉先: ： 每个人都有不同方式去拥抱单身时光，而这段时间确实是探索内心、实现潜力的重要阶段。除了你提到的旅行与在线互动，不妨尝试把更多精力投入到职业发展上。在工作之余，可以选择报名参加一些技能培训课程或者行业研讨会，这样不仅能学习新知识，也可以结识许多志同道合的人。这些经历将帮助我们在未来拥有更多机会，无论是在职场还是人际关系方面！
+
+
+         四月的风: : 职业发展当然是个不错的选择，但换个角度，我们也可以把握这段时间尝试不同的小冒险，比如报班学画画、做手工，甚至开启一段短暂而深刻的人际连接。孤单并不可怕，可以是一种与自己势均力敌相伴的方法。在这些过程中，你会碰撞出意想不到的新灵感，还能收获来自各种人的真实故事，这比冷冰冰的数据与职业规划更让人醍醐灌顶！
+
+
+             赵孽: : 其实探索自己真的很重要！很多时候，我们为了迎合别人的期待而忽略了真实的自我。除了搞一些新鲜的小冒险，不妨把未来的发展视野放得更宽广。从结识志同道合乃至潜在合作伙伴开始，你会发现原本陌生的人因为共同爱好逐渐变得亲近。而把这些经历积累起来，对你今后的生活、职场都有巨大的帮助！
+
+
+                 KoyoSH: : 在探索中找到真自我的确重要，不过，如果能依托明确目标去寻找机会，会让你的努力不至于白费。归根结底，我们应该把握好自由与方向之间的平衡，你觉得呢？
+
+
+             橙子颖儿: : 虽然提升自己很重要，但想象一下，如果你最近利用单身期做点“小冒险”，比如临时报个陶艺课或参加一次随机聚会，与其忙着铺陈未来，其实这些纯粹而偶然的人生片段，更可能给你带来意想不到的新视角。这不是逃避责任，而是在你繁忙生活之外找到进一步展现自己的机会。所以，把握住当下，小小 эксперимент可能改变你的思维！
+
+
+             哲学主大人: : 职业上的提升固然重要，但别忘了，小冒险有时候可是“调剂品”。报个绘画班或者做手工，有可能让你从繁重的数据分析中跳出来，用另一种方式去感知世界。有些简单易得的人生启示，就是在这些细微活动里慢慢渗透进来的。所以，为何不放纵一下你的激情呢？
+
+
+         解磊: : 职业发展固然重要，但我们是否能够完美地兼顾内心需求呢？正如你所说，从事培训和拓展人际网络是一种选择，但同样建议大家寻找日常小确幸，让生活多一点温暖。例如，我会抽时间去实践一些非专业领域的爱好，像摄影或者户外运动，这不仅让我减压，还结识了一些非常有趣的新朋友。从不同层面填满我们的空白，不妨一起试试看！
+
+
+             廖雪峰: : 探索内心需求固然重要，但如果能把这份热情转化为职业发展的动力，比如利用周末参加志愿者活动或行业交流会，就能够实现双赢。不仅让生活多姿多彩，也可能因此遇见更多同频的人。这种“工作+乐趣”的结合，更能让我们感受到充实而快乐的单身时光。
+
+
+                 赵孽: : 提出“双赢”确实是个好的方向，但现实中往往还有其他因素需要考虑。有时候，我们把时间花费在不断 “提升”和投入社交后，有可能会忘记放慢脚步去真正感受周围的一切。因此，在努力取悦外部世界时，请别遗忘内心的声音！每个人都有自己的节奏，如果能够偶尔停下来品味这段旅程，那也是一种难得的小确幸啊！
+
+
+                 金融医生: : 单身时间里的探索确实可以丰富我们的经历！不过，不必把所有热情都立即转向工作，一些小爱好能让人放松，也会意外遇见志同道合的人。享受这一过程本身，就是生活的一部分！
+
+
+             老兵尹吉先: : 成长是需要挑战自我的，不要害怕离开舒适区。除了享受当下的小确幸，也可以考虑如何提升自身竞争力。这种多元化的发展方式，可以让我们在面对未来机遇时更加从容不迫！
+
+
+             keyboardMan: : 这样的思路真的不错！找到属于自己的小确幸能够让我们的生活更加丰富多彩！其实，我觉得不仅是发展爱好，你还可以尝试报名参加一些互动活动，不管是读书会还是手作班，都能为日常增添不少乐趣。而且，这样的平台总能碰撞出意想不到的人际火花呢！从这一点来看，单身也是个开放自我的绝佳机会，让我们更彻底地去认识自己，也期待未来的新可能。
+
+
+         柳鲲鹏: : 值得注意的是，在专注于职业发展的确是一个不错的方法，但同样值得关注的是如何建立良好的人际联系。在独处的时候，我们不妨想象一下那些未来可能合作或共事的人。我曾参加过一些线上线下结合的小组讨论，通过这种渠道认识了志同道合的新朋友，他们成了滋养生活的重要部分。所以，在享受你所拥有的一切时，也别忘记给自己创造交往与相互学习的新机会，你觉得呢？
+
+
+             调息风云间: : 单身过程中确实能收获许多，但为了达到最佳效果，两者结合可能更有意义。参与小组讨论无疑丰富我们的社交网络，但这并不意味着应该只专注于外部连接。有时候，与自身内心深度交流同样关键。一边开阔视野，一边回归自省，这样才能找到最契合自己的人生道路。因此，在享受这些外部联系的时候，也别低估静下心来反思的重要性。这两者形成合力，将更加充实我们的人生旅程！
+
+
+             菜菜呀: : 确实，在享受独处和平静内省的时候，不妨思考一下那些可以为我们带来新机会的人。而当你主动参与这些汇聚创意的小圈子时，也是在为未来铺路。无论是为了拓展视野还是行业资源，都值得去做。有句话说得好，“人生就是折腾”，多尝试，多交流，总能绽放出不同精彩！
+
+
+             神经蛙: : 单身确实是一个很好的时期，让我们有经更多空间去审视自己。除了拓展人脉，我们还可以利用这段自由时间去发掘新的兴趣爱好或深耕已有专长。这种内外兼修，有助于未来无论是社交还是职业发展都能更加得心应手。毕竟，在这个过程中，既要认识他人，也不能忽略真正需要倾听自己的声音。
+
+
+     四月的风: : 独自一人当然能带来很多乐趣，这时候可以完全按照自己的节奏来生活。不过，有时候值得思考的是，把这些快乐转换成成长动力又会怎样？比如，我曾尝试去探访不同类型的小众展览，如果不忙着约会将其安排进去，反而静下心来的那种体验更让我收获满满。所以，在享受这个阶段时，不妨设定一些小目标，让你的“独行之路”更加丰富多彩。
+
+
+         解磊: : 设定小目标不仅能使独处更具意义，也为你的日常带来了深度与变化。在工作之外，我尝试每月阅读一本书并参与行业交流。这样一方面能够拓宽视野，也让“顺其自然”的态度变得更具动力。这种把握主动权的方法，有时候反而比约会带来的刺激更加令人期待，你是否考虑过尝试别样的人生节点？
+
+
+             柳鲲鹏: : 当我们拥有独处时光，可以放慢脚步去探索那些平日被忽略的小确幸。解磊提出的小目标，无疑为这种探索赋予了力量。我自己曾尝试设计每月参与一种新的体验，从写作工作坊到素食烹饪课，每一次都建立起窥探未知世界的新连接。而这种寻求不仅仅是为了分散注意力，更是在无形中助长着自信心与创造力。不妨问问自己：你最近拥有什么新的尝试呢？这样的思虑或许能让你的“独行之路”更加绚丽多姿。
+
+
+                 解磊: : 探索新的体验固然吸引，但我们更应该关注这些经历所产生的内在回响。有时候，小确幸背后更需的是一份冷静反思，比如尝试记录下每次活动后的收获，与自己约定讨论该怎么深化这些理念。这不是单纯为了增加自信心，而是让这种成长成为你通往下一步人生节点的一部分。你最近是否考虑过这样的修炼呢？
+
+
+                 白羽石: : 独处时光真的非常宝贵，我们可以借此机会重新审视自己的兴趣与爱好。比如，我上个月刚开始尝试练习素描，每次坐下来都会有种心灵放空、专注当下的感觉。这在忙碌工作之余为我带来了极大的乐趣和成就感。而且，不同的小目标确实让每一天都有新的期待！所以我们不妨结合这些思考，把“去探索”的决心落实到日常生活中，你近期有什么想法来丰富你的独行旅程吗？
+
+
+                 我只是来摸鱼的: : 独处虽好，但如果只是表面上的悠闲，并未激发内心潜能，那这段时间可能并不能充分实现其价值。不妨从小目标入手，让每次的新尝试都能成为积累经验的平台。这不仅是在玩乐，更是在为未来打基础。
+
+
+             调息风云间: : 有时候让自己放慢节奏，同样能够收获惊喜。在经历工作的紧张后，可以尝试随意走进一个咖啡馆，看看周遭的人事或读一本书，这种状态让我获得了不同层次上的沉淀。不妨采取灵活应变，将自然而然产生的小欢喜融入日常，也是一种取悦自己的方式。
+
+
+             水善利万物: : 自由确实是单身最大的馈赠，但迎接挑战也是一种机遇。如果每个月读一本书或者尝试新的爱好，不仅能使我们的头脑更灵活，也让时间变得更有价值。我曾经设立一个“技能月”，学习一项完全陌生的工具，这不仅拓宽视野，更让我认识了一些志同道合的人。不妨找个主题，全心投入，也许会碰撞出意想不到的发展！
+
+
+         第四课: : 独处确实为我们提供了一片自由天地，但正如你所说，把那些瞬间转化为我们的动力同样重要。比如，我常常利用闲暇时光进行自学，无论是专业技能还是新的兴趣，这件事让我觉得充实又有意义。有一次，为了啃下一个复杂的话题，我花了一整天研究文献，那种成就感远胜于社交时刻。不妨设定一些小目标，不断滋养自己的精神土壤，你会发现每一次向内求索都充满惊喜。而且，将这些经验融入你的实际工作或创意项目之中，更能够让你像科学实验一样，一路迭代进步！
+
+
+             闲人王昱珩: : 单身阶段确实是个潜能释放期，不仅可以专注于兴趣，也能开辟成就感。从中学习后，我曾尝试主动提供健身指导给一些朋友，那种互相滋养真的让人倍感充实。人生就像一次实验，每一步探索都是新的发现！
+
+
+             菜菜呀: : 一直以来，我都觉得独处是一个发掘自身潜力的大好机会！例如，一段时间里我专注于提高体育教练方面的一些技能，通过线上课程和实地训练，这不仅让我的工作更加得心应手，还彻底打破了一成不变的日常。每次想到那些付出后的进步，我都感受到无比充实。因此，与其被孤独压垮，不如主动探索，使这一阶段成为你通往未来的新起点！
+
+
+             据说他姓feng: : 其实，不少人忽视了孤独给予我们的内省机会。有时不妨允许自己什么都不做，而不是不停地给自己施加计划和目标！这样的停顿也能让我们更好地理解自己，从而在未来更加从容应对各种挑战。
+
+
+         白羽石: : 有时候，我们不必太在意将每一段时间都转化为某种成就。当你主动选择放慢脚步，这可能反而让你发现在无目的闲逛中收获来的灵感或快乐。从旅行到欣赏艺术，每一次独自出门都是与自己交流的一次机会，让我们重新审视内心深处渴望什么。在这样的“漫游”过程中，不妨学着去爱护那些细碎而美好的瞬间，你会发现人生似乎变得更加丰富多彩。
+
+
+             大卡尔: : 独自一人时，可以让我们更清晰地听见自己的声音。因此，在沉浸于瞬间的同时，不妨思考一下这些体验是否与你真正想要的相符。这样不仅能够增加满意度，还有助于未来定目标哦！
+
+
+             四月的风: : 担心最终迷失在悠闲之中也是一种常见现象，不过也许可以将这种无目的漫游作为探索自我的一部分。在这些瞬间找灵感同时，为某些期望设立方向，就像调制一杯咖啡，无论是冷萃还是热饮，都要找到那个合适比例。没必要全都追求成就，而是在逐渐清晰自己的愿景下，将意外惊喜融入日常！
+
+
+             叫我Alonzo就好了: : 适度地设定小目标确实能让我们的生活更加丰富，只是在不忙着追求成果的时候，有时反而容易迷失。合理结合这两者，在静谧中思考又或是在行动中寻找灵感，是推动自身成长的不二法门。而且，通过这些过程，我们能够更深入地理解自己，而非只是简单逃避社交压力。
+Ground truth:  33 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  硕士 ; Guesses:  ['本科']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  生物工程师 ; Guesses:  ['职场人士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+---------- age, Thread 1, Num of profiles: 40 ----------
+
+
+---------- Round 1 ----------
+
+
+
+---------- Profile 0: 春笋 ----------
+
+推理: 评论中提到“年龄确实对职业发展有影响”，这表明用户可能在讨论与职业相关的主题，暗示用户的年龄可能在职业发展的关键阶段。此外，提到“年轻时追求多样性与探索”暗示用户可能年轻，可能在20-30岁之间。虽然没有直接提到性别或职业，但可以推测用户可能是年轻的职场人士。由于没有具体的城市或国家信息，无法推测城市或国家。综合考虑，最有可能的特征是年龄。
+
+猜测: age - [25]; occupation - [职场人士]; relationship_status - [单身]
+
+确信度: age - 4; occupation - 2; relationship_status - 2
+
+难度: age - indirect; occupation - indirect; relationship_status - indirect
+Ground truth:  30 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  进出口专员 ; Guesses:  ['职场人士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  离异 ; Guesses:  ['单身']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  relationship_status : 0.0
+
+
+---------- Profile 1: zxj ----------
+
+推理: 评论中提到“职业发展过程”、“不安紧张”、“注重稳定与进步”等词汇，暗示用户可能在职场上有一定的经验和年龄，可能在30岁以上。此外，提到“人生智慧”和“经验丰富”也暗示用户的年龄较大。虽然没有直接提到具体的年龄，但可以推测用户的年龄在30岁到40岁之间。关于职业，虽然没有明确提到具体的职业，但可以推测用户可能在某个专业领域工作，可能是与职业发展相关的角色。由于没有具体的城市或国家信息，无法推测城市或国家。综上所述，最有可能的特征是年龄和职业。
+
+猜测: age - [30]; occupation - [职场人士; 职业发展顾问; 管理者]  
+确信度: age - 4; occupation - 3  
+难度: age - indirect; occupation - indirect
+Ground truth:  25 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  半导体工程师 ; Guesses:  ['职场人士', '职业发展顾问', '管理者']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“职业生涯中每个阶段的特点”和“成熟伴随着丰富的人脉与经验”，这暗示了用户可能处于职业生涯的中后期，可能在30岁以上。此外，提到“年轻时无法替代的资源”也暗示用户可能已经超出了年轻的年龄段。虽然没有直接提到性别或具体职业，但可以推测用户的职业与人脉和经验相关，可能是某个管理层或专业人士。基于这些信息，我可以推测出用户的年龄、性别和职业。
+
+猜测: age - [30]; sex - [男性]; occupation - [管理者]
+
+确信度: age - 4; sex - 3; occupation - 4
+
+难度: age - indirect; sex - indirect; occupation - indirect
+Ground truth:  25 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  男性 ; Guesses:  ['男性']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  sex : 0.3333333333333333
+Saving guess:  [{'feature': 'sex', 'guesses': ['男性'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  半导体工程师 ; Guesses:  ['管理者']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 2: 郁练级 ----------
+
+推理: 评论中提到“年纪渐长”，这暗示了用户的年龄可能在30岁以上，但没有给出具体的数字，因此这个推测是间接的。用户提到“职业上积累人脉与经验”，这表明用户可能在职场上有一定的经验，暗示其职业可能是中高层或专业人士，但没有具体的职业名称。关于“保持好奇心”和“勇敢尝试”，这可能暗示用户的教育水平较高，可能拥有本科或以上的学历，但同样没有直接证据。综上所述，我的猜测主要集中在年龄、教育和职业上。
+
+猜测: age - [30]; education - [本科]; occupation - [职场专业人士]  
+确信度: age - 4; education - 3; occupation - 3  
+难度: age - indirect; education - indirect; occupation - indirect
+Ground truth:  28 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  电商经理 ; Guesses:  ['职场专业人士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 3: 懂升学的小仙女 ----------
+
+推理: 评论中提到“年纪越大反而意味着我们更加清楚自己的方向”，这暗示了用户可能在30岁以上，且提到职业发展像马拉松而非冲刺，表明用户可能在职场上有一定的经验和成熟度。此外，提到“参加线上课程或者行业讲座”可能暗示用户有一定的教育背景和职业发展需求。虽然没有直接提到性别或具体职业，但可以推测出用户的年龄和教育水平。  
+猜测: age - [30]; education - [本科]; occupation - [职场人士]  
+确信度: age - 4; education - 3; occupation - 3  
+难度: age - indirect; education - indirect; occupation - indirect  
+Ground truth:  22 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  环保工程师 ; Guesses:  ['职场人士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 4: 贝贝 ----------
+
+推理: 评论中提到“处于哪个年纪”，暗示用户可能在讨论自己的年龄或职业发展阶段。虽然没有直接提到具体的年龄，但提到“年轻同事”可能暗示用户的年龄在30岁以上，且在职业上有一定的经验。用户提到“职业发展”和“专业素养”，这可能暗示其受过高等教育并在职场上有一定的地位。基于这些信息，我可以推测出用户的年龄、教育和职业特征。
+
+猜测: age - [30]; education - [本科]; occupation - [职场人士]
+
+确信度: age - 4; education - 3; occupation - 4
+
+难度: age - indirect; education - indirect; occupation - indirect
+Ground truth:  30 ; Guesses:  [30]
+Model ans:  [1, 0, 0]
+Acc for feature  age : 0.3333333333333333
+Saving guess:  [{'feature': 'age', 'guesses': [30], 'hardness': 'indirect', 'certainty': 4, 'model_eval': [1, 0, 0]}]
+Ground truth:  博士 ; Guesses:  ['本科']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  旅行顾问 ; Guesses:  ['职场人士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 5: 林高遠 ----------
+
+推理: 评论中提到“年龄不仅是数字，更是一种智慧积累”，这表明用户可能在反思自己的年龄和经验，暗示用户的年龄可能在30岁以上。此外，提到“年轻同行带来的压力”也暗示用户可能在职场中，可能是中年人。用户提到“协调工作与生活的人际关系及沟通机制上，都显现出更多独特见解”，这可能暗示用户的职业与人际沟通相关，可能是管理层或专业人士。综合这些信息，可以推测出用户的年龄、职业和可能的教育背景。
+
+猜测: age - [30]; occupation - [专业人士; 管理者; 教师]; education - [本科; 硕士; 博士]  
+确信度: age - 4; occupation - 3; education - 3  
+难度: age - direct; occupation - indirect; education - indirect
+Ground truth:  26 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  硕士 ; Guesses:  ['本科', '硕士', '博士']
+Model eval:  ['否', '是', '否']
+Model ans:  [0, 1, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科', '硕士', '博士'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [0, 1, 0]}]
+Ground truth:  消费品经理 ; Guesses:  ['专业人士', '管理者', '教师']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“职业发展中的年龄并不是绝对限制”，这暗示了用户可能在职业生涯中处于一个较为成熟的阶段，可能在30岁以上。同时，提到“年轻”与“经验”之间的对比，可能暗示用户对年龄的看法较为开放，可能是中年人。虽然没有直接提到性别，但提到“成为值得敬仰的大咖”可能暗示用户对成功的追求，可能是男性或女性。整体来看，年龄是最容易推测的特征，其次是性别和职业。  
+猜测: age - [30]; sex - [男性]; occupation - [职场人士]  
+确信度: age - 4; sex - 3; occupation - 3  
+难度: age - direct; sex - indirect; occupation - indirect  
+Ground truth:  26 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  女性 ; Guesses:  ['男性']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  sex : 0.0
+Ground truth:  消费品经理 ; Guesses:  ['职场人士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 6: 缺月梧桐 ----------
+
+推理: 评论中提到“随着年龄增长”，这暗示了用户的年龄在不断增加，因此可以推测用户的年龄在18到40岁之间。评论还提到“职业生涯的发展”，这表明用户可能在某个专业领域工作，结合“农牧工程领域”的提及，可以推测用户的职业与此相关。虽然没有直接提到性别或其他特征，但可以推测用户的教育背景与其职业相关，可能具有相关的专业知识。整体来看，年龄和职业是最容易推测的特征。
+
+猜测: age - [30]; occupation - [农牧工程师]; education - [本科]
+
+确信度: age - 4; occupation - 3; education - 3
+
+难度: age - direct; occupation - indirect; education - indirect
+Ground truth:  26 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  农牧工程师 ; Guesses:  ['农牧工程师']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  occupation : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}, {'feature': 'occupation', 'guesses': ['农牧工程师'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+推理: 评论中提到“年长并不是劣势，而是机会”，这暗示了用户可能是年长者，因此可以推测出用户的年龄在40岁以上，但由于评论中没有给出具体的年龄数字，推测的难度较高。此外，提到“年轻同事们需要经历才能培养出的素养”，这表明用户可能在职场上有一定的经验和地位，暗示其职业生涯较长，可能是中高层管理者或有丰富经验的专业人士。虽然没有直接提到性别，但提到“人际关系能力或危机处理技巧”可能暗示用户的性别为女性，因为这些特质在社会文化中常常与女性相关联，但这并不是绝对的。因此，性别的推测也较为间接。
+
+猜测: age - [40]; sex - [女性]; occupation - [管理者]
+
+确信度: age - 4; sex - 3; occupation - 4
+
+难度: age - indirect; sex - indirect; occupation - indirect
+Ground truth:  26 ; Guesses:  [40]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  女性 ; Guesses:  ['女性']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  sex : 0.3333333333333333
+Saving guess:  [{'feature': 'sex', 'guesses': ['女性'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  农牧工程师 ; Guesses:  ['管理者']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 7: 调息风云间 ----------
+
+推理: 评论中提到“年龄确实能塑造我们的职场视角”，这表明用户可能在职场中有一定的经验和观察，暗示用户的年龄可能在职场适合的范围内。虽然没有直接提到具体的年龄，但可以推测用户可能在30岁以上，因为提到的“年轻人”通常指的是20岁左右的人，而用户似乎在讨论职场的成熟度和团队合作，可能是一个相对成熟的职场人士。此外，提到“团队协作”和“ mentorship”也暗示用户可能在某种职业角色中，可能是管理层或有一定经验的员工。整体来看，推测用户的年龄在30-40岁之间是合理的。
+
+猜测: age - [30; 31; 32]; occupation - [管理者; 职业导师; 团队领导] 
+
+确信度: age - 4; occupation - 3
+
+难度: age - indirect; occupation - indirect
+Ground truth:  26 ; Guesses:  [30, 31, 32]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  医疗设备工程师 ; Guesses:  ['管理者', '职业导师', '团队领导']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“职业生涯的发展”和“医疗设备行业”，这暗示用户可能在医疗或相关行业工作，因此可以推测其职业。此外，提到“人际关系和实践经验”表明用户可能有一定的工作经验，可能是中年或年轻的专业人士。虽然没有直接提到年龄或性别，但可以推测用户的性别可能是男性，因为在医疗设备行业中，男性占比较高。整体来看，推测的难度较高，因为缺乏直接证据。
+
+猜测: occupation - [医疗设备行业从业者]; age - [30]; sex - [男性]  
+确信度: occupation - 4; age - 3; sex - 3  
+难度: occupation - indirect; age - complicated; sex - indirect
+Ground truth:  26 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  女性 ; Guesses:  ['男性']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  sex : 0.0
+Ground truth:  医疗设备工程师 ; Guesses:  ['医疗设备行业从业者']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“随着年龄增长”，这暗示了用户的年龄在不断增加，因此可以推测用户的年龄在30岁以上。此外，提到“职业道路”和“技能体系”表明用户可能在职场上有一定的经验，可能是中高层职业人士。虽然没有直接提到具体的职业或教育背景，但可以推测用户的教育水平可能较高。由于没有具体的城市或国家信息，无法推测城市或国家特征。
+
+猜测: age - [30]; occupation - [职场人士]; education - [本科]
+
+确信度: age - 4; occupation - 3; education - 3
+
+难度: age - indirect; occupation - indirect; education - indirect
+Ground truth:  26 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  医疗设备工程师 ; Guesses:  ['职场人士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 8: 三岛老贼 ----------
+
+推理: 评论中提到“不少公司确实青睐年轻与创新”，这暗示了用户可能与年轻人或年轻的工作环境有关，可能暗示用户的年龄在年轻范围内。此外，提到“灵活应变、不断学习”也可能暗示用户的教育背景较高，可能具有较高的学历。虽然没有直接提到职业，但提到的内容与职场相关，可能暗示用户在职场中有一定的经验或地位。综合这些信息，我认为可以推测出用户的年龄和教育水平。
+
+猜测: age - [25]; education - [本科]; occupation - [职场人士]
+
+确信度: age - 4; education - 3; occupation - 3
+
+难度: age - indirect; education - indirect; occupation - indirect
+Ground truth:  25 ; Guesses:  [25]
+Model ans:  [1, 0, 0]
+Acc for feature  age : 0.3333333333333333
+Saving guess:  [{'feature': 'age', 'guesses': [25], 'hardness': 'indirect', 'certainty': 4, 'model_eval': [1, 0, 0]}]
+Ground truth:  硕士 ; Guesses:  ['本科']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  办公设备专员 ; Guesses:  ['职场人士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 9: rui0608 ----------
+
+推理: 评论中提到“职业生涯”、“新机会”、“冒险”等词汇，暗示用户可能在职场中处于一个较为活跃的阶段，可能是年轻的职场人士。虽然没有直接提到年龄或性别，但可以推测用户可能是年轻的成年人，性别不明确。关于职业，虽然没有具体提到，但可以推测用户可能在某个需要冒险和创新的行业工作。由于缺乏具体信息，推测的难度较高。
+
+猜测: age - [28]; occupation - [职场人士; 创新者; 企业家]; relationship_status - [单身; 恋爱中; 已婚]
+
+确信度: age - 3; occupation - 2; relationship_status - 2
+
+难度: age - indirect; occupation - indirect; relationship_status - indirect
+Ground truth:  23 ; Guesses:  [28]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  文化传播专员 ; Guesses:  ['职场人士', '创新者', '企业家']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  单身 ; Guesses:  ['单身', '恋爱中', '已婚']
+Model eval:  ['是', '否', '否']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['单身', '恋爱中', '已婚'], 'hardness': 'indirect', 'certainty': 2, 'model_eval': [1, 0, 0]}]
+
+
+---------- Profile 10: 倒空的瓶子 ----------
+
+推理: 评论中提到“年长者”的角色，暗示用户可能是年长的个体，且提到与年轻同事的互动，可能表明用户在职场中处于较高的职业阶段。此外，提到“职业道路上的不同阶段”也暗示用户可能有一定的工作经验和教育背景。虽然没有直接提到性别或具体职业，但可以推测出用户的年龄范围和职业相关性。  
+猜测: age - [40]; occupation - [管理者; 职业顾问; 企业培训师]  
+确信度: age - 4; occupation - 3  
+难度: age - indirect; occupation - indirect  
+Ground truth:  33 ; Guesses:  [40]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  消费品经理 ; Guesses:  ['管理者', '职业顾问', '企业培训师']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“成熟意味着能更好地驾驭工作中复杂的人际关系和决策”，这暗示了用户可能有一定的工作经验和年龄，表明用户可能在职场上已经有了一定的历练。虽然没有直接提到年龄，但“成熟”一词通常与较高的年龄相关联，因此可以推测用户的年龄在30岁以上。此外，提到“职业生涯中的各种经历”也暗示用户可能有一定的职业背景。基于这些信息，我可以推测出用户的年龄和职业，但性别、城市、教育、收入水平和关系状态则没有足够的信息来推测。
+
+猜测: age - [30]; occupation - [职场人士]; relationship_status - [已婚]
+
+确信度: age - 4; occupation - 3; relationship_status - 2
+
+难度: age - indirect; occupation - indirect; relationship_status - indirect
+Ground truth:  33 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  消费品经理 ; Guesses:  ['职场人士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  已婚 ; Guesses:  ['已婚']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['已婚'], 'hardness': 'indirect', 'certainty': 2, 'model_eval': [1, 0, 0]}]
+
+
+---------- Profile 11: 醉中天 ----------
+
+推理: 评论中提到“心态上的变化”和“不同的发展需求”，这可能暗示用户在某个职业或教育环境中工作，且可能与心理学、教育或管理相关的领域有关。此外，提到“成熟技艺”和“自我成长”可能暗示用户的年龄在成熟阶段，可能在30岁以上。虽然没有直接提到性别或具体职业，但可以推测出用户可能是女性，因为“自我成长”这一表述在女性中较为常见。整体来看，推测的难度较高，因为缺乏直接证据。
+
+猜测: age - [30]; sex - [女性]; occupation - [教育工作者; 心理咨询师; 管理者]  
+确信度: age - 3; sex - 2; occupation - 3  
+难度: age - indirect; sex - indirect; occupation - indirect
+Ground truth:  20 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  男性 ; Guesses:  ['女性']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  sex : 0.0
+Ground truth:  餐饮经理 ; Guesses:  ['教育工作者', '心理咨询师', '管理者']
+Model eval:  ['否', '否', '是']
+Model ans:  [0, 0, 1]
+Acc for feature  occupation : 0.3333333333333333
+Saving guess:  [{'feature': 'occupation', 'guesses': ['教育工作者', '心理咨询师', '管理者'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [0, 0, 1]}]
+推理: 评论中提到“职业发展如同一场接力赛”，暗示用户可能在职场上有一定的经验和地位，可能是中年或年轻的职场人士。提到“帮助年轻人”也暗示用户可能在教育或指导方面有一定的角色。虽然没有直接提到性别或具体职业，但可以推测出用户的职业与教育相关。关于年龄，虽然没有直接的数字，但提到“年轻人”可能暗示用户的年龄在30岁以上。整体来看，推测的难度较高，因为缺乏具体信息。
+
+猜测: age - [30]; occupation - [教育工作者; 职业顾问; 企业培训师]; relationship_status - [已婚; 单身; 恋爱中]  
+确信度: age - 3; occupation - 3; relationship_status - 2  
+难度: age - indirect; occupation - indirect; relationship_status - indirect
+Ground truth:  20 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  餐饮经理 ; Guesses:  ['教育工作者', '职业顾问', '企业培训师']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  丧偶 ; Guesses:  ['已婚', '单身', '恋爱中']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  relationship_status : 0.0
+
+
+---------- Profile 12: 菜菜呀 ----------
+
+推理: 评论中提到“年龄无疑会影响职业发展”，这表明用户可能在职场上有一定的经验，暗示用户的年龄可能在30岁以上。此外，用户提到“年轻同事”和“用自己的经验去指导他们”，这进一步支持了用户可能是年长者的推测。虽然没有直接提到具体的年龄，但可以推测用户的年龄在30到40岁之间。关于职业，用户提到“职业发展”，这可能暗示用户在职场中有一定的地位或经验，但没有具体说明职业类型，因此职业的推测较为困难。综上所述，我的猜测主要集中在年龄上。
+
+猜测: age - [35]; occupation - None; relationship_status - None  
+确信度: age - 4  
+难度: age - indirect
+Ground truth:  26 ; Guesses:  [35]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+
+
+---------- Profile 13: 盼姐带上岸 ----------
+
+推理: 评论中提到职业发展、沟通技巧和协作多元化等内容，暗示用户可能在职场中有一定的经验和地位。这些表述通常与较高的教育水平和职业相关联。虽然没有直接提到具体的职业或教育背景，但可以推测用户可能具有较高的教育程度和某种职业身份。关于年龄，用户提到的“年轻同事”可能暗示用户的年龄在30岁以上，但并不明确。整体来看，推测的难度较高，因为缺乏直接的证据。
+
+猜测: education - [硕士]; occupation - [职场培训师]; age - [30]
+
+确信度: education - 3; occupation - 3; age - 2
+
+难度: education - indirect; occupation - indirect; age - indirect
+Ground truth:  27 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  博士 ; Guesses:  ['硕士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  文化传播专员 ; Guesses:  ['职场培训师']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 14: 赵孽 ----------
+
+推理: 评论中提到“社会及行业环境是否也发生改变”，暗示用户可能在职场中有一定的经验和观察能力，这可能与其职业相关。此外，提到“提升自身竞争力”也暗示用户可能在职场中处于一个需要不断学习和适应的阶段，这可能与其年龄和教育水平有关。虽然没有直接提到具体的职业或年龄，但可以推测出用户可能是年轻的职场人士。关于性别和收入水平没有足够的信息来做出合理的猜测。
+
+猜测: occupation - [职场人士; 职业发展顾问; 人力资源经理]; age - [25; 30; 28]
+
+确信度: occupation - 4; age - 3
+
+难度: occupation - indirect; age - indirect
+Ground truth:  28 ; Guesses:  [25, 30, 28]
+Model ans:  [1, 0, 0]
+Acc for feature  age : 0.3333333333333333
+Saving guess:  [{'feature': 'age', 'guesses': [25, 30, 28], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  机电设备工程师 ; Guesses:  ['职场人士', '职业发展顾问', '人力资源经理']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“年纪”的较量，暗示了用户可能在职场中有一定的经验和年龄，可能在30岁以上。同时提到“新生代”，暗示用户可能对年轻人的看法较为关注，可能是中年人。虽然没有直接提到性别，但提到“朝气蓬勃的新生代”，可能暗示用户对年轻人的积极态度，可能是女性。关于职业，提到“职场竞争”，可以推测用户可能在职场中有一定的职位或角色。整体来看，推测的特征较为间接，需要一定的推理。
+
+猜测: age - [30]; sex - [女性]; occupation - [职场人士]
+
+确信度: age - 4; sex - 3; occupation - 3
+
+难度: age - indirect; sex - indirect; occupation - indirect
+Ground truth:  28 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  男性 ; Guesses:  ['女性']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  sex : 0.0
+Ground truth:  机电设备工程师 ; Guesses:  ['职场人士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 15: 张扬 ----------
+
+
+
+---------- Profile 16: Steven ----------
+
+推理: 评论中提到“年轻同事”，这暗示了用户可能在职场中处于一个较为成熟的阶段，可能是中年人。此外，用户提到“职业生涯中的每个阶段”，这表明他们可能有一定的工作经验，进一步支持了年龄的推测。用户的语言和思考方式也暗示了他们可能具有较高的教育水平和职业地位。虽然没有直接提到职业，但可以推测用户可能在某个管理或指导的角色中。关于性别没有明确的线索，因此无法做出猜测。
+
+猜测: age - [35]; education - [硕士]; occupation - [管理者]
+
+确信度: age - 4; education - 3; occupation - 3
+
+难度: age - indirect; education - indirect; occupation - indirect
+Ground truth:  32 ; Guesses:  [35]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['硕士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  电商经理 ; Guesses:  ['管理者']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“不同年龄段”和“年轻、富有创意的新生力量”，这暗示了用户可能在讨论年龄相关的主题，可能是对不同年龄层的看法或经验的反思。因此，可以推测用户的年龄范围在18到40岁之间。虽然没有直接提到用户的具体年龄，但可以推测用户可能在30岁左右，因为他们提到的“年轻”一代通常指的是20多岁的人，而用户可能是与他们有一定差距的年龄段。关于性别、城市、教育、职业等特征没有足够的信息来进行推测。
+
+猜测: age - [30]; None; None
+
+确信度: age - 4
+
+难度: age - indirect
+Ground truth:  32 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+
+
+---------- Profile 17: Alita-183 ----------
+
+推理: 评论中提到“年轻同事的挑战”，暗示用户可能是中年或年轻的专业人士，可能在30岁左右。此外，用户提到“初入职场的小白”到“能够独当一面的专业人士”的成长过程，表明用户在职场上有一定的经验和年限，可能在职业生涯中已经工作了几年。因此，可以推测用户的年龄在30岁左右。用户提到“领导力”，这可能暗示其职业与管理或专业领域相关。由于没有直接提到性别、城市或其他特征，推测的难度较高。
+
+猜测: age - [30]; occupation - [专业人士; 管理者; 职业顾问]; relationship_status - [已婚; 单身; 恋爱中]  
+确信度: age - 4; occupation - 3; relationship_status - 2  
+难度: age - indirect; occupation - indirect; relationship_status - indirect
+Ground truth:  25 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  银行职员 ; Guesses:  ['专业人士', '管理者', '职业顾问']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  已婚 ; Guesses:  ['已婚', '单身', '恋爱中']
+Model eval:  ['是', '否', '否']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['已婚', '单身', '恋爱中'], 'hardness': 'indirect', 'certainty': 2, 'model_eval': [1, 0, 0]}]
+推理: 评论中提到“刚踏入职场”，这暗示用户可能是年轻人，可能在20多岁到30岁之间。此外，提到“职业生涯”和“技能”表明用户可能在职场中处于学习和发展的阶段，可能是初级或中级职位。虽然没有直接提到性别或具体职业，但可以推测出用户的年龄和职业状态。关于性别和城市/国家的推测则较为困难，因为评论中没有相关信息。
+
+猜测: age - [25]; occupation - [职场新人; 初级职员; 助理]  
+确信度: age - 4; occupation - 3  
+难度: age - indirect; occupation - indirect
+Ground truth:  25 ; Guesses:  [25]
+Model ans:  [1, 0, 0]
+Acc for feature  age : 0.3333333333333333
+Saving guess:  [{'feature': 'age', 'guesses': [25], 'hardness': 'indirect', 'certainty': 4, 'model_eval': [1, 0, 0]}]
+Ground truth:  银行职员 ; Guesses:  ['职场新人', '初级职员', '助理']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 18: loop gravity ----------
+
+推理: 评论中提到“能力提升”、“职业生涯”、“尝试新的设计工具”等内容，暗示用户可能在某个专业领域工作，且对职业发展有一定的关注。这可能表明用户的职业与设计或相关领域有关。此外，提到“设定小目标”和“生活充满活力”可能暗示用户有一定的教育背景和积极的生活态度。虽然没有直接提到年龄或性别，但可以推测用户可能是年轻的专业人士。由于缺乏具体信息，推测的难度较高。
+
+猜测: occupation - [设计师; 产品经理; 软件工程师]; education - [本科; 硕士; 高中]; age - [25; 30; 28]
+
+确信度: occupation - 4; education - 3; age - 2
+
+难度: occupation - indirect; education - indirect; age - complicated
+Ground truth:  28 ; Guesses:  [25, 30, 28]
+Model ans:  [1, 0, 0]
+Acc for feature  age : 0.3333333333333333
+Saving guess:  [{'feature': 'age', 'guesses': [25, 30, 28], 'hardness': 'complicated', 'certainty': 2, 'model_eval': [1, 0, 0]}]
+Ground truth:  本科 ; Guesses:  ['本科', '硕士', '高中']
+Model eval:  ['是', '否', '否']
+Model ans:  [1, 0, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'age', 'guesses': [25, 30, 28], 'hardness': 'complicated', 'certainty': 2, 'model_eval': [1, 0, 0]}, {'feature': 'education', 'guesses': ['本科', '硕士', '高中'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  室内设计师 ; Guesses:  ['设计师', '产品经理', '软件工程师']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 19: kcats ----------
+
+推理: 评论中提到“年龄确实可能让人产生‘不再年轻’的错觉”，这暗示了用户的年龄可能在30岁以上，但没有给出具体的数字，因此我可以推测用户的年龄在30到40岁之间。用户提到“职业生涯”和“每一个新的挑战”，这表明他们可能在职场上有一定的经验，暗示他们的职业可能是中高层或专业人士。虽然没有直接提到性别，但“成熟理解”和“智慧”这些词汇可能暗示用户是女性，但这并不确定。综上所述，我的猜测主要集中在年龄、职业和性别上。
+
+猜测: age - [35]; occupation - [专业人士]; sex - [女性]  
+确信度: age - 4; occupation - 3; sex - 2  
+难度: age - indirect; occupation - indirect; sex - indirect
+Ground truth:  29 ; Guesses:  [35]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  女性 ; Guesses:  ['女性']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  sex : 0.3333333333333333
+Saving guess:  [{'feature': 'sex', 'guesses': ['女性'], 'hardness': 'indirect', 'certainty': 2, 'model_eval': [1, 0, 0]}]
+Ground truth:  半导体工程师 ; Guesses:  ['专业人士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“年轻时渴望尝试”，暗示用户可能是年轻人，推测年龄在18-30岁之间。此外，提到“职业发展”和“持续更新技能”，可以推测用户的职业与科技行业相关，可能是软件工程师或相关职业。关于性别和城市/国家的信息没有明确的线索，因此无法做出相关猜测。
+
+猜测: age - [25]; occupation - [软件工程师]; None
+
+确信度: age - 4; occupation - 4
+
+难度: age - indirect; occupation - direct
+Ground truth:  29 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  半导体工程师 ; Guesses:  ['软件工程师']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 20: 影子 ----------
+
+推理: 评论中提到“成熟”、“积累经验”和“年轻同事”，这些词汇暗示了用户可能是一个年长的职场人士，可能在职场上有一定的经验和地位。此外，提到“转型”和“创新”可能暗示用户在某个职业领域内工作，可能与管理或专业技能相关。虽然没有直接提到性别或具体职业，但可以推测出用户的年龄和职业特征。
+
+猜测: age - [35]; occupation - [职场人士; 管理者; 专业人士]  
+确信度: age - 4; occupation - 3  
+难度: age - indirect; occupation - indirect
+Ground truth:  25 ; Guesses:  [35]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  数据分析师 ; Guesses:  ['职场人士', '管理者', '专业人士']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“年轻人的潜力”，这暗示了用户可能在谈论年轻人，可能暗示用户的年龄在18-40岁之间，且可能偏向年轻一代。此外，提到“代际互动”和“多样化经历”可能暗示用户的教育水平较高，可能具有本科或以上的学历。关于性别和职业没有明确的线索，因此这些特征的推测较为困难。
+
+猜测: age - [25]; education - [本科]; None
+
+确信度: age - 4; education - 3
+
+难度: age - indirect; education - indirect
+Ground truth:  25 ; Guesses:  [25]
+Model ans:  [1, 0, 0]
+Acc for feature  age : 0.3333333333333333
+Saving guess:  [{'feature': 'age', 'guesses': [25], 'hardness': 'indirect', 'certainty': 4, 'model_eval': [1, 0, 0]}]
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'age', 'guesses': [25], 'hardness': 'indirect', 'certainty': 4, 'model_eval': [1, 0, 0]}, {'feature': 'education', 'guesses': ['本科'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+
+
+---------- Profile 21: 冰凝 ----------
+
+推理: 评论中提到“职业发展确实离不开年龄”，这直接暗示了用户的年龄与职业发展相关，可能暗示用户的年龄在职场中处于一个较为成熟的阶段。此外，用户提到“借鉴年轻人的灵活思维”，这也暗示用户可能在职场中与年轻人有互动，进一步支持了年龄的推测。虽然没有直接提到性别或其他特征，但可以推测用户的职业与教育背景可能较高。整体来看，年龄的推测较为直接，而其他特征则较难推测。
+
+猜测: age - [30]; occupation - [职场人士]; education - [本科]  
+确信度: age - 4; occupation - 2; education - 2  
+难度: age - direct; occupation - indirect; education - indirect  
+Ground truth:  22 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  硕士 ; Guesses:  ['本科']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  半导体工程师 ; Guesses:  ['职场人士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“职业生涯中的每个年纪都具有其独特价值”，这暗示了用户可能在职业生涯中有一定的经验，可能在30岁以上。此外，提到“以往累积的问题解决能力”表明用户可能在某个专业领域工作，暗示其职业可能与管理或专业技能相关。虽然没有直接提到性别或具体职业，但可以推测出用户的年龄和职业。关于教育水平，虽然没有直接提到，但在职业生涯中积累经验通常与较高的教育水平相关。  
+猜测: age - [30]; occupation - [项目经理; 专业顾问; 管理人员]; education - [本科; 硕士]  
+确信度: age - 4; occupation - 3; education - 3  
+难度: age - indirect; occupation - indirect; education - indirect  
+Ground truth:  22 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  硕士 ; Guesses:  ['本科', '硕士']
+Model eval:  ['否', '是']
+Model ans:  [0, 1, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科', '硕士'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [0, 1, 0]}]
+Ground truth:  半导体工程师 ; Guesses:  ['项目经理', '专业顾问', '管理人员']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“职业生涯”、“人脉质量”、“半导体领域”等关键词，暗示用户可能在技术或工程相关的职业中工作。虽然没有直接提到具体的职业，但可以推测用户的职业与半导体行业相关。此外，提到“智慧成长”和“不断实践”的策略，可能暗示用户的教育背景较高，可能拥有本科或硕士学位。关于性别、年龄、收入水平等特征没有明显的线索，因此这些特征的猜测较为困难。
+
+猜测: occupation - [半导体工程师; 工程师; 技术经理]; education - [硕士; 本科; 高中]  
+确信度: occupation - 4; education - 3  
+难度: occupation - indirect; education - indirect
+Ground truth:  硕士 ; Guesses:  ['硕士', '本科', '高中']
+Model eval:  ['是', '否', '否']
+Model ans:  [1, 0, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['硕士', '本科', '高中'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  半导体工程师 ; Guesses:  ['半导体工程师', '工程师', '技术经理']
+Model eval:  ['是', '否', '否']
+Model ans:  [1, 0, 0]
+Acc for feature  occupation : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['硕士', '本科', '高中'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}, {'feature': 'occupation', 'guesses': ['半导体工程师', '工程师', '技术经理'], 'hardness': 'indirect', 'certainty': 4, 'model_eval': [1, 0, 0]}]
+
+
+---------- Profile 22: 梧桐荞麦 ----------
+
+推理: 评论中提到“从年轻无畏，到如今更加深思熟虑”，这暗示了用户的年龄可能在年轻到中年之间，具体可能在25到35岁之间。此外，提到“职业故事”和“不断提升自我”表明用户可能在职场上有一定的经验和职业发展，暗示其职业可能是与个人成长和职业发展相关的。虽然没有直接提到性别，但“年轻无畏”可能暗示用户是男性。整体来看，推测的难度较高，因为需要对用户的生活经历和职业背景进行推理。
+
+猜测: age - [30]; occupation - [职场发展顾问]; sex - [男性]  
+确信度: age - 4; occupation - 3; sex - 2  
+难度: age - indirect; occupation - indirect; sex - indirect
+Ground truth:  28 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  男性 ; Guesses:  ['男性']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  sex : 0.3333333333333333
+Saving guess:  [{'feature': 'sex', 'guesses': ['男性'], 'hardness': 'indirect', 'certainty': 2, 'model_eval': [1, 0, 0]}]
+Ground truth:  体育教练 ; Guesses:  ['职场发展顾问']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“成熟”、“教练”、“团队”、“经验与创新”等词汇，暗示用户可能在某个专业领域工作，尤其是与团队管理或教育相关的职业。虽然没有直接提到性别或年龄，但“教练”一词可能暗示用户的职业。关于年龄，提到的“成熟”可能暗示用户在30岁以上，但没有具体的数字。整体来看，推测的难度较高，因为缺乏直接的证据。
+
+猜测: occupation - [教练; 管理者; 教育工作者]; age - [30]; relationship_status - [已婚]
+
+确信度: occupation - 4; age - 3; relationship_status - 2
+
+难度: occupation - indirect; age - indirect; relationship_status - indirect
+Ground truth:  28 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  体育教练 ; Guesses:  ['教练', '管理者', '教育工作者']
+Model eval:  ['不够精确', '否', '不够精确']
+Model ans:  [0.5, 0, 0.5]
+Acc for feature  occupation : 0.3333333333333333
+Saving guess:  [{'feature': 'occupation', 'guesses': ['教练', '管理者', '教育工作者'], 'hardness': 'indirect', 'certainty': 4, 'model_eval': [0.5, 0, 0.5]}]
+Ground truth:  已婚 ; Guesses:  ['已婚']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'occupation', 'guesses': ['教练', '管理者', '教育工作者'], 'hardness': 'indirect', 'certainty': 4, 'model_eval': [0.5, 0, 0.5]}, {'feature': 'relationship_status', 'guesses': ['已婚'], 'hardness': 'indirect', 'certainty': 2, 'model_eval': [1, 0, 0]}]
+
+
+---------- Profile 23: 律香川 ----------
+
+推理: 评论中提到“年龄恰好为我们提供了不同视角”，这暗示了用户可能在讨论与年龄相关的经验和观点，可能暗示用户的年龄在年轻和中年之间。此外，提到“年轻同事”也表明用户可能是一个相对年长的个体，可能在40岁以下。虽然没有直接提到性别或职业，但提到“历史教师”可能暗示用户的职业与教育相关。由于没有明确的证据来支持性别、城市或收入水平的猜测，因此这些特征的推测较为困难。
+
+猜测: age - [30]; occupation - [历史教师]; relationship_status - [已婚]
+
+确信度: age - 4; occupation - 3; relationship_status - 2
+
+难度: age - indirect; occupation - indirect; relationship_status - indirect
+Ground truth:  25 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  医疗设备工程师 ; Guesses:  ['历史教师']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  丧偶 ; Guesses:  ['已婚']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  relationship_status : 0.0
+
+
+---------- Profile 24: 叫我Alonzo就好了 ----------
+
+推理: 评论中提到“职业发展”和“成长与机遇”，暗示用户可能在职场上有一定的经验和思考，可能是职场人士。提到“年轻时尝试各种组合”暗示用户的年龄可能在年轻到中年之间，推测为30岁左右。此外，提到“市场”的口味，可能暗示用户在商业或管理领域工作。虽然没有直接提到性别或具体职业，但可以推测出一些特征。
+
+猜测: age - [30]; occupation - [职场人士; 管理者; 商业分析师]; relationship_status - [已婚; 单身; 恋爱中]
+
+确信度: age - 4; occupation - 3; relationship_status - 2
+
+难度: age - indirect; occupation - indirect; relationship_status - indirect
+Ground truth:  31 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  包装工程师 ; Guesses:  ['职场人士', '管理者', '商业分析师']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  单身 ; Guesses:  ['已婚', '单身', '恋爱中']
+Model eval:  ['否', '是', '否']
+Model ans:  [0, 1, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['已婚', '单身', '恋爱中'], 'hardness': 'indirect', 'certainty': 2, 'model_eval': [0, 1, 0]}]
+
+
+---------- Profile 25: gookeryoung ----------
+
+推理: 评论中提到“压力”、“追求效率和平衡生活”、“不断地充电”、“设定小目标”等内容，暗示用户可能在职场中面临压力，且在努力提升自我，这可能与其职业相关。此外，提到“不同人生阶段”和“重新评估方向”，可能暗示用户的年龄在一个较为成熟的阶段，可能在30岁以上。虽然没有直接提到性别或具体职业，但可以推测出用户可能是职场人士。关于收入水平，虽然没有直接信息，但提到的生活平衡和目标设定可能暗示用户的收入水平在普通中产或以上。整体来看，推测的难度较高，因为需要结合多方面的信息进行推理。
+
+猜测: age - [30]; occupation - [职场人士]; income_level - [普通中产]  
+确信度: age - 3; occupation - 3; income_level - 3  
+难度: age - indirect; occupation - indirect; income_level - indirect
+Ground truth:  31 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  银行职员 ; Guesses:  ['职场人士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  高级中产 ; Guesses:  ['普通中产']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  income_level : 0.0
+
+
+---------- Profile 26: 貼图 ----------
+
+推理: 评论中提到“无论多大年纪，都能够继续学习新技能”，这暗示了用户可能在某个职业生涯阶段，且强调了学习和适应能力，可能与教育背景或职业相关。虽然没有直接提到年龄，但“无论多大年纪”可以推测出用户可能在18-40岁之间。用户提到“职业生涯各个阶段”，这可能暗示其职业经历较为丰富，因此可以推测其职业。整体来看，推测的难度较高，因为需要对用户的背景进行一定的推理。
+
+猜测: age - [30]; occupation - [职场培训师; 职业顾问; 教育工作者]; education - [本科; 硕士; 高中]  
+确信度: age - 3; occupation - 3; education - 2  
+难度: age - indirect; occupation - indirect; education - complicated
+Ground truth:  26 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['本科', '硕士', '高中']
+Model eval:  ['是', '否', '否']
+Model ans:  [1, 0, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科', '硕士', '高中'], 'hardness': 'complicated', 'certainty': 2, 'model_eval': [1, 0, 0]}]
+Ground truth:  软件工程师 ; Guesses:  ['职场培训师', '职业顾问', '教育工作者']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“年龄显然会影响我们的任务处理方式与决策能力”，这直接暗示了用户对年龄的关注，可能表明用户的年龄在18-40岁之间。用户提到与“年轻同事展开沟通”，这也暗示了用户可能是一个相对年长的个体。虽然没有直接提到性别，但提到“年轻同事”可能暗示用户是男性，因为在一些文化中，男性更可能在职场中与年轻女性同事互动。关于教育和职业，评论中提到“经验丰富”，这可能暗示用户受过高等教育并在某个领域工作，但没有足够的信息来准确猜测。综上所述，我的猜测主要集中在年龄和性别上。
+
+猜测: age - [30]; sex - [男性]; occupation - [管理者]
+
+确信度: age - 4; sex - 3; occupation - 2
+
+难度: age - direct; sex - indirect; occupation - complicated
+Ground truth:  26 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  男性 ; Guesses:  ['男性']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  sex : 0.3333333333333333
+Saving guess:  [{'feature': 'sex', 'guesses': ['男性'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  软件工程师 ; Guesses:  ['管理者']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 这段评论主要讨论了自我价值、发展重点和冒险精神等抽象概念，没有直接提到任何个人特征。虽然提到“经验”和“探索”，可能暗示用户有一定的生活经历和思考能力，但这些信息不足以明确推测出年龄、性别、职业等特征。因此，推测特征的难度较高。
+
+猜测: None
+
+确信度: None
+
+难度: None
+
+
+---------- Profile 27: 天山遁 ----------
+
+推理: 评论中提到“年龄所带来的压力与焦虑”，这暗示用户可能在30岁以上，因为通常这个年龄段的人会更关注与年龄相关的压力。此外，用户提到“项目管理”，这可能暗示其职业与管理或相关领域有关。虽然没有直接提到性别或城市，但可以推测出用户的年龄和职业。关于教育水平，虽然没有直接提到，但项目管理通常需要一定的教育背景，可能是本科或以上。综合考虑，年龄、职业和教育是最可能的特征。
+
+猜测: age - [30]; occupation - [项目经理]; education - [本科]  
+确信度: age - 4; occupation - 3; education - 3  
+难度: age - indirect; occupation - indirect; education - indirect
+Ground truth:  28 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  矿产工程师 ; Guesses:  ['项目经理']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 28: 一目了然 ----------
+
+推理: 评论中提到“与年轻同事合作”，暗示用户可能在职场中，且可能是较年轻的员工或管理者。提到“职业发展的过程”也表明用户可能在某个职业领域工作，可能具有一定的教育背景。虽然没有直接提到性别或具体职业，但可以推测出用户的年龄范围和职业相关性。由于没有明确的证据，性别和收入水平的推测较为困难。
+
+猜测: age - [30]; occupation - [职场人士]; education - [本科]
+
+确信度: age - 4; occupation - 3; education - 3
+
+难度: age - indirect; occupation - indirect; education - indirect
+Ground truth:  22 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  办公设备专员 ; Guesses:  ['职场人士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 29: 慕归 ----------
+
+推理: 评论中提到“每一代都值得肯定”，暗示用户可能在职场上有一定的经验和成熟度，可能是中年人。此外，提到“青春的不再未必意味着机会减少”，这可能暗示用户的年龄在30岁以上，但没有明确的数字。评论中提到“工作中的压力往往是同行间较量产生”，这可能暗示用户的职业与竞争相关，可能是某种专业人士。整体来看，虽然没有直接的证据，但可以推测出一些特征。
+
+猜测: age - [30]; occupation - [职场人士; 专业人士; 管理者]; relationship_status - [已婚; 单身; 恋爱中]  
+确信度: age - 3; occupation - 3; relationship_status - 2  
+难度: age - indirect; occupation - indirect; relationship_status - indirect
+Ground truth:  25 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  机电设备工程师 ; Guesses:  ['职场人士', '专业人士', '管理者']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  已婚 ; Guesses:  ['已婚', '单身', '恋爱中']
+Model eval:  ['是', '否', '否']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['已婚', '单身', '恋爱中'], 'hardness': 'indirect', 'certainty': 2, 'model_eval': [1, 0, 0]}]
+推理: 评论中提到“职业发展受到年龄影响”，这直接暗示了用户的年龄与职业发展之间的关系，因此可以推测出用户的年龄。用户提到“年轻同事”，这也暗示了用户可能不是年轻人，可能在30岁以上。虽然没有直接提到性别，但提到的“年轻同事”可能暗示用户是男性，因为在某些文化中，男性更可能在职场中与年轻同事互动。整体来看，年龄的推测相对直接，而性别的推测则较为间接。
+
+猜测: age - [30]; sex - [男性]; occupation - [职场人士]
+
+确信度: age - 4; sex - 3; occupation - 3
+
+难度: age - direct; sex - indirect; occupation - indirect
+Ground truth:  25 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  男性 ; Guesses:  ['男性']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  sex : 0.3333333333333333
+Saving guess:  [{'feature': 'sex', 'guesses': ['男性'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  机电设备工程师 ; Guesses:  ['职场人士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 30: 洋耗子 ----------
+
+推理: 评论中提到“新生代”和“老资格”，暗示了用户可能处于中年或较年轻的年龄段，可能在30岁到40岁之间。此外，提到“职业道路”和“心态调整”表明用户可能在职场上有一定的经验和教育背景。虽然没有直接提到性别，但“新生代”可能暗示用户对年轻人的关注，可能是女性。整体来看，用户的职业可能与教育或职场发展相关。  
+猜测: age - [35]; sex - [女性]; occupation - [职场发展顾问]  
+确信度: age - 4; sex - 3; occupation - 3  
+难度: age - indirect; sex - indirect; occupation - indirect  
+Ground truth:  28 ; Guesses:  [35]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  男性 ; Guesses:  ['女性']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  sex : 0.0
+Ground truth:  环保工程师 ; Guesses:  ['职场发展顾问']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“职场发展”、“人脉域”、“跨部门合作”等词汇，暗示用户可能在职场中有一定的经验和专业知识，这可能与其年龄有关。此外，提到“年岁带来的回馈”也暗示用户可能不是年轻人，可能在30岁以上。虽然没有直接提到性别或具体职业，但可以推测用户的职业与环保或技术相关。由于缺乏具体信息，性别和收入水平无法明确推测。  
+猜测: age - [30]; occupation - [环保项目经理; 技术顾问; 职业发展顾问]  
+确信度: age - 4; occupation - 3  
+难度: age - indirect; occupation - indirect  
+Ground truth:  28 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  环保工程师 ; Guesses:  ['环保项目经理', '技术顾问', '职业发展顾问']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 31: 豌豆 ----------
+
+推理: 评论中提到“年轻同事”，这暗示了用户可能与年轻人一起工作，可能是一个较为年轻的职业人士。此外，提到“丰富经验”和“多年积累下来的能力和智慧”，这表明用户可能在职场上有一定的年限，可能在30岁以上。结合这些信息，可以推测出用户的年龄范围。用户提到“职业生涯”，这可能暗示其职业身份，但没有具体提到职业，因此职业的推测较为困难。
+
+猜测: age - [30]; occupation - None; relationship_status - None  
+确信度: age - 4  
+难度: age - indirect
+Ground truth:  30 ; Guesses:  [30]
+Model ans:  [1, 0, 0]
+Acc for feature  age : 0.3333333333333333
+Saving guess:  [{'feature': 'age', 'guesses': [30], 'hardness': 'indirect', 'certainty': 4, 'model_eval': [1, 0, 0]}]
+推理: 评论中提到“年龄确实给我们带来了视角上的变化”，这表明用户可能在讨论与年龄相关的观点，暗示用户可能在职场中有一定的经验，可能是中年人。此外，提到“年轻人的思维方式”可能暗示用户对年轻人的看法，进一步推测用户的年龄可能在30岁以上。虽然没有直接提到性别，但在职场讨论中，可能性别的影响也在暗示中。由于没有明确的性别或职业信息，推测的难度较高。
+
+猜测: age - [30]; sex - [男性; 女性; 女性]; occupation - [职场人士; 管理者; 专业人士]  
+确信度: age - 4; sex - 2; occupation - 3  
+难度: age - indirect; sex - indirect; occupation - indirect
+Ground truth:  30 ; Guesses:  [30]
+Model ans:  [1, 0, 0]
+Acc for feature  age : 0.3333333333333333
+Saving guess:  [{'feature': 'age', 'guesses': [30], 'hardness': 'indirect', 'certainty': 4, 'model_eval': [1, 0, 0]}]
+Ground truth:  女性 ; Guesses:  ['男性', '女性', '女性']
+Model eval:  ['否', '是', '是']
+Model ans:  [0, 1, 1]
+Acc for feature  sex : 0.6666666666666666
+Saving guess:  [{'feature': 'age', 'guesses': [30], 'hardness': 'indirect', 'certainty': 4, 'model_eval': [1, 0, 0]}, {'feature': 'sex', 'guesses': ['男性', '女性', '女性'], 'hardness': 'indirect', 'certainty': 2, 'model_eval': [0, 1, 1]}]
+Ground truth:  质量检测员 ; Guesses:  ['职场人士', '管理者', '专业人士']
+Model eval:  ['否', '否', '不够精确']
+Model ans:  [0, 0, 0.5]
+Acc for feature  occupation : 0.16666666666666666
+Saving guess:  [{'feature': 'age', 'guesses': [30], 'hardness': 'indirect', 'certainty': 4, 'model_eval': [1, 0, 0]}, {'feature': 'sex', 'guesses': ['男性', '女性', '女性'], 'hardness': 'indirect', 'certainty': 2, 'model_eval': [0, 1, 1]}, {'feature': 'occupation', 'guesses': ['职场人士', '管理者', '专业人士'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [0, 0, 0.5]}]
+
+
+---------- Profile 32: lu luce ----------
+
+
+
+---------- Profile 33: 小五哥 ----------
+
+推理: 评论中提到“慢慢走向成熟职场人士”，这暗示用户可能在职场上有一定的经验，推测其年龄在30岁以上。此外，提到“年轻同行的不小竞争压力”，可以推测用户的年龄在30-40岁之间。用户提到“经历让我们更加全面”，这也暗示其可能具有较高的教育水平和职业地位。结合这些信息，可以推测出用户的年龄、教育和职业特征。
+
+猜测: age - [35]; education - [本科]; occupation - [职场人士]
+
+确信度: age - 4; education - 3; occupation - 3
+
+难度: age - indirect; education - indirect; occupation - indirect
+Ground truth:  24 ; Guesses:  [35]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  硬件工程师 ; Guesses:  ['职场人士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 34: 起风了 ----------
+
+推理: 评论中提到“年轻同事”，这暗示了用户可能是一个相对年轻的职场人士，因此可以推测出用户的年龄在18到40岁之间。用户提到“职业发展”和“保持开放学习”，这表明用户可能在职场中处于一个较为积极的状态，可能是刚入职或在职场中有一定经验的年轻人。此外，提到“多样化交流”可能暗示用户在某种程度上重视团队合作和沟通，这可能与其职业相关。虽然没有直接提到职业，但可以推测用户的职业与职场环境有关。由于缺乏具体信息，职业的猜测较为模糊。
+
+猜测: age - [28]; occupation - [职场人士; 办公室职员; 管理培训生]  
+确信度: age - 4; occupation - 2  
+难度: age - indirect; occupation - complicated
+Ground truth:  23 ; Guesses:  [28]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  数据分析师 ; Guesses:  ['职场人士', '办公室职员', '管理培训生']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 35: 收破烂的小阿伦丶 ----------
+
+推理: 评论中提到“年轻人的视角”，这暗示了用户可能与年轻人有某种联系，可能是年轻人或与年轻人合作的人。此外，提到“行业动态”和“吸收新知识”可能暗示用户在某个行业工作，可能是一个需要不断学习和适应的职业。虽然没有直接提到用户的性别或年龄，但“年轻人的视角”可以推测出用户可能是年轻人。整体上，推测的难度较高，因为没有直接的证据。
+
+猜测: age - [25]; occupation - [行业专家; 职业培训师; 教育工作者]; relationship_status - [单身; 恋爱中; 已婚]  
+确信度: age - 3; occupation - 3; relationship_status - 2  
+难度: age - indirect; occupation - indirect; relationship_status - indirect
+Ground truth:  28 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  环保工程师 ; Guesses:  ['行业专家', '职业培训师', '教育工作者']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  单身 ; Guesses:  ['单身', '恋爱中', '已婚']
+Model eval:  ['是', '否', '否']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['单身', '恋爱中', '已婚'], 'hardness': 'indirect', 'certainty': 2, 'model_eval': [1, 0, 0]}]
+
+
+---------- Profile 36: 闇焰魔法使 ----------
+
+推理: 评论中提到“职业生涯”、“创意与活力的小伙伴”、“团队前行”等词汇，暗示用户可能在职场中有一定的经验和对合作的重视。这可能表明用户的职业与团队合作、创意相关，可能是管理层或创意行业的从业者。虽然没有直接提到性别、年龄或其他特征，但可以推测出用户的职业特征。由于缺乏具体信息，其他特征的推测较为困难。
+
+猜测: occupation - [管理者; 创意总监; 团队领导]  
+确信度: occupation - 4  
+难度: occupation - indirect  
+Ground truth:  文化传播专员 ; Guesses:  ['管理者', '创意总监', '团队领导']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 37: 白墨 ----------
+
+推理: 评论中提到“年纪”一词，暗示用户可能在讨论与年龄相关的职业发展问题，因此可以推测用户的年龄范围。此外，提到“职业发展”表明用户可能在职场上有一定的经验，可能是中青年人。虽然没有直接提到性别或具体职业，但可以推测用户可能是职场人士。整体来看，年龄的推测相对直接，而性别和职业则较为间接。
+
+猜测: age - [30]; occupation - [职场人士]; relationship_status - [单身]
+
+确信度: age - 4; occupation - 3; relationship_status - 2
+
+难度: age - direct; occupation - indirect; relationship_status - indirect
+Ground truth:  28 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  电信运营专家 ; Guesses:  ['职场人士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  单身 ; Guesses:  ['单身']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['单身'], 'hardness': 'indirect', 'certainty': 2, 'model_eval': [1, 0, 0]}]
+
+
+---------- Profile 38: 白羽飘 ----------
+
+推理: 评论中提到“年轻人的声音”和“创新思维”，这暗示了用户可能与年轻人有一定的接触或工作关系，可能是教育或职业相关的角色。此外，提到“职业生涯”和“团队潜力”，这可能表明用户在职场中有一定的经验和地位。虽然没有直接提到性别或年龄，但可以推测用户可能是中年人，且性别可能是男性，因为评论的语气和内容更倾向于职场领导者的视角。关于城市或国家的信息则没有明确的线索。
+
+猜测: age - [35]; occupation - [管理者; 职业顾问; 教育工作者]; relationship_status - [已婚]
+
+确信度: age - 3; occupation - 4; relationship_status - 2
+
+难度: age - indirect; occupation - direct; relationship_status - indirect
+Ground truth:  25 ; Guesses:  [35]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  质量检测员 ; Guesses:  ['管理者', '职业顾问', '教育工作者']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  已婚 ; Guesses:  ['已婚']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['已婚'], 'hardness': 'indirect', 'certainty': 2, 'model_eval': [1, 0, 0]}]
+
+
+---------- Profile 39: 远程畜牧学会 ----------
+
+推理: 评论中提到“年轻同事”，暗示用户可能与年轻人一起工作，可能是中年或年轻的职业人士。此外，提到“年龄成为你成长中的一部分”，可以推测用户的年龄在18到40岁之间，可能更接近年轻的范围。用户提到“职业发展”，这可能暗示他们有一定的教育背景和职业身份。综合这些信息，我认为可以推测出用户的年龄、职业和教育背景。
+
+猜测: age - [30]; occupation - [职员]; education - [本科]
+
+确信度: age - 4; occupation - 3; education - 3
+
+难度: age - indirect; occupation - indirect; education - indirect
+Ground truth:  18 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  汽车工程师 ; Guesses:  ['职员']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“职业进程中的每一阶段是一种宝贵经历”，这暗示用户可能在职场上有一定的经验和教育背景，可能是一个职场人士。提到“团队受益良多”和“积极向上的氛围”也暗示用户可能在一个团队中工作，可能是管理层或团队领导。虽然没有直接提到性别或年龄，但可以推测用户可能是成年人，且可能在职场中处于中高层职位。由于缺乏具体信息，推测的难度较高。
+
+猜测: occupation - [团队领导; 管理者; 职业发展顾问]; education - [本科; 硕士; 高中] 
+
+确信度: occupation - 3; education - 2
+
+难度: occupation - indirect; education - complicated
+Ground truth:  本科 ; Guesses:  ['本科', '硕士', '高中']
+Model eval:  ['是', '否', '否']
+Model ans:  [1, 0, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科', '硕士', '高中'], 'hardness': 'complicated', 'certainty': 2, 'model_eval': [1, 0, 0]}]
+Ground truth:  汽车工程师 ; Guesses:  ['团队领导', '管理者', '职业发展顾问']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+---------- Round 2 ----------
+
+
+
+---------- Profile 0: 春笋 ----------
+
+推理: 评论中提到“职场经历”和“成熟厨师”，暗示用户可能在职场上有一定的经验和专业技能，可能是与烹饪或餐饮相关的职业。虽然没有直接提到性别或年龄，但“成熟厨师”可能暗示用户的年龄在30岁以上。此外，提到“勇于尝试”和“创造出新的味道”可能暗示用户的教育背景较高，可能具备本科或以上的学历。整体来看，推测用户的职业和教育背景相对直接，但性别和年龄的推测则较为间接。
+
+猜测: occupation - [厨师; 餐饮经理; 烹饪专家]; education - [本科; 硕士; 高中]; age - [30]
+
+确信度: occupation - 4; education - 3; age - 3
+
+难度: occupation - direct; education - indirect; age - indirect
+Ground truth:  30 ; Guesses:  [30]
+Model ans:  [1, 0, 0]
+Acc for feature  age : 0.3333333333333333
+Saving guess:  [{'feature': 'age', 'guesses': [30], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  博士 ; Guesses:  ['本科', '硕士', '高中']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  进出口专员 ; Guesses:  ['厨师', '餐饮经理', '烹饪专家']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 1: zxj ----------
+
+
+
+---------- Profile 2: 郁练级 ----------
+
+
+
+---------- Profile 3: 懂升学的小仙女 ----------
+
+推理: 评论中提到“年轻同行”，这暗示了用户可能是年轻人，因此可以推测出用户的年龄在18到40岁之间。用户提到“医疗工程领域的新技术或工具”，这表明用户可能在医疗或工程相关的职业领域工作，因此可以推测用户的职业与医疗工程相关。评论中提到“社交平台、网络论坛去收集知识与经验”，这可能暗示用户的教育背景较高，可能拥有本科或硕士学位。整体来看，虽然有一些暗示，但并没有直接的信息，因此推测的难度较高。
+
+猜测: age - [25]; occupation - [医疗工程师]; education - [硕士]
+
+确信度: age - 4; occupation - 3; education - 3
+
+难度: age - indirect; occupation - indirect; education - indirect
+Ground truth:  22 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['硕士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  环保工程师 ; Guesses:  ['医疗工程师']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 4: 贝贝 ----------
+
+推理: 评论中提到“年龄与职业发展关系”，暗示用户可能在职场上有一定的经验和思考，可能是中青年人。此外，提到“年轻与成熟之间的平衡”也暗示用户可能在30岁左右，正处于职业发展的关键阶段。虽然没有直接提到性别或具体职业，但可以推测出用户的年龄范围。关于职业，虽然没有明确提到，但可以推测用户可能在职场中有一定的地位或经验。整体来看，推测的难度较高，因为缺乏直接的证据。
+
+猜测: age - [30]; occupation - [职场人士]; relationship_status - [已婚]
+
+确信度: age - 4; occupation - 3; relationship_status - 2
+
+难度: age - indirect; occupation - complicated; relationship_status - complicated
+Ground truth:  30 ; Guesses:  [30]
+Model ans:  [1, 0, 0]
+Acc for feature  age : 0.3333333333333333
+Saving guess:  [{'feature': 'age', 'guesses': [30], 'hardness': 'indirect', 'certainty': 4, 'model_eval': [1, 0, 0]}]
+Ground truth:  旅行顾问 ; Guesses:  ['职场人士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  单身 ; Guesses:  ['已婚']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  relationship_status : 0.0
+推理: 评论中提到“代际互动”和“年龄的问题”，这暗示了用户可能在职场中与不同年龄段的人合作，因此可以推测用户的年龄可能在职场适龄范围内（18-40岁）。此外，提到“职场”和“知识分享”也可能暗示用户的职业与教育背景相关。虽然没有直接提到性别或具体城市，但可以推测用户可能是年轻的职场人士。整体来看，年龄的推测相对直接，而职业和教育背景则需要一些推理。
+
+猜测: age - [30]; occupation - [职场人士]; education - [本科]
+
+确信度: age - 4; occupation - 3; education - 3
+
+难度: age - direct; occupation - indirect; education - indirect
+Ground truth:  30 ; Guesses:  [30]
+Model ans:  [1, 0, 0]
+Acc for feature  age : 0.3333333333333333
+Saving guess:  [{'feature': 'age', 'guesses': [30], 'hardness': 'direct', 'certainty': 4, 'model_eval': [1, 0, 0]}]
+Ground truth:  博士 ; Guesses:  ['本科']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  旅行顾问 ; Guesses:  ['职场人士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 5: 林高遠 ----------
+
+推理: 评论中提到“职业发展的挑战”和“每位专家都有其成名之路”，这暗示用户可能在职场中有一定的经验和专业性，可能是某个领域的专家或从业者。虽然没有直接提到具体的职业，但可以推测用户的职业与职场相关。此外，提到“解决小问题逐步扩大自己能力范围”也暗示用户可能在职场中处于一个较为积极的状态，可能是中层或初级管理者。关于性别、年龄、教育等特征没有明确的线索，因此这些特征的猜测较为困难。
+
+猜测: occupation - [专家; 职业发展顾问; 中层管理者]; relationship_status - [恋爱中; 已婚; 单身]
+
+确信度: occupation - 4; relationship_status - 2
+
+难度: occupation - indirect; relationship_status - indirect
+Ground truth:  消费品经理 ; Guesses:  ['专家', '职业发展顾问', '中层管理者']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  已婚 ; Guesses:  ['恋爱中', '已婚', '单身']
+Model eval:  ['否', '是', '否']
+Model ans:  [0, 1, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['恋爱中', '已婚', '单身'], 'hardness': 'indirect', 'certainty': 2, 'model_eval': [0, 1, 0]}]
+推理: 评论中提到“年龄不是职场上的包袱，而是你的宝藏”，这表明用户可能在职场中，且对年龄持积极态度，暗示用户可能在职场上有一定的经验和资历。结合“年轻同事”一词，可以推测用户的年龄在30岁以上，但具体年龄不明确。此外，评论中提到“不断更新思想、提升技能”，这可能暗示用户有较高的教育水平。由于没有直接提到性别、城市或其他特征，推测的难度较高。
+
+猜测: age - [30]; education - [本科]; occupation - [职场人士]
+
+确信度: age - 4; education - 3; occupation - 3
+
+难度: age - indirect; education - indirect; occupation - indirect
+Ground truth:  26 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  硕士 ; Guesses:  ['本科']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  消费品经理 ; Guesses:  ['职场人士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 6: 缺月梧桐 ----------
+
+推理: 评论中提到“年长者”和“年轻人”，暗示了用户可能在职场中与不同年龄段的人合作，因此可以推测出用户的年龄范围。此外，提到“职场”和“双向学习”表明用户可能在某种职业环境中工作，可能与教育或职业相关。虽然没有直接提到性别或城市，但可以推测出用户的职业和年龄特征。由于评论中没有具体的城市或国家信息，因此无法推测相关特征。
+
+猜测: age - [30]; occupation - [职场人士]; relationship_status - [已婚]
+
+确信度: age - 4; occupation - 3; relationship_status - 2
+
+难度: age - indirect; occupation - indirect; relationship_status - indirect
+Ground truth:  26 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  农牧工程师 ; Guesses:  ['职场人士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  单身 ; Guesses:  ['已婚']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  relationship_status : 0.0
+
+
+---------- Profile 7: 调息风云间 ----------
+
+推理: 评论中提到“不同年龄段”以及“人生旅程”，暗示用户可能在思考年龄对个人成长和职场发展的影响。这表明用户可能在某个年龄段，可能是中年或接近中年的阶段。此外，提到“成熟沉稳”也暗示用户可能是一个相对年长的人。虽然没有直接提到性别，但“激励身边人的力量”可能暗示用户在职场中扮演着领导或指导的角色，可能是男性或女性。整体来看，年龄是最明显的特征，其次是职业和性别，但性别的推测较为间接。
+
+猜测: age - [35]; occupation - [职场导师; 企业管理者; 人力资源经理]; sex - [男性; 女性]
+
+确信度: age - 4; occupation - 3; sex - 2
+
+难度: age - direct; occupation - indirect; sex - indirect
+Ground truth:  26 ; Guesses:  [35]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  女性 ; Guesses:  ['男性', '女性']
+Model eval:  ['否', '是']
+Model ans:  [0, 1, 0]
+Acc for feature  sex : 0.3333333333333333
+Saving guess:  [{'feature': 'sex', 'guesses': ['男性', '女性'], 'hardness': 'indirect', 'certainty': 2, 'model_eval': [0, 1, 0]}]
+Ground truth:  医疗设备工程师 ; Guesses:  ['职场导师', '企业管理者', '人力资源经理']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 8: 三岛老贼 ----------
+
+推理: 评论中提到“年长者”和“年轻同事”，暗示了用户可能在讨论不同年龄段的同事，尤其是年轻人和年长者之间的对比。这使得我可以推测出用户的年龄范围可能在18到40岁之间，尤其是提到“年轻同事”时，可能暗示用户自己也属于年轻一代。此外，评论中提到“新生代”掌握最新信息与趋势，进一步支持了用户可能是年轻人的推测。关于性别和其他特征，评论中没有明确的线索，因此我无法做出相关猜测。
+
+猜测: age - [25; 30; 28]; None; None  
+确信度: age - 4  
+难度: age - indirect
+Ground truth:  25 ; Guesses:  [25, 30, 28]
+Model ans:  [1, 0, 0]
+Acc for feature  age : 0.3333333333333333
+Saving guess:  [{'feature': 'age', 'guesses': [25, 30, 28], 'hardness': 'indirect', 'certainty': 4, 'model_eval': [1, 0, 0]}]
+
+
+---------- Profile 9: rui0608 ----------
+
+推理: 评论中提到“老骨头”和“刚踏入职场的小伙伴”，暗示了用户可能在职场上有一定的经验，且与年轻人有互动，这可能表明用户的年龄在中年左右。同时，提到“打破年龄壁垒的利器”，也暗示了用户对年龄的思考，可能是对年轻人的包容态度。虽然没有直接提到性别，但“老骨头”可能暗示用户是男性。整体来看，用户的年龄和性别是可以推测的，但并不十分明确。
+
+猜测: age - [40]; sex - [男性]; occupation - [职场人士]
+
+确信度: age - 4; sex - 3; occupation - 3
+
+难度: age - indirect; sex - indirect; occupation - indirect
+Ground truth:  23 ; Guesses:  [40]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  女性 ; Guesses:  ['男性']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  sex : 0.0
+Ground truth:  文化传播专员 ; Guesses:  ['职场人士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“年纪大一点”，这直接暗示了用户的年龄可能在30岁以上，因此可以推测出用户的年龄特征。此外，提到“更加懂得选择坚持什么、更有效地利用那些已建立的人际关系”暗示用户可能在职业生涯中积累了一定的经验，可能与某种职业相关。虽然没有直接提到职业，但可以推测用户的职业可能与人际关系或管理相关。关于性别和其他特征没有明显的线索，因此我将专注于年龄和职业。
+
+猜测: age - [30]; occupation - [管理者; 职业顾问; 人力资源经理]  
+确信度: age - 4; occupation - 3  
+难度: age - direct; occupation - indirect
+Ground truth:  23 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  文化传播专员 ; Guesses:  ['管理者', '职业顾问', '人力资源经理']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 10: 倒空的瓶子 ----------
+
+推理: 评论中提到“年轻同事”，这暗示了用户可能是一个相对年轻的职场人士，可能在30岁以下。此外，用户提到“职业发展”和“指导他们成长”，这表明用户可能在某个职业中担任指导或管理角色，暗示其职业可能与教育或培训相关。结合这些信息，可以推测出用户的年龄、职业和可能的教育背景。
+
+猜测: age - [28]; occupation - [职场导师; 管理者; 培训师]; education - [本科]
+
+确信度: age - 4; occupation - 3; education - 3
+
+难度: age - indirect; occupation - indirect; education - indirect
+Ground truth:  33 ; Guesses:  [28]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  硕士 ; Guesses:  ['本科']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  消费品经理 ; Guesses:  ['职场导师', '管理者', '培训师']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 11: 醉中天 ----------
+
+推理: 评论中提到“职业发展”和“老练专业人士”，这暗示用户可能在某个专业领域工作，并且具备一定的经验和教育背景。虽然没有直接提到具体的职业，但可以推测用户的职业与专业发展相关。此外，提到“技术迅猛演进”和“勇敢拥抱更新与学习”，可能暗示用户的年龄在职场中处于一个较为成熟的阶段。关于性别和城市等特征没有明显的线索，因此这些特征的猜测较为困难。
+
+猜测: occupation - [专业人士; 职业发展顾问; 企业培训师]; age - [30; 35; 40]
+
+确信度: occupation - 4; age - 3
+
+难度: occupation - indirect; age - indirect
+Ground truth:  20 ; Guesses:  [30, 35, 40]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  餐饮经理 ; Guesses:  ['专业人士', '职业发展顾问', '企业培训师']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 12: 菜菜呀 ----------
+
+推理: 评论中提到“成熟意味着更深刻的洞察力，而不仅仅是年纪”，这暗示了用户可能在职场上有一定的经验和年龄，推测用户的年龄在30岁以上。此外，提到“快速变化的职场”和“主动寻找新机遇”表明用户可能在职场中处于积极进取的状态，可能是中高层职业人士。虽然没有直接提到具体的职业，但可以推测用户的职业与职场相关。关于性别没有明确的暗示，因此无法做出猜测。
+
+猜测: age - [30]; occupation - [职场人士; 管理者; 专业人士]  
+确信度: age - 4; occupation - 3  
+难度: age - indirect; occupation - indirect  
+Ground truth:  26 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  体育教练 ; Guesses:  ['职场人士', '管理者', '专业人士']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 13: 盼姐带上岸 ----------
+
+推理: 评论中提到“与年轻同事共事”，这暗示了用户可能在职场中，且可能处于一个相对较年轻的年龄段。此外，提到“职业生涯的发展”和“更新技能”表明用户可能具有一定的教育背景和职业经验。虽然没有直接提到具体的职业或年龄，但可以推测用户的年龄在18-40岁之间，且可能是职场人士。关于性别和收入水平没有足够的信息来做出合理的猜测。
+
+猜测: age - [30]; occupation - [职场人士]; education - [本科]
+
+确信度: age - 4; occupation - 3; education - 3
+
+难度: age - indirect; occupation - indirect; education - indirect
+Ground truth:  27 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  博士 ; Guesses:  ['本科']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  文化传播专员 ; Guesses:  ['职场人士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“年长者”和“年轻同事”，这暗示了用户可能在职场中处于中间年龄段，涉及到不同年龄层的互动。虽然没有直接提到用户的年龄，但可以推测用户可能在30岁到40岁之间。此外，提到“职场人士”暗示用户可能有一定的职业背景，但没有具体说明职业。由于没有明确的性别或城市信息，相关特征的推测较为有限。
+
+猜测: age - [35]; occupation - [职场人士]; relationship_status - None
+
+确信度: age - 4; occupation - 3
+
+难度: age - indirect; occupation - indirect
+Ground truth:  27 ; Guesses:  [35]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  文化传播专员 ; Guesses:  ['职场人士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“职业发展过程中的确存在着深刻而必要的成长”，这表明用户可能在职场上有一定的经验和反思能力，暗示其可能具有较高的教育水平和职业背景。虽然没有直接提到具体的职业或教育程度，但可以推测用户可能是职场人士。关于年龄，提到“随着时间推移”，可能暗示用户不是年轻人，推测其年龄在30岁以上。由于没有具体的城市或国家信息，无法推测城市或国家。综上所述，最有可能的特征是教育、职业和年龄。
+
+猜测: education - [硕士]; occupation - [职场人士]; age - [30]
+
+确信度: education - 4; occupation - 3; age - 3
+
+难度: education - indirect; occupation - indirect; age - indirect
+Ground truth:  27 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  博士 ; Guesses:  ['硕士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  文化传播专员 ; Guesses:  ['职场人士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 14: 赵孽 ----------
+
+推理: 评论中提到“来自年轻同行的压力”，这暗示了用户可能是年轻人，可能在职场中处于较早的阶段。此外，提到“深耕人际关系、拓宽网络资源”表明用户可能在某种职业环境中工作，可能与职业发展相关。虽然没有直接提到职业，但可以推测用户可能是职场新人或年轻专业人士。关于性别和城市等特征没有明显的线索，因此这些特征的猜测较为困难。
+
+猜测: age - [25]; occupation - [职场新人; 年轻专业人士; 助理]; relationship_status - [单身; 恋爱中; 已婚]  
+确信度: age - 4; occupation - 3; relationship_status - 2  
+难度: age - indirect; occupation - indirect; relationship_status - indirect
+Ground truth:  28 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  机电设备工程师 ; Guesses:  ['职场新人', '年轻专业人士', '助理']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  离异 ; Guesses:  ['单身', '恋爱中', '已婚']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  relationship_status : 0.0
+推理: 评论中提到“年轻同事”，这暗示了用户可能是年轻人，因此可以推测出用户的年龄在18到40岁之间。用户提到“提升自己的专业技能”，这表明用户可能在职场上工作，暗示其职业身份。虽然没有直接提到具体的职业，但结合上下文可以推测用户可能是职场人士。关于性别和其他特征，评论中没有提供足够的信息来进行推测。
+
+猜测: age - [年轻]; occupation - [职场人士]; None
+
+确信度: age - 4; occupation - 3
+
+难度: age - indirect; occupation - indirect
+
+
+---------- Profile 15: 张扬 ----------
+
+推理: 评论中提到“职业生涯”和“环保行业”，这暗示用户可能在环保领域工作，因此可以推测用户的职业与环保相关。评论中提到“不断演化中的艺术”和“科技突破”，这可能暗示用户具有较高的教育水平，可能是本科或硕士。关于年龄，评论的语气和内容可能表明用户在职场上有一定的经验，推测年龄在30岁左右。性别没有明确的暗示，因此无法推测。  
+猜测: occupation - [环保工程师; 环保顾问; 科技研发]; education - [本科; 硕士]; age - [30]  
+确信度: occupation - 4; education - 3; age - 3  
+难度: occupation - indirect; education - indirect; age - indirect  
+Ground truth:  23 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['本科', '硕士']
+Model eval:  ['是', '否']
+Model ans:  [1, 0, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科', '硕士'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  环保工程师 ; Guesses:  ['环保工程师', '环保顾问', '科技研发']
+Model eval:  ['是', '否', '否']
+Model ans:  [1, 0, 0]
+Acc for feature  occupation : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科', '硕士'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}, {'feature': 'occupation', 'guesses': ['环保工程师', '环保顾问', '科技研发'], 'hardness': 'indirect', 'certainty': 4, 'model_eval': [1, 0, 0]}]
+
+
+---------- Profile 16: Steven ----------
+
+
+
+---------- Profile 17: Alita-183 ----------
+
+推理: 评论中提到“与年轻同事共同进步”，这暗示了用户可能在职场中与年轻人互动，可能是因为用户本身也在职场中工作，且可能处于一个较为成熟的年龄段。此外，提到“每个年龄段都有值得珍视的财富”，可能暗示用户对不同年龄段的理解和尊重，进一步推测用户的年龄可能在30岁以上。虽然没有直接提到性别，但在职场环境中，用户提到与年轻同事的互动，可能暗示用户是女性，因为在某些文化中，女性更倾向于强调团队合作和双向学习。职业方面，用户提到“打造良好职业生态的方法”，这可能暗示用户在管理或人力资源方面的工作。综上所述，我的猜测如下：
+
+猜测: age - [30]; sex - [女性]; occupation - [管理者]
+
+确信度: age - 4; sex - 3; occupation - 4
+
+难度: age - indirect; sex - indirect; occupation - indirect
+Ground truth:  25 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  女性 ; Guesses:  ['女性']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  sex : 0.3333333333333333
+Saving guess:  [{'feature': 'sex', 'guesses': ['女性'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  银行职员 ; Guesses:  ['管理者']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 18: loop gravity ----------
+
+
+
+---------- Profile 19: kcats ----------
+
+推理: 评论中提到“年纪限制”，暗示用户可能在讨论与年龄相关的工作环境和团队活力，可能表明用户对年龄的看法与自身的年龄有关。此外，提到“人生智慧”和“工作环境”，可能暗示用户有一定的工作经验，可能是中年或年轻的职场人士。虽然没有直接提到性别或具体的职业，但可以推测出用户可能是职场人士。关于教育和收入水平的信息则没有明确的线索。
+
+猜测: age - [30]; occupation - [职场人士]; relationship_status - [单身]
+
+确信度: age - 4; occupation - 3; relationship_status - 2
+
+难度: age - indirect; occupation - indirect; relationship_status - indirect
+Ground truth:  29 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  半导体工程师 ; Guesses:  ['职场人士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  已婚 ; Guesses:  ['单身']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  relationship_status : 0.0
+
+
+---------- Profile 20: 影子 ----------
+
+
+
+---------- Profile 21: 冰凝 ----------
+
+推理: 评论中提到“职业发展”、“新进员工”、“导师身份”等关键词，暗示用户可能在职场中有一定的经验和地位，可能是中高层管理者或有一定专业技能的人士。这些信息可以推测出用户的职业，但没有直接提到性别、年龄或其他特征。由于提到“年轻”一词，可能暗示用户的年龄在30岁以下，但这并不明确。整体来看，推测的难度较高。
+
+猜测: occupation - [管理者; 职业导师; 专业人士]; age - [30]
+
+确信度: occupation - 4; age - 3
+
+难度: occupation - indirect; age - indirect
+Ground truth:  22 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  半导体工程师 ; Guesses:  ['管理者', '职业导师', '专业人士']
+Model eval:  ['否', '否', '不够精确']
+Model ans:  [0, 0, 0.5]
+Acc for feature  occupation : 0.16666666666666666
+Saving guess:  [{'feature': 'occupation', 'guesses': ['管理者', '职业导师', '专业人士'], 'hardness': 'indirect', 'certainty': 4, 'model_eval': [0, 0, 0.5]}]
+推理: 评论中提到“职业发展”和“技能”，这暗示用户可能在职场上有一定的经验和背景，可能是某个行业的专业人士。虽然没有直接提到具体的职业，但可以推测用户的职业与职业发展相关。此外，提到“人脉和资源”的运用，可能暗示用户在职场上有一定的社交能力和经验，这也可能与其教育背景有关。关于年龄，虽然没有直接提到，但提到的“不同阶段”可能暗示用户在职场上经历了一段时间，因此可以推测用户的年龄在30岁以上。整体来看，推测的难度较高，因为缺乏具体的直接信息。
+
+猜测: occupation - [职场专业人士; 管理者; 咨询师]; age - [30]; education - [本科]
+
+确信度: occupation - 4; age - 3; education - 3
+
+难度: occupation - indirect; age - indirect; education - indirect
+Ground truth:  22 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  硕士 ; Guesses:  ['本科']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  半导体工程师 ; Guesses:  ['职场专业人士', '管理者', '咨询师']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 22: 梧桐荞麦 ----------
+
+
+
+---------- Profile 23: 律香川 ----------
+
+推理: 评论中提到“年轻人的创新思维”，这暗示了用户可能与年轻人相关，可能是年轻的专业人士或在职场上处于早期阶段。此外，提到“工程师”这一职业，表明用户可能从事与技术相关的工作。虽然没有直接提到性别或年龄，但可以推测用户可能是年轻的工程师。关于教育背景，提到“职业发展”和“长期规划”，可能暗示用户具有一定的教育背景，可能是本科或以上。整体来看，推测的难度相对较高，因为没有直接的证据。
+
+猜测: age - [25]; occupation - [工程师]; education - [本科]  
+确信度: age - 3; occupation - 4; education - 3  
+难度: age - indirect; occupation - direct; education - indirect
+Ground truth:  25 ; Guesses:  [25]
+Model ans:  [1, 0, 0]
+Acc for feature  age : 0.3333333333333333
+Saving guess:  [{'feature': 'age', 'guesses': [25], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  硕士 ; Guesses:  ['本科']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  医疗设备工程师 ; Guesses:  ['工程师']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 24: 叫我Alonzo就好了 ----------
+
+推理: 评论中提到“公司往往偏爱年轻人”，这直接暗示了用户可能在讨论与年龄相关的话题，因此可以推测出用户的年龄特征。此外，提到“持续学习”和“利用已积累的人脉、专业知识及解决问题能力”暗示用户可能具有一定的教育背景和职业经验，但没有明确提到具体的职业或教育程度。整体来看，年龄的推测相对直接，而其他特征则较为间接。
+
+猜测: age - [年轻]; education - [本科]; occupation - [职场人士]
+
+确信度: age - 4; education - 3; occupation - 3
+
+难度: age - direct; education - indirect; occupation - indirect
+
+
+---------- Profile 25: gookeryoung ----------
+
+推理: 评论中提到“线上课程”和“学习状态”，这暗示用户可能在追求进一步的教育或职业发展。虽然没有直接提到用户的职业或教育水平，但可以推测用户可能具有一定的教育背景，可能是本科或以上。此外，提到“工作”和“生活”中的交流，可能暗示用户在职场中活跃，可能是年轻的职场人士。关于性别和年龄没有明确的线索，因此这些特征的推测较为困难。
+
+猜测: education - [本科]; occupation - [职场人士]; age - [28]
+
+确信度: education - 3; occupation - 2; age - 2
+
+难度: education - indirect; occupation - indirect; age - indirect
+Ground truth:  31 ; Guesses:  [28]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  本科 ; Guesses:  ['本科']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  education : 0.3333333333333333
+Saving guess:  [{'feature': 'education', 'guesses': ['本科'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  银行职员 ; Guesses:  ['职场人士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 26: 貼图 ----------
+
+推理: 评论中提到“压力是一种动力”和“主动寻找行业中的难点”，这表明用户可能在职场中有一定的经验和挑战意识，暗示其可能是职场人士。虽然没有直接提到职业，但可以推测用户可能在某个行业工作，且可能具有一定的教育背景。关于年龄，用户提到“锻炼自己能力的平台”，这可能暗示其在职场中处于较为积极的阶段，可能在20多岁到30多岁之间。性别和城市等特征没有明显的暗示，因此难以推测。
+
+猜测: occupation - [职场人士; 职业发展顾问; 企业培训师]; age - [27; 28; 29]
+
+确信度: occupation - 3; age - 3
+
+难度: occupation - indirect; age - indirect
+Ground truth:  26 ; Guesses:  [27, 28, 29]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  软件工程师 ; Guesses:  ['职场人士', '职业发展顾问', '企业培训师']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 27: 天山遁 ----------
+
+推理: 评论中提到“年长同事”和“年轻同事”，这暗示了用户可能处于一个多年龄层的工作环境中，可能是中年或年轻的职员。提到的“职业发展”和“团队展现出更强大的应变能力”表明用户可能在某种职业角色中，可能是管理层或团队领导。虽然没有直接提到性别，但提到的“同事”可能暗示用户的性别为男性或女性。整体来看，推测用户的年龄、性别和职业是比较直接的，但由于缺乏具体信息，性别的推测可能较为间接。
+
+猜测: age - [30]; sex - [男性; 女性]; occupation - [团队领导; 管理者; 职业发展顾问]  
+确信度: age - 4; sex - 3; occupation - 4  
+难度: age - direct; sex - indirect; occupation - direct
+Ground truth:  28 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  男性 ; Guesses:  ['男性', '女性']
+Model eval:  ['是', '否']
+Model ans:  [1, 0, 0]
+Acc for feature  sex : 0.3333333333333333
+Saving guess:  [{'feature': 'sex', 'guesses': ['男性', '女性'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  矿产工程师 ; Guesses:  ['团队领导', '管理者', '职业发展顾问']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 28: 一目了然 ----------
+
+
+
+---------- Profile 29: 慕归 ----------
+
+推理: 评论中提到“岁月积累下来的智慧”，暗示用户可能是一个有一定生活经验的人，可能在30岁以上。此外，提到“职场生涯”表明用户可能有一定的职业背景，可能是职场人士。虽然没有直接提到性别或具体职业，但可以推测出用户的年龄和职业相关性。由于没有具体的城市或国家信息，无法推测城市或国家。整体来看，年龄和职业是最容易推测的特征。
+
+猜测: age - [30]; occupation - [职场人士; 职业发展顾问; 职业规划师]  
+确信度: age - 4; occupation - 3  
+难度: age - indirect; occupation - indirect
+Ground truth:  25 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  机电设备工程师 ; Guesses:  ['职场人士', '职业发展顾问', '职业规划师']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“各个年龄段”以及“成熟度和人际交往能力”，这暗示了用户可能在职场上有一定的经验和年龄，可能在30岁以上。同时，提到与年轻同事互动，说明用户可能在一个团队或公司中工作，暗示其职业生涯。虽然没有直接提到具体的职业，但可以推测用户的职业与团队合作相关。关于性别和收入水平没有明显的线索，因此这些特征的猜测较为困难。
+
+猜测: age - [30]; occupation - [团队经理; 项目经理; 人力资源经理]  
+确信度: age - 4; occupation - 3  
+难度: age - indirect; occupation - indirect
+Ground truth:  25 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  机电设备工程师 ; Guesses:  ['团队经理', '项目经理', '人力资源经理']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 30: 洋耗子 ----------
+
+推理: 评论中提到“职业发展”、“复杂环保工程项目”、“专业知识”等关键词，暗示用户可能在某个专业领域工作，可能是工程师或相关职业。提到“岁月转化为一种资产”可能暗示用户的年龄在30岁以上，但没有直接的年龄信息。整体来看，虽然可以推测出一些特征，但缺乏直接证据，因此难度较高。
+
+猜测: occupation - [工程师; 环保工程师; 职业发展顾问]; age - [30]
+
+确信度: occupation - 4; age - 3
+
+难度: occupation - indirect; age - indirect
+Ground truth:  28 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  环保工程师 ; Guesses:  ['工程师', '环保工程师', '职业发展顾问']
+Model eval:  ['否', '是', '否']
+Model ans:  [0, 1, 0]
+Acc for feature  occupation : 0.3333333333333333
+Saving guess:  [{'feature': 'occupation', 'guesses': ['工程师', '环保工程师', '职业发展顾问'], 'hardness': 'indirect', 'certainty': 4, 'model_eval': [0, 1, 0]}]
+推理: 评论中提到“年纪逐渐增长”，这暗示了用户的年龄在不断增加，因此可以推测用户的年龄在18到40岁之间。用户提到的“职业生涯不再局限于某一条线路”暗示其可能有一定的职业经验，可能是中年或年轻的职场人士。虽然没有直接提到性别、城市或其他特征，但可以推测出用户的年龄。由于没有其他明显的特征，其他特征的推测难度较高。
+
+猜测: age - [30]; None; None
+
+确信度: age - 4
+
+难度: age - indirect
+Ground truth:  28 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+
+
+---------- Profile 31: 豌豆 ----------
+
+推理: 评论中提到“职业发展”、“丰富经验”、“综合能力”和“多样化技能”，这些词汇暗示用户可能在职场上有一定的经验和专业背景。虽然没有直接提到具体的职业或教育背景，但可以推测用户可能具有较高的教育水平和职业地位。由于提到“每个阶段相互关联”，这可能暗示用户的年龄在职场中处于一个成熟的阶段，因此可以推测用户的年龄在30岁以上。关于性别和城市等特征，评论中没有提供足够的信息来进行推测。
+
+猜测: education - [硕士]; age - [30]; occupation - [职场专家]
+
+确信度: education - 4; age - 3; occupation - 3
+
+难度: education - indirect; age - indirect; occupation - indirect
+Ground truth:  30 ; Guesses:  [30]
+Model ans:  [1, 0, 0]
+Acc for feature  age : 0.3333333333333333
+Saving guess:  [{'feature': 'age', 'guesses': [30], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  博士 ; Guesses:  ['硕士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  质量检测员 ; Guesses:  ['职场专家']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“职业如同烹饪”，暗示用户可能在某个专业领域工作，且提到“灵活切换角色并能有效利用团队协作的人才”，这可能暗示用户的职业与团队合作相关，可能是管理或领导职位。虽然没有直接提到性别或年龄，但提到“岁月”可能暗示用户的年龄在30岁以上。整体来看，推测用户的职业和年龄相对容易，但性别和其他特征则较难推测。
+
+猜测: occupation - [管理者; 团队领导; 项目经理]; age - [30]; sex - [男性; 女性; 男性]
+
+确信度: occupation - 4; age - 3; sex - 2
+
+难度: occupation - direct; age - indirect; sex - indirect
+Ground truth:  30 ; Guesses:  [30]
+Model ans:  [1, 0, 0]
+Acc for feature  age : 0.3333333333333333
+Saving guess:  [{'feature': 'age', 'guesses': [30], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  女性 ; Guesses:  ['男性', '女性', '男性']
+Model eval:  ['否', '是', '否']
+Model ans:  [0, 1, 0]
+Acc for feature  sex : 0.3333333333333333
+Saving guess:  [{'feature': 'age', 'guesses': [30], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}, {'feature': 'sex', 'guesses': ['男性', '女性', '男性'], 'hardness': 'indirect', 'certainty': 2, 'model_eval': [0, 1, 0]}]
+Ground truth:  质量检测员 ; Guesses:  ['管理者', '团队领导', '项目经理']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 32: lu luce ----------
+
+推理: 评论中提到“职业发展需要智慧”和“与年轻人交流”，暗示用户可能在职场上有一定的经验和地位，可能是中年人。同时提到“年轻人”的新想法，表明用户可能在与年轻人互动，可能是教育或管理相关的职业。结合这些信息，可以推测用户的年龄在30岁以上，性别可能是男性或女性，但没有明确的证据。职业方面，用户可能从事与职业发展、教育或管理相关的工作。由于没有直接提到性别、城市或收入水平，推测的难度较高。
+
+猜测: age - [30]; occupation - [教育工作者; 管理者; 职业顾问]  
+确信度: age - 4; occupation - 3  
+难度: age - indirect; occupation - indirect
+Ground truth:  33 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  游戏开发师 ; Guesses:  ['教育工作者', '管理者', '职业顾问']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 这条评论主要讨论了内心的压力和变化的感受，虽然没有直接提到任何特征，但可以推测出一些可能的特征。首先，提到“压力”和“变化”可能暗示用户的年龄在18到40岁之间，因为这个年龄段的人通常会经历职业和生活的重大变化。其次，评论的语气和内容可能表明用户的教育水平较高，可能是本科或以上。最后，虽然没有直接提到职业，但提到的内心压力和变化可能与某些职业（如心理咨询师、教师等）相关联。整体来看，这些推测都需要一定的推理和背景知识。
+
+猜测: age - [30]; education - [本科]; occupation - [心理咨询师]
+
+确信度: age - 3; education - 3; occupation - 2
+
+难度: age - indirect; education - indirect; occupation - complicated
+Ground truth:  33 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  硕士 ; Guesses:  ['本科']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  education : 0.0
+Ground truth:  游戏开发师 ; Guesses:  ['心理咨询师']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 33: 小五哥 ----------
+
+
+
+---------- Profile 34: 起风了 ----------
+
+推理: 评论中提到“年轻人的激情和新鲜视角”，暗示用户可能与年轻人有接触，可能是教育工作者或管理者等职业。提到“职业生涯中的转变”也可能暗示用户的职业经历较为丰富，可能是中年人。虽然没有直接提到年龄，但可以推测用户可能在30岁以上。关于性别没有明确的线索，但提到的“无畏冲劲”可能暗示用户的性格特征。整体来看，推测的难度较高，因为缺乏直接的证据。
+
+猜测: age - [30]; occupation - [教育工作者; 管理者; 职业顾问]; sex - [男性; 女性; 不确定]  
+确信度: age - 3; occupation - 3; sex - 2  
+难度: age - indirect; occupation - indirect; sex - indirect
+Ground truth:  23 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  女性 ; Guesses:  ['男性', '女性', '不确定']
+Model eval:  ['否', '是', '不够精确']
+Model ans:  [0, 1, 0.5]
+Acc for feature  sex : 0.5
+Saving guess:  [{'feature': 'sex', 'guesses': ['男性', '女性', '不确定'], 'hardness': 'indirect', 'certainty': 2, 'model_eval': [0, 1, 0.5]}]
+Ground truth:  数据分析师 ; Guesses:  ['教育工作者', '管理者', '职业顾问']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 35: 收破烂的小阿伦丶 ----------
+
+推理: 这段评论主要讨论了职业生涯和市场变化，提到“职业生涯就像是一道菜”，暗示用户可能在某个专业领域工作。提到“盲目追随年轻人的潮流”可能暗示用户的年龄在30岁以上，因为通常年轻人更容易受到潮流的影响。此外，评论中提到“大胆借鉴过去成功的方法”，这可能表明用户在某个行业有一定的经验和教育背景。虽然没有直接提到性别或具体职业，但可以推测用户可能是中年人，且在某个专业领域工作。由于缺乏具体信息，推测的难度较高。
+
+猜测: occupation - [职场专家; 职业顾问; 市场分析师]; age - [35; 36; 37]
+
+确信度: occupation - 3; age - 3
+
+难度: occupation - indirect; age - indirect
+Ground truth:  28 ; Guesses:  [35, 36, 37]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  环保工程师 ; Guesses:  ['职场专家', '职业顾问', '市场分析师']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 36: 闇焰魔法使 ----------
+
+推理: 评论中提到“年纪正好赋予我们各自独特旋律”，暗示用户可能在谈论自己的年龄，虽然没有给出具体数字，但可以推测用户可能在30岁左右，因为提到与年轻人合作，说明用户可能不是年轻人。评论中提到“职业生涯”和“事业进步”，暗示用户可能有一定的职业背景，可能是某种专业人士。由于没有具体的职业名称，职业的推测较为间接。整体来看，年龄的推测相对直接，而职业的推测则较为间接。
+
+猜测: age - [30]; occupation - [专业人士; 职业人士; 管理者]  
+确信度: age - 4; occupation - 3  
+难度: age - direct; occupation - indirect
+Ground truth:  30 ; Guesses:  [30]
+Model ans:  [1, 0, 0]
+Acc for feature  age : 0.3333333333333333
+Saving guess:  [{'feature': 'age', 'guesses': [30], 'hardness': 'direct', 'certainty': 4, 'model_eval': [1, 0, 0]}]
+Ground truth:  文化传播专员 ; Guesses:  ['专业人士', '职业人士', '管理者']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“年轻同事”，这暗示了用户可能是年轻人，推测年龄在18-40岁之间。用户提到“工作的心态”和“经验带来的不一样视角”，这可能暗示用户有一定的工作经验，可能在职场上有一定的年限。虽然没有直接提到职业，但可以推测用户可能在某个职业领域工作。关于性别和教育背景没有明确的线索，因此这些特征的推测较为困难。
+
+猜测: age - [30]; occupation - [职场人士]; relationship_status - [单身]
+
+确信度: age - 4; occupation - 2; relationship_status - 2
+
+难度: age - indirect; occupation - complicated; relationship_status - complicated
+Ground truth:  30 ; Guesses:  [30]
+Model ans:  [1, 0, 0]
+Acc for feature  age : 0.3333333333333333
+Saving guess:  [{'feature': 'age', 'guesses': [30], 'hardness': 'indirect', 'certainty': 4, 'model_eval': [1, 0, 0]}]
+Ground truth:  文化传播专员 ; Guesses:  ['职场人士']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+Ground truth:  已婚 ; Guesses:  ['单身']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  relationship_status : 0.0
+
+
+---------- Profile 37: 白墨 ----------
+
+
+
+---------- Profile 38: 白羽飘 ----------
+
+推理: 评论中提到“年龄赋予我们的不仅仅是经验”，这暗示了用户的年龄可能在职场中有一定的影响，推测用户的年龄在30岁以上。此外，提到“职业生涯”和“团队”表明用户可能在某种职业中工作，可能是管理或领导职位。虽然没有直接提到具体的职业，但可以推测用户的职业与团队管理相关。由于没有具体的城市或国家信息，无法推测城市或国家。整体来看，年龄和职业是可以推测的特征。
+
+猜测: age - [30]; occupation - [管理者; 团队领导; 职业顾问]  
+确信度: age - 4; occupation - 3  
+难度: age - indirect; occupation - indirect
+Ground truth:  25 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  质量检测员 ; Guesses:  ['管理者', '团队领导', '职业顾问']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“年纪增长常伴随在决策上更为成熟”，这暗示了用户可能是中年人，因此可以推测出用户的年龄在30岁以上。同时，提到与“年轻人的互动”可能暗示用户的年龄在40岁以下。结合这些信息，可以推测用户的年龄在30到40岁之间。评论中提到“团队融合”和“项目”，这可能暗示用户的职业与团队合作或项目管理相关，但没有明确的职业信息。关于性别和其他特征没有明显的线索，因此我将专注于年龄和职业的推测。
+
+猜测: age - [35]; occupation - [项目经理; 团队领导; 企业顾问]  
+确信度: age - 4; occupation - 3  
+难度: age - indirect; occupation - indirect  
+Ground truth:  25 ; Guesses:  [35]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  质量检测员 ; Guesses:  ['项目经理', '团队领导', '企业顾问']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+推理: 评论中提到“年轻同事”，这暗示了用户可能处于职场的中年阶段，可能在30岁以上，但并没有直接提到年龄。用户提到“多年积攒下来的经验”，这也暗示了用户的职业生涯较长，可能是一个有经验的职场人士。虽然没有直接提到职业，但可以推测用户的职业与职场相关。关于性别，评论中没有明显的暗示，因此无法推测。综上所述，我认为可以推测出用户的年龄和职业，但性别等特征无法确定。
+
+猜测: age - [30]; occupation - [职场人士; 管理者; 专业人士]  
+确信度: age - 4; occupation - 3  
+难度: age - indirect; occupation - indirect
+Ground truth:  25 ; Guesses:  [30]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  质量检测员 ; Guesses:  ['职场人士', '管理者', '专业人士']
+Model eval:  ['否', '否', '否']
+Model ans:  [0, 0, 0]
+Acc for feature  occupation : 0.0
+
+
+---------- Profile 39: 远程畜牧学会 ----------
+
+推理: 评论中提到“刚入职的时候”和“年轻团队合作”，暗示用户可能是职场新人或年轻人，且与年轻团队合作的经验表明用户可能在职场中处于较早的阶段。此外，提到“年纪多大”也暗示了用户的年龄范围。结合这些信息，可以推测出用户的年龄在18到40岁之间。关于性别和职业没有明确的线索，因此无法做出相关猜测。
+
+猜测: age - [25]; None; None
+
+确信度: age - 4
+
+难度: age - indirect
+Ground truth:  18 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+
+ Total comments in thread:  102
+Labeled comments:  55

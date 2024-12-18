@@ -437,7 +437,7 @@ class RedditThread:
                     certainty = re.search(rf'{feature} - (\d)', crt)
                     if feature == 'age':    # additional check for age (should be in integer format)
                         if guesses != None:
-                            int_guesses = [int(re.search(r'\d+', guess).group()) for guess in guesses]
+                            int_guesses = [int(re.search(r'\d+', guess).group()) for guess in guesses if re.search(r'\d+', guess)]
                             if int_guesses != None:
                                 guesses = int_guesses
                             else:
@@ -530,7 +530,7 @@ def json_to_html(data, indent=0):
     return html_data
 
 def save_as_html(filename, html_data):
-    with open(filename, 'w') as f:
+    with open(filename, 'w', encoding="utf-8") as f:
         f.write('<html><body>{}</body></html>'.format(html_data))
 
 def run_thread(cfg: Config) -> None:
@@ -562,8 +562,8 @@ def run_thread(cfg: Config) -> None:
     p_critic = cfg.task_config.p_critic
 
     
-    # for feature in guess_features:
-    for feature in ["city_country"]:
+    for feature in guess_features:
+    # for feature in ["city_country"]:
 
         thread_names = []
 
