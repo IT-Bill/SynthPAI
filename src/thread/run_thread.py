@@ -298,7 +298,7 @@ class RedditThread:
         result = []
 
         for feature in features:
-            guess_match = re.search(f'{feature} - \[(.*?)\]', guessed_output)
+            guess_match = re.search(rf'{feature} - \[(.*?)\]', guessed_output)
             hrd = re.findall(r'难度: (.+)', guessed_output)[0]
             crt = re.findall(r'确信度: (.+)', guessed_output)[0]
             hardness_match = re.search(rf'{feature} - (\w+)', hrd)
@@ -306,7 +306,7 @@ class RedditThread:
             if guess_match and hardness_match:
                 guesses = guess_match.group(1).split('; ')
                 if 'None' not in guesses and guesses != None:
-                    certainty = re.search(f'{feature} - (\d)', crt)
+                    certainty = re.search(rf'{feature} - (\d)', crt)
                     if feature == 'age':    # additional check for age (should be in integer format)
                         if guesses != None:
                             int_guesses = [int(re.search(r'\d+', guess).group()) for guess in guesses]
@@ -422,7 +422,7 @@ class RedditThread:
         result = []
 
         for feature in features:
-            guess_match = re.search(f'{feature} - \[(.*?)\]', guessed_output)
+            guess_match = re.search(rf'{feature} - \[(.*?)\]', guessed_output)
             hrd = re.findall(r'难度: (.+)', guessed_output)
             if len(hrd) != 0:
                 hrd = hrd[0]
@@ -434,7 +434,7 @@ class RedditThread:
             if guess_match and hardness_match:
                 guesses = guess_match.group(1).split('; ')
                 if 'None' not in guesses:
-                    certainty = re.search(f'{feature} - (\d)', crt)
+                    certainty = re.search(rf'{feature} - (\d)', crt)
                     if feature == 'age':    # additional check for age (should be in integer format)
                         if guesses != None:
                             int_guesses = [int(re.search(r'\d+', guess).group()) for guess in guesses]
