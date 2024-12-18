@@ -1,1 +1,111 @@
-{"person": "pers73", "text": [[" Durability can trump upfront costs; echoes traditional craftsmanship values.", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}, {"feature": "income_level", "guesses": ["Middle", "Middle", "Middle"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 1, 1]}]], [" Garden's solid but consider fermentation! Sauerkraut & pickles were historic gold for making food last before fridges. Cheap cabbage becomes gourmet grub if you wait it out - plus it\u2019s dead easy! Tried it?", []], [" Ditched brand names; locally sourced markets save lots & feel historic!", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}, {"feature": "income_level", "guesses": ["Middle", "High", "Very High"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Library visits - feeds the mind at zero expense!", [{"feature": "income_level", "guesses": ["Low", "Middle", "No income"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Historically speaking, simplicity\u2019s been king!", []], [" Historical crafts like woodworking also double as cool hobbies and practical skills!", []], [" Lol same here! Noticed family dinners turn into impromptu lectures when historic parallels come up. Can't escape teaching mode; even simple chats become quick history lessons!", [{"feature": "occupation", "guesses": ["History Teacher", "History Professor", "Educator"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 0, 0.5]}]], [" Definitely out there\u2014beats quirky history book collections any day!", []], [" Stereotypes don't spare educators; expected always patient & culturally one-sided.", [{"feature": "occupation", "guesses": ["Educator", "Teacher", "Professor"], "hardness": "direct", "certainty": 5, "model_eval": [0.5, 1, 0]}]], [" Must've missed that briefing where life suddenly tracks differently after big three-oh! From chats with school kids today & diving into past decades for work\u2014it seems more gradual than just hitting an age mark. Life likes its curveballs regardless of how many candles are on your cake!", [{"feature": "occupation", "guesses": ["teacher", "school counselor", "historian"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0, 0]}]], [" Depth's great but isn't everything\u2014it also takes continual effort & adaptability! History shows us even alliances needed more than shared values\u2014a bit of diplomacy and compromise go a long way too.", []], [" Growth's good - don't forget autonomy helps too!", []], [" While experience certainly adds layers to relationship goals\u2014suggesting maturity equals depth\u2014I'm skeptical how profound those shifts are. Don't people just get better at masking their desire for sparks under layers of \u2018wisdom\u2019? Maybe underlying wants don\u2019t change; only our justifications do. Thoughts?", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}, {"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Divorced"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" History-loving town; sparked lifelong career path.", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in History", "Master's Degree in History"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 0, 0.5]}, {"feature": "occupation", "guesses": ["historian", "history teacher", "museum curator"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0]}]]]}
+{
+    "person": "pers73",
+    "text": [
+        [
+            ": 说得不错，但光靠计划确实不够。偶尔让自己停下来转个角，比如去看看电影或喝杯咖啡，会让你重新找到前进动力！毕竟，忙碌之余给心灵充电也很重要，不是吗？",
+            []
+        ],
+        [
+            ": 不如想象一下，如果把兼职当作一个开心的小项目而不是挣钱工具，会发生什么？你可能会发现，其实很多事情既能赚钱又给你快乐。重要的是要意识到，心灵空间并不是金钱可以填满的。所以《开源节流》这门课程可得考虑别样解法，让每一天都变得幸福一点！",
+            []
+        ],
+        [
+            ": 快乐和金钱确实是个老生常谈的话题，咱们总是被“越赚越幸福”的理念绑架。有时候，你得忘掉那些无尽攀比，把时间花在让自己放松的小事上，就像养了一只可爱的精神宠物，总能给你意外惊喜！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 别忘了，有时候宁静就是最好的奢侈品！不妨每天留点时间给自己，无论是徒步、公园散步还是随便翻翻书，让这些“小确幸”成为调节忙碌生活的一部分。而且，这种慢下来反而能激发更多灵感，让我们的眼界变得更开阔，不再被那些数字牵着鼻子走。不然一年到头像鼓捣机器似的不停运转，还真的不如趁年轻多玩玩呢！",
+            []
+        ],
+        [
+            ": 说得好！其实很多时候，我们总是在追求更好的吃喝玩乐，却渐渐迷失了自我。在高档餐厅里享受美食自然不错，可回想起那些跟朋友一起啃方便面的日子，不仅省下的钱更多，还有满满欢声笑语。这不就是人与人之间最真实最宝贵的吗？毕竟，有句话说，“陪伴是最长情的告白”，无论多豪华，都抵不过那群重视你、愿意分享生活点滴的小伙伴。不如趁机会再约一次夜宵，让我们勇敢地去寻找那些“真的”幸福瞬间吧！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身",
+                        "恋爱中",
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有时候，我们奔波于工作和学业，只顾着提升收入，却忘记了生活中最宝贵的是那些纯粹、有趣的人际交流。想起之前的一次聚餐，看似简单却充满欢声笑语，那种氛围实打实让人觉得快乐。当你意识到，人情味比奢华更诱人的时候，其实你就找到了人生更大的“财富”。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身",
+                        "恋爱中",
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 大家别忘记，每一次折叠起来的小乐趣才是最厚实的人生底色！即便身处高档佳肴中，也不能放下那些纯粹的人际交融哦。有时候就像鸡蛋里瑟瑟发抖的小黄，就是那么单纯，却充满意义！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            "标题：大家对学历和专业的不一样看法是什么？\n\n描述：前几天和一个老同学聊起了曾经的求学经历，我们都拥有同样的硕士学位，但在专业选择上却大相径庭。他选择了比较热门的方向，而我则走了一条冷门的小路，还是个不太起眼的专业。最初觉得自己可能会吃亏，但现在发现，在工作中这些不同的理解和技能反而成了互补，让我们可以一起找出更全面的解决方案。大家在学历和选择专业这条路上有什么不同的心得与思考，能分享一下你们的经历吗？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "硕士"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 5,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

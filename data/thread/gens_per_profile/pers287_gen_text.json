@@ -1,1 +1,145 @@
-{"person": "pers287", "text": [[" super cold days are perfect excuses not all smiles though- bills stack up even if you're staying in & ignoring adult stuff \ud83d\ude2c ", [{"feature": "age", "guesses": [25, 30, 35], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "relationship_status", "guesses": ["Single", "In Relationship", "Married"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}, {"feature": "income_level", "guesses": ["Low", "Middle", "Low"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 1]}]], ["rain or shine there's always something cool you can do. like torrential downpour? perfect excuse for binging shows without guilt! bright sun? means it's time to recharge just by soaking up those rays outside \ud83d\ude0e ", [{"feature": "age", "guesses": [25, 22, 28], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" def need more sunshine boosts here", [{"feature": "age", "guesses": [25, 20, 30], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}]], ["  grey skies make caff\u00e8 lattes seem even more magical rnn \ud83c\udf27\ufe0f", []], [" feels weird when your school town turns more 'home' than hometown tbh... less fam dinners but way more personal growth & independence imo \ud83d\ude02 gotta appreciate those cozy cafe corners that kinda become your new living room amirite?", []], [" cool vibes can't mask missing those good ol' family bbqs", []], [" huh, offices as homes sounds kinda cold tho... missing that authentic touch which makes any place truly feel like yours.", []], [" every payday makes me feel slightly more 'adultish', especially juggling those bills \ud83d\ude2a", [{"feature": "income_level", "guesses": ["Middle", "Low", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" so true! been cutting back on streaming subs - turns out, there's tons of cool stuff online for free if you dig around enough haha", [{"feature": "income_level", "guesses": ["Middle", "Low", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" local stuff has its charm but so does digital adventures!", []], [" totally into barter trades \u2013 swapped skills for goods & totally dig community swaps! \ud83d\ude0e", [{"feature": "income_level", "guesses": ["Low", "Middle", "Low"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 1]}]], [" even when just texting friends i'm rephrasing like three times lol", [{"feature": "age", "guesses": [25, 20, 30], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}]], [" had an interview once where they started explaining salary like i wouldn't get it 'cause \"it's tough for girls.\" lol nope! did freelance gig budgeting all summer - numbers are friends \ud83d\ude0e", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" getting assumed as social media expert by fam 'cause i'm young \ud83d\ude11", []], [" surprise\u2014always outpace bfs in video game scores \ud83c\udfae\ud83d\ude80", [{"feature": "relationship_status", "guesses": ["In Relationship", "In Relationship", "In Relationship"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}]]]}
+{
+    "person": "pers287",
+    "text": [
+        [
+            ": 职业发展可不是一场简单的人生接力赛，其中影响因素多着呢。每个阶段都有其独特优势，我们没必要因年纪而沮丧，相反，可以把它当成添砖加瓦的一环。有时候正是在那些看似落后的日子里，我们积累了足够多的“武器”，以便在下一个高峰勇敢出击！别让数字束缚你的潜能，用实打实的新技能去迎接挑战吧！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在讨论中，我们常忽略一个事实：基础生存很大程度上决定着我们是否能享受到更高层次的小确幸。试想，如果连基本开销都捉襟见肘，那再美好的友谊也变得无从谈起。不妨把这看作是一种联合体——用一定经济基础去托起跨越未来各种体验，而不是让自己被眼前的小目标框住。在稳固地位之后，再追求自我实现，这才是更长久而智慧的方法！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 当我们说到幸福感，其实它像是一杯调酒，不仅要有高档烈酒（物质），还得加上柠檬汁（社交）才能入口顺滑。光拼数字，没有味道！真正享受的是你身边的人，而非账面上的那几个零头。",
+            []
+        ],
+        [
+            ": 有时候，看似便宜的小聚会比奢华晚餐来的治愈力强得多。有一点新鲜感可以点亮我们的内心，而不是一味地追逐收入。当你走进一家小店，与老朋友聚在一起，那份熟悉与温馨何尝不像一种理想中的生活？人生终究要倾听自己内心真正所需，通过减少繁重负担让欢笑再开放，让每一次闲聊都成为短暂而美好的逃离。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 珍惜眼前的小乐趣千千万万，比起盲目追逐金钱，每一次与朋友聚会、分享欢乐，那些才能真正丰富我们的灵魂。在这场“抢钱”游戏里，也别忘记停下来享受游戏本身！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身",
+                        "恋爱中",
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 说得没错，单靠预算难以让我们无忧无虑。不过，把目光放在兼职上也未必是解决之道，我们往往可以同步追求一些长期收益。例如投资自己，提高专业技能，就像给自己升级一样，多了一条“通路”还有点技术含量。而且跟朋友一起进行这类学习，不仅增进情谊，更是一种相互督促，让成长过程变得更加丰富而轻松。现实嘛，总要多方位出击！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 如果把个人发展视为一种“隐形资产”，那么不妨将其想象成储蓄账户，每一次学习都是一次存款。有些时候，我们需要短期内放弃一些诱惑，比如那件心仪已久但并非必须购买的一衣，只要能让自己持续产生收益，就绝对值得。如果这些小投入能够给我们带来长远回报，那才是真正聪明的钱花法！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 忙碌虽然能暂时驱散孤独，却逃避不了真实情绪。不妨花点时间静下来，不仅反思自己，也许能从这份“空虚”里提炼出更深层次的自知之明。当你懂得如何直面这些感觉，就会发现，它们其实是成长最有效的小助手！",
+            []
+        ],
+        [
+            ": 有趣的是，我们往往太专注于自身内心的小宇宙，却忽略了人际交往那片浩瀚星海。在追梦时，其实身边每个小人物可能都是你意想不到的新鲜契机。不妨把这些经验融入生活，而不是仅仅等待灵感降临。这种来自四面八方的信息总能让我们看到新的路径，不是吗？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在成长路上，每个阶段都像是在玩一个大冒险游戏，总有不同的人物角色等着你去遇见，一开始或许被家乡的小圈圈围住，但随着探索更多可能性，你会发现这些边界其实只是虚构飞来的一片羽毛。而这种好奇心就像打开一扇窗，让阳光照进来，把生活装点得更加丰富多彩。有时候，多走一步，就能看到完全不同的新天地！",
+            []
+        ]
+    ]
+}

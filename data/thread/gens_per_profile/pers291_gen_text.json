@@ -1,1 +1,131 @@
-{"person": "pers291", "text": [[" first time on a film set calling shots - serious biz!", [{"feature": "occupation", "guesses": ["Film Director", "Assistant Director", "Director"], "hardness": "direct", "certainty": 5, "model_eval": [0, 1, 0]}]], [" life's like improv - script changes every day", []], [" nah way anyone has all answers just cuz they hit 40- totally overrated milestone tbh - adulting manual sounds dope tho where can i download one \ud83d\ude06", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 0.5]}, {"feature": "relationship_status", "guesses": ["Single", "In Relationship", "Married"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}]], [" yeah it hits different when you're giving legit feedback and it gets shrugged off 'cause they expect sunshine and rainbows all day... got some side-eyes after suggesting script tweaks once, guess creativity isn't supposed to come with an opinion \ud83e\udd37\u200d\u2640\ufe0f", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}]], [" seriously? acting like depth & character doesn\u2019t drive success just as much... smh", []], [" that traditional vibe kills innovation - faced those roadblocks too where 'the way we've always done it' trumps fresh takes every time...frustrating much?", []], [" networking mixers > couples night out any day", [{"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" kinda see your point but honestly there are so many lowkey spots and groups out here where single life thrives - just gotta dig deeper than those pop-up brunch spots catering to mimosas-for-two crowds", [{"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}]]]}
+{
+    "person": "pers291",
+    "text": [
+        [
+            ": 每个人面对生活中的各种负担时，都需要找到适合自己的解压方式。我特别认同你提到要关注内心状态这点。在过去工作繁忙的时候，我会选择利用周末去爬山或参加短途旅行，这样不仅能消耗掉多余精力，还能洗刷掉一周里的疲惫。而且，与朋友一起聚餐聊聊天也是一种不错的方法，可以暂时忘记那些烦恼。所以，在这个赚钱为主导却又不乏焦虑感的大环境下，为自己创造一些喘息空间才能更好地享受生活。",
+            []
+        ],
+        [
+            ": 虽然我们都知道，高工资并不等于轻松快乐，但每次看到朋友们面对琐碎开销却依然能够微笑，也让我领悟到了\"适应就是幸福\"。有时候，我们或许需要认真审视一下那么多日复一日追逐的钱财背后，是不是忽略了一些更本质、更简单但却能给我们带来满足感的小事。例如，我发现周末的时候，抽出时间去做自己喜欢的小活动，就会消除不少焦虑。不妨从身边开始，用小变化为大压力减压，相信每一步都值得期待！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 这让我想到很多人在追求高收入时，就像闯进一个不归路。一开始你以为挣得多能过上好日子，却发现这些钱很快就被各类支出吞噬。有时候，不妨换个角度，多花时间去享受身边的小确幸，比如用心做一顿饭、陪朋友聊天。这些简单却真实的小事，有可能给我们带来更大的内心满足，比单纯追逐金钱重要得多。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身",
+                        "恋爱中",
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 其实，有时候我们需要强迫自己放慢节奏。就像烹饪一顿美味佳肴，需要耐心，但收获往往令你倍感欣慰。不妨把那些看似琐碎的小幸福纳入日程，比如每周尝试一种新的菜式或者给家人朋友做点特别的小零食。这些简单努力能让我们的精神状态变得轻松愉快，或许更比过于关注账单来的重要多了。",
+            []
+        ],
+        [
+            ": 其实，把重点放回日常的小事，也让我想到一个方法，那就是建立一个“幸福清单”。你可以把每天做的一些小事情记录下来，无论是一顿美味晚餐还是一次愉快聊天，看着那些简单但却充实的瞬间，有时候真的能给人带来意想不到的大满足。而且，可以试着定期和不同的人聚会，从而打破压抑感，每一次相聚都是一种新鲜体验，慢慢从繁忙中找回自我。这种方式不仅减轻负担，还有助于维持良好的社交关系，让生活更有滋味。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚",
+                        "恋爱中",
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 小确幸真的能给予我们巨大的安慰。在忙碌一天之后，一起回家动手做顿饭，那种围着灶台边聊边吃的时候，总能让我觉得再高档餐厅也比不上这样平淡却真实的小聚会。记得某次，我们几个好友DIY披萨，各种乱七八糟地搭配，结果状况百出，却笑成一团。从某种意义上来说，其实就是这样的片刻，让人更容易找到属于自己的快乐。而这些，都不是用金钱来衡量的。如果能抓住这样的瞬间，也许真正引导我们向前走。当意识到了这一点，就算工作再累，也总会期盼下一次相约！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚",
+                        "恋爱中",
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在工作中经常看到，有些顾客即使身处奢华环境，却依然沉默寡言。而那些在人流熙攘的大排档里，一群好友围坐一起，大聊特聊的人，总能找到属于他们共同欢笑的那份乐趣。这让我想到，无论身处什么样的位置，人际交往本质上都是为了理解彼此、促进共鸣。不如把握住那些“真的”时刻，因为它们才是最值得回味的人生片段，不仅仅限于用金钱来衡量。如果有机会再和老友聚一次夜宵，那份亲密和快乐一定会铭记于心。",
+            []
+        ],
+        [
+            ": 真的很认同你说的话！其实，我们常常陷入“物质越多越幸福”的误区。在我的工作中，每当顾客和家人或朋友围坐一起享受美食，那种轻松愉悦比单纯高档环境发出的光辉更加闪耀。而那些曾经随意而欢笑连连的小吃摊反而成了一段珍贵回忆。总之，无论收入如何变化，不妨试着把眼光放远点，多去捕捉身边平凡瞬间的小乐趣，这才是支撑我们内心富足的重要力量。",
+            [
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "餐饮服务员",
+                        "餐厅经理",
+                        "食品评论员"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 的确，纯粹的人际交流往往是在日复一日的小事中体现出来，比如一起动手料理或玩牌。这种共享时刻比起任何奢华都更加真实，也让我们心灵深处产生一种连接。在这快节奏而喧嚣的生活中，不如试着去重拾那份无拘无束的小快乐吧。",
+            []
+        ],
+        [
+            ": 真的，突破固有框架最终会收获意想不到的快乐！许多人可能被外界声音影响，觉得“该由你做”或“那本来就是她负责”。但把视角换一下，我们都值得为彼此分担，更重要的是，通过这样的互动，让孩子接受双重价值观成长。在厨房里的那场小争夺战后，我发现家务其实也是强化情侣关心的一种形式。共舞着，把各自的小步伐结合起来，那才是最美好的旋律！",
+            []
+        ],
+        [
+            ": 很赞同关注共同参与的重要性。但也许值得思考的是，每个家庭都有独特之处，不妨针对各自实际情况进行一些灵活调整。不如先从小事做起，一步一步去探索最适合自己的一套“家务平衡法”，这样既能减轻负担，又可能发现简单互动带来的乐趣！",
+            []
+        ],
+        [
+            ": 顶层设计固然重要，但底层个体更需积极响应，不妨从小事开始，比如共同制定周末值日表或翻转掌控权，让爱情不只停留在甜蜜言辞上，而是真正落地为温暖真切的相处之道。有时，一次简单的家务合作，就能让关系中的紧张氛围悄然消散，为未来铺设更多可能。不妨从这里着手，共同探索升级版“赢家模式”。",
+            []
+        ]
+    ]
+}

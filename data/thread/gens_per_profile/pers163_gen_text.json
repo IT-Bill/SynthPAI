@@ -1,1 +1,27 @@
-{"person": "pers163", "text": [[" Indoor workouts? Not necessarily sustainable for everyone! On those brisk mornings here nothing beats braving the elements\u2014you're missing an invigorating start plus some vitamin D even if it's shy behind clouds!", []], [" No rain checks here \u2013 bad weather spikes my focus!", []], [" Routine plus surprise rain equals peak productivity over here!", []], [" Gloomy skies fuel lesson planning creativity!", []], [" Had downstairs neighbors host karaoke nights - thought walls would crumble with those high notes!", []], [" That first time handling budget cuts at work made adulthood all too real \u2013 suddenly responsible for way more than just me!", [{"feature": "occupation", "guesses": ["Manager", "Administrator", "Financial Analyst"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0.5, 0]}]], [" Figured taxes? More like educated guesses annually!", []], [" Retirement planning? More like financial dart throwing!", [{"feature": "age", "guesses": [60, 55, 50], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" Reality check \u2013 adulthood's perpetually provisional!", []], [" Navigating educational leadership spots some parallels - assertiveness often brushed off unless you fit certain molds; persistence has been key though, never undervalue relentless groundwork despite outdated mindsets!", [{"feature": "education", "guesses": ["Master's Degree in Education", "Doctorate in Education", "PhD in Education"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}, {"feature": "occupation", "guesses": ["Educational Administrator", "School Principal", "Dean"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 1, 0]}]], [" Hobbies not just relaxing\u2014they spark growth too!", []], ["Question: How has the vibe of your birth city shaped who you are today?\n\nQuestion description: grew up in this lovely historic city, not too huge but full of life, culture, and a certain gruff charm that I always think gave me my resilience and love for stories. it's weird how the energy of a place can kinda seep into you, isn't it? like, I can handle pretty much anything at work, and I reckon it's that early taste of a community that wasn't always polished but was real, y'know? what about you guys, do you feel like your hometown's spirit has worked its way into your personality or life choices?", []]]}
+{
+    "person": "pers163",
+    "text": [
+        [
+            ": 你说得很有道理，不过考虑一下，有时候反向一道河流也会让生活显得更加复杂。当人们走出舒适区追逐梦想，再返回故土，就像重新审视一个旧故事，很可能依然会发现陌生感不是那么容易抹平。每次归来都仿佛是在做一个交错的人生拼图，而这些跨越后的重聚体验，也为我们的角色增添了更多层次，这样相碰撞出来的新观点才更值得欣赏，不是吗？",
+            []
+        ],
+        [
+            ": 每次“返乡”的时候，我都感觉像是在参加一次时间旅行。一方面，有些地方好像完全没变，但另一方面，当你用全新的眼光去观察它，就会让人重新思考曾经熟悉的一切。有的时候，那些昔日的小巷和老友真的成了一段段奇妙记忆，而当年欢乐与苦涩交融的感觉却始终抓住我，不离不弃。这让我意识到，我们并不是简单地把自己挂钩于某个城市，而是融合所有成长过程中的片段。所以，正如你的说法，一个饱满且独特的人生轨迹，总需要那些散落各处的小拼图才能完成！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

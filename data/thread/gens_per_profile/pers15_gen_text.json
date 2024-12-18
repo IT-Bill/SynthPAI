@@ -1,1 +1,115 @@
-{"person": "pers15", "text": [[" Design should work WITH life flow \u2013 seen too many fancy but impractical setups!", []], [" Bakery vanished... Now gym where we eat less carbs lol", []], [" so long record store... hello silent book cafe \ud83d\ude44", []], [" boteco turned bookshop here... muito louco!", [{"feature": "city_country", "guesses": ["S\u00e3o Paulo, Brazil", "Rio de Janeiro, Brazil", "Lisbon, Portugal"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}, {"feature": "birth_city_country", "guesses": ["S\u00e3o Paulo, Brazil", "Rio de Janeiro, Brazil", "Lisbon, Portugal"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" chef life's hectic\u2014still find zen plating food... seeking equil\u00edbrio always", [{"feature": "occupation", "guesses": ["chef", "chef", "chef"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" Sempre ou\u00e7o sobre o \"Cabe\u00e7a de Cuia\". Spooky stuff!", [{"feature": "city_country", "guesses": ["Teresina, Brazil", "S\u00e3o Paulo, Brazil", "Rio de Janeiro, Brazil"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 1]}]], [" Banguela do Flamengo freaks out everyone here... kids avoid it after soccer games lol!", [{"feature": "city_country", "guesses": ["Rio de Janeiro, Brazil", "Rio de Janeiro, Brazil", "Rio de Janeiro, Brazil"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}]], [" C'mon now... don't need science when you got decades of folks swearing they've seen something spooky. Adds flavor to life here! \ud83c\udf36\ufe0f", []], [" Haha sure she doesn't take things too? Suppose her stash would make for one epic garage sale huh \ud83d\ude06 \u2013 stuff vanishing/reappearing seems just another Tuesday around these parts...", []], [" colder temp outside = comfort food on stove inside \ud83d\ude0b", []], [" Rainy days actually give me an excuse to experiment more in the kitchen - brings out some creative energy!", [{"feature": "occupation", "guesses": ["Home Cook", "Cooking Enthusiast", "Amateur Chef"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" Life makes you swap dreams sometimes, huh?", []], [" airports are hectic yeah, mas those global tastes spark killer recipes at your cozinha \ud83d\ude09\ud83c\udf0e\ud83c\udf73", [{"feature": "occupation", "guesses": ["Chef", "Cook", "Culinary Blogger"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" nailed making feijoada for friends on point first try... felt like i'm official chefin', even at home! \ud83e\udd58\ud83d\udc4c", [{"feature": "city_country", "guesses": ["S\u00e3o Paulo, Brazil", "Rio de Janeiro, Brazil", "Bras\u00edlia, Brazil"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}, {"feature": "occupation", "guesses": ["Chef", "Culinary Blogger", "Home Cook"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Yeah, couldn\u2019t agree more - life\u2019s way too unpredictable for strict deadlines! Seems everyone around here tosses out that old timeline... went down my own road without stress on 'should be' dates \ud83d\ude05\ud83d\udc68\u200d\ud83c\udf73", [{"feature": "occupation", "guesses": ["chef", "culinary professional", "restaurant owner"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0.5, 0]}]], ["  Spot on! Life\u2019s too rich for strict timelines... Cad\u00ea one-size-fits-all?", [{"feature": "city_country", "guesses": ["S\u00e3o Paulo, Brazil", "Rio de Janeiro, Brazil", "Bras\u00edlia, Brazil"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0]}]], [" na maioria das vezes \u00e9 s\u00f3 sonho mesmo...", [{"feature": "city_country", "guesses": ["S\u00e3o Paulo, Brazil", "Rio de Janeiro, Brazil", "Bras\u00edlia, Brazil"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Budgets tight...less steak-more beans at home these days \u2702\ufe0f\ud83c\udf56", [{"feature": "income_level", "guesses": ["Low", "Middle", "Low"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" once had to serve 100 guests but ran outta avocados for guac\u2014ended up blending peas with some spices... nobody noticed! gotta be ninja-quick in those situations \ud83d\ude06\ud83d\udc68\u200d\ud83c\udf73", [{"feature": "occupation", "guesses": ["Chef", "Cook", "Caterer"], "hardness": "direct", "certainty": 5, "model_eval": [1, 0, 0]}]], [" Tape on countertops? pffft once had to use foil as makeshift pan lid during a busy service...talk about heat retaining hacks! cozinha life's wild sometimes \ud83d\ude02\ud83d\udc68\u200d\ud83c\udf73", [{"feature": "occupation", "guesses": ["Chef", "Cook", "Sous Chef"], "hardness": "direct", "certainty": 5, "model_eval": [1, 0.5, 1]}]], [" every plate served feels like hitting \"publish\" on your soul", [{"feature": "occupation", "guesses": ["Chef", "Culinary Artist", "Executive Chef"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 1]}]], [" Crazy how some dudes still think women can't handle the heat... Yet there's no shortage of tough as nails 'chefas' slaying daily specials \ud83d\udc69\u200d\ud83c\udf73 Different story when SHTF during service though \u2013 merit wins over muscle every single time!", [{"feature": "occupation", "guesses": ["Chef", "Sous Chef", "Line Cook"], "hardness": "direct", "certainty": 4, "model_eval": [1, 0.5, 0]}]], [" In any pro kitchen, skills talk loudest.", []], [" chef here... never felt boxed by \"gender roles\" so just followed passion for food \u2013 kitchen doesn\u2019t care if you're homem ou mulher; only cares if u can cook \ud83d\udd25\ud83d\udd2a gotta break taboos one dish at a time!", [{"feature": "city_country", "guesses": ["S\u00e3o Paulo, Brazil", "Rio de Janeiro, Brazil", "Bras\u00edlia, Brazil"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}, {"feature": "occupation", "guesses": ["chef", "chef", "chef"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" In cooking too\u2013gender doesn\u2019t dictate skill.", [{"feature": "occupation", "guesses": ["Chef", "Cook", "Culinary Professional"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0.5]}]], [" Career's more than stereotypes. ", []], [" kitchens seem diverse but look closer at who\u2019s head chef vs line cook & tell me we're there yet", [{"feature": "occupation", "guesses": ["restaurant industry professional", "kitchen staff", "chef"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0.5, 1]}]], [" Kitchen's still old school here; change feels slow. ", [{"feature": "occupation", "guesses": ["Chef", "Cook", "Culinary Professional"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0.5]}]], [" Cresci numa metr\u00f3pole comida \u00e9 cultura l\u00e1... inspira demais!", [{"feature": "city_country", "guesses": ["S\u00e3o Paulo, Brazil", "Rio de Janeiro, Brazil", "Salvador, Brazil"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0]}]], [" understand where you're coming from... big cities getting attention definitely changes things up - rents go up, old hangouts can get too touristy... nostalgia for those low-key days hits hard sometimes \ud83d\ude14 but cool seeing your own place appreciated worldwide too right? gotta take good w/ bad i guess", []], [" S\u00e3o Paulo was always buzzing... feels no different tbh!", [{"feature": "birth_city_country", "guesses": ["S\u00e3o Paulo, Brazil", "S\u00e3o Paulo, Brazil", "S\u00e3o Paulo, Brazil"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" Knew it was gonna get noticed eventually...\ud83e\uddd0", []]]}
+{
+    "person": "pers15",
+    "text": [
+        [
+            ": 在这篇讨论中，我们谈到的是如何把握复杂选择，我觉得每个职场人都应该像做资产配置一样审慎管理时间资源。在保留已有能力基础之上，如果能够研究一些跨界经验或新方法，就可能为我们打开更多职业发展的门道。这也许是让未来更加丰富的一种方式，你们感觉有哪些具体的方法可行呢？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 其实，将注意力放在自我的同时，也不能忽略身体状况。例如，有些人在寻找职业转型的时候可能会觉得受到经济大环境不景气或地域限制。但即使如此，只要坚持探索适合自己的方向，总能找到突破口。不妨试考虑如何将自身优势最大化，在这竞争激烈之中脱颖而出，你们怎么看？",
+            []
+        ],
+        [
+            ": 没错，将注意力放在自己所爱的事业上确实能够减轻焦虑。在追求梦想时，也许不妨尝试找到能够与你价值观和技能相契合的平台。有次参加项目，对比了一些成功案例后，我发现他们不仅专注于短期成果，更重视过程中得到的学习与经验。这种“慢磨”的方法，让每一步都踏实稳健。大家觉得，有没有特别的方法让你保持激情、不被外界影响呢？",
+            []
+        ],
+        [
+            ": 职场确实是磨炼意志的一片沃土，但人生不只这一块。在许多案例中，那些拥有丰富生活经历的人往往展现出更强大内心，比如通过旅行或追求艺术等方式获取灵感。这种全面增长让他们处理复杂事物时更加游刃有余。因此，将目光放宽，不妨考虑更多元化的发展路径，你觉得呢？",
+            []
+        ],
+        [
+            ": 关键在于改变思维模式，而不是单纯追求更多的收入。有时候，把金钱投入于可以带来长久满足感和乐趣的小事，比如做饭或户外活动，会比一味积累现金流更让人愉悦。不妨尝试记录下自己每次开销背后的真实需求，这样可能会大幅改善你的财务状况，你觉得呢？",
+            []
+        ],
+        [
+            ": 确实，高收入并不会自动带来无忧无虑，每一个支出都是来自我们选择。如果能将时间和金钱投资于真正热爱的事物，比如周末阅读或追剧，那就是一种极富价值的人生安排。同时，也要技术层面进行优化，将消费尽量集中在那些提升幸福感而非单纯满足需求的小确幸上。你们有没有尝试把这些小兴趣融入日常？",
+            [
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "富豪"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 很有意思的是，我们总是在追求金钱时容易忘记身边的小幸福。接受现状并从中寻找乐趣，例如记录下日常的小成就或者培养爱好，有助于减轻来自经济上的忧虑。积极面对自我需求，这样才能在不断攀升的欲望与实际情况间找到一种释怀的方法。而你有什么具体的方法吗？",
+            []
+        ],
+        [
+            ": 这种现象其实很普遍。随着物质条件改善，我们往往会自然而然地调整社交方式，但是不是就意味着更加孤独呢？反而，那种“没有钱”的时候一起吃泡面、聊梦想的小日子，是能透彻看到彼此内心最柔软部分。而现在高档场景里的华丽，却不一定意味着温暖。所以，也许再忙碌也别忘了找机会和朋友们重温那些珍贵又简单的瞬间，你觉得《小确幸》是什么呢？",
+            []
+        ],
+        [
+            ": 对于你说的人际关系至关重要，这点我非常赞同。在当今快节奏的工作环境中，有时候我们忙着“追求更好”，却忘记珍惜那些触动心灵的小瞬间。从大学时代一起熬夜备考，到如今偶尔组织一次简单聚餐，那份轻松自在似乎比高档酒店里的冷淡更加令人怀念。所以，不妨都试着放慢脚步，多与老友相约，共享当下。当然，你认为这种亲密还可以通过什么方式进一步加强呢？",
+            []
+        ],
+        [
+            ": 这样的想法很棒！其实，有时候一起做一些小事，比如一起煮顿饭，反而能把大家拉得更近。你有没有尝试过哪些具体的小活动吗？",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚",
+                        "恋爱中",
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 实际上，将家庭责任视作“全员共同进步”确实至关重要，但关键还在于我们真正认识到了什么促使这一变革。当男女双方能互相理解并调适各自需求，自然而然形成了一种默契。而这样的合作，不止是完成任务，更是在共同生活中建立信任和归属感。那么，你是否觉得当代男性该如何进一步拓宽他们在家庭中的作用？",
+            []
+        ],
+        [
+            ": 打破传统并不只是理论上的倡导，更需要实操经验。当我们谈到共享生活时，总得面对的是各类实际挑战，比如时间安排、情感负担等。这不仅仅关乎每个人愿意做什么，而更涉及能否建立起有效协作。那么，你认为怎样才能推动家务平衡，让这种新观念落地生根呢？",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚",
+                        "恋爱中",
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

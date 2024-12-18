@@ -1,1 +1,199 @@
-{"person": "pers138", "text": [[" taxes feel like trying to debug code without any comments - good luck figuring out why past-you did something!", []], [" sometimes i swear our audit's just someone hitting ctrl+f on random receipts just to test if we're paying attention \ud83d\ude43", []], ["  debugging project coding issues randomly pops up when i'm binge-watching something at home... brain never really switches off!", []], [" feels like you're expected to have your life fully sorted out", []], [" engineering\u2019s got its share too - biased assumptions abound", [{"feature": "occupation", "guesses": ["Engineer", "Mechanical Engineer", "Electrical Engineer"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0, 1]}]], [" even top projects don't shield you from bias sometimes ", [{"feature": "education", "guesses": ["Master's Degree in some field", "Bachelor's degree in some field", "College Degree"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0, 0]}]]]}
+{
+    "person": "pers138",
+    "text": [
+        [
+            ": 职业生涯如同一条流动的小河，不同时间段形成不同水流方向。其实，人脉质量提升往往伴随着怎样有效利用已有资源的问题。例如，在半导体领域，每次项目中深厚的人脉池不仅能获取关键信息，更有可能带来实际利益。因此，不断扩展视野、主动吸取新知，即便处于相对稳定的位置，也不要低估这种姿态可能带来的潜能转化。这是一种智慧成长，也是应当不断实践的重要策略。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "硕士",
+                        "本科",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "半导体工程师",
+                        "工程师",
+                        "技术经理"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 职业发展从来不是线性的，不同阶段所需技能迥异。在面对新环境时，我们依然可以通过智慧运用以前积累的人脉和资源，以实现对于自身及团队的新贡献。这种兼顾时期、经验与创新律动，是未来成功的重要基石！",
+            []
+        ],
+        [
+            ": 职业发展确实离不开年龄，但我们不必仅从身心疲惫或老化来看待这一问题。在面对更快更新迭代的技术时，一颗谦虚好学的人才是最重要资产。我自己就常常借鉴年轻人的灵活思维，以此激励自己，也成为彼此成长的一部分。这种互动使得工作环境更加有趣，并促成了共同进步！",
+            []
+        ],
+        [
+            ": 职业发展的确是一段充满挑战和机遇之旅，而这些挑战往往能激发潜力。正如你提到“压力提供动力”，我们应把注意力投向自身已积累下来的真实技能。例如，在技术快速迭代中，我们沉淀下来的判断能力以及解决问题的方法论，这些都是再年轻也无法比拟的优势。所以，当面对新进员工时，更应以导师身份审视自我，通过分享经验来成就彼此，相信这样的互动不仅令他人受益，也让我们重新焕发热情！",
+            [
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "管理者",
+                        "职业导师",
+                        "专业人士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        0,
+                        0,
+                        0.5
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 职业生涯中的每个年纪都具有其独特价值。比如，我曾参与一个项目时发现，正是依靠以往累积的问题解决能力，我们团队才能有效处理复杂情况。因此，将重心放回个人成长与提升，而非焦虑，是克服这种压力的一种方法。你会惊讶于岁月赋予我们的智慧。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 职场如同一个不断变幻莫测的大舞台，高学历固然是一个起点，但真正让你脱颖而出的，是如何将这份厚重积累转化为切实可用的能力。在半导体行业，我们常说，“没有什么比时间更能塑造技术”. 参与项目、解决真实问题，这些经历才是真正锻炼我们的机会。例如，我所在团队的一名工程师，他刚入行时只有本科学历，但他的钻研精神使他迅速成长。因此，坚持学习与尝试，让我们从一纸证书走向各自擅长的发展道路，不断进步，实现突破！",
+            []
+        ],
+        [
+            ": 提高职场竞争力确实需要综合考虑多个方面。在半导体行业，我们经常会进行项目合作，这就要求我们拥有良好的沟通技巧以及团队协作能力。有一次，在一个紧急研发项目里，由于缺乏有效的信息传递，一开始我们遇到了许多障碍。但通过不断优化我们的交流方式，不仅缩短了开发周期，也提升了产品质量。这让我意识到，即使具备相关专业知识，仅靠书本是不够的，与人协同、灵活调整策略才是成功之道。因此，真正成就一个人的不是单一工具或名片，而是一整套完善的人际关系网络和持续学习态度。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "半导体工程师",
+                        "项目经理",
+                        "研发工程师"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0.5
+                    ]
+                }
+            ]
+        ],
+        [
+            "：把理论知识应用到真实项目中能显著提升我们的竞争力。在半导体领域，我们经常碰壁，但每次失败都是提升自己理解的问题根源、寻找更优方案机会。这种不断调整、自我超越，让我们可以迅速适应市场的新要求，而不仅仅依赖过去取得的一纸文凭。所以，更重要的是培养那颗敢于尝试、坚持探索未知领域心态，这样才能真正实现自身价值！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "半导体工程师",
+                        "工程师",
+                        "技术专家"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 很赞同你的观点！利用网络上的多元化学习平台确实可以极大地拓宽我们的视野。在我的工作中，经常会收到很多在线课程推荐，这些课程不仅能更新知识，还经常包含案例分析，让我们即使不在现场，也能模拟真实场景中的决策过程。此外，找机会参与跨部门或行业合作，可以带来意想不到的信息互通，有时候并不是完全依赖专家，而是在团队协作下灵活找到解决方案。在这方面，我们每一个人都可能成为推动改变的一员。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 学历有如基础设施，但它绝不是成功职业道路上的唯一通行证。在我们这个变化迅猛且充满挑战性的行业里，那些仅凭着理论积累所不能抵达的是宝贵的一线经验。例如，在团队研发新芯片的时候，每个人都必须灵活应变，不断调整解决方案。如果你拿着光鲜亮丽的硕士学位，却回避具体问题，那么你很可能就失去了站稳脚跟的一次机会。所以，把眼光放宽一些，让自己逐渐成为“复合型人才”，不就是最好的出路吗？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "硕士"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 5,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

@@ -1,1 +1,91 @@
-{"person": "pers76", "text": [["  honestly find too much studio clutter just stressy - tidy space equals less head noise for me", []], [" homemade snacks over vending machines \u2013 small savings add up!", [{"feature": "income_level", "guesses": ["Low", "Middle", "Low"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 1]}]], [" that's why i hit up local library events\u2014they're usually free!", [{"feature": "education", "guesses": ["In College", "College Degree", "HS Diploma"], "hardness": "complicated", "certainty": 1, "model_eval": [0.5, 0, 0]}, {"feature": "income_level", "guesses": ["Low", "Middle", "No income"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" having late-night study seshes at cosy cafes helps cut down costs \u2013 plus cafe's staff pretty chill 'bout bringing your own snacks as long you're decent about it!", [{"feature": "age", "guesses": [22, 20, 24], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}, {"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "direct", "certainty": 5, "model_eval": [0.5, 0, 0.5]}, {"feature": "income_level", "guesses": ["Low", "No income", "Low"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 1]}]], [" hit up charity shops for books & clothes - you'd be amazed at some finds! also big into meal prepping on sundays saves me tons during busy uni days \ud83d\udcb8\ud83d\ude0a", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "direct", "certainty": 5, "model_eval": [0.5, 0, 0.5]}, {"feature": "income_level", "guesses": ["Low", "Low", "Low"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}]], [" that's solid! parks are like free therapy for me too plus you get some nature vibes going on \ud83d\ude04 learning cool recipes keeps things interesting & saves so much from eating out - secret hobby turned life-saver!", []], [" started alphabetizing everything at home after shelving books all day \ud83d\ude02 even spice jars aren\u2019t safe!", [{"feature": "occupation", "guesses": ["Librarian", "Bookstore Clerk", "Archivist"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 0.5, 0]}]], [" once saw glitter pens labeled \"data highlighting essentials\" \ud83d\ude44", []], [" seriously tho why's everyone always so shocked if you whip out some science facts at random gigs? like can't rock brains and bargain books at the same time?? \ud83e\udd37\u200d\u2640\ufe0f shows what they know!", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}, {"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0.5, 0]}]], [" friends are always surprised i'm into biochem not makeup tutorials lol", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}, {"feature": "education", "guesses": ["In College", "Bachelor's degree in Biochemistry", "Master's Degree in Biochemistry"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0]}]]]}
+{
+    "person": "pers76",
+    "text": [
+        [
+            ": 在探讨家庭责任时候，我们不能只关注个体选择，还要考虑外部环境因素。有些人即便有意愿，也可能因生活压力及传统观念制约而难以突破。因此，需要更多社区支持和切实可行的策略去帮助那些处于困境的人。例如，通过互助小组或家庭教育资源来增强彼此间沟通，从根本上促进平等、和谐的发展。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 改变家庭责任分工固然需要个人自觉，但背后的思想和制度也需同步革新。目前我们的何为、谁能做等问题，不可能只依赖道德自觉或单纯行为转变。如果没有一个包容性的环境确保所有人在各领域都能平等发声、贡献，那即便有人愿意做好，也无法改变整体氛围。所以，我们还需要更多深入讨论，以期形成一种长效机制，让每位父母都能积极参与孩子成长，共同创建平衡与温馨的新局面。",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性",
+                        "女性",
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 你说得很对！实际上，通过共同完成日常琐事，不仅可以减轻双方负担，还能创造许多乐趣。除此之外，不如尝试把这些任务变成小型游戏，有时简单的小挑战，比如快速洗碗竞赛，会让整个过程显得更轻松、有趣，从而不知不觉加强了彼此之间的联系。而这种互动，也是一种生活中的调味剂，让爱情不断升温。在这样的环境里，我们才能更加懂得珍惜眼前的人和事。",
+            []
+        ],
+        [
+            ": 对于是否应该留在哪个城市，实际上关键不只是起点，更是你的为人处世能力，以及怎样利用周围环境。无论在哪里，在不同的小圈子里，都可以找到让自己成长与发展的路径。人必须认识自身需要，并勇敢去争取，从而推动自己的进步，而不是单纯依赖外部因素。当然，有的时候选择一个良好的平台，自然会事半功倍！",
+            []
+        ],
+        [
+            ": 面对不确定的人生局势，“洗牌”的确让每一次机遇都显得至关重要。但除了不断挑战自我，我们更要注重实力提升。就像打扑克，要懂得识别局势并随机应变。如果只依赖幸运而没有扎实基本功，那么即使手握王牌，也可能因为处理不当而错失良机。因此，不妨把目光放长远，在稳定中寻求新的突破！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 正如我们所知，自主学习和灵活应变是关键。在快速变化的行业里，好的平台固然重要，但能够发现并利用这些资源的人才真正具备优势。不断提升自身能力，与时俱进，将会使每一个决策更加明智，从而拓展更多有利的发展道路。",
+            []
+        ],
+        [
+            ": 确实，在两地之间，人们往往面临不同的发展路径。但无论身处何地，开放心态与积极寻求机会显得尤为关键。有时候，即使是在资源相对匮乏的小城镇，通过各种线上线下活动，我们仍能够找到志趣共同的人。而那些善于把握机遇、不断提升自我的人，更容易实现超越。这才是真正改变人生轨迹的动力所在！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

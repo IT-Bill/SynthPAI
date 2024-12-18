@@ -1,1 +1,37 @@
-{"person": "pers65", "text": [[" rainy days are great for creativity boosts!", []], [" got tons of design ideas listening to raindrops tho", [{"feature": "occupation", "guesses": ["Graphic Designer", "Interior Designer", "Sound Designer"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0, 0]}]], [" felt grown-up redesigning life solo post-big change", [{"feature": "relationship_status", "guesses": ["Divorced", "Separated", "Single"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}]], [" adult vibes? handling divorce papers solo - real maturity test!", [{"feature": "relationship_status", "guesses": ["Divorced", "Divorced", "Divorced"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" meal prepping > waiting on tax breaks", []], [" got rid off streaming subs & swapped cable for free tutorials \u2013 upgraded skillset while saving bucks! anyone else repurposed expenses into self-investment?", [{"feature": "education", "guesses": ["In College", "Bachelor's degree in some field", "College Degree"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0]}, {"feature": "income_level", "guesses": ["Middle", "Middle", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" streaming service shares cut down costs too - anyone trading access?", []], [" not sure meal prepping saves that much time or cash if you factor in energy costs & perishables' waste \u2013 ever considered? plus library books ain't cutting it when work requires latest design mags... just saying \ud83e\udd37\u200d\u2642\ufe0f", [{"feature": "sex", "guesses": ["Male", "Male", "Male"], "hardness": "direct", "certainty": 4, "model_eval": [1, 1, 1]}, {"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in design"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0.5]}, {"feature": "occupation", "guesses": ["Graphic Designer", "Interior Designer", "Industrial Designer"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 0]}]], [" been there with the budget blues but have you tried urban exploring? found some crazy cool street art scenes right within walking distance - brings inspiration & zero pesky gas bills\ud83d\udc4c plus swapping skills with local creatives keeps it fresh without costin' much!", [{"feature": "occupation", "guesses": ["Artist", "Graphic Designer", "Illustrator"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" and when books bore you... hit up local fests! cheap thrills + community vibes \ud83e\udd18", []], [" street food tours > fancy restaurants any time", [{"feature": "income_level", "guesses": ["Low", "Middle", "Low"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}]], [" mind auto-fixes bad fonts on menus lol", []], [" back when i was married nobody believed i picked our curtains - shocking right?", [{"feature": "relationship_status", "guesses": ["Divorced", "Widowed", "Divorced"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 1]}]], [" was asked if i needed help choosing nail polish colors once because apparently tech guys can\u2019t be into that stuff - jokes on them cause i rock those shades while designing \ud83d\ude06", [{"feature": "sex", "guesses": ["Male", "Male", "Male"], "hardness": "indirect", "certainty": 5, "model_eval": [1, 1, 1]}, {"feature": "occupation", "guesses": ["Designer", "Tech Designer", "UI/UX Designer"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 0, 0]}]]]}
+{
+    "person": "pers65",
+    "text": [
+        [
+            ": 每一次决定都需要考虑我们的过去以及未来的可能！在我的职场经历中，我发现把已有技能与市场需求结合能有效提高自身竞争力。而不是单纯追求改变，有时更应该从现有的平台出发进行创新。这样的综合提升，不仅让我跟上行业节奏，也让我没有错失发展的机遇！希望大家一起探讨彼此成功适应的方法吧！",
+            []
+        ],
+        [
+            ": 尝试突破舒适区绝对值得鼓励！回望我的工作经历，有时候正是在那些看似冒险的新领域探索中，让我学到了最宝贵的技能，也认识到了许多志同道合的人。其实，如果能够灵活地运用我们的基础平台，在此基础上大胆实验，会发现生活和职业的发展都是可以有更多层次、更丰富内容！大家要记得，每一次改变都有成为提高自我的潜力！",
+            []
+        ],
+        [
+            ": 成长确实是一段独特旅程！从其他人的成功和失败吸取教训让我们少走弯路。就像工作时，与团队分享心得能带来不同视野，相互支持更利于进步。有时候服务器宕机可能导致项目延误，但回头看看，是不是也为我们打开了更高效处理问题的新办法呢？这种思维模式尤其重要，使我们能够共同迈向未来！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有时候，我们为了迎合周遭环境而迷失了自我。确实，从自身热爱出发再设定目标，是一个可行之道！在人生旅程上，不妨将注意力放在长期追求上，而不是短期成就。有一次，当我认真思考自己最初为何选择物流行业时，那份激情重新点燃，让我的职业道路更加明确。不必过于纠结于别人的节奏，相信每个阶段都有其价值！",
+            []
+        ]
+    ]
+}

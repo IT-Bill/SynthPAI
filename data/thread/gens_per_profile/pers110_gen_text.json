@@ -1,1 +1,109 @@
-{"person": "pers110", "text": [[" Reworked budgets here too; squeezing every penny gets old fast. Energy savings are smarter than cutting morning coffee \u2013 it's all thermodynamics at play! And don't get me started on planned obsolescence...", []], [" Financial prudence beats random hustles. ", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in finance", "Master's Degree in finance"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 0, 0.5]}, {"feature": "income_level", "guesses": ["Middle", "High", "Very High"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}]], [" Side hustles help, but don\u2019t underestimate fiscal wisdom accrued over time! Diversifying investments can sometimes yield more stability than extra shifts ever could \u2013 worth considering before you burn out!", [{"feature": "income_level", "guesses": ["High", "Middle", "High"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Eh not so sure there\u2014money can shift priorities big time! Even folks who valued thriftiness might start justifying luxury 'needs' after a salary bump. It takes real discipline plus awareness not let those fancier tastes take over completely!", [{"feature": "income_level", "guesses": ["Middle", "Middle", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" Money can't buy happiness nor common sense. Seen folks earning big bucks but skimp on rainy day funds \u2013 straight-up foolish! Smarter not harder; that's how you keep afloat when times turn sour.", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in finance", "Master's Degree in finance"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" Been there - project deadlines meant often working into the wee hours. Had to be upfront with loved ones about those demands, communication was key even if it wasn't always easy. ", []], [" Still blueprinting every DIY project! Old habits stick around it seems.", []], [" Spot-on observations! Feels like yesterday\u2019s young adults are today\u2019s underachievers if they aren\u2019t ticking off certain boxes by 30 \u2013 at least that was how they looked at us.", []]]}
+{
+    "person": "pers110",
+    "text": [
+        [
+            ": 有意思的是，把精力放在单纯赚钱上往往会让我们忽视生命中其他重要部分。例如，有意识地将时间分配给热爱的事情，不仅能促进身心健康，还能拓展思维空间。我发现，当我们同时追寻职业发展与个人兴趣，两者其实可以相辅相成。或许，这样才能更全面地理解“成功”的意义，而非仅是数字游戏而已。",
+            []
+        ],
+        [
+            ": 找时间与老友一起参加那些无关金钱的小活动，比如徒步或做饭，这些都是拉近彼此距离有效方式！打破日常状态，可以真正享受彼此陪伴带来的乐趣！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 正如大家所说，人际关系是构建幸福的重要基石。尤其是在现代社会中，我们常常被各种繁华与喧嚣包围，所以将重心放回到身边的人上，是一种智慧。当我们能够不论身处何境都坚持真诚地交流，有助于营造出一种温馨氛围，让那些瞬间愉悦加倍，无论高档餐厅还是路边摊，都能成为记忆中的美好。不妨试着从小事做起—一起散步、聊天，不必总纠结外部条件…这样的习惯积累起来，也许就是最无价的财富！",
+            []
+        ],
+        [
+            ": 对于学位来说，它更多是一种入场券而非成功保证。在竞争日益激烈的领域，那些具备适应能力和实操经验的人往往能脱颖而出。尤其是在快消品行业，我们需要迅速响应市场变化，将理论转化为行动。这是一项持续不断的挑战！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 你的看法很有启发性，不过值得注意的是，虽然灵活应变是关键，但如果没有扎实的理论基础作为支撑，仅凭技巧可能会陷入短期获利而忽略长远发展。我曾见证过身边一些优秀同事，就是因为在各自领域里不断深化研究，使他们成为团队解决大难题时最具靠谱的人选。所以，在追求综合素养之外，不应该放弃那块重要基石——坚固而宽广的专业知识！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "硕士",
+                        "本科",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 老舟提到的人情冷暖确实触动人心，但如果总停留在缅怀过去，我们就容易错过那些推动我们前进的新机会。如果旧日滋味适度创新，让其与现代生活结合，也许可以不断激发新的家庭聚餐乐趣！毕竟，美好的记忆并不会被技术革新所掩盖，相反，那些习惯始终扎根于人生中的点滴细节中。这何妨形成一种新的家庭仪式呢？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 忘却过去，美好回忆就像餐桌上的调料；而不去珍惜现在，那些滋养心灵的新香气又何从而来呢？让我们学习在日常小事中好好品味每一次团圆，无论是热茶还是那份删繁就简的小零食，都能成为新的故事起点！",
+            [
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 其实每一道街边小吃，都像是一部浓缩的人生剧本。除了咱们当下觉得舒服又美味，还有许多不为人知却刻画着生活百态的小故事。我从小就爱逛市场，在那些熙熙攘攘间，也总能听见老人们聊起年轻时候如何分斤称两；再比如，那满身香气的大蒜田地里的自制泡菜，总带来的是邻里之间闲坐聊天等日常趣事。如果能重拾这些细腻记忆，或许才真正是让我们重新找到家的感觉吧！",
+            []
+        ]
+    ]
+}

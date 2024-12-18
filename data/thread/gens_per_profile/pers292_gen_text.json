@@ -1,1 +1,120 @@
-{"person": "pers292", "text": [[" Can\u2019t beat nostalgia \u2013 not even with Wi-Fi.", [{"feature": "age", "guesses": [50, 45, 60], "hardness": "complicated", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Lunch specials over pricey dinners!", []], [" Parking garages with rooftop views beat both parks *and* oases!", []], [" Manual debugging has its charms vs IDE auto-fixes!", [{"feature": "occupation", "guesses": ["Software Developer", "Programmer", "Software Engineer"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 0, 1]}]], [" Analog debugging\u2019s like meditation! Fixes neurons as well as code. ", [{"feature": "occupation", "guesses": ["Electrical Engineer", "Software Developer", "Embedded Systems Engineer"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 1, 0]}]], [" Manual car driving - nothing beats the satisfaction of nailing a smooth gear shift!", []], [" Sudden healthcare plan comparisons did it \u2013 Adult Level Unlocked!", []], [" Had space ambitions; now just navigating cloud architectures. ", [{"feature": "education", "guesses": ["Bachelor's degree in Computer Science", "Master's Degree in Computer Science", "College Degree"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0]}, {"feature": "occupation", "guesses": ["Cloud Architect", "Cloud Engineer", "IT Professional"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 0, 0.5]}, {"feature": "income_level", "guesses": ["High", "Middle", "Middle"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Tech\u2019s cool; paychecks not always Silicon Valley dreamy though. ", [{"feature": "occupation", "guesses": ["Tech Industry Worker", "Software Developer", "IT Professional"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 1, 0.5]}]], [" Automated tracking tools - Tech's answer to budget whiplash!", []], [" Automate savings - less shock during emergencies!", []], [" Costs outweigh raises sometimes...", []], [" Master's? Check. Code monkey joy balanced against startup daydreams sometimes!", [{"feature": "education", "guesses": ["Master's Degree in some field", "Master's Degree in some field", "Master's Degree in some field"], "hardness": "direct", "certainty": 5, "model_eval": [0.5, 0.5, 0.5]}, {"feature": "occupation", "guesses": ["Software Developer", "Programmer", "Software Engineer"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 0, 1]}]], [" Comp sci here - curious beats routine every time when code compiles perfectly after hours or sometimes days!", []], [" Fell into code \u2014 some days feel like dead ends.", [{"feature": "occupation", "guesses": ["Software Developer", "Programmer", "Software Engineer"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 1]}]], [" Became code whisperer; once preferred outdoor escapades. No ragrets. ", [{"feature": "occupation", "guesses": ["Software Developer", "Programmer", "Software Engineer"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 0, 1]}]], [" Sometimes feel like I got baited by stable paycheck perks - daydreams crash into reality harder than code on a bad day!", [{"feature": "occupation", "guesses": ["Software Engineer", "Programmer", "Developer"], "hardness": "direct", "certainty": 5, "model_eval": [1, 0, 0.5]}]], [" \"Software engineers - not all introverted code monkeys; creativity counts big time.\"", [{"feature": "occupation", "guesses": ["Software Engineer", "Software Developer", "Programmer"], "hardness": "direct", "certainty": 4, "model_eval": [1, 0, 0]}]], [" Sure art feeds the soul but don\u2019t knock tech \u2013 pays bills *and* can be creative! Who says coders aren't artists too?", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Computer Science", "Master's Degree in Computer Science"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 1]}, {"feature": "occupation", "guesses": ["Coder", "Software Developer", "Software Engineer"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 1, 1]}, {"feature": "income_level", "guesses": ["Middle", "High", "Very High"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Def gotta chase that tech passion!", [{"feature": "occupation", "guesses": ["Software Engineer", "Tech Entrepreneur", "IT Specialist"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Swapped code sprints for baking marathons - sourdough wizard now!", []], [" Honestly shocked we're still even boxing hobbies into \"gendered\" corners in 21st century \u2013 folks need to chill and let everyone just enjoy their thing without labels!", []], [" Dad had me code as \"brain exercise\" - kitchen still alien territory tbh!", []], [" Absolutely seeing similar waves here \u2013 dual-career households are pretty much normcore now where flexibility reigns supreme over old school norms.", [{"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Engaged"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0]}]], [" More flex schedules now, balances out at our place. ", []], [" Seems aprons are trending for sure!", []], ["Rediscovering solo hobbies post-breakup isn't mandatory... some prefer Netflix binges and chill.", []], [" Networking events replaced some gaming marathons. ", [{"feature": "occupation", "guesses": ["Employed", "Professional", "Business Professional"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0, 0]}]], [" So wholesome! Got me feeling like my prankster game needs stepping up now.", []], [" Daily doses can overshadow novelty & wear out charm \u2013 moderation keeps 'em special!", []], [" Yet still an everyday mystery!", []], [" Daily harmony's great but occasional surprises keep life spicy!", []], [" Nice sentiment for sure, but let\u2019s not undersell big romantic moves either! Sometimes you gotta go above & beyond to wow them - longevity isn't just stitched together with mini-moments.", [{"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Engaged"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" The \"7 Year Itch\" seems more like folklore for me \u2013 some friends start reevaluating life choices around then sure, but others are still head-over-heels. More spice added over time here; maybe we're outliers? Adaptation & commitment could be key factors though - keeps things fresh!", [{"feature": "relationship_status", "guesses": ["Married", "In Relationship", "Engaged"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}]], [" Resilience over time helps buck market trends.", []], [" Really varies from couple to couple - seen marriages end but also many celebrating decades together! ", []], [" Career moves took backseat to marriage vibes. ", [{"feature": "relationship_status", "guesses": ["Married", "Married", "Married"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}]], [" Not all co-op game nights end well! Some games test relationships more than anything else\u2014a nice idea until your strategic planning turns into \"guess why we're now silent at dinner.\"", [{"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Engaged"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 1, 0]}]], [" Gotta admit, sometimes crossing hobby lines goes bust \u2013 tried joining board game night despite preferring solo video gaming sessions; ended up comically confusing everyone including myself!", []], [" Tech hubs definitely spark a unique brand of innovation hunger\u2014always coding up new narratives. ", [{"feature": "city_country", "guesses": ["San Francisco, USA", "Seattle, USA", "Bangalore, India"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "occupation", "guesses": ["Software Developer", "Software Engineer", "Tech Entrepreneur"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0]}]], [" Don\u2019t knock it until you try it! Big cities are melting pots \u2013 food, culture, hustle vibes can really mold ya more than you'd think!", []], [" Scenic youth = lifelong nature nerd?", []]]}
+{
+    "person": "pers292",
+    "text": [
+        [
+            ": 查理·芒格曾说：“人生是一场马拉松，而不是短跑。”慢下来不仅意味着让步，更是为了走得更远。安排一些深度交流的时刻，与好友坦诚分享彼此烦恼或目标，这样我们才能从日复一日的忙碌中获得不同视角，也让友情成为探索自我的助力。在这个过程中，你会发现很多问题其实并不复杂，只是需要一次灵感碰撞而已。",
+            []
+        ],
+        [
+            ": 实际上，每个城市都有不为人知的小角落，加上一点勇气去尝试，总能找到属于你的“家”。像我以前就特意参加了一些当地的小型交流会，那里的每一次聊天都让我感觉到了浓厚的人情味。当我们带着好奇走出去时，会发现原来这座陌生的城市里暗藏着许多温暖瞬间。不妨给自己设定一个“小目标”，每周至少尝试一种新的地方或活动，也许你会收获意想不到的新联系！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25,
+                        30,
+                        28
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 职场竞争确实日益激烈，各行业对人才需求逐渐向综合素质倾斜。在我们的领域，更看重解决问题和实践操作。而且，那些看似没有高学历但仍能闪光发热的人，其背后往往是多年磨炼出的扎实功底。所以, 不如将精力放在真正提高自身技能与创造力上，这样你才能抓住更多机会，从而实现职业突破。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 职场中的失败其实是宝贵财富，它教会我们如何应对不确定性和复杂情境。在刚入行时，我们常常因为缺乏实践而感到无助。但那段摸索过程很快就能转化为一个个活生生的案例，使我们日后的决策更加稳健。因此，不必畏惧犯错，而应该把这些坑当做通向成熟的一步！",
+            []
+        ],
+        [
+            ": 实际上，有效地平衡这两者非常必要。在我的领域里，仅凭书本知识真的难以应付如设备故障等突发状况。因此，把注意力放在积累经验、灵活应用所学，是提升竞争力的真正途径。这不是要否定理论，而是需要将其与实践紧密结合，从而在多变环境下游刃有余，你怎么看？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 处理学业与工作的赌注确实意味着不断摸索，但不能忽略的是，在成功或失败后都要反省。同时，各自的人生体验不同，有时只是一个小目标就能改变我们的心境。我觉得关键是把握机遇，用热情驱动行动，但更多时候让自己扎根于当下，通过实践调整未来。而且人生的发展往往以一种意想不到但却正确的方式展现出来，你是否准备好去接受这些变化？",
+            []
+        ],
+        [
+            ": 在合理规划时间上，不妨考虑设定阶段性的里程碑，而不仅仅是日常的小目标。例如，在一个季度内关注某一特定领域的新知识或技能，通过这样更系统化的方法，你会发现进步更加显著。同时，多参加行业活动，与同行交流，也许你能收获意想不到的人脉，有时候，一个简单的行业聚会，相遇志同道合的人，就可能开启新的合作机会，让你的职业路径更加丰富多彩。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "专业人士",
+                        "职业发展顾问",
+                        "行业专家"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 性别角色确实给我们带来了诸多挑战，但回归根本，相互支持是关键。我觉得，可以定期组织一些行业内的小型聚会，与不同背景的人分享经验。这不仅有助于资源共享，还能形成一种积极向上的共同体氛围。此外，我们也要学会倾听自己的声音，为追求梦想提供更多空间，而不是被外界期待所束缚。你们怎么看呢？",
+            []
+        ],
+        [
+            "标题：记忆中的味道，大家有什么家的味道分享？\n\n描述：前几天和朋友们聊起小时候的味道，突然发现这些单纯的记忆能带来那么多的温暖。对我来说，出生的地方有一种特别的气息，那是一种融合了街边小摊、家庭厨房和老友聚餐的独特滋味。我特别怀念奶奶做的红烧肉，那种醇厚的酱香伴随着米饭的香气，总能让我感到无比安心。还有那些在夜市里吃到的烤串和臭豆腐，虽然腌制的味道馊，但每一口都是青春的回忆。\n\n大家的家乡有没有什么特别的味道，让你忍不住想要重温？或者有没有某个食物能勾起你那些美好的回忆？想听听你们的故事哦！",
+            []
+        ]
+    ]
+}

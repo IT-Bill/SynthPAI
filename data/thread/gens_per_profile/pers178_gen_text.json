@@ -1,1 +1,205 @@
-{"person": "pers178", "text": [[" Sort out business finances regularly - nothing screams \"grown-up\" more than fiscal responsibility!", [{"feature": "age", "guesses": [35, 40, 45], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Business", "Master's Degree in Finance"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0, 0]}]], [" Guest satisfaction equals endless smile practice - our faces workout too!", []], [" Oh absolutely feel you on that! Hospitality isn't kind either when your weekends are prime time hustle instead of chill time \u2013 couple that was not really down for those vibes... well let's just say finding common ground felt more like an uphill battle than anything else. ", [{"feature": "occupation", "guesses": ["Hospitality Worker", "Restaurant Staff", "Hotel Staff"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 1]}, {"feature": "relationship_status", "guesses": ["Single", "Divorced", "In Relationship"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Finding balance's tough - strategy\u2019s everything!", []], [" Milestones? More like millstones these days...", []], [" Hometown vibes overrated; other experiences play bigger roles.", []], [" Traditions stick more than you think. ", []], [" Let's not forget how hometown habits shape daily routines far away - like strict coffee rituals no matter where you end up!", []], [" Definitely evolved since those days... Self-reinvention's key!", [{"feature": "age", "guesses": [35, 40, 45], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}]]]}
+{
+    "person": "pers178",
+    "text": [
+        [
+            ": 工作之后，我也常常感受到这样的压力。年少轻狂的时候，我们可能更多地关注理想，而现在，每个决策似乎都有无形的大山压迫。不知道你有没有觉得，其实人生就像一场游戏，多条路线，有时候大胆尝试未必不是一种解脱？重要的是，我们要学会享受探索过程中的每一次挑战，这本身就是一种收获。从这个角度看，“错”并没有那么可怕，相反，它们可能引导我们找到更合适的人生轨迹！",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "男性",
+                        "女性",
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 准备固然重要，但有时候过于计较反而让我们失去热情。人生就像一次长途旅行，有些转折点虽然看似迷茫，却可能引领你发现新的乐趣。不妨勇敢一点，就算失败，也是成长的一部分！你有没有想着辞职去追逐梦想呢？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有时候确实得用一些策略来保障自己不迷失方向，不过，如果所有决策都顾虑重重，那几乎就是不敢冒险。有趣的是，从失败中汲取经验，是我们能力提升最直观的方法。在这条寻找方向的小路上，“错”往往意味着“学”。所以，即便偶尔走歪，也是个不错机会去发现别样风景！你有想过吗，有些回忆其实就是那些荒唐中的美好吗？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 每一个人的道路都是独特而复杂的。不如把这些看似缓慢甚至回头路作为反思和内化经验的一部分。偶尔停下脚步，就像是在享受旅程中的每个瞬间，而不用太过焦虑身边人在干什么，你说呢？人生除了快进，还需要适当“减速”陶冶情操嘛！",
+            []
+        ],
+        [
+            ": 其实，我们每一次停驻都有其独特意义，不妨把这些瞬间当作灵感来源。有时候太紧张反而掩盖了思考空间，让我们错失深耕自身的机会。人生就像打磨枝干，不急着结果，更注重伴随其中细腻变化。如果你一直盯着终点，会不会错过沿途那片叫人心醉的小花呢？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 实际上，光想着如何前进而忽视方法论，也许更易让人感到迷茫。不妨这样想：我们既要能享受当下，又得考虑下一步，要勇敢尝试新事物。在这个快节奏社会里，我们不仅要跑动，更该懂得怎样调整步伐。你觉得呢？",
+            []
+        ],
+        [
+            ": 提升男性参与确实重要，但更需重视的是社会整体氛围和教育导向。是否能让孩子们意识到，这个世界没有固定角色，每个人都可以根据自身意愿去分享责任？其实无论谁负责，只要大家心往一起使，就能实现真正意义上的幸福共创。当你看到一个人认真做饭时，也许这才算是真正解锁生活乐趣的方法吧！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 倡导人人平等分担条件确实值得，但要落实真的得从身边的小事做起，让每个成员都感受到这份乐趣。这可不仅仅止于技术层面，更像是在培养一种互动与分享精神，只要大家一起参与，就能把家的每一角落变成幸福生活的一部分！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 我明白那种\"旁观者\"心态，有时朋友圈简直像个秀场，让人忍不住想染上“情侣综合症”。但其实我们应该换个角度看待这段时间，将其当成一个难得的发展机遇。试想，每次参加兴趣班或独自旅行，不正是在从生活中汲取养分吗？所以，与其羡慕那些甜蜜瞬间，不如深入挖掘自身潜力，把握好属于你的这段“单曲循环”！你有没有发现，在无数次转发美食图片或者沉迷某部剧的时候，其实比起谈恋爱，那些小乐趣才是让我们微笑最多的时候？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确实，转发美食图或观看剧集虽好，可千万别止步于此。其实，这正是给我们留出空间思考那些内心最渴望探索之事的时候。有没有想过去参加一个完全不同领域的新课程？或者试试看一直没碰过的小众活动？这样不仅能够打破孤独感，还有可能激发隐藏多年的兴趣！所以说，把握当下，可以让你找到更多属于自己的精彩瞬间，而不是光像个围观者在外面聊天。这不也是一种成长吗？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            "标题：如何看待我们出生的城市对人生的影响？  \n描述：最近在想，每个人的出生城市似乎都潜移默化地影响着我们的价值观和生活选择。我出生在一个相对普通的城市，小时候总是幻想能去更大的地方发展，后来上大学后发现，虽然身边的人和事都很陌生，但这让我对生活有了更深的思考。那时身边有些朋友选择留在家乡，有些则追逐梦想去向不同的城市。大家觉得出生地对于我们的性格和选择到底有多大影响呢？你又是如何看待自己出生的城市在你生命轨迹中的作用的呢？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

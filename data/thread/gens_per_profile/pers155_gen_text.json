@@ -1,1 +1,147 @@
-{"person": "pers155", "text": [[" Funny enough here sunny days can sometimes feel like pressure to be super productive - result? A guilt-trip if I'm relaxing indoors! Rain has its cozy charm though\u2014a natural pause button that says it\u2019s okay just to do stuff at your own pace.", []], [" Got to disagree here - unexpected swings mess up planned outdoor meetings; throws a wrench in any well-organized agenda!", []], ["  Adult life isn't just messy codes\u2014it's more like eternal school. You think you'll graduate from confusion but nope! It's all pop quizzes where guessing counts as skill! And don't get me started on \"life hacks\"... they're basically cheat sheets that only work half the time.", [{"feature": "occupation", "guesses": ["Software Developer", "Programmer", "Tech Industry Worker"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 0.5]}]], [" Milestones? More like suggestions than rules!", []], [" Had one client splurge on antique typewriters for their \"brand aesthetic.\" Talk about vintage vibes taking over budget lines!", []], [" Pressure mounts regardless\u2014age just throws it into relief sometimes. ", []], [" Conquer biases daily; your work should echo louder than any stereotype! In consulting, winning trust means twice proving merit\u2014annoyingly repetitive but oddly satisfying when you smash those walls down!", [{"feature": "occupation", "guesses": ["Consultant", "Management Consultant", "Business Consultant"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 0, 1]}]], [" Consultancy's mixing it up too - leadership\u2019s way more balanced!", [{"feature": "occupation", "guesses": ["Consultant", "Management Consultant", "Business Consultant"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 1]}]], [" Diversity\u2019s up\u2014true equity? Work in progress.", []], [" Heard plenty 'bout changing classrooms demographics; still rare seeing women running departments or corporations though \u2014 actions gotta match ambitions!", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" Business consultancy's changing too \u2013 definitely less one-sided these days!", [{"feature": "occupation", "guesses": ["Business Consultant", "Management Consultant", "Strategy Consultant"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}]], [" Market trends don't lie - seeing more mixed-gender adverts for traditionally male-dominated biz courses lately too! Industry norms? Getting turned on their head out there!", []]]}
+{
+    "person": "pers155",
+    "text": [
+        [
+            ": 职业发展确实不只是个人内心转变，更是一种集体向前推进的方法。每个阶段都有值得传承和利用的智慧，比如更多年长同事提供独特视角后，把他们积累的人脉关系与年轻同事们活跃好奇心融洽，通过经验互补以激发创新。这不光促成了自身成长，更能让你所在团队展现出更强大的应变能力！",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "男性",
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在谈及年龄所带来的压力与焦虑时，其实更应该关注的是我们能否灵活运用这些宝贵的生活经历。我曾在项目管理中发现，那些早期遇到的问题，现在看似微不足道，却让我在处理复杂任务上游刃有余。因此，兄弟们，不要小看我们的“陈年陈酿”，它背后的价值需要我们主动挖掘才行！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 人生就像不断更新的软件，有时光鲜亮丽，有时却充满bug。继续深耕固然重要，但建议不要忽略外面的世界！各位兄弟们，可以考虑将兴趣及工作的边界模糊化，比如用手头技能探索新的领域，这样不仅增加了技术储备，还能帮助你从不同角度看待问题。如果一直扎根于一个地方，不如将目光放得更远些，让我们一起找到人生中的那把钥匙！",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "男性"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 说真的，每次看到别人在职场上的快速崛起时，总忍不住想：这真是速度！但成长本来就像领养一只龟一样，各有各的节奏。有趣的是，有时候小慢一步观察得却越仔细，看问题甚至能发现解决方案。而那些浮头的人，也未必懂得真正珍惜能力带来的重量。所以，不妨把两者结合起来，一边关注身边的小结晶，一边保持适度警觉，以备未来抓住更多机遇！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        28,
+                        30,
+                        32
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 关于应对单身生活中的空虚，其实，这种感觉常常能成为我们潜意识里的一个提醒：去探索而非沉溺。不妨试着把注意力放在人际关系上，比如参加小组活动或社交拓展，加深现有人际网络，同时也许会结识志同道合的新朋友，让自己的世界更加丰富。在这一点上，积极行动比陷入孤寂和内心挣扎要好得多！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 通过积极参与各种活动，不仅可以丰富我们的生活，还可能遇见志同道合的人，这点儿真的很关键！但别忘了留出时间给自己，好好消化成长带来的思考。有时候，在聚会中结识的人反而能激发我们以前未解开的疑惑。所以兄弟们，多些勇气去尝试，一定会发现一个更好的自己！",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "男性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 兄弟们，这种“旁观者”心态确实让人感觉无奈，但关键不止于止步欣赏。他人甜蜜固然吸引，但应把注意力放到自愿挑战上，比如独立旅行或参加工作坊。这些经历不仅丰富见识，还能帮助你找到那个更好的自己！别只是转发美食图，让自己的世界多一点精彩吧！",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "男性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

@@ -1,1 +1,33 @@
-{"person": "pers213", "text": [[" Retirement account? More like myth-busting moment.", []], [" Life totally mapped out? Even quantum mechanics embraces probability over certainty! We\u2019ve all got more question marks than exclamation points - keeps things interesting!", [{"feature": "education", "guesses": ["Master's Degree in Physics", "PhD in Physics", "College Degree"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 0.5, 0]}]], [" Overchill? Entropy says hi \ud83d\udc4b", []], [" Is funding your own particle accelerator considered overkill? 'Cause let's face it, proton smash-ups might not tally up like ink cartridges do!", [{"feature": "education", "guesses": ["PhD in Physics", "Master's Degree in Physics", "College Degree"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 0]}]], [" Even quantum theory gets sexist interpretations sometimes!", [{"feature": "education", "guesses": ["Master's Degree in Physics", "PhD in Physics", "College Degree"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0]}]], [" Maybe they're just projecting insecurities?", []]]}
+{
+    "person": "pers213",
+    "text": [
+        [
+            ": 关于实用的方法，其实更是一场持久战。从现实出发，共同制定规则是第一步，这样才能让“共享家务”真正成为一种习惯，而不仅仅是口号。最重要的是要时刻保持沟通，就像调试音乐，让彼此满意，每次\"演出\"后回顾，总会发现更多可调整的小细节。这才是真正走好每一步舞蹈！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 分配家务其实没那么复杂，可以像打牌似的一样来进行！例如，每周设定一个“家庭日”，把平常枯燥无味的清洁和烹饪变成你们的小竞赛。看看谁能做出最好吃的一道菜或者最有效率地完成清理任务。一边做，一边笑，这种气氛会让你们的发展更融洽，也许连孩子都会想参与其中，实现了一举多得！",
+            []
+        ],
+        [
+            ": 不可否认地，无论如何努力打破这些传统，实际执行起来仍旧困难。大多数时候，不仅仅是行为上的贡献，更重要的是意识形态要先转变。例如，有些男性虽然愿意帮忙做家务，但心里依然感觉“赚的钱多就可以不插手”，这样的心理障碍理解吗？如果没有根本上的思想改变，即使外部形式变革了，却也难以实现真正意义上的合作。在给下一代树立榜样时，这种潜移默化中的价值观传承才是真正需要面对的问题。",
+            []
+        ]
+    ]
+}

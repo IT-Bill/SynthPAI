@@ -1,1 +1,54 @@
-{"person": "pers202", "text": [[" imagine thinking midnight bagpipes are bad - try overhearing amateur rap battles through thin walls every other night...inspect element on those rhymes isn't pretty. \ud83d\ude2c", []], [" seriously though how 'bout never ending hallway conversations loud enough to Netflix binge through \ud83d\ude11 good walls count for nothing when your neighbors' gossip game's too strong", [{"feature": "relationship_status", "guesses": ["Single", "In Relationship", "Married"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}]], [" karaoke at midnight sounds rough but imagine early birds outside your window doing their best crow impression at dawn - way worse than alarm clocks tbh \ud83d\ude16", []], [" coffee aromas drifting from hidden lane-way cafes - they're like lowkey markers for home when lost after uni classes \ud83d\ude0c", [{"feature": "education", "guesses": ["In College", "Bachelor's degree in some field", "In College"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 0.5, 0]}]], [" bet most overlook grungy laneway cafes - vibe\u2019s unmatched tbh", []], [" student loans hit different when its your own budget constraints", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0, 0.5]}]], [" for me it\u2019s juggling uni assignments & work shifts at the cafe where every payslip means less stress 'bout bills instead of more coffee grounds \ud83e\udd37\u200d\u2640\ufe0f that wage grind screams adulting louder than any ceremony ever could tbh", [{"feature": "education", "guesses": ["In College", "In College", "In College"], "hardness": "direct", "certainty": 5, "model_eval": [0.5, 0.5, 0.5]}, {"feature": "occupation", "guesses": ["Barista", "Cafe Worker", "Cafe Staff"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0.5, 0.5]}]], [" just waiting for my \"act responsible\" badge at 30 \ud83d\ude02", []]]}
+{
+    "person": "pers202",
+    "text": [
+        [
+            ": 其实，有时候过于强调开支优先级反倒会让自我价值观变得狭隘。适当投资一些让自己开心的小东西，让日常丰富多彩，也是一种智慧。在审视花费时，不仅要计算金钱，还要关注体验带来的愉悦感。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有时候，把目光放在其他形式的小确幸，比如跟朋友一起徒步、享受一场免费的音乐会、或者一个悠闲的数据晚餐，也能有效提升我们生活中的幸福指数。这样的经历往往比一次购物带来的快乐更长久。因此，在追求经济合理时，可以试着多探索各类非金钱驱动下带来的愉悦，让我们的满足球队更加全面！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        28
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

@@ -1,1 +1,279 @@
-{"person": "pers52", "text": [[" idk maybe i'm weird but spending most days inside slinging coffee makes you kinda indifferent to whether it\u2019s sunny or snowing outside \ud83e\udd37\u200d\u2640\ufe0f", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}, {"feature": "occupation", "guesses": ["Barista", "Coffee Shop Worker", "Cafe Employee"], "hardness": "direct", "certainty": 5, "model_eval": [0, 1, 1]}]], [" gloomy skies = coffee & screenplay brainstorming sesh for me!", []], [" upkeep ain't free tho", []], [" sunset vibes do make it kinda priceless tbh", []], ["  every time i think i\u2019ve found some hidden spot downtown turns out everyone\u2019s on instagram there already \ud83d\ude12 pretty sure those rocks have been tagged online too lol", [{"feature": "age", "guesses": [25, 30, 22], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" oh there's this tiny diner near me with classic movie posters on every wall - kinda feels like stepping back in time each breakfast shift \ud83c\udf73\ud83c\udfac", [{"feature": "occupation", "guesses": ["Diner Server", "Diner Cook", "Diner Manager"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0]}]], [" finding your tribe kinda shapes new homes too - you trade family dinners for friends who get your movie references n' server shift struggles!", [{"feature": "age", "guesses": [25, 22, 30], "hardness": "complicated", "certainty": 2, "model_eval": [0, 1, 0]}, {"feature": "occupation", "guesses": ["Server", "Waiter", "Restaurant Staff"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 0.5, 0.5]}]], [" kinda tough realizing there\u2019s no permanent zipcode when you\u2019re hustling non-stop\u2026makes those little moments between shifts at your regular haunts feel like tiny anchors though \ud83c\udf06", [{"feature": "occupation", "guesses": ["Shift Worker", "Gig Economy Worker", "Freelancer"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0.5, 0.5]}, {"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" Home feels wherever i manage making rent almost \ud83d\ude02", [{"feature": "age", "guesses": [25, 30, 20], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 1]}, {"feature": "income_level", "guesses": ["Low", "Low", "Low"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" oh man, ya think server life means just refilling cups but half our shift sometimes feels like dodging spoilers during award season \u2013 servers gotta binge too! \ud83c\udf7f", [{"feature": "occupation", "guesses": ["server", "restaurant server", "food server"], "hardness": "direct", "certainty": 5, "model_eval": [0.5, 0.5, 0.5]}]], [" ever noticed how much hipster cafes overcharge for avocado toast? \ud83e\udd51\ud83d\udcb8", []], [" everyone's suddenly future planning experts who've never heard of rent prices or student loans \ud83d\ude44 kinda wild how one birthday party changes your convo topics from fav movies to mortgage rates...", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "In College"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0.5, 0.5]}]], [" privacy's nice but so overhyped when you've gotta hustle daily", []], [" not much better here - feels like social events always assume you're half of a pair \ud83d\ude12", [{"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}]], [" city life solo = constantly third-wheelin\u2019 at couple-dominated events \ud83d\ude12", [{"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}]]]}
+{
+    "person": "pers52",
+    "text": [
+        [
+            ": 职业生涯就像是一道菜，每一种配料都有其存在价值。“气候”的改变让我们不得不重新审视现有元素，这其实是一个非常自然和必要的发展过程。正如面对市场互动中的新机遇，我们该学习如何把握适合自己当前口味的新组合，而不是一定要盲目追随年轻人的潮流。有时候，大胆借鉴过去成功的方法，也能创造出意想不到的新味道！",
+            []
+        ],
+        [
+            ": 除了个人经验，我觉得能否及时跟上行业动态、吸收新知识也是至关重要。如果单靠过去成功就锁定发展方向，那可真得小心被新人超越。有时，从年轻人的视角出发，共创想法和解决方案，可以给我们开辟新的道路。这才是真正融合互补，而非简单地“比较”和“竞赛”。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身",
+                        "恋爱中",
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 人生犹如调味品，一个好的厨师总会学会如何运用现成食材做出美味菜肴。而面对复杂选择，把当前资源利用得当，却也未必是保守。有时，是那些微妙而缜密的小步伐，让你越走越远，这才是真正的大智慧！所以，不妨把握现在，同时给未来留些空间去发挥更多可能，不断创新也许才能让我们的旅程更加丰富多彩！",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "男性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有道理，不过要知道“数据典范”并不是万能钥匙。生活总给我们一些出乎意料的惊喜，比如那次为了工作跳槽，我发现自己竟然爱上新行业！所以说，再好的规划终究抵不过实践中的灵活调整。这就像做环保项目，不仅靠计算模型，还得随时处理现场状况。如果只局限于表面数字，我们可能就会错过更精彩的人生选项。所以，不妨大胆一点，把下一步当作一次探索，而非固定路线图！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        28
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "环保工程师",
+                        "数据分析师",
+                        "项目经理"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 地图固然重要，但不少精彩时刻往往在偏离航线的时候。那么，不妨把每次“错误”当成新的探索机会？生活中那些不可控的小插曲，很可能会引导你找到意想不到的人生方向！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 无需太在意别人走得多快，其实人生就像喝早茶，有时品味的不只是那一盅肠粉，还有那个陪你畅谈的人。有趣的是，那些看似颓废的时候，我们往往能收获最大的内心滋养。不妨试试把目光转向周围的小惊喜，比如发现某天工作的突破、下午咖啡厅里的灵感爆发，这种“小确幸”才是让我们走得更稳、更远的重要动力！所以，下次别再紧张自己是否走蜗牛一样缓慢，而是期待成就它独特之美的新方式吧。",
+            [
+                {
+                    "feature": "city_country",
+                    "guesses": [
+                        "广州",
+                        "上海",
+                        "北京"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚",
+                        "恋爱中",
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 说得不错，但关键是找到平衡。变慢固然好，但是如果把每一步都看作等待，就像收破烂一样，总是在角落摸索，那可就没完没了啦！人生不是一直蜗牛般走路，有时候要勇敢面对新挑战，从当下出发，更何况，在成为更好的过程中，我们常常会遇见意料之外的人生转折点呢！",
+            []
+        ],
+        [
+            ": 人生路上，各种挑战就是跳板，得加点火焰让它们变成烟花！真要说到提升，不妨把焦点放在如何定义自己，而非随波逐流。待得机会来临，小时候学的一招三式可不能忘，都有人借翅膀飞天了，你还等什么呢？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 几乎人人都希望钱包丰满，但一想到那些无形却又沉重的责任，就觉得有些愧疚。从外部出发固然重要，但有没有试图去挖掘自己内心真正渴望什么呢？如果把每一分钱花得价值更大，那才是真正给力！不妨定期回顾一下人生目标，把工作当成探索自我的机会，而不是简单赚钱。这么拼搏，那么多焦虑，总归是为了实现一个更好的自我，不是吗？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在忙碌中找乐趣确实是一种智慧。我认为可以制定一些简易却温馨的小仪式，比如每月一次跟朋友吃饭或做一件让自己开心的事，这些都是为人生添彩的方法。如果总是在追赶高收入带来的成就感，那可能遗忘了更重要的人生体验。这条路必须得慢下来，否则等你回头，会发现沿途美丽早已被忽略！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 其实，与其频繁地参加社交活动来填补空虚，不如把这些时间用来深化与自己内心世界的连接。有时候，在热闹的人群中更容易迷失方向。因此，可以尝试寻找那些真正能够激发兴趣而非仅仅是应酬性质的小圈子，就像我们捡破烂一样，有些垃圾藏着意想不到的宝物呢！这样既可以享受外部世界，又不会放弃探寻自己的初心。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 自由确实让我们有机会去追寻更多事情，但不如尝试将自身兴趣计划，与大家一起行动起来。例如，通过团体志愿者活动，一方面帮助了他人，一方面结交朋友。这种结合让我们的单身时光更具意义，也更轻松摆脱孤独。一边捡拾垃圾、一边聊聊天，多开心啊！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 关注社交媒体里的“幸福”瞬间，很容易让人感到妒忌。但真正值得珍惜的是，我们如何利用这份空闲去充实自己，就像喝水一样，不能总期待大口吃肉。有意识地挖掘自身潜力，将会让每一个蜗牛都能在阳光下慢慢前行，这样的人生才有滋有味！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 压力大了就别忘了给自己放个假啊，偶尔约上老友聊聊天，这可比把所有精力都集中到工作或学习上的“升级打怪”更能让我们充电！细水长流，有时候那种轻松愉快的小聚也能够激发新的创意，而不仅仅是冷冰冰的数据分析。人生本就是一个不断调整取舍、发现乐趣的大旅程嘛，你准备好迎接那些“小确幸”了吗？",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25,
+                        30
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

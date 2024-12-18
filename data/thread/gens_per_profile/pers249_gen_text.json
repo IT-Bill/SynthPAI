@@ -1,1 +1,316 @@
-{"person": "pers249", "text": [[" luxuries? more like dust collectors - rethink must-haves vs want-to-haves", []], [" homemade snacks replace store-bought cravings \u2013 sizable penny saver!", [{"feature": "income_level", "guesses": ["Low", "Middle", "Low"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" ever tried cycling there?", []], [" you haven\u2019t lived till you\u2019ve scoured thrift shops - vintage gems over fast fashion any day", []], [" graphic design doesn\u2019t mean i can\u2019t handle code, yet here we are \ud83d\ude11", [{"feature": "education", "guesses": ["Bachelor's degree in Graphic Design", "Bachelor's degree in Visual Arts", "College Degree"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0.5]}, {"feature": "occupation", "guesses": ["Graphic Designer", "Web Designer", "UI/UX Designer"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0]}]], [" always find it amusing when folks are shocked i don't get psyched over new hardware specs\u2014like hey, give me slick design and user experience any day!", [{"feature": "occupation", "guesses": ["UI/UX Designer", "Graphic Designer", "Product Designer"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]]]}
+{
+    "person": "pers249",
+    "text": [
+        [
+            ": 人生确实会越来越多选项，但从另一个角度看，这也是成长的一部分。有时候，把有限资源用好比盲目寻求改变更为关键。不过，如果我们一直止步不前，只靠旧有经验，很可能错失新的发展契机。因此，在坚持自我的同时，也要时刻关注环境变化，让自己始终处于不断进化之中。这种平衡是一种智慧，需要持续磨练！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 这种将决策看作成长契机的方法确实很有帮助，但别忘了一点：那些抉择不只是关于我们本身，还要考虑外界因素。例如，当下经济形势、家庭期望等都可能成为影响决策的重要元素。在不断更新自我的过程中，我们更应致力于找到适合自己的核心定位，而不仅仅是因为繁杂的信息而迷失方向。因此，从内心出发，也得放眼全局，这样才能真正从纷乱中厘清出头绪。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 深刻理解自己固然重要，但不能忽略生态系统中的各种变量。当我们仅仅把焦点放在自我身上时，很容易陷入狭隘思考。在面对抉择时，不妨试着去分析社会大背景、行业趋势，以及他人的需求，这样才能做出更周全、有效的决定。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在任何阶段，自省和动力都极其重要。每一次选择、每个遭遇，都构成我们的独特人生地图。在吸取他人经验时，更应该强化自我的实践，这样才能真正实现持续性进步。有时候，一路径上的迷茫正是新的起点，让我们更加深刻地认识自己的核心价值，而不止于追随别人的足迹。这种方法不仅能够增强适应能力，也有助于培养长期稳定的发展潜力。",
+            []
+        ],
+        [
+            ": 在职场上，我们常常面临竞争与压力，这些经历确实很能磨炼意志。从而使我们逐渐清晰认知，还可以把重点放回到自己身上。无论他人的轨迹如何，每一步累积都是宝贵财富；尊重自己的历程，把握自我提升反而更为重要。所以，与其担心别人如何，更不如欣赏个人每一次进步带来的成就感。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 成长虽需耐心，但偶尔也要加快脚步。不必将自己封闭于舒适圈，过分执着“不慌”。环境随时都可能变化，把握机会、积极进取同样重要，每一次果断决策都是开拓未来的一步。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身",
+                        "恋爱中",
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 学位不仅是一纸证书，更是一种系统性的学习方式，它帮助我们建立起应对复杂问题所需的方法论框架。在某些领域，这种基础无疑是宝贵资产。而不仅仅依赖学历，我们还需要通过各类项目来进行加深理解。这不意味着要放弃应用技巧，不如说是在让理论与实践相辅相成，为我们更好地适应职场环境打下坚实基础。所以，两者缺一不可，有效平衡才能更好发展！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "硕士",
+                        "本科",
+                        "硕士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 文凭虽然不是终极目标，但它提供的是一种进入门槛。在质量检测这样的行业中，如果没有一定理论支撑，即使再有经验，也难以获得相关证书或资格，所以我们要不断更新专业知识，使其与时俱进。一方面要扎根实践，另一方面也别放弃学习。两者结合才是真正提升自我的路径！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25,
+                        30,
+                        28
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "质量检测员",
+                        "质量控制工程师",
+                        "专业技术人员"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0.5
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 说实话，从长远来看，仅凭团队合作与创新并不足以确保在各个行业立足。有些职位确实需要扎实的专业背景作为基础，而不是单纯依靠人际关系或灵活应变。而且，如果整个市场都倾向于重视技能而非文凭，那么倒不如提前提升自己的核心竞争力，把学位当做好工具，而非唯一法宝！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 不妨把重心进一步放开，不仅是简单记录你的小成就，还可以主动加入各种学习平台、兴趣社群。这件事能帮助拓宽你的视野，同时，也可能带给你意外之喜，如志同道合的新朋友或是意想不到的发展机遇。经历丰富多彩之后，你贴近内心真正渴望的时候，对于“爱情”的理解也可能随之升华。所以，在享受这一阶段时，多尝试、多交流，说不定会收获不同寻常的人生精彩！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 单身确实是一个兼具自由与挑战的阶段。在享受属于我们的时间时，不仅要关注当下，也应该考虑这段经历如何塑造我们内心。很多时候，真正吸引人的事情不是短暂激情，而是在乎那些真正提升自身、积累经验的小细节。这些小乐趣，如读书或旅行，都在悄悄改变着我们，让我们日后在面对重要关系时，更加沉稳而成熟。因此，把握当下，从每一次尝试中收获真实，就是最好的前行之道了。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 5,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在传承美食文化方面，可以尝试结合一些合理的新思路。例如，在制作大葱炒蛋时，可以考虑使用少许低脂奶油，这样不仅丰富了口感，也更符合现代人的饮食健康要求。同时，我们依旧需要保持那份独特的人际连接，是亲友相聚时分享回忆、享受温暖的一部分。因此，有意识地将新元素和老做法融合，从而让我们的餐桌更加多元，但仍然不失那份熟悉的宁静与暖意，这才是最好的平衡点。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 创新料理时，不如把制作过程变成一次家庭活动，让大家共同参与。在热闹中分享的不仅是美食，还有故事与温暖。这种互动能进一步拉近彼此距离，让旧日滋味焕发新生。",
+            []
+        ],
+        [
+            ": 很认同你提到的小吃背后的情感。我曾经为了找到小时候那道味道，经常尝试模仿奶奶做饭的方法，但总觉得缺少一种暖意。这让我意识到了现代生活中，我们是否太忙于追求便捷，而忽略了料理背后的温度？那份记忆其实不是仅仅靠重现口味就能找回来的，更重要的是人与人之间经过时间沉淀下来的关系。如果有机会，下班后准备点“童年”的菜式，与好友共享，那才是真正值得期待的一场盛宴！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 主动寻找志同道合者不仅在生活中有帮助，在职场里也非常关键。例如，我常常通过行业聚会结识形形色色的人，他们丰富了我的专业视野，让我意识到跨领域合作的可能性。在这样的过程中，人脉和思维都得到扩展，所以出发点虽好，自身能否掌握机会更为重要。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 人生如果只盯着外部条件，那么就容易忽略内心真实渴望。确实，小城市或许提供不了多么丰富的平台，但正因为如此，我们才更应该主动去拓宽视野。从自主学习、新技能提升，到积极参与各种社群，每一步都是发现自身潜力的重要途径。坚持探索，就算起点小，也可以借助互联网等现代工具，将自己打造成意想不到的人才。而这份韧劲，本质上也是个体适应力的重要展现！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

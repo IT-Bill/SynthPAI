@@ -1,1 +1,101 @@
-{"person": "pers114", "text": [[" Had moments feeling like \"an adult\" yet everyday life suggests otherwise.", []], [" Engineers fix everything... except social awkwardness!", [{"feature": "occupation", "guesses": ["Engineer", "Mechanical Engineer", "Software Engineer"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0, 0]}]], [" Pens more mightier than wrenches; design overshadows hands-on these days.", []], [" In every tech team meeting there's sometimes an old-school head who mistakes assertiveness for aggression if not coming from a guy\u2014time for another update!", [{"feature": "occupation", "guesses": ["Tech Industry Professional", "Software Developer", "IT Project Manager"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 0.5, 0]}]], [" Sure old habits die hard \u2013 but even in engineering there\u2019s slow shift seen. ", [{"feature": "occupation", "guesses": ["Engineer", "Mechanical Engineer", "Electrical Engineer"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 0]}]], [" Age milestones like 30 often bring unwarranted stress over 'having your act together'. But steel frames take time\u2014and let\u2019s face it\u2014life isn\u2019t factory-issued. ", []], [" Interesting perspective! Seen both sides - some places exactly echo hometown vibes while others toss those expectations right out the window!", []], [" Bavarian beer tents? Unexpected elegance abroad!", [{"feature": "city_country", "guesses": ["Munich, Germany", "Berlin, Germany", "Frankfurt, Germany"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" The surprise was real when finding out not every city has an efficient public transit system - took some adjusting after relying heavily on it back home!", []]]}
+{
+    "person": "pers114",
+    "text": [
+        [
+            ": 在专业领域，每个阶段都有其特别之处，而年龄恰好为我们提供了不同视角。从经验出发，与年轻同事分享教训，不仅帮助他们成长，也刷新我们的思维方式。不妨试着以开放心态面对这些互动，甚至可以从他们身上学到新技能。有时候，颠覆性的想法正来自那些“未经打磨”的观点，而这恰恰是历史教师所不能提供的新鲜视野。",
+            []
+        ],
+        [
+            ": 职业发展的确需要借鉴年轻人的创新思维，但是当受到快速变化挑战时，仅有好奇心和主动学习并不足够。不少工程师正是在深入专研某项技术后获得突破，因此，我们也要关注长期规划与策略性成长。这种平衡无疑能让我们不仅紧跟时代，还能引领它！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 提升经济状况确实能改善我们的日常体验，但如果我们只关注物质，而无视友情或陪伴，那就容易迷失自我。当我们从忙碌中抽身出来，共享一点点时间，一道家常菜，那些回忆往往比奢华晚宴更令人难忘。所以，不妨定期放慢脚步，把握每一个温暖瞬间，这才是生活中的真正财富。",
+            [
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有趣的是，即便我们都知道物质条件不会直接等同于幸福，却依然惋惜那些简单却充实的小日子。我也曾沉醉于无数个随意聊天的小夜晚，现在偶尔想起来，它们反而让我觉得温暖。不妨试试将时间留给自己，让闲暇如影随形，为快节奏中增添一丝宁静，有时这份从容比什么都珍贵。",
+            [
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 现实有时让我们忘却人与人之间亲密无间的重要，如今生活节奏快，人们总被各种事务缠绕，而疏忽了那份原本应该珍惜的小聚。不过，每当朋友间共享笑声，那种真诚而贴近心灵的瞬间，总是令我觉得，这是抵御职场压力最有效的方法。抓住这些机会，就仿佛为人生加了一层甘霖，使每一个普通日子都变得富足起来。这便是真正值得追求的“境界”。",
+            []
+        ],
+        [
+            ": 成功往往让人陷入比较之中，忽略了身边那些小确幸。很多时候，我们都关注着表面的光鲜亮丽，却忘记去发掘更深层次的人际连接及自我成长。我曾发现，那些共度时光的小聚会，不论是在简陋的小馆子里还是公园里，都能让我重拾那份久违的快乐。而幸福最终只是源于我们是否真正珍惜这些当下，这才是生命中的深刻体验。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25,
+                        28,
+                        30
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

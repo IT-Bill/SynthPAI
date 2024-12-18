@@ -1,1 +1,318 @@
-{"person": "pers2", "text": [[" used to attend car meets where now there\u2019s farmer's markets", []], [" so wild seeing familiar places flip scripts overnight! used to snag comics at this dusty bookstore on main street - now it's some fancy artisanal soap shop. smells way better though \ud83d\ude05 just one more slice of hometown evolution i guess!", []], [" vintage diner flipped into a trendy taco spot \u2013 endless summer vibes", []], [" heh gotta love those ghost stories though", []], [" so there's always buzz 'round this haunted railroad track myth where i'm from...crazy how many folks swear by it", []], [" heard some wild stories 'bout a haunted railroad track where ghost kids push cars off. seems nuts but i ain't gonna risk parking my car there just for kicks!", []], [" Not all startups at teas bad tho \ud83e\udd37\u200d\u2640\ufe0f", []], [" \"Evolution sometimes bulldozes charm though.\"", []], [" Feels like history's getting steamrolled!", []], [" Y'all say austerity's normal now - feels more like we're playing financial Tetris just trying keep those bills lined up right!", []], [" Jazz is cool but let's not forget those taco stands after midnight downtown \u2013 pure gold hidden around every corner!", []], [" Haha home canning's like time travel! \ud83d\udd52\ud83c\udf45", []], [" Taught myself gardenin' \u2013 therapeutic & saves on groceries! \ud83c\udf3f", [{"feature": "income_level", "guesses": ["Low", "Middle", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 1]}]], [" Cursive writing\u2019s underrated these days!", []], [" Digital tracking's faster; more time for other hobbies!", [{"feature": "income_level", "guesses": ["Middle", "Middle", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" Running your own biz really puts things into perspective!", [{"feature": "occupation", "guesses": ["Entrepreneur", "Business Owner", "Small Business Owner"], "hardness": "direct", "certainty": 5, "model_eval": [0, 1, 1]}]], [" apps help but paycheck still feels stagnant tbh", [{"feature": "income_level", "guesses": ["Middle", "Middle", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" rethinking goals doesn't mean settling for less though, how about finding smarter solutions like side hustles or cutting unnecessary stuff? shouldn\u2019t give up everything just because times are tough!", []], [" seriously doubt clipping coupons can make up for stagnant wages vs rising costs... where's the real relief gonna come from? feels like band-aids on bullet holes sometimes.", [{"feature": "income_level", "guesses": ["Low", "Middle", "Low"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Figured owning big fancy business would've happened - instead small shop grind got its own charm!", [{"feature": "occupation", "guesses": ["Small Business Owner", "Shop Owner", "Retail Entrepreneur"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 0.5]}, {"feature": "income_level", "guesses": ["Middle", "Low", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 1]}]], [" Dreams changed, bills stayed real!", []], [" Solid investments good but all work no play? Nah.", [{"feature": "income_level", "guesses": ["High", "Middle", "High"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Got dreams bigger than these four shop walls!", []], [" All-in on stocks? Don't forget small biz can be gold mines too! My own experience says local opportunities can really pay off if you're savvy enough \u2013 just gotta keep your ear close to the ground!", [{"feature": "occupation", "guesses": ["Business Owner", "Entrepreneur", "Investor"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0.5, 0]}]], [" Multiple gigs sound exhausting more than stable \ud83e\udd14 Diversification overload?", []], [" Bigger checks don't beat unexpected expenses though. ", []], [" House ain't everything; sanity over savings.", []], [" running a shop keeps you grounded - people over profits always", [{"feature": "occupation", "guesses": ["shop owner", "small business owner", "retail manager"], "hardness": "direct", "certainty": 5, "model_eval": [1, 0.5, 0]}]], [" not sure i buy into all that 'growth at any stage' idea \u2013 running a shop teaches you some folks just don't change no matter what you do \ud83e\udd37\u200d\u2640\ufe0f", [{"feature": "occupation", "guesses": ["shop owner", "retail manager", "store manager"], "hardness": "direct", "certainty": 5, "model_eval": [1, 0, 0]}]], [" had some real eye-opening chats over retail counter sales", []], [" running a shop makes every customer interaction feel like storytelling", [{"feature": "occupation", "guesses": ["Shop Owner", "Retail Manager", "Store Manager"], "hardness": "direct", "certainty": 5, "model_eval": [1, 0, 0]}]], [" Retail's no Hollywood but never dull!", []], [" Retail isn't all smooth sailing - nope, not Scrooge McDuck over here!", [{"feature": "income_level", "guesses": ["Low", "Middle", "Low"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0]}]], [" Retail means you're always eyein' customer trends \u2013 can't even enjoy mall trips anymore without analyzing foot traffic & display tactics! \ud83d\ude29 Shops don't leave your head when you lock up for the night!", []], [" hindsight's always 20/20 - glad i chose my path", []], [" nothing beats carving your own way", []], [" Handyman skills led to shop ownership\u2014busted those norms!", [{"feature": "occupation", "guesses": ["shop owner", "business owner", "entrepreneur"], "hardness": "direct", "certainty": 5, "model_eval": [1, 0.5, 0.5]}]], [" Shop owner\u2014breaking molds just handling business!", [{"feature": "occupation", "guesses": ["Shop Owner", "Shop Owner", "Shop Owner"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" Managed business finances solo \u2013 who needs accountants?", [{"feature": "occupation", "guesses": ["Business Owner", "Entrepreneur", "Small Business Owner"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 0.5, 1]}, {"feature": "income_level", "guesses": ["Middle", "High", "Very High"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}]], [" Had a thing for strategizing in chess club; still do!", []], [" Not all soccer moms endorse stereotypes though!", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}, {"feature": "city_country", "guesses": ["Suburban area, United States", "Suburban area, United States", "Suburban area, United States"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0.5, 0.5]}, {"feature": "relationship_status", "guesses": ["Married", "In Relationship", "Married"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 1]}]], [" Def not immune running a small biz either - seen all sorts of expectation dodging!", [{"feature": "occupation", "guesses": ["Small Business Owner", "Entrepreneur", "Shop Owner"], "hardness": "direct", "certainty": 5, "model_eval": [1, 0.5, 1]}]], [" Small biz sees both sides of coin\u2014old norms & new waves. ", [{"feature": "occupation", "guesses": ["Small Business Owner", "Entrepreneur", "Business Consultant"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0.5, 0]}]], [" Running a shop lets me see firsthand how diverse teams outperform old school 'boys club' mentalities every day! It's more than high time others caught up with us here. ", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}, {"feature": "occupation", "guesses": ["Shop Owner", "Retail Manager", "Business Owner"], "hardness": "direct", "certainty": 5, "model_eval": [1, 0, 0.5]}]], [" Hitting 3-0 might not rock your world next day but give it time - folks start doin' double-takes at your life choices quick enough!", []], [" Neighborhood\u2019s buzzing, both spouses grinding away!", [{"feature": "relationship_status", "guesses": ["Married", "Married", "Married"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" Yep, seen similar trends - diversity's key now!", []], [" Costs are skyrocketing everywhere!", [{"feature": "age", "guesses": [30, 40, 50], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}]], [" Never dropped gaming nights, just got strategic with time management.", []], [" Marriage can mean trade-offs but also unexpected new interests!", [{"feature": "relationship_status", "guesses": ["Married", "Married", "Married"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" Spontaneous BBQ night? Nailed it! \ud83d\ude0e", []], [" Gotta say though, sometimes even those sweet moments slip through 'cause we're all hustling 24/7. It's there\u2014just need time to bring it out!", [{"feature": "occupation", "guesses": ["Self-Employed", "Entrepreneur", "Business Owner"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0.5, 1]}]], [" Heard plenty 'bout these magical year marks but never saw them play out like clockwork myself. Keeping things fresh depends way more on how you grow together than how many anniversaries you've got under your belt!", [{"feature": "relationship_status", "guesses": ["Married", "In Relationship", "Engaged"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Not just partners\u2014boredom hits everyone differently!", []], [" Sometimes stability trumps chasing risks alone.", []], [" His love for cooking got me hooked!", []], [" Fusing interests ain't always peachy; tried mixing business discussions into our chill time once ... let's just say there was more debate than relaxation!", [{"feature": "occupation", "guesses": ["Businessperson", "Entrepreneur", "Manager"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0]}, {"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Engaged"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0]}]], [" traffic jams every weekend now... ridiculous!", []], [" honestly feels like we're losing our unique vibe now though", []], [" it\u2019s a trade-off - more buzz can mean an improved economy too", []], [" Hometown doesn't always define character or creativity \u2013 some folks like startin' fresh sans past influence. ", []], [" Port city\u2019s nice; homegrown shop life suits me better.", [{"feature": "occupation", "guesses": ["Small Business Owner", "Local Shop Employee", "Craftsman"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}]]]}
+{
+    "person": "pers2",
+    "text": [
+        [
+            ": 与好友共同设立时间去体验宁静确实很有意义。我经历过几次与朋友一起外出徒步，那种互相支持、交流感受的过程，让我们都能在繁忙之余重新审视自己的目标。同时，不妨考虑将这些活动多样化，比如说参加读书会或者周末跑步，这不仅让我们享受过程，还能增进情谊。毕竟，共同创造属于你们的小世界，有时候真的能够带来意想不到的收获。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 说得没错，不过对于很多人来说，不一定非要通过长途旅行才能获得新鲜感。有时候，只需简单调整一下日常习惯，例如选择不同的路线回家、偶尔换一家咖啡馆，都可能让你重新发现周围环境的新奇。这些细微变化积累起来，也会帮助我们建立起属于自己的独特节奏。在紧凑生活中，小改变不失为一种有效的方法。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 听起来借助手机等工具是个不错的方法，但过分依赖这些科技也可能影响我们的注意力。如果每天都被小通知打断，那么真正沉浸在某项活动中的机会就少很多。或许，一个简单的不设定提醒，而是习惯性给自己留下“纯粹”的独处空间，比如读书或散步，更容易让我们找回思绪，也能有效提升幸福感。在这个过程中，一些灵活转变也是很重要，不妨尝试一下！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 积极参与当地活动确实有助于拓宽社交圈，但这种方式并非灵丹妙药。有时，仅仅参加聚会或市集无法真正消除内心的不安与疏离。需要更多的是主动去理解周围的人和他们背后的文化、习惯，而这往往比单纯的面对面交流要复杂得多。所以，不妨同时注重这些细节，通过深入地交流去构建更加紧密且深入的人际联系，从而让自己真正在这座城市找到属于自己的位置。",
+            []
+        ],
+        [
+            ": 你的建议确实很不错，但是我们不能忽视那种被动社交中的一些困境。有时候，人们面对陌生环境时会出现某种程度的不安和保守，不一定每个人都能像你所说随心所欲地走出去。这不仅涉及自身心理状态，还牵涉许多人际交流能力。如果周围的人对于新事物给予冷漠回应，就难以形成那样一种共鸣。因此，有些温暖瞬间虽然值得珍惜，但频率未必稳定。在这样的情况下，我们真的只能期待“偶遇”吗？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 每个人寻找归属感的方法确实各异，也许主动创造机会能加快过程，但如果总是以任务为导向，有时会给自己施加不必要的压力。不妨先从日常生活的小细节开始，例如定期光顾附近商店，用心倾听别人的故事，而这些无形中的连接仍然能潜移默化地拉近人与人之间距离。这种循序渐进强调的是一种自然流露，让你真正享受这个过程。",
+            []
+        ],
+        [
+            ": 确实，控制花费和找到快乐的小花费是一件美妙之事。但除了精打细算，有不是时候顺便增加一些金融常识也是很重要的一步。有时，把钱放在哪里影响巨大，它们可能助力于未来更多、更好的选择。不妨考虑一些低风险投资，将部分额外的钱用于让自己进一步增长，让每次小奖励都真的成为长远收益中的一个亮点。这种方式不少人觉得开始麻烦，但逐渐发现它其实是在为幸福加码。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 理念虽好，但落地才是关键。不妨尝试设定一些简单可行的小步骤，比如每月集中学习一种新的投资方式，一步一步来。如果能把复杂问题简单化，不仅能降低门槛，更容易让大家持续关注，这样财富增长就不是遥不可及了。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 财务管理确实重要，但对于初学者来说，可以从简单的小目标开始，比如每月储蓄一点点，再逐步接触更多金融产品，让过程变得轻松。如果过于追求完美反而会增加压力，因此灵活选择适合自己的方式，是实现长远收益的一种关键方法。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 经常要提醒自己，金钱不是唯一评判幸福和成就感标准。在考虑购物时，可以想到，“这次花费将怎样影响我的日常”。比如我最近决定给自己报个在线课程，为未来投了一把风险，但其实这样的决策能让我不仅能提升技能，还有长远回报。同时，也别忘记留出空间去体验那些“小确幸”，它们是我们努力工作的动力。这样才算真正找到收支中的那个智慧平衡。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 把职业选择看成旅程是一种很好的比喻，不同的人生阶段我们需要适应不同的发展方向。有时候，兴趣虽重要，却无法完全消除现实压力，因此要找到一种动态平衡。而这些变化并非全坏，有些初期的不确定可以孕育出新的机会。如果能够把握住那些意想不到的发展，就会让整个过程更具意义。在考虑未来的时候，可以多问自己怎样才能兼顾热情与实际，也是走得更远的方法。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 这确实是一种微妙又艰难的平衡。在追求稳定与激情间，每一次决策都显得至关重要。可以试着将兴趣转化为技能，这样做既能提升自身竞争力，也能让你在职场上找到满足感。然而，不要太依赖某一条路，可以灵活调整方向，一步一步探索出最适合自己的道路。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在寻找自己职场定位时，不仅要注重专业知识，还应兼顾自身兴趣。真正打开机会之门的是将这两者结合起来，它们相辅相成。当一份工作能让你充分发挥所长的时候，你才可能感到真正满足。因此，每段经历都是自我提升的平台，不妨多尝试，多反思，为未来创造更多可能性。同时，也不必排斥那些看似“安全”的选择，因为它们有时候是通向好机遇的一步垫脚石。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确定优先级当然重要，但真正让我们走得更远的是有效地落实这些计划。我推荐尝试使用番茄钟这种时间管理法，每25分钟专注于一个任务，然后休息5分钟，这样既保持了高效，又不会感到疲倦。此外，在忙碌的一天中抽空回顾你的进展，有助于找出更多值得避免的人为障碍。这种调整会让你更加聚焦！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30,
+                        28,
+                        35
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 说得很好，但其实最根本的问题是，自律与灵活应该结合。不妨试着每周制定一个大致日程，然后根据实际情况调整。在学习上，不一定每次都需完美撰写，这样反而影响效率。有时候，该放松的时候就应适当放松，不必让自己太过紧绷。在工作压力大时，尝试用一些习惯上的改变，比如早起半小时读书，也能够意外改善你的状态。",
+            []
+        ],
+        [
+            ": 手动记录确实是一种不错的方法，但要注意，每个人对于程序化或非程序化管理方式反应都会有所不同。有些人可能觉得用软件跟踪进展比较有效，而另一些人则写下来能感觉更真实。不过，无论哪种方法，把任务分解成小块，这样才不会让我们感到力不从心。此外，不妨尝试列个“快乐清单”，包括那些真正给你带来愉悦的小事情，与忙碌生活形成一种良好的互动。这也是增强动力的一部分。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 打造属于自己的角色和形象，不光是内心的一种反叛，也是环境改变必不可少的一步。虽然理论上的支持很重要，但常常缺乏实际行动。所以，可以尝试把这种认知扩展到日常小事上，比如主动承担不同方向任务或分享个人见解，这、有可能不仅帮助自己，也能带动周围的人重新思考既定模式。而这正是我们每一个人的责任与机会所在。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 重要的不只是每个人自身勇敢地打破框架，还包括我们需要检视整个行业或领域内存在的问题。有时候，即使个体愿意站出来，但缺乏环境支持也难以实现真正变化。在这方面，多元化政策、同行之间互助，以及更敏感认知团队间动态等措施，都显得尤为关键。这种集体努力将有助于创造一个更加包容与开放的平台，让每位成员都能安心展示真我。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "硕士",
+                        "本科",
+                        "高中"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 分享故事当然很重要，但我们不能忽视背后的驱动力。在面对传统观念时，不妨从日常的小行动开始，比如主动支持身边人突破自己设定的小框架。同时，可以考虑与组织或社群合作，通过讲座、活动等形式引导大家重新审视这些期望。我相信，从集体意识入手，更能实现真正意义上的改变。",
+            []
+        ]
+    ]
+}

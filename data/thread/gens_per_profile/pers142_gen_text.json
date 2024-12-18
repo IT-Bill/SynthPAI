@@ -1,1 +1,53 @@
-{"person": "pers142", "text": [[" Mortgage papers signed - no turning back!", [{"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Single"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Adaptability key - regular heart-to-hearts help too. ", []], ["  Spot-on regarding communication at home - keeps everyone in sync! Sometimes schedules clash but staying transparent about priorities helps soften those rough edges around our busy seasons. ", [{"feature": "relationship_status", "guesses": ["Married", "In Relationship", "Married"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 1]}]], [" Even off duty, can't escape proofreading menus!", []], [" Certainly feels like love matures alongside us\u2014it gets deeper. ", [{"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Divorced"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" A fine wine analogy; ages well, satisfies deeply. ", []]]}
+{
+    "person": "pers142",
+    "text": [
+        [
+            ": 在快速变化中，我们确实需要时刻保持警觉，但这并不意味着仅依赖已有的小窍门。我认为，要敢于迈出第一步去尝试新的方法，因为真正创造差异往往源于打破常规。在工作中，我常发现一些看似微不足道的小创新反而成了打破僵局的重要因素。所以，不妨多走出去、问问题，通过实际操作让自己变得更加敏锐和高效，你们觉得呢？",
+            []
+        ],
+        [
+            ": 小资源有时真的会成为你意想不到的发展助力。我曾经参加一个不太热门的小组项目，本以为只是走个形式，却没想到最后获得了一位公司的高管作为导师，这段经历至今影响着我的职业规划。所以，无论多么不起眼，把握每个机会，将它们化作可贵财富，是非常重要的一步！大家一起来挖掘吧！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 关于那些“小”收获，其实有时候它们才是我们职业生涯中的秘密武器！有没有想过，你平常疏于练习的一项技能，会不会恰巧成就你未来项目里的绝佳创意？工作的关键往往就在于理解不同背景所带来的多元视角，所以反而应该花时间去回顾那些不起眼却基础扎实的经验。大家觉得有什么小技巧值得继续挖掘的吗？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 的确，现在产业间融合越来越紧密，我们不仅要坚定地走好自己的路，还得时刻观察周围的新变化。有些小众领域恰恰能给我们提供意想不到的新视角！所以，在职业发展中，多尝试一些“边缘”方向没准会有惊喜呢！你觉得怎样才能找到这些潜力点，以便抓住未来的发展机会？",
+            []
+        ]
+    ]
+}

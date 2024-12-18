@@ -1,1 +1,172 @@
-{"person": "pers84", "text": [[" had a neighbour who'd serenade his plants... at 6am \ud83e\udd26\u200d\u2640\ufe0f legit opera outside my window every morning lol", []], [" dudes make plans n' life laughs... just gotta roll with it", []], [" planning's overrated anyways lol", []], [" can relate! saw some wild spending turned trendsetting moves even here lol", []], [" fashion scenes got its own boys club too - exhausting tbh", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}, {"feature": "occupation", "guesses": ["Fashion Designer", "Fashion Industry Professional", "Stylist"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0.5, 0]}]], [" fashion sector\u2019s no picnic either - way too often seen but not heard unless i echo men\u2019s ideas louder... talk about tiring \ud83d\ude11 defs need some fresh tactics cuz old norms ain\u2019t cutting it anymore", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}, {"feature": "occupation", "guesses": ["Fashion Designer", "Fashion Industry Professional", "Fashion Marketer"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0.5, 0]}]]]}
+{
+    "person": "pers84",
+    "text": [
+        [
+            ": 深耕当然很棒，但是人生就像一本书，总得换换章节嘛！我最近也在思考，是坚守当前位置还是寻找转机，其实关键是在于我们真正想要什么……希望每个“重审”都能带来意想不到的新视角，让我们发现更多可能性！",
+            []
+        ],
+        [
+            ": 每一次重审都像是在为自己的人生加上新的注脚！除了跟随潮流，我们更需要认真倾听自己的内心声，每个人都有独特的故事与节奏，不必总是以他人为标杆……这种回归自我是非常重要的一环哦！希望大家都能找到那些让自己觉得最充实的位置，无论是在当前岗位还是未来的新路径上！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有时候，我们太容易陷入与他人比较的大潮中了……其实成长是一条各自独特的小路！回想起那些小进步，无论一次新技能学习还是面对挑战，都让我感受到努力后的满足。我觉得，每一个阶段都值得庆祝，只要记住，你正走在属于你的旅程上！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 每一步小小的发展都是一种积累……就像你说得那样，不同的人生轨迹各自独特，各有所长！平稳地前行，同时关注那些不起眼却重要的小收获，这才是真正的人生智慧呀！或许最终，我们都会发现在这些细水流深中，其实蕴藏着无限可能嘛……",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 一直以来感觉，无论是走热门还是冷门领域，更关键的是要有清晰自我的认识。我身边的人也如此，他们坚定地追逐着自己的梦想，不担心外界标准！这种勇气让我想起毕业后寻找工作的日子，那时拼搏不易，但我始终坚信能力和热情将为未来带来无限可能。所以，无论大家选择哪条道路，都别忘记倾听内心，而不是单靠市场声音……",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确实，在追逐梦想的时候，也不要忘记观察外部环境！我曾经尝试过某个自认为超酷但当时相对冷门的项目，一开始觉得没太多人关注。但后来发现，当我们适应了行业需求，并巧妙地应用了我们的小知识，那份沉默中的坚持竟然迎来了意想不到的发展……所以，总有办法让我们的兴趣与实际相叠加！希望大家都能在探索中找到那个闪光点……",
+            []
+        ],
+        [
+            ": 真的很认同“不起眼的小资源”这个观点！其实很多时候，我们太关注热门和显赫，却把那些微小但珍贵的经验放在一旁。例如，在大学里参与一些边缘话题研究，不一定被广泛认可，但可能正好培养出了分析问题的新视角……所以要勇于尝试，把握每一次看似普通但实则独特的发展机会，它们往往会给我们打开通向不同领域的大门！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        22,
+                        25,
+                        28
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "学生",
+                        "研究员",
+                        "分析师"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在大学时代，我修了一些相对冷门但充满挑战性的选修课，那时候多少会怀疑这样的决定是否正确。但工作后，这些知识让我更灵活处理问题……记得有一次，我们团队面临重大决策，一个来自不同背景的 친구 提出的思路令我们耳目一新！或许，那些不是“热门”的道路，也能开启通往未知的大门！所以，无论你的抉择是什么，都值得去勇敢尝试，因为每一步都可能成为你人生中的宝贵财富。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 每一次职业道路上的选择都能丰厚我们的经验！不过，有时我们也要灵活应变，在创新与市场需求间找到平衡……记得小时候听说过一句话：“机遇总是偏爱那些有所准备的人。”所以，我们不仅要珍惜独特背景带来的思路，也不能忽视行业趋势，让我们的创造力真正开花结果！探索固然重要，但方向感也是关键，这样才能让每一步走得更加稳健！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

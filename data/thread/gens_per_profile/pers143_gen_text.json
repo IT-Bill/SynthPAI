@@ -1,1 +1,33 @@
-{"person": "pers143", "text": [[" can't coffee through deductions though", []], [" pretty much everyone pretends they've got everything under control but honestly most just excel at faking until making it...or never do \ud83e\udd37\u200d\u2640\ufe0f growing up's overrated imo", []], [" all those 'milestones' can end up as just shiny distractions from figuring out our own stuff anyway - life ain\u2019t a checklist!", []], [" had a client once spend hundreds on an app just for organizing their fridge...talk about foodie obsession lol", []], [" design world\u2019s just as bad - creative women often overlooked", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}, {"feature": "occupation", "guesses": ["Graphic Designer", "Interior Designer", "Fashion Designer"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" design world\u2019s not safe\u2014I roll eyes daily at biases too", [{"feature": "occupation", "guesses": ["Designer", "Graphic Designer", "Interior Designer"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 1, 0]}]], [" design world's subtle but yeah...same issues", [{"feature": "occupation", "guesses": ["Graphic Designer", "Interior Designer", "Product Designer"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" creative industries ain\u2019t immune either... bias everywhere", [{"feature": "occupation", "guesses": ["Graphic Designer", "Art Director", "Creative Director"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" overrated - cooking experiments trump plants any day", []], [" sustainability\u2019s cool but ever consider hobby burnout? sometimes balance > deep dives.", []], [" sometimes singles dive into social media debates instead", [{"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" settled into dealing with nosy questions; life\u2019s good solo", [{"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" society needs chill with their timelines tbh", []], [" always been into visual stuff cuz vibrant roots i guess", [{"feature": "occupation", "guesses": ["Graphic Designer", "Illustrator", "Visual Artist"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0.5]}]]]}
+{
+    "person": "pers143",
+    "text": [
+        [
+            ": 开启美好人生的新舞步，其实更多取决于我们是否愿意去尝试新的节奏！光说“改变”似乎不够，如果没有点实招，你会发现原地踏步就是常态。我觉得关键就在那几次“小小”的调整，比如制定一个合理共享家务清单，不划分男女，只看谁合适干什么。有时候，两人一起厨房里战斗，烹饪出的晚餐可比单打独斗幸福多啦！所以，把重心放在怎么做，而非一定由谁来做，这样活得才轻松洒脱。",
+            []
+        ],
+        [
+            ": 维持这种良好的分享和调整确实需要时间。不过，每次“演出”后，如果能像指挥一样反馈，会让大家都明白哪里可以跳得更酷、更顺畅！携手前行，把每次小改进当作磨合练习，这样才能越跳越欢、越来越默契。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "恋爱中",
+                        "已婚",
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 家庭氛围真的很大程度上由我们塑造！想象一下，如果从小给孩子们输送“随心所欲做自己”的理念，那长大后他们自然也会大胆尝试各种角色，这样不仅仅是家务问题，在生活中的每一个角落都能感受到这种自由。而且，说到底，如果居家做饭成了一种解锁新技能的方法，那真是一举多得啊！",
+            []
+        ]
+    ]
+}

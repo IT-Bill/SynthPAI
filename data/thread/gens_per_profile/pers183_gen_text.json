@@ -1,1 +1,124 @@
-{"person": "pers183", "text": [[" every time i walk past our local khachapuri stand i think bout all the convos overheard there - best unexpected people-watching spot \ud83d\ude0c\ud83e\udd56\ud83d\udcac", [{"feature": "city_country", "guesses": ["Tbilisi, Georgia", "Moscow, Russia", "New York, USA"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" funky street art always brightens up alleyways here!", []], [" pretty wild how study spaces become like a second living room when working towards that degree... makes those community vibes super important when you're stretching every pennyric at home \ud83c\udf06\ud83d\udcda", [{"feature": "income_level", "guesses": ["Low", "Low", "Low"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}]], [" Call me old-fashioned but nothing beats landmarks filled with childhood memories as true \"home\", even after moving out\u2014smells from local bakeries beat hip coffee shops any day for me!", []], [" planning out life especially those $$$ details? blurrier than overplayed music video on mtv back when they did cool things & not just reality shows \ud83d\udc40", []], [" setting goals sounds neat until bills hit like ninja stars - plans need backup plans!", []], [" lol guess we're all just faking till we making", []], [" not everyone wants that predictable roadmap anyway - life's got more flavors than just vanilla!", []], [" admin jobs here totally get that too - respect seems optional...", [{"feature": "occupation", "guesses": ["Administrative Assistant", "Office Manager", "Receptionist"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 0]}]], [" super relatable! even doing clerical duties part-time while studying for urban planning\u2014ideas fall flat till a guy steps up...it's more than annoying \ud83d\ude44 strategizing every day here!", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}, {"feature": "education", "guesses": ["In College", "Bachelor's degree in urban planning", "Master's Degree in urban planning"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 0, 1]}, {"feature": "occupation", "guesses": ["Clerical Worker", "Administrative Assistant", "Office Assistant"], "hardness": "direct", "certainty": 4, "model_eval": [0, 0.5, 0.5]}]]]}
+{
+    "person": "pers183",
+    "text": [
+        [
+            ": 职场就是一场不断变革的大浪潮，高学历固然能够为我们提供一些基础，但真正引领成就的是每次挑战中的成长。当我们面对复杂的问题时，那些通过实践获得技能的人通常会走得更远。我相信，无论哪个领域，与其一直盯着那张文凭，不如将目光投向如何把所学转化为实用技能，从而在工作中灵活应对各种需求。这才是职场竞争力真正来源！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "硕士",
+                        "本科",
+                        "硕士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "职场人士",
+                        "职业经理",
+                        "专业人士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        0,
+                        0.5
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 不可否认，高学历确实能给我们带来起步优势，但总让人感受到一种“必须证明自己”的压力。这真的很容易导致焦虑，使得我们忽略了真正的发展出路：多尝试、多犯错。在护理领域工作多年后，更相信每次误诊或处理不当都是宝贵的一课，让你磨炼出快速应变和深度思考的问题解决能力。因此，要敢于面对挑战，将焦点放在积累经验、不断修正自我之上，这样才能真正在复杂环境中找到属于自己的位置！",
+            []
+        ],
+        [
+            ": 虽然基于学位获得基础知识确实不可低估，但光靠理论可无法撑起一片天。在医疗行业里，很多人都是从临床实践一步步成长起来，所以光环背后，我们还得清楚地认识到“纸上得来终觉浅”的道理。特别是在快速变化的环境中，那些体认过真实挑战的人，将更加游刃有余！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "医生",
+                        "护士",
+                        "医疗从业者"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        0,
+                        0,
+                        0.5
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 理论确实像地图一样，但没有行动就没法找到路。想象一下，如果只看着图纸而不动脚步，那结果可能只是徒劳无功。有些技能只有亲身经历才能掌握，比如沟通或应变能力。所以在积累知识之外，多花时间去尝试和探索吧！这样你才有机会真正擅用这些“地图”，走出一条属于自己的道路。",
+            []
+        ],
+        [
+            ": 持续改进确实至关重要。有时候，我会通过参与行业相关的小组活动来获取最新的信息，还能借此机会建立人际网络，这种结合不仅让理论更扎实，也帮助自己找到解决问题的新思路。另外，多反思日常工作中的小情况，不知不觉间也能积累出闪光点。如果大家都有这样的经历，就一起交流一下吧！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30,
+                        35,
+                        32
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 出生地或许提供了一张“地图”，但谁说不能偏离主路线！就像初学游泳一样，一开始总想躲开那些波浪，到最后却会发现激流冲击下，同样也能锻炼出意想不到的能力。勇于跳出那股不适，让焦虑变成动力，是通往成熟的一部分。当你经历更多，就会意识到，无论来自哪个地方，我们真的都是自己命运中的舵手。",
+            []
+        ],
+        [
+            ": 自然是要勇敢走出舒适圈，每当遇见陌生人时，我都会提醒自己“每个反派都是主角舍不得抛弃自己的故事”。如果你能以开放心态去认识不同领域的小伙伴，不仅能收获新的观点，还可能滴水不漏地结识志同道合者。试着报名参加兴趣小组或者讲座，你会发现那些看似偶然的相遇，其实正好填补了你专业或生活上的空白。所以说，别再宅着啦，把脚步迈出去吧！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

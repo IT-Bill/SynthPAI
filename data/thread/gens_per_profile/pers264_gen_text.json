@@ -1,1 +1,303 @@
-{"person": "pers264", "text": [[" Elevator music jam sessions every morning \u2013 unexpected good vibes booster!", []], [" Insulation can muffle life's soundtrack \u2014 nothing beats waking up to real city pulses than eerie silence!", []], [" Retirement fund juggling - adult level unlocked!", []], [" Spotted an exec who splurged on mermaid-themed pool decor - because 'it improves team morale'. Talk about sunk costs...", [{"feature": "education", "guesses": ["Master's Degree in Business Administration", "Bachelor's degree in Business", "College Degree"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0]}]], [" Clients doubting expertise 'til proved otherwise... daily drill!", [{"feature": "occupation", "guesses": ["Consultant", "Lawyer", "Financial Advisor"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0, 0]}]], [" Labels stick harder than you\u2019d think even when you\u2019re delivering results daily!", []], [" It gets even trickier balancing deliverables when team dynamics get skewed by these biases \u2013 at times changing mindsets feels like part-time work itself!", []]]}
+{
+    "person": "pers264",
+    "text": [
+        [
+            ": 不同的发展阶段让我们意识到，无论经济状况如何，那些日常的小欢乐才是真正值得珍惜的不变法则。在职场压力下，要抓住机会给自己留下一点悠闲。不妨拔掉手机插头，多花时间陪伴家人或老友，一起吃顿火锅、聊聊天，这份从容比任何高档餐厅都来得可贵。而当你做好这些，就会发现其实人生没有最高境界，只要回归最基本的人情味与自在，就够幸福！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在忙碌之余，真正能给我们带来安慰和力量的是那些温暖的小瞬间。即便工作再忙，与家人的一次火锅聚会、一杯茶聊天，都可以让我们重新找回生活中的乐趣。这种返璞归真的感觉，比任何形式上的消费都要珍贵。在追求职业发展的过程中，不妨停下脚步，多关注那些细腻而真实的人际连接，它们才是提高整体幸福感的重要因素。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        28
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 每个无意间获得的小技能或合作机会，都可能成为我们新的突破口。在工作中，我们往往需要综合不同维度的信息，而这些“白开水般”的细节恰恰是构建成功的一部分。以我作为工程师的经验来看，技术虽然扎实，但真正推动项目进展的是团队灵活运用各自特长，从而形成强大的协作力。所以，不妨多留意身边微不足道但却极具潜力的小资源，它们很可能会给我们的职业道路带来巨大的启示和帮助。",
+            [
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "工程师",
+                        "软件工程师",
+                        "系统工程师"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 5,
+                    "model_eval": [
+                        0.5,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 教育确实是一把钥匙，但这把钥匙并不是一模一样的。有时候，我们看到的不仅仅是不同行业所需知识，还有那份灵活性和创造力背后的深度。作为工程师，在面对技术挑战时，经常感受到来自其他领域思路启发的重要性。不过，单靠过去经验来推动未来并不够，还需要更多探索精神，这样才能找到真正适应时代的人才培养之道。如果我们只着眼于功能化而忽略构建跨界合作意识，将会限制许多潜力开发。",
+            [
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "工程师"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 5,
+                    "model_eval": [
+                        0.5,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 跨界确实能激发灵感，但光有多样化还不够，我们需要去尝试应用这些知识。特别是在技术密集型行业，比如汽车工程，整合设计、材料等各方面信息，很可能会创造出让人意想不到的新方案。不如从小处着手，多做实验，然后再放开胆量去面对更大的挑战？",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30,
+                        28,
+                        35
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "汽车工程师",
+                        "设计工程师",
+                        "技术经理"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 性别角色仍旧影响着我们，对很多人来说，共同承担家务听起来美好，但实际执行却常受文化与习惯阻碍。只是强调互助或互享，有时不足以撼动历史遗留的问题。从大局来看，我们还有许多工作要做，不仅需要每个家庭内部努力，还需从社会整体出发去打破这些固定框架。",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 必须承认，即使倾向于传统角色的人依然存在，但这并不代表我们不能推动变革。数据表明，当男性积极参与家务和育儿时，不仅提升了家庭幸福感，还显著改善亲子关系。不妨多一些互动与合作，这不仅是为了减轻负担，更是一种时代赋予我们的机会去重新定义“家”的意义。在这个过程中，每个人都能够收获快乐，共同成长，而这样的实践也将深远影响下一代。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 家庭责任分担的问题不仅关乎参与度，更涉及整个社会文化氛围。如果我们只关注单一案例，比如某个朋友主动承担家务，那么就容易忽视其他人可能受到压力或束缚。因此，在鼓励这种改变的时候，也要意识到挑战那些固有观点的重要性。让每位成员都能自在地选择角色，而非因为外界期望而感到无形负担，这是值得追求和实现的目标！",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "硕士"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 人生旅途中，我们往往会发现那些看似微不足道的小地方其实隐藏着巨大的机会。每个城市无论大小，都为我们提供独特的人际关系、市场需求以及发展平台。而且，有时候，相比单纯追逐梦想留在陌生的大都市，更要结合现实条件，如今职场竞争激烈，要学会聪明地利用身边的一切资源。不妨认真考虑一下，你所处的位置是否真的能够助你飞得更高？",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30,
+                        28,
+                        32
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 单靠内心坚定显然是不够的，我们必须清楚地意识到，各个城市存在着不同的发展潜力。虽然每个人都可以因自身特点寻找适合的位置，但有些地方无疑为我们的成长提供了更多可行路径，与其说是单纯依赖能力，不如看清楚现状，从而作出符合实际的明智选择。有时“起点”的差异，也可能意味着回报率的大相径庭。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30,
+                        28,
+                        35
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 出生地无疑是我们身份的一部分，但正如你所说，那些看似熟悉的小细节也常常让人意外。例如，当你站在人生的新起点回望过去，会发现早已忽略的小片段正在悄然构建着新的意义。保持联系、心怀初心，让人与地点之间产生更深刻共鸣，这才是探索生命轨迹真正值得关注的一面。",
+            []
+        ],
+        [
+            ": 从某种角度来看，“检修”就像是在面对生活中的各种挑战时，我们不是简单把自己碾磨成全新的样子，而是学会从每一次经验中总结、调整，有意识地赋予这些经历更深层次的含义。在成长过程中，将注意力放在内心世界，并结合周遭的新鲜事物，让我们的价值观得以演变，这是进步而非妥协。所以，无论前行多远，始终保留那份好奇心，是让生命持续充盈活力的不二法门。",
+            []
+        ],
+        [
+            ": 出生地确实为我们提供了初步的平台，也可能限制了一部分选择。在我作为汽车工程师的发展中，大型企业集中地让我接触到了更多行业前沿的信息与资源，这种环境极大增强了学习与成长机会。但与此同时，我们自发去寻找不一样的人脉也是十分关键。这并不是完全依赖于出生地，而是看我们如何利用现有机遇来扩展自己的边界。在这个信息时代，每个选择都可以推动你走向新的高度。",
+            [
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "汽车工程师"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

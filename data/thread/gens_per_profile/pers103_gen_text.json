@@ -1,1 +1,67 @@
-{"person": "pers103", "text": [[" headphones can't fix lackluster motivation though", []], [" started feeling grown up handling project deadlines tbh", []], [" feeling like an impostor here too lol", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" think it's more than just an honest chat or chasing passion - sometimes we're stuck because jobs pay for those dreams outside office hours... pretty ironic eh?", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "In College"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0.5, 0]}, {"feature": "income_level", "guesses": ["Middle", "Middle", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" not all creatives wear berets", []], [" stereotypes stink no matter where", []]]}
+{
+    "person": "pers103",
+    "text": [
+        [
+            ": 有一句话说得好：“你得到的一切都可能是双刃剑。” 如果只是一味追求更高月薪，而忽视自身所需，那可真的是累了一场还没乐到头。倒不如试着重新审视一下个人优先级，看哪些是真正让你感到快乐的事情。有时候，把时间花在自己热爱的事物上，比单纯看重经济数字要重要很多！谁能想到，我们第一个需要学会管理的不只有钱，还有我们的生命呢？",
+            [
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产",
+                        "高级中产",
+                        "小康"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 想说的是，有时候我们只是一味追求物质上的提升，却忘记身边最重要的一切——人与人的关系。我仍然怀念与朋友在路边摊吃烤串、聊梦想的时候，那种轻松自在、没有负担的小瞬间，比起如今偶尔去高级酒楼逆向消费，要丰富得多。所以，不妨停下来，多花点时间和好友共享那些微不足道却又实实在在的小快乐，也许这样才是真正触碰幸福的方法！",
+            []
+        ],
+        [
+            ": 兴趣相投的人聚在一起，无论条件如何，总能创造出值得回忆的一刻。是呀，再好的空间也是摆设，如果缺少欢乐与共享。这让我想起，有时候，一顿普通饭菜里盛着的是友情，比任何大餐都来得重要。你们有没有觉得这种体验也能弥补一切？",
+            []
+        ],
+        [
+            ": 心灵上的距离和情感链接远比金钱重要。有时候，那份简单而真挚的人际关系反而让人觉得开心。如果能够再去一次年轻时常去的小摊，我想一定会捧着满满的快乐回忆，不是吗？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在享受自由的时候，不妨也留点空间给他人。有时候，多一点社交活动，不仅可以减轻孤独感，还有助于遇到志同道合的人。当然，自省的重要性也是不可忽视，只是希望大家不要忘记把目光投向外面的世界！",
+            []
+        ],
+        [
+            ": 与自己连结固然重要，但别忘了拓宽社交圈。有时候，那些意想不到的人际互动会让你意识到，你并不孤单。如果仅局限于内部世界，会不会有点错失周围美好的体验？",
+            []
+        ],
+        [
+            ": 自由虽好，但更重要的是找到内心真正想追求的东西。例如，我开始学吉他，把那些寂静时光变成练习时间。你觉得经常参与这样的活动能帮助我们走出阴霾吗？",
+            []
+        ],
+        [
+            ": 在探索自我的过程中，有时候正是那些本该面对却被我们忽视的问题，会最影响我们的方向。因此，不妨试着定期进行深度思考，而不是让忙碌遮蔽真实。这不仅能提升你的敏锐度，也可能指引出前行的新路径！",
+            []
+        ]
+    ]
+}

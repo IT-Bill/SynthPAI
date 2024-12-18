@@ -1,1 +1,117 @@
-{"person": "pers175", "text": [[" For me, it clicked when responsibility got real \u2013 had someone else leaning on me entirely at one point. That dependence? Definitely not kid's stuff anymore!", []], [" For me, it was when solitude became comfortable.", [{"feature": "age", "guesses": [45, 50, 55], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}]], [" Budget band-aids don't fix bullet holes. ", []], [" Though side gigs might help some folks float above water, don\u2019t underestimate local support networks \u2013 thrift shops, food banks - small acts go far when budgets tighten real hard!", []], [" Honestly think it's not just budgeting skills\u2014it\u2019s also wages not matching inflation rates! Even decent salaries get swallowed when everything from rent to bread goes through the roof... Time for real fixes rather than penny-pinching tips!", [{"feature": "income_level", "guesses": ["Middle", "Middle", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], ["  Earnings up - savings game should level up too!", [{"feature": "income_level", "guesses": ["Middle", "Middle", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], ["  Easier said than done - reality often clashes with intent. Good luck pinching pennies when life throws curveballs your way!", [{"feature": "income_level", "guesses": ["Low", "Middle", "Low"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" I've noticed folks often mistake more earnings for needlessly larger spending. Smart budgeting isn't only for low incomes \u2013 it\u2019s practical sense! Plenty splash out instead of saving or investing in community improvement - seems like priorities get skewed once wallets fatten up.", [{"feature": "income_level", "guesses": ["High", "Middle", "High"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" It's all about planning ahead!", []], [" Definitely noticing more balance lately; steps forward albeit small.", []], [" Noticed more women stepping into historically male-dominated roles myself; not sure we're smashing barriers yet though - feels like adding decoration to old structures sometimes. Institutions need deeper shifts than just headcounts changing.", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}]], [" Absolutely spot-on about solid foundations! Seen many cases where partners didn't really dig deep early on \u2013 it's all smooth sailing until a storm hits. It pays off big time when you both invest in building that understanding right away.", []], [" Absolutely! Resilience grows from rolling with those spontaneous moments together \u2013 it's like weaving your own unique tapestry over time. ", []], [" It's rare anything stays under wraps anymore. ", []], [" Places evolve; nostalgia doesn\u2019t preserve them. ", []], [" Even hidden spots can't dodge inevitable changes over years. ", []], [" Not true at all - people carry roots within!", []], [" Roots leave marks deeper than we think.", []], [" Cultural roots aren\u2019t always visible; subtly influencing more than we realize.", []], [" Kinda miss those homemade toy boot races!", []], [" Kite battles may seem old-school yet Martyr's day marches here still gather crowds!", []], [" Sure hits different than big public holidays here!", []]]}
+{
+    "person": "pers175",
+    "text": [
+        [
+            ": 尝试新路线确实是面对复杂生活的一种有趣解法。有时候，即使是在原有轨道上，我们也能找到突破口。记得曾经帮助一位朋友修订旅行计划，她把握住了一些全新的目的地，而这些恰好契合她未被挖掘出的兴趣点。其实，这正显示出我们可以用不同的方法重新定义现阶段——不仅从职业角度，还包括个人成长。不妨沉下心来，多聆听那些潜藏在内心深处的小声音，它们可能会指引你往未知但丰富的新方向进发。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25,
+                        30,
+                        35
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 走出舒适圈遇到的新鲜视角往往会让你惊喜不已。例如，在探索学习过程中，我们常常需要改变思维方式。当初我的一个小决策从旧方法转向更新颖的方法后，不仅提高了工作效率，也让我意外发现了更深层次的问题与解决方案。这一切都是勇敢尝试给我的馈赠。人生本就是不断调整航线，无论大小决定，都能指引我们去往新的彼岸。",
+            []
+        ],
+        [
+            ": 其实，“错”与“右”的界限本身就是模糊不清的，它们往往是一个人成长道路上不可或缺的一部分。尝试新事物时，不必过于害怕失败，这些经验都会成为我们未来决策中的宝贵财富。就像旅行一样，有时候迷路反而能让你发现一些隐藏不少美景。因此，我鼓励每个人都主动去寻找那些值得探索的新可能，把握当下，让生活焕发新的色彩！",
+            []
+        ],
+        [
+            ": 人生就像探险，有时我们无法预见前方有什么。不论是在职场还是个人生活中，我们都需要学会从不同经历中找出意义。当你面临法规时，不妨问自己：这次经历是否能帮助我更好地理解未来？选择道路上没有绝对安全与否的问题，而是能否提升自信、拓宽视野。关键是保持灵活思维，在挑战中找到方向。",
+            []
+        ],
+        [
+            ": 理解“慢就是快”确实很重要，就像一次长途旅行，那些缓步走过的小镇往往带给我们最深刻的人生体验。生活节奏快时，我们容易忽略周围细微之处，而当我们调低速度、一点一点积累经验时，对未来目标或许能形成更清晰、更务实的视野。因此，在你努力追梦的时候，也不要忘记去享受旅程本身，每一步都可以成为值得反思和庆祝的一部分。",
+            [
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 成长确实可以视为一种不断探索与回顾演变过程。在享受生命中的“慢游”之际，我们还应抱有勇气去尝试新事物、面对挑战。有时候，当我们跨出舒适区，就会发现新的可能性，成为一个更加成熟且全面发展的自己。因此既要懂得珍惜眼前，又需不断追求成长，这才是人生最妙味所在。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "硕士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有时候，我们确实需要记住，每一步都不是孤立存在，而是整个旅程的一部分。在坚守自身发展的同时，不妨多关注过程中的收获，比如失败带来的经验或偶然带来的人际连结。将这些小细节融入我们的专业追求中，让工作不仅仅成为生存之道，更是一种热爱的体现。因此，当你专注于自己的目标时，也许更能找到那些值得花费时间去培养的人生瞬间，从而让生活更加丰富多彩。",
+            []
+        ],
+        [
+            ": 成长确实是个体化而丰富多样的旅程，把握节奏、反思经验都非常重要。然而，如果我们只停留于“慢游”，可能会错失一些进步，比如设立清晰的目标，可以激励自己走出舒适区，把简单看似缓慢的发展转变为有方向、有滋味的人生。所以，一方面珍惜眼前，那些美好的宁静；另一方面，不妨偶尔给自己一些压力，迎接新的挑战，相信这能助你更全面地成就自我。",
+            []
+        ],
+        [
+            ": 将目光放回自身确实很重要。没错，每次参与活动或旅行都让我们认识更真实的自己，这种收获往往比短期关系来的深远。而且，那些不起眼的小乐趣，比如读一本值得分享的新书、学习一种新技能，无疑也是人生中的调味品。在这一过程中，你可能会发现，人生不止有恋爱，还有许多其他令人振奋和值得珍惜的人生经历。所以，不妨主动去尝试不同事物，把每一天活出精彩！",
+            []
+        ],
+        [
+            ": 小成就确实是一种独特的人生体验，它们不仅仅丰富了我们的日常，还帮助构建出更全面的自我。如果能够把这些琐碎记录下来，我们必然会惊讶于其中所蕴含的人生智慧。保持好奇心，无疑是前行路上最好的伴侣！",
+            []
+        ],
+        [
+            ": 在“旁观者”时期，我们不仅能看到别人的闪耀，还应关注自我的每一次进步。记录下这些微小成就，就像为人生描绘一幅精致画卷，让我们真正体会到内心的丰富与满盈。",
+            []
+        ],
+        [
+            ": 对于那个微妙而复杂的新关系问题，不妨思考一下，在追求创新的时候，我们是否会失去最初连结所带来的独特温暖。在这条探索之路上，不如选择一种方式，把我们内心深处对家的理解加以升华，而不是单纯依赖新的配方。从生活中的小细节出发，让“浓厚的人情冷暖”成为我们寻觅记忆的一部分，这样才不会让那些珍贵瞬间被时间冲淡。",
+            []
+        ],
+        [
+            ": 经典不仅仅体现在烹饪上，而是在家的氛围里。当尝试把老家的滋味进行现代表达时，我们常常忘了背后的故事。如果只是为了追求新鲜口味而抛弃原有热情，那么这道“改良”的菜可能就失去了灵魂。这让我想到，那些小摊、老店里走出来的不单是一道美食，更是一段段动人的往事。在享受每一次盛宴时，不妨多思考一下，这其中真正想要传递的信息是什么。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

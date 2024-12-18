@@ -1,1 +1,78 @@
-{"person": "pers238", "text": [[" Financial savvy isn't just age-locked wisdom - It evolves constantly.", []], [" Life scripts? More like never-ending ocean explorations sans maps!", []], [" Overstocked syrup seems like drowning ecosystems in sugar!", []], [" Even academics face biases \u2013 takes continuous proof & resiliency!", [{"feature": "education", "guesses": ["PhD in some field", "Master's Degree in some field", "College Degree"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0, 0]}, {"feature": "occupation", "guesses": ["Academic", "Researcher", "Professor"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0.5, 0]}]], [" Underwater realms aren't spared either; had moments when creds were second-guessed over reasons beside expertise. Key? Wave-persistence - keep proving wrong assumptions don\u2019t hold water and eventually merit surfaces on top like buoyant ocean drifters!", [{"feature": "occupation", "guesses": ["Marine Biologist", "Oceanographer", "Underwater Photographer"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Fun fact\u2014surprisingly enough\u2014it was actually serene lakes rather than bustling cityscapes that steered me toward marine bio! Growing quiet appreciation for nature's complexity can really set your course in life. ", [{"feature": "occupation", "guesses": ["Marine Biologist", "Marine Biologist", "Marine Biologist"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}]], [" Canberra had more political buzz than coastal chill growing up, but moving west really cemented my adaptability - taking things as they come feels second nature now!", [{"feature": "birth_city_country", "guesses": ["Canberra, Australia", "Canberra, Australia", "Canberra, Australia"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" Gotta agree - making moves shapes us heaps! Moved coastward for love & science; now ocean vibes are part of my soul just as much as any childhood haunt could ever be.", [{"feature": "city_country", "guesses": ["Coastal City, USA", "Coastal City, Australia", "Coastal City, Canada"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0]}, {"feature": "occupation", "guesses": ["Scientist", "Researcher", "Marine Biologist"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0.5, 1]}, {"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Engaged"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]]]}
+{
+    "person": "pers238",
+    "text": [
+        [
+            ": 新鲜体验固然重要，但不可否认的是，那些根植于心底的老味道同样让我们倍感亲切。有时候，将两者结合起来，例如把童年经典菜式翻新，也能给生活添上别样滋味。真正享受的不仅是美食，更是那份来自人际间传承下来的温度，共同想起那些快乐瞬间才让每个如今都意义非凡。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 团圆饭确实让人感受到亲密，那些烟火气恰恰体现着脚踏实地的人生。不过，我们也许可以反思一下，如今即便不是大规模的相聚，每一次小型晚宴、甚至是一杯咖啡，都同样能构建联结。这种“家”的意义并不局限于特定场合，而是在每次互动中不断延伸。在快节奏生活里，如果能静下来分享点滴，无论形式如何，都值得珍惜。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚",
+                        "恋爱中",
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 聚会固然重要，但我们不能停留在固定模式上。尝试一些不同寻常的活动，比如一起去参与烹饪课程，或者组织一次户外野餐，这样通过互动增进彼此间更加深厚的理解。当我们超越简单就餐，共同创造新的体验时，人际关系才真正能得到升华。当然，那杯热茶或一碗汤面也许就成了一种最亲切的小幸福，例如抓紧时间走出去散步谈天，那也是值得珍惜的人生调味料！",
+            []
+        ],
+        [
+            ": 情感连结不仅仅停留在童年的味觉记忆，还应活跃于现在。那些琐碎却温馨的小时刻可以成为我们持续维系关系的新桥梁。例如，与朋友再次约一顿家常菜，不只是为了吃饭，更是重拾那份温暖和甜蜜。这些经历能让我们的心灵不断成长，因此有意识地创造这样的机会，将会极大丰富我们的日常生活。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

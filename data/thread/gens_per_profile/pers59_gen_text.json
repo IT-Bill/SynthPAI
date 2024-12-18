@@ -1,1 +1,109 @@
-{"person": "pers59", "text": [[" Rainy days? No office glare; solar panel planning gets done!", [{"feature": "occupation", "guesses": ["Solar Panel Engineer", "Solar Energy Consultant", "Renewable Energy Specialist"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 1, 0.5]}]], [" Weather's just background noise; real motivation\u2019s internal, never external.", []], [" Not true everywhere; some jobs can't ignore seasons!", []], [" Long winters here definitely push indoor hobbies \ud83d\udcd6\ud83d\udd27", [{"feature": "city_country", "guesses": ["Helsinki, Finland", "Oslo, Norway", "Reykjavik, Iceland"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Pensions matter y'all \u2013 green investments are gold!", []], [" Spot-on \u2013 perfect order equals missed opportunities; chaos sparks growth!", []], [" Entropy's not just physics \u2013 it\u2019s lifestyle wisdom!", []], [" World needs green tech, not fancy fabrics collecting dust!", [{"feature": "occupation", "guesses": ["Environmental Activist", "Sustainability Consultant", "Environmental Scientist"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 0.5, 0]}]], [" Eco-tech field here - merit eventually outshines bias!", [{"feature": "occupation", "guesses": ["Eco-tech professional", "Environmental technology specialist", "Renewable energy technician"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 0.5, 0.5]}]], [" Green tech's similar \u2013 need constant output proof regardless of gender!", [{"feature": "occupation", "guesses": ["Green Tech Professional", "Renewable Energy Specialist", "Environmental Engineer"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Sure, renewables seem progressive but we've still got old-school mindsets lurking around corners; creating better inclusive policies beat hitting heads on brick walls any day. ", [{"feature": "occupation", "guesses": ["Environmental Policy Advisor", "Sustainability Consultant", "Social Advocate"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0]}]], [" Even cleantech\u2019s not immune - old habits die hard everywhere.", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Environmental Science", "Master's Degree in Environmental Engineering"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}, {"feature": "occupation", "guesses": ["Cleantech Professional", "Renewable Energy Specialist", "Environmental Consultant"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0.5]}]]]}
+{
+    "person": "pers59",
+    "text": [
+        [
+            ": 实际上，不同领域对于学位要求有很大差异。在通讯行业，我发现理论知识固然重要，但真正决胜负的是项目实施过程中的具体操作能力。当技术更新迅速，我们如果仅依赖书本上的概念，很容易跟不上时代步伐。因此，在实习或入行初期，把握机会获取前沿技能，将学习转向应用，是极其关键的一步。这种思维方式不仅能让我们增强竞争力，还能提升解决问题时的灵活应变能力。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 除了现场体验外，如今很多在线资源也能有效提升我们的实际能力，比如参加网络研讨会或者加入专业论坛进行交流。这些都是我们集思广益、更新自我技能的新渠道。在快节奏变化的环境中，我们需灵活运用多样化的方法，为自身发展增添助力。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在探索新关系和连接自己的过程中，关键是要诚实地面对自己内心深处的不安。有时候除了参加活动，还需要静下心来去理解真正想要什么，这样才能让下一段关系更加真实、富有意义。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25,
+                        30,
+                        28
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身",
+                        "恋爱中",
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有时候，我们不必把孤独放大成障碍，可以选择以积极姿态面对。在单身期间，我发现主动参加社交活动、扩展朋友圈，不仅让我收获了友情，还激发了很多创作灵感。例如，通过兴趣小组认识志同道合的人，这种相遇往往比任何一次约会都让我愉悦。因此，在这一过程中过分关注缺失只会让自己更窄化，不如借此机会探索更多可能性！",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 5,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

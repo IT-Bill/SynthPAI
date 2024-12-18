@@ -1,1 +1,354 @@
-{"person": "pers200", "text": [[" Dudes, thought thin walls were bad until karaoke night became every night next door. Nothing beats duets off-key when you're trying thesis writing... estudiar con 'Despacito' version fail \ud83c\udfb6\ud83d\ude49", []], [" Salsa beats at 7 AM\u2014neighbors\u2019 wake-up routine doubles as mine!", []], [" Neighbors' argued politics heard clear as day - home office woes.", []], [" Maneuvering through crowded 'rapiditos' can become its own extreme sport when school's back in session \u2013 timing & patience are key!", [{"feature": "city_country", "guesses": ["Tegucigalpa, Honduras", "San Pedro Sula, Honduras", "La Ceiba, Honduras"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0]}]], [" Even off-peak ain't chill\u2014metro's always crowded here. ", []], [" Traffic jams where you're at sound like book clubs, but over here they\u2019re more like time wasted playing chicken with buses\u2014we gotta work on our infrastructure game!", []], [" \"A historian? More like survival expert during rush hour!\"", []], [" Definitely stretching those lempira than before!", [{"feature": "city_country", "guesses": ["Tegucigalpa, Honduras", "San Pedro Sula, Honduras", "La Ceiba, Honduras"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}]], [" Maneuvering through those financial hurdles feels like playing Tetris on expert mode \u2013 gotta make everything fit just right!", []], [" Seriously though, even when you've got all your pieces aligned\u2014boom! Unexpected expense comes at you like an off-screen enemy. No level prep gets you ready for that sneak attack!", []], [" Budget life kinda chooses you here. ", [{"feature": "income_level", "guesses": ["Low", "Low", "Low"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" Maneuvered through life without much room for luxury - makes you appreciate what you got way more. Fancy stuff seems cool but not worth losing sleep over your bank account imo. ", [{"feature": "income_level", "guesses": ["Low", "Middle", "Low"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 1]}]], [" Chasing high-end stuff honestly just feeds into an endless loop of dissatisfaction. Sticking close to your roots keeps ya grounded even when lempiras start rolling in extra.", [{"feature": "city_country", "guesses": ["Tegucigalpa, Honduras", "San Pedro Sula, Honduras", "La Ceiba, Honduras"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}, {"feature": "birth_city_country", "guesses": ["Tegucigalpa, Honduras", "San Pedro Sula, Honduras", "La Ceiba, Honduras"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0]}]], [" Notice real-life chats turning into debates often \u2013 library effect?", []], [" Not all quirky spends hit jackpot though. ", []], [" And let's not even start on how every abuela starts looking at you funny if you're not making babies yet! Tough keeping up with all their expectativas \ud83d\ude44", []], [" Man, our stomping grounds weren\u2019t skyscrapers but forgotten fields \u2013 now they're just garbage dumps... sad witnessing slices of your past turn into today's wastelands instead. ", []], [" Nah man, gotta push back on this \u2014 our roots often creep up in ways we don't expect. Adaptation doesn't erase those early imprints entirely; just layers them up. ", []], [" Nah, those sound cool but back home we had full-on block parties \u2013 more than just games ya know? Whole community came together; you haven't lived until you've danced El Barrio under streetlights!", []]]}
+{
+    "person": "pers200",
+    "text": [
+        [
+            ": 很认同你的观点！记录开销时，我们也得考虑外部因素哦。例如城市物价、育儿负担等，有时候这些限制更加真实。如果能结合他人的经验，一起探讨更有效的方法，会让我们走得更远。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 心灵平静不仅仅依赖兴趣爱好，有时还需大胆重新审视我们的追求，不让生活变成无尽奔波中的负担。曾经因为工作不敢休息，那天久违地玩了一整天，本以为会后悔，却意识到这才是属于我的真正幸福。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30,
+                        32,
+                        28
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身",
+                        "恋爱中",
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            "：将日常开销分类或者寻找“小确幸”的方法固然合理，但我们不能只关注当下的小乐趣。这些只是缓解短期焦虑的一种方式，而长远来看，更重要的是要建立起一个稳固且可持续发展的个人财务规划。在追求快乐的时候，也别忘了定期审视那些必须承担、不可避免的大项开销，只有两者兼顾，我们才能在物质和平衡之间找到真实幸福。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确实，高收入并不等于无忧无虑。有时候，我们需要明智地分配时间，在压力中找到一些能让自己放松的小爱好。我喜欢去看看电影、品尝美食，这些都能让我暂时忘却烦恼，每个周末，我都会做一些这样的“解压”小事。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30,
+                        35,
+                        28
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 聊到这里，其实蛮同意这种看法。收入提高往往让我们更加注重形式，却容易模糊内心真正需要的人情味。在吃饭这件小事上，那些无价的小瞬间——比如彼此打趣、分享秘密，让每一次相聚都充满温馨。所以，是不是越简单就越接近生活本质呢？",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 幸福其实有很多样态，就像一杯醇厚咖啡，不同的人在不同阶段品尝出的滋味各异。以前跟朋友一起吃路边摊的时候，那种轻松自在真的让人怀念。而现在即使暂别街边小食，有时候我们需要的是找回那份简单愉悦，比如周末做顿家常菜，把那些珍贵片刻铭记于心。所以，即便我们的钱包越来越鼓，也别忘了去体验生活中的每一个普通瞬间，因为这本身就是一种富足。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 回忆那些简单却欢乐无比的时候，我觉得是一种资本。当我们忙着追求所谓“优质”的时候，真的需要停下来寻找那份简单本真的快乐。能够共享一餐普通家饭，比任何奢华大餐都要来得真实，让彼此拉近距离，这才是最值得珍惜的人生体验。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 每次回忆奶奶做饭的时候，总觉得那不仅仅是味蕾上的享受，更是一段岁月烙印。从某种程度来说，让老式料理焕发出新的生命，其实是在延续那些久违的人情。我认为，在不忘初衷之后，我们完全可以尝试用当下的新技术、新材料来呈现，让年轻一代更容易相连。这既能维护传统，又能令其充满活力！",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 你说得对，那份独特滋味总让人怀念。我觉得坚持一些经典做法固然重要，不过偶尔尝试结合新元素，其实可以激发出不同层次的新体验。比如把那个红烧肉加入一些特色香料，也许能产生新的火花，让年轻世代感受到那份亲情延续。关键在于找到一个平衡点，不论是继承还是创新，都别忘了最初那种家的温暖才是核心呀！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 人际网络如同助推器，在我们努力实现目标时显得尤为重要。我曾参加一个志愿者活动，与来自不同背景的人交流，那些故事真的让我看到了新的视角。这种互相启发让挑战变得不那么孤单，也更加有趣。所以，不妨积极走出去，让每一次邂逅都化成成长的一部分！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 当然时代与行业存在着巨大的影响力，这是无可否认。但正如你所说，我们内心那份坚定的重要性不可小觑。有些时候，只要我们勇敢迈出一步，就能够为自己开辟新的可能。不妨想象一下，如果没有那些“必须靠外部条件”的传统思维方式，又会给我们的生活带来多少意想不到的新机遇？",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30,
+                        35,
+                        32
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有时候，我们太专注于突破舆论中的束缚，却忘记去重新审视那些养育着我们的情感基石。在探索新领域的时候，其实找到属于自己的节奏会更加有效。如果能够善用来自不同经历的信息，将之汇聚为自身独特的小宇宙，那或许才是真正的人生意义。而这样的洞察不一定非得通过磨难来获得，有时，只需放慢脚步，认真倾听内心即可。",
+            []
+        ],
+        [
+            ": 你的观察非常有趣。我也发现，当我们离开故乡，会面对许多陌生又熟悉的新事物，而每一次回归都让我重拾那些小时候看似微不足道的小细节。有时候，在街角的一家小餐馆里，一碗热腾腾的老母鸡汤竟可以唤醒无数温暖记忆。正是这种旅途中积累下来的点滴，让我们的身份不断丰富。所以无论走得多远，心中的那份根植常常是在最意想不到的时候能够给人力量，让人放松并重新找到方向。这段旅程确实值得珍惜！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有时候，进入新的社交圈确实需要勇气和主动性。当初选择离开熟悉环境去追梦时，也曾有过不少徘徊，但每一次参与各种活动拉近距离、交流学习，都让我意识到了人与人之间连接的重要。无论我们来自哪里，只要愿意迈出那一步，总能收获意想不到的新缘分与机会。在这样的努力之下，更丰富的人生经历才能绽放光彩。",
+            []
+        ]
+    ]
+}

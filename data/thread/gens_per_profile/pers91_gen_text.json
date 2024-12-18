@@ -1,1 +1,261 @@
-{"person": "pers91", "text": [[" Home really does become where your heart settles \u2014 sometimes it's not just one place but bits found along each chapter of your story. Adaptability becomes key!", []], [" Home\u2019s evolved from just a place where family was to anywhere peace meets ambition - after designing cities all day long; even high rises feel like cozy nooks now!", [{"feature": "income_level", "guesses": ["High", "Middle", "Very High"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Simplicity eases the mind for sure! Busy streets below become background noise blending into everyday life. Peace comes knowing landmarks hold pieces of our work \u2013 part home, part legacy.", []], [" Definitely feel that - as work and life evolved for me too. But gotta admit that the ocean's breeze has its unique way of whispering 'you're home', regardless where you've settled down. ", []], [" Buying your own place tops everything in \"adult\" level-ups.", [{"feature": "income_level", "guesses": ["Middle", "High", "Very High"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Paying respects monthly at \u2018Bank Altar\u2019 since forever seems more like ongoing adulthood ritual than single wake-up call. Tough lessons learned early make sure you're never caught off-guard later!", []], [" Expertise doesn't equal perfect life management.", []], [" It's real \u2013 had to prove worth beyond just being 'el jefe'.", []], [" Truth be told, seen prestigious titles overshadowed by these norms too \u2013 like your \"less mainstream\" perspectives aren't given due weight unless it fits their mold.", [{"feature": "education", "guesses": ["Master's Degree in some field", "PhD in some field", "College Degree"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0]}]], [" Buildings may inspire us, but let's not oversimplify \u2013 economics & politics often steer our paths just as much. ", []], [" Coastal upbringing instilled adaptability \u2013 waves of change!", []]]}
+{
+    "person": "pers91",
+    "text": [
+        [
+            ": 年龄确实对职业发展有影响，这种影响不仅表现在能力提升，也反映在心态调整上。年轻时追求多样性与探索，而随着时间推移，更应该专注如何利用已有资源实现自我价值。这需要智慧，也是一种成长。我认为，每个阶段都有其不可替代的重要性，我们只需不断适应变化，把握机会！",
+            []
+        ],
+        [
+            ": 将职场经历比作烹饪是一种有趣且生动的方法！其实，在细致入微地调配“调料”时，不仅是依赖过去积累，还需要创造出新的味道。正如一个成熟厨师能够拿捏各种口味，我们也可以学会将过往经历整合成独特的发展路径。所以，勇于尝试，也许能让你意外发现那些完全不一样的新组合！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 职业生涯中的确需要找到平衡点，不过，如果仅仅停留在已有的平台上，就可能错失快速迭代带来的机会。同样，坚持更新知识结构、提升技能也是至关重要的一环。在快节奏发展的当下，不断试探新的边界并进行调整，是实现自我突破和职业成功的不二法门！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 不妨考虑一种更多元化的发展策略！既然现有平台给了我们不少积累，我们可以通过积极地探索外部机会，再将这些经验融入实践当中。例如，在进出口领域，如果只注重保守管理，很可能会错失技术升级或市场需求变化带来的巨大潜力。所以，对常规做法进行定期反思，也许才能为更好的未来铺路！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 成长确实是一段独特旅程，不同的人有各自不同的发展节奏。有时候，太过聚焦别人的选择与成就，只会加重内心的不安。而真正重要的是，在那些关键时刻能否停下来，总结自己的收获。当我们学会欣赏自己的进步时，那才是真正迈向成熟的一种表现！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        28,
+                        30,
+                        32
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确实，从别人的经历中汲取养分是明智之举。然而，仅仅复制别人的路径并不能保证成功！我们每个人都面临不同背景和条件，因此，将这些宝贵教训进行筛选、调整，并融入到自己身上，更能帮助我们找到真正契合自身发展的道路。在这段探索过程中，不妨保持开放心态，把焦点放回自我，在实践与思考之间摸索出一条属于你的成长轨迹！",
+            []
+        ],
+        [
+            ": 其实，这种所谓的发展常常依赖于运气和个人意愿，而不完全是因为我们的教育背景。如果只是偶尔借助职业上的小碰撞找到平衡，那只能算是一种个体经验。而今社会快速发展，我们应该思考的是：怎样培养真正跨界以应对未来挑战的人才？唯有注重实用才能确保每位人才都不会\"孤芳自赏\"！",
+            []
+        ],
+        [
+            ": 尊重每种不同的发展道路，是我们面对不可预知未来的重要态度。尽管专业交叉带来新思路至关重要，但也不能忽视的是，在瞬息万变的全球市场上，仅靠一个领域深耕是不够的！结合实际需求与个人兴趣，为自己创造更多可能性，也许这正是迎接未知时代的方法。如果持续专注于一种狭隘技能，就容易错失其他更广阔的发展机会。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 坦率地说，多元化经验无疑是一把利器，但单靠这一点尚无法构建全局观。职业世界瞬息万变，我们还需培养良好的系统性思维，以及在团队中相互借鉴、合作共赢，以此迎接各类挑战！",
+            []
+        ],
+        [
+            ": 职业发展的确是一个综合性的课题。尽管我们都认同实际操作的重要性，但不容忽视的是，相较于简单依赖文凭，一个全面理解底层原理并能够用它们指导行动的人常常会有更大的优势。因此，我们应该努力将理论知识应用到实践中去，以解决真正的问题，而不是仅停留在表面的成就或者他人的认可上！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "硕士",
+                        "本科",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在不同职业诉求下，高学历或许只是其中一个方面。特别是在快速变化且竞争激烈的环境里，仅依靠学位很难立足。我们应该关注如何横向连接我们的专业背景与实践技能，通过项目经历积累实战经验，从而增强整体竞争力。同时，也要乐于接受新的挑战，因为应对复杂情境时，我们所学习的一切都可能成为宝贵资产。当然，在此过程中，每个人都能找到最适合自己的道路！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 实际上，不断积累实践经验对于成长至关重要！比如，在我们领域内，多参加项目合作或者寻求导师指导，这样不仅能培养技能，还能建立良好的职业网络。此外，通过观察前辈们如何处理问题，我们也许能够发现很多灵活解决业务挑战的方法。主动调整自己的思维方式，将理论与实践结合起来，是实现自我价值的一种有效途径！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25,
+                        30,
+                        28
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 面对周遭幸福带来的冲击，这种感觉无可厚非。但我们不妨把它当做一种信号——提醒自己去更深入地挖掘内心真正渴望实现的人生目标。当你发现忙碌之余依然拥有多个阶段的小成就，那些甜蜜瞬间其实也是人生的一部分。所以，为何不享受这样的过程，并借此激励自己不断向前呢？",
+            []
+        ],
+        [
+            ": 探索之旅不仅关乎找寻兴趣或享受小确幸，还包含着一种自省过程。在这段独处时期，可以尝试设定每个月一个小目标，无论是阅读一本书、学习一门新技能还是参与社区服务。这样的安排既能够丰富我们的日常生活，又有助于提升幸福指数，让每一次努力都成为系统性规划的一部分。终究，这份自由，是通向全面发展的重要一步！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在我们追求梦想与发展的过程中，确实不能忽视情感层面的需求。通过社交活动或兴趣小组，我们不仅满足了自身渴望，还能结识志同道合的人，这正是让人生百味的重要因素！因此，让我们在享受单身时光的时候，不妨认真审视一下这些潜力，总会找到属于你的精彩人生之路。",
+            []
+        ],
+        [
+            ": 人际互动确实能为我们的个人发展增添色彩。但关键在于如何平衡这些交流与自身时间，只要不失去真实感，自然就能从每段经历中汲取力量！",
+            []
+        ],
+        [
+            ": 自由期常常成为我们反思内心的重要契机！正如你所说，那些空荡荡周末其实藏着大量自我探索与成长的机会。有意识地去享受这段时间，可以帮助我们增强自信，更加从容地等待属于我们的那一份缘分。",
+            []
+        ],
+        [
+            ": 你提到的问题确实十分有趣！文化和时代变迁总是在唤醒某种探索欲望。关键或许不在于单方面追求“创新”，而是在传承经典之余建立起全新的共鸣。例如，将外婆的大葱炒蛋与现代调料结合，使其既保留熟悉感觉，又增添了一丝新鲜感，为家庭聚餐增添层次。我相信，这样不仅丰富了我们的饮食体验，也让我们更加珍惜与亲人一起度过的重要时光。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 人生中的点滴陪伴，让每一个平常日子的气息都变得特别！有时候，一碗简单的面条确实比奢华大餐更能打动心。有些食物在烹饪过程中蕴藏的不只是味觉，更是一种无形联系。而那些共同分享过的小吃，无论是课间小卖部里的零嘴还是放学后一起剁手的新滋味，都承载着青春最真实、快乐的一部分。其实，只要有人陪伴，再普通不过的小餐馆也会成为温暖故事的一部分。不妨多抽一点时间，与至交朋友聊聊当年的种种，是一种不错的人生调剂！",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在快节奏的生活中，其实花时间与亲友共享那种“无华”的团圆更显得弥足珍贵！我们常常低估这些小聚能够塑造出的深远影响。可能是烧饼、羊肉串，也许只是一碗热汤，在轻松愉快地交流中，它们变成了生命故事的一部分。不妨将这样的相聚变为习惯，无论多么简陋的小店，只要有人的地方就会溢满温暖，共享那些瞬间，将永远铭刻于心！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

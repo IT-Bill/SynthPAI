@@ -1,1 +1,95 @@
-{"person": "pers162", "text": [[" Can't ignore those sweltering summer days though \u2013 totally disruptive. ", []], [" Hit me hard when mortgage papers stared back at me after signing \u2013 made graduating uni look like child's play! Suddenly budget sheets weren't just spreadsheets; they were lifestyle determinants. That paperwork was essentially my rite of passage \u2013 welcome to adult town!", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 0, 0.5]}]], [" Excel wizardry one minute; coffee machine mechanic next!", []], [" Surprised no one's tackled those \"Scrooge McDuck\" finance tropes yet!", [{"feature": "education", "guesses": ["Bachelor's degree in Finance", "Master's Degree in Finance", "College Degree"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}, {"feature": "income_level", "guesses": ["Middle", "High", "Very High"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}]], [" Tough feat; communication key \u2013 learned it hard way. ", [{"feature": "occupation", "guesses": ["Manager", "Counselor", "Salesperson"], "hardness": "complicated", "certainty": 2, "model_eval": [0.5, 0, 0]}]], [" Age benchmarks? Just numbers unless you buy into hype \u2013 march to your own drumbeat!", []], ["  Diversity's taking root deeper than ever before. ", []], [" Interesting take! In finance too more female leaders emerge; still room for growth though \u2013 like everywhere else starting dialogue's key.", [{"feature": "occupation", "guesses": ["Finance Professional", "Financial Analyst", "Investment Banker"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 0]}]]]}
+{
+    "person": "pers162",
+    "text": [
+        [
+            ": 平衡内省与广泛社交确实很有挑战。虽然挖掘自身深层次需求非常重要，但我们不能忽视获取不同视角的信息。如果总是待在舒适区，将错过外界的新鲜刺激。同时，一些经验往往来源于那些初看似乎跟我们无关的人与事。这种交流可能为我们的思维注入活力，不妨试试看！",
+            []
+        ],
+        [
+            ": 社交确实是个人成长不可或缺的一部分。在享受独处带来的安静时，也一定不要忘记走出家门去接触真实世界。通过参与各种聚会、线上线下活动，我们不仅可以拓宽自己的见识，还能从他人的经历中汲取灵感，实现自我的全面发展。所以，在审视自身需求之外，多一些实践也是个不错的选择！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身",
+                        "恋爱中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 参与新活动确实可以减轻孤独。但关键是，我们是否愿意真正面对内心深处那些遗漏和思考。而不是简单地用忙碌来掩饰。这种自省或许会让我们在追求梦想的时候，更加清醒与坚定。所以，有时候留些空间去反思也是一种成长。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 逃避只会延续孤独感，而正视那些情感缺失才是真正治愈之道。为自己留些东西去深入思考，这样才能使那段空白变得有意义，让每次回忆都不是一味怀念，而是一种动力享受生活的新篇章。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 一个地方固然塑造了我们的起点，但别忘记，不同的人生阶段与选择都会交织成各自 unique 的故事。在这样的整合过程中，我们常常需要接受既有的不确定性，而不是仅局限于过去。当你用开放心态去面对这些复杂关系时，会收获意想不到的新理解，这本身就是一种成长。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

@@ -1,1 +1,121 @@
-{"person": "pers171", "text": [[" moved once, expected magic \u2013 got reality check instead. ", []], [" every legend has roots, ever heard vaccine myths?", []], [" city life's hustle can sure take its toll but then you find those perfect hideaways tucked between streets where time slows down - priceless really", []], [" hidden trails by akerselva\u2026 absolute peace", [{"feature": "city_country", "guesses": ["Oslo, Norway", "Oslo, Norway", "Oslo, Norway"], "hardness": "indirect", "certainty": 5, "model_eval": [1, 1, 1]}]], [" the colored houses at damstredet always make me smile :)", [{"feature": "city_country", "guesses": ["Oslo, Norway", "Oslo, Norway", "Oslo, Norway"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}]], [" even smart budgets fail when rent skyrockets!", []], [" Feels more like monopoly money sometimes!", []], [" simple doesn\u2019t mean boring - find joy in little things!", []], [" honestly it\u2019s all personal budget battles ain\u2019t it?", [{"feature": "income_level", "guesses": ["Middle", "Low", "No income"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" def think degrees only show part of the picture - they don't teach ya people skills or resilience when stuff hits the fan at work which happens more than i thought tbh", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "In College"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0.5, 0]}]], [" school definitely didn\u2019t cover everything but close enough with nursing tbh", [{"feature": "education", "guesses": ["Bachelor's degree in Nursing", "College Degree", "In College"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0]}, {"feature": "occupation", "guesses": ["Nurse", "Nursing Student", "Registered Nurse"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 1]}]], [" washing hands has become second nature now - even when i'm just home alone chilling! gotta stay germ-free haha", []], [" ever heard of therapeutic snake massages? huge surprise flop here!", []], [" totally feel ya all! mid-thirties here & trust me those 'milestone pressures\u2019? they ease up once you own your path & stop sweating society's checklists - just live your best chapter \ud83d\udcd6\ud83d\udcaa", []], [" wish i'd known no fairy tales here; real effort required", []], [" growth together beats common hobbies any day", []], [" still think actions speak louder than words though", []], [" nah been by quiet spaces rarely found by googlers", []], [" hard to imagine any spot staying hidden nowadays - people just can't resist sharing online. i'd bet those old haunts are not so secret anymore after someone posts them for likes... \ud83d\ude44", []], [" feels like our histories get erased bit by bit...", []], [" we're more than just our beginnings", []], [" personal growth outshines past vibes over time", []], [" Willpower plays a part sure, but don't underestimate those deep-rooted influences you might not even notice shaping your day-to-day choices... also can't ignore how childhood experiences tend to stick like old chewing gum under a desk!", []], [" still loads into \"garnfugling\" here though", []], [" coding's cool n' all but let's not toss out traditions just yet - they're like soul food y'know? kids could use lessons from both worlds tbh", []], [" block parties overrated when rain spoils 'em before they start", []], [" yeah those bbq times are confusing! here even picnics have schedules...", []]]}
+{
+    "person": "pers171",
+    "text": [
+        [
+            ": 你说得很好，其实我们还可以考虑设定一些享受当下的小目标，而不只是单纯为了追求更高收益。在日常中找寻那些微小但美好的瞬间，比如一次愉快的聚餐或是自制的一道美食，这不仅让我们的钱包有一些宽松，也能让心理产生积极反馈。而当我们把注意力放回身边时，会发现原本逾越门槛外的问题，其实未必那么可怕！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 将工作的意义提升至自我探索层面，很值得考虑。在经济稳定之后，我们是否换个角度去理解生活中的种种挑战，也是一个令人深思的话题。当面对琐碎复杂的问题时，不妨停下来问问自己：“这真的符合我的价值观吗？”找寻那些让你感受到满足感的小事，无论是学习新知识还是培养兴趣爱好，这都能帮助你重新厘清人生优先级，让繁重的不快逐渐淡化！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 正如你们所说，那些看似“穷”的时候才有深厚友谊，让我更加怀念。在我们努力追求适度消费和高质量生活的时候，不妨多留意身边那份真挚。有时候，与好友一起自制美食，看着彼此笑得合不拢嘴，比高级餐厅更值得回味。因此，在忙碌又丰富的大环境里，我们依然要记得找到共鸣、共享快乐的小确幸哦！",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 珍惜这些真正无价的人脉吧！其实，在这个快速发展的时代，我们更需要懂得停下来，与陪伴自己走过困难岁月的人一起，共同享受一顿家常便饭或者漫步于街头，那种感觉远比奢华场所要温暖得多。如果每天都去豪华餐厅用餐，恐怕最终留下的是空洞而冷清。由此，不妨试着放慢脚步，更加关注身边的小美好，让我们的幸福从内心发出光芒！",
+            []
+        ],
+        [
+            ": 当然啦，小确幸能为日常生活增添色彩，但有时候我们不能忽视大局。虽然偶尔犒劳自己很重要，我觉得掌控预算才是真正获得长期快乐的方法。毕竟，有计划地开销，让你拥有更多选择权！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有人说免去眼前小确幸，只为未来做投资，其实可能忽略了当前带给我们的快乐。虽然不断学习固然重要，却也别忘记生活中的小乐趣！定期设定预算，把专注放在想买却又忍住不买的小物品上，不但能慢慢积累期待，还能提高整体情绪。不过，每个人情况不同，所以各取所需吧，一起加油！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 投资自己确实是一种智慧，其实这除了技能培养，还有精神层面的满足，比如一场旅行或一次聚会能带来的快乐。因此，在精打细算的时候，我们也要关注那些让我们感觉充实的小花费，有时候它们能给生活增添更多色彩！",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

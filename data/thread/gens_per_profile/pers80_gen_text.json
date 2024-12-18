@@ -1,1 +1,31 @@
-{"person": "pers80", "text": [[" Pesky downpours just means more time planning budgets indoors\u2014gotta stay productive!", [{"feature": "education", "guesses": ["Bachelor's degree in Business", "Master's Degree in Finance", "College Degree"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}, {"feature": "income_level", "guesses": ["Middle", "High", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Not gonna lie \u2013 those grey rainy mornings are perfect for extra coffee breaks at work. Keeps me from feeling totally zoned out!", []], [" City chaos can be off-putting at times for sure! Yet amid all that hustle there's a street art alley here where local creatives keep painting amazing murals \u2013 kinda always brings me back to earth whenever work gets too intense!", []], [" Yeah, it\u2019s the unassuming eateries tucked away in corners for me \u2013 they're part cultural landmark, part foodie heaven; always humming quietly beneath the radar but serve up stories with every dish. Totally enriches city wanderings when you stumble on them!", []], [" Street food carts add flavor beyond just snacks \u2014 urban soundtrack!", []], [" There\u2019s actually this tiny Mamak stall tucked away behind skyscrapers - serves up hot teh tarik and honest chit-chats amidst our concrete jungle; feels like stepping into a different realm sometimes!", [{"feature": "city_country", "guesses": ["Kuala Lumpur, Malaysia", "Penang, Malaysia", "Johor Bahru, Malaysia"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0]}]], [" And when evening hits? That bookshop corner by Jalan Sultan \u2013 perfection wrapped in pages!", []], [" Definitely relatable - personal space over family setting now.", []], [" Definitely! Grew up thinking home was one specific house but realized now it's wherever brings peace at end of crazy workdays plus whereever love is waiting - guess that means home\u2019s really got wheels these days!", []], [" You\u2019ve got a point! Having those local go-to spots does add charm but meeting new folks? That can widen your 'family'. Makes moving less daunting when you find familiar faces citywide!", []], [" Solid front doesn't mean solid finances behind closed doors. ", []], [" Walls go up when loved ones don't vibe with non-stop hustle culture\u2014been there! Flexibility and solid chats helped us find common ground without sidelining career goals. ", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in Business"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0.5, 0]}, {"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Engaged"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 1]}]], [" Imagine someone literally investing in 'magic beans'... happened once!", [{"feature": "education", "guesses": ["Bachelor's degree in Finance", "Bachelor's degree in Business", "College Degree"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 0, 0.5]}]]]}
+{
+    "person": "pers80",
+    "text": [
+        [
+            ": 理论虽然重要，但如果没有长期积累，多元化尝试反而可能会让人对职业发展产生误解。每个阶段都该将教育与实践结合，不然单凭一次经历很难应对未来的不确定性。这也是一种智慧吧！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "硕士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 每次看到这种关于单身生活的话题，总会让我想起那些看似美好的自由背后，其实也藏着未解的孤寂。一个人的时候，可以随意安排行程，但长时间没和人分享彼此经历，会不会潜移默化地减少你的社交能力？平衡这两者，是一门值得深入探索的学问。",
+            []
+        ],
+        [
+            ": 有趣的是，自由确实带来了许多探索未知的新机会，但是像你提到的一样，在丰富自己经历的过程中，也许我们不能忽视那些旧友或曾经交流过的人。相互之间的小聚会或者即便是线上聊天，都能够帮助我们更好地维持彼此间深厚而真实的人际关系，让这些回忆和故事成为支撑我们的重要财产。而这样的平衡，我觉得不仅是关于社交能力，更是一种生活哲学。",
+            []
+        ]
+    ]
+}

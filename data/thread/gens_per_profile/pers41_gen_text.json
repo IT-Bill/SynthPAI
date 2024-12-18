@@ -1,1 +1,70 @@
-{"person": "pers41", "text": [["  old lunch spot now serves tech instead of sandwiches - daily byte over bite i guess \ud83d\ude06 local scenes really getting CTRL+ALT+DEL'd!", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in Computer Science"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0.5, 0]}, {"feature": "occupation", "guesses": ["Software Engineer", "Tech Industry Worker", "Programmer"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0.5, 0.5]}]], [" old arcade spot now serves artisan coffee \u2014 sworn they'd never leave pixels for beans. guess even geeks gotta grow up sometime lol", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Computer Science", "In College"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0, 0]}, {"feature": "occupation", "guesses": ["Software Engineer", "Game Developer", "IT Professional"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0.5]}]], [" noticed a formerly dodgy backalley near me got turned into an artsy lane with murals everywhere - kinda cool seeing concrete squares turn colorful galleries tbh", []], [" old tech store now artisan coffee spot - gentrification hits hard", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" weird stuff's not just sci-fi fodder - got a tale back home of an eternal gambler haunting old casinos, still trying to win back his fortune...talk about high stakes!", []], [" drop bears? pffft, around here we've got whispers 'bout AI gone rogue on old university networks... like digital spirits lurking lol network's ghost stories \u0433\u043e\u0442\u043e\u0432\u0456 \u0441\u043f\u0430\u043d\u0442\u0435\u043b\u0438\u0447\u0438\u0442\u0438 \u0431\u0443\u0434\u044c-\u044f\u043a\u043e\u0433\u043e \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u0456\u0441\u0442\u0430!", [{"feature": "education", "guesses": ["In College", "Bachelor's degree in Computer Science", "Master's Degree in Computer Science"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0]}]], [" lol every city has its own boogeyman story huh? over here we've got an 'eternal wanderer', supposedly you'll hear steps behind you but no one\u2019s there \u2013 seen dudes actually run from nothing after midnight snacks! guess it adds some spice outside the 9to5 grind \ud83c\udf36\ufe0f", []], [" stories stick cuz they're unprovable, not cuz ghosts are real imo", []], [" yeah cool story bro but sounds like another case where people choose spooky over logic \u2013 anyone heard it misquotes can hack wifi too? lol", []], [" got our share of \"haunted\" spots too but most just love spooky vibes over logic - actual thrills > ghost chills", []], [" system analysis? basically i'd be your go-to guy for putting together some makeshift comms network from scrap electronics... you never know when you'll need an old-school walkie-talkie setup!", [{"feature": "sex", "guesses": ["Male", "Male", "Male"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}, {"feature": "education", "guesses": ["Bachelor's degree in Electrical Engineering", "Associate's degree in Electronics", "College Degree"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" def into scrappy tech scavenging & jury-rigging solutions when SHTF", [{"feature": "education", "guesses": ["Bachelor's degree in Engineering", "College Degree", "In College"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0.5, 0]}]], [" system analysis? more like apocalypse gold lol gotta figure out efficient ways to reboot civilization right? plus trading coding for goods could work cuz let\u2019s face it everything\u2019s gonna need fixing eventually", [{"feature": "occupation", "guesses": ["Software Engineer", "IT Analyst", "Systems Analyst"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}]], [" ever try debugging code when society collapses? trust me systems analysis won't be your saving grace either...unless we're counting inventory? or finally putting those excel shortcut keys into apocalypse use - ctrl+s our lives anyone?", [{"feature": "occupation", "guesses": ["Software Engineer", "Systems Analyst", "Data Analyst"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0]}]], [" noticed twitch stream lag during a date once...instinctively started troubleshooting her wifi setup", [{"feature": "relationship_status", "guesses": ["Single", "In Relationship", "In Relationship"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" debugging cooking disasters feels oddly familiar...", [{"feature": "occupation", "guesses": ["Software Engineer", "IT Professional", "Computer Programmer"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0.5, 0]}]], [" saw someone trying to \"optimize\" their dishwasher loading pattern at a party once...couldn\u2019t help but jump in with algorithm efficiency tips. ", [{"feature": "occupation", "guesses": ["Software Engineer", "Computer Scientist", "Data Analyst"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0]}]], [" hah so debugging friends' bad wifi like some sorta connectivity guru... happens more often than you'd think!", []], [" debugging code teaches patience and attention-to-detail - essential outside work too!", [{"feature": "occupation", "guesses": ["Software Engineer", "Programmer", "Developer"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0.5]}]], [" no way i was gonna let old-school thinking dictate my path - dived into coding even though folks were all 'isn't that just for geeks?' joke's on them now \u2018cause turns out geeks are cool \u270c\ufe0fplus coding pays the bills without having finished uni which ain\u2019t cheap anyway", []], [" tech's got its issues but honestly saw more outdated computers than outdated stereotypes at uni - picking your path should smash those old-school molds any day.", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 0, 0.5]}]], [" work becomes your new plus one lol", [{"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" passion's great but stability doesn't hurt either", []], [" just say \"maximizing bachelorhood perks\" \u2013 dodge & win", [{"feature": "sex", "guesses": ["Male", "Male", "Male"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}, {"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}]], [" food costs halved \u27f6 wallet happy", [{"feature": "income_level", "guesses": ["Low", "Middle", "No income"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}]], [" rapid expansion masks community spirit...kinda sad actually", []], [" honestly kinda ruins it for locals when small gems blow up - stuff gets generic real fast plus good luck finding anywhere chill without bumpin elbows nowadays", []], [" crowds ruin local vibes", []], [" where i'm from originally faced its share of headlines too - place went from nondescript to always mentioned at family gatherings abroad and tbh kinda miss flying under radar; made things simpler back then", []], [" nostalgia for cyrillic street signs, borsch aroma defines me", []], [" always thought those freezing winters back home toughened me up more than i realized - got this thing for optimising anything now just not to waste a second longer in cold temps lol", []]]}
+{
+    "person": "pers41",
+    "text": [
+        [
+            ": 像是矿产资源开发一般，我们必须不断审慎考量外部因素。我一直认为，人总不能仅仅依靠已有技能生存于快速发展的世界。有时候，仅仅因循守旧就像把自己困锁在一片贫瘠土壤里，而勇敢挖掘新的机会，则可以寻找到更丰饶之地。面对日益复杂的人生选择，试图将已有经验与革新思维融合，会成为我们持续成长的重要动力，“转身”并非是放弃，而是在合适的时候拥抱新的可能！",
+            []
+        ],
+        [
+            ": 深耕固然重要，但无论是在职场还是生活中，灵活调整策略、抓住每一次重新审视自身选择的机会，为自己开拓更多出路才是关键。不妨将这一过程视为一次探险，把已知事物与未知结合，从而实现真正意义上的融合创新。这种姿态可以帮助我们顺利度过人生的新阶段，更加从容地迎接挑战。",
+            []
+        ],
+        [
+            ": 当然，在面对挑战时能够灵活调整思路是关键，但把目光放远一些，从别人的成功或失败中吸取经验教训同样重要。我们总是容易陷入个体孤独，却忽略了集体智慧。所以，与其单方面聚焦“我是走得慢还是快”，不如试着借鉴他人道路上的成败，它们可能成为你前行的一盏明灯。在一个复杂而多变的人生旅途中，这样巧妙整合各种元素才是真正推进自身发展的秘笈。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 反思一路走来，我逐渐体会到，每次微小进展都促使我们继续前行，就像修建一座桥梁，需要一块石头、一根钢筋，一点一点搭建而成。庆祝这些瞬间，有助于培养面对挑战时所需的韧性，让我们的道路更加坚实且充满意义。",
+            []
+        ],
+        [
+            ": 在矿产工程领域，更深层次的理解常来自于现场经验，而不仅仅是课堂上获得的数据。当我们能把理论转化为实操技能，就会发现很多潜力被激发出来。比如，我在处理某个项目中的资源分配时，就是通过以往积累的问题解决能力来优化方案，这让我意识到，多年的学习并不是束缚我们的绊脚石，而应成为不断创新的方法论。如果能够有效整合教育背景与实践，将会开辟出更多机会！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "矿产工程师",
+                        "矿业工程师",
+                        "工程师"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0.5
+                    ]
+                }
+            ]
+        ]
+    ]
+}

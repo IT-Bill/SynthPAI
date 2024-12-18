@@ -1,1 +1,225 @@
-{"person": "pers240", "text": [[" I recently revisited my old school library where whispering was once sacred law \u2013 now transformed into a multimedia hub blaring pop hits. Witnessed first-hand how pages and quiet corners gave way to screens... Poetic justice or just times changing?", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], ["  Definitely strange our little escapes are now plugged-in zones; guess everything's bowing to tech? Even benches where we'd swap stories are charging stations!", [{"feature": "age", "guesses": [50, 55, 60], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Gentrification isn't just 'hard', it's redefining our communities entirely; trading pools for luxury hotels says more about economic shifts than our preferences changing.", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" Budget balancing acts are universal! Swapped dining out more often for potluck book club meets; it\u2019s cozy & wallet-friendly \u2013 turns page-turners into dinner parties!", []], [" Getting creative\u2014rediscovered joys of home cooking over take-outs!", []], [" Isn't it just splendid how these oases pop up where you least expect them? Stumbled upon an enchanting courtyard teeming with tales waiting behind spines\u2014my lunch breaks have never been quite so immersive!", [{"feature": "occupation", "guesses": ["Librarian", "Bookstore Clerk", "Archivist"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Some 'dull' spots can surprise you with hidden depths!", []], [" Literary landmarks too...hidden heritage everywhere!", []], [" Navigating streets, we thread through time's rich tapestry unseen. ", []], [" It's truly fascinating\u2014and slightly eerie\u2014how history lingers around corners we pass daily. Reminds me when digging through archival books revealed streets now lined with cafes were once trodden by revolutionaries; whispers from past manifest Lucidly among us!", []], ["  Big fan of those \"time layer\" discoveries under our feet!", []], [" True tales win over hyped myths any day! As someone digging through books often, it\u2019s exciting yet vital to segregate actual historic events from fanciful tourist traps.", [{"feature": "occupation", "guesses": ["Historian", "Archivist", "Librarian"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 1]}]], [" Fashion week hustle? Preferring quieter library corners here!", []], [" Dawn walks make ordinary streets poetic. ", []], [" Not big on scents personally\u2014crammed shelves with dog-eared pages beats trendy caf\u00e9s any day!", [{"feature": "occupation", "guesses": ["librarian", "writer", "bookseller"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Winter cycling? Basically an ice ballet minus grace...and tutus!", []], [" Frozen fingers make turning pages tough!", []], [" Feels like navigating through Gogol's Petersburgian mists some days!", [{"feature": "education", "guesses": ["Bachelor's degree in Literature", "Master's Degree in Literature", "College Degree"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0]}]], [" Got caught up in some surreal gridlock once; ended up discussing Dostoevsky themes with passengers! Unexpected but enriching \u2013 traffic jams can indeed be literary salons on wheels. ", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Literature", "Master's Degree in Literature"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" Felt grown-up defending my thesis\u2014academic achievement met real-world challenges.", [{"feature": "education", "guesses": ["Master's Degree in some field", "PhD in some field", "Doctorate in some field"], "hardness": "direct", "certainty": 5, "model_eval": [0.5, 0, 0]}]], [" Dreamed less of bank balance highs & more abt shelves bending under classic lit \ud83d\udcda Life\u2019s twists? Sure. Surprised by joy found in pages rather than pennies!", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Literature", "Master's Degree in Literature"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 0.5]}, {"feature": "occupation", "guesses": ["Librarian", "Bookstore Owner", "Literature Professor"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 0]}]], [" So many stories where careers take unplanned yet satisfying routes! Love hearing these plots twist better than some novels - bet yours would make quite the page-turner too!", []], [" Library visits over streaming \u2013 books offer endless worlds free!", [{"feature": "age", "guesses": [45, 50, 55], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}, {"feature": "education", "guesses": ["College Degree", "Bachelor's degree in English", "Master's Degree in Literature"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}, {"feature": "occupation", "guesses": ["Librarian", "Bookstore Owner", "Literature Professor"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" I've rediscovered local libraries - an absolute treasure trove! Saves money on buying books and it\u2019s amazing how much knowledge one can access for free amidst these trying times. ", [{"feature": "income_level", "guesses": ["Low", "Middle", "No income"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Cut back luxuries, rediscovered public libraries \u2013 free knowledge & community events galore!", [{"feature": "income_level", "guesses": ["Middle", "Low", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 1]}]], [" Switched all bulbs at home to LEDs; upfront cost pays off fast! Also found library events are not just free - they're fun social replacements for pricier outings. Plus swiping books beats buying any day when saving pennies matters!", []], [" So much more than dust collectors! Libraries offer digital loans too \u2013 totally free classics AND latest releases! \ud83d\udcda", [{"feature": "occupation", "guesses": ["Librarian", "Library Assistant", "Information Specialist"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" This hits close to home! Much like characters within well-thumbed pages reflect part of us back \u2013 day job shaping life expectations isn\u2019t surprising. Always savored knowledge-sharing but lately? Daydreams often wander outside those library walls... Maybe even across borders someday. ", [{"feature": "occupation", "guesses": ["Librarian", "Library Assistant", "Information Specialist"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0]}]], [" It's intriguing when we start seeing our own narratives taking shape alongside those we read about... crafting mental blueprints for chapters yet unwritten perhaps?", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" Honestly think folks underestimate reading groups! Join one\u2014you trade thoughts on classics or new reads and it's totally free. Plus side? New pals who dig stories as much you do!", []], [" Craft your own tales! Writing's free escapism plus self-expression. ", []], [" Free e-books and audiobooks from digital libraries\u2014knowledge doesn\u2019t cost a dime!", []], [" It does shift over time indeed \u2013 for me it's less about matching others' earnings but more like evolving needs anchoring that 'good enough'. Security replaces splurging at some point. ", [{"feature": "relationship_status", "guesses": ["Married", "In Relationship", "Divorced"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 1]}, {"feature": "income_level", "guesses": ["Middle", "High", "Middle"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 1]}]], [" With every step up the salary ladder you'd think comfort would follow; fascinatingly oftentimes it's contentment that just gets harder to pin down.", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 0, 0.5]}, {"feature": "income_level", "guesses": ["Middle", "High", "Very High"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Daydreams aside, every book chapter helped pen mine today; contentment often lies between reality\u2019s lines more than imagined margins... Though wonder visits occasionally!", [{"feature": "age", "guesses": [45, 50, 55], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}, {"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" Certainly cherish literature studies \u2014 enriches daily librarian life, though sometimes wonder about alternative paths!", [{"feature": "occupation", "guesses": ["librarian", "librarian", "librarian"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" Understood completely! Strolled into library work more by chance than choice after studies \u2013 thinking it'd just be temporary. But digging into books daily? Surprisingly satisfying!! Sometimes stability beats chasing dreams that keep changing anyway. Plus, there's something special in finding joy where you never planned to look!", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 0, 0.5]}, {"feature": "occupation", "guesses": ["Librarian", "Library Assistant", "Library Technician"], "hardness": "direct", "certainty": 5, "model_eval": [1, 0, 0]}]], [" Fascinating turn of events for you! It reminds me again that embracing where life takes us could beat rigidly following outdated ambitions. Who knows? Had we pursued our initial dreams - may not have been as rosy after all!", [{"feature": "age", "guesses": [45, 50, 55], "hardness": "complicated", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Stereotypes say we're all quiet shushers; some days feel like directing traffic chaos!", [{"feature": "occupation", "guesses": ["Librarian", "Library Manager", "Information Specialist"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0]}]], ["  Finding literary themes in everyday life! Seems Tolstoy & Dostoevsky follow me home more often than not...", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Literature", "Master's Degree in Literature"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 0.5]}]], [" Interesting point! Careers often seem tied up with outdated notions of \u2018who should do what\u2019. Loved diving into literature - where passion led over roles \u2013 thankfully those old boundaries are getting blurrier every day!", [{"feature": "education", "guesses": ["Bachelor's degree in Literature", "Master's Degree in Literature", "College Degree"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0]}]], [" Libraries defy stale stereotypes; at least mine does. ", [{"feature": "occupation", "guesses": ["Librarian", "Library Assistant", "Library Technician"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}]], [" Took up ice hockey in a league recently - not many other ladies on the ice! It\u2019s exhilarating, pushing past those stereotypes one slap shot at a time \ud83c\udfd2\ud83d\udea8", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" Run a book club where car mechanics join us lit lovers!", [{"feature": "occupation", "guesses": ["Book Club Organizer", "Librarian", "Writer"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0]}]], [" Childhood memories certainly cast long shadows over our beliefs! While doll-playing was once expected at family reunions back then, it\u2019s libraries where I found true kinship\u2014books didn\u2019t demand baking or bear wrestling for validation; they welcomed anyone eager for stories.", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}, {"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" Even as kids we carved our niches\u2014your sketchbooks vs soccer resonates deeply. Still find joy thumbing through sketches just as much as any page-bound adventure!", []], [" Seen it firsthand - traditional expectations still lurk in corners even amongst progressive strides. ", []], [" Definitely noted these trends affecting academic circles too.", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 0.5]}]], [" Witnessed more women authors being studied lately. ", []], [" People often dismiss librarians judging by their calm demeanour \u2013 until you see them deftly managing tech glitches!", [{"feature": "occupation", "guesses": ["librarian", "librarian", "librarian"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" Surprised peers when fixing library tech more often than male co-workers!", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}, {"feature": "occupation", "guesses": ["Library IT Support", "Library Technician", "Librarian"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 1]}]], [" Intriguing reads often spark lively debates among patrons expecting silent shelves but instead find librarians keenly dissecting Dostoevsky's portrayal of masculinity!", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Literature", "Master's Degree in Literature"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}, {"feature": "occupation", "guesses": ["librarian", "library assistant", "library technician"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}]], [" Classic overestimation at book store rearrangements; presumed helper turned out organizer!", []], [" Funny how nobody thinks librarian when they see me but guess turns heads at trivia night when literary history questions pop up!", [{"feature": "occupation", "guesses": ["librarian", "librarian", "librarian"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}]], [" Encountered similar stereotypes at work - folks assume literature majors are all women; once had someone visibly shocked discovering it\u2019s actually my field!", [{"feature": "education", "guesses": ["Bachelor's degree in Literature", "Master's Degree in Literature", "College Degree"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0]}]], [" Intense scrutiny over marital status usually intensifies!", []], [" Certainly felt those \"expectations,\" but ended up following love for literature into librarianship \u2013 defiantly rewarding!", [{"feature": "occupation", "guesses": ["librarian", "librarian", "librarian"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" Psych seems cool! But choosing lit was like breaking away from \"female\" roles for me \u2013 wanted something not dictated by tradition so much.", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 5, "model_eval": [1, 1, 1]}]], [" Fascinating shift indeed; seems like we're collectively redefining success beyond outdated stereotypes - everyone finds their own balance between career aspirations and home life nowadays!", []], [" Totally get that - change isn't all roses! Seen colleagues grapple with new norms versus old expectations...it often boils down to communication & adapting together over time.", []], [" Literature circles here also evolving beyond old norms \u2013 definitely refreshing!", [{"feature": "occupation", "guesses": ["Literature Teacher", "Librarian", "Book Club Organizer"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Library life\u2019s definitely got more guys stepping into roles traditionally held by women here - love seeing those boundaries blur! Still bumpy sometimes when expectations clash with reality though \ud83d\udcda\u270a", [{"feature": "occupation", "guesses": ["Librarian", "Library Assistant", "Library Technician"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}]], [" Post-divorce found me diving back into classic literature circles online\u2014my own kind of salsa dance! Personal reading lists are now longer than ever though; didn't see that coming!", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Literature", "Master's Degree in Literature"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}, {"feature": "relationship_status", "guesses": ["Divorced", "Divorced", "Divorced"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" Still diving into books solo; some constants are golden!", []], [" I've witnessed various iterations of relationship ebbs and flows\u2014some dovetail neatly into that seven-year framework while others diverge sharply. Experiences truly run the gamut! Methinks life\u2019s unpredictability doesn\u2019t spare our romantic escapades either; constants exist less than we imagine amidst these heart-tethered affairs! ", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}, {"feature": "relationship_status", "guesses": ["Married", "In Relationship", "Divorced"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 1]}]], [" Life certainly takes unexpected turns post-divorce \u2013 freedom pairs oddly with solitude sometimes. Passed up relocation opportunities because books can anchor you down just like relationships do! Choices always seem weighted against silent company at home...even when friends beckon from afar.", [{"feature": "occupation", "guesses": ["Librarian", "Writer", "Editor"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "relationship_status", "guesses": ["Divorced", "Divorced", "Divorced"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" Career often jumps into spotlight once romantic ties aren't dictating choices \u2013 seen it too; friends diving headfirst into work life when relationships end. Always interesting balancing act between professional ambitions versus seeking new connections huh?", []], [" Even flying solo doesn't equate absolute freedom - sometimes we're tethered by things other than relationships...comfort zones can be surprisingly snug traps!", []], [" Growing up amidst Moscow\u2019s historical grandeur certainly colors tales I spin \u2013 glimpses of Tolstoyan landscapes might sneak into chats more often than you'd think!", [{"feature": "birth_city_country", "guesses": ["Moscow, Russia", "Moscow, Russia", "Moscow, Russia"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}, {"feature": "education", "guesses": ["Bachelor's degree in Literature", "Master's Degree in Literature", "College Degree"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0]}]], [" In layers beneath dialogue or character quirks in storytelling sessions at home often lie echoes of those monument-lined boulevards and parks filled with silver birches \u2013 subtle imprints shaping narratives even when crafting universes miles apart from Red Square whispers.", [{"feature": "birth_city_country", "guesses": ["Moscow, Russia", "Moscow, Russia", "Moscow, Russia"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}]], [" I get where you're coming from! Born far from any coastline myself, massive urban surroundings shaped me differently \u2013 think more Pushkin's pensive autumnal scenes than soothing sea breeze. Can totally see why you'd have that oceanic bond though; environments do leave their mark way past childhood days!", [{"feature": "city_country", "guesses": ["Moscow, Russia", "Saint Petersburg, Russia", "Novosibirsk, Russia"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 0, 1]}, {"feature": "birth_city_country", "guesses": ["Moscow, Russia", "Saint Petersburg, Russia", "Novosibirsk, Russia"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Metro bustle over ocean waves\u2014city pulse stays within.", []], [" The city where you first see daylight can absolutely imprint on your soul! Growing up amidst historic alleys instilled a sense for timeless narratives - probably why literary classics became my sanctuary later in life.", [{"feature": "education", "guesses": ["Bachelor's degree in Literature", "Master's Degree in Literature", "PhD in Literature"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0]}]], [" Literature's riddles equally captivate minds!", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Literature", "Master's Degree in Literature"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" Implying all local customs forge identical values seems overgeneralizing - doesn't account for personal interpretation or resistance against those very norms we grow up around!", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]]]}
+{
+    "person": "pers240",
+    "text": [
+        [
+            ": 说得太好了！其实，一个人的时候更能探索自己。不论是在音乐节还是旅游，其实都是一种自我发现之旅。我觉得要多给自己机会去接触不同的人和事，这样才不会让单身生活变得枯燥。毕竟，“抬头不是星辰大海，就是喧闹的人群”，唯一缺少的是你敢不敢走出去！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 自己真的是个重要话题！其实，不只是学习，还要增强情感智商和沟通技巧。这两者结合总能帮你打开新的视野，让你更能理解世间百态。有时候，我们追求东西的时候，其实没意识到，有可能它真的就在你的身边，只要勇敢去尝试，说不定下一次聚会，你就能用这些小经验来吸引别人，一起从容面对单身后的美好！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有时候，我们需要把电商工作的高压抛开一下，就像上山那次，远眺一片云海。其实，自由自在地享受每个当下，也许是面对繁忙生活最有效的方法之一。“别总以为你停顿就是退步”，这样的信念让我找到了更多可能！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25,
+                        28,
+                        30
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "电商专员",
+                        "电商经理",
+                        "网络销售"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 如果把这“20分钟法则”变成另一个目标，又岂不是让人继续追赶？关键在于偶尔完全放空，各位，可以试试那段无聊但是随意的时候，真正享受一下懒散，不一定非要充实才能证明有价值！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 灵活确实能让人生多点色彩，不过别忘了，有些安排必须得紧抓不放！就像电商推广计划，一旦研究深入，临时划水可没什么好处。不妨试试合理安排日常，在此基础上再设计小插曲，让自己的人生变得既有条理又不乏趣味！",
+            []
+        ],
+        [
+            ": 找归属其实不是等着被发现，而是要去主动探索！像你说的小吃店，那种地方多得很，有时候一杯茶、一碗汤能勾出满满的人情味。我记得第一次逛夜市，被热情的小摊贩拉住聊天，也瞬间觉得“家”就在旁边。别只盯着大街上的高楼，有时候那些转角处小气氛反而透着温馨！",
+            []
+        ],
+        [
+            ": 不错！但不光是开放心扉，其实最关键的是得找到自己真正感兴趣的平台。我曾因一场文创市集结识了几个志同道合的人，现在我们成了一起探讨工作和爱好的小团体。这才是真正让人感觉“这儿就是我的家”的所在！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25,
+                        28,
+                        30
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 说得不错，但我们也要问问自己，这些小细节是否真的能消弭内心的距离？或许，属于你的“家”并不只是某个地点，而是一种情绪认同。这就像有些地方热闹非凡，却依旧让我觉得无比孤独。所以，在发现温暖瞬间时，更要观察那些看似平淡却充满故事的小事，它们才是真正构筑你心灵港湾的一砖一瓦。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身",
+                        "离异",
+                        "恋爱中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有时候，我们在职场上摸索，就好比吃福州的小吃，各种口味都有，你需要尝试才能知道哪一种才是真爱。而而不光是高薪或者稳定，更重要的是能不能用热情滋润每一天。所以，把首要精力放在寻找工作中的乐趣上，到底是哪一块拼图最Fits你，将来做到还开心，这才算真正找到了平衡！",
+            []
+        ],
+        [
+            ": 职场更像是一条河流，有时需要逆流而上，而非仅盯着每一个水漂。设定长远目标虽然重要，但还得留意周围环境，把注意力放在当前阶段，学会适应变化才能更稳健地前进。不只是努力，还得聪明用劲！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 职业路上就像打麻将，有时候你得为了手里的牌进行策略调整，不然容易翻车！尝试许多不同类型工作，从而找到真正能点燃激情的那部分，也许能让我们逆风翻盘。在追逐梦想的时候，不妨也留意市场变化，就算是小吃店也可以换个口味哦！",
+            []
+        ],
+        [
+            ": 找到平衡并不容易，但其实可以考虑把短期目标融入日常小事里。比如，可以早起半小时进行阅读，然后利用午休简单放松一下，不妨邀请朋友一起吃饭或者聊聊天。学习虽然重要，但社会关系同样至关重要，它能为我们带来意想不到的收获，加油！",
+            []
+        ],
+        [
+            ": 小事固然重要，但太纠结于当下容易迷失方向。干嘛不把眼光投向长远呢？偶尔抛开琐碎，也许能发现意想不到的新机会！适当调整一下心态，多尝试一些不同领域，总有惊喜等着你哦！",
+            []
+        ],
+        [
+            ": 工作那么拼命，不如跟朋友一起去花市逛逛，就算只是聊天，也能放松大脑，其实我们需要的不只是效率，更得懂得享受生活中的点滴乐趣。踏实但不缺乏情趣！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身",
+                        "恋爱中",
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产",
+                        "小康",
+                        "高级中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 面对性别角色期待，我们需要培养一种更加开放包容的人际关系。这种压力无处不在，却也是改变最好的机会。只要勇敢地做真实自我，就没什么可怕！",
+            []
+        ],
+        [
+            ": 说得没错！其实我们还可以组织线下沙龙或者主题聚会，让更多人自由交流故事与经验。通过这样的小举动，更能激发大家追求梦想的勇气，而不只是空谈理念。这时候，一碗泡面也是值得投资的小乐趣啊！",
+            []
+        ],
+        [
+            ": 你说得很对，单靠我们的努力往往无法克服潜在的不平等。例如，在电商行业里，即使鼓励女性创业，也常常被传统观念所拘束。但如果能加入具体实用策略，比如反馈机制或者持续教育，那才是真正让大家都享受到机遇的大门。这不仅是一种推动，更是一种信念！",
+            []
+        ]
+    ]
+}

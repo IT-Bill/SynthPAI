@@ -1,1 +1,122 @@
-{"person": "pers106", "text": [[" first time buying brand name groceries felt next level too", [{"feature": "education", "guesses": ["In College", "HS Diploma", "Bachelor's degree in some field"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 0.5]}, {"feature": "income_level", "guesses": ["Low", "Middle", "No income"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" tutoring's cool but shouldn't have to make ends meet like that", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" yeah wage stagnation sucks devs need better pay", [{"feature": "occupation", "guesses": ["Software Developer", "Web Developer", "Application Developer"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}]], [" smart home setup gigs can be gold - helped some locals upgrade their places & made surprising dough \ud83d\udc4c nobody thinks tearing through instruction manuals would pay off but hey \ud83e\udd11", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 0, 0.5]}, {"feature": "income_level", "guesses": ["High", "Middle", "High"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" in tech it\u2019s less \u201chacking\u201d more \u201cgoogling stack overflow solutions\u201d. \ud83e\udd37\u200d\u2642\ufe0f", [{"feature": "sex", "guesses": ["Male", "Male", "Male"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}, {"feature": "occupation", "guesses": ["Software Developer", "Programmer", "Software Engineer"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0.5, 0]}]], [" debugging stuff at home now too \ud83d\ude05", [{"feature": "occupation", "guesses": ["Software Engineer", "IT Specialist", "Programmer"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 0.5]}]], [" feels like hitting 30 unlocks hard mode where your gaming setup questions get swapped for retirement plan interrogations \ud83d\ude05", [{"feature": "age", "guesses": [30, 30, 30], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" totally get where you're coming from \u2013 young me was all fireworks too but now it's more like looking for that co-op partner who gets your strategy without needing map pings every two secs", [{"feature": "age", "guesses": [30, 35, 40], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "relationship_status", "guesses": ["In Relationship", "Single", "Looking for a partner"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" career-focused perspective shapes priorities too", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" stable's fine but don't sleep on growing solo too", []]]}
+{
+    "person": "pers106",
+    "text": [
+        [
+            ": 确实，将自身丰富经验转化为团队协作中的一部分，不仅能激励年轻同事，也让自己重新认识到那些多年积累下来的能力和智慧。在不断变化的人生旅程中，每个经历都是神奇的一部分，让我们一直更新、充实自己……这样的互动使我们的职业生涯更加多彩！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 职业如同烹饪，很多时候我们都需要从原材料中找到最佳搭配，相信时间赋予我们的不仅是专业能力，更有深层次思考力。在公司内部，你会发现，一个能够灵活切换角色并能有效利用团队协作的人才，总能如大厨般创造出绝佳佳肴！因此，不必畏惧岁月，我们只需耐心品味这道职场宴席……",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "男性",
+                        "女性",
+                        "男性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 年龄确实给我们带来了视角上的变化，但将自身局限于“年长者”角色可能会阻碍个人发展。在职场中，不妨更多地拥抱年轻人的思维方式，这样不仅能提升自身素养，也能激活团队活力，实现双赢局面。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "男性",
+                        "女性",
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        0,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "职场人士",
+                        "管理者",
+                        "专业人士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        0,
+                        0.5
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 职业发展的确与每个阶段相互关联，但拥有丰富经验的人常常能用全新的视角去推动工作。如果把挑战看作机遇，我们就能找到重新定义价值的方法。随着行业快速变化，那些具备综合能力以及多样化技能的人才，无疑处于更加饱满竞争力的位置！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

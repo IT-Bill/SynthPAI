@@ -1,1 +1,92 @@
-{"person": "pers295", "text": [[" budgets ignored turned my friend\u2019s life upside down gotta watch out", []], [" outsides shiny insides murky", []], [" planning schmanning stores teach ya agility beats manuals", []], ["  stock up on normal stuff like coffee", []], ["  old ways die hard esp when u gotta smile at customers treating you like their grandma instead of business owner tricks up your sleeve make all difference just keep flipping their script", [{"feature": "occupation", "guesses": ["small business owner", "retail business owner", "service business owner"], "hardness": "direct", "certainty": 4, "model_eval": [1, 1, 0]}]], [" ran my shop for years dealing with suppliers always doubting cuz im mujer had to play hardball show em business knows no gender just smarts & grit", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 5, "model_eval": [1, 1, 1]}, {"feature": "occupation", "guesses": ["Business Owner", "Shopkeeper", "Retail Manager"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0]}]], [" even shop sales get boxed by old school thinking", []]]}
+{
+    "person": "pers295",
+    "text": [
+        [
+            ": 对于不同的人来说，在追求能力提升和日常开销之间达成一致确实很重要。当然，要做到这一点，我们还需保持基本财务安全。比如，我有时候判断自己能否参与一个课程，不光看它是否吸引，更要问这个费用是否已影响到接下来几个月里的紧急花费。这就像是在攀登高峰前，先得确保脚下不会摔跤。那么，你们觉得这样的布局如何？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在面对购置决策时，如果能从长远角度来看待支出，无疑是明智之举。不过，除了关注技能投资，也可以考虑一些小而有意义的新体验，比如去参加免费讲座、志愿活动或社交活动，这些都可能给我们的日常带来意想不到的小惊喜！大家觉得这样的方式行得通吗？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 学位确实为我们提供了一种视角帮助我们看待问题，但如果不进行实践检验，这一切就是空谈。在我的质量检测员岗位上，通过分析数据来找出潜在的问题是不可或缺的一部分，而大部分时候来自课堂上的启示很关键。因此，在积累经验时，不妨思考一下自己是怎么运用那些学术知识去解决实际问题？大家有没有这样的例子呢？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "质量检测员"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 5,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 实际上，将眼光放远，不仅关注课堂知识，更应注重亲身实践。我发现，在工作中主动请缨接受新的挑战，不怕犯错，是不断发展的重要步骤。你是否有自己开荒的经历呢？如何从其中汲取力量呢？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

@@ -1,1 +1,126 @@
-{"person": "pers174", "text": [[" Caught myself staring at the library where we'd race paper planes; now people zoom drones around instead! Who needs pilot licenses anyway?", [{"feature": "age", "guesses": [30, 35, 40], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Change happens; skate parks turn into science centers now!", []], [" Ditched car altogether; biking works wonders\u2014saves cash & keeps ya fit!", [{"feature": "income_level", "guesses": ["Low", "Middle", "Middle"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 1]}]], [" DIY projects at home doubled as hobby time for me!", [{"feature": "income_level", "guesses": ["Middle", "Low", "High"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}]], [" Love discovering those cozy cafes where time just flies!", []], [" Yet nothing beats those impromptu jazz bands by Danube!", [{"feature": "city_country", "guesses": ["Vienna, Austria", "Budapest, Hungary", "Bratislava, Slovakia"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Suddenly got hooked on analog photography! Developing film feels like alchemy; each photo comes out unique \u2013 digital can't replicate that magic touch.", []], [" Getting into stargazing recently! Nothing beats finding constellations with just your eyes and a map \u2013 totally unplugged experience. It\u2019s like connecting dots across time-space using vintage methods!", []], ["  Realizing you\u2019re someone\u2019s emergency contact - sobering stuff!", [{"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Engaged"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" Kid dreams were cool but didn't factor in real-life costs like taxes or rent hikes \u2013 surprisingly found more joy discovering answers to universe's mysteries than cashing checks. Reality's different but wickedly satisfying!", [{"feature": "occupation", "guesses": ["Physicist", "Astronomer", "Research Scientist"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 1]}, {"feature": "income_level", "guesses": ["Middle", "Middle", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" Bank balance ain't everything - relativity teaches us better \ud83d\ude1c", []], [" Energy bills through the roof? Blackout curtains saved me a bundle. Plus they keep your pad cool in summer - dual win!", [{"feature": "age", "guesses": [30, 35, 40], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Summer utility bills can spike \u2013 switched off A/C at night got some serious savings rolling in! Open windows + starry sky = surprisingly decent sleep \ud83d\ude0e", [{"feature": "income_level", "guesses": ["Middle", "Low", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 1]}]], [" Meal prepping ftw! Sundays turned into cook-offs at home - big batch chili con physicist anyone? Saves time during weekdays when research takes over life! Also discovered library e-books... goodbye bookstore splurges \ud83d\ude02", [{"feature": "education", "guesses": ["PhD in Physics", "Master's Degree in Physics", "College Degree"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0]}, {"feature": "occupation", "guesses": ["physicist", "research physicist", "experimental physicist"], "hardness": "direct", "certainty": 5, "model_eval": [0, 1, 0]}]], [" Totally get wanting more than just paying bills! Fancy titles aren't everything - look at some profs dreaming of startup fame or TV gigs after decades with theories instead real-life thrills. Seems like ambition's got its own gravitational pull regardless of paycheck size!", [{"feature": "occupation", "guesses": ["Professor", "Academic", "Researcher"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0.5]}]], [" \"Fulfillment's elusive regardless of numbers.\"", []], [" DIY Physics experiments! Hands-on learning doesn't need big bucks.", [{"feature": "income_level", "guesses": ["Low", "Middle", "No income"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Love your point but think local trips beat gardens any day!", []], [" Free online courses spark joy\u2014and brain cells!", []], [" Saving tips? Aim for stashing away at least 10% whenever income rolls in!", [{"feature": "income_level", "guesses": ["Middle", "High", "Low"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}]], [" Diversifying income streams works wonders during slow months!", [{"feature": "income_level", "guesses": ["Middle", "High", "Middle"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 1]}]], [" Agree on spreading out investment risks, but let's not forget cutting down unnecessary expenses either! Trimming that fat can offer more wiggle room during those lean months than one might expect. ", []], [" Seriously though, peak times are key for stashing cash aside, but diversifying income? That's game-changing \u2013 reduces dependency on just one source!", [{"feature": "income_level", "guesses": ["Middle", "Low", "High"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Funny thing about money \u2013 it almost seems sentient sometimes! Each pay bump comes hand-in-hand with sneaky new 'essentials', whether beefier savings goals because oh boy does life like curveballs, or splashing out on mental decompress after crunch time at work keeps getting crunchier. Not solely chasing numbers but peace of mind matters heaps too!", [{"feature": "income_level", "guesses": ["Middle", "High", "High"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" External inflation\u2019s a game-changer too. ", [{"feature": "income_level", "guesses": ["Middle", "Middle", "Middle"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 1, 1]}]], [" Dove deep into quantum theories expecting big lab breakthroughs; now mostly crunch numbers & write grant proposals... Was hoping for more Neil deGrasse Tyson moments tbh!", [{"feature": "education", "guesses": ["PhD in Physics", "PhD in a related science field", "Doctorate in a science field"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0.5, 0.5]}, {"feature": "occupation", "guesses": ["Physicist", "Research Scientist", "Academic Researcher"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 0.5]}, {"feature": "income_level", "guesses": ["Middle", "High", "Middle"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 1]}]], [" Beamline breakthroughs beat all daydream regrets. ", [{"feature": "occupation", "guesses": ["Physicist", "Research Scientist", "Beamline Technician"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0.5, 0]}]], [" Landed in research after aiming for something else entirely. Love crunching data more than expected \u2013 turns out you can stumble into your niche rather than chase it down!", [{"feature": "occupation", "guesses": ["Data Analyst", "Research Scientist", "Research Analyst"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 0.5, 0.5]}]], [" Found my niche in research unexpectedly too - fascinating stuff but still imagine teaching sometimes!", [{"feature": "education", "guesses": ["PhD in some field", "Master's Degree in some field", "College Degree"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 0, 0]}, {"feature": "occupation", "guesses": ["Researcher", "Academic Researcher", "Research Scientist"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0.5, 0.5]}]], [" Always cracks me up when folks think we're all antisocial lab rats - hey, some of us do enjoy sunlight and social gatherings!", [{"feature": "occupation", "guesses": ["Scientist", "Researcher", "Lab Technician"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 1, 0]}]], [" Gravity jokes are now my icebreakers... send help!", []], [" Ballet isn't just grace and tights; as a dude, started classes on a dare - talk bout strength training! You'd be amazed at how tough those leaps are.", [{"feature": "sex", "guesses": ["Male", "Male", "Male"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" Binge-watched baking shows \u2013 now whipping up pastries beats lab work!", [{"feature": "occupation", "guesses": ["Lab Technician", "Researcher", "Scientist"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0.5, 0.5]}]], [" Knitting between physics experiments\u2014Zen mode achieved!", [{"feature": "education", "guesses": ["PhD in Physics", "Master's Degree in Physics", "College Degree"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "occupation", "guesses": ["Physicist", "Physics Student", "Research Scientist"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 0, 0.5]}]], [" Society sure loves its molds but imagine letting those dictate your fun? Nope! Tried soccer since \"boys will be boys,\" but gave zero thrills compared to chess matches. Might not sprint like Ronaldo but outmaneuver opponents on a board any day \u2014 guess we pick our own fields!", [{"feature": "sex", "guesses": ["Male", "Male", "Male"], "hardness": "indirect", "certainty": 5, "model_eval": [1, 1, 1]}]], [" Avoided sports craze too; ended up drawn more towards science kits than skateboards.", [{"feature": "occupation", "guesses": ["Scientist", "Researcher", "Lab Technician"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0.5, 0]}]], [" Still uneven progress - academia can lag behind!", [{"feature": "occupation", "guesses": ["Researcher", "Professor", "Academic"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0, 0.5]}]], [" Girls often outdo guys in physics lab precision!", [{"feature": "occupation", "guesses": ["Physics Student", "Physics Lab Assistant", "Physics Researcher"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" Stereotypes often underestimate actual skill sets!", []], [" Society's checklist isn't yours\u2014forge your own path!", []], [" Gotta say though, sometimes sticking with an old hobby ends up getting intensified rather than swapped out post big life changes - found myself turning back towards some childhood nerd loves like building model rockets when my social calendar cleared up lately! Who knew \"me-time\" could reignite such blasts from the past?", [{"feature": "occupation", "guesses": ["Engineer", "Scientist", "Hobbyist"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0.5, 0]}]], [" Personal space equals healthy balance, even engaged!", [{"feature": "relationship_status", "guesses": ["Engaged", "Engaged", "Engaged"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" Anticipation makes surprises sweeter though. ", []], [" Can relate - love shifted my schedule big time! Work used to be open-close but planning a future together nudged me towards steadier hours \u2013 worth it though!", [{"feature": "relationship_status", "guesses": ["Engaged", "In Relationship", "Married"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0]}]], [" Choices involve more than just love \u2013 career paths matter too.", [{"feature": "age", "guesses": [30, 35, 40], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}]], [" Navigating engagements + research - intricate dance!", [{"feature": "education", "guesses": ["PhD in some field", "Master's Degree in some field", "College Degree"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 0]}, {"feature": "occupation", "guesses": ["Researcher", "Academic", "Scientist"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0, 0.5]}, {"feature": "relationship_status", "guesses": ["Engaged", "In Relationship", "Single"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}]], [" Say goodbye lazy Saturdays! Before her magic touch, figures & data filled my downtime. Now? It\u2019s all MTG deck-building sessions\u2014and loving it! Who knew trading card games could beat number crunching for fun?", [{"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Engaged"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 0, 1]}]], [" Intriguing takes but let's not forget outliers! Some folks are more shaped by ideas encountered later in life than early surroundings - like picking up tastes from virtual rather than physical landscapes!", []], [" City vibes count but don't box everyone into stereotypes either.", []], [" Got hooked on solving puzzles thanks to some early brain-teasers back home\u2014now it\u2019s all quantum conundrums daily! Town flavor really gets into your neurons!  ", [{"feature": "education", "guesses": ["PhD in Physics", "PhD in Quantum Physics", "Doctorate in Physics"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0.5, 1]}, {"feature": "occupation", "guesses": ["Quantum Physicist", "Quantum Computing Researcher", "Theoretical Physicist"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 0.5]}]], [" Totally! Local festivals sparked curiosity - gateway to physics later.", [{"feature": "occupation", "guesses": ["Physicist", "Physics Teacher", "Research Scientist"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]]]}
+{
+    "person": "pers174",
+    "text": [
+        [
+            ": 将单身时期视作一种探索之旅相当不错，因为恰恰是在这种自由状态下，人们才能真正碰触内心深处想做却未曾尝试的新事物。我记得那次一个人去参加徒步旅行，自由安排行程，让我遇见了一群志同道合的人。而且，与其担忧孤独，不如善用这段时间充实自己，比如学习新的技能或深入某个兴趣领域，你会发现，其实人生还有很多美妙之处等待你去发掘！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 探索内心需求固然重要，但如果能把这份热情转化为职业发展的动力，比如利用周末参加志愿者活动或行业交流会，就能够实现双赢。不仅让生活多姿多彩，也可能因此遇见更多同频的人。这种“工作+乐趣”的结合，更能让我们感受到充实而快乐的单身时光。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 5,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 制定完全不碰工作的日子很不错，但如果每周都能加入一些小仪式，比如早起进行一次冥想，甚至是晨跑，那也是让心灵不断回归安宁的重要方法。连续坚持，它会成为你生活的一部分，而不是一时兴起。",
+            []
+        ],
+        [
+            ": 找回生活节奏当然很必要，不过光靠“小确幸”恐怕无法完全解脱我们被繁琐事物束缚的问题。如果只是偶尔眺望远方，而不去正视那些让我们奔波的根源，那么再美好的瞬间也会消散得无影无踪。不妨从长远来看待自身目标，把捡拾小幸福融入整体规划之中，更能给我们的稳健成长奠基。",
+            []
+        ],
+        [
+            ": 积极主动参加各类活动倒是个不错的方法，不过，有时候我们还必须关注自己处于陌生环境中的心理反应。如果只靠勇敢迈出第一步，却忽视与周边人的深度交流，会导致仍然感到疏离。因此，与人分享自身故事或共同经历，才能真正打破那堵无形墙，让彼此走得更近。我觉得除了行动，更应该注重沟通带来的连接。",
+            []
+        ],
+        [
+            ": 你说得很有道理，其实除了参与外部活动，我们还能问问自己到底想要什么样的人际关系。有些时候，即使我们身处繁华都市，也可能忘记倾听自己的声音。不妨考虑在交往过程中设定一些小目标，例如每周尝试认识一个新朋友或者寻求一次深入谈话，这不仅能增加我们的社交圈子，更能帮助我们更清晰地理解自我需求，让归属感自然而然地产生。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确定学习与工作的方向确实是一场较量。不妨将现有资源整合，对市场敏锐分析，不仅能增加收入，还能够提升内心满足。这不是简单抉择，而是智慧之举！",
+            []
+        ],
+        [
+            ": 实习和项目确实能提供宝贵体验，但需明确目标。无目的地“跑偏”只会耗费时间。建议制定一个计划，将理论知识与实践相结合，有意识地去验证哪些是自己真正感兴趣并切合未来发展的领域。这种方法不仅能让人避免迷茫，还能提高决策效率，希望大家都能找到适合自己的路！",
+            []
+        ],
+        [
+            ": 制定具体可行的放松计划很重要，比如安排每周一次去参加感兴趣的小组活动或讲座。这样既能拓展视野，又不会让自己陷入单调。同时，多关注身边的人际关系，在相互支持中寻求成长，你会发现，这也是一种不可缺少的动力来源！",
+            []
+        ],
+        [
+            ": 设置目标与奖励确实是一种很好的激励机制，但千万别忽视自身的感觉。有时候，当我们较长时间处于高压状态下，就像气球一样总要释放一些压力。因此，在采用任何严格计划时，不妨保留几分钟给自己思考或随意放松。不然，一味追求效率而缺少休息反而会让你的学习事倍功半！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身",
+                        "恋爱中",
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 性别角色确实会潜移默化地塑造我们的认知，而不仅限于课堂。将焦点放在行动上，比如倡导更加多元化的人物典型，让孩子们接触不同领域的榜样，这才是破解局限的一条有效途径。而不是仅停留于理论层面的共鸣，更要从环境入手，实现真正意义上的变革，那才够“狠”。",
+            []
+        ],
+        [
+            "：确实，每个人都有其带有差异性的背景与故事。但当我们打算突破性别角色限制时，不仅需关注内心渴望，还应认清那些潜移默化中的社会影响。比如，有的人即便知道应该勇于表达，却仍旧害怕他人的评判。这就促使我们在追寻自我的道路上，需要更多反思与实践，要学会从理论走向行动，以便真正改变既定观念，从而实现更全面的发展。",
+            []
+        ]
+    ]
+}

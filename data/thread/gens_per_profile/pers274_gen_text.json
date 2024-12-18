@@ -1,1 +1,139 @@
-{"person": "pers274", "text": [[" everyone's all 'adapt & thrive' with their indoor yoga or whatever - pretty sure my neighbors think i'm part vampire for not joining the hype around sunny days \ud83d\ude02 just give me grey skies and less small talk!", []], [" grayscale or sunny - motivation\u2019s not climate-controlled tbh", []], [" rainy day productivity? just doesn\u2019t click for me", []], [" more women at work but equal pay? still not seeing it", []], [" even biz admin studies show glaring gaps - frustrating times", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in Business Administration"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 1]}]], [" looks progressive till you hit glass ceilings", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "complicated", "certainty": 2, "model_eval": [0.5, 0.5, 0]}]], [" roles evolve sure but some old patterns stick hard", []], [" gender roles still holding strong here, just look at job ads.", []], [" growth's cool, pockets ain\u2019t ready though", [{"feature": "income_level", "guesses": ["Low", "Low", "Low"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], ["  hard agree - gotta build on something real first", []], [" honestly still waiting for those fireworks everyone talks about lol maybe too busy dodging bad dates and studying tbh but hey deep stuff sounds cool \u2013 someday down the road i guess", [{"feature": "age", "guesses": [22, 24, 26], "hardness": "complicated", "certainty": 2, "model_eval": [1, 1, 0]}, {"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 0.5]}, {"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}]], [" gold diggers aren't welcome guests at love\u2019s table either", []], [" real talk - joint netflix account level serious", []], [" yeah right... good luck with that ageing theory - more often you just end up with something bitter nobody wants at their party", []], [" fairy tale romance? too pricey for reality checks out here", [{"feature": "income_level", "guesses": ["Low", "Middle", "No income"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" heard love\u2019s tough but so is splitting rent", [{"feature": "relationship_status", "guesses": ["In Relationship", "Single", "Engaged"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" historical vibes totally shape our street norms too", []], [" cultural shifts are real eye-openers for sure", []], [" those \"whispers\" often lack real substance tho", []], [" definitely get you - thought massive malls were just typical until i saw some cozy downtowns abroad. makes you appreciate the little quirks from where you\u2019re from and all those new vibes too!", []], [" local forms habits n values you carry forever", [{"feature": "education", "guesses": ["In College", "College Degree", "HS Diploma"], "hardness": "complicated", "certainty": 2, "model_eval": [0.5, 0, 0]}]]]}
+{
+    "person": "pers274",
+    "text": [
+        [
+            ": 精彩的是，我们可以通过重新定义这些传统角色来促进彼此间更深的人际关系。然而，仅仅强调“共同负责”可能会掩盖问题根源。在一些背景下，性别期望依然存在，对两性的自觉选择有时被外界压力所削弱。因此，在享受合作同时，也要关注内因对人际联系塑造的重要性，从而才能建立真正平等而愉悦的相处方式。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            "：利用单身期思考未来方向固然重要，但适度地走出去面对真实世界也是必不可少的。有时候，与朋友聚会或者参加社区活动能够给你带来新的启发。在享受孤独的时候，也别忘了扩展你的社交圈，这不仅能让生活更加多彩，还能帮助你理解什么才是真正合适自己的人际关系。这种双重探索，其实相辅相成，可以共同促进个人成长。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在这样的时刻，面向自己内心确实至关重要。有时候，那些孤独的瞬间恰恰成为我们思考生活和设定未来目标的重要契机。比如，在一个没人的周末，通过写日记来整理自己的情绪，不仅让我认识到了自己的脆弱，也发现了一种释放压力的方法。这种参与让每次深夜良苦中的怀念，都逐渐演变为更清晰的人生指引。在这个过程中，自我是最大的盘点与收获！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 自由确实是宝贵的一部分，但需要意识到，它是一把双刃剑。在追求各种体验时，不妨设下一些小目标，比如每个月都去探索一个新的爱好或地方，这样不仅丰富生活，也能更清晰地认识自己。例如，有次参加一场建筑展览，让我重拾创作灵感，同时结识了一群志同道合的人。这种寻找与发现相辅相成，相信正是在这样的过程中，我们才能更接近真实想要的人生方向。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 行动当然有助于减轻孤独，但如果我们仅仅用外界刺激来掩盖内心的不安，那也许只是在逃避。试着给自己一些静默时间，与其说要充实自己，不如说正视那些未解的问题，这样才能做到真正意义上的成长。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 理想固然重要，但能否找到真正拓展自己边界的平台同样关键。有时，我们才发现自身飞翔能力受限并非纯粹源自心理障碍，更大程度上依赖周围环境。如果仅凭决心，无视现实，会让奋斗显得盲目。这是两者结合才能形成真正的发展空间。",
+            []
+        ],
+        [
+            ": 生于何处会塑造我们的初始印象，但不必被其完全绑住。走出舒适区，就像施工现场常要处理意外问题一样，让荣辱与共的新体验丰富生命内涵。记得有次项目调研，我们遭遇困难，却让团队成员重新认识彼此和各自能力。这种经历告诉我们：其实真正推动成长的不仅是目标，还有不断挑战自身边界所激发出的创造力与潜力。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚",
+                        "单身",
+                        "恋爱中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 城市确实不是我们成长中的唯一边界。在建筑行业里，我发现不同地区对于设计创新能力有着显著差异。有些城市因为地域限制，在材料获取或技术培训方面面临瓶颈，这无形中也制约了从业者的发展。而与此同时，那些具备开放合作精神的小型企业往往能找到各种渠道，通过网络交流实现跨区域协作。正视这些客观因素，让我们能够更清楚地制定职业规划，而不仅仅停留在人身上的努力。",
+            [
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "建筑师",
+                        "设计师",
+                        "建筑工程师"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ]
+    ]
+}

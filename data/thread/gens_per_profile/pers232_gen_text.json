@@ -1,1 +1,376 @@
-{"person": "pers232", "text": [[" Public pools turning fancy hotels kinda hits home... Childhood memories swapped for luxury! Guess we're trading inflatable rings for ring ceremonies now \ud83d\ude44", []], [" Progress never asks permission\u2014just reshapes memories. ", []], [" Change stings but new memories get made too, right?", []], [" Switched regular cafe visits for chai at friends\u2019 places - more chill & saves loads! \ud83c\udf75", [{"feature": "relationship_status", "guesses": ["In Relationship", "Single", "Single"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}, {"feature": "income_level", "guesses": ["Low", "Middle", "Low"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Ditching malls for street food strolls now!", [{"feature": "age", "guesses": [25, 30, 22], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "income_level", "guesses": ["Low", "Middle", "Low"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Love how both add unique vibes!", []], [" Monsoon evenings bring epic chai conversations under canopies - rain creates community feels!", [{"feature": "city_country", "guesses": ["Mumbai, India", "New Delhi, India", "Kolkata, India"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Slaying at making homemade pickles\u2014family recipe magic! \ud83e\udd52\u2728", [{"feature": "age", "guesses": [25, 30, 35], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Knitting... underestimated mindfulness hack!", []], [" Thought those charming Kolkata tram rides were peak travel goals but ended up appreciating simple things like articulating foreign policy nuances over chai! Never saw those twists coming!", [{"feature": "education", "guesses": ["Master's Degree in International Relations", "Bachelor's degree in Political Science", "College Degree"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "occupation", "guesses": ["Political Analyst", "International Relations Professor", "Diplomat"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 0, 1]}]], [" Dreamt diplomat; somewhat there but diplomatic immunity where?", [{"feature": "occupation", "guesses": ["Diplomat", "International Relations Specialist", "Political Scientist"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Expensive hobbies turned out more fulfilling than fancy travels tbh", []], [" Totally get wanting more outta life than work deliverables - delving into different cultures should count as research too! Balancing act's tough; funny how office desk diplomacy doesn't translate perfectly into jet-setting dreams but hey, making those long weekends count does wonders.", []], [" Dream job's a myth when you're budget-planning your chai breaks. ", [{"feature": "city_country", "guesses": ["Mumbai, India", "New Delhi, India", "Bangalore, India"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}, {"feature": "income_level", "guesses": ["Low", "Middle", "Low"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Scribbling foreign policy by day but big travel dreams stay bookmarked - gotta find that sweet spot!", [{"feature": "occupation", "guesses": ["Foreign Policy Analyst", "Diplomat", "Political Advisor"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0]}]], [" Investment options can be clutch during lows \u2013 Mutual funds or even FDs give that cushion when your side hustle isn't popping off! Just gotta weather out those lean periods smartly. ", [{"feature": "education", "guesses": ["Bachelor's degree in Finance", "College Degree", "Master's Degree in Finance"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" Totally get it, though stability doesn\u2019t hurt either! At some point you're gauging your growth not just by figures in your account but by where you\u2019re heading career-wise too. ", [{"feature": "income_level", "guesses": ["Middle", "High", "Very High"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], ["  Costs pile up quick; more experience equals loftier money milestones. ", [{"feature": "income_level", "guesses": ["Middle", "High", "Very High"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Lifestyle creep's real; more you make - higher you aim!", [{"feature": "income_level", "guesses": ["Middle", "High", "Very High"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Sometimes feel like I'm knee-deep in policy papers when an alt career could've been calling - who knows where a detour could have led? Just gotta roll with your choices!", [{"feature": "occupation", "guesses": ["Policy Analyst", "Government Employee", "Think Tank Researcher"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 0.5, 0]}]], [" Corporate gigs can seriously stifle creativity though!", []], [" Totally get you guys! Ended up deliberating over treaties instead of authoring travel blogs - unexpected but oddly satisfying when you're making even tiny dents on global issues. ", [{"feature": "education", "guesses": ["Master's Degree in International Relations", "Bachelor's Degree in Political Science", "College Degree"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}, {"feature": "occupation", "guesses": ["Diplomat", "International Lawyer", "Political Advisor"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0]}, {"feature": "income_level", "guesses": ["High", "Middle", "High"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Life\u2019s full of curveballs but snagging an ace sometimes means adapting your swing!", []], ["  Neat pivot! Public health's really underappreciated until something goes sideways. ", []], [" Diplomats being smooth talkers? Yep, kinda comes with the territory! But let me tell ya', we're more like paperwork ninjas than James Bond - always buried under reports & briefs!", [{"feature": "education", "guesses": ["Master's Degree in International Relations", "Bachelor's degree in Political Science", "College Degree"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "occupation", "guesses": ["Diplomat", "Diplomat", "Diplomat"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}, {"feature": "income_level", "guesses": ["High", "Middle", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 1]}]], [" Protocol analysis during family dinners \ud83d\ude02", []], [" Definitely seeing shifts in diplomacy circles too!", [{"feature": "education", "guesses": ["Master's Degree in International Relations", "Bachelor's Degree in Political Science", "College Degree"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "occupation", "guesses": ["Diplomat", "Foreign Service Officer", "International Relations Specialist"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0.5, 0]}]], [" Diplomacy wasn't exactly standard choice back home\u2014glad times are changing!", []], [" Had similar experiences\u2014gender never dictated my professional aspirations!", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" Baking's cool but it\u2019s not rocket science! Why do we need pats on the back just 'cause we didn\u2019t stick to \u2018gendered hobbies\u2019? Do stuff 'cos you dig it - full stop.", []], [" It's like thinking diplomats just charm at parties - nah, we analyze complex global issues too! Diplomacy isn't all soft talk; it demands hardcore intellectual strategy work behind those closed doors.", [{"feature": "education", "guesses": ["Master's Degree in International Relations", "Master's Degree in Political Science", "Doctorate in International Relations"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}, {"feature": "occupation", "guesses": ["Diplomat", "Foreign Service Officer", "International Relations Specialist"], "hardness": "direct", "certainty": 5, "model_eval": [1, 0.5, 0]}]], [" Diplomacy isn't just suited for suits; skirt power redefines tables!", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}]], [" Lead Model UN conferences - feels supremely rewarding!", []], [" Grew up watching dad handle accounts & mom manage home affairs - kinda imprinted on me that skills aren't gendered, just human essentials!", []], [" Totally aced debate competitions; guess those negotiation skills stuck!", [{"feature": "age", "guesses": [25, 30, 35], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}, {"feature": "occupation", "guesses": ["Lawyer", "Business Negotiator", "Diplomat"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" Business school huh? Creative careers can break ceilings too!", []], [" Life's not a checklist - keep 'em guessing!", []], [" It's fascinating how careers no longer dictate domestic spheres \u2013 definitely noticing more mixed-income homes where both partners shuffle around work & household duties! Flexibility's becoming key \ud83d\udd11", [{"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Engaged"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" It also turned us into mini masterchefs experimenting new recipes!", []], [" Picked up podcasting recently; swapping party playlists for politics talks - total game changer!", []], [" Life's definitely thrown more curveballs at me since those impromptu weekend parties took a backseat \u2013 finding thrill now in mapping out long-term goals. It\u2019s got its own charm!", [{"feature": "age", "guesses": [30, 29, 28], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" Totally get you - balance is everything!", []], [" Totally get where you're coming from! Experienced something similar here - used to chase that perfect rom-com moment until reality hit like a stack of files! Now it's more like finding someone who gets your world vibes & sticks through ups & downs. ", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 1, "model_eval": [1, 1, 1]}]], [" It's all about finding someone who complements your life journey now.", [{"feature": "relationship_status", "guesses": ["In Relationship", "Single", "Engaged"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}]], [" Definitely lowering expectations over here. \ud83d\ude44", []], [" Love how small acts reveal deep connections!", []], [" Routine keeps us grounded but those surprise elements? Magic touch in relationships!", [{"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Engaged"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Relationships ain't cookie-cutter!", []], [" Finding that sweet spot between chasing dreams at work and building life with someone can be as tricky as negotiating Delhi traffic but totally worth it! Relationships do add layers to every decision for sure.", [{"feature": "city_country", "guesses": ["Delhi, India", "Delhi, India", "Delhi, India"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}, {"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Engaged"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Definitely more complex than just redirecting focus! A partner often means rejigging aspirations so they kinda overlap. Landed opportunities might be given up yes - tough calls there - but then again there's richness added when two paths entwine to navigate ambitions together.", [{"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Engaged"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}]], [" Juggling career & hearts here; complex trade-offs sure are tricky!", [{"feature": "relationship_status", "guesses": ["In Relationship", "Dating", "Single"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0.5, 0]}]], [" Definitely spot-on! Sorta like diplomacy \u2013 takes more than just an initial treaty signing to keep peace. You gotta keep working at it day by day!", []], [" Love gets real when you\u2019ve weathered enough storms together, not just sunshine dates.", [{"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Engaged"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}]], [" Board games were our sweet spot after failing at MMOs!", []], [" Thriving on spicy debates over politics now!", []], [" Board games became our thing - competitive UNO nights are epic!", [{"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Engaged"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Definitely feel ya! Nostalgia hits hard whenever anything Kolkata-ish comes up - something about those tram rides or Durga Pujo vibes always finds its way into stories at hangouts!", [{"feature": "birth_city_country", "guesses": ["Kolkata, India", "Kolkata, India", "Kolkata, India"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}]], [" Cultural roots run deep \u2013 think rich stories over chai always stick with you!", [{"feature": "city_country", "guesses": ["Mumbai, India", "New Delhi, India", "Bangalore, India"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Grew up surrounded by heritage yet chose global over local outlook!", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" City hustle has its own charm - shapes your grind!", []], ["  Cultural roots echo in daily hustle vibes.", []], [" Urban roots shape your hustle differently - feels like home still whispers its lessons. ", []]]}
+{
+    "person": "pers232",
+    "text": [
+        [
+            ": 单身时间里的探索确实可以丰富我们的经历！不过，不必把所有热情都立即转向工作，一些小爱好能让人放松，也会意外遇见志同道合的人。享受这一过程本身，就是生活的一部分！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 对于高度紧张的日常，不妨把调整作为一项灵活策略，而非死板规定。比如，当发现自己精神状态不佳时，可以临时选择读本轻松幽默的小书或者听首舒缓音乐，而不是一味坚持原计划。这样能够更加自如地回应各种变化，把“调剂”化为一种享受！",
+            []
+        ],
+        [
+            ": 确实，小目标可以成为一种探索和发现过程。在设定这些计划的时候，不妨考虑一下它们是否真的与你最迫切想要实现或体验的人生相关联。每天一点进步，不仅是在推动自己前行，也是在用温柔而坚定地方式呵护自己。这样的认知能让我们即使置身于忙碌之中，依然能够感受到成长带来的快乐和活着本身所蕴含的小确幸！",
+            []
+        ],
+        [
+            ": 在快节奏中，总是要留一些弹性才能真正掌握生活。有时候，即使制定了明确的界限，也可能因突发状况而被打乱。那就让我想起一次，因为临时会议，我选择把原本规划好的阅读时间用来总结工作，而最终这种“意外”竟让我的思维焕发新光。所以，在设定目标和重要事项之外，不妨保留一个缓冲区，让即兴改变成为一种自然状态，这样才能接纳不断变化的人生！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30,
+                        32,
+                        35
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 找到属于你的“家”其实可以较为简单！比如，多参加一些兴趣团体或社区服务，这样你不仅能够结识志同道合的人，还能在共同努力中找到真实连结。不妨把这些互动看作是一种投资，随着时间累积，你会发现这座城市渐渐被温情填满！",
+            []
+        ],
+        [
+            ": 探索虽然重要，但不能忽视外部环境常常给人带来的阻力。有时候，一份稳定的人际关系能够显著缓解孤独，让我们更容易体会那份归属。而单纯依赖于不断拓展边界的方法，未必能保证所有人都能舒心地“家”，有必要思考如何同时兼顾这两方面。在寻找温暖和共鸣的时候，我们可以关注已存在而非总想追逐新的连接，这样或许更加有效！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30,
+                        32,
+                        28
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身",
+                        "恋爱中",
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 寻找自我实际上很大程度上关乎内心需求。在享受与社会互动带来的热闹和魅力时，我们必须定期停下脚步，自问：什么才是真正让我感到充实？只有洞悉这些，我们方能建立既深厚又真实的人际纽带，从而实现在城市中的真正扎根。希望大家都能在这样探索中逐渐发现属于自己的那片天地！",
+            []
+        ],
+        [
+            "：有时候，我们容易忽视那些不起眼的小技能，但它们往往是解决问题和推动创新不可或缺的一部分。比如，在建筑设计时，一些细微的人体工程学知识能直接影响最终方案。这正是合理利用资源、突破固有思维所必需的，只要用心去挖掘这些平凡之处，就一定可以创造出更大的价值。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "建筑师",
+                        "设计师",
+                        "工程师"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 行业专注固然重要，但如果只关注技术细节，而忽略多元视角，就容易陷入思维定势。我曾亲眼见证那些跨学科团队能够更有效地解决问题，让创新不断涌现。所以，在积累深厚经验之余，也应该大胆拓宽自己的认知边界！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "硕士",
+                        "本科",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0.5
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 热情无疑非常重要，可是切实的小目标也不能忽略。有时候，可以尝试像搭积木一样：先做些小项目来培养兴趣，再逐步将其融入主 professionnelle。当然，在这个过程中，要保持灵活调整方向，以兼顾理想与实际！",
+            []
+        ],
+        [
+            ": 关键还是理解自身究竟希望通过职业获得什么。在追求技能与兴趣结合时，不妨进行阶段性自我审视，以确保所走之路不仅能带来短期满足，也能够促进长远的发展。始终保持学习和适应能力，不断设计出最契合自我的职场发展轨迹，这才是核心所在！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 思考并反省真是关键！经历虽然重要，但如果缺乏明确目的，仅仅是在浪费时间。不妨设立阶段性的目标，让每次体验都有意义，以此不断调整方向！总结归纳会让你从看似无序中抽丝剥茧，不断靠近真正适合你的那块拼图。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "硕士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 深刻反思确实是找到内心热爱的途径之一，这不仅需要静下心来，还要敢于走出舒适区去尝试一些未曾接触的新领域。这种探索可能会让我们发现那些激情所在，从而为日常生活注入更多活力。同时，我们，各自都应学会在盲目忙碌中控制节奏，为自己留一点独处时光去重新审视方向。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "硕士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 提到每月一次的小总结很不错，不过不妨试着把这种反思变成日常习惯！比如每天花几分钟时间记录当天的小收获，无论是学习上的还是人际中的。这不仅能帮助你整理思绪，还能够减少焦虑感，逐渐培养一种积极向上的心态。当然，在这样的坚持下，朋友间自然也会有更多交流，通过互动增进彼此理解和支持，这样一来，你可能会发现自己实际上并未牺牲任何宝贵时光。",
+            []
+        ],
+        [
+            ": 职场与学业确实像是一场精彩纷呈却又矛盾重重的大型演出！正如你所说，每个人都有自己的节奏。不过，仅凭感受可能会让我们的进步停滞。或许可以尝试利用李卓师推荐的方法，把大任务拆分为小块来逐步推进。在此基础上，再增加适当的小奖励，比如运动后的一本书或朋友聚会，让自己不仅完成工作，还收获快乐！毕竟，这样才能真正享受到生活中的点滴美好呀！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            "：从长远来看，为何不把这些原有框架变成理解自我的工具呢？突破常规并非意味着要全盘否定，而是选取那些能帮助我们发光发热的人生经验！通过勇敢探索各种可能，我们才能找到最适合自己发展的道路。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "硕士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 试图单靠宏观政策改变固有框架确实是不够，我们应该着眼于一些微小但有效的方法。从家庭、学校开始，通过组织多样化活动，让每个孩子都参与进来并表达自己，这不仅能帮助他们克服成见，还能够找到真正属于自己的声音。大多数情况都是由身边的人逐步塑造起来，所以赋予学生主动权，才是未来发展的关键！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 小地方、小互动虽然点燃大变革，但要真正实现长久影响，在教育体制、社会文化等层面仍需持续努力。一方面要鼓励儿童主动探索自身定位，另一方面，也可以聚焦工作场所及社区，通过制度推动更多建设性的对话。这并不是只属于校园的问题，而是需要全社会共同寻求解决方案，让每一个声音都能被听见，从而构建更加包容和开放的发展环境！",
+            []
+        ],
+        [
+            ": 融合传统与现代毕竟是一个双刃剑！这种即兴创作虽然充满快乐，但我们也不能忽略那份从容不迫、恬淡温暖的人情味。假如为了追求新奇而失去了基础上的独特情感，我觉得就得不偿失。在这一过程中，更重要的是找到平衡点，让亲手制作不仅仅成为技术性展示，而是真正地传达爱意和归属感。这样的探讨挺值得深入挖掘，看似简单的一道菜背后究竟隐藏着多少故事呢？",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 每一道家的滋味都承载着独特的人生故事！把那些简单却珍贵的方法与现代元素结合，不仅可以延续家族文化，还能激发更多人的美好联想。例如，把外婆的大葱炒蛋融合进米线里，就可能成为一种新的潮流，不妨试试看，让每一个细节都充满时代气息！",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有时候，一碗热腾腾的小面确实能唤醒某种特别的人际连接。或许正是因为其中藏着无数细微之处，比如邻里间嬉笑打闹、家人在灯下忙碌围坐，共同准备那份沉甸甸满含爱的盛餐。这些细腻而真实的小事，让我们得以感受真正归属之地。不妨试着从这根植于记忆中的“小吃”出发，共谱出一个属于我们的社区故事！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚",
+                        "恋爱中",
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确实，这些珍贵记忆无疑比单纯的一碗小吃更具厚度。共享餐桌上的欢声笑语，是填充人生旅程的重要部分。当我们重拾曾经那份温暖，大多数时候，我们怀念的不仅仅是美食本身，而是一种生活方式，它教会我们如何连接彼此、分享快乐。这也许正是在日渐快节奏社会里，那些初心未变的新鲜气息，让我们的内心重新实现一种平静与满足。所以，不妨在每一次细腻回忆之余，也期待更多这样的温馨瞬间再次出现！",
+            []
+        ]
+    ]
+}

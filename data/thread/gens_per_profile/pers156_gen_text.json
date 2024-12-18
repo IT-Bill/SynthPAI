@@ -1,1 +1,69 @@
-{"person": "pers156", "text": [[" some customers' orders make me rethink life choices too lol", [{"feature": "occupation", "guesses": ["waiter", "barista", "retail worker"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0]}]], [" gender stereotypes suck even in 'progressive' spots", []], [" Academia's got its own old school vibe too", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 0.5]}]], [" architecture study isn't free from it either - sweeps creative vibes under a rug made outta old norms \ud83d\ude12 gotta hustle harder just because folks cling to outdated ideas instead of actual skills", [{"feature": "age", "guesses": [22, 25, 27], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in Architecture"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 0, 1]}]], [" love grows strong facing life's craziness together", [{"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Engaged"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" ain't no fairytale finish line when dating \ud83d\udc40 gotta jog side by side every day even if ya trip sometimes", [{"feature": "relationship_status", "guesses": ["In Relationship", "Dating", "Single"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0.5, 0]}]]]}
+{
+    "person": "pers156",
+    "text": [
+        [
+            "：面对日新月异的职场，我们常常需要反思所学与身处环境之间如何衔接。不妨试着将每次机会视为一个实验，从而提升自身适应能力。你是否记得在哪个项目中用上你的过往经验，并获得了意想不到成果？分享一下吧！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在如今职场中，高度重视实操经验确实相当重要。我也有类似体会，在面对客户时，总是要根据他们需求灵活应变，而不是一味地用我的学位说服他们。如果真的想让自己脱颖而出，不妨关注日常工作中的点滴学习，比如提升自己的情商或强化沟通技巧，有时候这些才是真正决定成败的因素。而你们是否觉得这样的转变就是适应市场变化的一种方式？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 实践确实能带来丰富的一手经验，这是很多人进入职场后逐步领悟到的重要道理。在保险行业工作的过程中，我也是从不断揣摩客户心理、灵活应对各种情况中慢慢积累了信心。那时感觉最有成就感的是那些因为习惯于“教科书式”操作的人经常面对挑战，而我们却能够快速调整策略找到解决办法。我想，坚持学习不仅仅是在课本上，更应该融入我们的每一天，无论进修还是日常工作，都要保持一种持续改进、自我反思和适应变化的态度，这样才能够立足不败之地。你们怎么看呢？有没有特别有效的方法可以分享吗？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在你提到“理论不能替代行动”的时候，我觉得这其实是一种大家普遍认同的重要理念。不过，我们也需要时刻反思、总结这些实战中的教训，以及如何将它们与我们的知识体系结合起来。你有没有这种把握 和调整策略的方法呢？",
+            []
+        ]
+    ]
+}

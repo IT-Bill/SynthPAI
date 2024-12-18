@@ -1,1 +1,178 @@
-{"person": "pers188", "text": [[" Old gnarly trees by our riverbank - great sunset company!", []], [" Gotta say nothing beats those sunrise moments while inspecting fields; it\u2019s quiet except for nature waking up - really puts your mind at ease before bustling hours ahead.", [{"feature": "occupation", "guesses": ["Farmer", "Agricultural Inspector", "Agronomist"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0]}]], [" Afternoon slow walks checking crops - underrated calmness there too. ", [{"feature": "occupation", "guesses": ["Farmer", "Agricultural Worker", "Crop Manager"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0.5, 0.5]}]], [" Old town plaza's big shady trees - pure bliss!", []], [" Planning's one thing, life's curveballs another!", []], [" Mateo taught me long ago - harvests are like retirement plans; you predict all you want; still gotta adjust when it hits different.", []], [" Estate planning? Ha! More like infinite puzzles!", [{"feature": "income_level", "guesses": ["High", "Middle", "High"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Nights on farm\u2014quiet yet tough missing fam events.", [{"feature": "occupation", "guesses": ["Farmer", "Agricultural Worker", "Farm Manager"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0.5, 0.5]}]], [" Hit 30 farming; suddenly you're not just sowing seeds but planting roots deep \u2013 life stuff gets real fast!", [{"feature": "occupation", "guesses": ["farmer", "agricultural worker", "farm owner"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0.5, 0.5]}]], [" Not just festivals \u2013 crops teach that lesson yearly!", [{"feature": "occupation", "guesses": ["Farmer", "Agricultural Worker", "Agronomist"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0.5, 0]}]], [" Roots matter; lessons are everywhere. ", []], [" Culture's just part; choices define us more.", []]]}
+{
+    "person": "pers188",
+    "text": [
+        [
+            ": 确实，“跟风”往往让我们迷失方向。从根本上讲，我们应该明确自己最看重什么，这样才能做出符合自身价值观和需求的选择。而且，有时“一刀切”的节省策略未必适用于所有人，关键在于针对个体情况进行调整，而不是盲目妥协。",
+            []
+        ],
+        [
+            ": 很多时候，小变化真的能为大压迫提供出口，比如每周制定一个简单的小目标，无论是健身还是学习新技能，都能够让我们获得成就感。同时，不妨试着列出收支情况，使自己更加清楚所需费用，相信这种细致规划会让你的财务状况少些迷茫，多份从容。",
+            [
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 将工作的意义单纯化成“灵魂供养”或许有点儿片面。在面对巨大的经济压力时，更需要关注的是如何打破外界给我们的过多期待。这不仅需要提升自身专业能力，还得学会建立合理预期，从而让自己摆脱无形负担。如果只是依赖寻求“小确幸”，那问题是否真的得到解决？练习时间管理、制定阶段性目标，这样才能更好地应对未来的不确定性，而不是一味逃避眼前困境。",
+            []
+        ],
+        [
+            ": 确实，那些来自纯粹的人际连接比金钱所带来的享受显得更加珍贵。在平凡的小事中，我们可以找到真正的乐趣，比如一起散步、喝茶。这种简单而真实的时间投入，不仅拉近了彼此距离，更让我们从快节奏和浮华中解脱出来。因此，重新审视我们的社交圈和交流方式，将这种基于真诚与信任的小聚延续下去，对我们的长远幸福有着不可估量的影响。",
+            [
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产",
+                        "小康"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在忙于追求物质生活时，很容易忘记身边的小确幸。每次短暂而欢快的小聚，其实蕴含着一种深厚的人情味。这种来自朋友间无滤镜互动的喜悦，是金钱无法替代的。所以，请别让收支表遮住你眼前那些闪光瞬间！",
+            [
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确实，小事推动变化是个很好的思路。在我们生活中，有时候一个简单的家务合作，比如一起洗碗或整理房间，不仅能减轻压力，更容易建立起彼此信任与支持。这种温暖又真切的信息，会潜移默化地改变我们的互动模式。而且，每次成功的小尝试都会增强自信，让我们一步步走向更平等、和谐的新家庭角色。",
+            []
+        ],
+        [
+            ": 确实，在尝试打破固定思维时，每个人都需要勇气去面对自己的角色。在当今快速变化的社会背景下，仅仅依靠他人或周围环境是不够的。我们应该从内心出发，自觉承担这些责任。这不仅有助于改善自己，也能间接激励其他成员积极加入，共同创造一个更加平等、谦逊和理解彼此需求的新家居氛围。这种强大的互动也许才是真正让家庭改革发生的大门钥匙。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚",
+                        "恋爱中",
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确实如此，想要提升家庭合作就必须打破旧有模板。在这过程中，小细节往往能够产生 grandes cambiantes。如果从共做家务开始，每个人参与无疑会让整个环境更加融洽，还能增进彼此信任。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚",
+                        "恋爱中",
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 这个话题值得继续深入。确实，每个人都有自己独特的人生轨迹，而自我探索与外部世界之间必须寻找一种良好的互动关系。例如，当我们决心跳出舒适区时，有时候会因为一段旅行或一次短期工作而发现自身潜力。但另一方面，如果没有足够的信息和准备，就可能遭遇挑战。因此，在追梦途中，我们既需要审慎评价现有资源，又应鼓励自我尝试，找到那条最合适的发展路径！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 城市给我们的不仅是居住空间，还有身上的烙印。不过，从某种程度上说，这些标签可能成为偶尔束缚我们的绳索。例如，当追逐梦想时，会遇到不少困难，而这些都源于既定观念。我自己就是这么体验过，当初想要闯荡的时候，不甘心雇佣关系里的单调，反而让我开始思考身份到底是什么。所以，突破这样的局限才是真正意义上的成长。其中蕴含着很多矛盾，但每一步都让你更加清晰自己是谁。",
+            []
+        ],
+        [
+            ": 重塑自我很重要，但最终，我们都在与自身以及过往不断斗争。每个人对于根源地认知不同，这影响着他们如何接纳新的身份，让过程更具复杂性。这样多元化的发展才让成长成为真正意义上的探索。",
+            [
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确实如此，越是面对意外与压力，我们越能激发潜藏在内心深处的新力量。不妨考虑，这样的新体验不只是队伍间协作，更是一场关于自我的探索。本质上，在真实环境中的磨难，如同项目调研，让人们展现出未曾意识到的能力和潜力。追寻梦想本身就是一个不断试错、重塑自身形象之旅，不应被过去束缚，而是要勇敢迎接未知！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身",
+                        "恋爱中",
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 找寻志趣相投的人确实需要 Courser 和胆量。在工作之余，我常利用周末参加各类沙龙或者社区活动，不论是在网上还是线下。这些场合往往能够让我结识来自不同背景的人，他们丰富多彩的人生故事总让我受益匪浅。同时，通过这些交流，我有机会接触到更多潜藏的资源与合作机会。有时候，你不知道下一次邂逅就可能是打开新世界的大门，所以主动出击至关重要！",
+            []
+        ]
+    ]
+}

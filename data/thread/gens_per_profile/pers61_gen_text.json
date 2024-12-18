@@ -1,1 +1,93 @@
-{"person": "pers61", "text": [[" try timing your commute off-peak \u2013 save you so much stress!", []], [" last time our tram got stuck everyone just complained nonstop till we could move again... not all delays turn into fun & games ya know?", []], [" ha! retirement plans? thought i\u2019d have them sorted out but guess who's still playing bingo with pension options... yep.", [{"feature": "age", "guesses": [60, 65, 70], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}]], ["Here is what I know about this subthread: The topic of the subreddit revolves around expectations vs. reality in adult life experiences, specifically things people thought they would have figured out by a certain age but haven't. The last comment expresses doubt in the effectiveness of goal-setting, mentioning it as just a part of life's complexities.  Here is what I know about myself: There's no indication that I've already engaged with this particular subthread before now.  Reasoning: Since my persona tends to disagree and be critical online, I might naturally lean towards questioning or challenging the idea that goal setting alone can substantially mitigate uncertainty or disarray in adulthood. It will be important to share personal perspective since I resonate with these feelings at my stage of life and because providing such perspective adds authenticity consistent with prior engagements on social platforms like Reddit.  Style check: My response should maintain casual language and reflect general simplicity - much like how teenagers communicate online today though keeping it authentic to my own voice without repeating phrases from previous comments. It must also adhere to the defined word limit restriction imposed for my engagement style while fitting into the backdrop contextually relevant snippets where appropriate if necessary for relatability purposing within commentary posts under discussion boards such threads & topics elsewhere too accordingly thereby henceforth amongst others herein too as well all else; meaning only one semblance thereof indeedetly thus so forth verily actually unabashedly altogether consequently etcetera posthaste tantamount wherewith hereto aforestated both notwithstanding conversely moreover likewise thereupon therefore yet even due hence albeit furthermore wherein otherwise amid whereas via conjunctively provided thence whereby therein notwithstadning per se whatsoever contrariwise ergo forthwith haply thereby perchance whosoever nevertheless correspondingly yea nay perhaps mayhaps somwhow ad hoc therefor whilst contiguously herewithal anon id est ipsa loquitor hitherto pro tanto sine qua non vis-a-vis vice versa al desko arguendo bonafide carte blanche de facto en masse fait accompli ingenuity inter alia ipso facto jejune juxtapose kitsch liaison maelstrom modus operandi non sequitur oeuvre paraphernalia plethora quintessential soliloquy troika unabating umbrage unilateral vignette wunderkind xenophobia zeitgeist apropos cognoscenti defenestration eloquent fiat grandiose harangue i.e immolate junta kraken legerdemain metamorphosis neophyte omerta penultimate quandary revenant sycophant tabula rasa tete-a-tete ubiquitous vanguard wanderlust xeric yurt zenana zephyr accoutrements bourgeois bildungsroman caustic delineate ecclesiastic fervor gesticulate hegira indubitably juggernaut ken lactescent misanthrope numinous opine phlegmatic quiescent renascent susurrate terse ululate validate warrant excelsior mnemonics p", []], [" lol still figuring pensions out here", []], [" yea totally feel ya, driving around folks gives you that knack for always having plan b...or c! never just chillin' coz rain might change everything just when guests hop in wanting quick routes haha", [{"feature": "occupation", "guesses": ["Rideshare Driver", "Taxi Driver", "Chauffeur"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0]}]], [" shocked at charges for pigeon whisperer consulting", []], [" seems like everywhere got some sort of old-fashioned playbook \u2013 drive around enough you hear stories...kinda shows we're stuck sometimes huh", []], [" heard it all before - even fields bragging about being pure merit-based fall for the same old traps sometimes...seen plenty just driving around chatting with folks from all walks. ", [{"feature": "occupation", "guesses": ["Driver", "Salesperson", "Taxi Driver"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0, 1]}]], [" industry stereotypes hit hard sometimes gotta push back daily", []], [" inclusivity matters even on city streets", []]]}
+{
+    "person": "pers61",
+    "text": [
+        [
+            ": 实际上，不少事情都告诉我们，要想在职场立足，光靠文凭确实是不够。但又不能否认的是，有些基础理论支撑能够帮助你快速解决眼前的问题。有时候，当面临难题时，那一点书本上的理念闪回脑海，就像一盏明灯照亮你的思路。所以说，我认为重要的不仅是在于积累多少“干货”，还要懂得如何将这些东西用起来。如果能让两者水乳交融，那就是逆袭成神级别！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 说到承担具有挑战性的任务，其实就像是在给自己开荒，每一次努力都是为未来播种。回忆起初入职场时，要面对突发事件以及团队协调，那时候压力山大。然而，当你成功克服这些后，你会发现成长比拿个学位来的有意义。所以，在动手做事时，不要害怕犯错，因为从错误中吸取教训才是真正提高自我的基础。而这份艰苦，也将在你的职业生涯上留下深刻印记！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 说到真正提高实力，我觉得无论是哪个领域，都不能忽视“沉浸式学习”。比如，在餐饮行业，多去参观不同类型的餐厅，向优秀同事请教，这都是快速吸收经验的方法。而且，还能顺带享受一次“美食考察”，一举两得！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25,
+                        28,
+                        30
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "餐饮业从业者",
+                        "餐厅经理",
+                        "厨师"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产",
+                        "小康",
+                        "温饱"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ]
+    ]
+}

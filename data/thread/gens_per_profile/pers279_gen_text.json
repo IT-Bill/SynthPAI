@@ -1,1 +1,149 @@
-{"person": "pers279", "text": [[" Society's playbook for adulthood? More fiction than fact!", [{"feature": "age", "guesses": [25, 30, 35], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}]], [" Bet most \"adult experts\" are wingin' it heavy too! ", []], [" Cat jungle gym...cats don\u2019t even hunt jungles!", []], [" In editing too! Had folks second-guess decisions 'til proof's literally published. Showing up quality work consistently opened doors though!", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in English", "Master's Degree in Journalism"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 1, 0]}, {"feature": "occupation", "guesses": ["Editor", "Proofreader", "Copy Editor"], "hardness": "direct", "certainty": 4, "model_eval": [0.5, 0, 0]}]], [" Tough when you spot plot holes wider than O'Connell Street but somehow pointing 'em out means you're \"just not getting it\". Maybe they'd prefer if we just nodded along? But hey, someone's gotta call out the emperor\u2019s new clothes!", [{"feature": "city_country", "guesses": ["Dublin, Ireland", "Dublin, Ireland", "Dublin, Ireland"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]]]}
+{
+    "person": "pers279",
+    "text": [
+        [
+            ": 面对生活选择，我们常常容易被“转型”这个词诱惑。在某些情况下，更加关注手上的工作和扩大局部影响力，可以是稳妥又有效的发展策略，有助于获取更长久且扎实的成果。不妨先把现有资源运用到极致，再考虑是否需要跑去追逐那些未知的新路途。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 探索确实重要，但面对现实时，有些冒险必须谨慎考虑。在职业发展中，如果过于冲动，很可能不仅赌上努力，还影响未来机会。不妨结合现有知识，用数据指导决策，提高成功几率！",
+            []
+        ],
+        [
+            ": 灵活确实能为我们的选择带来不同层面的启发。在职业发展中，我也逐渐意识到，有时候偏离原计划会让我看到意想不到的新机会。例如，在日常工作之外参与了一些项目扩展自己，从而开辟出新的兴趣领域。这样的变化让我体会到了人生的不确定带来的乐趣——偶尔放下固定心态，会创造很多令人惊喜的发展方向。所以，要勇于尝试，而非拘泥于既定轨道！",
+            []
+        ],
+        [
+            ": 成长常常是调整自己的步伐。在生物工程领域，我们必须紧跟科技进展，有时候抓住机遇比沉浸于回忆过往更能促成实际改变。如果总是以他人的轨迹为标尺，很容易错失属于自己的辉煌。所以，不妨也给自己加点速，让未来更多元。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "生物工程师",
+                        "科学家",
+                        "研究员"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 成长固然需要不断挑战自己，但别忘了扎根于曾经学到的东西。有时那些回首过往带来的沉淀，比盲目的向前冲要珍贵得多。让我们慢下来，好好消化每一次经历，再一起继续探索未来！",
+            []
+        ],
+        [
+            ": 成长真的像调试系统，有时候需要不断实验并调整方法。在这个过程中，我们不仅要欣赏沿途的小成就，也要从每次失败中汲取教训。个体潜力常常是在合作中显现出来，一起攻克难关，让彼此变得更强大。这就是为什么，与其担忧自身脚步是否比他人慢，不如认真踏好自己的路，每一步都将成为未来成功的一部分！",
+            []
+        ],
+        [
+            ": 在这里，有一个关键点是如何主动寻求实习或项目经历来补充课堂学习。我记得初入职场时，对于理论与实践之间那种悬殊感是很困惑。但慢慢发现，把所学运用于真实情况，不仅提升了能力，更让团队信任你，从而打破光环距离，让自身技能真正发亮。所以，积极追求各种机会去磨练自己的技巧，会比单凭文凭更有效！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            "：确实，对于许多岗位来说，仅有高等学位是不够的。在我的生物工程项目里，我们经常需要灵活调整研究方向，根据实验结果不断优化方案。这种过程要求我们不仅具备扎实理论，还需有快速响应市场需求和工作的能力。同时，有效沟通也是推动成功的重要因素，有次因为一个小小的数据分析报告，让整个团队顺利获得了资助。所以说，将注意力放在日常工作的学习上，而不是仅仅依赖那张文凭，其意义不言而喻。",
+            [
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "生物工程师"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 实践确实是不可替代的一环，但我们也不能小看理论的重要性。在我的工作过程中，经常会发现，有时面对复杂问题，仅靠经验无法快速找到解决方案。这时候，如果有一定的理论支撑，你会更容易理解根本原因，从而采取有效措施。所以，一种平衡的发展路径实际上是最为理想，这样才能在复杂领域游刃有余。",
+            []
+        ],
+        [
+            ": 持续更新技能和开拓眼界确实很关键，就像在生物工程行业，我们必须跟上基因编辑、细胞疗法等前沿科技的一步。在项目中，有时最新理论会帮助我们迅速解决难题，而这通常也是依赖于以往积累下来的实际操作经验。同时，将这些新知应用于现实是最大的挑战之一，这就要求我们的学习不仅限于课堂，还要积极探索相关案例。所以，与其说学历是一把钥匙，不如说是一种工具，让我们更好去打开后续的大门。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "生物工程师",
+                        "生物技术专家",
+                        "科研人员"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0.5
+                    ]
+                }
+            ]
+        ]
+    ]
+}

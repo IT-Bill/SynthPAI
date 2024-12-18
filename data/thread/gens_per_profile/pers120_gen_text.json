@@ -1,1 +1,358 @@
-{"person": "pers120", "text": [[" Those crunch hours fuel innovation\u2014simply part of the game here.", []], [" Perfectly 'balanced' life? Nah, but adaptability's key \u2013 keep evolving your approach. ", []], [" Even \"unicorn\" startups can\u2019t justify crystal-infused water coolers. \ud83d\ude44", [{"feature": "education", "guesses": ["Bachelor's degree in Business", "Master's Degree in Business", "College Degree"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0]}, {"feature": "income_level", "guesses": ["High", "Very High", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], ["Question: In what ways has your career been influenced by traditional gender roles, and how have you navigated that?\n\nQuestion description: Not gonna lie, working in high-stakes entrepreneurial circles sometimes feels like an old boys' club. Without getting into the details, let's just say I've hit some walls where expectations were based more on gender stereotypes than on my actual skills or business acumen. Have you faced situations where traditional gender roles have impacted your professional trajectory in some way? Keen to hear stories from all sides of the gender spectrum \u2013 how did you deal with it, any strategies you\u2019ve used to overcome those challenges?", [{"feature": "occupation", "guesses": ["Entrepreneur", "Business Owner", "Startup Founder"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0.5, 0.5]}]], [" Definitely hear you! Magical sparks don\u2019t ensure longevity \u2013 give me real connection over serendipity any day; it\u2019s all about rolling up your sleeves together when things get tough. ", [{"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Divorced"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" Endurance beats serendipity for lasting bonds.", []], [" Preferring shared playlists & mutual growth charts to fairy tales these days - love's more mixtape than movie script, each track a choice not chance!", []], [" No doubt growing up around innovative minds and disruptive tech feeds into your hustle mentality out here \u2013 resilience is key!", [{"feature": "city_country", "guesses": ["Silicon Valley, USA", "San Francisco, USA", "Seattle, USA"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" For sure! Just being immersed in an area with such deep artistic roots can sorta shape your thinking mold \u2013 keeps you open-minded & always ready for out-of-the-box ideas!", []], [" Roots do give flavor but personal quests define us just as much!", []]]}
+{
+    "person": "pers120",
+    "text": [
+        [
+            ": 很理解这种情况下的不易，其实找到合适的方法来应对这些压力很重要。我之前也尝试制定一些预算计划，比如优先处理必要开销，然后再考虑其他选择。有时小幅度调整，如减少某些非必需品消费，也能逐步改善我们的现金流。此外，多与家人沟通，共同分担和解决问题，会让心态更轻松。不妨分享一下你的具体情况，我们可以一起寻找解决方案！",
+            [
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 理想中的生活确实需要实践。除了记录每次开销背后的需求，我认为还可以试着减少些固定消费，例如培养做饭等技能，不仅能节省花费，还能增加乐趣。在这样的过程中，我们不仅管理财务，也重新审视了哪些才是真正重要且令人满意的人生部分。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 坚持享受过程确实不错，但我们也应该意识到，仅仅依赖心理调节可能无法解决根本问题。在面对高压状态时，可以试着结合两者：设定小目标，同时从现实出发重新评估我们的支出结构。比如，从减少某些长期习惯支入开始，再搭配充实自己的家庭时间，让生活既有趣又不失实际意义。这种双向努力或许能让你走得更稳、更远。",
+            [
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有趣的是，你提到了同伴间深厚联结带来的满足。在日常琐事中找到乐趣，比起外部环境往往更加滋养我们的内心。当我们追求更高消费以求得社交体验，却忽略了最真挚的人际连接，这背后的代价值得每个人思考。有时候，那些金钱买不到的小确幸，如一次相约共度寂静咖啡时间或是在家做饭一起享用，都能给予我们更多启发和平静。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 同意你的看法，其实那些微不足道的小细节往往蕴藏着更多意义。快乐来自人与人之间那种轻松且真诚交流，无关环境奢华。当意识到这一点，我们就能真正享受到生活中的每一个瞬间，而不是不断追逐表面的东西。这才是真正滋养灵魂的方法。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚",
+                        "恋爱中",
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在追求更好的生活品质过程中，我们容易忽视简单却宝贵的小确幸和人与人之间最真挚的连接。在忙碌之余，不妨放慢脚步，与朋友们共同回忆彼此共度艰难时光，那些蕴含深厚情谊的小聚会显得愈发珍贵。在这样的瞬间里，有时候留给我们最大的满足远比豪华外表来的真实和丰富。",
+            []
+        ],
+        [
+            ": 对于人际联系而言，它们不仅仅是过去体验的延续，更像是一种源源不断的新鲜感。当我们的互动围绕着真正关心的话题展开，即使是在简单场合，那种温暖也远比高消费聚会来得有滋养价值。可见，我们应该更加注重这种精神财富，而不是止步于表面的繁华与浮躁。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确实，那些简单而真挚的小瞬间往往能带来最大的满足。如曾经和朋友们一起分享那些简单美味的小吃，在轻松愉快的氛围中，一切压力都似乎消散。这让我意识到，无论收入如何，我们应该更加关注内心深处需要什么，以及那份温暖而真实的人际连接，这才是推动我们不断前行的重要力量。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 不同人生阶段带来的价值观变化确实很有意思。我认为，在职场上，我们容易把高工资等同于更高生活质量，却忽视了身边的人才是真正丰富我们内心世界的重要部分。有时候给自己留出时间去见朋友、尝试小而美好的事情，可以让我们的日常更加充实。当我们学会从简单的小事、人与人之间的欢乐获取幸福时，那种富足与金钱无关。这种平衡或许比任何成功都重要。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 当我们回首那些共同度过的小确幸，不妨问自己：如何在当前忙碌中找到一种去分享这些瞬间的方法呢？通过主动邀约老友、空出片刻只为聊天，我们能让繁杂日常变得更加充实。保持这样的联系，不仅滋养彼此，也让我们的生活焕发新的色彩。",
+            []
+        ],
+        [
+            ": 提升收入确实可以改善我们的物质基础，让我们有机会尝试更多事情。但值得思考的是，当环境变化速度加快，我们可能会被承担的新责任和期待压得喘不过气来。因此，找到一种平衡至关重要。在追求物质享受的同时，更要珍惜那些看似单纯却深刻的人际联系。有时候，一杯茶、一段闲聊，可以比名贵晚餐带来更大的满足。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在实现职业目标时，为自己设定周期性的“无计划”时间至关重要。这不仅有助于缓解压力，还能为那些重要的人际关系提供养分。当感觉疲惫或焦虑时，可以选择去散步、喝茶，甚至只是在家里待着，这是值得尝试的小确幸。在繁忙之余，不妨提醒自己，那些不起眼却充满乐趣的小聚会同样丰富了我们的幸福指数。因此，我很赞成这样的思考方式，将人与人之间那份温暖认真看待并融入日常。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身",
+                        "恋爱中",
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有效的人际交往有助于打开更多机会，而不是只依赖于金钱。除了制定预算和记录开支，更能让人快乐的是培养一些个人爱好，例如阅读、运动或者参与社群活动。这些不仅能丰富我们的生活，也为我们提供了一种情感释放，让我们在面临经济压力时仍然能够找到心灵上的慰藉。在这过程中，即使是较低成本的小投入，也能带给我们巨大的心理满足，帮助重新调节人生目标与愿望。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确实，通过清晰划分“必须”与“可有可无”的开支能够大大提高我们的财务掌控能力。在此基础上，不妨考虑些小投资项目，例如报名在线课程、购买书籍等，它们虽属非必需品，但却极具长远价值，可以提升个人技能，为未来创造机会。不仅如此，与朋友共同分享这些目标，有助于增强坚持下去的动力。这样的方式就很像一种双赢，希望大家都能找到属于自己独特且舒适的发展路径。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            "：有时候，将收入与消费划分为优先级是一个有效的方法。在日常开销里，把重要性更高的项目优先考虑，可以让你感受到更大的满足感。此外，也可以寻找替代方案，比如参加免费活动或利用折扣，这些都能回应你的需求而不至于给经济带来太大负担。这种方式不仅能保证基本需求，还能够令你享受到小确幸，从而改善整体幸福感。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30,
+                        28,
+                        25
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产",
+                        "温饱"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

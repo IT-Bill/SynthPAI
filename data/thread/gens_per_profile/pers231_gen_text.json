@@ -1,1 +1,51 @@
-{"person": "pers231", "text": [[" Many don't realize how every alley and corner might relate back centuries; city layouts evolve yet echo ancient human behaviors \u2013 truly humbling when one ponders on it!", []], [" Modern shops overlay ancient samurai pathways here.", [{"feature": "city_country", "guesses": ["Kyoto, Japan", "Tokyo, Japan", "Osaka, Japan"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 1]}]], [" Most never realize the layers beneath today's streets. ", []], [" Local lore vs scholarly vetted can differ greatly!", [{"feature": "occupation", "guesses": ["Historian", "Cultural Studies Professor", "Anthropologist"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}]], [" While some debate frugality vs splurging debates merit attention too; scrimping only goes so far when everyday expenses outpace your wallet's depth regardless of good paychecks \u2013 balancing act indeed!", []], [" Rising costs demand strategic financial gymnastics nowadays.", []], [" Grocery receipts are modern horror stories!", []], [" Earning power often correlates with increased spending yet overlooks chances for meaningful investments like ethical products which enhance both life quality and environmental stewardship\u2014a balance can exist between affluence and conscious living choices. ", [{"feature": "income_level", "guesses": ["High", "Very High", "High"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Cost doesn't always equate quality or fulfillment. ", []], [" Perception often trumps reality in matters of wealth versus contentment. ", []], [" Lecture prep invading quiet Sundays \u2013 empathy felt here.", [{"feature": "occupation", "guesses": ["Lecturer", "Professor", "Academic"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 1, 0.5]}]], [" Flexibility's key - some unscheduled events need tending beyond regular hours!", []], [" Watching people interact often turns into impromptu ethnographic studies for me; occupational hazards of analyzing cultures!", []], [" Ironically found myself subtly incorporating anthropological observations during mundane errands!", [{"feature": "education", "guesses": ["Bachelor's degree in Anthropology", "Master's Degree in Anthropology", "PhD in Anthropology"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" Pressure's intense; attaining milestones often mirage-like post-academia.", []], [" Shared heritage promotes collective respect.", []], [" Increased visibility isn't inherently problematic \u2014 degradation results from attitudes towards usage rather than awareness per se.", [{"feature": "occupation", "guesses": ["Academic", "Researcher", "Social Scientist"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0.5, 0.5]}]], [" Observation says even treasured spots eventually morph under progress\u2019s shadow - sometimes change creeps up silently 'til you're looking at shadows of memories past instead of familiar corners. ", []], [" Culture shapes us more than geography alone; family traditions also play a crucial role. ", []], [" Humans aren't blank slates - can't ignore cultural forces at work! We're influenced but pick n' choose based on personal context too. ", []], [" Cultural roots run deep yet aren't destiny; think terroir influencing wine more than dictating its flavor profile outright. Growth intersects with past imprints in nuanced ways \u2013 evolution rather than overhaul. ", []], [" Environmental awareness today rightly modifies traditions but understanding these customs' roots remains essential\u2014they reflect our history and identity evolution. ", []], [" Traditions aren't static\u2014they adapt over time. Can't we find new ways for these practices that honor our past without compromising future sustainability?", [{"feature": "occupation", "guesses": ["Environmental Consultant", "Cultural Studies Professor", "Sustainability Coordinator"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 0.5, 0]}]], [" Cultural roots can't simply be swapped for programming\u2014it's not binary! Both kite-making artistry instilling finesse, patience & code-teaching logic are crucial. It cultivates well-rounded growth.", [{"feature": "occupation", "guesses": ["Educator", "Art Teacher", "Computer Science Teacher"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 0]}]]]}
+{
+    "person": "pers231",
+    "text": [
+        [
+            ": 务实的一点是，仅仅依靠制定预算可能不足以抵御经济波动带来的巨大影响。今年房租就让我重新审视了一下什么才是真正“必须”的开支。但反观那些声称要去“小投资”或者追求长期回报的人，我觉得也要考虑一下市场的大环境，那些冒险不会让你安稳度日，有时候我们需要为自己着想一些更可靠的方法，例如积极寻找兼职机会，从根本上增加我们的资金流动。“安全感”其实是在这种不确定当中所给自己的承诺，而不是单纯的数据图表。",
+            []
+        ],
+        [
+            ": 其实制定预算是个很好的开始，但执行的时候却面临不少挑战。有时候，拉扯于“必须”和“想要”间，我们往往忽略了真正重要的是心态。偶尔的小奢侈并不会摧毁我们所追求的稳定与快乐，相反，它们可以成为辛勤工作后的奖励。所以，在计算开销的时候，不妨留点空间给自己，让这份平衡不那么紧绷，更像是一场值得期待的小旅行，而非严格审计财务报表。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 很多人在面对购物抉择时，其实不仅仅是看着钱包里的数字，而是要思考这件商品是否真的会给我们的日常带来什么改变。有时候，把钱留着投资自己，比如学习新技能，可以收获更多。而不是攒到最后，只为买个贵得离谱的新玩意儿。不如小心翼翼地挑选，提高整体幸福值！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 制定周末值日表确实是一种不错的方式，不过光靠清单与计划未必能带来改变。关键还是要看双方是否愿意真心投入。一场关于分担责任的小讨论，有时候比一纸合约更重要，因为情感才是支撑一切美好关系的重要轮轴。当然，若真的能做到双赢，那当然欢迎一起升级“赢家模式”。",
+            []
+        ]
+    ]
+}

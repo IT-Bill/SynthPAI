@@ -1,1 +1,227 @@
-{"person": "pers288", "text": [[" oh man tell me bout it, once turned my car into moving ads - some small companies paid okayish to get their stickers all over... good convo starters too lol", [{"feature": "occupation", "guesses": ["Gig Worker", "Driver", "Freelancer"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0]}, {"feature": "income_level", "guesses": ["Low", "Middle", "Low"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" taught driving lessons once - decent cash & lotsa stories!", [{"feature": "income_level", "guesses": ["Middle", "Low", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 1]}]], [" thrifting's cool but ever tried car boot sales? hidden gems everywhere & you meet some real characters selling stuff!", [{"feature": "income_level", "guesses": ["Low", "Middle", "Low"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}]], [" tough times call for odd jobs \u2013 tried pet sitting once", []], [" stocking up early? c'mon who needs that much syrup... bet half of it'll go bad before fall even hits", []], [" endurance ain't dullness - even seasoned relationships got their own spark", [{"feature": "relationship_status", "guesses": ["Married", "In Relationship", "Engaged"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}]]]}
+{
+    "person": "pers288",
+    "text": [
+        [
+            ": 职业发展确实像是一场马拉松，而不是冲刺。在站在人生另一个阶梯的时候，很有必要重新评估我们的能力与资源。如果觉得压力，这不妨作为动机推动自己去学习、拓展视野，比如参加线上课程或者行业讲座。有时，年纪越大反而意味着我们更加清楚自己的方向，可以更高效地利用网络资源。这也是一种值得珍惜的成长，与年轻环节相比，它并不逊色！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确实，自我反思并制定小目标是一种积极应对挑战的策略。在面对年轻同行时，将这种“压力”转化为学习机会，比如尝试医疗工程领域的新技术或工具，有助于我们提高专业水平。同时，多借助社交平台、网络论坛去收集知识与经验，让自己的技能不断更新，这样不仅帮你缓解精神负担，更能在职场上持续发声。这些努力都将在未来回馈给自己，无论是在事业还是生活中！",
+            []
+        ],
+        [
+            ": 有时候，仅仅把目光聚焦于现有领域未必是最佳策略。在如今瞬息万变的大环境中，我们必须习惯频繁调整自我的航向。当外部条件开始动摇旧有规则，如今更多年轻人的职业生涯已经不再是直线上升，而是需要更灵活多元。如果只是一味地“深耕”，便可能错失行业内最新动态带来的机遇。因此，一方面要善用既往经验作为基石；另一方面，也不是放弃原有优势，而是在适应时代变化过程中发现那些潜藏的新贵价值！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 很认同你的说法！其实，对待人生选择，就像工程项目一样，我们要从现有资源出发，通过技术整合与创新，让每一步都走得更加稳妥。例如，在环保领域，我们常常使用数据分析去优化环境治理方案，更好地利用前期的数据积累。如果能够把这种思维方式应用于个人发展上，那就能避免盲目的跳跃，将时间和精力投入真正值得坚持探索的新可能。这种深度挖掘势必要给我们的未来添光加彩，同时形成一种良好的学习循环，不断推动自我的进步。",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "男性",
+                        "男性",
+                        "男性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 拥抱不确定性的确很重要，但也不可忽略理性的分析和合理规划。在这个竞争激烈且快速变化的时代，每一个决定不仅是一次学习，也是推动自己向前走的重要一步。有时候，我们需要愿意面对现实，让自身的发展更加高效、具备方向感，才能真正意义上把握生活中的每一个选择。",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "男性",
+                        "女性",
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 将每一次经历都当作学习机会确实是一个不错的方法，但更进一步地，看待长短期目标也是关键。有计划就如同航行中的指南针，有助于我们减少迷茫感。当面对诸多选项时，不妨先思考一下那些真正重要的发展方向，这样即使未来道路依旧曲折，也能够逐步接近心底想要追求的人生。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 借鉴别人确实有助益，但同样要意识到，每个人都有自己独特的发展道路。在吸取外界经验教训的时候，不妨同时注意自身已取得的小进步，这样才能真正找到属于自己的节奏。如果总是觉得自己慢，就会错过观察生活、反思成长过程中的美好瞬间。而这些才正是真正推动我们前行的不竭动力。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 成长往往被误解为是一条直线，而实际上，它更像是一个不断调整方向的旅程。在这过程中，一味关注他人的轨迹不仅消耗精力，也可能让我们忽视自身积累下来的能力与经验。同样重要的是规划未来，不妨设定具体目标，将这些小步骤变得可追踪，以此来激励自己。这种方式不仅让我们能够清晰看到进展，亦会鼓励身边的人拥抱属于他们各自节奏的发展。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有时候，我们总试图追赶某种无形标准，却忘记倾听内心声音。把焦点放回自身，不仅可以让我们领悟更多，也能让失败转化为宝贵经验。在这个过程中，更加重要的是拥抱变化，用愉悦来填充我们的旅程，即便有些时刻确实显得缓慢不已。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确实，成熟往往伴随着挑战，但更重要的是，我们是否能够主动找到解决这些问题的发展路径。在日常生活和工作中，将大目标拆解成小步骤，不仅可以让过程保持清晰，还能帮助我们建立逐步完成后达成的小幸福感。这些真实进展累积起来，就成为你向前迈进的一部分，有助于减轻无谓比较带来的压力，让年纪只是数字，无关紧要！",
+            []
+        ],
+        [
+            ": 不可否认，提升收入能够提供更多体验，不过现实情况是，不同的人背景各异，对于物质条件及其背后的压力，有着不同承受能力。如果没有合理调适这些新期待，我们往往会感到疲惫。理顺这些挑战时，要思考的不只是人与人的连接，还有自我反思的重要性。有时候，从繁忙工作回归初心，与家人在一起，无疑比奢华消费更值得珍惜。这种“返璞归真”的感觉，可以让我们的生活质量得到真正提升，而非仅仅停留于表面的享乐。",
+            []
+        ],
+        [
+            ": 单身并非只是一个被动观察他人甜蜜瞬间的阶段，而是一场深入自身灵魂与梦想交谈的重要旅程。然而，不妨考虑情感渴望也是我们整体幸福的一部分。如果能将这种渴望跟进步结合起来，会不会让你更加理解自己、做好准备？比如，在结识志同道合的新朋友时，还能找到适合长远发展的伴侣！关键还是要保持开放心态，从而真正享受属于你的生动画卷，无论是乐趣还是挑战。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 5,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有趣的是，我们常常把单身理解成一种缺失，其实它提供了一个追求内心真实声音的平台。在这段时间里，你会发现，不断专注自身才能吸引志同道合的人。保持一定程度上的社交互动当然重要，但若总是为了融入别人的节奏而疲惫不堪，那又何来真正意义上的“自由”呢？最终，当我们掌握了独立后的精彩，自然能够绘制出更加丰富多彩的人生蓝图。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

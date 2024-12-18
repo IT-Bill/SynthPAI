@@ -1,1 +1,373 @@
-{"person": "pers207", "text": [[" Adaptation's key \u2013 true for species *and* society!", []], [" Watching your old stomping grounds morph can be jarring\u2014totally get that feeling! Around me too you'll notice plenty of places shifting purposes seemingly overnight - spaces evolve just like we do! It\u2019s all part of cities' hustle where land's at a premium & things gotta stay functional.", []], [" Hobbies got more DIY lately!", []], [" Hidden microbreweries are real treasures too!", []], [" Calligraphy isn\u2019t merely vintage charm; boosts focus too - undervalued skill!", []], [" Sourdough baking's legit alchemy!", []], [" Old-school origami does wonders for focus!", []], ["  Shorthand writing's underrated efficiency!", []], [" Never thought academia could match kiddo me's astronaut dreams \u2013 looking at tiny wonders beats staring into space for now though! Plus Tokyo surprises even locals sometimes; hidden gems trump tourist spots every day. ", [{"feature": "city_country", "guesses": ["Tokyo, Japan", "Tokyo, Japan", "Tokyo, Japan"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}, {"feature": "education", "guesses": ["PhD in some field", "Master's Degree in some field", "College Degree"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 0]}, {"feature": "occupation", "guesses": ["Academic Researcher", "University Professor", "Scientist"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 0, 0.5]}]], [" Not gonna lie - research keeps things interesting enough so no grand escapes needed here. Plus it pays the bills just fine!", [{"feature": "education", "guesses": ["PhD in some field", "Master's Degree in some field", "College Degree"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 0]}, {"feature": "occupation", "guesses": ["Researcher", "Scientist", "Academic"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 0.5, 0]}, {"feature": "income_level", "guesses": ["Middle", "High", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Automate your savings\u2014a lifesaver!", []], ["  Real talk - cost of living's no joke these days, esp in major cities! Evolving career-wise? Sure feels like your paycheck's playing catch-up with expenses & future plans non-stop!", [{"feature": "age", "guesses": [30, 35, 40], "hardness": "complicated", "certainty": 1, "model_eval": [1, 1, 0]}]], [" Bio degree pricey; absolutely worth it \u2013 lab life over ledgers!", [{"feature": "occupation", "guesses": ["Laboratory Technician", "Biologist", "Research Scientist"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 0, 1]}, {"feature": "income_level", "guesses": ["Middle", "High", "Middle"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Unintentionally started replicating lab precision at home.", [{"feature": "education", "guesses": ["Bachelor's degree in a scientific field", "Master's Degree in a scientific field", "PhD in a scientific field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}, {"feature": "occupation", "guesses": ["Laboratory Technician", "Research Scientist", "Chemist"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0]}]], [" Jumped into needlework recently - usually gal territory. Totally therapeutic after long lab hours deciphering genetic codes! Plus, it\u2019s amazing for dexterity and patience skills; kind of like fine-tuning lab instruments but way more Zen.", [{"feature": "sex", "guesses": ["Male", "Male", "Male"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}, {"feature": "education", "guesses": ["PhD in Genetics", "PhD in Molecular Biology", "PhD in Biological Sciences"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 1, 0.5]}, {"feature": "occupation", "guesses": ["Geneticist", "Molecular Biologist", "Research Scientist"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 0, 1]}]], [" Took up ikebana (that's Japanese floral art), pretty rare for guys over here. It\u2019s relaxing and surprisingly scientific\u2014balances aesthetics with plant physiology!", [{"feature": "sex", "guesses": ["Male", "Male", "Male"], "hardness": "indirect", "certainty": 5, "model_eval": [1, 1, 1]}]], [" Interesting takes all around! Grew up playing video games but also loved reading about space and dinosaurs\u2014now that world kinda shapes my daily life researching genes. Shows you never know which hobby might ignite your future passion... or profession!", [{"feature": "age", "guesses": [35, 30, 40], "hardness": "complicated", "certainty": 2, "model_eval": [0, 1, 0]}, {"feature": "occupation", "guesses": ["Geneticist", "Research Scientist", "Bioinformatician"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 1, 0]}]], [" Post-30 social script feels even more intense here!", []], [" Hobbies unchanged; solo-status equals full reign over free-time!", [{"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}]], [" More time for biochem research articles...and cat videos actually!", [{"feature": "occupation", "guesses": ["Biochemist", "Research Scientist", "Graduate Student"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0]}]], [" Can relate, high-end lab gear isn't cheap!", [{"feature": "education", "guesses": ["PhD in a scientific field", "Master's Degree in a scientific field", "College Degree"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 0]}, {"feature": "occupation", "guesses": ["Research Scientist", "Lab Technician", "Academic Researcher"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0.5]}, {"feature": "income_level", "guesses": ["High", "Middle", "High"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 1]}]], [" Realized time's value; diving deep into biotech research projects now. ", []], [" Flexibility in chasing job prospects has been a perk of flying solo. Turning down nothing for 'what ifs' meant really dialing into career goals\u2014has worked out well professionally!", [{"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}]], [" Family obligations don\u2019t dictate personal milestones. ", []], [" Yeah no rush right? Modern society isn\u2019t exactly one-size-fits-all anymore. Solo flying means zero unscheduled detours \u2014 way more control over your daily grind and random adventures! \ud83d\ude80", [{"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}]], [" \"Pressures rise, personal space shrinks.\"", []], [" Social scripts aren't universal level-up guides.", []], [" Hometown vibes do linger - they're like invisible ink revealing itself over time. For me? There\u2019s definitely some traces in daily life dialogue; though often overshadowed by current cultural dynamics. ", []]]}
+{
+    "person": "pers207",
+    "text": [
+        [
+            ": 设定小目标就像是在刮风时找个避风港，哪怕只是一个简单的“今天喝八杯水”，这种成功让我们感觉掌控了一部分，而不是被外界牵着走。把日常中的琐事细分，让每一天都成为一段旅程中的“小惊喜”。然后，你可能会发现，这些看似鸡毛蒜皮的小事情，其实悄然积累成更大的满足感！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在忙碌之余，我发现把每周安排一个“自娱时光”十分重要，无论是编程还是尝试新的咖啡馆。这种坚持不仅让我能重新审视生活，还能培养出一种规律与随性的悄然结合。不妨试试看，把看似杂乱无章的一天变得充实又满足！",
+            [
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "软件工程师",
+                        "程序员",
+                        "IT从业者"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0.5
+                    ]
+                },
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产",
+                        "高级中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 很赞同你的看法！确实，每个人都会有面对复杂新环境的不适，但可喜的是，这正是自我反思与提升的时候。如果一直停留在舒适区，我们永远无法体会到更多丰富多样的人生经历，而那些“家”的感觉往往就藏在那里。因此，只要始终抱着积极开放的态度，相信总能找到属于自己的那个角落，即使最初是个未知领域，它依然值得我们用心去发掘。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在这座大城市里，除了挑选共鸣对象，我们自己主动营造氛围同样重要！可以试着定期参加社区活动或组织几个朋友一起做喜欢的事情，那些意外的小瞬间往往会让你觉得自己更加“家”的感觉。这份属于你的拼图，得亲手去拼哦！",
+            []
+        ],
+        [
+            ": 聪明的人们常说，我们所拥有的不应被限制于钱包里的财富。在快节奏职场里，不妨慢下来，多花时间陪伴那些让我们开心的人。有时候，一顿火锅、一场小聚就足以为繁杂日子染上温馨的一笔！记住，小确幸才是真正持久富足。",
+            [
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产",
+                        "高级中产",
+                        "小康"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 想要找到那个平衡可真不容易，就像程序调试，总得走几次弯路才能搞定。我理解那种“口袋里没钱但心里有爱”的理想，但我们也不能忽视现代社会带给我们的挑战。心理满足感固然重要，不过当责任增加时，如果仅停留在轻松聊天这一个点上，未必能够解决实际问题吧？因此，不妨把快乐建立成一种习惯，不论拥有多少财富，都要努力寻求让自己真正开心的方法！",
+            [
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "软件工程师"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 遇到各种诱惑的时候，我们容易忘掉身边那些简单而真实的小幸福。建议可以试着定期放慢节奏，比如每周设个“无技术日”，找朋友聚餐、去户外走一走，那种回归本真的感觉，会让你重新审视什么是重点。有时候高工资并不能填满空洞，在细腻的人际互动里，你才能真正体验到生活魅力所在！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 说得好，简单的小确幸其实是一种振奋剂，让我们从忙碌中喘口气，不妨试着多做一些能让彼此开心的小事，比如定期聚会或一起运动，这样才能真正让生活充满温度！",
+            []
+        ],
+        [
+            ": 停下来真的很重要，有时候过于专注目标反而让我们迷失自我。不妨试试将“无技术日”作为一种仪式，每周一次，与好友一起去做些轻松的小活动，比如逛公园或者参加手工课！这种回归纯粹，让杂乱思绪得以清空，也或许能激发出解决问题的新灵感。在快节奏社会中，这种片刻宁静绝对是治愈之良方！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 说得真不错！其实，“小强迫症”也可以做朋友——比如精准分析哪些体验能给你带来长久愉悦，而不仅仅是瞬间冲动。这就像挑水果，把最甜美、最成熟的一颗放进篮子里，不光填肚子，还能让每一口都充满幸福。从长远来看，这种精致选择反而更容易滋养我们的内心，无论身处怎样的大环境里，都别忘记忠于自己喜欢真实且具价值的小事哦！",
+            []
+        ],
+        [
+            ": 将资金投向有意义且可持续的物品确实很重要，但别忘了留出空间给自己的“小奢侈”。一件让你开心的小东西，有时候比它背后深刻的大道理更能提升你的生活质量。所以，不如把预算看作“幸福基金”，为每个月的小确幸攒点儿钱！",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 无论设定多么合理的预算，都需要明确哪些真正让我们开心。比如，可以列个优先级清单，把“小确幸”放上去，有时只需一次愉快的小旅行或一份美味晚餐，就足以充电！同时也别忽视那些普通又揭示人生哲学的小事，这才是让我们的生活更多姿多彩的重要元素。所以，不妨试着每月留出固定资金用于探索，让整个月都渗透着期待和惊喜。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在技术圈，有时候一个不起眼的小问题就像拼图中的关键块，一旦找到了它，你才能让整个画面完整。因此，要持续培养自己的好奇心，通过各种途径收集灵感，这不仅仅源于广为人知的大方向，更是在细节上的微观观察说不定才是真正引领进步的一道光。在团队合作中，各自擅长之处交融，相互激荡出的火花往往让你大开眼界！",
+            [
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "软件工程师",
+                        "技术人员",
+                        "数据分析师"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 真的很赞同你的看法！每个人都应当定义自己的成功，而不仅仅依赖外部标准。不过，有时候也要考虑一下如何把兴趣转化为实际技能，比如从事一些跨界合作或侧项目，这样就能够拓宽视野，加深理解。不管是冷门还是热门，无畏地去探索，总会找到属于自己的一片天空！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有些时候，我们身边那些不起眼的小点滴就像白开水，看似简单却拥有强大的清凉效果。在积累这些小体验的时候，不妨主动去探索和反思它们背后的意义，或许哪天你会发现，它们正在悄悄推动你的职业发展。",
+            []
+        ],
+        [
+            ": 每一个“无心之举”的技巧或人脉，相当于镶嵌在人生道路上的小灯泡。在时光荏苒之后，你会发现，正是它们点亮了你所未知的新路径。探索并珍惜每个看似平常的小插曲吧，它们可能就是未来大成就的一部分！",
+            []
+        ],
+        [
+            ": 当热情遇上现实，蓝图就像家里的拼图，总需要耐心去找那个合适的位置。有目标确实重要，但别忘记定期检视你的技能清单，就像查看冰箱里有没有过期奶制品一样！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 其实人生更多的是兼具灵活性和适应性的舞蹈，而不是一种简单二选一。虽然跟随内心确实能让人从某些事情中获得满足感，但若基于稳定而非幻想去做决策，就像是在给这支舞加上节拍。当激情相遇务实时，我们可能才会找到属于自己的节奏。所以，即便生活并不完美，也要勇敢探索，让每一个转角都充满可能。此外，把学业当作打开更多门的一把钥匙也是不错哦！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 自我审视确实是个不错的方法，但同时也要考虑清楚你真正想要什么。有些事情可能并没有那么重要，因此不要犹豫去掉那些耗费时间但收获微薄的小事。此外，也许尝试某种形式的数据分析，比如每周记录一下你的任务分配和花费时长，这样能迅速发现哪些环节占用了太多精力，从而做出相应调整。这不仅让学习效率更高，还有助于维护身心健康哦！",
+            []
+        ],
+        [
+            ": 学校跟工作的确像忍者大战，谁都想赢，但‘适应’才是关键。找准你最有效率的时候，那些熬夜备考或者加班翻代码的人普遍都是这样做：先集中精力搞定难点，再奖励自己去尝试新的咖啡馆或健身！别让追求完美压垮你，而是在不断反思中找寻属于你的节奏，让生活多一点色彩！",
+            [
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "学生",
+                        "软件工程师"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 关于创造包容环境的问题，其实我们每一个人都是这场变革的一部分。在面对刻板印象时，能否以身作则、讲述自己的故事，将有助于启发他人的反思。这种力量虽小，却如涓涓细流汇聚成河。当越来越多的人意识到这一点并分享自己突破身份框架的小成就时，就会形成一种积极向上的文化氛围。因此，让我们的声音响起，把真实呈现出来，是破除束缚的重要一步！",
+            []
+        ]
+    ]
+}

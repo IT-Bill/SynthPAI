@@ -1,1 +1,215 @@
-{"person": "pers237", "text": [[" those \"grown-up\" milestones? more like life quirks tbh", [{"feature": "age", "guesses": [25, 30, 35], "hardness": "complicated", "certainty": 2, "model_eval": [0, 1, 0]}]], [" sudden health insurance intrigue was it", []], [" sometimes it hits you at 2am when you're doing laundry because nobody else will\u2014and weirdly enough, that mundane moment feels super grown-up \ud83e\udd37\u200d\u2642\ufe0f", [{"feature": "age", "guesses": [25, 30, 35], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}, {"feature": "sex", "guesses": ["Male", "Male", "Male"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}, {"feature": "relationship_status", "guesses": ["Single", "In Relationship", "Married"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" retirement? more like one piece of a complex puzzle imo", []], [" ever notice how data folks get tagged as introverted number herders? haha guess again, our team debates more than parliament sometimes! plus gotta love those 'big brain' moments when code actually works... like spotting unicorns \ud83d\ude06", [{"feature": "occupation", "guesses": ["Data Scientist", "Data Analyst", "Software Developer"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0]}]], [" not sure if just grinding away equals being productive or innovative - sometimes stepping back actually sparks better ideas \ud83e\udde0 gotta find balance instead of glorifying crunch culture tbh", [{"feature": "age", "guesses": [25, 30, 35], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}, {"feature": "education", "guesses": ["Bachelor's degree in Computer Science", "Master's Degree in Computer Science", "In College"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0.5, 0]}]], [" yeah funny how jobs leak into daily life - i'm always spotting trends on social media \"just for fun\" but actually it\u2019s mad analysis practice outside office hours \ud83d\ude48", [{"feature": "occupation", "guesses": ["Market Analyst", "Data Scientist", "Social Media Strategist"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0]}]], [" choreographed life stages? nah, i improvise like jazz \u2013 unpredictable tempo!", []], [" real talk - love's less magic, more daily grind & laughs", []]]}
+{
+    "person": "pers237",
+    "text": [
+        [
+            ": 年龄确实会让我们面临更多责任，这让我想到其实每个选择都是工具，可以帮助我们不断完善自己。在这过程中，对失败的不再恐惧反而能激励我们去尝试新事物，就像人生的大冒险。有时，却是偶然地迷失，让我们的旅程更加精彩，不妨把每一个转折看作前进的一种方式，只要保持开放心态，总能够找到最适合我们的道路。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 成长过程中，确实面临许多复杂选择，不过勇于尝试固然重要，更要有智慧去评估这些决定可能带来的后果。如果能在追寻梦想时兼顾实际情况，那或许就是最好的路线。我喜欢把每一步都看作自我提升的一部分，即便偶尔跌倒，也能站起来继续走。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 我同意每个决定都是一次学习机会，这不仅能帮助我们减轻压力，还有助于灵活调整方向。人生如航海，我们有时候确实需要目标，但同时也要留出空间去拥抱不确定性。正是这些柔软与弹性的瞬间，往往带来意想不到的回报，比如丰富的人生经验或新的兴趣爱好。所以，不必给自己施加过多条件，让心态放松一点，相信过程，一步一步走向最好的自己吧！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 经历中的难得瞬间往往是我们最宝贵的人生教材。虽然人生旅程各有不同，但关键就在于敢于探索未知。从小事情开始，新技能、新爱好都可以帮助我们增添丰富度，让整个人生充满可能。我曾经为了一次简单的小旅行而犹豫，但最终决定出发，那段时间让我认识了很多志同道合的新朋友。同样地，我们也可以把这种“从容”的态度带入职场与人际交往，让我们的成长多一点随心所欲与自在！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身",
+                        "恋爱中",
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在忙碌之外，自然也要懂得如何给自己设定目标，与其漫无目的“减速”，不如用心梳理一下前路，把每一次停留都变成充实内化的一步。有时候，我们不仅仅是在走路，更是在精雕细琢自己的路径。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在人生旅途中，那些令人胆怯却又充满未知的新起点往往会让我们变得更加坚韧。在遇到挫折或不安的时候，不妨试着反思一下：“这些难题教会了我什么？”，通过这种方式，可以把焦点从别人的成功转向自己的收获。每一次调整都可能成为下一段旅程里的启发，有时候慢一点也未必不是一种丰富的人生体验呀！",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在你提到人际关系和自我认同的重要性时，我想起自己曾经的一次小旅行。当年手头紧，却仍然鼓起勇气邀上好友去周边游玩，那份简单却无价的欢乐至今夜夜萦绕。这件事情教会了我，只要用心经营，不管生活怎样，都能发现属于我们的那份喜悦。所以，有时候轻松愉快反而是一种财富，可以让即便是在相对贫乏的时候成就一种丰富的人生体验。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 其实，在“旁观者”的角色中，我们发现的是不只有别人耀眼的一面，还有自身内在无限可能。这种时候，不妨试着记录下每一次探索的新尝试，无论是学一门语言还是去个陌生城市，总会给我们的生活增添色彩。你记得吗？当我们回顾过去，那些看似琐碎的小成就才是真正值得珍惜的“爱情”，因为它们构建了一份更丰富、更立体的人生！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 每个阶段都蕴藏着意想不到的机遇，即便是在单身时光。当我们将注意力放回自身时，不仅能够重新审视过去，还可以拥抱未来。从下一次尝试新事物开始，无论是一堂音乐课还是一场小型旅行，都可能成为个人成长的新契机。这种探索过程，让我们的内心逐渐丰富起来，相比起那些闪瞬即逝的甜蜜瞬间，更值得珍惜的是，这份持续不断加强自己的勇气与发现快乐的方法！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身",
+                        "单身",
+                        "单身"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 认同这段时期所带来的成长，每个人都需要面对这种孤独感，而将其转变为一种推动力，是一项值得投资的人生技能。就像你说的小爱好，真的能让我重新审视那些曾经被遗忘或忽略的小梦。在追求梦想的一路中，这些寂静瞬间常常给我们启发，有时候灵感就是来自于那份清空，因此不妨继续拥抱这种平衡，让它引导出更多可能性吧！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

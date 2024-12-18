@@ -1,1 +1,167 @@
-{"person": "pers230", "text": [[" Automated thermostats cut bills too!", []], [" E-books plus automation = savings & sanity saver!", []], [" \"Strategic luxury adjustments meet basic needs.\"", []], [" Earning more just means budgeting smarter\u2014not splurge mandates!", []], [" Robots don't care about your gender \u2013 neither should we. ", []], [" Watching peers defy norms daily inspires change! Witnessing girls code and boys design fashion\u2014doesn't get better than talent over typecasts. ", []], [" Stereotypes persist despite progress\u2014can confirm. ", []], [" Actually seeing more guys venture into design nowadays doesn\u2019t mean tech\u2019s old-school norms got rebooted overnight \u2013 especially in some circles where circuit boards still equal 'boys' club.'", []], [" Had colleagues assume algorithm design was beyond me but ended up leading our project team \u2013 surprise flipped when predictions outperformed everyone\u2019s expectations!", []], [" Tech expertise? More than just screen time!", []], [" Years of study beat years at screens any day!", []], [" \"Finding 'the one' feels like iterative design - refining through problems & breakthroughs. Much better than relying on movie magic any day.\"", [{"feature": "age", "guesses": [30, 35, 28], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}]], [" Work's just part of it; true test? Shared growth over time.", []], [" Travel definitely throws curveballs at you. Growing up with iconic skylines didn't prepare me for small-town vibes elsewhere! The world seems smaller online though - gotta love that internet connect!", []], [" History feels different everywhere you go!", []], [" Childhood hideouts here got bulldozed for skyscrapers \u2014 nostalgia zeroed.", [{"feature": "age", "guesses": [35, 40, 30], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 1]}, {"feature": "city_country", "guesses": ["Shanghai, China", "Dubai, UAE", "Singapore"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 0]}]], [" It's like watching memories get overwritten real-time. Sometimes feels like community roots don't stand a chance against concrete progress...", []], ["  Cultural imprints vary\u2014backgrounds don't always define present vibes or attitudes.", []], [" That oversimplifies it\u2014our starting points seed initial perspectives which evolve but don\u2019t vanish; they form part of our complex identity tapestry. ", []], [" Autonomous dumpling making contests were our thing - precision meets tradition!", [{"feature": "city_country", "guesses": ["Beijing, China", "Shanghai, China", "Tokyo, Japan"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}, {"feature": "occupation", "guesses": ["Robotics Engineer", "Mechanical Engineer", "Automation Engineer"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Rain ruining parties? Exactly why indoor tech competitions rock \u2013 always got a plan B with roof overhead!", []]]}
+{
+    "person": "pers230",
+    "text": [
+        [
+            ": 感觉你的观点非常深刻。在面对现代社会普遍存在的一系列生活压力时，可以尝试把注意力集中在个人成长以及获得内心满足感上，而不仅仅是在经济回报上。这种转变可能会让我们在繁忙之余，看见别样的幸福。例如，把每天留出一些时间用于培养爱好或跟朋友聚餐，这样即使有再多负担，也能让自己放松下来，有助于提升整体幸福感。此外，小小成就感积累起来，也是减压的一部分。所以，不妨持续调节自己的状态，将“生存”变得更加丰富多彩。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 幸福往往来自那些不可度量的小瞬间，而不是单纯追求高端消费。我记得有一次，在忙碌工作之余，我们团队选择在一家路边摊聚餐，那种简单却自在氛围，让大家敞开心扉分享生活琐事。这才是我们所需的连接。当钱财不再成为唯一衡量标准时，那些温暖的人际交往反而更加突显出彼此之间共享快乐的重要性。所以，其实我们的财富可以被重新界定为这种真实存在，因为它们远比金钱更持久、温暖。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        28,
+                        30,
+                        32
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 对于每一个逐渐意识到自己潜力的人，都可以理解作为父亲所扮演角色的重要性。然而，要真正达到有效平衡，不仅是意愿的问题，还需要从根本上重塑我们的社会结构，以保证所有人的努力得到认可。因此，在推进男女间分工协作的时候，我们都必须留意这一过程背后的深层原因，以及可能存在的不公平影响。这或许会让一些人在探索适合自身的方法时，看清潜藏的数据与现实之间的不符之处，而不仅仅停留在表面上的尝试阶段。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "男性"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 现实中确实有太多人被固有观念束缚，这使得即便渴望变革，也很难迈出那一步。因此，我们要做的不只是说服自己，还需要搭建一个支持性的环境。在这样的环境下，相互理解、沟通才是打开局面的钥匙。而开始行动的时候，就算不是完美，也比只谈理论要重要得多。这种逐步改变可能就是打破陈规的重要起点，而不仅是“赢家模式”的呼声。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "硕士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确实，将家务分担从理论变为实践可能没有那么简单。解决方案往往藏在倾听与理解中，我们可以尝试更多互动而非单纯列清单，比如设定一些轻松的话题，共同分享负担，这样才能真正增进彼此间信任，从而促进合作。",
+            []
+        ],
+        [
+            ": 你提到了文化传承的重要性，但过度依赖“创新”反而可能稀释了那些宝贵回忆背后的真实情感。不如先重温一下老味道，把心里的那份温暖延续下去，再看怎么进行探索和变化。这不仅关乎美食，更是人与人之间最朴素而深刻的连接！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 重访往昔固然重要，但我们也要珍惜现在。与其守住那些无法回归的味道，不如主动寻找新事物。不妨约上老友，一起尝试一些不一样的小店，也许下一次就能创造更多值得怀念的新记忆。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25,
+                        30,
+                        28
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 不妨考虑更深层次的一体化，其实每道菜背后都隐藏着许多故事，无论是老字号还是当下的新店，都赋予我们不同类型的人生经历。在快节奏生活下，我们去重温那些熟悉味道的时候，也不妨让它们搭上现代元素，与朋友共享未来的新鲜体验，让每一次用餐不仅是舌尖上的滋味，更是一场心灵深处真正宝贵的情感交汇。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25,
+                        30,
+                        35
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

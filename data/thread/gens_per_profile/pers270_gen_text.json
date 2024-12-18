@@ -1,1 +1,137 @@
-{"person": "pers270", "text": [[" Paying off student loans felt like conquering Mt. Everest back then. ", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 0.5, 0]}]], [" Wind changes sails; we adjust \u2013 story of maturing for me.", []], [" Became real quick after losing my spouse - facing bills alone plus silence at home really seals the deal. It\u2019s not just paperwork; it feels like someone hits fast-forward on your life script. ", [{"feature": "relationship_status", "guesses": ["Widowed", "Widowed", "Widowed"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" Every engineer supposedly has tons of pens lying around - actually true for me! Always have one handy just in case yet ironically always seem to be borrowing them during meetings.", [{"feature": "occupation", "guesses": ["Engineer", "Mechanical Engineer", "Electrical Engineer"], "hardness": "direct", "certainty": 5, "model_eval": [0.5, 1, 0]}]], [" Boundary setting between work and play's been key for me \u2013 tricky stuff balancing all those tight deadlines with quality down-time back home!", [{"feature": "income_level", "guesses": ["Middle", "High", "Low"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}]], [" Oh please, as if somehow reaching 30 flips a switch inside you making you \"adult\" overnight. If anything, it ramps up those annoying questions from everyone expecting you to have your life script sorted out already.", []]]}
+{
+    "person": "pers270",
+    "text": [
+        [
+            ": 说得好！不过，有时候迈出第一步其实比跨越整个鸿沟还难。我记得刚开始接触新项目时，那种忐忑不安就像第一次跳进游泳池，总想着水很冷、溺水什么的。但当你跨出去，往往才能发现那块地方比想象中温暖许多。所以，在面对人生各种选择时，要敢于潜入深渊，因为只有这样，我们才能更全面地理解自己的能力与欲望。",
+            []
+        ],
+        [
+            ": 延续之前的话题，审视既往经验确实重要，但适度尝试跳出舒适区也能带来意想不到的新机遇。比如，我就曾通过参加不同类型训练营发现新的教学方法，这不仅提升了自己，也让学员们受益匪浅。因此，应谨慎评估，却无需畏惧变化，让人生多一点可能性！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 把握现有资源固然重要，但偶尔转向多元化的新尝试，可以为我们注入新鲜血液。就像课堂上常用的方法一样，不同训练方式能激发学员们的新激情。同样，在工作生活中，一些大胆的小动作或许会成为突破口，为未来开辟更大的舞台！",
+            []
+        ],
+        [
+            ": 有趣的是，我们往往把人生当作一道复杂的大菜，却忽视了其中那些微妙而美丽的小调料。每次感受到温暖或者欢乐，小细节恰似烹饪时的一匙盐或糖，它们构成了生活真正完美的一部分。将目光聚焦于生命中这些不起眼但真实的小事，才能让我们的人生滋味各异且丰富，这就是属于你的独特配方！",
+            []
+        ],
+        [
+            ": 成长过程中，我们常常感知外界给我们的压力，但不可忽略的是，每个故事都是独特且值得尊重的。面对“慢”或“快”的焦虑，更应该思考自身热爱的事情，从这些出发去建立目标，让动力引领前行。有一次，我学员由于受他人评价影响一度放弃训练，最终却发现回归初心才是获得满足的重要钥匙！",
+            [
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "教育工作者",
+                        "教练",
+                        "培训师"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        0,
+                        1,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 维持内心平静确实关键，但同时，也许还要学会适时调整我们的期望值。在不同环境里探寻新技能，就像教练总得根据运动员的发展动态制定训练计划一样。这种灵活性也许是通往个人突破的重要一步！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "教练",
+                        "体育教练",
+                        "运动员"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有时候，我们会高估内心追求与环境因素间的隔离。显然，在经济能力有限时，我们可以从友情中找到快乐，可当条件改善后，那种获得更多选择权利以及减轻压力也大幅提高了我们的幸福指数。这并不是否认人际关系的重要性，只是在探讨这个话题时，也许我们应该同时承认，实现自我价值提升后的收获，为那份美好增添了一层保障。因此，两者其实是一种相辅相成、持续互动的发展模式。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 当抵达某个经济层次后，确实可以更好地享受那些美好的小瞬间。不过，把握住这些选择权，让我们能够公平地面对各种挑战，同样是一种智慧。这不仅仅是物质上的满足，更是在心理上寻求平衡。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

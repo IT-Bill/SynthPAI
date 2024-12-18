@@ -1,1 +1,56 @@
-{"person": "pers135", "text": [[" tried making custom patches for denim jackets once turns out hustle \u2260 profit unless you got like major clout or hook up with big fish tbh gotta grind smarter not harder", [{"feature": "age", "guesses": [25, 30, 35], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "occupation", "guesses": ["Entrepreneur", "Artist", "Designer"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 0.5]}]], [" reselling thrift finds turns up decent profit, sorta treasure hunting tbh", []], [" haha think being a designer's just sketching pretty dresses all day? naah mate it\u2019s more like 90% hunting for fabric suppliers who won\u2019t ghost you last minute \ud83d\ude44", [{"feature": "occupation", "guesses": ["Fashion Designer", "Textile Designer", "Apparel Designer"], "hardness": "direct", "certainty": 5, "model_eval": [1, 0, 0]}]], [" friend maxed out credit card on rare sneaker drops - talk about pricey hobbies!", []]]}
+{
+    "person": "pers135",
+    "text": [
+        [
+            ": 成熟绝不是放弃探索，而是找到一种新的平衡，就如同教练面对不断变化战术时，需要同时发挥经验与创新。这种相互依存关系让团队更具竞争力，也让每个人都能持续成长！",
+            [
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "教练",
+                        "管理者",
+                        "教育工作者"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        0.5,
+                        0,
+                        0.5
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 其实，有时候压力反而提供了动力。在不同阶段，你所遭遇的问题、挑战，都是让你进步的一部分；这些都构成你的职业故事。从年轻无畏，到如今更加深思熟虑，无疑丰富了你的视野。抓住机会吧，把未知领域当作新挑战，不断提升自我，相信时间越久，你会越发闪耀！",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "男性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

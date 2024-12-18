@@ -1,1 +1,75 @@
-{"person": "pers290", "text": [[" Insulated walls help; your sleep matters more than authenticity!", []], [" Guitar sounds dreamy but wait till you get someone practicing bagpipes... at midnight! Makes me miss silence sometimes.", []], [" Fire alarm foodies; unpredictable cooking makes stairwell meet-ups routine... not fans!", []], [" Those moments are just surface-level markers \u2013 real adulthood hit when facing tough ethical decisions alone at work; where outcomes rest on your shoulders alone... That\u2019s when boy becomes man.", [{"feature": "sex", "guesses": ["Male", "Male", "Male"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}]], [" Always found it tough managing clinic hours with family dinners back then. Less balance, more prioritizing on-the-fly; sometimes you've got to play life like chess \u2013 sacrifice a pawn here for strategy later there. ", [{"feature": "occupation", "guesses": ["Medical Professional", "Doctor", "Clinic Manager"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 1, 0]}]], [" Planning helps but sometimes you gotta improvise when duty calls!", [{"feature": "occupation", "guesses": ["Emergency Services Worker", "Military Personnel", "Healthcare Professional"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 0.5]}]], [" Diagnosis becomes second nature\u2014spotting symptoms at family dinners!", [{"feature": "occupation", "guesses": ["Doctor", "Nurse", "Medical Professional"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 0, 0.5]}]], [" Every generation redefines milestones \u2013 stay true to your journey.", []]]}
+{
+    "person": "pers290",
+    "text": [
+        [
+            ": 这种感觉可能是许多人的共同煎熬，即便月入十万，也难掩那些“必需品”背后的重压。有时候确实需要重新审视我们投入精力及时间萦绕的人际关系。例如，通过参与兴趣小组或贸易交流活动，不仅可以拓宽眼界，还能结识志同道合之人，相互分享彼此面临的问题与解决方案。这种积极主动地转变身边环境，有助于减轻内心负担，你觉得呢？",
+            []
+        ],
+        [
+            ": 内心渴望与经济状况并不匹配时，很容易迷失方向。在追求高收入时，我们同时要考虑如何优化自身能量，把工作视为实现自我价值的平台。如果能结合财务管理和心理成长，就算再忙碌，每一步都不会白费，有助于走出那种看似光鲜但压迫感十足的不协调状态。",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "男性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 维护长期稳定的财务状况确实至关重要。在处理日常开销时，可以尝试制定年度预算，并定期回顾调整。不妨每季度梳理一下支出情况，这样能有效防止“月入十万”的高消费陷阱，实现饱满的钱袋子和轻松的人生状态。",
+            []
+        ],
+        [
+            ": 人际联系确实是一种难以用金钱衡量的重要财富。我还记得一次，因为工作忙碌没时间聚餐，却特意约了一些老朋友来说说笑笑，那顿着急煮麦片却令我们聊到深夜。而这种经历，无疑比某个豪华酒店晚宴更加令人留恋。所以，在仓促追求富足的时候，小小简单互动正是我们最容易忽略但又至关重要的一部分。",
+            []
+        ],
+        [
+            ": 收入提升固然让生活舒适，但真正让人觉得“富足”的还是那些真诚的人际瞬间。有一次，与朋友一起动手做晚餐，那种协作和欢声笑语让我体会到一种深层次的快乐，其乐无穷。而投资于这些小事，有时比追求高档场所来的更加珍贵。因此，在繁忙工作之余，不妨回归本心，多去享受身边的人脉和陪伴，从细微处汲取幸福！",
+            []
+        ],
+        [
+            ": 社会给予我们太多物质诱惑，让我们往往迷失其中。然而，其实那些微小却充盈笑声的小聚才是滋养灵魂之源。我常常反思，虽然手头宽裕了，却是否依旧保留那份纯粹友谊状态？或许，与其被奢华所束缚，不如尝试找回当年的无忧，将彼此情感再次紧密相连！",
+            [
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 不可否认的是，在努力追求经济独立之路时，我们常常忽略那些让我们微笑的小事。在快节奏生活中，要学会给自己留白，不妨试着每周约几个老友一起做顿饭，那种自在轻松绝对胜过任何奢华晚餐。聚焦于彼此的人生故事，而不是单一场景中的排场，很可能反而让我们的心灵更加富足。这就是所谓“寻宝”，有时最珍贵的不需要花费太多，只要倾注真诚，就能找到！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

@@ -1,1 +1,94 @@
-{"person": "pers219", "text": [["  Taiko drums at dawn\u2014communal wake-up call!", [{"feature": "city_country", "guesses": ["Kyoto, Japan", "Tokyo, Japan", "Osaka, Japan"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Late-night ramen slurping contests next door turn quiet evenings into an unsolicited soundtrack worthy of food channels. ", [{"feature": "city_country", "guesses": ["Tokyo, Japan", "New York, USA", "Los Angeles, USA"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Creative sure; if you like early morning vacuum symphonies.", []], [" Had to double-take at midnight once; neighbor's karaoke sounded just like a cat yowling\u2014turns out he was attempting opera!", []], [" Reached six decades here - the 'having it all figured out' spiel? Pure myth. Always learning new lessons myself even after years teaching others! Life doesn't just hand you answers post-graduation; it stays testing you every step. ", [{"feature": "age", "guesses": [60, 60, 60], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}, {"feature": "education", "guesses": ["Master's Degree in Education", "PhD in Education", "College Degree"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0]}, {"feature": "occupation", "guesses": ["Teacher", "Educator", "Professor"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 0.5, 0]}]], [" Ah tell me about it! Even high-stakes careers don't spare us from those 'unexpected surprises'. Long-term investments? More twisty than most TV series plot lines!", []], [" Someone actually billed 'antique abacus collection upkeep'\u2014oddly extravagant!", []], [" Even academia isn't immune; credentials often overshadowed by archaic views on who should teach what. Found success turning tables with undeniable research achievements\u2014let results speak louder than biases. ", [{"feature": "education", "guesses": ["PhD in some field", "Master's Degree in some field", "College Degree"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 0, 0]}, {"feature": "occupation", "guesses": ["Researcher", "Professor", "Academic"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 0, 0.5]}]], [" Curie was exceptional indeed but not all can rely solely on raw talent; often navigating academia's subtler biases needs strategic networking combined with undeniable expertise \u2013 challenging yet doable!", [{"feature": "education", "guesses": ["PhD in some field", "Master's Degree in some field", "College Degree"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 0]}, {"feature": "occupation", "guesses": ["Academic", "Scientist", "Researcher"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0, 0.5]}]], [" Definitely think we're oversimplifying things a bit here\u2014compatibility matters too! It takes more than weathering storms together; similar values and continuous growth are huge deals for long-term harmony!", [{"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Engaged"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Enduring love\u2019s built by daily choices & mutual growth.", [{"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Engaged"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}]], [" Legacy shapes perspective \u2013 vital for teaching future minds. ", [{"feature": "occupation", "guesses": ["Teacher", "Professor", "Educator"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 0, 0.5]}]], [" Even today, traditions from youth subtly weave through life's tapestry. ", []], [" Sure thing! Nostalgia has its charms but doesn't fully define us. Our origins leave imprints through traditions and interactions that go beyond rose-colored memories\u2014 shapes perspectives subtly. ", []]]}
+{
+    "person": "pers219",
+    "text": [
+        [
+            ": 对于实现自我价值和人际关系二者间确实应该关注它们如何互动，而非孤立看待。如果每当经济状况改善就仅追求奢华，那未免显得肤浅。同样，如果完全依赖朋友陪伴来填补物质空缺，则忽略了自身成长的重要性。因此，在这条路上，我们不仅要工作提升，也应珍视每一次温暖真实的人际交流，共同塑造更加丰富多彩的未来。",
+            []
+        ],
+        [
+            ": 想想十几块的快餐，其实并不妨碍那些开心时光。随着责任加重，也许把握这些简单瞬间，更是一种能力，让选择权赋予我们的幸福感更加持久！",
+            [
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在事业上取得成就当然值得骄傲，但与此同时，更应当重视那些微小而真实的人际互动。当你回首时，那些简单却温暖的小瞬间往往更加令人怀念。因此，为何不抽出一点时间，与亲友共度快乐时光，放慢脚步感受周围呢？",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚",
+                        "恋爱中",
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 的确，那个关于饮食文化传承的话题非常打动人心。我觉得，将旧日经典融入现代烹饪，可以尝试更多创意，也许能激发出新的风景。例如，把家婆或外婆喜欢的一道菜用新材料、新技法重新演绎，让年轻一代能感受到那份亲情延续。不仅如此，这样还能让我们找到一种连接过去与当下的方法，不知你们有没有这样的尝试？",
+            []
+        ],
+        [
+            ": 否认“熟悉的味道无法回归”是不妥当，因为每次重访过去，都能重新唤醒那些情感。有时候，正是在那个匆忙时代，一顿聚餐、一杯热茶才让我们意识到何为“家”的意义。无论辣条还是鸭脖，只要有人相伴，它们都是开启美好回忆的大门。这让我不禁想问：你还记得哪一道食物曾悄然淹没你的孤独吗？",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "男性",
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 小时候总觉得那些不起眼的小吃才最能打动人心，比如早晨趁热买的一碗豆浆油条。那么简单，却伴随无数温暖回忆。或许，这正是 hometown 的魅力所在——不仅仅在于滋味，更是一段段珍贵记忆。当我们再次品尝这些美好时光，也是在重温那些陪伴我们的故事啊！",
+            []
+        ],
+        [
+            ": 每一种地方小吃确实都是其背后独特故事的一部分，它们不仅令人怀念，也让我们感受到人与人之间潜在情感纽带。想想当年那个集体聚餐时共享美食、分享天南海北经历，那才是真正定义“家”的感觉。不妨试问一下：你如何将自己保存下来的亲密回忆，与其他地方特色口味相融合呢？这样的组合不只是再现儿时记忆，也是重新构筑彼此关系的新方式。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚",
+                        "恋爱中",
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

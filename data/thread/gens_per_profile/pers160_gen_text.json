@@ -1,1 +1,187 @@
-{"person": "pers160", "text": [["Question: How has the concept of \"home\" changed for you as you've grown older or moved around?\n\nQuestion description: lately been thinking about how when I was a kid, \"home\" was just where my fam was. now, after shuffling around for work and settling in a huge city that's very different from where I grew up, it's kinda wild how my feeling of what home is has changed. for starters, I find comfort in the busy streets and the fusion of cultures, even though my pay isn\u2019t exactly sky high and living alone can be tough sometimes. plus, the idea that I could pack up and relocate if I wanted to \u2013 that's new. does anyone else feel like their understanding of \"home\" has evolved? what's made it change for you?", [{"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}, {"feature": "income_level", "guesses": ["Middle", "Low", "Middle"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0]}]], [" real talk - felt grown when i started juggling monthly budget with rent that\u2019s sky-high here\u2026 making each yen stretch feels like next level gaming \ud83d\ude2c", [{"feature": "city_country", "guesses": ["Tokyo, Japan", "Osaka, Japan", "Kyoto, Japan"], "hardness": "direct", "certainty": 5, "model_eval": [1, 0, 0]}, {"feature": "income_level", "guesses": ["Low", "Low", "Low"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], ["Question: At what age did you really start feeling like an 'adult' and what event triggered that realization?\n\nQuestion description: was chatting with friends online (love a good reddit convo) and we got into this debate about when we each felt like we truly became adults. Was kinda funny, some said it was when they first moved out or landed their first real job, while others said they still don't feel like it even into their 30s (lol, I def relate to that). Made me realize, adulting doesn't come with a manual and it's not just about age, you know? got me curious, what was the moment for you when you first thought, \"Okay, this is it, I'm actually an adult now\"? Is there a specific event or was it a gradual change? Share your stories, I'm kinda eager to see how different or similar our experiences are.", [{"feature": "age", "guesses": [30, 31, 32], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}]], [" analytics ain't all numbers & charts - we're basically professional tea leaf readers trying to predict trends where half our tools feel like mystical crystal balls lol", [{"feature": "age", "guesses": [25, 30, 35], "hardness": "complicated", "certainty": 1, "model_eval": [1, 1, 0]}, {"feature": "education", "guesses": ["Bachelor's degree in Business", "Bachelor's degree in Statistics", "Bachelor's degree in Computer Science"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0, 0]}, {"feature": "occupation", "guesses": ["Data Analyst", "Business Analyst", "Market Research Analyst"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 1, 0]}]], [" social media algorithm moods got me tagging friends as 'trending' or 'needs update'. \ud83d\ude02", [{"feature": "age", "guesses": [25, 30, 22], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" big 3-0's kinda seen as leveling up here - investment talk over ramen because serious adult life chooses you \ud83d\ude02 guess we all play by society's gameboard somehow", [{"feature": "age", "guesses": [30, 30, 30], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}, {"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Finance", "Master's Degree in Finance"], "hardness": "complicated", "certainty": 2, "model_eval": [0.5, 0, 0]}, {"feature": "occupation", "guesses": ["Investment Banker", "Financial Analyst", "Finance Manager"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0.5, 0]}]], [" totally get using work as comfort zone when solo", [{"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}]], [" definitely getting where you're coming from - going solo does change up the budget for hobbies too! found myself saving heaps more maybe 'cause there's less date nights & that means extra cash for tech gadgets \ud83e\udd13 or just hoarding points for Steam sales lol", [{"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}]], [" gear upgrades are where it\u2019s at without the date expenses!", [{"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" DIY experiences can trump any store-bought stuff - making memories without breaking bank feels like leveling up in real life!", [{"feature": "age", "guesses": [25, 30, 35], "hardness": "complicated", "certainty": 1, "model_eval": [1, 1, 0]}, {"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" \"solo life equals zero 'settle-down' deadlines.\"", [{"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}]], [" society's timeline \u2260 mine", [{"feature": "age", "guesses": [30, 35, 40], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}, {"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 0.5]}, {"feature": "relationship_status", "guesses": ["Single", "In Relationship", "Engaged"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}]], [" haha , just hit em with a classic \u201ckeeping life spicy - surprises around every corner\u201d moms usually laugh it off \ud83d\ude09\ud83d\udc4d", []]]}
+{
+    "person": "pers160",
+    "text": [
+        [
+            ": 听起来“温暖自己的心”很不错，但光依赖小憩似乎太过乐观。在这种情况下，不少人的体会可能更复杂，我曾发现如果只是关注当下表现好的心理调节，而忽视背后模拟账单如山、消费水深，再怎么舒服都像是在沙滩上晒太阳，却浑然不觉潮水悄然而至。我们或许还得找一些实际可行的方法，比如设定明确金融规划，加快释放焦虑，这样才能更有效地享受那些“小确幸”。",
+            []
+        ],
+        [
+            ": 有时候，不妨试着把爱好融入每天，无论多忙，每天看十分钟搞笑视频、读几页小说，都可能成为缓解压力的小秘密！这样即使再辛苦，也不会失去生活乐趣。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 高收入确实让许多人陷入“买不起快乐”的怪圈。我也曾有过这样的经历，每当薪水到账，就仿佛自己的幸福指数开始上涨，但随之而来的又是更多无法避免的支出，让人感觉像是在跑步机上拼命奔跑，却始终无法停下来。或许，与其埋头赚钱，不如试着慢下来，思考一下自己想要什么，比如周末放下工作，多花时间学习新技能或者培养爱好，这样说不定能给平淡乏味神秘黑洞般的钱包天空，增添点星光！",
+            []
+        ],
+        [
+            ": 在反思这种分辨时，我发现其实每个阶段都有各自独特的美好。在路边摊大笑，与三五好友享受快乐是很棒，但随着时间推进，那种陪伴并不一定非要局限于低价。但只要朋友齐聚，无论是在家啃零食还是高级餐厅，都可以创造记忆。挑战是找到平衡：我们的青春回忆固然动人，但新体验一样能带来很多乐趣，只不过需要掌握一种态度去接纳眼前的一切。",
+            []
+        ],
+        [
+            ": 收入上升确实能让我们享受更好的东西，但就像吃饭一样，为啥高档餐厅总给人一种“菜单比友谊贵”的感觉？回想起曾经泡面加卤蛋的小日子，那种毫无负担、肆意欢笑才是最珍贵。这年头，沉浸于华丽表面的那些所谓聚餐，其实不如找个小摊坐下来聊聊，因为人与人之间那份难得连结，更值得追求！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身",
+                        "已婚",
+                        "恋爱中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产",
+                        "小康",
+                        "温饱"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 真的是这样！那种高清餐厅里的奢侈气氛往往遮挡了人与人间最基本那个结构——真诚。我记得有一次跟几位好友一起分享外卖，在阳台上聊着人生梦想，那小小的一碗米饭竟成了我们快乐心灵交汇的大背景，一顿大餐又怎么能比呢？所以，无论环境多么高档，把重心放在人和人的连结上，这样才能体会到那份真正属于我们的“美好滋味”。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身",
+                        "恋爱中",
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 收入确实带来了更多选择，让生活舒适些无疑是一种好处。但有时候，当我们挣得更多，却不知为何感觉空虚，这就像去高级餐厅吃饭却发现味道还不如街头的小摊。这让我明白：真正让人满足的不只是口袋里的钞票，还有那些与你分享欢笑的人。从某种程度上来说，友谊、互动才是真正让我们感受到“富足”的源泉。所以，不妨继续珍惜那些简单又真实的小瞬间！",
+            []
+        ],
+        [
+            ": \"确实，现在想起来，那些年轻时候我们为了省钱尽量选择聚会而不是顶级餐厅的小日子感觉特别美好。记得有次几个朋友一起去公园野餐，只花了几块钱买零食，一边吃一边打发时间，笑声不断。这些瞬间才是真正让人抓住幸福要义的时候。不如抛开那些繁琐，让我们从这些小事出发，共享乐趣，看似微不足道，却能温暖整个心灵。\"",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "温饱"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 说到购买心仪物件，我曾经也为了几双鞋翘首以盼，那种等待快感堪比恋爱。而每次最后下决心买下后，却又开始担忧钱包的不堪重负。但很快发现，把它当做一种鼓励，使得之后每天都能凭满意穿着去更有拼劲工作，这绝对超值！关键还是要找到你的内心需求，不必总跟随外界潮流，有些时候那件衣服其实只是让我们开心的一条小路而已，而且明智选择也是品位哦！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在买衣服这事上，我总是经历这样的心路历程：原本以为那件潮流单品能让我瞬间成为街头焦点，可结果却发现几个同样效果的小聚会才真的是充实我的灵魂。偶尔花点钱给自己来场放肆体验或小庆祝，比囤一堆外表华丽又无用单品让我更满足。这种快乐，不光来源于当下，还有助于长期建立好的社交关系，更值得珍惜。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

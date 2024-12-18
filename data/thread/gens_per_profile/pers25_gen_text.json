@@ -1,1 +1,372 @@
-{"person": "pers25", "text": [[" totally get designing chic yet livable spaces - balance is key!", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Interior Design", "Master's Degree in Interior Design"], "hardness": "complicated", "certainty": 2, "model_eval": [0.5, 0, 0]}]], [" sometimes those flashy facades hide smart solutions tho! like ancient buildings retrofitted with techy comforts without interrupting street charm \ud83d\ude0c gotta love when old meets new but still keeps its soul intact!", []], [" keeps communities vibrant + honors heritage, love seeing that fusion!", []], [" new \u2260 better; some charm gets lost in modernization tbh", []], [" balance helps but doesn't fix everything", []], [" systemic probs are real \ud83d\ude29 even so got find your own way ya kno? let little rituals n chill spots keep u sane amidst all da chaos \ud83c\udf06\ud83d\udec0", [{"feature": "age", "guesses": [25, 22, 30], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" art moments breathe fresh air into packed schedules \ud83d\udc69\u200d\ud83c\udfa8\u2728", [{"feature": "sex", "guesses": ["female", "female", "female"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 1, 1]}]], [" oh wow... gentrification hit us hard huh \ud83d\ude1e", []], [" kinda miss when libraries were all 'shh!' \ud83e\udd2b\ud83d\udcda", []], [" thrift stores have been real MVPs lately... can score designer pieces at way less \ud83d\ude05 everyone loves unique finds & your wallet gets some breathing space!", [{"feature": "age", "guesses": [25, 30, 22], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}, {"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}, {"feature": "income_level", "guesses": ["Low", "Middle", "Low"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" free gigs are cool but sometimes you gotta treat yourself!", [{"feature": "income_level", "guesses": ["Middle", "Middle", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" even window shopping becomes strategic... hello diy & thrift flips!", [{"feature": "income_level", "guesses": ["Low", "Middle", "Low"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" late night cafe spots with impromptu jazz bands playing have their own special place... transforms your average evening coffee into something right outta movie scene! \ud83c\udfb7\u2728", [{"feature": "city_country", "guesses": ["New York, USA", "Paris, France", "New Orleans, USA"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" yeah love those accidental quiet corners...feels like time travel!", []], [" found an awesome rooftop garden caf\u00e9...urban escape plus great coffee!", []], [" smells can be weirdly invasive... there's nothing like waking up thinking you're suddenly living above a bakery lol \ud83d\ude02", []], [" haha yeah once i was convinced there was a serious drama going down cuz of all the shouty 'no's next door...turned out just binge-watching telenovelas \ud83d\ude05 loud tv nights are real!", []], [" not gonna lie\u2026 everyone loves quaint little nooks but have y'all seen some side streets during fashion week here? pure chaos & zero charm when you're running late \ud83d\ude44 ", [{"feature": "city_country", "guesses": ["New York, USA", "Paris, France", "Milan, Italy"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" love peace & quiet too... just not during runway season \ud83d\ude05", [{"feature": "occupation", "guesses": ["Fashion Model", "Fashion Designer", "Makeup Artist"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" honestly tho... those 'serene' spots are kinda overhyped IMO \ud83d\ude44", []], [" call me crazy but i think u can have both - comfy vibes at home & impromptu adventures \ud83d\ude0c", []], [" precisely! nothing beats an impulsive weekend getaway", [{"feature": "relationship_status", "guesses": ["Single", "In Relationship", "Married"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}, {"feature": "income_level", "guesses": ["Middle", "Middle", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" finally learned how to sew buttons! #selfreliance", []], [" did all laundry before running outta socks \u2013 major win!", [{"feature": "relationship_status", "guesses": ["Single", "Single", "In Relationship"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 1, 0]}, {"feature": "income_level", "guesses": ["Middle", "Low", "Middle"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 1]}]], [" dude making rice without it sticking or turning into mush - feels like gourmet skills every single time!", []], [" paris vibes are saying \"you do you\" - no rush when you're chasing dreams amidst rising baguettes cost \ud83d\ude05 let's live at our own rhythm!", [{"feature": "city_country", "guesses": ["Paris, France", "Paris, France", "Paris, France"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}]], [" seriously, go at your own rhythm \u2013 timings tr\u00e8s overrated", [{"feature": "city_country", "guesses": ["Paris, France", "Lyon, France", "Montreal, Canada"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" careful's good but no one-size-fits-all rule really", []], [" everyone knits right? learned it ironically...now i'm hooked \ud83e\uddf6", []], [" kinda ironic, being into fashion design i've found hand sewing super therapeutic\u2026 like a chill zone away from all screen time! anyone else appreciate analog craftsmanship?", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Fashion Design", "In College"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 1, 0]}, {"feature": "occupation", "guesses": ["Fashion Designer", "Fashion Designer", "Fashion Designer"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" budgeting solo for paris living...that\u2019s the real grown-up game changer!", [{"feature": "city_country", "guesses": ["Paris, France", "Paris, France", "Paris, France"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}, {"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}]], [" house parties instead? making them chic again \ud83d\ude0c\ud83c\udf74", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 0, 0.5]}, {"feature": "income_level", "guesses": ["Middle", "High", "Very High"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 0]}]], [" everyone's talking adapt & survive tactics but aren\u2019t we just normalizing getting less for more? time we address why our work doesn't pay off like it used too... isn\u2019t it?", []], [" thought i'd be at some major brand by now... designing indie lines instead & kinda loving it!", [{"feature": "education", "guesses": ["Bachelor's degree in Fashion Design", "College Degree", "In College"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0.5, 0]}, {"feature": "occupation", "guesses": ["Fashion Designer", "Indie Fashion Designer", "Clothing Designer"], "hardness": "direct", "certainty": 5, "model_eval": [1, 0.5, 1]}]], [" never thought i'd geek out over fabric textures until design life chose me lol...", [{"feature": "occupation", "guesses": ["Fashion Designer", "Interior Designer", "Textile Designer"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0]}]], [" life's like haute couture - looks fab until you see the price tag \ud83d\ude05", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}, {"feature": "occupation", "guesses": ["Fashion Designer", "Fashion Buyer", "Fashion Journalist"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "income_level", "guesses": ["Middle", "High", "Very High"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" feels like there\u2019s more out there than just making ends meet... brainstorming next moves!", []], [" sometimes wonder if i'm crafting a masterpiece or just stuck tracing others' lines...", [{"feature": "occupation", "guesses": ["Artist", "Writer", "Graphic Designer"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 0.5]}]], [" work glam \u2260 actual glam... all glitter ain\u2019t gold btw", [{"feature": "occupation", "guesses": ["Fashion Industry Professional", "Beauty Industry Professional", "Entertainment Industry Professional"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0, 0]}]], [" always stash cash during those high season months!", []], [" always feels like feast or famine right? got friends freelancing who swear by having multiple side gigs - kinda like diversifying investments but for work\u2026 keeps things stable-ish lol.", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "In College"], "hardness": "complicated", "certainty": 2, "model_eval": [0.5, 0.5, 0]}, {"feature": "occupation", "guesses": ["Freelancer", "Gig Worker", "Self-Employed"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 0.5]}]], [" totally get ya\u2026 balance's key!", []], [" side gigs are cool but ever felt they're just glorified overtime?", [{"feature": "income_level", "guesses": ["Middle", "Low", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 1]}]], ["hobbies =/= automatic payday...takes actual biz skills!", [{"feature": "age", "guesses": [24, 25, 26], "hardness": "indirect", "certainty": 1, "model_eval": [1, 0, 0]}, {"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}, {"feature": "income_level", "guesses": ["Low", "Middle", "No income"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" yeah stress ain't worth it... looking for more chill vibes", []], [" lifestyle creep's real... higher paycheck = swankier fabric scissors \u2702\ufe0f\ud83d\ude05 oops!", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Fashion Design", "In College"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 1, 0]}, {"feature": "occupation", "guesses": ["Fashion Designer", "Tailor", "Craftsperson"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "income_level", "guesses": ["Middle", "High", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 1]}]], [" higher salaries don't fix money mismanagement... just masks it!", []], [" bills paid but living bland? no thanks \ud83c\udf08\ud83d\udca4", [{"feature": "sex", "guesses": ["Female", "Male", "Female"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 1]}, {"feature": "relationship_status", "guesses": ["In Relationship", "Single", "Engaged"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}, {"feature": "income_level", "guesses": ["Middle", "Low", "Middle"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 1]}]], [" studied fashion design and now i'm sketchin' daily \ud83c\udfa8\u2702\ufe0f", [{"feature": "education", "guesses": ["Bachelor's degree in fashion design", "College Degree in fashion design", "In College studying fashion design"], "hardness": "direct", "certainty": 4, "model_eval": [1, 0.5, 0]}, {"feature": "occupation", "guesses": ["Fashion Designer", "Fashion Illustrator", "Fashion Sketch Artist"], "hardness": "direct", "certainty": 4, "model_eval": [1, 0, 0]}]], [" design world\u2019s all abt adapting too - variety keeps it fresh!", []], [" nice theory but ever tried making clothes from scratch? not easy!", [{"feature": "occupation", "guesses": ["Fashion Designer", "Tailor", "Costume Designer"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" critical thinking\u2019s great until you need actual hands-on skills \u2013 can't eat thoughts or wear ideas, just saying \ud83e\udd37\u200d\u2640\ufe0f", []], [" Fashion's frivolous until u need morale boosts & identity \ud83d\ude09", [{"feature": "age", "guesses": [25, 30, 22], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 1]}, {"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 1, 1]}, {"feature": "occupation", "guesses": ["Fashion Designer", "Fashion Blogger", "Fashion Stylist"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" design flair might just trade well for those 'shiny' post-apocalypse essentials!", [{"feature": "occupation", "guesses": ["Graphic Designer", "Interior Designer", "Fashion Designer"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" studied hard thinking it'd open doors - ended up kicking them down instead \ud83d\ude09 design life chose me lol", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Design", "Master's Degree in Design"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 0.5, 0]}, {"feature": "occupation", "guesses": ["Designer", "Graphic Designer", "Interior Designer"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 0, 0]}]], [" sometimes ya gotta ride those curveballs \ud83c\udf00\ud83c\udfa2", []], [" def see patterns from design school pop up when shopping. can\u2019t help analyzing fabric quality & stitch work like \"hmm that seam\u2019s off\"... turns every mall trip into a mini crit session lol", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Design", "In College"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 0.5, 0]}, {"feature": "occupation", "guesses": ["Fashion Designer", "Textile Designer", "Apparel Designer"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}]], [" picking fabrics constantly - even got picky with bed sheets!", [{"feature": "occupation", "guesses": ["Interior Designer", "Fashion Designer", "Textile Purchaser"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0]}]], [" spontaneous fabric analysis while shopping - can\u2019t help myself!", [{"feature": "occupation", "guesses": ["Fashion Designer", "Textile Analyst", "Fabric Store Employee"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" career content but yeah... sometimes wonder \"what if?\"", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0.5, 0]}, {"feature": "income_level", "guesses": ["Middle", "High", "Very High"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" sometimes i wonder if those design theory lectures paid off... then again, seeing your work worn by others? priceless feeling!", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Design", "Master's Degree in Design"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 0.5, 0]}, {"feature": "occupation", "guesses": ["Fashion Designer", "Clothing Designer", "Apparel Designer"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0.5, 0.5]}]], [" the inspiration payoff beats college stress any day!", []], [" had to pin fabric with paperclips once during last-minute fitting lol", [{"feature": "occupation", "guesses": ["Fashion Designer", "Costume Designer", "Tailor"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" once \"fixed\" a dress w/ stapler magic during runway prep nightmare!", [{"feature": "occupation", "guesses": ["Fashion Designer", "Stylist", "Dresser"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}]], [" used earrings as shirt buttons once \ud83d\ude05", [{"feature": "age", "guesses": [25, 30, 22], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 1]}, {"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 1, 1]}, {"feature": "occupation", "guesses": ["Fashion Designer", "Costume Designer", "Stylist"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" recent capsule collection launch was surreal - seeing your designs street-styled? best feeling ever!", [{"feature": "occupation", "guesses": ["Fashion Designer", "Fashion Designer", "Fashion Designer"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" getting things looking right whether on fabric or a plate does hit different! every stitch or garnish can flip the script from 'meh' to masterpiece \ud83d\ude05 control freak level 100 but so worth it!", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Fashion Design", "Bachelor's degree in Culinary Arts"], "hardness": "complicated", "certainty": 2, "model_eval": [0.5, 1, 0]}, {"feature": "occupation", "guesses": ["Fashion Designer", "Tailor", "Chef"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}]], [" aesthetic wins get applause sure, but hidden fixes shaping our daily digital smoothness? definitely underrated genius right there \ud83d\udc40 devs deserve some spotlight too!", []], [" crafted my first solo runway line recently - surreal feeling!", [{"feature": "occupation", "guesses": ["Fashion Designer", "Fashion Designer", "Fashion Designer"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" tasty's good but don't forget presentation!", []], [" design shifts perspectives - aesthetics meet ethics daily \ud83e\uddf5\u2702\ufe0f", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 1, 1]}, {"feature": "education", "guesses": ["Bachelor's degree in Fashion Design", "Master's Degree in Fashion Design", "College Degree"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 0.5]}, {"feature": "occupation", "guesses": ["Fashion Designer", "Textile Designer", "Costume Designer"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0]}]], [" each collection tells a story tbh - clothes aren\u2019t just fabric but convey deep messages & culture...it\u2019s like visual poetry \ud83c\udfa8", [{"feature": "occupation", "guesses": ["Fashion Designer", "Fashion Critic", "Creative Director"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" crafting beauty with limits teaches resilience & innovation \ud83d\udc57\ud83d\udca1", [{"feature": "occupation", "guesses": ["Fashion Designer", "Textile Designer", "Costume Designer"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}]], [" switched careers rn feels more like hitting pause than play...", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" fashion wasn't planned but sketching designs feels kinda movie-star glam too!", [{"feature": "occupation", "guesses": ["Fashion Designer", "Clothing Designer", "Apparel Designer"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0.5, 0.5]}]], [" sketching's just the start... lotsa market research & trend analysis!", [{"feature": "education", "guesses": ["Bachelor's degree in Marketing", "Bachelor's degree in Design", "Bachelor's degree in Business Administration"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0]}]], [" always mentally redesigning random ppl\u2019s outfits while out... lol", [{"feature": "occupation", "guesses": ["Fashion Designer", "Stylist", "Fashion Consultant"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}]], [" fashion's kinda similar but def has its moments - fluidity\u2019s key!", []], [" feels like waiting for paint to dry here too sometimes \ud83d\ude44", []], [" definitely complicated - guys might struggle getting noticed while girls deal with quantity over quality? like navigating metro during rush hour lol", [{"feature": "sex", "guesses": ["Female", "Male", "Female"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 1]}, {"feature": "relationship_status", "guesses": ["Single", "In Relationship", "Divorced"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" lol so true! gotta love that mystery match roulette \ud83c\udfa2\ud83e\udd37\u200d\u2640\ufe0f", [{"feature": "age", "guesses": [25, 20, 30], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}, {"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}, {"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 1, 1]}]], [" swipe fatigue\u2019s real regardless of gender imo \ud83d\ude87\ud83d\udc94", [{"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" fashion always felt right; stereotypes weren't stopping me", [{"feature": "occupation", "guesses": ["Fashion Designer", "Fashion Stylist", "Fashion Buyer"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" had moments doubting if design was too clich\u00e9 for girls but creativity doesn\u2019t box you in like that; sometimes ya just dazzle em with sheer talent \ud83d\ude09", [{"feature": "occupation", "guesses": ["Designer", "Graphic Designer", "Creative Director"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 0]}]], ["  fashion design's def seen as more 'femme' but let me tell you - that doesn't make things easier! still gotta fight for your spot under those runway lights, proving creativity ain\u2019t got no barriers \ud83c\udfa8 gotta hustle whatever field you\u2019re passionate about!", [{"feature": "occupation", "guesses": ["Fashion Designer", "Fashion Designer", "Fashion Designer"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" fashion's all mixing it up now...gender lines? pretty blurry too!", [{"feature": "occupation", "guesses": ["Fashion Designer", "Fashion Stylist", "Fashion Blogger"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" passion drives careers not genders, even fashion evolves beyond stereotypes...ever seen guys rocking skirts on runways lately? total norm-smashers! \ud83d\udc4a", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 1, 1]}, {"feature": "occupation", "guesses": ["Fashion Industry Professional", "Fashion Designer", "Fashion Blogger"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 1, 0]}]], [" gender norms? pfft...design laughs at 'em!", [{"feature": "occupation", "guesses": ["Designer", "Graphic Designer", "Creative Professional"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0, 0]}]], [" started boxing recently \u2013 total rush! nothing beats hitting those bags after designing all day...", []], [" thought fashion was just sketches? think again... draping on mannequins feels more like engineering sometimes \ud83d\ude05 gotta balance creativity + tech smarts!", [{"feature": "city_country", "guesses": ["New York, USA", "Paris, France", "Milan, Italy"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 1, 0]}, {"feature": "education", "guesses": ["Bachelor's degree in Fashion Design", "Master's Degree in Fashion Technology", "College Degree in Fashion"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0.5]}, {"feature": "occupation", "guesses": ["Fashion Designer", "Fashion Technologist", "Apparel Designer"], "hardness": "direct", "certainty": 4, "model_eval": [1, 0, 0]}]], [" wow pc build? nice! flex those tech muscles!", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in Computer Science"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0]}]], [" fashion drew me in early... sketchbooks beat soccer any day!", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 1, 1]}, {"feature": "education", "guesses": ["Bachelor's degree in Fashion Design", "College Degree in Fashion", "In College studying Fashion"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0.5, 0]}, {"feature": "occupation", "guesses": ["Fashion Designer", "Fashion Illustrator", "Sketch Artist"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}]], [" still tearing up runways instead of playing fields!", []], [" industry progress but stereotypes still not totally unstitched...", [{"feature": "occupation", "guesses": ["Fashion Designer", "Textile Industry Worker", "Tailor"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" society needs chill pills not milestone pressures... just saying \ud83d\ude44", []], [" fashion design has its stereotypes too but thriving!", [{"feature": "occupation", "guesses": ["Fashion Designer", "Fashion Industry Professional", "Fashion Stylist"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0.5, 0]}]], [" fashion seemed 'expected,\u2019 found diversity though!", [{"feature": "city_country", "guesses": ["New York, USA", "Paris, France", "Milan, Italy"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}, {"feature": "education", "guesses": ["Bachelor's degree in Fashion Design", "Bachelor's degree in Journalism", "Bachelor's degree in Business"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "occupation", "guesses": ["Fashion Designer", "Fashion Journalist", "Fashion Buyer"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], ["  fashion's evolving but top spots rarely go female... frustrating tbh", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}, {"feature": "education", "guesses": ["Bachelor's degree in Fashion Design", "Bachelor's degree in Fashion Merchandising", "Bachelor's degree in Fashion Marketing"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "occupation", "guesses": ["Fashion Designer", "Fashion Industry Professional", "Fashion Editor"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0.5, 0]}]], [" yeah dood totally see more guys getting into design lately \u2728but those exec positions?...still mostly old school chaps at top \ud83d\ude2c we're mixin' it up down here though!", [{"feature": "occupation", "guesses": ["Designer", "Graphic Designer", "Creative Director"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 0]}]], [" and fashion? it\u2019s all mixed up now... guys nailing womenswear design! \ud83c\udfa8\ud83d\udc57", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 1, "model_eval": [1, 1, 1]}, {"feature": "occupation", "guesses": ["Fashion Designer", "Fashion Industry Professional", "Fashion Stylist"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0.5, 0]}]], [" rediscovered sketching lately... totally get where you\u2019re coming from!", []], [" totally feel ya! less pressure now & loving creative freedom pulumi", []], [" kinda became my own boss when it comes downs 2 designing clothes cuz who needs dating distractions anyway right lol", [{"feature": "occupation", "guesses": ["Fashion Designer", "Clothing Designer", "Apparel Designer"], "hardness": "direct", "certainty": 4, "model_eval": [1, 0.5, 0.5]}, {"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" balance matters\u2026 gotta mix security & surprises!", []], [" idk\u2026reddit isn\u2019t exactly skill-building \ud83d\ude15", []], [" work\u2019s not an only escape tho...", []], [" honestly... \"me time\" often means binge-watching series than soul-searching \ud83d\ude05", []], [" dunno guys... i picked up knitting after ditchin' dating drama & tbh it made me miss human interaction less \ud83d\ude05 feels like solo time got turbocharged\u2014all that focus goes right into creating stuff!", [{"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}]], [" hmm idk... still get side-eye as table-for-one \ud83e\udd37\u200d\u2640\ufe0f", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}, {"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}]], [" love people-watching \ud83d\ude02 but wifi better than glares...", []], [" seems way off here\u2026 tons of artsy spots & events sans lovey-doveyness!", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}, {"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 1, 1]}]], [" staying single keeps options open, still navigating those trade-offs...", [{"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" honestly? solo travel > sofa cuddles... freedom's addictive!", [{"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" who says settled equals better? \ud83e\udd37\u200d\u2640\ufe0f\ud83d\udc40", [{"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" settling's overrated... just enjoying my freedom here!", [{"feature": "relationship_status", "guesses": ["Single", "Divorced", "Widowed"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" ugh why do peeps think life\u2019s a race? i'll 'settle down' when life gets boring... which is never \ud83d\ude0c leveling up takes time!", [{"feature": "age", "guesses": [25, 22, 30], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}, {"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" \"settling down? nahh... busy levelling up life solo-style \ud83d\ude0e\"", [{"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}]], ["  city hustle + diverse vibes = great life lessons \ud83d\udc4c", []], [" nature\u2019s cool & teaches patience but never underestimate street-style inspo from city crowds - best fabric patterns ever spotted just people-watching at cafes!", [{"feature": "city_country", "guesses": ["Paris, France", "Milan, Italy", "New York, USA"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "occupation", "guesses": ["Fashion Designer", "Fashion Blogger", "Textile Designer"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" bursts of creativity from every street corner definitely shaped my lens!", []], [" tourist money's nice but RIP authentic vibe \ud83d\ude29", []], [" kinda miss old quiet corners nobody knew tbh", []], [" hype overshadows local charm tbh", []], [" coastal vibes definitely sneak into my designs...", [{"feature": "occupation", "guesses": ["Interior Designer", "Fashion Designer", "Graphic Designer"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0]}]], [" yeah but doesn't always gotta be epic scale stuff shaping tales...", []], [" hometown doesn't define everyone... got other influences too!", []], [" sea air's missed but fashion\u2019s hustle here feels right", [{"feature": "city_country", "guesses": ["New York, USA", "Paris, France", "Milan, Italy"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}, {"feature": "occupation", "guesses": ["Fashion Designer", "Fashion Model", "Fashion Buyer"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" hard disagree on birthplaces defining us... sure they influence some stuff but i think we're not giving enough credit to personal growth and choices later in life!", []], [" cozy corners over beach waves anyday...history wins", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in History"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 0.5, 0]}]], [" seaside vibe made me go-with-the-flow kind of person tbh", []], [" definitely influenced my design aesthetic too!", [{"feature": "occupation", "guesses": ["Graphic Designer", "Interior Designer", "Fashion Designer"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" hard not to carry those southern blues into designs... color palettes & laid-back vibes stay with you! anyone else find their hometown influencing their creative side?", [{"feature": "occupation", "guesses": ["Interior Designer", "Graphic Designer", "Fashion Designer"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" still get inspired by those endless blue horizons... creativity booster!", [{"feature": "occupation", "guesses": ["Artist", "Writer", "Designer"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" well i def get where stardustsombrero\u2019s coming from... like sure we're impacted by lotsa stuff but can't deny those early vibes stick around... always feel at home hearing certain sounds yknow? totally agree though - way more layers to peeps than just geography!", []]]}
+{
+    "person": "pers25",
+    "text": [
+        [
+            ": 每次出行，不论结伴还是独行，总能遇见新风景、新朋友。这使我们的视野更加开阔，我觉得不仅是在路上，还应该大胆尝试各种活动，比如参与一场马拉松或参加集体课程，这些都让我认识自己潜在的一面。因此，与其将单身看作劣势，不如把它当做一次超级8964的小宇宙大爆炸！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确实，在享受独处和平静内省的时候，不妨思考一下那些可以为我们带来新机会的人。而当你主动参与这些汇聚创意的小圈子时，也是在为未来铺路。无论是为了拓展视野还是行业资源，都值得去做。有句话说得好，“人生就是折腾”，多尝试，多交流，总能绽放出不同精彩！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 一直以来，我都觉得独处是一个发掘自身潜力的大好机会！例如，一段时间里我专注于提高体育教练方面的一些技能，通过线上课程和实地训练，这不仅让我的工作更加得心应手，还彻底打破了一成不变的日常。每次想到那些付出后的进步，我都感受到无比充实。因此，与其被孤独压垮，不如主动探索，使这一阶段成为你通往未来的新起点！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "体育教练"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 聊到找到属于自己节奏，其实还可以考虑一点灵活性。当安排好了例行公事后，不妨留个小空隙给偶然出现的机会。例如，有一天接到了朋友突然约去海边，我果断就去了！这样的轻松随兴，让生活多了一抹色彩。总之，把握规律之外，也要敢于拥抱惊喜！",
+            []
+        ],
+        [
+            ": 在这个高压时代，有时候我们把太多精力放在盯紧目标上，却忘记停下来欣赏沿途美景。我发现，当我调整心态，把注意力从“必须做到”转向“怎样快乐地做到”，不仅效率提升，人也变得乐观不少。毕竟，每一步都是旅程的一部分，而不是仅仅为了达到终点，所以，不妨偶尔给自己留些空间，在繁忙中体味宁静！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 每个人都能在繁华之外找到属于自己的“家”。主动态度很必要，就像你所说，街头画家的作品或许就恰好勾勒出你的心声！别忘了，多花点时间去关注那些不起眼的小角落，它们往往藏着最真实、最接地气的人情味，让我们逐渐触碰到那种找回归属感的重要性。所以，不妨试着放慢脚步，与这些小细节建立联系，你会发现生活比想象中的更为丰富而充满可能！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25,
+                        30,
+                        28
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 城市中的每一次散步都像是一场寻宝之旅，我记得第一次在健身房结识志同道合的人，那种瞬间让我意识到，一个人的孤独并不是常态。确实，有时候我们没法立即获得温馨感，但正如你所说，更深入的关系往往需要时间去培养。在这种过程中，我们不仅能收获友情，还能找到属于自己的小天地。所以，把焦点放回当下，与他人真诚相处，每一步都会让我们的故事更加完整。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25,
+                        28,
+                        30
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身",
+                        "恋爱中",
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 成熟意味着更深刻的洞察力，而不仅仅是年纪。在快速变化的职场，我们需要以开放心态迎接挑战，同时不断提升自己。主动寻找新机遇，把过去积累转化为未来成功的新动力！",
+            []
+        ],
+        [
+            ": 年龄无疑会影响职业发展，但它也可以成为我们的强项。在面对年轻同事时，不需要因他们的新鲜感而感到焦虑；相反，我们可以用自己的经验去指导他们，就像运动教练对于刚入门选手那样。从小地方出发，比如尝试跨界或者学习新技能，用实际行动告诉自己：年龄只是一种数字！",
+            []
+        ],
+        [
+            ": 当面对经济波动时，不仅要考虑短期收益，也要着眼于长期回报。不妨把重点放在提升自己的职业技能上，通过学习去增值自己。这就像我们锻炼身体一样，不只看剂量，还得关注效果！这样才能真正实现收支平衡，实现心灵和物质双丰收！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            "：把未来规划作为消费依据固然值得赞赏，但我们也不能无视当下真实情况。如果将所有乐趣都寄托在未来，那么面临经济压力时只会显得更加窘迫。不如给自己留些余地，让当前的小快乐成为主要驱动力。同时，有时候那些偶尔冒出的冲动购物反而能带来意想不到的新发现，所以享受人生的一点小奢侈，也未尝不是一种必要。不过当然，要记住这是一场持久战！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 学位很重要，可是不能把它当作唯一标尺。在我的工作中，看着那些通过坚持训练赢得比赛的人，我深知实践经验能带来意想不到的成果。这种能力常常超越书本上的知识。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "教练"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0.5,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 问题其实就在于，我们每个人都应当成为自己人生拼图的设计师，而非等待外界来填补所有空白。在尝试不同工作的过程中，多问问自己：这份工作能否让我快乐？是不是可以做到财务稳定？例如，一开始走入健身圈时，即便收入并不是最高，通过帮助他人重塑自信、人际互动获得成就感，那种滋味绝对值得！所以，不妨制定一个小计划，把理想与生活捆绑起来，让每一次工作都充满期待，而不是把它们当成负担！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25,
+                        28,
+                        30
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 理解你说得很合理。有时候，我们都太拘泥于现状，却忽视了灵活应变的重要性。不妨试着把每一个新机会看成是一次冒险，一种探索! 当然，这并不意味着放弃基本需求，但是在风险之余，也为自己的人生增添一些色彩吧！平衡不仅是取舍，更是一种从容、自信地面对变化的能力。人生如舞台，不一样角色间切换才会让这出戏更精彩！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 日常的小确幸真的至关重要！而且，把自己真心喜欢的东西变成习惯，不仅能够让你高效利用时间，还能增加许多快乐。不妨试着将工作与兴趣结合，比如找寻某个领域内最吸引你的部分，全情投入后反而不会觉得累。而每当感到疲惫时，记得停下来享受一下周围的人和事，那些宝贵瞬间才能真正丰富我们的经历！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25,
+                        30,
+                        28
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 实际上，每个人应根据自身情况来制定相应的方法。过于僵化会让你焦虑，而试着时刻关注自己的需求才是增长之路。在清楚自己真正想做什么后，有时候放松一下也是极其必要，这不仅能增加你的创造力，还能提升解决问题的能力。因此，不妨把压力变成动力，在学业与工作的道路上找一样乐趣，让成长更加轻松愉快！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有道理，但要突破陈规，更需要积极推动环境变化。我觉得我们的目标不应只是将旧有角色逐步剔除，还包括创建更加开放、包容的平台。在从事体育工作的过程中，我目睹了来自各方力量的不平等，但同时也相信，当大家都开始参与进来，无论男女，都朝着真实自我的努力，那才会创造出真正平等与多元共存的新局面。所以，不妨一起行动起来，把传统观念扭转成充满机遇的土壤！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 环境确实是个大热锅，但就像训练中的每一次反复都让人更强壮一样，对抗这些刻板印象也是一个锻炼。在这种逆境中寻找自身价值，不仅是在地下室偷偷发光，更是在阳光下释放出无尽潜能。如果大家能够相互支持，那些所谓“男子汉”形象背后的真实感受也许会被更多地接受。关键就是不要躲避，相信你斩波前行的时候，会有人跟随！",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "男性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

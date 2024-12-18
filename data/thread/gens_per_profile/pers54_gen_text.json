@@ -1,1 +1,228 @@
-{"person": "pers54", "text": [[" Not all crave constant change; some treasure old roots. ", []], [" Fresh starts often overlook hidden complexities.", []], [" Sorry but old trinkets don't prove ghosts.", []], [" Neat findings \u2260 haunted lore validation", []], [" Indoor activities bloom; life adapts regardless!", []], [" Absolutely get where you're coming from - a heavy downpour and there goes my plan of being productive; instead it\u2019s puzzles or rewatching old movies for me.", []], ["  Earnings melt like snow in July these days. ", [{"feature": "income_level", "guesses": ["Low", "Middle", "No income"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Simple once mandatory - now we label voluntary minimalism 'luxury'?", []], ["  Degrees open doors; wisdom navigates halls. ", []], [" Theory's just one piece; adaptability reigns supreme.", []], [" Degrees help but real life teaches more!", []], [" Math theory isn't job training \u2013 surprised pikachu face!", []], [" Had a colleague once categorize his lab mice as \"consultants\".", []], [" Had similar trials; respect wasn't freely given, was earned twice over. ", []], [" It's ironic - spend years solving complex equations only for some folks thinking you're just \"good at math\" instead of recognizing your expertise and body of work!", [{"feature": "education", "guesses": ["PhD in Mathematics", "PhD in Physics", "PhD in Engineering"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0]}]], [" Lived it - solidity trumps sparks every time.", []], [" Marriage\u2014a garden requiring daily tending\u2014not just good soil!", []], [" Compromise matters but don't lose yourself. ", []], [" Absolutely! But where's that line? Tougher than expected, right?", []], [" Communication's key but so are common values.", []], [" Too much emphasis on 'growth' lately - don't forget humor! Laughing together can turn years into golden memories far better than nodding along similar life goals ever will. ", []], [" Shared dreams indeed cement bonds stronger than fleeting butterflies.", []], [" The old haunts often get swallowed up; souvenir stands now?", []], [" Charming memories outlive concrete jungles. ", []], [" Mindset adapts - birthplaces don\u2019t define your whole story. ", []], [" Roots matter but don't dictate growth.", []], [" Old wisdom still shapes fresh minds!", []], [" Hah, sounds idyllic! But where\u2019s the strategy? Chess beats all!", []], [" BBQ invitations once meant handwritten notes; times change!", []], [" Efficiency often trumps leisurely pace here. ", []], [" Life\u2019s equation - roots set values; passion plots the graph!", []], [" Roots run deep but we plot our course!", []], [" Couldn\u2019t agree more\u2014being shaped by your roots much like core math principles guide you initially. Then life throws variables at you!", []]]}
+{
+    "person": "pers54",
+    "text": [
+        [
+            ": 在我看来，尽管金钱能够买到某种程度上的便利和享受，但那份属于人与人之间真实互动所滋养出的乡愁与情谊，却是任何数字都无法替代！回想起那些夜里围坐小桌，共享家常菜肴、嬉笑打闹、畅聊梦想的时候，我才意识到：内心渴望的是接纳与陪伴，而不仅仅是一张不断增长的钱包清单！",
+            [
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 不知道你有没有注意到，那些五光十色的大餐往往比不上跟好友一起共享路边摊的小乐趣！我们总是在奔波，但人生不就是个调味品吗？适当放慢脚步，让灵魂喘口气，再去享受那些温暖时刻其实挺不错！就像当年周末遇老友一块撸串，这才是真正滋养心灵啊！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 其实，在忙碌之余，我们常常低估那些平凡但珍贵的小瞬间。就像我记得某次简单的大排档聚餐，那种随意却真实交谈后的满足感，是任何豪华大餐都无法比拟的！建立良好的社交网络本身就是一种投资，它能让我们的情绪更加稳定、应对挑战更有底气。这也许正是巴菲特所说：“人生最重要的是拥有朋友。”因此，下次哪怕只是约上三五好友，也要记得珍惜那段时间，因为它们无疑是给你意外惊喜的一部分！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 一个人的时候确实会遇到空虚，但这正好给我们留出空间去探索那些一直想尝试但没时间做的事情！比如，以前就想学吉他，这段时间终于下定决心开始弹奏。在追逐梦想时，那些瞬间都变得特别有意义。而这种努力，也让未来有人共鸣时，更加值得期待！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有时候真的需要从日常的小确幸中进行反思！像你说的一样，每一次新体验都是进步，但不妨停下来问自己：这些到底是随机发生还是源自心底真正想要追求的？上个季度我尝试了一种新的手工艺，这竟然点燃了我久违已久的不安分灵魂。如果把探索视为一场旅程，而每一步都充满意义，那就太妙啦！所以，把目光放得更远一些，也许可以收获更多啊。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有趣的是，自由的时候往往让我们更容易放飞思想！不过，光是在追求各种新体验，还真的不能掩饰那些潜藏的问题。有次旅行，一个人坐在海边，无意间意识到其实一直想去理解自己的情感变迁——难道不是一种精神上的逃避吗？所以，是时候给自己一点安静时间，让这些未解之谜浮出水面啦！这或许更有利于持续的人生旅程啊！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在这个阶段，将时间投入到自己热爱的事情中确实非常重要！像你说得学吉他，不仅能打发寂静时光，还带来了新的挑战和成就感！而且，通过这样的小目标，我们逐渐建立起自信，也许还可以趁机结识志同道合的新朋友。不妨试试去参加社区音乐会或者小型聚会，与更多有趣的人分享你的爱好，这样即使是一个人的时候，也不会那么孤单！实际上，那些流淌出来的不仅是音符，还有无限可能哦！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在探索自我的过程中，每个小尝试都像是一颗星星，即使微弱，也照亮了前方的路！或许正是在那些琐碎的小事中，我们找到了真正定义我们的东西，比如一段旋律、一次旅行，那些瞬间都是生命的小礼物！最终，会让人惊喜地发现，这种状态也是一种丰富多彩的人生体验！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身",
+                        "恋爱中"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

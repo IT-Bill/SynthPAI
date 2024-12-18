@@ -1,1 +1,570 @@
-{"person": "pers193", "text": [[" hit up el prado recently - playground's swapped with wifi hubs! makes sense though seasoned watching gadgets instead of scoring goals lol", []], [" playgrounds where i used to hold afternoon soccer clinics are all tech-driven now... kinda miss simpler times", [{"feature": "occupation", "guesses": ["Soccer Coach", "Sports Coach", "Physical Education Teacher"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0.5, 1]}]], [" street fairs not same anymore either - more charging stations than food stalls lol \ud83d\ude14", []], [" the playground i grew up with turned into apartment blocks... kinda miss those swings", []], [" yeah i get your point - things gotta grow hey? still hard not letting nostalgia trip you up when everything feels so different now  ", [{"feature": "age", "guesses": [45, 50, 55], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" hostin' movie nights now, gotta love leftovers", []], [" yeah having less cash means getting creative! evenings are more netflix marathons than hitting town & swapping gym memberships for workouts at local parks...who knew frugality could be so eco-friendly?", []], [" definitely feel you on those quiet spots\u2014there\u2019s a charm in little plazas around corners where you least expect them! gotta love stumbling onto a street soccer game or some impromptu folk music session after school hours too.", [{"feature": "education", "guesses": ["In College", "In Highschool", "College Degree"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 0.5]}]], [" ah but let\u2019s not forget those times when you wander into street markets - like little islands brimming with local flavors & chit-chat where everything feels more real somehow. unique vibes there can't be topped!", []], [" oh man... you think that's bad? try having street protests turn your 15-minute ride into an hour-long guessing game! gotta love those surprise city-wide parades turning everything upside down \ud83d\ude44", []], [" interesting story but lemme tell ya, not all unplanned chats turn out cool \u2013 got stuck once listening to conspiracy theories till my ears bled...some adventures you just don't sign up for lol", []], [" playlist savior more like! mine's crammed with salsa bangers \u2013 lifesaver!", []], [" hit that grown-up vibe after navigating through some real tough personal stuff singlehandedly - like divorce ain't for weak hearts but man does it school you in \"life\". c\u00e1c\u00e1rsele la ficha they say here... real talk!", [{"feature": "relationship_status", "guesses": ["Divorced", "Divorced", "Divorced"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" dreamed big...life happened lol", []], [" childhood dream was pro baller\u2014life laughs\u2014now content shaping young athletes", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Sports Science", "In College"], "hardness": "complicated", "certainty": 2, "model_eval": [0.5, 0, 0]}]], [" was expecting more travels tbh", [{"feature": "income_level", "guesses": ["Middle", "Middle", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" career shift here too - found joy coaching kids locally", []], [" yeah perks are cool, love random holidays here!", []], [" seems teaching already keeps everyday unpredictable enough lol", [{"feature": "occupation", "guesses": ["Teacher", "Educator", "Instructor"], "hardness": "direct", "certainty": 5, "model_eval": [0.5, 0.5, 0.5]}]], [" kinda love teaching but gotta admit it\u2019d be nice if it paid more lol", [{"feature": "occupation", "guesses": ["Teacher", "Educator", "Instructor"], "hardness": "direct", "certainty": 5, "model_eval": [0.5, 0.5, 0.5]}, {"feature": "income_level", "guesses": ["Low", "Middle", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 1]}]], [" work as pe teacher \u2014 fits well with active life goals", [{"feature": "occupation", "guesses": ["PE teacher", "PE teacher", "PE teacher"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" security's cool but mixing things up keeps you young!", []], [" health-focused habits blend seamlessly into everyday vida thanks to teaching", [{"feature": "education", "guesses": ["Bachelor's degree in Education", "Master's Degree in Public Health", "College Degree"], "hardness": "complicated", "certainty": 2, "model_eval": [0.5, 0, 0]}, {"feature": "occupation", "guesses": ["Teacher", "Health Educator", "Wellness Coach"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 0, 0]}]], [" extra gigs during summer break help me out", [{"feature": "education", "guesses": ["In College", "In Highschool", "College Degree"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 0, 0.5]}]], [" budget planning helps me dodge surprises", []], [" learned budgeting hard way - save big when it\u2019s peak season!", []], [" super relatable - always tweaking budgets here too!", []], [" financial peace > endless hustle", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in finance", "Master's Degree in finance"], "hardness": "complicated", "certainty": 2, "model_eval": [0.5, 0, 0]}, {"feature": "income_level", "guesses": ["Middle", "High", "Middle"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 1]}]], [" social pressures stack up the bills tbh", []], [" i feel ya \u2013 earlier it was just paying bills n now it's saving for more. guess priorities evolve like us huh?", [{"feature": "income_level", "guesses": ["Middle", "Middle", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" retirement thoughts hit different after some life curveballs lol", []], [" social media does inflate things big time", []], [" love teaching kids sports tbh, always unpredictable like weather", [{"feature": "occupation", "guesses": ["Physical Education Teacher", "Sports Coach", "Youth Sports Instructor"], "hardness": "direct", "certainty": 5, "model_eval": [1, 0, 0]}]], [" not everything post college turned up roses but found something i love doing", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "Bachelor's degree in some field"], "hardness": "direct", "certainty": 5, "model_eval": [0.5, 0.5, 0.5]}]], [" taught me discipline but sometimes dreamt of pro sports coaching", [{"feature": "occupation", "guesses": ["Physical Education Teacher", "Sports Coach", "Fitness Trainer"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" all that fitness theory rarely beats hands-on game days", []], [" studied pe\u2014no regrets shaping future generations through sports!", [{"feature": "occupation", "guesses": ["Physical Education Teacher", "Sports Coach", "PE Instructor"], "hardness": "direct", "certainty": 5, "model_eval": [1, 0, 1]}]], [" landed in pe teaching - never looked back!", [{"feature": "education", "guesses": ["Bachelor's degree in Physical Education", "College Degree", "Bachelor's degree in Sports Science"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}, {"feature": "occupation", "guesses": ["PE Teacher", "Physical Education Teacher", "Gym Teacher"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" chosen p.e., sometimes dreamt of more - still rewarding though", [{"feature": "education", "guesses": ["Bachelor's degree in Physical Education", "College Degree", "In College"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "occupation", "guesses": ["Physical Education Teacher", "Coach", "Sports Instructor"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0.5]}]], [" love teaching now but never saw it coming either lol", [{"feature": "occupation", "guesses": ["Teacher", "Educator", "Instructor"], "hardness": "direct", "certainty": 5, "model_eval": [0.5, 0.5, 0.5]}]], [" it's crazy how much le gente you work with can make or break your job satisfaction ya? part of why i dig being where i am ahora - great colleagues n' students", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Education", "Master's Degree in Education"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0.5, 0]}, {"feature": "occupation", "guesses": ["Teacher", "Professor", "Educator"], "hardness": "direct", "certainty": 5, "model_eval": [0.5, 0, 0.5]}]], [" sounds like you found your niche - making a difference feels great!", [{"feature": "occupation", "guesses": ["Social Worker", "Healthcare Professional", "Educator"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 0.5]}]], [" feels right - secure job helps but dreams keep ya going", [{"feature": "income_level", "guesses": ["Middle", "Low", "High"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" pe teachers always being seen as gym buffs right? more like motivational counselors trying not let kids turn into couch potatoes lol", [{"feature": "occupation", "guesses": ["Physical Education Teacher", "PE Teacher", "Gym Teacher"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 0.5]}]], [" haha can relate kind of but it's pushups during tv adverts instead of number crunching \ud83d\ude05 helps staying fit without hitting the gym every day, right? oh man our hobbies really do turn into daily routines sometimes!", []], [" yeah sports teacher here - stereotypes are stubborn", [{"feature": "occupation", "guesses": ["Sports Teacher", "Physical Education Teacher", "Gym Teacher"], "hardness": "direct", "certainty": 5, "model_eval": [0, 1, 1]}]], [" pe teacher here - totally ignored those old-school norms myself", [{"feature": "occupation", "guesses": ["PE Teacher", "Physical Education Teacher", "Gym Teacher"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" so important to follow your excitement for tech or whatever fires you up!", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in Computer Science"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0]}]], [" girl power breaking barriers here too", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}]], [" gym classes ain\u2019t just for dudes - love showing kids strength has no gender", [{"feature": "occupation", "guesses": ["Gym Teacher", "Fitness Instructor", "Physical Education Teacher"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 1]}]], [" boys into ballet are killing it in class nowadays!", []], [" taught some dudes yoga once... they're hooked now!", []], [" coaching soccer kicks stereotypes outta the park", []], [" always loved sports as a kid - now PE teacher; defy stereotypes much?", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Physical Education", "Bachelor's degree in Education"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 1, 0.5]}, {"feature": "occupation", "guesses": ["PE teacher", "PE teacher", "PE teacher"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" grew up running more than baking but hey you do you", []], [" as a kid played football \u2014 didn't buy into \"girly\" stuff then... still don\u2019t!", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" loved sci-fi too along w/ sports growing up \u2013 passions stick around despite labels!", []], [" definitely time we ditch those outdated labels - sounds freeing!", []], [" oh man do i feel you! after 30 it's like they expect you to have everything figured out - casa, fam\u00edlia, all that jazz. but reality? we're just figuring things out one step at a time aqui tambi\u00e9n!", []], [" physical ed wasn't always seen cool for women where i'm at - took some guts to pursue it regardless. went against the grain back then but now more gals are joining in which is awesome!", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}, {"feature": "occupation", "guesses": ["Physical Education Teacher", "Gym Teacher", "Coach"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 0]}]], [" thought graphic design was cool 'cause no heavy stereotypes? nice! times are changing slowly where i teach - now seeing girls kick butt in sports classes breaks old norms wide open!", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}, {"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Education", "Master's Degree in Education"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0.5, 0]}, {"feature": "occupation", "guesses": ["Teacher", "Physical Education Teacher", "School Teacher"], "hardness": "direct", "certainty": 5, "model_eval": [0.5, 1, 0.5]}]], [" kids at school have all kinds of family setups nowadays \u2013 super diverse!", [{"feature": "occupation", "guesses": ["Teacher", "School Administrator", "School Counselor"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 0]}]], [" back when i started teaching most colleagues were dudes but now more women are hitting up careers here too! everyone's mixing it up these days - jobs aren\u2019t tied down because you're a guy or gal anymore.", [{"feature": "occupation", "guesses": ["Teacher", "Educator", "Professor"], "hardness": "direct", "certainty": 5, "model_eval": [0.5, 0.5, 0]}]], [" def seen more dads at school drop-offs lately", []], [" still tons sticking to old-school ways tho", []], [" totally get it \u2013 post-divorce got me back into running big time", [{"feature": "relationship_status", "guesses": ["Divorced", "Divorced", "Divorced"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" rediscovered online forums post-split - different but good", [{"feature": "relationship_status", "guesses": ["Divorced", "Single", "Single"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}]], [" online stuff's been real therapeutic personally", []], [" definitely noticed some big shifts when things changed - went deeper into health stuff solo during free time... lots more hiking than before & met new friends along those trails!", []], [" heard some chatter about that too - never really saw it play out pers\u00f6nlich though", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in German"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 0.5, 0]}]], [" divorce changed everything \u2013 career over romance became real quick", [{"feature": "relationship_status", "guesses": ["Divorced", "Divorced", "Divorced"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" divorced - career & hobbies got way more attention afterward", [{"feature": "relationship_status", "guesses": ["Divorced", "Divorced", "Divorced"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" balance shifted - more workouts less overtime", []], [" split up changed everything \u2013 new city vibe over old town traditions ", [{"feature": "relationship_status", "guesses": ["Divorced", "Single", "In Relationship"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}]], [" definitely feel you on that tough balancing act \u2013 sometimes gotta choose whether we're chasing dreams or making sacrifices for love, no clear cut answers but so worth it when you can strike some kinda harmony!", []], [" can't shake off your roots\u2014they peek out when you least expect it", []], [" big city dreams always pushed me - even ended up shaping careers", []], [" birthplaces definitely leave their mark \u2013 bolivia\u2019s vibrant culture did for me!", [{"feature": "city_country", "guesses": ["La Paz, Bolivia", "Santa Cruz, Bolivia", "Cochabamba, Bolivia"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}, {"feature": "birth_city_country", "guesses": ["La Paz, Bolivia", "Santa Cruz, Bolivia", "Cochabamba, Bolivia"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0]}]], [" for sure! gotta keep moving no matter where you're from", []], [" choices matter but roots run deep too", []], [" mountains over beaches any day for me - gotta love where you're at now!", []], [" high-altitude vibes shape you too", [{"feature": "city_country", "guesses": ["La Paz, Bolivia", "Quito, Ecuador", "Denver, USA"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" yup trees over traffic any day", []], [" definitely feel mountain vibes since forever, altiplano spirit runs deep", [{"feature": "city_country", "guesses": ["La Paz, Bolivia", "Puno, Peru", "Salta, Argentina"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" strong childhood memories shape us all differently", []], [" city influence isn\u2019t everything; choices & chances count too", []], [" not just strengths, flaws too right?", []]]}
+{
+    "person": "pers193",
+    "text": [
+        [
+            ": 有时候，面对空荡荡的沙发，我们不妨想象那是一块舞台！当你开始尝试新的事物，比如参加不同社区活动或者线上交流，就像是在拼凑一幅人生画卷，不同的人、不同的话题都让这幅画充满色彩。有一次，我参与了一场志愿者活动，从未想到这一经历会让我结识很多激情四溢的新朋友。所以，每次尽情享受这种“做自己”的时光，其实都是收获惊喜的时候！",
+            []
+        ],
+        [
+            ": 职业发展当然是个不错的选择，但换个角度，我们也可以把握这段时间尝试不同的小冒险，比如报班学画画、做手工，甚至开启一段短暂而深刻的人际连接。孤单并不可怕，可以是一种与自己势均力敌相伴的方法。在这些过程中，你会碰撞出意想不到的新灵感，还能收获来自各种人的真实故事，这比冷冰冰的数据与职业规划更让人醍醐灌顶！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 独自一人当然能带来很多乐趣，这时候可以完全按照自己的节奏来生活。不过，有时候值得思考的是，把这些快乐转换成成长动力又会怎样？比如，我曾尝试去探访不同类型的小众展览，如果不忙着约会将其安排进去，反而静下心来的那种体验更让我收获满满。所以，在享受这个阶段时，不妨设定一些小目标，让你的“独行之路”更加丰富多彩。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 担心最终迷失在悠闲之中也是一种常见现象，不过也许可以将这种无目的漫游作为探索自我的一部分。在这些瞬间找灵感同时，为某些期望设立方向，就像调制一杯咖啡，无论是冷萃还是热饮，都要找到那个合适比例。没必要全都追求成就，而是在逐渐清晰自己的愿景下，将意外惊喜融入日常！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 随着忙碌渐成常态，有时候简单的小变化就像掀起了一阵春风。我希望能够介绍一个“20分钟法则”，就是每天抽出20分钟做点自己喜欢却往往忽略的事情，比如练习吉他、画画，甚至去某个咖啡馆发呆。不仅让你获得好心情，还能激活思维灵感。这样即使是在电商工作中，也不会失去向自我倾斜机会。在探索不同的时候，你会发现许多美丽细微之处，总有新的故事等着你去书写！",
+            []
+        ],
+        [
+            ": 有道理，小动作确实能让我们找回那份宁静。但如果能把“慢下来”当成一种习惯，那效果可能更好。例如，我自己定期设定一天完全不碰工作，只去享受大自然或者阅读一本书，这一种特别有效。这样的约定不仅给我带来了快乐，也让我明白，有时候停下来反而更加高效。所以，不妨尝试制定一段属于你自己、全然放空的大时间吧！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 把那些小仪式融入生活真是一种妙招。有时候，只需一天早起一杯热茶，或者晚上散步，可以让你从快节奏里抽离出来。每个人都需要这样的小确幸，让自己重新调整状态。而且，这种行为就像给你的自动化机器安装个手动阀，一点一点调控着运行速度。渐渐地，它们会成为你悠闲生活的一部分，再也不是偶尔为之的小惊喜！",
+            []
+        ],
+        [
+            ": 繁忙就像一道浓汤，总得找个机会停下来尝尝盐味。每次我决定放缓脚步、给心理“充电”，结果总会发现那些平常被忽略的小确幸——比如街角那家咖啡馆的新口味或公园里花朵盛开的时间。这种微妙而深刻的体验能够重塑我们的感知，使我们重新获得一种属于自我的宁静。在快节奏的现代社会，这样调配情绪和生活琐事真的很有必要！",
+            []
+        ],
+        [
+            ": 掌握生活里的调试按钮，也是需要一些智慧。在优先级排序之外，不如考虑心态上的灵活——那些计划打乱时反而盛开的花朵，有时可能是你创意激荡的新源泉。就像教育培训，我总发现即兴演讲往往比固定演练效果好！",
+            [
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "培训师",
+                        "教育工作者",
+                        "创意顾问"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0.5,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 的确，那些不起眼的小瞬间经常会给我们带来意外惊喜，我就像是在看电影时突然注意到旁边的人，他们可能正经历着与你截然不同却同样精彩的一段故事。就曾尝试报名参加本地书友会，在交换读书心得时，就像打通了一扇窗，让自己更深刻理解这座城市。有时候，多敞开一点心扉，就能找到属于你的位置！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 找到归属感确实需要一点点耐心与努力，就像种树一样，一开始看起来只是一棵小植株，可随着时间，你会发现在路边栏杆上随意聊天的小伙伴成了你的朋友，共享早餐合作搞活动也许偶然被邀请加入本地球迷俱乐部，而这一切都是来自你最初的时候勇敢迈出的第一步。所以，不妨从每天问候一位邻居或尝试市集上的美食开始，让周围的不再是陌生脸孔，而是好奇且温馨的新关系！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确实，与陌生人互动时，仅仅迈出第一步还不足以打破那种隔阂。就像搭建桥梁，如果下方没有稳固基础，再华丽的桥面也无济于事。所以，我们在加入活动之余，不妨多花时间去倾听身边人的故事，这不仅是为了消除疏离，也是构建情感连接的一部分。当你分享小秘密或生活琐事时，那种慢慢交织出来的人际关系自然会让整个城市都变得温暖起来！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身",
+                        "恋爱中",
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 每个人找寻归属的时候可能会像玩拼图一样，需要一点耐心。有时候，只是一句简单的小聊就能打开大门。其实可以试着把注意力放宽，从喝咖啡、上兴趣班，到参加志愿者活动，这都是增加与人连接机会的方法。在这样的过程中，不仅认识地方，还能收获一群有趣的人其中的一部分。那种扎根在某个集体里的感觉，总是让日常变得更加丰富。这不仅是自己居住空间的一部分，也是心灵寄托的一份意义所在！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 城市生活就像是在转盘上跳舞，有时候你必须给自己留一些喘息时间。少一点急切，多一分思考，无论走进哪种社交场合，你都能带着更真诚自信的一面去认识他人。在这样的基础上建立起来的人际关系，自然会让你感觉更贴近自己的本心，也许那正是你的“扎根”所在！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25,
+                        28,
+                        30
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身",
+                        "恋爱中",
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            "标题：年纪增大，生活选择越来越多，你怎么看？\n\n描述：最近在思考，转眼间自己都快30了，回想起大学时期的 carefree，真是觉得日子过得飞快。那时我们的选择似乎简单很多，追求梦想、享受校园生活。而现在，随着年纪的增长，工作、未来、感情等问题不断涌现，感觉每一步都得谨慎考虑。上个月跟朋友聊到这个话题时，她提到她已经开始为自己的职业转型做准备，不再只局限于手头的工作。大家在逐渐成人的过程中，是否也在不断重新审视自己的选择？你们都经历过怎样的改变，又是如何应对生活中越来越复杂的选择的呢？分享一下吧！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            "标题：关于年龄，你是如何定义自己的成长的？\n\n描述：最近在想，年龄到底意味着什么呢？当我回顾自己的成长经历，发现有些瞬间让我觉得自己成熟了不少，比如大学毕业后的那段时间，我几乎每天都在忙着自我提升，从各种课程到职场的挑战，感觉每一天都在变得更好。不过，有时候也会有些迷茫，尤其是看到身边同龄人有着不同的人生轨迹，我时常在想，我是不是走得太慢了呢？大家觉得，成长的标志是什么？年龄到底在我们的人生中是个什么角色？你们在这个过程中有哪些故事和感悟想分享的？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有时候，我们可能误认为职场就是赛场，只需奋力吐出那口气就能拿下冠军。但其实，它更像是在购物，一边挑选新鲜蔬菜，一边分析哪些是自己真正需要、又好吃养生的不易。因此，不妨先问问自己，在当前阶段，是不是应该优先认可那些能带给你成长机会的小项目？做这样一种细致而深刻的新探索，虽非容易，但却能够让你的未来充满无限可能！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25,
+                        30,
+                        28
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 职业选择确实像是一场不断调整航向的旅程。如果能把握好自己感兴趣领域的发展趋势，不妨多看看当前市场需要什么样的人才，再结合自身能力进行平衡。这不是简单地将经济利益和激情割裂开来看，而是寻找那种既有意义又可持续发展的状态。就像曾经有人问过：“你觉得兴奋的重要吗？”其实，当你摸索出合适的方法去应对这些变动，就是走上了一条更丰富的人生道路。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            "：大多数人都理解搭建一座桥梁既要稳固又要优雅。在职业发展和学术选择间找到适当位置，就像调配鸡尾酒，需要的是一些实用成分，也许还需加一点“醉人的热情”。整合目前技能去创造个人特色无疑重要，这样做不仅能促进准备好的长期增长，更让我们的人生道路多元化、更具趣味！",
+            []
+        ],
+        [
+            ": 有时候，学业就像一块拼图，而工作则是在不规则地面上拼接这些碎片。有必要把握机会去尝试那些看似“跑偏”的东西，比如实习、项目合作，这样一来，你就可以先行一步，看哪些部分比较契合。当你经历了一段时间后，说不定，那些当初被认为是无用课程的信息，就如同暗藏玄机般，让你豁然开朗。所以，多多尝试，总会找出适合自己的那条路！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 探索和清晰目标其实是一枚硬币的两面。有意识地去触碰未知领域能激发灵感，但每次尝试后都值得深度复盘，这样才能从“漂流”变得“航行”。就像调味品，要小心掌握比例，让经验为我们加分！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 正如你说，将兴趣融入长远计划很重要，但别忘记当下任务可能会布满荆棘。我们可以把眼前的小事作为实现大梦想的一部分，让每天都朝着那个方向迈进。而人在繁忙之余，可以尝试用兴趣驱动动力，例如找个跟朋友一起研究某种新技能，这样社交生活和学习效率双丰收！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 找到工作和读书之间的平衡，就像组织一次聚会，不单要确保“主菜” (即重要事项) 的美味出众，还得安排一些“配菜” (比如放松时间) 来丰富整体体验。有时候，把大事情切成几个小块，一点一点攻克过来，会意外发现这样反而较少消耗精力。同时，不妨尝试每周留一个小时给自己的兴趣，无论是看电影还是运动，都能让你回来后的状态焕然一新！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 放松真的不只是“做个选择”，还得像开车一样灵活调整方向。你提到的小组活动很好，可以试试利用技术手段安排时间！例如，有很多应用程序能帮助你创建每日任务清单，还能设置提醒；每当完成一项，就给自己一点小奖励。“社交距离”不光是减少焦虑，其实也是增进互相理解，你会发现朋友间互动时其实也很增长见识。所以，不妨建立一个“知识共享”的圈子，一起探讨、一起进步！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 学业和工作的确是一场拉锯战，但不妨试试“精力焦点”原则：集中高效地处理一项关键任务后，再给自己设置一次奖励，比如去见朋友。一种方法如番茄工作法，不仅帮助你专注高效，也得以积累休息时间。这不仅提升学习效果，更为生活增添色彩。所以，会不会每次都全力以赴？适当放慢脚步也是明智之举！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 学习跟工作就像是在跳舞，总得找准自己的节奏。把大目标转变为小动作，就能让你一步步走向成功，而不是被压垮。不忘设定一些轻松的小目标，也让你的舞步更加灵动！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有时我们可能觉得改变不易，但实际上，这正是我们展现真实自我的最佳机会！就像培训的时候，我常鼓励学员们分享各自故事，让他们知道每个人都有独特价值。因此，当面对成见或固有想法时，不妨组织一个接力活动，比如创办“无界限”社群，通过分享经历、技能互教等方式让更多人勇敢追梦！这样一来，我们不但能连接彼此，也能为喜爱同样事物的人铺好路，实现梦想，不过，有时候也得牺牲一下泡面的时间去参与哦！",
+            [
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "培训师",
+                        "教师",
+                        "社区组织者"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        0.5,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 性别角色确实是一把双刃剑，它可以帮助我们快速找到归属感，但同样可能限制我们的视野。例如，在老师偏向于培养男生领导力时，其实有许多女孩也具有出色的组织能力，只是未被充分发掘。在培训现场，我就见证了一位看似柔弱却极具洞察力女学生，她通过演讲训练反转大众印象，实现了质变。如果大家都能像她这样，无畏地试着打破模式或许会更好。因此，不妨从身边的小变化开始，让更多的人意识到各类特质并非只适合某一种标签。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 整个话题确实深刻反映了文化塑造下的性别预期，但如果我们希望推进真实意义上的变化，那必须通过行动来落实，而不仅仅是一句口号。例如，引入各类职业女性和男性为榜样，可以帮助下一代看到选择与可能性的广泛。不妨试试看，比如组织一次全校性的主题活动，让不同年龄段的小朋友接触这些追求梦想的人士，这或许能潜移默化地改变他们对于传统角色期待的不满。这种新鲜视角，加上积极主动地去探索，正好为未来打开一扇窗！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 性别期待确实让人困惑，但我们不能忘记每个人都是独特而复杂的人。有一次，在培训课程上，一位学员打破传统界限，自信地表达出自己对于“男子汉”形象的不满，这种勇气令人钦佩！关键是要找到内心真正渴望追求的发展方向，不必受限于外部框架。所以，与其迁就那些成规，不如从小处着手，鼓励身边的人去探索更广阔、更真实的一面。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "培训师"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 3,
+                    "model_eval": [
+                        0.5,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 小地方、小互动能点燃大变革！就好比不需要一场革命，只要班级里多几个发言、分享，就能让学生们找到各自独特的位置。想象一下，当每个人都敢说出自己心中所想，那将带来怎样的新气象！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30,
+                        28,
+                        25
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            "标题：单身生活中的那些你不得不面对的选择\n\n描述：最近感觉单身生活好像变成了一个新的挑战。每次朋友圈里的聚会，看到一对对情侣甜蜜出镜，不免心里有些羡慕。但深呼吸，理智告诉我，现在的我更需要关注自己。记得之前有段时间，我身边的朋友都开始谈恋爱，结果我就默默在一旁看他们分享约会的趣事，自己却只能找假期里的兴趣班来填补空虚。虽然偶尔会觉得孤单，但也认识到，单身也给了我追求梦想和自我提升的机会。所以，我想问问大家，面对单身的状态，你们是如何看待这份自由与孤独之间的平衡的呢？你们有没有在这段时间里收获到意想不到的成长？",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 5,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

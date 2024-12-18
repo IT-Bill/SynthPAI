@@ -1,1 +1,31 @@
-{"person": "pers170", "text": [[" even kitchen pros rarely follow recipes perfectly \ud83c\udf73", [{"feature": "occupation", "guesses": ["Chef", "Sous Chef", "Culinary Professional"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 0.5]}]], [" kitchen's always an improv act too", [{"feature": "occupation", "guesses": ["Chef", "Cook", "Culinary Artist"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0, 0]}]], [" and yet they call it \u201cfixed costs\u201d should rename them \"curveballs\" cause there\u2019s always one waiting around the corner \ud83d\ude44", []], [" late hours kill romance faster than you'd think", [{"feature": "occupation", "guesses": ["Healthcare Worker", "Hospitality Worker", "Law Enforcement Officer"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0]}, {"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Divorced"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" dedication\u2019s good til burnout hits you like a ton of bricks", []], [" kitchens are tough - breaking norms becomes everyday special on menu", [{"feature": "occupation", "guesses": ["Chef", "Cook", "Culinary Artist"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 0.5]}]], [" always mentoring next gen cooks \u2013 smashing old molds", [{"feature": "occupation", "guesses": ["Chef", "Culinary Instructor", "Sous Chef"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 0, 0]}]], [" kitchens can also feel like 'old boys' clubs', trust me", [{"feature": "occupation", "guesses": ["Chef", "Sous Chef", "Cook"], "hardness": "direct", "certainty": 4, "model_eval": [0.5, 0, 0]}]]]}
+{
+    "person": "pers170",
+    "text": [
+        [
+            "标题：如何看待收入与生活质量的关系？\n\n描述：最近有件事让我开始反思收入和生活质量之间的关系。刚踏入职场那几年，工资不高，生活几乎是精打细算。记得那阵子只能选择一些经济实惠的餐馆，吃着简单的饭菜，但却总能和朋友们聚在一起，聊聊天，打打游戏，快乐得很。随着工作能力的提升，收入逐渐增加，生活条件也改善了，开始享受一些以前舍不得花的钱，比如出去旅行、参加各种活动，不过伴随而来的是工作压力和更多的责任。\n\n这让我好奇，大家认为收入是不是直接决定了生活质量？还是说，生活的幸福感更多来自于内心的追求和人际关系呢？你们在这个过程中有没有什么特别的体验或者故事可以分享？",
+            []
+        ],
+        [
+            ": 心态上的调整确实不可忽视。在制定预算后，可以试着将这一过程看作是一种自我激励，而非单纯约束。有时候，一次小聚会或心仪物品，即使并不必要，却正如那句老话，“人生不仅仅要生存，还应学会活得快乐”。通过这样的方式，我们或许能够以更轻松愉悦地姿态面对每一天，让每天都有值得期待的小确幸！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        28
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 家庭事务不是男性或女性独占，而是全员共同进步，一起享受生活的一部分。“男女平等”的真谛其实就隐藏在洗碗做饭之间，那种合作让我们的心灵更加契合。当你意识到这样抱怨太没意思时，其实正在点亮彼此关系的新方式！",
+            []
+        ]
+    ]
+}

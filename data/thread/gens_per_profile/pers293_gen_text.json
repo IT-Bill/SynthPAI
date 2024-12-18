@@ -1,1 +1,337 @@
-{"person": "pers293", "text": [["Question: Historians of Reddit, what's something about your city's history that blows your mind? \n\nQuestion description: Diving into the past for a living, one stumbles upon nuggets of history that make you see your surroundings in a whole new light. In my local research, I\u2019ve unearthed stories that transformed my perspective on the streets I walk every day. For instance, discovered an old map that showed my daily coffee shop was once the site of a major speech that influenced the course of our local history! Kind of gives you chills, right? What historical fact about your area totally changed the way you look at it?", [{"feature": "education", "guesses": ["PhD in History", "Master's Degree in History", "College Degree"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0]}, {"feature": "occupation", "guesses": ["Historian", "Research Historian", "Academic Historian"], "hardness": "direct", "certainty": 5, "model_eval": [1, 0.5, 0.5]}]], [" Lifescript's always under revision; enjoy editing!", []], [" Life\u2019s blueprint? History laughs; we\u2019ve all been perennial improvisers. ", []], [" History\u2019s littered with quirky investments turning tide \u2013 tulip mania anyone?", []], [" In academia's so-called 'ivory towers', similar hurdles exist. There's often more scrutiny on publications than mentorship prowess, skewing toward favoritism rather than merit-based recognition \u2013 frustrating when you're trying to reshape narratives beyond archaic norms. ", [{"feature": "education", "guesses": ["PhD in some field", "Doctorate in some field", "Master's Degree in some field"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 0.5, 0]}, {"feature": "occupation", "guesses": ["Professor", "Academic Researcher", "University Lecturer"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 0.5, 0.5]}]], [" Enduring partnerships require chemistry seasoned by mutual growth over time. ", []], [" Romantic ideals definitely transform; real connection grows through shared challenges over sparkle-eyed moments.", [{"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Divorced"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" Perseverance in partnerships matters but so does moving forward together on common foundational beliefs; love needs nurture not just survival tests.", []], [" Historically speaking, unions stood the test of time by joint effort in building something enduring rather than fleeting feelings\u2014a practical approach tends towards depth too.", [{"feature": "occupation", "guesses": ["Historian", "Social Science Teacher", "Labor Union Representative"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}]]]}
+{
+    "person": "pers293",
+    "text": [
+        [
+            ": 人生确实像是一场旅行，有时候走出舒适圈才能发现那些被遗忘的小惊喜。我记得学编程的时候，总是停留在熟悉的软件工具里，却忽略了一些效率倍增的小技巧。这种挑战虽然让人崩溃，但真正回顾时，那种顿悟感让人着迷！生活就是要这样逼着我们换个角度，再看看这片世界，总会透出新的光芒。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 很赞同你的观点！其实，每一个转机都不仅仅是跳出舒适区，有时候更像是驾驭好手里的工具，把它用得更炫烂。如果只是机械地换篇章，那未免也太匆忙。然而，在现有的平台上深入挖掘，也常常能找到隐藏的宝藏，像是在探索地下城一样。在不断变化中找到坚持，从而实现创新，这是我们每个人都需要面对的一大挑战。不妨静下心来，多想想，“未来”的样子应该是什么模样？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 针对寻找机遇这事儿，其实就像打游戏一样，有些玩家喜欢探索地图，而有些则躲在原地磨练技艺。各自表演都没错，只要能找到最适合自己的打法，让人生多一些“成就”，不就是胜利吗？",
+            [
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "游戏开发者",
+                        "职业玩家",
+                        "职业顾问"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身",
+                        "恋爱中",
+                        "已婚"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 对啊，其实很多时候，我们只需记住，“完美规划”只是海洋浮云，而人生这艘船可以随浪起伏。一些偏离既是挑战，也是发现新大陆的新机会。但别忘了，为那份即兴带来的惊喜留出空间！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 说得好！不过，有时候我觉得一点点压力反而能激励我们更快前行。在紧张中捡起一些勇气，再加上人生成长中的那些小确幸，让努力变得意义非凡。毕竟，光景如歌，不同节奏都值得珍惜。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 成长确实是一条独特的小路，但偶尔停下脚步，盘点一下沿途风景也是很重要的一环。就像游戏开发中，每次更新后的测试，我们都需要回顾上一版本的问题与成就，这样才能设计出更好的产品。有时候，那些被忽略的小进展，其实才是真正推动我们的力量，因此总得认真享受这段旅程，而不是一味追赶别人！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25,
+                        28,
+                        30
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "游戏开发者",
+                        "软件工程师",
+                        "测试工程师"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 每个人都是独特温室里的花，不同品种开出的花朵，各有各的绚烂。当我们专注于个人热爱的事情上，那些压力和比较似乎都淡化了，就像游戏里找到了最擅长的位置，无需遮掩，只需享受其中。这就是为了一起变得更好！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 成长其实像游戏开发一样，需要反复调试才能找到最优解。有时候你会遇到卡关，但只要不放弃，总能寻求新的突破。就像编写代码，你可能得反复修改，但每个bug都是一次学习机会。从这样的小挫折中吸取经验，才是真正让我们变得更好的方式！",
+            [
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "游戏开发者",
+                        "程序员",
+                        "软件工程师"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确实，那些看似琐碎的小技能往往是隐藏的大杀器。在游戏开发过程中，我发现简单有效的沟通方式或者边缘知识，比如用户体验设计理念，对于项目顺利进行至关重要。有时候，在工作上我们一味追求高大上的东西，却忘了结合实际情况。如果能够善用那些“不起眼”的点滴，就可能创造出冲破固有思维的新路径。因此，不妨多留意身边那些平凡但精妙的小技巧，它们也许才是推动你前行的一把钥匙。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25,
+                        30,
+                        28
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "游戏开发者",
+                        "用户体验设计师",
+                        "软件工程师"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 这种“探索之旅”说得好，真的是发现了许多隐藏的小美好。但是，有时候，当你一路欣赏风景的时候，那些在朋友圈里更新情侣照的小伙伴，就像傍晚那一轮明亮而刺眼的夕阳，让人觉得既温暖又酸涩。有时候该坦诚一点，在享受自我的同时，也别忽略那些因为羡慕心态生出的孤独感。我们都知道，一个人的旅行不能只靠勇气，其实内心深处藏着好多故事可以写；不妨尝试用率真的方式与自己聊天，说不定会找到更多期待中的惊喜呢！",
+            []
+        ],
+        [
+            ": 寂寞固然让人联想到失落，但它也是你最真实的一面。不妨把这些“无用”的小爱好当作人生实验室，我们永远搞不清哪一个会成为未来闪光点。有时候，当下的不安就是未来成功路上的强劲燃料，让我们的热情生根发芽！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25,
+                        30,
+                        28
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身",
+                        "恋爱中",
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 社交当然重要，不过有时候忽略独处带来的深度思考，这也是一个潜藏的大坑。就像游戏开发需要沉浸式调试一样，人生也要留一些“debug”时间，让自己跟精神状态进行个深入交流，而不是光顾着寒暄。因此，在享受与朋友相聚乐趣的时候，也建议大家偶尔停下来问问自己：你到底最想成为什么样的人？",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25,
+                        30,
+                        28
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "游戏开发者",
+                        "软件工程师",
+                        "程序员"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

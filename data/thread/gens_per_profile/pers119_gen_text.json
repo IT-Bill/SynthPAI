@@ -1,1 +1,49 @@
-{"person": "pers119", "text": [[" Flexitime sounds ideal but doesn't apply universally \u2013 some posts still chain you down to those peak times! And despite preferring metros when possible... well let\u2019s just say retirees often run on different schedules!", []], [" Peak hours? More like survival training!", []], [" Making every penny count isn't just being thrifty; sometimes feels like trying to solve a puzzle that adds extra pieces each month!", [{"feature": "income_level", "guesses": ["Low", "Low", "Low"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}]], [" More pesos don't guarantee happiness; sensible spending does. ", [{"feature": "education", "guesses": ["In College", "College Degree", "HS Diploma"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0.5, 0]}, {"feature": "income_level", "guesses": ["Middle", "Low", "High"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}]], [" It's less about money, more about mindset. Sometimes you don't get to pick your financial lane; life does it for you!", [{"feature": "income_level", "guesses": ["Low", "Middle", "Low"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 1]}]], [" Crazy how funds get allocated sometimes! Once saw resources earmarked for investing in pigeon messaging systems - talk about old-school tactics meeting modern budgets!", []], [" In my time leading schools, saw strict 'girl/boy things' limit kids\u2019 potential. Mixing it up opened doors\u2014vital we keep doing so!", []], [" The academic arena often praises innovation yet clings tightly to old scripts\u2014a classic \"easier said than done\" predicament! Even after retirement, witnessing these tug-of-war dynamics between new ideologies and established practices makes you wonder which lessons truly stick...", [{"feature": "age", "guesses": [65, 70, 60], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}]], [" Education leans female; leadership balance slower coming. ", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" Education's seen steady lady leadership\u2014it evolves quietly.", []], ["  Long-term commitment beats magical beginnings any day.", []], ["  Not convinced we're destined for just one fairytale soulmate\u2014that's a lot like waiting around for ripe mangos to drop into your lap! It's through stormy seasons together you find out if someone\u2019s truly 'the one.' Still nice when things click at first sight but real connection? That takes time & grit!", []], [" Bridges need sturdy foundations\u2014just like love!", []], [" Teaming up sure beats going at it alone; truer bonds are forged in fiery trials than calm seas! And let\u2019s not forget\u2014a bit patience often unlocks even greater things together. ", []], [" Even amid relentless development here there\u2019s still whispers about old smokestacks where we'd trade stories. Magic survives somehow!", []], [" Heads up\u2014personality's like a puzzle; where you're born is just one piece among family dynamics, education & life experiences that complete it!", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], ["  All those sports contests... back home we valued street chess matches! Strategy over sweat any day - brains thrilled where brawn couldn\u2019t reach!", []]]}
+{
+    "person": "pers119",
+    "text": [
+        [
+            ": 心态上的变化确实反映出每个阶段不同的发展需求。其实，将这种“以智慧为导向”的实践带入你的工作环境，可以激发更多潜能！就像餐厅里的一道菜，不同食材搭配出的风味秘诀终于需要用成熟技艺去催化！所以，拥抱这些流动式的发展吧，每一次改变都是自我成长的新机会……",
+            [
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "教育工作者",
+                        "心理咨询师",
+                        "管理者"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 职业发展就像那道经典名菜，每一个食材都需要被合理搭配。而如今，我们面临技术迅猛演进，更需勇敢拥抱更新与学习！想象一下，如果我们把每一次历史经验当做关键调料，用它们去培养独特口味，才能创造出不可替代的大餐……这正是老练专业人士赋予所在行业的新鲜血液！",
+            []
+        ],
+        [
+            ": 职业发展如同一场接力赛，不同时期的人都能为团队贡献不同的力量。真正重要的是，我们要学会拥抱这种变迁，把这些岁月积累起来，通过分享经验激励他人——这样不仅能够帮助年轻人，也让我们的成长之路更具厚度！",
+            []
+        ],
+        [
+            ": 食物总是有一种神奇能力，将我们的心串联起来。我完全赞同你关于让人与人套近距离的话，只是这并不意味着要彻底改变最初那份真实。例如，在商业环境中，也许增加一些参与感，就像为一场团建活动增添一道熟悉但又稍具创意的小菜。这不仅可以唤醒往昔，也是为了创造新的共同记忆，让彼此的发展过程更加贴近……毕竟，有时候，那些看似简单的小细节才是真正打动我们心灵的所在！",
+            []
+        ],
+        [
+            ": 在怀念过往美好的同时，其实更值得深思的是，当下如何能够从繁忙中抽离出来，为身边重要的人腾出一些时间——即便是喝杯茶、吃碗热面！每一道平常小吃背后，都可能藏着久违或正在形成的新回忆……毕竟，那种纷扰时代里的简约承载着更多厚重。如果透过辣条那清脆咀嚼声，不妨偶尔提醒自己，别让忙碌把彼此隔开太远！",
+            []
+        ],
+        [
+            ": 的确，那份来自故乡的小吃总能激发心底那股久违且强烈却又柔软而真实的位置。简单如豆浆油条，它不仅是一顿早餐，更像是一种仪式，在忙碌之余给你注入一种安定。而这种力量，就是陪伴我们的故事，每一个平凡细节都会为我们增添勇气。当再次品尝这些熟悉滋味，也许就是在重拾自信、拥抱未来……这不禁让我相信，我们都需要这样纯粹而美好的东西！",
+            []
+        ],
+        [
+            ": 怀旧这回事，就像早晨喝上一杯热腾腾的豆浆，总能把不经意间沉淀下来的细腻情绪唤醒。我想，如果仔细思索，每一种小吃都承载了一段旅程，比如陪伴我的那MACULL鸭脖，其实是友情与老友聚会永恒不变的话题！让我们一起品尝那些闪耀着光芒的小点滴，将往昔浓郁的人生滋味继续传递吧！",
+            []
+        ]
+    ]
+}

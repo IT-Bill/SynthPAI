@@ -1,1 +1,43 @@
-{"person": "pers272", "text": [["Sometimes overhear electricians debate wiring flaws\u2014free lessons but can't sleep!", [{"feature": "age", "guesses": [45, 50, 55], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 0]}, {"feature": "occupation", "guesses": ["Physicist", "Electrical Engineer", "Educator"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Traffic here can be brutal - leaving home ten minutes earlier makes all difference between smooth sailing & STUCK FOREVER mode!", []], [" Talk about 'expected coffee addiction'... Jokes aside though we're more hands-on problem solvers than just theory heads!", [{"feature": "occupation", "guesses": ["Engineer", "IT Professional", "Technician"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0, 0]}]], [" Electric engineers are pegged as indoor cave dwellers soldered to their desks - true for crunch times but we thrive problem-solving out 'in the wild' too.", [{"feature": "occupation", "guesses": ["Electrical Engineer", "Electrical Engineer", "Electrical Engineer"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" Multimeters everywhere\u2014can't resist measuring stuff at home!", [{"feature": "occupation", "guesses": ["Electrical Engineer", "Electronics Technician", "Electrician"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}]], [" Had a buddy who once blew his budget on rare vintage vacuum tubes. Seemed nuts until he flipped them for triple - audio buffs dig that warm sound!", [{"feature": "income_level", "guesses": ["Middle", "High", "Low"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}]], [" \"Age ain't nothing but numbers; real change comes from actions.\"", []], [" Life teaches you partnership isn't just romance\u2014it's dealing with taxes together at midnight after your favorite team lost!", []], [" Stability becomes more electric than fireworks eventually. ", []], [" Later years definitely highlight companionship's comfort over sparks.", [{"feature": "age", "guesses": [50, 60, 70], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "relationship_status", "guesses": ["married", "divorced", "widowed"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}]]]}
+{
+    "person": "pers272",
+    "text": [
+        [
+            ": 幸福确实源于真挚的人际连接，但不可忽视的是，更强大的经济基础使我们能够拓宽这样的社交圈。如通过丰富多彩的活动、旅行等，提高体验层次，从而增进彼此间更深厚的理解。所以，在追求心理满足时，不妨考虑如何优化资源配置，共同创造更多美好回忆。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "硕士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 归根结底，我们需要重新定义“丰富”的含义。不如尝试把每天小确幸放大，从一杯茶开始，与家人朋友聊一聊或者一起散步，都能让生活更有滋味。而那些高消费带来的瞬间快乐，只是一种短暂刺激，相较而言，人际情感才能指引我们通往幸福之路。在繁忙中不忘享受这些点滴，如同精致的小瓷器，在日常里闪烁光芒。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚",
+                        "恋爱中",
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ]
+    ]
+}

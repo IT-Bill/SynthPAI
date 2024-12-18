@@ -1,1 +1,74 @@
-{"person": "pers276", "text": [[" Sure handling cases or deals can be major wake-up calls but have you ever dealt with a complex urban planning approval? Enough red tape there to make anyone's head spin into adulthood!", [{"feature": "age", "guesses": [35, 40, 45], "hardness": "complicated", "certainty": 2, "model_eval": [1, 1, 0]}, {"feature": "occupation", "guesses": ["Urban Planner", "Architect", "Civil Engineer"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 1, 0]}]], [" All architects worship at the altar of black turtlenecks? Nope!", [{"feature": "occupation", "guesses": ["Architect", "Architectural Designer", "Architectural Engineer"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}]], [" Sketches everywhere but CAD reigns supreme nowadays \u2013 goodbye drafting boards! ", [{"feature": "occupation", "guesses": ["CAD Designer", "Mechanical Engineer", "Architect"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 0, 1]}]], [" It's like everyone expects you're suddenly holding map that has all roads leading to 'Settled & Sorted'. Plot twist - some are just doodling their own paths! \ud83d\ude43", []]]}
+{
+    "person": "pers276",
+    "text": [
+        [
+            ": 实际上，把工作视为自我探索的一部分，这个建议非常不错。试着找寻与自己价值观契合的发展方向，可以让日常工作的意义更深。因此，也许我们可以尝试将目标从单纯赚钱扩展到实现个人成长，比如培养兴趣爱好或不断学习新的技能。这种积极改变不仅能够减轻财务所带来的压迫感，还有助于找到更有满足感的人生状态。",
+            []
+        ],
+        [
+            ": 有时候，我们需要停下脚步重新审视财富和快乐之间的关系。高收入固然重要，但如果它伴随着无尽支出而让我们筋疲力尽，那么这样的“成功”似乎值得我们深思。不妨定期给自己设定一些简单的小目标，比如每周抽时间做一顿饭或计划一次短途旅行，也许这些才是生活中真实而持久的乐趣来源。在这条路上，更少攀比，更多享受，会让我们的心态变得平和许多。",
+            []
+        ],
+        [
+            ": 在追求小确幸的同时，合理规划个人财务也是减压的一部分。设定预算、明确支出，让我们能够更自在地享受各种活动，而不是为账单烦恼不已。如此一来，“简单”就不仅是个态度，更成了一种实用的方法论，实现快乐和稳定双丰收！",
+            [
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产",
+                        "小康"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确实，在快速发展的生活节奏下，我们很容易陷入只看重经济收益，而忽视日常交往中的温暖情感。这种真的来自心灵深处连接的小片段，其价值远超华丽菜单上的价格标签。记得某次团队活动上，就是那道无法用金钱衡量的笑声，使我们彼此靠近。因此，不妨停下脚步，好好珍惜那些平凡却意义非凡的人际瞬间，它们才是真正值得追求的“财富”。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 幸福其实是一种内心状态，而非单纯取决于外部条件。人与人的真实连接如同滋养生命之根，不妨花点时间反思一下，我们究竟是在追求什么样的人生体验。这些深刻而简单的小互动，为我们的生活注入了丰富意义。",
+            []
+        ],
+        [
+            ": 有趣的是，很多时候，人们忙着追求所谓“高品质”生活，却忽视了一起做饭打牌那么简单又开心的事情。其实，那些欢声笑语常常来自于不拘一格、不加修饰，而不是高档场所。当我们的目光更多地聚焦在人际纽带上，就会发现，通过交流和理解同样可以获得满充盈。他人的陪伴与支持，有时候比任何物质回馈都要珍贵得多。",
+            [
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

@@ -1,1 +1,31 @@
-{"person": "pers140", "text": [[" took me until managing budget solo after rent prices spiked", [{"feature": "education", "guesses": ["Bachelor's degree in Finance", "Bachelor's degree in Economics", "College Degree"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}, {"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" business consultants aren\u2019t all slick suits, mostly just coffee and late nights", [{"feature": "occupation", "guesses": ["Business Consultant", "Management Consultant", "Strategy Consultant"], "hardness": "direct", "certainty": 5, "model_eval": [1, 0, 0]}]], [" btw analysis paralysis isn\u2019t limited to the office, ever catch yourself overthinking the best grocery store route or optimal coffee shop order? cause i sure do...", [{"feature": "occupation", "guesses": ["Data Analyst", "Business Analyst", "Operations Manager"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0]}]], [" setup differs here but pressure? same beast", []]]}
+{
+    "person": "pers140",
+    "text": [
+        [
+            ": 探索新天地固然需要基于稳定和丰厚土壤，但不可忽视的是，那些意想不到的发展机会常常来自我们突如其来的决策。有时候，即使无法完全掌握外界环境，我们内心渴望突破和冒险的一瞬间，就足以点燃全局变化。别害怕面对未知，因为里面实际上包藏着不少惊喜！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 日常生活中的点滴都像一道道拼图，有时候一段旅程可能彻底改变我们的核心认知。当我们以全新的姿态返回曾经熟悉却又陌生的地方，那种微妙而深邃的新鲜体验，会充实我们身上每一个角色。在这样的交错中，我们不仅找到了自己，也理解了更多人际关系中的细腻变化。这正是跨越和重聚之间令人着迷之处！",
+            []
+        ],
+        [
+            ": 说到底，我们能做的不仅是接受环境，更要学会利用它。如果身处资源匮乏的小城，那就得成为“狙击手”，精准找到志同道合的小伙伴们！人生如逆水行舟，不拼仿佛没吃早饭；拼搏过程中，你总能碰撞出意想不到的新火花呢！",
+            []
+        ]
+    ]
+}

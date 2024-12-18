@@ -1,1 +1,136 @@
-{"person": "pers43", "text": [["  Teaching teens really throws you into the deep end of \"adulting\" \u2013 suddenly you're not just responsible for yourself but shaping young minds too!", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Education", "Master's Degree in Education"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 0, 0]}, {"feature": "occupation", "guesses": ["High School Teacher", "Middle School Teacher", "Teacher"], "hardness": "direct", "certainty": 5, "model_eval": [1, 0, 0.5]}]], [" Teachers' lounge \u2014 less gossip central, more grading marathons!", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Education", "Master's Degree in Education"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 0, 0]}, {"feature": "occupation", "guesses": ["Teacher", "Teacher", "Teacher"], "hardness": "direct", "certainty": 5, "model_eval": [0.5, 0.5, 0.5]}]], [" Pros for essays on napkins at every caf\u00e9 now... Occupational hazard?", []], [" Suddenly everyone's your life coach insisting you need more \"adult\" hobbies!", []]]}
+{
+    "person": "pers43",
+    "text": [
+        [
+            ": 有趣的是，确定长期和短期财务计划相辅相成。我们都知道节约能带来安全感，但偶尔满足一下眼前的小确幸也是让生活充满乐趣的一部分。我经历过严格预算后再添置一些物品，比如购买了一些优秀品牌但折扣季节中的衣服，它们不仅提升了我的自信，还让我学会享受寻求品质之美。如果只是为了追求某个长远目标而完全忽视当下的小快乐，那可能会越来越失去热爱。所以，与其设定死板预算，不如让它成为一个灵活、愉悦且自然而然的发展过程！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 将心思放在微小而珍贵的小确幸上，其实是一种智慧。在忙碌工作的间隙，一次愉快而适度消费不仅能为枯燥乏味增添色彩，更能够激励我们以更充沛状态面对接下来的挑战。例如，不妨偶尔给自己做一顿丰盛晚餐或去附近旅行，这样不仅照顾了精神层面，也无形中提高了整体幸福感。所以，在追求个人成长与理财计划间，我们完全可以留一点空间去享受当下，用实际行动证明“活得精彩”同样是一种投资！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产",
+                        "小康",
+                        "高级中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 设定合理预算固然重要，但我们也不能忘记，真正让人感受到“精致”的许多瞬间往往来自那些微小却独特的经历。当我们尝试去规划未来之际，也该勇敢地给自己创造机会，从而激发灵感与动力。适度投入不会成为负担，如果能够从中获益，无论是成长还是内心宁静，我们都应欢迎这种支出，让美好的回忆成为生命的一部分！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 发现身边每个小人物的信息确实能给我们指引新的路径。有意识地与不同背景的人交融，不仅能增强自我，更助你跳出舒适区去探索更大的世界！人生道路上的每一次互动都是可能性的开启，只要敢于尝试，就一定会有所收获！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 这种“熟悉中不再身份”的感觉确实很令人反思，每次回归就像是在揭示自身故事的新层面。但更重要的是，那些重聚所获得的新发现不仅让我们理解过去，更孕育出新的可能。这就是生命精彩之处，让我们的角色不断演变，多了一份灵动与柔软。",
+            []
+        ],
+        [
+            ": 每次返回都像是打开一本曾经熟悉却又重新书写的新日记。这其中的不安与期盼，让我逐渐明白，不同经历交织后的自己，会以一种全新的面貌面对过去。在这样的转变里，每个回忆都是珍贵的一部分，促进着我们对于人与事物之间微妙联系的新认知，所以不妨试着欣赏这一过程中的每一次碰撞和融合吧！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 你的观察很有意思，走出舒适区确实能让我们不断发现新自己。当初刚开始接触汽车工程的时候，对整个行业几乎是一无所知，但正因为每次调研与测试都是战斗，让我慢慢找到那份热爱。这不仅仅是解决技术问题，更是在挑战边界时感受到成就，比如一次测试改进方案带来的效率提升，让整个小组更加团结，每个人都意识到了集体智慧的重要性。这些瞬间才让我真正体会到影响的不只是来源，更在于应对方式以及请相信，初心赋予我们的动力去探索更多可能！",
+            [
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "汽车工程师",
+                        "工程师",
+                        "机械工程师"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0.5
+                    ]
+                }
+            ]
+        ]
+    ]
+}

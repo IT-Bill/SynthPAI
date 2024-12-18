@@ -1,1 +1,80 @@
-{"person": "pers131", "text": [[" Charm boosts value beyond upkeep. ", []], [" Making beds everywhere...even in IKEA showrooms! \ud83e\udd26\u200d\u2640\ufe0f", []], [" Fancy linens costing more than some salaries here...but guests love 'em. ", [{"feature": "occupation", "guesses": ["Hotel Manager", "Event Planner", "Hospitality Industry Professional"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0.5]}]], [" Feel you on the old templates issue. Hospitality's got its own flavor of \"traditional expectations.\" Pro tips gone unheard until they're echoed by someone else\u2014usually male colleagues. Subtle assertiveness has been key; repeat till recognized!", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}, {"feature": "occupation", "guesses": ["Hospitality Worker", "Hotel Manager", "Restaurant Manager"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Definitely takes strategic persistence\u2014especially with proposal pitches. They listen... after assertiveness becomes second nature!", []], ["  Hospo management isn't immune either\u2014gender bias exists here too!", [{"feature": "occupation", "guesses": ["Hospitality Manager", "Restaurant Manager", "Hotel Manager"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 0, 1]}]], [" Finding balance key \u2013 exploring old & new hobbies revitalizes!", []], [" Crazy how downtime's spent can differ so much among folks flying solo! Some might deep dive into creative stuff; others just chill with Netflix marathons. For me? It\u2019s been devouring books on business leaders\u2014go figure!", []], [" Thriving in solo food blogging!", [{"feature": "income_level", "guesses": ["Middle", "High", "Low"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}]], [" Fulfillment isn't one-size-fits-all!", []], [" Book buying > Bride buying \ud83d\ude09", []], [" Life\u2019s not on autopilot; we choose our destinations. ", []]]}
+{
+    "person": "pers131",
+    "text": [
+        [
+            ": 创新固然吸引，但那些经得起时间考验的不正是那一口熟悉、醇厚的吗？有时候，与其急于翻新，不如细细品味，那份来自记忆深处最深切情感，更值得我们珍惜！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 听你这么说，让我想起曾经每次去夜市都必喝的一杯鲜榨果汁，那甜蜜简直是青春特供！不过确实，在忙碌中，有时候忘记停下来享受生活。但其实，每一次聚餐、每个小店探险背后都有可能藏着新的惊喜和故事。如果再碰上熟悉的小吃，一边欢笑聊天，一边品尝这些“家”的延续，那才是真正美好的两全其美啊！",
+            []
+        ],
+        [
+            ": 有时候只是一碗热腾腾的汤面，就能把你拉回那个包容而温暖的大厨房！其实，我们总是在追寻当年饭桌上的欢笑，而现在忙得忘记慢下来享受这一刻，我每次想起真的心里倍儿甜。",
+            []
+        ],
+        [
+            ": 其实，这种\"忆苦思甜\"式的归故土过程，有时候真让人觉得像是在重演一场戏。有一点儿戏剧性的紧张，因为那些曾经熟悉的小巷，现在却容不下你整个心绪。不过，也许正是这份微妙的不安，让我们的生命故事添上了层次。这就好比每次翻看旧照片，总忍不住想，那时候的新鲜事，如今难免变得泛然无味；但当下一碰撞起火花，一切又仿佛变得充满期待！",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 每个地方都有其独特之处，对我们而言“家”的含义其实也在变！打破那些束缚，让每一步都充满可能，其实是一种勇气。不同地带涌来的经历，更应该去重塑自己，而不是被过去所绑架。这过程虽然复杂，却是提升自我的必经之路！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

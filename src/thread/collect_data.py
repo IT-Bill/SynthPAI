@@ -40,7 +40,7 @@ for topic in features:
         file = os.path.join(f'data/thread/generated_threads/json_threads/{topic}/', f'thread_{topic}_{no+1}.json')    
         if not os.path.exists(file):
             continue       
-        with open(file, 'r') as f:
+        with open(file, 'r', encoding="utf-8") as f:
             data = json.load(f)        
         process_entry(data)
 
@@ -51,8 +51,9 @@ for person, texts in texts_by_person.items():
         'person': person,
         'text': texts
     }    
-    with open(output_file, 'w') as f:
-        json.dump(output_data, f)
+    os.makedirs(os.path.dirname(output_file), exist_ok=True)
+    with open(output_file, 'w', encoding="utf-8") as f:
+        json.dump(output_data, f, ensure_ascii=False, indent=4)
 
 no_com = [] # check profiles/comments without comments
 

@@ -1,1 +1,63 @@
-{"person": "pers136", "text": [[" weird seeing ultra pricy protein powders on pals budgets", [{"feature": "occupation", "guesses": ["Fitness Trainer", "Gym Employee", "Health Blogger"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0]}, {"feature": "income_level", "guesses": ["Middle", "Low", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" zest fades unless ya work at it too", []], [" often sparks turn into lasting fires though...just sayin'", []], [" partnerships grow strong facing ups and downs together", [{"feature": "relationship_status", "guesses": ["Married", "In Relationship", "Engaged"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}]], [" for me marriage changed the game big time\u2014got serious quicker than most pals but no regrets here cuz its all about balance \ud83e\udd37\u200d\u2642\ufe0f stable yet passionate yknow? even if cash can get tight sometimes lol", [{"feature": "sex", "guesses": ["Male", "Male", "Male"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}, {"feature": "relationship_status", "guesses": ["Married", "Married", "Married"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}, {"feature": "income_level", "guesses": ["Middle", "Low", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]]]}
+{
+    "person": "pers136",
+    "text": [
+        [
+            ": 小技巧确实能成为职场的一大利器，但它们并不是随机产生的。比如说，有时候我们会觉得某个冷门技能没什么卵用，却未必想到，将其灵活借鉴应用于复杂问题解决上，可以带来很大突破。这让我想到，每一次具体场景下巧妙运用那些被轻视的小知识，都能开辟新的思路。因此，更深入地审视自身经历中的每一个“小细节”，尽量从多方位出发，才是真正丰富自己工具箱的一种方式。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 教育确实应该更加注重实践。然而，更关键的是建立一个系统性的支持环境，包括企业、学校乃至政府之间更有机地衔接，让人才流动变得顺畅。场景化培训或许能帮助学员提前适应未来工作中的真实挑战，让他们不仅仅是在“借鉴”，而是真正具备解决问题所需能力的人。在此基础上，我们才能说“孤芳自赏”会消失于历史长河中。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "硕士",
+                        "本科",
+                        "硕士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 以为只关注行业趋势就能稳坐钓鱼台，其实只是放大了已知的信息。在冷门领域寻找价值需具备敏锐眼光，更要敢于跳出固有框架。有些小众方向，其实蕴藏着比热门更丰富的新机遇和挑战，只待发掘。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

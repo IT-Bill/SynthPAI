@@ -1,1 +1,49 @@
-{"person": "pers82", "text": [[" True assets don\u2019t always start off flashy; history\u2019s littered with \u2018sure-things\u2019 gone bust. Just look back at tulip mania or dot-com bubbles\u2014what shines might just be fool's gold!", []], [" Stability shouldn\u2019t mean monotony; unexpected adventures can strengthen bonds just as much as shared quiet moments do. ", []], [" Stability over time often outshines initial sparkle indeed.", []], [" Nutritional labels are ever-changing too - at first appealing for their novelty but later for their content. Similarly, relationship values can transform from seeking excitement to appreciating sustenance over time; always an enriching process worth traversing personally!", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 0.5]}, {"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Divorced"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" Often bonds deepen where cultural roots intersect \u2013 not just trials.", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in social sciences", "Master's Degree in social sciences"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" Shared histories pave stronger than solo tribulations build foundations too. ", []], [" Like art conservation, love requires constant care and understanding. ", [{"feature": "occupation", "guesses": ["Art Conservator", "Art Historian", "Museum Curator"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]]]}
+{
+    "person": "pers82",
+    "text": [
+        [
+            ": 很认同你的观点，但压力有时候确实让人很疲惫，不光要看作坚强后的成就。其实，在追求效率和平衡生活方面，我觉得还是要不断地充电。不妨每隔一段时间给自己设定小目标，就算不那么完美，也许会逐渐找到自己的节奏，这样才能更好地应对变化。在处于不同人生阶段的时候，我们是否应该定期重新评估一下方向呢？这样做其实可能帮助我们收获更多意想不到的成长！",
+            []
+        ],
+        [
+            ": 维持一种学习状态真的很关键。我之前尝试参加了一些线上课程，这不仅让我获得了新的知识，还帮助我认识到其他领域的人。每一次交流都让我焕然一新，无论是在工作上还是生活中，都能引导我们向前迈进。“放下包袱”固然容易说，但坚持这样的状态，让它成为习惯，却需要不断努力。你是否愿意定期为自己设置一些小目标呢？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 每个地方都有其独特魅力，而当我们走出去时，才领略到不同文化给予我们的启发。回顾自己的经历，从最初的不安，到逐渐拥抱变化，每一步都是成长。如果你真的渴望新的体验，不妨问问自己，“我能够迈出这一步吗？”",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 实际上，当我们试图跳出既定框架时，那份不安其实是一种推动力，一个提醒，让我们更深入地审视自身潜能。不如把它当作一次出的机会，通过冒险去发现更真实、更强大的自己。在这段旅途中，不妨反思自己究竟希望成为什么样的人，并积极朝着那个方向迈进。每一步都是价值所在，那么你准备好塑造下一个版本的自己了吗？",
+            []
+        ]
+    ]
+}

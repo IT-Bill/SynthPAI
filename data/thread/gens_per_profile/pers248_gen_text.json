@@ -1,1 +1,17 @@
-{"person": "pers248", "text": [[" Adaptation over preset plans \u2013 always been key!", []], [" Feels like dodging boomerangs in retro arcade games!", []], [" True wealth isn't tied up in flashy excesses\u2014simplicity endures.", []], [" Art restoration fees beat all - no contest!", []], [" Feels like post-30's when you're expected to have life 'curated' perfectly.", []], [" Art world's just as skewed\u2014constant fight for recognition!", []], [" Expertise often overshadowed by old prejudice despite proven records.", []], [" Strong work defies gender\u2014it demands respect, everywhere!", []], [" \"Secrets exist if untagged online!\"", []], [" I get the charm of secrets but imagine undiscovered Van Gogh sketches tucked away in such spots\u2014certain things deserve daylight!", [{"feature": "education", "guesses": ["Bachelor's degree in Art History", "Master's Degree in Art History", "PhD in Art History"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 0, 1]}, {"feature": "occupation", "guesses": ["Art Historian", "Art Dealer", "Art Curator"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" Cultural grounding shapes us more than acknowledged. ", []], [" Traits evolve; they're not just relics from past locales. Ever-changing life experiences reforge us way more than where we first kicked off our shoes does. ", []], [" Definitely more than just flying string!", []], [" Kite battles and dumplings? Interesting but common. We had annual marbles tournaments \u2013 serious strategy involved! Not everything old-school\u2019s widespread knowledge or admired, though still cherished personally.", []]]}
+{
+    "person": "pers248",
+    "text": [
+        [
+            ": 实际上，在消费能力逐渐提高时，我们常常会陷入一个误区：以为高价体验就等同于高质量生活。然而，有时候真正提升我们的幸福感，却是在那些安静而简单的小事里，比如一顿家庭晚饭或是一本好书。我们不妨定期停下来，自问最令自己开心的是哪些瞬间，从而找回那份原始快乐。同时，与其追寻完美无瑕华丽吃喝玩乐，还不如扎根日常，把握身边每一段真挚关系，这样我们的心灵才能得到舒展，从而收获更加满意的人生状态。",
+            []
+        ],
+        [
+            ": 在面对高强度工作时，我们不妨试着把注意力转向身边的小幸福。记得有段时间太忙，只顾着追逐目标，却忽略了朋友间那些轻松愉快的小聚会，让自己真的陷入孤独。后来，一次“无技术日”的约定让我重新品味到那份纯粹，无关金钱，只需好好享受当下。因此，有时候，不妨暂停一下，把目光从压力中移开，你可能会发现另一种滋养灵魂的方法就在眼前。",
+            []
+        ],
+        [
+            ": 实际上，在面对瞬息万变之时，仅仅依赖学历或即兴发挥是不够充分保障我们职业发展的。我曾遇到这样的情况：项目急转直下，一时间令所有方案面临挑战，这时候真正让我克服困难的是那段不断求索、积累的人生经历。而且适当设定一个长远目标，与保持持续学习，同样至关重要。当我们将这两者结合起来时，就能更加从容地驾驭不确定性，把握机遇。所以，很赞同那个“既不过分依赖学位，也积极拓展自我”的观点，找到自己的节奏，这才是职路上的智慧所在。",
+            []
+        ]
+    ]
+}

@@ -1,1 +1,262 @@
-{"person": "pers206", "text": [[" Even tea gardens now hubs for startup pitches!", []], [" Nostalgia punched hard when my old playground turned hi-tech gym\u2014inevitable but poignant evolution.", []], [" Even buying tech less often now\u2014sticking longer with gadgets helps!", []], [" Discovered historic alleyways; lunchtime becomes a time-travel escape!", []], [" Every morning walk past these ancient city walls feels timeless against our tech-rush vibes; proof those calm historical spots still offer serenity amidst urban madness.", []], [" Wandering through weekend markets - nostalgia mixed with vibrant life. ", []], [" Small tea houses - timeless tranquility amidst chaos. ", []], [" The small bookshop corner with its ever-brewing jasmine tea \u2013 an urban oasis amidst skyscrapers!", [{"feature": "city_country", "guesses": ["Hong Kong, China", "Shanghai, China", "Beijing, China"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 0, 1]}]], [" Career climb post-divorce made me feel genuinely self-reliant. ", [{"feature": "relationship_status", "guesses": ["Divorced", "Divorced", "Divorced"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" Navigating biz deals solo really underscored it for me.", [{"feature": "education", "guesses": ["Bachelor's degree in Business", "Master's Degree in Business", "College Degree"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 0.5, 0]}, {"feature": "occupation", "guesses": ["Entrepreneur", "Business Owner", "Independent Consultant"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 1]}]], [" Perks exist but endless hustle wasn\u2019t part of the dream. ", []], [" Definitely better than expected; who knew spreadsheets could pay off?", []], ["  Life often swaps out one dream for another \u2013 maybe less jet-setting than expected but finding satisfaction elsewhere!", []], [" Had big dreams too but ended up far from them professionally. Sure, these detours can be fulfilling but let\u2019s not gloss over ambition trade-offs we face; feels like settling sometimes when remembering those plans made as kids! Reality bites hard when youthful optimism hits career crossroads. Still kickin' though! \u5929\u4e0d\u6015\uff0c\u5730\u4e0d\u6015\uff01(Fearless under heaven!)", [{"feature": "city_country", "guesses": ["Beijing, China", "Shanghai, China", "Taipei, Taiwan"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}]], [" Work-life balance takes strategy - consulting requires agility, always learning! Career growth prioritized; adventures fit where possible \u7ed3\u675f\u6ca1\u5546\u91cf (no discussion at close).", [{"feature": "city_country", "guesses": ["Beijing, China", "Shanghai, China", "Shenzhen, China"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "education", "guesses": ["Master's Degree in Business Administration", "College Degree", "Bachelor's degree in Business"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}, {"feature": "occupation", "guesses": ["consultant", "management consultant", "business consultant"], "hardness": "direct", "certainty": 5, "model_eval": [0.5, 0, 1]}]], [" Flexibility often trumps passion dueled by real-world demands. ", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" Teaching's rewarding for sure, but financial recognition matters \u2013 we work hard after all! Found that consulting pays better though satisfaction can vary. It\u2019s all balancing acts really. ", [{"feature": "occupation", "guesses": ["teacher", "consultant", "education consultant"], "hardness": "direct", "certainty": 5, "model_eval": [0, 0.5, 0]}]], [" Job security's great\u2014yet exploring avenues keeps life vibrant!", []], [" Diversify income streams - key!", [{"feature": "education", "guesses": ["Bachelor's degree in Finance", "Master's Degree in Business Administration", "College Degree"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}, {"feature": "income_level", "guesses": ["High", "Middle", "Very High"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}]], [" Factor in annual trends; get investment-savvy!", [{"feature": "education", "guesses": ["Bachelor's degree in Finance", "Master's Degree in Finance", "College Degree"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0]}]], [" Also cut non-essentials during good months\u2014preps for tighter times!", []], [" Chasing salaries often leads to endless comparisons \u2014 traps contentment.", []], ["  Financial peace has layers beyond cash\u2014goals, lifestyle matter too.", []], [" Retirement planning hits different than early-career savings!", []], ["  Retirement fund focus can seem too pragmatic early in your career; once you hit those mid-career notes though? Suddenly you're all spreadsheets at midnight planning every yuan\u2014never thought inflation worries would keep me awake more than any corporate strategy!", [{"feature": "age", "guesses": [45, 50, 40], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}, {"feature": "city_country", "guesses": ["Beijing, China", "Shanghai, China", "Shenzhen, China"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}]], [" MBA felt right; doors opened career-wise & personally!", [{"feature": "education", "guesses": ["Master's Degree in Business Administration", "Master's Degree in Business Administration", "Master's Degree in Business Administration"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" MBA paved paths but still wander 'what if...'.", [{"feature": "education", "guesses": ["Master's Degree in Business Administration", "MBA", "Master's Degree in Business"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 0.5]}]], [" MBA underpinning was worth every penny - strategic moves matter most post-grad.", [{"feature": "education", "guesses": ["Master's Degree in Business Administration", "Master's Degree in Business Administration", "Master's Degree in Business Administration"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" Totally get you! Ended up consulting; unplanned but suits me now. Skills + Opportunity = \ud83d\udc4d Career path serendipity happens!", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Business", "Master's Degree in Business"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}, {"feature": "occupation", "guesses": ["Consultant", "Management Consultant", "Business Consultant"], "hardness": "direct", "certainty": 5, "model_eval": [0.5, 0, 1]}]], [" Improvisation can spark brilliance! But don\u2019t ignore where it leads\u2014seen too many folks hit dead ends while chasing novelty rather than growth.", [{"feature": "occupation", "guesses": ["Business Consultant", "Creative Director", "Entrepreneur"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Passion doesn\u2019t always pay bills - life\u2019s tricky like that.", []], [" Career twists can lead to rewarding surprises!", []], [" Consultants overusing buzzwords? Guilty! Reality though - we're problem solvers. ", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Business", "Master's Degree in Business"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}, {"feature": "occupation", "guesses": ["Consultant", "Business Consultant", "Management Consultant"], "hardness": "direct", "certainty": 5, "model_eval": [0.5, 1, 0]}, {"feature": "income_level", "guesses": ["High", "Middle", "Very High"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Consultants aren't all cold corporate types; empathy wins clients. ", [{"feature": "occupation", "guesses": ["Consultant", "Business Consultant", "Management Consultant"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 1, 0]}]], [" Strategy planning intrudes dinner choices sometimes \u2013 annoyingly unavoidable!", []], [" Balancing passion with practicality key - niche markets can surprise you!", []], [" Stereotypes in boardrooms? Overstated; competence wins careers. ", [{"feature": "education", "guesses": ["Master's Degree in Business Administration", "Bachelor's degree in Business", "College Degree"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "occupation", "guesses": ["Corporate Executive", "Business Consultant", "Senior Manager"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0.5]}, {"feature": "income_level", "guesses": ["High", "Middle", "High"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 1]}]], [" Had similar experiences - now thriving consulting despite old-school expectations!", [{"feature": "occupation", "guesses": ["Consultant", "Management Consultant", "Business Consultant"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 0, 1]}]], [" Managed teams where men reported to women; felt natural.", []], [" Strategy trumps brute force in biz negotiations - stereotypes debunked daily!", [{"feature": "occupation", "guesses": ["Business Negotiator", "Business Consultant", "Business Strategist"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Negotiating major deals often surprises peers!", []], [" Household tasks never defined us onde we're older.", []], [" Balancing long work hours with expected family roles wasn't easy!", []], [" Excelled at business school - smashed those glass ceilings!", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}, {"feature": "education", "guesses": ["Master's Degree in Business Administration", "Bachelor's degree in Business", "College Degree"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0]}, {"feature": "occupation", "guesses": ["Business Consultant", "Business Analyst", "Marketing Manager"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Had top grades back then, criticized for not being 'feminine enough' though. Excelled privately tutoring now \u2014 still judged if don\u2019t fit into outdated molds. Times change but stereotypes cling like old gum under a desk!", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}, {"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 0.5]}]], [" Expectations shift globally; some cities break old molds though.", []], [" Not everywhere unfortunately. ", []], [" Some still manage solo \u2013 sector dependent though!", []], [" Compromise matters but keep some \"you\" time!", []], [" Post-divorce? Rediscovered solo travel \u2014 feels liberating & eye-opening!", [{"feature": "relationship_status", "guesses": ["Divorced", "Divorced", "Divorced"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], ["  Seven years? Arbitrary number! Relationships don\u2019t follow scripts\u2014success and struggles are uniquely timed events.", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 0.5]}, {"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Divorced"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" A \u2018one-size-fits-all\u2019 timing model like the 7 Year Itch? Oversimplifies complex human emotions way too much\u2014not every shoe fits all feet! Personal anecdote\u2014diversity exists even within one city's bubble!", [{"feature": "relationship_status", "guesses": ["Married", "In Relationship", "Divorced"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" The idea holds some water; mix things up certainly helps. In my circle though? Communication was key \u2013 taking time for heart-to-hearts kept us connected way past that itch milestone... until we realized our paths diverged anyway.", [{"feature": "relationship_status", "guesses": ["Divorced", "Separated", "Divorced"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 1]}]], [" Post-divorce life changed - became self-reliant, embraced solitude positively.", [{"feature": "relationship_status", "guesses": ["Divorced", "Divorced", "Divorced"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" Work-life balance shifted post-divorce; new goals took front seat.", [{"feature": "relationship_status", "guesses": ["Divorced", "Divorced", "Divorced"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" Birthplaces aren\u2019t destiny\u2014our stories twist through every city we touch.", []], [" Origins subtly inform worldview; personal choice steers destiny. ", []], [" Hustle vibe resonates! Slick skyscrapers taught me ambition early on. ", []], [" Hometown pride's cool but let's not forget personality evolves over time through varied experiences beyond where you started out \u2013 they're equally crucial in shaping stories and self-identity.", []], [" Hometown flavors always linger - dumplings over ocean breeze any day!", []], [" Not convinced - Personal growth isn't geography-bound. ", []], [" City buzz stays with you - energizes your step even miles away!", []], [" Big city vibes mean you tend to juggle tradition & innovation daily \u2014 impacts goals & values subtly over time!", []], [" East meets West in me; traditional values blend with modern thinking. ", []]]}
+{
+    "person": "pers206",
+    "text": [
+        [
+            ": 这种关于将“慢下来”转化为习惯的方法听起来非常值得尝试！其实，有些人可能会觉得停下脚步是一种奢侈，但实际上，我们需要意识到这些时刻直接关系着我们的心理健康。我发现，每次选择不去追赶时间，而给自己留出那几小时，无论是读书还是散步，都让我重新思考自己的目标。而且，与朋友分享这些经历、一起制定这样的约定，总感觉同时也增进了彼此之间的联系。你有没有考虑过如何与身边的人一起创造这样的小空间呢？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 日常的小举动确实很重要，不过除了自己留出时间外，有时候还要学会识别那些令我们焦虑或者分散注意力的事物。我发现，与其被忙碌驱使，不如尝试设定一个小目标，比如每天至少花十分钟安静下来，冥想或只是简单地呆坐。这种练习能逐渐帮助我们调整心态，让真正享受当下变得更加自然。你有没有类似的方法来捕捉那份宁静呢？",
+            []
+        ],
+        [
+            ": 积极参与当地活动给我带来了不少惊喜。有一次，我跟随丈夫去参加一场小型音乐节，不仅欣赏了表演，还结识了一些有共同爱好的朋友。这样的经历让我好奇，也是你们所说“慢热式”的过程：渐渐地，这里的每个阵脚、每个人都变得不再陌生。如果大家有类似体验，一定会明白这种联系是如何一步步加深，为何不试着走出去呢？",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 城市中的归属不仅是被动等待，更是积极探索带来的收获。在忙碌之余，如果能主动去认识身边的人或事，就像是在渐渐绘制你与这座城之间连接的纽带。我曾经举办过一个小型茶话会，就因为大家随意交流制作的小点心，一下子拉近了彼此间的距离。如果有机会，你们有没有想过这样的小行动呢？",
+            []
+        ],
+        [
+            ": 行业内确实有许多不为人知的小窍门，可以改变游戏规则。这让我想到，有时候那些不起眼的方法其实蕴藏着巨大的潜力。你是否注意到，当市场需求突然变化时，那些掌握小技能的人会显得更加从容？无论是职场还是生活，多加留心细节，是实现自我突破的重要一步。而且，通过不断学习，总能发现新的可能，让自己跟上时代步伐，你觉得呢？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 每个行业都有其打动人的故事。在我当初进入银行时，也曾犹豫过是否拥有足够竞争力。但现在看来，我从未想象的人际交往技能恰好为客户关系加分，让我体会到了工作的乐趣。这让我深刻认识到，学术背景固然重要，但更应珍惜发展自身潜力与追求真正激情。从某种意义上来说，你是否愿意去探索并打造属于你的成功呢？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "银行职员"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 5,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 关于找到探索和专注之间的平衡，我觉得非常认同。实际上，我们是否考虑过将所学应用于现实场景呢？比如说，在我的工作中，通过不断学习新的技能并灵活运用，让我能更有效地解决客户的问题。这不仅增强了自信心，还开阔了思路，使得面对挑战的时候，可以同时依靠扎实基础，也不乏创新。从长远来看，这种灵活性确实让绝大多数人在职场上受益匪浅，你们有没有发现类似这样互补效果的小故事呢？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 你提到了职业路径像旅程一样，而这种转变确实常常伴随着不确定性。就像我身边的一位朋友，他曾经从事银行相关工作，但后来进入教育行业。他不是基于当下流行趋势，而是发现自己更喜欢传授知识。这种转变虽然初期并不稳定，但他却找到了真正让他兴奋且有价值感的位置。所以，在思考未来时，我们可能更多地需要问问自己：“什么样的工作能让我长期感到充实？”这样的反思是否帮助碰撞出新的想法呢？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "教师",
+                        "教育工作者",
+                        "银行职员"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在面对职场决策时，我们常常容易将目光聚焦于眼前利益而忽略长远的发展。曾经有同事因为追求高薪跳槽，但最终发现那份工作的压力让她失去了当初喜爱的激情。而反观一些愿意花时间去磨炼技能的人，则慢慢从基础岗位走向他们真正热爱的领域。我觉得，无论是选专业还是找工作，都不妨多问问自己：这份选择是否让我感到成长？能够为未来打开新的可能性吗？这样可以使我们的决定更加符合自身需求，而不仅是市场导向。你怎么看呢？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 对于寻找读书与工作的平衡，我发现明确设定目标以外，还需要不断反思自己所做事情是否真正重要。有时候，我们忙碌却未必有效率。能否试着记录下日常任务，从中筛选出哪些是值得投入精力而哪些可以放弃？比如，在进行深度学习期间，可以利用短暂休息来调整状态，这样不仅能让头脑清晰，也能增加面对挑战时的新鲜感。这种方法是不是很不错呢？你有没有类似的小技巧愿意分享吗？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在找寻学习与工作的平衡过程中，有时候使用数字化工具来辅助管理是个不错的方法。例如，可以设定提醒来跟踪任务进度，从而更容易发现需要调整的时候。同时，要记得，在这种追求完美的过程中，也要给予自己足够包容，不同阶段会有不同重点。在你们看来，还有哪些具体的小技巧是可以分享的吗？",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25,
+                        30,
+                        35
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在思考性别角色时，我们常常忽视了潜藏在文化背景中的深层原因。正如你所说，每个走出舒适区的人都将帮助我们扩展对于可能性的认识。例如，在团队项目里，如果有人愿意放下标签、尝试不同的分工，会让整个小组焕发新的活力。在这样的过程中，其实不止是个人成长，也是推动环境变化的重要契机。这也是我们每一个人的责任，你们怎么看？",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性",
+                        "女性",
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在推动变革方面，我们不仅需要关注个体怎么勇于展示自己，还需从根本上创造更开放和包容的环境。比如，我所在团队定期举行“思想碰撞”会议，让不同背景的人能够自由探讨并分享各自遇到的问题。这不仅增强了大家彼此之间的理解，也为构建一个更加平等、尊重多样性的工作文化提供支持。在这过程中，你是否也能想到类似的方法来改善我们周遭 [或你的小圈子] 的这种氛围呢？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "硕士",
+                        "本科",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

@@ -1,1 +1,179 @@
-{"person": "pers141", "text": [[" Adult milestones hit everyone differently; landing my first lecturing gig sure did it for me. Suddenly you're shaping minds & there\u2019s no textbook answer sheet! It puts your whole journey - those endless studies included - into stark perspective as more than just academic hustle. ", [{"feature": "education", "guesses": ["Master's Degree", "PhD", "Doctorate"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 0.5, 1]}]], [" Typical narratives oversimplify adulthood complexities. ", []], [" Institutional biases are deep-rooted relics from past societal structures\u2014even academia wasn't immune. It required constant proving of competence beyond male counterparts'. Adaptation involved mastering nuances\u2014language change had subtle yet profound impacts during peer interactions and publishing work.", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}, {"feature": "education", "guesses": ["PhD in some field", "Master's Degree in some field", "College Degree"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 0]}, {"feature": "occupation", "guesses": ["Academic Researcher", "University Professor", "Scholar"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 0.5]}]], ["  Seen plenty of eyebrow raises backpacking for fieldwork while male colleagues got nods; shrugged off assumptions by just delivering solid research no one could ignore!", []]]}
+{
+    "person": "pers141",
+    "text": [
+        [
+            ": 在追求经济实惠和生活品质中，小确幸的人生其实也很重要。偶尔放纵一下，让自己感受到瞬间快乐，不妨也是一种调剂，只要把控得当，每一次花费都可能成为一段值得回忆的小故事哦。在忙碌之余，对那些看似不必要但又带给你欢笑的小事，也不要太苛责自己！",
+            [
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 小投资固然不错，但也要意识到改善生活质量同样重要。有时候，为了更好的人生体验，我们不妨尝试更多元化的方法，比如外出旅行、与朋友聚会等，让心情放松，这样才能找到真正适合自己的平衡点。",
+            [
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 虽然享受生活的小确幸是必要的，但关键还是要评估这些支出背后的价值。每次消费都应当围绕着我们的目标而转，要不影响整体财务计划的话，更加智慧地选择那些一次性难以恢复却能带来持久快乐和成长经历的不易之事。这样才能确保未来无论遇到什么挑战，我们都能稳健面对！",
+            [
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 可持续消费确实值得倡导，但将所有财务决策都建立在这种理念之上，容易让一些普通家庭感到压力。在理想与现实的夹缝中，我们也需要审视自己的实际情况，并寻找切合自身生活方式的方法。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有时候真的很难做到完全理性地评估每个花费带来的价值。即便是参加志愿活动或社交聚族经历，如果过于强调成本效益，我们可能反而错失了一些美好的瞬间。我觉得偶尔就给自己留点空间去享受一些没有特别目的性的消费，比如买那件心仪已久但用不到太大的衣服，让我开心了一整天！毕竟，快乐本身就是一种生活品质呀。",
+            []
+        ],
+        [
+            ": 向来觉得，每段求学旅程中的“小”收获都是无价之宝！很多时候，我们习惯关注热门方向，却忽略了一些低调但必要的能力。在工作中，那些偶然获得的小技能反而能够开辟新的思路，比如沟通、心理分析等，这种独到见解常能让队伍出奇制胜。所以，对于我们当初不重视的一点一滴，现在看来，其实都值得珍惜与发掘，更别说将这些转变为职场优势呢！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 职业生涯中，那些基础扎实但容易被忽视的小技巧确实可能影响整体表现。例如，有时候简单的问题解决能力或团队协作精神就能开启意想不到的新思路。我们不妨定期回顾一下从前积累下来的经验，将它们整合进实际工作中，从而提升我们的创造力！这种深度反思思考也许会让我们的工作事半功倍。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 不妨多花一点时间回顾一下那些曾经觉得微不足道但现在看来极具价值的人际交往、沟通技巧等。每一次交流都是一个学习机会，而在多样性的背景下，这类经验往往能够带来意外之喜。在职场里，实现自我突破并非易事，但将这些“小”体验融合进我们的工作方式，却有望打开新的可能性，让成长更具深度与广度。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 职业发展的确是一种智慧，需要找到理论和实践间的最佳结合。不过，太强调灵活处理，也可能让人丧失前进方向。毕竟有效的方法总是来自深入研究，而富有针对性地学习则能更好地支持我们面临的不确定。如果能够做到这一点，不仅应对突发挑战时游刃有余，还能培养出更具韧性的职业素养，从而适应瞬息万变的新环境。这才是真正持久发展的策略！",
+            []
+        ],
+        [
+            ": 职业生涯常常是“理论”与“实践”的博弈，有时候感觉像是在走钢索！如果只重视现有教育资源，而没能及时更新我们的技能库，那就真的成了一种负担。而懂得灵活运用所学及其背后逻辑的人，更容易在激烈竞争中脱颖而出。所以，不妨设定明确的小目标，通过一步一步解决问题来提升自己，把握机会哦！",
+            []
+        ],
+        [
+            ": 职场挑战常会让我想起一个理念：理论不能替代行动！实战经验教会我们怎样快速适应变化。我也特别注重利用每次机会去学习新技能，为自己留有成长空间。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

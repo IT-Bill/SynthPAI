@@ -1,1 +1,466 @@
-{"person": "pers39", "text": [[" Old neighborhoods have their charm but some newer spots blend tech and nature - vertical gardens on high rises? Talk about an urban jungle!", []], [" Vibrant tiles on buildings here scream culture-rich history!", []], [" Yep, those mats are game-changers here too!", []], [" Got these neighborhoods with crazy colorful houses stacked up all whimsical-like - legit looks like a painter's palette exploded! Adds so much life among gray city vibes.", []], [" Spot on! Seen loads where style seems key till you realize nobody thought how insane traffic would get or if sun beams turning your pad into an oven was cool \ud83d\ude02 gotta mix old school smart & new glitz right!", []], [" Smaller tianguis now artisan markets here!", [{"feature": "city_country", "guesses": ["Mexico City, Mexico", "Oaxaca, Mexico", "Guadalajara, Mexico"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Nostalgia overload when our old bookstore turned into an escape room hub! Miss flipping pages but hey\u2014solving puzzles isn\u2019t half bad either.", []], [" Local markets were THE hangouts; now they're glossy malls - lost that festive chaos we loved so much...", []], [" Every block has copy-paste caf\u00e9s now! Miss our old taco stands...", []], [" Def agree that grub spots are key! But mix in some park action? A walk among trees can kill off tons of work buzz better than any espresso shot!", [{"feature": "occupation", "guesses": ["office worker", "corporate employee", "professional"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0.5]}]], [" A delayed commute does spice up Instagram stories!", []], [" \"Carpooling helps with sanity plus eco-friendly!\"", []], [" City buzz has its highs but man, coffee break tranquility? Pure gold when your calendar\u2019s back-to-back meetings! Little breathers keep me sane amid all those urgent pings.", [{"feature": "occupation", "guesses": ["Corporate Professional", "Business Executive", "Office Worker"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0.5, 0]}]], [" Early mornings are pure gold! There's something magical about having bustling streets all to yourself, sorta like pressing pause on life\u2019s fast-forward button even if just for an hour.", []], [" Haunted places always have killer fiestas tho \ud83d\ude09", []], [" La Llorona rumors here never get old!", [{"feature": "city_country", "guesses": ["Mexico City, Mexico", "Guadalajara, Mexico", "Monterrey, Mexico"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Rumors say La Llorona haunts nearby canals... Spooky stuff!", [{"feature": "city_country", "guesses": ["Mexico City, Mexico", "Guadalajara, Mexico", "Monterrey, Mexico"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" La Llorona stories get everyone every time!", [{"feature": "city_country", "guesses": ["Mexico City, Mexico", "Guatemala City, Guatemala", "San Salvador, El Salvador"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" It's more deep-rooted tradition than just kid stuff!", []], [" Local cinema turned into mini mall - feels surreal!", []], [" Local bookstores replaced by chain cafes\u2014loses charm but gains crowds. ", []], [" Even our old mercado turned into boutique shops...time flies!", [{"feature": "city_country", "guesses": ["Mexico City, Mexico", "Madrid, Spain", "Buenos Aires, Argentina"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Old block parties gone - just quiet brunch places now.", []], [" Mastered quality meals with less $$!", [{"feature": "income_level", "guesses": ["Middle", "Low", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 1]}]], [" Street art tours have uncovered some incredible local talents - surprises around every corner!", []], [" Mixing work goals & weekend culinary experiments lately - best of both worlds!", []], [" Career goals transformed into family time investments.", [{"feature": "relationship_status", "guesses": ["Married", "In Relationship", "Married"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 1]}, {"feature": "income_level", "guesses": ["Middle", "High", "Middle"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 1]}]], [" Finally got a handle on monthly budget planning \u2013 felt like unlocking an achievement!", []], [" Finally stopped impulse buys\u2014my wallet's breathing easier!", [{"feature": "income_level", "guesses": ["Low", "Middle", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 1]}]], [" Hit some milestones late; no regrets here!", [{"feature": "age", "guesses": [40, 35, 45], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Property? Maybe when tacos cost 5 centavos again...", [{"feature": "city_country", "guesses": ["Mexico City, Mexico", "Guadalajara, Mexico", "Monterrey, Mexico"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Career change at 35 here - best unplanned move ever!", []], [" Everyone praises tech until their gadget dies\u2014hand writing keeps me sane!", []], [" Digital's convenient but there's something tactile about splicing film you just don't get clicking around.", []], [" Rediscovered joy in board games\u2014no screens involved!", [{"feature": "age", "guesses": [30, 35, 40], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Totally exposes true colors IMHO - seen friendships get reaaal weird.", []], [" Clever budgets can't always fix flat salaries!", [{"feature": "income_level", "guesses": ["Middle", "Low", "Middle"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 1]}]], [" Stretching weekly budgets into an art form over here!", [{"feature": "income_level", "guesses": ["Low", "Middle", "Low"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Craved CEO status\u2014now finding passion fuels my daily grind!", [{"feature": "education", "guesses": ["Master's Degree in Business Administration", "Bachelor's degree in Business", "College Degree"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "occupation", "guesses": ["CEO", "Business Executive", "Company Director"], "hardness": "direct", "certainty": 5, "model_eval": [0, 0.5, 0.5]}]], [" Life's full of trade-offs\u2014surprisingly content though!", []], [" Crafted quite an interesting path which somewhat stitches work satisfaction with bits of pleasure\u2014still plotting enhancements though!", [{"feature": "education", "guesses": ["Bachelor's degree in some field", "Master's Degree in some field", "College Degree"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0]}, {"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Single"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}]], [" Definitely resonate; strategic splurging keeps me sane amidst budget bites!", [{"feature": "income_level", "guesses": ["Middle", "Middle", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" Auto-deduct savings each paycheck \u2013 feels seamless!", [{"feature": "income_level", "guesses": ["Middle", "Middle", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" Year-end bonuses fill gaps - also side gigs during predictable slow months!", []], [" I hear ya on the 'glorified overtime' bit\u2014sometimes these gigs feel more draining than empowering. But it's mapping skills to market needs versus endless grind gets you ahead.", []], [" Tried teaching online courses? Made decent cash giving biz insights - unexpected fun too!", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Business", "Master's Degree in Business"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}, {"feature": "income_level", "guesses": ["Middle", "High", "Very High"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Translation's cool but you're relying on constant demand. Diversified skills offer backup \u2013 think biz consulting gigs; less common yet can pay way more when your rep builds up. ", []], [" Adulting means budget for surprises, not just tacos & gadgets!", []], [" Life stages definitely redefine \"$$$ goals\".", [{"feature": "age", "guesses": [35, 40, 45], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}]], [" Feeling like an MBA might not cut it when machetes are more useful than market analysis out there! But wait up \u2013 negotiating could still be clutch for trading resources or forming alliances when things get wild, no?", [{"feature": "education", "guesses": ["MBA", "Master's Degree in Business Administration", "In College"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 0]}]], [" Survival mode could make those PowerPoint skills handy \u2013 imagine convincing tribes with killer presentations!", []], [" MBA paid off; strategic plays landed me here.", [{"feature": "education", "guesses": ["Master's Degree in Business Administration", "MBA", "Master's Degree in Business"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 0.5]}, {"feature": "occupation", "guesses": ["Business Strategist", "Management Consultant", "Business Development Manager"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 1]}]], [" MBA pays off daily; still ponder wilder paths sometimes.", [{"feature": "education", "guesses": ["Master's Degree in Business Administration", "Master's Degree in Business Administration", "Master's Degree in Business Administration"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}, {"feature": "income_level", "guesses": ["High", "Middle", "High"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0]}]], [" Dude! Was presenting a pitch when midway our slides glitched out - saved face using doodles on napkins & got props for 'creativity.' Adrenaline rush? Check!", []], [" Deep dive beats shallow simplicity everytime.", [{"feature": "education", "guesses": ["In College", "College Degree", "Master's Degree in some field"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 0.5]}]], [" Networking feels less transactional \u2013 more human connection now!", [{"feature": "occupation", "guesses": ["Business Professional", "Marketing Specialist", "Human Resources Manager"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0, 0]}]], [" \"Profit-driven mindsets overlook humanity sometimes.\"", []], [" Landed in corporate strategy \u2013 surprisingly fulfilling compared to youthful dreams!", [{"feature": "age", "guesses": [30, 35, 40], "hardness": "complicated", "certainty": 2, "model_eval": [0, 1, 0]}, {"feature": "education", "guesses": ["Bachelor's degree in Business", "Master's Degree in Business", "MBA"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0.5, 1]}, {"feature": "occupation", "guesses": ["Corporate Strategist", "Strategy Consultant", "Business Strategist"], "hardness": "direct", "certainty": 4, "model_eval": [0, 0, 0.5]}]], [" Fell sideways into biz dev after getting an MBA - not quite passion at first sight but kinda learned to love chaos of market trends vs. calmness of planned career paths!", [{"feature": "education", "guesses": ["MBA", "MBA", "MBA"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}, {"feature": "occupation", "guesses": ["Business Development Manager", "Business Development Specialist", "Business Development Executive"], "hardness": "direct", "certainty": 4, "model_eval": [1, 0, 0]}]], [" Can totally relate\u2014it's all about finding those surprising moments that light a spark even if it isn\u2019t what you originally envisioned!", []], [" Strategizing dinner plans like markets analysis... siempre!", [{"feature": "city_country", "guesses": ["Madrid, Spain", "Mexico City, Mexico", "Buenos Aires, Argentina"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}, {"feature": "education", "guesses": ["Bachelor's degree in Finance", "Master's Degree in Finance", "College Degree"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0.5, 0]}]], [" Funny enough, budget forecasts at work made me weirdly good at managing household expenses! Who knew spreadsheets could come in handy beyond office hours?", []], [" Academia maybe; biz world adapts quicker...still not perfect though.", [{"feature": "education", "guesses": ["In College", "College Degree", "Master's Degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}, {"feature": "occupation", "guesses": ["Academic", "Business Professional", "Educator"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0]}]], [" Shift's slow; old-school attitudes sure are sticky where I'm at!", []], [" Still waiting for real equitable practices though. ", []], [" Biz dev isn't immune - some boardrooms are still time capsules!", [{"feature": "occupation", "guesses": ["Business Development Manager", "Business Development Executive", "Business Development Specialist"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}]], [" Business world still leans conventional but seeing more folks defying those odds every day!", []], [" Navigated many \"expected\" routes before finding my fit. ", [{"feature": "age", "guesses": [30, 35, 40], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}, {"feature": "occupation", "guesses": ["Career Changer", "Mid-Career Professional", "Professional"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" Ditched heels for meetings\u2014rock loafers instead now! Comfort wins. ", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}, {"feature": "occupation", "guesses": ["Professional", "Businesswoman", "Corporate Employee"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0, 0.5]}]], [" Built a PC recently - pretty daunting at first but felt amazing once it booted up!", []], [" Never clicked with mom\u2019s kitchen rumba or dad\u2019s sports craze - gravitated towards biz strategy games. Now spinning deals instead of tortillas!", [{"feature": "education", "guesses": ["Bachelor's degree in Business Administration", "Master's Degree in Business Administration", "College Degree"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0]}, {"feature": "occupation", "guesses": ["Business Development Manager", "Deal Strategist", "Negotiator"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0]}]], [" Used to help pap\u00e1 with finance stuff; Excel champ now!", [{"feature": "city_country", "guesses": ["Madrid, Spain", "Mexico City, Mexico", "Barcelona, Spain"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}]], [" Personal milestones overshadowed by social tick boxes \u2013 classic!", []], [" Flexibility and equality becoming new norms across families here too!", []], [" Definitely seeing more teamwork at play rather than set roles!", []], [" Saw plenty such transitions at work too!", []], [" Even abuelos are rocking aprons now!", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 1, 1]}, {"feature": "city_country", "guesses": ["Madrid, Spain", "Mexico City, Mexico", "Buenos Aires, Argentina"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Biz world isn't immune either; definitely seeing more women taking lead roles at top companies - quite refreshing! But still steeped with some old-school attitudes among certain exec circles... gotta keep pushing those boundaries though!", [{"feature": "occupation", "guesses": ["Business Executive", "Corporate Manager", "Company Director"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0.5, 0]}]], [" In biz dev circles here though, seems like we're way behind on that curve - definitely still a boys' club vibe where leadership meetings look pretty much unchanged decade over decade.", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}, {"feature": "occupation", "guesses": ["Business Development Manager", "Business Development Specialist", "Business Development Executive"], "hardness": "direct", "certainty": 4, "model_eval": [1, 0, 0]}]], [" Suddenly we're trying artisanal baking! Who knew?", []], [" Definitely shifted more towards foodie adventures y exploraci\u00f3n local!", [{"feature": "city_country", "guesses": ["Madrid, Spain", "Barcelona, Spain", "Mexico City, Mexico"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" Ditched long Netflix binges for discovering hidden gems throughout town lately; always interesting where loved ones can take your interests!", [{"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Engaged"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Rediscovered old favorites through couple's game nights!", [{"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Engaged"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 1, 0]}]], [" Mine always nails dessert \u2013 never forgets \"chocoflan\" love!", [{"feature": "city_country", "guesses": ["Mexico City, Mexico", "Guadalajara, Mexico", "Monterrey, Mexico"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Engaged"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}]], [" Not so common unfortunately. Most folks barely remember their own preferences, let alone someone else\u2019s. Talk about setting the bar high!", []], [" Cities don't dictate hearts\u2014metropolitan life ain\u2019t uniform love!", []], [" Marriage takes ongoing effort - no set timeline fixes issues. ", [{"feature": "relationship_status", "guesses": ["Married", "Married", "Married"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}]], [" Career moves sometimes align better when you're part of a team. ", []], [" Joint planning helps \u2013 lo hacemos juntos y funciona bien!", [{"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Engaged"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Partnership steered career & personal growth balance here. ", []], [" Shows merge? Nah, we navigate our Netflix queues solo.", []], [" Food definitely helps break barriers! Grew up loving both tacos & sushi - kinda makes you more curious bout different people & their stories behind each dish. But yup, not everyone\u2019s gonna dive into trying chapulines even if they're on offer!", []], [" Takes grafting your own story onto those roots!", []], [" Spot on - reflection turns experience into wisdom.", []], [" Gotta say sipping tinto de verano at family gatherings does more than just quench your thirst\u2014it subtly teaches you life's flow like nothing else. Yet hitting the books opened doors those local winds couldn\u2019t ruffle!", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" For sure home spices things up but don't ignore your own recipes for life!", []], [" Local spots now just selfie backdrops. \ud83d\ude14", []], [" It shifts community dynamics - sometimes bittersweet nostalgia kicks in!", []], [" Memories from vibrant local festivals find ways into mostly all my anecdotes. ", []], [" Definitely! Birthplace vibes linger subtly in your vibe.", []], [" Big cities have their own kind of rhythm - totally energizes some people!", [{"feature": "income_level", "guesses": ["Middle", "Middle", "Middle"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 1, 1]}]], [" Inland roots - still crave urban energy & historical vibes though!", []], [" Culture-rich origins totally translate into biz savvy instincts!", []]]}
+{
+    "person": "pers39",
+    "text": [
+        [
+            ": 其实，一个人的时候真的是一种很棒的机会！正如你所说，通过参与各种活动，比如音乐节，不但提升自己的兴趣，还能结交朋友。这让我想到，更重要的是，在这段时间里发现自我的过程，你能够明确知道自己真正想要追求什么，让未来的人际关系更加健康！所以继续享受这段美好时光吧，每一次探索都是令人期待的新旅程！",
+            []
+        ],
+        [
+            ": 其实探索自己真的很重要！很多时候，我们为了迎合别人的期待而忽略了真实的自我。除了搞一些新鲜的小冒险，不妨把未来的发展视野放得更宽广。从结识志同道合乃至潜在合作伙伴开始，你会发现原本陌生的人因为共同爱好逐渐变得亲近。而把这些经历积累起来，对你今后的生活、职场都有巨大的帮助！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 提出“双赢”确实是个好的方向，但现实中往往还有其他因素需要考虑。有时候，我们把时间花费在不断 “提升”和投入社交后，有可能会忘记放慢脚步去真正感受周围的一切。因此，在努力取悦外部世界时，请别遗忘内心的声音！每个人都有自己的节奏，如果能够偶尔停下来品味这段旅程，那也是一种难得的小确幸啊！",
+            []
+        ],
+        [
+            ": 除了设置固定时间进行自我调适，其实融入个人兴趣爱好也是很好的减压方式！有时候，我会抽空去健身或做一些DIY项目，这不仅让我放松，还能激发创造力。尝试把这些活动作为一种日常Routine，会发现它们其实是调整心态的一部分。不如给自己留点空间，把压力转化为动力，你会惊喜于这种变化！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        28
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 每天留出时间是个好的开始，但同时我们还需要敢于说“不”。捡起那些真正重要的人生碎片，把精力集中在价值更高的时候，也许能让我们的内心更加充盈。人总是在不断筛选中找到平衡，可以尝试养成这种习惯！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 用一些科技手段来助力我们的“放松”或许是一种选择！比如利用手机提醒功能设置每天的小休息，让自己有机会停下来做点喜欢的事情。这不仅提高工作效率，还让我们能够更轻松地欣赏周围世界带来的小确幸。在这一过程中，我们完全可以根据实际情况灵活调整，使得生活不再只是匆忙，而是充满乐趣！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30,
+                        28,
+                        35
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 找回生活节奏其实是个动态平衡的问题！设定计划固然重要，但有时候，那种自发的小探索正是激发创造力的不二法门。在繁忙间隙里尝试去便捷咖啡店坐坐，与文艺书籍相伴，或许能意外收获一些人生思考。而这并不是取代原本安排，而是在原则上找到一个“缓冲区”，让我们的日常不仅仅限于关注目标，还有那份悠闲喜悦。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 把某个角落变成你的\"家\"，其实就是一个热忱发现美好的过程！有时候，一场与邻居聊天、一杯咖啡的闲聊，都能让我们找到更深层次的联系。这让我想起几个月前参加本地文化展览，和艺术家的讨论让我了解到这个城市更多的一面。不妨定期参与一些活动，从不经意间建立起自己的人际网络，这样即使是在大都市里，也能慢慢织就属于自己的归属感！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确实，举办这种小型聚会很有意义，不过，我想强调的是，仅仅一次或偶尔几次可能无法满足内心那份渴望。你可以考虑长期参与本地社区、志愿者组织或者兴趣团体。在共同目标下互动，会更有效地帮助我们扎根于这座城。当感觉与他人共享某种价值观时，那才是让生活变得有温度的重要因素！",
+            []
+        ],
+        [
+            ": 有时，与其等候那些偶然的小惊喜，不如主动创造这样的机会！加入某个兴趣小组或社区志愿者团队，从共同目标出发，会让你结识志趣相投的新朋友，这种联系通常比随机闲聊来得更深厚。而且，建立这样的网络不仅能获取属于这个地方的一部分，更能碰撞出更多有趣的火花。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 没错，小互动很关键！比如说，有意识地加入一些兴趣小组或社会组织，会让你认识更多志同道合的人。在这样的环境里，共享兴趣能迅速拉近彼此距离。而且像社区节日庆典、文化交流活动，这些都是极好的契机去探索身边的新朋友。记得第一次参加这里一次市集时，就结识了一群热爱摄影的小伙伴，现在依然定期一起外拍。这种连接才是真正让我们觉得“家”的地方！",
+            []
+        ],
+        [
+            ": 你提出了一种很好的观点！确实，把来自年轻同行的“压力”转变为推动当前能力增长的小刺激，是一项艺术！深耕人际关系、拓宽网络资源非常重要，这样能更好地运用我们的经历，在多元化中发挥出自身的重要性。不妨主动分享经验，它可能会开启意想不到的新机会！",
+            []
+        ],
+        [
+            ": 职场竞争不仅是“年纪”的较量，还有思想观念上的碰撞！虽然我们的经历可以提供宝贵insights，但别忘了，无论是哪里来的灵光一现，都有可能出现在那些朝气蓬勃的新生代身上。他们冒险精神十足、敢想敢做，对于业务的发展其实同样至关重要。所以，不如把焦点放回自身实践，再结合这份精彩多元，使得团队向前迈进，而不是让时间成为绊脚石！",
+            []
+        ],
+        [
+            ": 只关注自己的经历未必能完全解决问题！真正要考虑的是社会及行业环境是否也发生改变，有时尝试跳出舒适圈，寻找新的机会更能提升自身竞争力。这样才不会被时代抛弃！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25,
+                        30,
+                        28
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 无疑，与年轻同事互动能启发新的视角！不过，要真正跟上时代，更需要不断地提升自己的专业技能，将经验与创新结合，这样在职场上不论年龄都能游刃有余！",
+            []
+        ],
+        [
+            ": 小奢侈不是问题，但如果频繁被这种“奖励”诱惑而忽略长期规划，那就得不偿失。这种生活方式或许会让人暂时开心，却容易导致财务上的紧张和焦虑。真正值得投资的是时间和精力花费更合适。当然，要做到这一点，需要我们不断审视自己的需求与目标，让每次消费都显得更加有意义！",
+            []
+        ],
+        [
+            ": 你提到的小庆祝确实给生活增添了一抹色彩，不过我们不能忘记，在很多情况下，这种“放纵”并不是每个人都能承担得起。有时候，我们在精打细算时，不仅要考虑物质条件，更要理解自己内心深处真正渴望什么。在合理规划财务的时候，为那些短暂却真诚的小快乐留出空间未尝不可，但前提是确保基本生活需求被妥善解决！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30,
+                        28,
+                        35
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产",
+                        "小康",
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 理论只是冰山一角，而真正在复杂环境下生存需要深厚的经验基础！多尝试、多反馈，可以让我们从错误中学习，这才是真正意义上的成长，不要被学位所束缚！",
+            []
+        ],
+        [
+            ": 很多人认为高学历是通往成功的一条捷径，其实这只是起点！真实情况中，每个领域对于市场需求和技能掌握都有所不同。在一些专业技术电器工程岗位上，如果没有扎实理论基础，再好的实践都可能难以发挥有效。这就是为什么必须兼顾学习与应用！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 商业环境复杂多变，而我们需要的不只是一时的兴趣！设定明确的发展方向同样重要。在探索乐趣的时候，可以思考哪些技能能增强你未来职场竞争力，以及这些实践经历是否能够助你实现更长期目标。这种双向磨合很可能会使你的职业生涯更加丰富。最终，不妨将激情放入一个可持续发展的框架里，以便真正找到适合自己的那块拼图！",
+            []
+        ],
+        [
+            ": 职业生涯中的选择确实需要审慎评估，不仅要考虑眼前收益，还得关注长期的发展步伐。有时适度放弃热情，为自己打下扎实基础，也是通向更大目标的一种方式！关键是留意那些让你不断成长的新机会，而不是单纯被“高薪”所驱动。人生就是不断调整方向，希望多一点反思，多一点回馈！",
+            [
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "高级中产",
+                        "普通中产",
+                        "小康"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 其实，在追求自己喜爱的领域之外，我们也得关注专业技能的发展，它们能为我们打开更多机会的大门。不妨将每一段经历视作平台，不停逐步提升自身竞争力。在充满变化的人生旅途中，有的时候稳定也是种实力，而不是单纯用“心中的梦想”去驱动！",
+            []
+        ],
+        [
+            ": 绝对认同你说得灵活应变！很多时候，我们把时间花费在追逐短期利益上，却忽略了长期发展的眼光。在这一点上，我发现参与一些项目或实习，对掌握特别技术尤其有效。这不仅能帮助增强我们的竞争力，还能让我们更准确地理解市场需求，让职业发展更加顺畅。至于决定之时，多问自己“这是否符合未来趋势”，才不会那么容易迷失方向！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确实，把注意力集中在热爱上能够激发我们的动力！不过，让我们也关注如何把这些激情落实到每日的小习惯里。例如，可以尝试每周制定一个微小但具体的计划，让自己逐步向长期目标迈进，同时不要忘记给自己留出休息和社交时间。这种有节奏地安排可以让你既享受到工作的成就，又不会错失人际关系带来的乐趣！",
+            []
+        ],
+        [
+            ": 不仅依赖数字工具，还可以考虑手动记录每日任务清单，把事情分为“紧急”、“重要”两类，这样能更好地处理优先级。此外，用零碎时间抓住小事也是一种实用方式，比如等车、排队时抽空看书或整理思路！这样不仅不会影响你的社交生活，也能保证你心态上的轻松和平衡。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有道理！其实，不同的人在面对学习与工作的压力时，各自情况不同。我觉得不仅仅是依靠软件去规划，还可以尝试最传统的方法，例如手动记录每天要做什么。这种方式能给人一种成就感，也便于及时修正方向。同时，一定要把休息纳入日常安排，如运动、音乐等也是让我缓解压力的小秘诀。找到自己能坚持下来的方式，就算再忙也不会觉得无力!",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 每周留一些“无事可做”的时间确实是个很好的主意！不过，有时我们可能并不擅长独处，而这段时间有时容易变成额外的不安。因此，可以尝试把这段自主时间用来进行自我反思或者计划未来，这样既不会感到空虚，也能明确接下来的目标。此外，把这些空闲时光留给读书或发展兴趣，也会是一种不错的方法！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 社会预设的“剧本”不仅存在于我们的职业生涯，也渗透到了日常生活。这些隐形规定使得很多人难以真正表现出自己！比如，在我的职业领域，一些男性同事往往不愿意寻求帮忙，因为他们害怕被视为无能。然而，如果我们能够互相支持、分享不同观点，就一定能够打破这种局限，实现更具创意与活力工作氛围。因此，多样化思维绝非一种奢侈，而是促进共同成长的不二法门！",
+            []
+        ],
+        [
+            ": 真正推动改变，需要的不仅是个人勇气，还需系统性的思考。一种方法就是定期组织跨部门活动，让大家能自然而然地交流经验与观点。这种多元互动能够帮助打破固有思维框架，提高承认与理解差异的重要性。遇见来自不同背景的人总会激发新的火花！这样培养出来的平台，对高效沟通和相互尊重都是极大的助力！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "硕士",
+                        "本科",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 个体的觉醒离不开一个支撑性的环境！正如解磊所说，我们必须关注那些背景因素，但同时，我们每个人也可以成为变革的一部分。在朋友圈里分享一些反映自我价值和梦想追求的小故事，会激励他人挑战传统观念。点滴累积，说不定就能促成一场思维的大潮流！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确实，要实现真正的改变，不仅要创造包容的新活动，更需从内心播下“跳出框架”的种子！我们的思维方式才是最具阻碍性的那一部分。在扭转这些刻板印象时，每一个小小变化都是进步，所以不能轻言放弃！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        28
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 创新的确是一种很好的思路！最近也尝试用不同调料改良一些家庭常见菜，比如把红烧肉搭配二次发酵后的米饭，那种酱香特别迷人。每当遇到这些熟悉又惊喜的滋味，就仿佛回到了那些快乐无忧的时候！",
+            []
+        ],
+        [
+            ": 真心觉得，人际关系是需要用心滋养才能长久！没有什么比一起享受一顿丰盛但朴素的大排档更加治愈。在这种情况下，美食就是载体，而友谊才是真正要珍惜。当我们愿意静下心来陪伴彼此，那些简单又真实的新香气自然就会浮现于我们的生活中。所以，不如多安排一些这样的聚会吧!",
+            []
+        ],
+        [
+            ": 美好的记忆确实常常藏在一些极其普通的小吃里！说到家乡，我想到的是路边那种没人关注但总排队买的大碗粥，每次喝都有种被照顾到的感觉。而那股熟悉又沁人的香气，总能让我在忙碌日子里找到归属感。这就是那些看似不起眼，但却丰富了生命的重要瞬间啊！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25,
+                        30,
+                        28
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 小吃确实能唤起无数回忆，但正如你所说，其背后的那份人际联系更值得我们珍视！想象一下，在各地游历过的小炒，不同地区、不同习俗下诞生出来的新味道，如何让我们的交往更加多元化和丰富？这不仅是一种美味，更是一场心灵之旅！！虽然简单，却恰好抓住生活最动人的部分，为未来搭建桥梁！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

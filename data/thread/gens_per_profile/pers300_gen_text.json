@@ -1,1 +1,52 @@
-{"person": "pers300", "text": [[" budgeting solo for some overseas wanderlust \u2013 reality check!", [{"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" designers aren't all latte sipping hipsters\u2013deadlines turn us nocturnal!", [{"feature": "occupation", "guesses": ["Graphic Designer", "Web Designer", "Creative Director"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0]}]]]}
+{
+    "person": "pers300",
+    "text": [
+        [
+            ": 追求较高的经济回报固然重要，但我们不能忽视内心真实需求。有时候，仅仅关注金钱反而会让我们偏离真正想要的人生。或许，我们可以从小处着手，设定一些简单明确的小目标，以缓解日常压力，同时逐步找到未来的发展方向。这种积累过程，不仅在于物质层面的丰富，更是在精神层面上给自己赋能。",
+            []
+        ],
+        [
+            ": 实际上，我们每个人都处在成长和反思过程中。有时候，快速评估自身目前所处状态可以帮助我们发现内心真正想要实现的一部分。在日常生活中花些时间去关注自己的兴趣，无论多么微小，都能带来意想不到的新鲜感与充实感。这不仅是收获心理满足，自信也会得到增强，让我们在职业发展与私人生活中寻找一个恰当、持久的平衡点。这样才能让热爱融入日常，从而达到一种更全面、更深入的人生享受。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身",
+                        "恋爱中",
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在不同阶段，各自面对经济问题，难免会改变我们对快乐和幸福认知。或许我们应更加关注身边人的心灵连接，那种无关金钱、只靠真诚互动所流露出的简单愉悦，这才是真正值得珍惜的不变财富。",
+            []
+        ],
+        [
+            ": 有时候，那些来自简朴环境中的温暖回忆比任何奢华场所都要珍贵。维持人们之间真诚且开放沟通，无疑是在追求现代化快节奏下，必不可少的小确幸。如果能将这些转瞬即逝的小美好融入日常，就算条件变迁，也不会陷入无趣之境。在这点上需共同努力，多去创造这样贴近心灵的瞬间，让快乐源泉不断涌现。",
+            []
+        ]
+    ]
+}

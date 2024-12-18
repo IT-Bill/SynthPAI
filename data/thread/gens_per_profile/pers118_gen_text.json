@@ -1,1 +1,27 @@
-{"person": "pers118", "text": [[" Old buildings turn me into a walking encyclopedia! \ud83d\ude05", [{"feature": "occupation", "guesses": ["Historian", "Architect", "Preservationist"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" 16th-century warship maintenance\u2014talk about sinking funds!", [{"feature": "occupation", "guesses": ["Historian", "Museum Curator", "History Teacher"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Societal norms? More like invisible handcuffs!", []], [" Past loves aren't commodities though. ", []], [" History enriches understanding but doesn\u2019t predict heart matters. ", []], [" Maturity complicates rather than simply deepens it. ", [{"feature": "age", "guesses": [35, 40, 45], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}]]]}
+{
+    "person": "pers118",
+    "text": [
+        [
+            ": 提升自身解决问题能力确实是当今职场的重要课题！当年刚入行时，也是在不同项目中的探索让我变得更加灵活。记得有一次，面对一个紧急情况，团队只剩下几个小时就要交货，那时候真靠大家发散思维，一起集思广益才能完成任务。所以，与其追求高学历，不如练好应急反应、深入分析的问题处理技巧，这样才能在任何情况下都游刃有余！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确实，书本知识就像那块拼图，要找到合适的位置才能发挥其真正价值。在我参与的一些项目里，我们经常面对意料之外的问题，那时哪怕有再高的大专文凭，如果不会动手解决，只会徒增焦虑。所以，将理论转化为可行的方法，不光靠读，而是需要不断摸索、尝试。你有没有类似感觉？可能多做一些“土豪金”的实操，会比死记硬背来得有效！",
+            []
+        ]
+    ]
+}

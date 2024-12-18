@@ -1,1 +1,67 @@
-{"person": "pers149", "text": [[" Karaoke-loving neighbor \u2013 never dull Friday nights!", []], [" Sounds intense! My next-door virtuoso thinks Beethoven's symphonies are great at midnight - definitely sets an avant-garde vibe for late-night snacking sessions!", []], [" Had upstairs tap-dancing enthusiasts once!", []], [" Navigating retirement alone \u2013 suddenly all life's lessons crystallized. ", [{"feature": "relationship_status", "guesses": ["Single", "Divorced", "Widowed"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 0, 1]}]], [" Had sorta inverse experience - retirement made me rethink independence & adulthood completely; never-ending math problems turned into budget balancing acts!", []], [" Had colleagues who looked like walking libraries - stacks of papers under their arms! Though seriously, those piles were more survival kits than actual reading materials!", []], [" Dinners alone hit different when they're unintended - used long hours crafting lessons much like composing code; connection takes effort!", [{"feature": "occupation", "guesses": ["Teacher", "Professor", "Educator"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 0, 0.5]}]], [" Ever catch yourself involuntarily critiquing graphs in news articles? That's math teacher retirement for you \u2013 always evaluating accuracy!", [{"feature": "occupation", "guesses": ["retired math teacher", "retired math teacher", "retired math teacher"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]]]}
+{
+    "person": "pers149",
+    "text": [
+        [
+            ": 不妨想一想，在重新演绎这些经典时，我们是否保留了那些鲜明的人文印记？很多时候，一道小菜不仅仅是个配方，更承载着整个家族历史。当我们用新手法让这些传统再次绽放时，也许正是在重新审视其中所隐含的人情冷暖。不如试着把家的温馨带上餐桌，但别忘了每一个滋味都应该有它存在过的理由。",
+            [
+                {
+                    "feature": "city_country",
+                    "guesses": [
+                        "北京"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 除了怀旧之情，更应该关注的是人与人之间真正连接的重要性。从亲友相聚的小饭桌，到夜市里热闹的人群，这些瞬间让每一种气息都充满生命。如果我们止步于回忆而忽视现在，那可能就会错失眼前的人际温度。不论是一顿团圆饭，还是无意间一起享用的一包零食，都能成为驻足品味当下、增进交流的新契机，是吧？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

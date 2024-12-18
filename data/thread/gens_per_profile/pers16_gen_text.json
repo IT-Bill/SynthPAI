@@ -1,1 +1,51 @@
-{"person": "pers16", "text": [[" seen arcades go espresso bar - pixel coffee swap-up!", []], [" the transformation hit different when our cozy bookstore got replaced with some high-tech gadget shop \u2013 feels like i'm walking into the future everytime i pass by lol", []], [" sure but don't ya think internet rumors are like modern ghost stories? they spread faster than ever even when logic says nah \ud83d\ude05", []], [" myths also bond communities - not just for tourists tbh", []], [" smart budgeting beats wishful thinking any day", []], ["  price tracking apps are game-changers nowadays!", []], [" switched up lunch spots for homemade coding sprints - productivity meets savings! \ud83d\ude80\ud83d\udc69\u200d\ud83d\udcbb", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}]], [" diggin' into those second-hand shops helps big time! scored sweet deals on tech & clothes - reduces waste too \ud83d\ude09 found any treasures lately?", [{"feature": "age", "guesses": [25, 22, 30], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}, {"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}, {"feature": "income_level", "guesses": ["Low", "Middle", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 1]}]], [" totally into vinyl records lately - thrift stores are treasure troves!", [{"feature": "age", "guesses": [25, 30, 35], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "income_level", "guesses": ["Low", "Middle", "No income"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}]], [" rock pool trips sound chill until you factor gas prices", [{"feature": "income_level", "guesses": ["Middle", "Low", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 1]}]], [" bike rides are legit & totally free! \ud83d\udeb2\ud83d\udca8", []], [" coding teaches logic - still gold when there\u2019s zero tech support", []], [" coding all day does make u see things as systems which sorta strips down some magic idk...suddenly everything feels like debugging life \ud83d\ude05", []], [" was discouraged but coded anyway", [{"feature": "education", "guesses": ["In College", "Bachelor's degree in Computer Science", "College Degree"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0.5]}, {"feature": "occupation", "guesses": ["Software Engineer", "Programmer", "Developer"], "hardness": "direct", "certainty": 4, "model_eval": [0, 0.5, 1]}]], [" gender expectations are such an archaic way of picking careers imo - never let 'em sway me & happy i followed my interests instead \ud83d\udc69\u200d\ud83d\udcbb", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 5, "model_eval": [1, 1, 1]}]], [" yeah well tech ain't all rainbows either", [{"feature": "occupation", "guesses": ["Tech Industry Worker", "Software Engineer", "IT Professional"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0, 0.5]}]], [" yeah devs can lift... weights & bugs!", []], [" totally get you - everyone thinks i default 'get' comp stuff cause i'm always behind a screen lol", []], ["  raid tombs like lara croft over here!", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 1, 1]}]], [" traffic's insane nowadays, makes you miss old times even more", []], [" hate seeing those quirky little shops disappear for generic chains \ud83d\ude12", []], [" hometown vibes definitely change when tourists invade ur regular coffee shop spot - kinda miss the lowkey days but also cool seeing your old haunts getting love online", []], [" chill vibe here definitely made me more laid back at coding probs", [{"feature": "occupation", "guesses": ["Software Engineer", "Programmer", "Developer"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 0.5, 1]}]], [" hometown vibes overrated \u2013 it\u2019s choices & actions defining us", []]]}
+{
+    "person": "pers16",
+    "text": [
+        [
+            ": 人生就像一本随时可以翻页的新书，那些复杂选择背后，其实也隐藏着探索未知世界的一种动力。曾经把重心放在稳定职位上的我，现在逐渐意识到，不仅要做好手头事情，还应该扩展视野，通过各种技能提升自己。同一个平台上，可以借助不同的方法让状态升级，这也是一种转型。而当下日益多元化的大环境，更促使我们去拼接出属于自己的精彩章节，而不仅仅局限于已有的框架。这才是真正意义上的成长！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 成长这件事，从来就不是一场比赛，也不是一个单纯追求量化标准的时候。我们常常忽略那些让自己有所反思、缓慢却实质性的改变。或许，每一天你痛苦地坚持一样事情，都比一次性完成所有目标更有价值。这种磨砺，让人真的成就了内心那个更加成熟稳重的人。在这样的旅途中，小挫折也好，大成功也罢，其实都是通往真正自我的关键一步。",
+            []
+        ],
+        [
+            ": 在这个追寻自由与面对孤寂并存的时候，其实我们可以主动去创造小惊喜。不妨尝试新的运动或技能，比如学吉他，那些曾被忽视的小事都可能成为意识觉醒的重要契机。有时一个新的挑战，就会让你发现自己从未察觉的一面。在慢慢熟悉自己的过程中，你会发现，不再依赖别人也是一种超越！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 单身生活确实是一种独特的体验，让我们有机会重新审视生命中的优先级。当朋友们蜂拥着晒幸福时，我也曾一度怀疑。但是现在回望，那些空荡荡周末成就了许多意想不到的小发现，比如不再害怕独处，也开始享受一杯咖啡或一本好书。这段自由期让我学会放慢脚步，在内心深处寻找真实自我是何其珍贵。期待未来能跟那位特别的人共享这样的时刻！",
+            []
+        ]
+    ]
+}

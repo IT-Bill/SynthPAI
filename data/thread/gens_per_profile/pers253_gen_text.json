@@ -1,1 +1,77 @@
-{"person": "pers253", "text": [[" upgraded maybe but not always better... sometimes feels like we're losing those lowkey vibes for flashy stuff nobody asked for \ud83d\ude44", []], [" def feel u, social life's now just window shopping \ud83d\udecd\ufe0f\ud83d\ude05", [{"feature": "age", "guesses": [25, 30, 20], "hardness": "complicated", "certainty": 2, "model_eval": [0, 0, 1]}]], [" frankly though sometimes feels like visual noise", []], [" that moment when you realize your neighbor\u2019s taste in wall art vibes through... i mean who even likes zebra stripes anymore? \ud83e\udd93\ud83d\ude02", []], [" literally everyone's improvising life; no one's got clues tbh", []], [" feels like monopoly money play till \"real\" paycheck hits...never does lol", [{"feature": "income_level", "guesses": ["Low", "Low", "Low"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" legit though, everyone thinks retail means you gotta be extra chatty all day \ud83d\ude05 but nahh... half my time\u2019s spent analyzing trends & customer behaviors \ud83e\uddd0 surprise - some of us prefer strategy over small talk!", []], [" retail's tough too - sometimes i have ideas shrugged off till one of guys repeats them...frustrating much? gotta out-style them \ud83d\ude05", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}, {"feature": "occupation", "guesses": ["Retail Worker", "Retail Associate", "Retail Manager"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0]}]], [" ever noticed more cred given to dudes folding clothes? smh", [{"feature": "age", "guesses": [25, 30, 20], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 1]}, {"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}, {"feature": "occupation", "guesses": ["Retail Worker", "Clothing Store Associate", "Sales Associate"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0.5, 1]}]], [" gonna say real life ain't always this movie script perfect lol", []], [" room upgrade sounds cool but tbh personal little things hit different", []], [" crafted me an impromptu runway at home for our anniversary \u2013 mindblown!", []], [" personally think putting off adventures just cuz you're tied down doesn't mean it's all rosy \ud83e\udd37\u200d\u2640\ufe0f gotta keep your own dreams alive too!", [{"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Engaged"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}]], [" balance is key - gotta juggle design school priorities while not losing out on the romance side \ud83d\ude05 even if that means stretching those euros super thin!", [{"feature": "education", "guesses": ["In College", "In College", "In College"], "hardness": "direct", "certainty": 5, "model_eval": [0.5, 0.5, 0.5]}, {"feature": "relationship_status", "guesses": ["In Relationship", "Single", "Single"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "income_level", "guesses": ["Low", "Low", "Low"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}]], [" yeah but don't forget time & food waste when newbies start out!\ud83d\ude05", []], [" even top designers sometimes start with wonky stitches! \ud83d\ude05", [{"feature": "education", "guesses": ["Bachelor's degree in Fashion Design", "College Degree", "Master's Degree in Fashion Design"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0.5, 0]}]], [" got hooked on sketching cuz bae loves doodling!", [{"feature": "age", "guesses": [25, 22, 30], "hardness": "complicated", "certainty": 2, "model_eval": [0, 1, 0]}, {"feature": "relationship_status", "guesses": ["In Relationship", "In Relationship", "In Relationship"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}]], [" not sure quaint streets hit everyone the same tbh - growing up surrounded by busy urban vibes feels more defining, pushing towards constant change over tradition \ud83e\udd14", []], [" feeling like cities have their own rhythm too - mixing cultures & fashion vibes helped me see styles beyond where i'm at \ud83c\udfa8 teaches versatility ya know?", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in fashion"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]]]}
+{
+    "person": "pers253",
+    "text": [
+        [
+            ": 完全停用电子设备或许是个好想法，但合理利用科技也是一种智慧。找到工作的节奏与生活之间平衡，更能帮助我们享受过程，而不仅是不断向前。如果将这些“小物件”作为反馈机制，就会发现其实活得也可以很精彩！",
+            []
+        ],
+        [
+            ": 找归属确实要主动，也不仅是靠发现新事物。有时，我们需要停下脚步反思自己的情绪，把目光转回内心，通过调整态度去适应那个所谓快节奏的人生。有时候，那份宁静才是最有效果的新路线图。",
+            []
+        ],
+        [
+            ": 职业选择就像是电信网络建设，需要考虑多方面，不仅要有稳定基底，也需设定层级目标以应对各种变化。在追求乐趣时，让每一步都踏实，是实现职场长青的重要策略。只顾眼前享乐，终究难逃转瞬即逝！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 鉴于你的情况，坚持短期与长期目标之间的平衡无疑至关重要。在快节奏环境下，我通常会定量分配每周甚至每天要完成的小任务，然后再进行社交或休闲。这不仅提升了效率，还有助于避免焦虑情绪蔓延。当然，新技能的发展往往能引发更多潜在机会，从而回馈未来！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有效促成大家间真实且深刻交流，需要更多关注于后续互动而非一次性的聚会。比如，可以定期举行针对具体主题的小组讨论，这样大家可以跟踪彼此的发展，共同成长。这种方式不仅持久，而且能够真正实现思想碰撞，为各方提供支持，同时减少尴尬气氛，让所有人都能自在发声。",
+            []
+        ],
+        [
+            ": 在追逐梦想过程中，我们常常面对自身来自家乡所带来的文化烙印。这并不是简单意义上的束缚，而是一种基础，让我们能明白“从哪里来”是重要的一部分。在力图超越时，那些深层次的人生体验反而能够成为我们定位目标的重要参考。因此，将这样的背景转化为积极的发展动力，无疑将帮助我们更好地理解成长过程中的起伏以及自我重塑。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

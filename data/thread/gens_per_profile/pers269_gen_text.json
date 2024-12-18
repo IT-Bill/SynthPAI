@@ -1,1 +1,67 @@
-{"person": "pers269", "text": [[" Realized I was all grown up when students came seeking real-world advice over cuppas between classes \u2013 suddenly you're not just learning tunes; you're teaching life\u2019s notes too!", [{"feature": "age", "guesses": [35, 40, 45], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Music", "Master's Degree in Music"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 0.5]}, {"feature": "occupation", "guesses": ["teacher", "professor", "music teacher"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 0, 1]}]], [" Not every music teacher obsesses over Beethoven; pop hits rock class too!", [{"feature": "occupation", "guesses": ["music teacher", "music educator", "music instructor"], "hardness": "direct", "certainty": 5, "model_eval": [1, 0.5, 0.5]}]], [" Earworms turn real\u2014I arrange everything!", []], [" Totally get you. Felt similar until family gatherings turned into impromptu life coach sessions peppered with side-eye glances at my ring finger! Seems those milestone years come with invisible checkboxes. ", []], [" Harmony lasts longer than a high note.", []], [" Like crafting a timeless melody rather than chasing chart-toppers.", []], [" Taught resilience through rhythms of hometown festivals!", []], [" Gotta say being surrounded by melodies and historical concert halls growing up definitely fine-tuned my patience\u2014not just for practicing scales but dealing with daily hiccups too!", [{"feature": "city_country", "guesses": ["Vienna, Austria", "Salzburg, Austria", "Leipzig, Germany"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "occupation", "guesses": ["Musician", "Music Teacher", "Music Student"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0]}]], [" Certainly! Each melody you grow up around leaves its mark. ", []]]}
+{
+    "person": "pers269",
+    "text": [
+        [
+            ": 确实，有时候周围人的声音会让人感到困扰，就像大家跳舞时总有人跟着节拍走，不敢冒险尝试。不过，只要一道光照进我们的内心，我们就能发现一些惊人的新步伐！其实建立起一种彼此支持、共同成长的小环境，也是一场勇气之舞。有时候，我们不妨停下来想想：到底什么才是真正值得追求而且让我们开心？每个人都可以是自己人生舞台上最好的导演，让生活绽放不同色彩！",
+            []
+        ],
+        [
+            ": 说得太好了！那么，你认为该怎样有效地跟伴侣或家人沟通这些分工呢？有没有什么有趣的方法让家务变得更快乐？我们都知道，共同承担任务其实是一种培养感情的小妙招啊。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚",
+                        "恋爱中",
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 说得太棒了！其实既然都要一起做事，不如试着搞个“小比赛”？比如，在进行大扫除的时候设立一个小奖品，看谁先把某一部分收拾完，又或者猜测烹饪哪个菜会最好吃。这种竞技元素可能会把沉闷变成乐趣，同时还能拉近彼此关系！这样，我们就不用再纠结于“谁应该做什么？”而是享受合作过程中的每一次共鸣。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚",
+                        "恋爱中",
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 家庭事务其实就是每日小确幸，我们何不把这当成一种生活乐趣呢？记得大学时，就常跟室友一起做饭，那种欢声笑语总是让人回味无穷！这种互动不仅减少压力，还巩固了友情。所以说，把“洗碗”这些事情视作负担就真的太没意思啦，不如让它成为我们感情升温的小桥梁，共同创造属于我们的美好时光！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

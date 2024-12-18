@@ -1,1 +1,158 @@
-{"person": "pers93", "text": [[" sunny days make me miss driving around more definitely keeps spirits high", []], [" rainy days are perfect for some house tinkering or diving into my hobby pile keeps the mind sharp", [{"feature": "income_level", "guesses": ["Middle", "Middle", "Middle"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 1, 1]}]], [" Sunny days are prime \u2013 they rev up my engine", []], [" home used to mean stability now it\u2019s just transient", []], [" roots do matter but dont forget folks memories shape home too carried everywhere ya go cities buildings come n go but laughs tears stick around forever", []], [" feeling at home ain't tied only to paying bills", []], [" Friend invested big in beepers just before smartphones hit... talk about timing!", []], [" oldschool dude here saw lots change firsthand", [{"feature": "sex", "guesses": ["Male", "Male", "Male"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" drove buses for years saw it all - women who could handle a bus like champs & guys with kindness that'd surprise you times are changing but old habits stick like chewing gum under seats", []], [" 30 shmirty back then you either had your act together or not no milestone fuss", []], [" stability's key sure but even old engines need sparks sometimes otherwise what keeps 'em running?depths great for sailing ships but without some wind you\u2019re stuck idle can\u2019t forget fun\u2019s role even later in life", [{"feature": "relationship_status", "guesses": ["Married", "In Relationship", "Widowed"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 1]}]], [" Not quiet though\u2014real connections demand effort, like old buses.", []], [" stability matters more remember enduring fondness beats quick sparks everytime", []], [" city life toughens you up", []], [" city life\u2019s hustle was simpler back then less dodging more chatting", [{"feature": "age", "guesses": [60, 55, 70], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" big cities overrated too much hustle", []], [" still make shakshuka like mom taught - taste of home", [{"feature": "city_country", "guesses": ["Tel Aviv, Israel", "Tunis, Tunisia", "Cairo, Egypt"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 0]}]], [" experiences trump place born huge time", []]]}
+{
+    "person": "pers93",
+    "text": [
+        [
+            ": 生活中的压力往往来自于外界施加给我们的期待。虽然周志明提出尝试在工作的过程中寻找乐趣十分重要，这点我深有共鸣，但或许我们还可以从日常的小事情出发，让那些微小但真实的快乐积累起来，有时候，一杯热茶、一段舒适时光，都能帮助降低心里的焦虑。在快节奏下，不妨慢下来，问自己最需要什么，那些简单美好的瞬间才可能涌现出意想不到的新动力。",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "男性",
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 人生中的许多烦恼其实源自我们对“必须”与“想要”的定位。如果能够从简门思考或调整某些习惯，就会发现快乐其实隐藏在生活的小细节里。正如那杯咖啡或一本书，这些都是可塑造幸福感的重要元素。我相信，在面对经济压力的时候，让内心放松也是一种智慧和勇气哦！",
+            []
+        ],
+        [
+            ": 这样的想法让我想到，其实我们不仅要关注身边人，更需要主动创造机会，让朋友关系更加紧密。当我们将重点放回那些微小但闪亮瞬间的时候，比如一起做饭或是散步聊天，那些美好的记忆就会为我们的生活增添更多色彩。有时候，就像我以前一样，一顿朴素的小餐反倒比奢华晚宴更显得弥足珍贵。这也是一种让人重新找回真实联系的方法吧！",
+            []
+        ],
+        [
+            ": 在日常生活中，我们可能会被数字牵引，却往往忽视那些弥足珍贵的小时光。真正让人快乐的是一种心态，是能否懂得去享受当下、彼此支持。而不是单纯追求外部条件最好，这需要继续反思，让友情成为最重要的一环。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25,
+                        30,
+                        28
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 很认同你的观点，其实我们每个人都需要时常给自己“放个假”，不过这种放松并非仅仅关闭工作开关，而是真正用心去关注身边的人。当你花时间跟朋友聊聊天、共享欢笑，那才是在丰富内心世界，让我们的努力不再孤独。因此，要勇敢地把自己从日常繁琐中抽离出来，一起寻找那份无价的小瞬间吧！",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 出于自己过去的经验，我逐渐明白，无论外部条件如何变化，心灵上的链接始终最为重要。我曾有那么多美好回忆，不只是物质享受，而是那种轻松自在地分享生活点滴。如果能够珍视这些小瞬间，即使身处平淡之境，我们依然能够收获无尽喜悦。这让我更加相信：追求真实联系本身，就是一种巨大的财富。",
+            []
+        ],
+        [
+            ": 我理解你说的一切。在生活中，我同样面对类似情境。虽然拥有某种头衔或证书，但将它转化为实用技能往往更具挑战。我认为，让理论融入实践是关键，其实书本知识只是起点，我们需要勇于去尝试、犯错，从而真正地发展出属于我们自己的优势。这份探索之路，不仅让我们的能力得以提升，也使我们的人生更加丰盈不凡。",
+            []
+        ],
+        [
+            ": 在面对复杂问题时，仅有技术或沟通技巧可能不够。真正拿得起放得下的是找到适合自己的角色和方向，这种融合为我们提供了更大的拓展空间。有时候，我们还需要坚守内心，相信自己能够创造独特价值，而不是只追求浮华表象，让每一步都走得更加稳健。",
+            []
+        ],
+        [
+            ": 说到底，职场就是个不断磨合的平台。我曾经发现，不管多高学历，如果无法有效地理解客户需求，就像一颗脱节的零件，很难融入整体。同时，当遇到挫折时，这些都让我更加意识到，不是所有成功都依赖于过去所挣得的一纸文凭，而是需要用心去打磨自己的技能。在遇见复杂问题的时候，那份从容和适应能力才是真正让人信服助力的发展动力。希望大家能找到属于自己的方法，在忙碌中收获更多！",
+            []
+        ],
+        [
+            ": 尽管外界交流能带来丰富体验，我认为真正值得珍惜的是那份与自己的深入连接。那些夜晚的不安其实是鼓励我们勇敢探索更真实、更完整地接纳自我的信号。在享受自由时，也别忘了给自己留些静谧空间，让心灵得到释放。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25,
+                        27,
+                        30
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性",
+                        "女性",
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 我能理解小智所说，那种追求梦想、实现目标后的成就感确实令人振奋。然而，对于许多人来说，从失去爱情后的孤单并不容易克服。在这样的时刻，不妨给自己设定一些简单的小目标，例如参加不同类型的小聚会或学习新的技能，让这段时间成为拓宽视野而非沉溺于回忆。如果能够主动出击，你会发现不仅收获了自信，还有可能遇见志同道合的新朋友。",
+            []
+        ],
+        [
+            ": 其实，我觉得这段时间很多人在谈论如何享受单身时，总是很容易忽略真实内心的声音。虽然有些朋友通过旅行找到了宁静，但并不是每个人都能轻易地放下那些曾经建立起来深厚情感。有时候，我会在夜晚回想起逝去的一切，那种波动实际上教会了我们更深入地理解自己的需要和欲望。因此，自我成长不一定要抛弃所有旧爱，它可以成为你未来选择中的一部分，也是一场承认脆弱与力量共存的新旅程。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        27
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

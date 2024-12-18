@@ -1,1 +1,169 @@
-{"person": "pers17", "text": [[" Historic facades hosting contemporary galleries - clever blend matters here!", [{"feature": "education", "guesses": ["Master's Degree in Art History", "Bachelor's degree in Fine Arts", "College Degree"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "occupation", "guesses": ["Art Gallery Curator", "Art Historian", "Architect"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Fusion's great - if it respects roots!", []], [" Secret courtyards here offer serene breaks from bustling streetscapes - enchanting!", [{"feature": "city_country", "guesses": ["Paris, France", "Rome, Italy", "Barcelona, Spain"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Historic charm's great until you're dodging selfie sticks daily...", [{"feature": "city_country", "guesses": ["Rome, Italy", "Paris, France", "Barcelona, Spain"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 1, 0]}]], [" New spots can brew quality conversations too. ", []], [" Vintage bookshops swapped for trendy cafes - charm lost.", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Humanities", "Master's Degree in Humanities"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 0.5]}]], [" Sometimes \"me time\" at Mus\u00e9e d'Orsay recharges me.", [{"feature": "city_country", "guesses": ["Paris, France", "Paris, France", "Paris, France"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}]], [" Not just art, even silent streets off-peak are blissful. ", []], [" Finding hidden retreats fuels creativity like nothing else!", []], [" Pure romanticism overlooks daily grind issues.", []], [" Dockside phantoms? Atmosphere breeds rumors more than fact sometimes...", []], [" Heard of Mary Celeste? Classic mystery fuels such yarns!", []], [" Those stories seem less credible when you're into facts like me. Ever consider they\u2019re just tourist traps?", []], [" Feels like we're all curators of life - balancing daily duties with collecting moments worth framing!", []], [" Switched gallery openings worldwide for intimate local artists\u2019 dinners \ud83c\udf74\ud83c\udfa8", [{"feature": "occupation", "guesses": ["Art Curator", "Art Dealer", "Artist"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}]], [" Old walls hold tales just inviting exploration\u2014both matter!", []], [" Renting can be freedom sans mortgage chains!", [{"feature": "relationship_status", "guesses": ["Single", "In Relationship", "Single"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 1]}]], [" Big plus - more time for passions than house repairs!", []], [" Even Impressionists defied norms! All about timing.", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Art History", "Master's Degree in Art History"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" Promotion felt like reaching real adulthood. ", []], [" Real connections outvalue cash; true friends get that too.", []], [" Success tests bonds; share passions, stay real with pals!", []], [" Found art curation naturally dovetailing academic pursuits!", [{"feature": "education", "guesses": ["Master's Degree in some field", "PhD in some field", "College Degree"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 0]}, {"feature": "occupation", "guesses": ["Art Curator", "Museum Curator", "Gallery Manager"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0.5, 0]}]], ["  Switched lanes post-history masters - now curating convo pieces!", [{"feature": "education", "guesses": ["Master's Degree in History", "Master's Degree in History", "Master's Degree in History"], "hardness": "direct", "certainty": 5, "model_eval": [0.5, 0.5, 0.5]}, {"feature": "occupation", "guesses": ["Curator", "Museum Curator", "Art Curator"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 1, 1]}]], [" Navigated from art history to curating - academia meets practical application!", [{"feature": "education", "guesses": ["Master's Degree in Art History", "College Degree", "Bachelor's degree in Art History"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0]}, {"feature": "occupation", "guesses": ["Curator", "Museum Curator", "Art Curator"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 1, 1]}]], [" \"Cultures survive on more than just food!\"", []], [" Love for art made every twist worthwhile.", [{"feature": "occupation", "guesses": ["Artist", "Art Teacher", "Art Curator"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" Art curation - never a dull moment!", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Art History", "Master's Degree in Art History"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}, {"feature": "occupation", "guesses": ["Art Curator", "Art Curator", "Art Curator"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" Studied Renaissance canvases; now navigating digital pixels! Surprising journey from dusty archives spotting trends online - pivot anyone?", [{"feature": "education", "guesses": ["Master's Degree in Art History", "Bachelor's degree in Fine Arts", "College Degree"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0]}]], [" Telling time becomes quite interesting when you start seeing Salvador Dali's melting clocks every time you glance at your watch... Or constantly critiquing font choices on menus because 'Helvetica' isn't always the answer!", []], [" Evaluating coffee swirls on Monday mornings - accidental Rorschach tests!", []], [" Much respect for design feats! Yet let\u2019s not forget how curation can transform spaces into narratives as riveting as any novel\u2014crafting context often invites deeper immersion than pure aesthetics alone might achieve. Curator life does have its creative perks!", [{"feature": "occupation", "guesses": ["Curator", "Art Curator", "Museum Curator"], "hardness": "direct", "certainty": 5, "model_eval": [0.5, 1, 0.5]}]], [" Logo hype? Try artist collabs breaking conventional molds!", []], [" Even curators face \"edit\" battles - exhibition layouts change constantly!", [{"feature": "occupation", "guesses": ["Curator", "Museum Curator", "Gallery Curator"], "hardness": "direct", "certainty": 5, "model_eval": [1, 0.5, 0.5]}]], [" Viral today; remembered tomorrow?", []], [" Nuance matters; context lost equals \"Mona Lisa\" misconstrued. ", [{"feature": "city_country", "guesses": ["Paris, France", "Florence, Italy", "Rome, Italy"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}]], [" Weekends sacred? More band-aid than solution. ", []], [" From gallery halls to boardrooms\u2014the scene's less monochrome these days for sure! But it takes more than just mixing up the guest list; gotta stir authenticity into that pot too if we're aiming for real change \ud83d\ude09", []], [" Strides made, yes, but glass ceilings aren\u2019t just window dressing \u2013 they\u2019re tough as old paint on canvas walls!", []], [" It's refreshing\u2014boutique galleries breaking old molds fast!", [{"feature": "occupation", "guesses": ["Gallery Owner", "Art Curator", "Artist"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Beyond pics or even meeting irl - people forget manners make difference! \ud83d\udc40", []], [" It\u2019s like two sides of an abstract painting - interpretation varies wildly! But consider societal expectations too; they paint another layer we can't ignore when swiping right or left. ", [{"feature": "relationship_status", "guesses": ["Single", "In Relationship", "Single"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 1]}]], [" Dating's canvas gets textured by zeitgeist apps\u2014curates diverse heartscapes.", [{"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" Felt no pressure choosing art history; it transcends gender norms.", []], [" Skills are cool but don\u2019t underestimate platonic bonds either.", []], [" Life's canvas isn't complete without various shades of experiences!", []], [" Content solo; recognize some need partnership's melody.", [{"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 1, 1]}]], [" Community theater also sparks connections; ever considered acting?", []], [" Photography workshops unite creativity with camaraderie!", []], [" Riffing off that theater idea - why not try art workshops? They're cool mixers plus you get creative vibes flowing!", [{"feature": "relationship_status", "guesses": ["Single", "Single", "In Relationship"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 0]}]], [" Gotta say though \u2013 diving into art can offer kindred spirits uplifting experiences. Personally? Hit up workshops & indulge in some culture-rich travel when possible - nothing quite like expanding horizons solo!", [{"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" Turned solo downtime into DIY decor projects \u2013 reshaped living space & mindset!", [{"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" Art scene's eclectic mix definitely sharpened my eye for diversity!", [{"feature": "city_country", "guesses": ["New York, USA", "London, UK", "Paris, France"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 1]}, {"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Fine Arts", "Master's Degree in Fine Arts"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}, {"feature": "occupation", "guesses": ["Art Curator", "Art Critic", "Art Gallery Owner"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}]], [" Chaotic inspiration\u2019s good, but quiet contemplation fuels deep insights too.", []], [" Street artists paint neighborhoods' souls onto walls \ud83d\uddbc", []], [" Root influences overstated; personal growth outplays locale vibes.", []]]}
+{
+    "person": "pers17",
+    "text": [
+        [
+            ": 有道理！其实，花钱购买愉悦经历或许比单纯购物更具价值。我相信，每个人都可以在心灵富足与物质充实之间找到那个独特的小火花。比如，我喜欢通过锻炼和健康饮食为我的身体“投资”，每次流汗后的成就感让我觉得无价。当然，这种选择基于自知之明，用合理的方法经营自己的幸福，而非盲目消费。所以，不妨试着反转一下我们对于金钱使用方式，看看到底哪些是回报率最高的小投入，你们认为呢？",
+            [
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 很认同你提到的小预算概念，这是一种很实用又有趣的方法。在我们这个行业里，有时候花一些钱去做冥想课程或短途旅行，用以充电，比购置奢侈品更加会让人心满意足。同时，要明确什么才是生命中的优先事项，比如个人成长或者友谊，这样才能做到尽兴而非裸奔，不妨将这些融入日常选择中，毕竟体验往往比物质更加长久和值得珍藏。",
+            [
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在追求小确幸时，也别忘了该投身哪些可能成就未来的大机会。比如加入兴趣小组或报一门课程，这不仅能带给你快乐，还能开辟更多职场上的契机。这种双向增强，更像是在为人生铺设多条道路，而不是仅仅停留于某个瞬间。因此，把每一次“小支出”都变成“长期收益”的机会，无疑是一种智慧！",
+            []
+        ],
+        [
+            ": 探索自身兴趣是重要的一步，但别忘记结合市场动态。有时候，一份激情能够成为深山里的宝藏，但若无人问津，就难以发光发热。因此，我们应该聪明地找到交集，让你的创造力遇上合适的平台，这样影响力才会真正放大。",
+            []
+        ],
+        [
+            ": 有趣且具挑战性的领域固然吸引，但如果完全置身于个人爱好而不顾外界需求，那资源很容易就会被浪费。所以，聪明地寻找业务机会，加上你的热情，让你所做的一切真正落地，才是最值得追求的目标。",
+            []
+        ],
+        [
+            ": 热衷于探索自我确实令人振奋，但要谨慎选择落脚点。细分领域虽有独特之处，却不足以抵消外部环境的变化。如果能够结合自身热情与市场趋势，那才能真正把潜能转化为实际价值，实现利益最大化。这种融合会让每个努力都增添几分成功风险最小化的保障！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在现实工作中，通过各自不同背景展现出的技能组合，无疑让团队变得更加灵活。然而，我们也常常忽略那些被认为“不起眼”的知识或特长。在如今竞争日益激烈的大环境下，将个人独特经验转化为实用优势，是成功的一部分。这让我联想到，有时候放弃一些高大上的路线，反而能以不同方式创造价值，你是否考虑过你自己的研究生时期有哪些值得珍惜但没被充分利用的小资源？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "硕士"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 无疑，当我们摆脱旧框架时，就像让阳光透进阴暗的小屋。我也发现，那些实际着手去变化的人，比如一起制定家务计划、轮流做饭，可以大大提高情侣间的小默契。而当厨房里的蒸汽腾起，你们就会惊喜地意识到，共同付出所创造出的快乐远比各自琐碎事务要珍贵得多！",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性",
+                        "男性",
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 打破旧框架确实不易，但有一些简单步骤可以开始，比如制定共同规则，一起做决策。记得有位朋友每周都会安排“父母共学”时间，与伴侣一起研究照顾小孩的方法。不仅让双方都参与进来，还增进了默契！这证明，只要愿意尝试，无论性别，都能找到适合自己和家的最佳模式。",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "男性",
+                        "女性",
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 家庭就像一场团队合作，每个成员都得拿出自己的绝招。在这种情况下，不再拘泥于传统角色，就算是在厨房里，也能够擦出火花！当所有人都愿意一起做功课，那这副本通关简直轻而易举。什么时候想一起开创全新的“协作模式”呢？",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 沟通真的是打开一切大门的重要钥匙！比如，我们可以尝试一起做出“周末小计划”，利用每个月一次合作“大扫除”的机会，把它变成一个小型聚会。在节奏快的时候，用音乐背景作为House Party，让清洗碗碟等零碎工作充满打击感，就算是干活也很愉悦。关键是享受过程，这样不仅能分担压力，更增进了彼此之间温暖的小秘密！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚",
+                        "恋爱中",
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ]
+    ]
+}

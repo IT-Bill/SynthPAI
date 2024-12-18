@@ -1,1 +1,67 @@
-{"person": "pers220", "text": [[" pretty cool when ur daily routine kinda redefines your sense of home - those random street markets are like finding buried treasure every time lol", [{"feature": "age", "guesses": [25, 30, 35], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}]], [" yeah, felt that shift too - gone are those days when \"home\" was just an address! now it\u2019s wherever i feel part of something meaningful \u2014 community service spots do kinda turn into homely spaces \ud83d\ude0a", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Social Work", "Master's Degree in Social Work"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0, 0]}]], [" it's like ur vibe becomes ur tribe no matter where u land", [{"feature": "age", "guesses": [22, 25, 28], "hardness": "complicated", "certainty": 1, "model_eval": [1, 1, 0]}, {"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 0.5]}]], [" responsibility hits hard when you're budgeting every rupee", [{"feature": "age", "guesses": [25, 30, 35], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}, {"feature": "income_level", "guesses": ["Low", "Middle", "Low"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 1]}]], [" Adult vibes hit differently when supporting family matters more than your own plans...", [{"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Engaged"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]]]}
+{
+    "person": "pers220",
+    "text": [
+        [
+            ": 关于理财与内心安宁，其实小改变往往能带来大不同。不妨试着记下这些开销，不单止看哪些必要，更要考虑那些能够提升你生活质量的小事，例如偶尔享受一下咖啡馆里的独处时光或者参加一个兴趣班。适当地为自己留白，让生活多一点热情，而非只是枯燥数字间的挣扎，这样才能收获更多内心深处的小确幸。有时候，找到属于自己的那份自在，就是为了应对疲惫现实的重要武器！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 无论时代如何变迁，与朋友们保持亲密联系真的是至关重要。我觉得我们可以尝试一些新的互动方式，比如组织一次短途旅行或参加一个兴趣课程，让彼此在共同经历中拉近心灵距离。不仅能培养共同的话题，还能重温那种无拘束欢笑时光。在这样的连结里，无论是在街边摊还是高档餐厅，那份真实都一样会闪耀出幸福的光芒。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

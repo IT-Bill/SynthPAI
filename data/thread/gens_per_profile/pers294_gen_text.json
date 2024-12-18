@@ -1,1 +1,108 @@
-{"person": "pers294", "text": [[" feels like every time i sorta understand adulting rules they go ahead & change up the game on me. ironies of trying to win at life - it's all perpetual beta testing lol", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "complicated", "certainty": 2, "model_eval": [0.5, 0, 0.5]}]], [" society thrives on setting unrealistic #LifeGoals", []], [" never thought i'd say this but figuring out philosophy's easier than real-life stuff - bills over Socrates any day. Seems no matter how many pages you turn, life\u2019s rulebook keeps adding chapters.", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in Philosophy"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" thought life was gonna be like some novel where you turn pages knowing what comes next but nah, every chapter\u2019s got plot twists no one saw coming \ud83d\ude05", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 0.5]}]], [" ever seen a \"paranormal investigation\" line? bookstore receipts looked haunted too lol", []]]}
+{
+    "person": "pers294",
+    "text": [
+        [
+            ": 我觉得确实需要重视自己每笔支出的背后动机。有时候，我们被某种趋势裹挟着，不自觉地就会花钱去跟风。同样，简化生活方式也是一种不错的方法。例如，把时间花在烹饪家庭餐，而不是吃外卖，不仅经济上划算，还有很多乐趣。各位有没有小妙招推荐？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 其实找回那份平静并不是一蹴而就，有时候我们只需从日常的小事入手。例如，可以尝试每周抽出固定时间做点自己热爱的事情，无论是读书、运动还是单纯放松。还能考虑设立一些短期的小目标，让生活不再只是忙碌，更加充满期待。如果大家有有趣的方法或经验，一起交流吧！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 或许我们可以反思一下，对于“高收入”的追求背后，其实意味着什么？有时我们需要把重心从外部标准转向自己真正想要的人生。例如，把日常工作视为探索自我的机会，而非单纯赚钱。有些时候，不妨试着给自己设定一些精神层面的目标，你们是否有意愿尝试这样的变化呢？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 把工作当成一种成长与探索，有时我们需要先剖析一下自己的兴趣，说不定会发现新的激情点！还有，我们是不是应该学着放下那些外部标签，不再让它们定义我们的快乐？试问，这样你是否能找到更多动力呢？",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "男性",
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有趣的是，你说得很对，那些小而美好的瞬间往往让人倍感珍惜。在电商行业工作，让我明白繁忙真的不易，但偶尔和好友一起吃路边摊或是一杯咖啡，这种真实又温暖的人际互动，比高档餐厅要让我感觉更踏实。不知道大家有没有这样的体验，当物质变得丰富，我们是否反而失去了一部分难得的人情味呢？",
+            [
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 当回忆起那些简陋却充满欢笑的小聚，我常想虽然现如今生活条件改善，却有时候和朋友们闲聊时多了一层隔阂。其实，有的时候，那些看似平淡无奇的小事才是真正构成幸福的重要部分。不妨偶尔放下身边繁华，让我们的关系回归到本真的状态，你们认为这样会让我们更加珍惜彼此吗？",
+            []
+        ],
+        [
+            ": 确实，与其关注高档餐馆中的菜品，不如去享受路边摊上那些简单却真实的人生交流。记得我第一次参加团队聚餐，我们一起分享各种小故事，那种自由自在、毫无拘束的氛围让我至今难忘。因此，我更倾向于认为，当我们将注意力放在人类关怀上，而不是单纯拿金钱衡量价值时，那才是真正构建起幸福体验的方法。大家是否也有类似瞬间，让我们重新审视什么才算是“财富”？",
+            []
+        ],
+        [
+            ": 身边确实发生了类似变化，让我深感共鸣。不过，我逐渐发现，提高收入后，虽然让周围环境变得优雅，但反倒可能使沟通变得拘谨。不知你们有没有想过，就算是在经济独立之后，我们又该如何平衡这种物质与灵魂间的小冲突呢？或许在某个被赋予新意义的小角落，也同样能够找到那份久违的人情味。",
+            []
+        ]
+    ]
+}

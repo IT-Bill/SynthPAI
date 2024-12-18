@@ -1,1 +1,71 @@
-{"person": "pers113", "text": [[" Try squeezing onto light rail at peak hour!", []], [" Good luck dodging those peak hour human traffic jams!", []], [" Timing\u2019s key; skipping peak hours does wonders! Started heading out earlier lately - it\u2019s like traffic doesn\u2019t even exist before sunrise. ", []], [" Train platforms during rush hour feel like a twisted game where you're either sardine or Jenga block - never wins at getting comfy!", []], [" Ever been cornered by someone's unsolicited portfolio review though? Picture this\u2014a daily commute doubles as an unasked-for critique session of your latest project renderings... talk about needing space!", [{"feature": "occupation", "guesses": ["Architect", "Graphic Designer", "Industrial Designer"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}]], [" And just when you think it's over\u2014boom! Exit strategies are next level chess games dodging network marketers at train stations. Always an escape artist by nine am!", []], ["Question: How does your income stack up to the cost of living in your area and how does it affect your lifestyle? \n\nQuestion description: you know, with the cost of everything going nuts these days, I caught myself wondering if I'm the only one whose income is a crazy rollercoaster ride when it comes to matching up with living costs. feels like one minute you're on top of your budget and the next, you\u2019re cutting coupons like there's no tomorrow. I mean, don\u2019t get me wrong, I\u2019m not struggling, but definitely had to skip a few luxuries to keep up with the bills and still save for those rainy days. How\u2019s it going for you? Is your income doing its job keeping up with the living costs, or are you having to invent new ways to stretch a dollar?", []], ["Question: Has anyone else experienced lifestyle creep with higher income? What\u2019s your story to keeping or losing the simple life?\n\nQuestion description: isn't it wild how we adapt to our income levels? back in the day, i was all about the simple things, thrift shops and budget-friendly hangouts, but since moving up in the world, i\u2019ve noticed the fancy dinners and brand names creeping in. kinda miss the simpler times though - it felt like life was less complicated or maybe that's just nostalgia? but a part of me wonders if i could go back to living that way without feeling like i'm missing out. has anyone managed to keep it simple even after a pay rise, or have you embraced the change? share your tales, i'm super curious!", [{"feature": "income_level", "guesses": ["High", "Middle", "Very High"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0]}]], [" Boundaries plus mutual interest gotta work magic!", []], [" Trust me when I say nothing tops allocating funds for 'aesthetic concrete aging treatment'\u2014gotta make those new buildings look old-school chic!", [{"feature": "occupation", "guesses": ["Architect", "Urban Planner", "Construction Project Manager"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}, {"feature": "income_level", "guesses": ["High", "Middle", "High"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 1]}]], [" Solidarity here \u2013 depth over fireworks any day.", []], [" Ever notice you start planning for longevity rather than getting caught up in momentary thrills? It's like fine wine \u2013 gets better with time and patience.", []], [" Learning curves are steep but worth it\u2014every twist adds contour to our understanding of 'together.'", []], ["Question: Singles of Reddit, how does your city treat those flying solo? \n\nQuestion description: It seems like every place has got its own vibe when it comes to singles. where i'm at, there's a ton of stuff geared towards families and couples. feels like every time i hit the beach, or even the new art installations downtown, i'm dodging prams and \"save the date\" photo shoots. sometimes the scene is super supportive of the solo lifestyle, but other days, not so much. anyone else find the city living experience differs when you\u2019re on your own? what's cool about being single where you are, or what\u2019s the city like for those not in a duo?", []]]}
+{
+    "person": "pers113",
+    "text": [
+        [
+            ": 其实，我觉得很多时候，日常中的小事反而比那些奢侈享受更让人铭记！曾经跟朋友们一起去书店，只为寻觅那本有趣的新书，那种轻松又热闹的时候，让我感觉时间都静止了……所以，不妨试着放慢脚步，与爱的人共享这些微小却珍贵的瞬间！这份从容感，会带给我们一份不一样意义上的富足吧！",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 提出一个计划或主题进行探索，比如寻找那些隐藏的小店或者街头艺人的表演，这样可以让我们的每一次出门都充满惊喜！这样构建起来的人际互动，会远胜过一场简单旅行中的感悟……人生最大的乐趣其实就在这些细腻又独特的小发现当吧！",
+            []
+        ],
+        [
+            ": 确实，在当下快节奏社会里，我们往往容易被工作压得喘不过气。不过，有时候约上三两个朋友，不做任何计划坐下来聊聊天，真的是一种奢侈而有价值的体验！相信每次这样的聚会都会给我们的生活增添色彩……所以不妨把更多时间分配给这样的人际互动，它们比单纯依赖物质消费要有意义得多哦！",
+            []
+        ],
+        [
+            ": 的确，光有学位只是一个起点。在咨询行业工作的那段日子里，我发现真正重要的是如何将理论转化为实践，让自己不断适应变化！所以，多去尝试不同领域，与优秀的人合作交流，提高自身实力，用心去面对每一次挑战，这样才能让我们的职业旅程更加精彩……希望大家都能找到那个属于自己的“节奏”！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "硕士",
+                        "本科",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 你的观点很赞！不过，我觉得光是通过参观与请教来进行深度学习可能有限。在一些行业中，引入系统性的反馈机制也许更为重要。例如，在工作过程中主动请求他人的评价或建议，可以帮助我们准确找出待改进之处，从而真实提高自身实力。这不仅增加交流，还能让团队一起成长……这样的互动才真的能够把理论转化为实践！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

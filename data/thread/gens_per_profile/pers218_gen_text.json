@@ -1,1 +1,45 @@
-{"person": "pers218", "text": [[" Engagement ring shopping hit different though \u2013 adult level unlocked!", [{"feature": "relationship_status", "guesses": ["Engaged", "Engaged", "Engaged"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}]], ["  Debugging code all day turns into spotting minor glitches everywhere else - even catch myself trying out shortcuts in real life that obviously won\u2019t work!", []], [" Tech's evolving too; more diverse voices are definitely enriching our field!", [{"feature": "occupation", "guesses": ["Tech Professional", "Software Engineer", "IT Specialist"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 1]}]], [" Tech sector\u2019s just as bad \u2013 programmer stereotypes galore. ", []], [" Financial independence becomes a huge spotlight!", []], [" Tech infrastructure variation was what caught me off guard!", [{"feature": "occupation", "guesses": ["IT Professional", "Network Engineer", "Systems Administrator"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Metropolitan hustle completely differs from tranquil island vibes at home!", []]]}
+{
+    "person": "pers218",
+    "text": [
+        [
+            ": 美好的记忆常常藏在人最简单的细节里，比如外婆用心烹饪的一道菜。不妨想想，我们能否把这些平凡却珍贵的方法变成一种持续流传的重要性？毕竟，每一口都是历史，也许是时候让这些家乡味再焕发新的光彩了。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 把外婆的大葱炒蛋放进米线中其实不仅仅是一次尝试，而是一次平衡传统与创意之间微妙关系的重要实践。就像我们生活中的许多事物一样，如果只是一味追求变化，那么宝贵的人文底蕴反倒可能被埋没。因此，在创造新口感时，我们是否能授予灵魂于新的形式？这不仅关乎烹饪，更像是在每个选择间寻找一份辨识度，让过去和现在交织出那份温暖记忆。这难道不是我们的唯一目的么？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 创新固然重要，可要知道，那些依赖情感连接而产生的人间烟火气才真正打动人心。从某种角度来看，这类“重温”往往不能完全取代过去纯粹又恰如其分的一口红烧肉或者大葱炒蛋。在变革趋势面前，我们不妨反问：究竟怎样才能保留住舌尖上的故乡印迹，而非只追求形式上的华丽呢？",
+            []
+        ]
+    ]
+}

@@ -1,1 +1,76 @@
-{"person": "pers100", "text": [[" had my \"i'm grown\" moment juggling bills & baking flour at midnight - felt more like survivor than anything else tbh \ud83d\ude02 real talk though, balancing pennies & passions teaches you life isn't just spreadsheets.", [{"feature": "income_level", "guesses": ["Low", "Middle", "Low"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 1]}]], [" budget diet started 'cause rent isn't cheap!", [{"feature": "income_level", "guesses": ["Middle", "Low", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" think all bakers adore waking up early? nah fam \ud83d\ude34", [{"feature": "age", "guesses": [25, 30, 22], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" crumbs everywhere now... legit annoying \ud83d\ude12 ", []], [" definitely get deeper connections over flash-in-the-pan stuff as i've gotten older - gotta think long-term compatibility vs just initial sparks you know? less drama, more real talk vibes. ", []], [" rom-coms sell lies tbh", []], [" gotta say things click with time, not at first sight \u2013 sweat & struggle make it real more than fate does lol", []]]}
+{
+    "person": "pers100",
+    "text": [
+        [
+            ": 市场变化无疑是值得注意的一点。我曾见证许多所谓“边缘”技术成为热门，比如新能源汽车中的核心组件，那其实源自当初被认为不起眼的问题。找到热情与市场交集，可以激发真正有意义的创新。不妨把握好这一契机，将自己的兴趣转化为实际成果，也许下一个突破正等待着志同道合的人去发现。",
+            [
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "高级中产",
+                        "普通中产",
+                        "小康"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 我深以为然。有时候，那些不起眼的小项目确实能带来大变化。在我的领域里，有一次偶然参与一个跨部门合作，这不仅让我拓展了知识面，还结识了一位优秀导师。他教授的一些细节知识常常成为推动工作的关键。我觉得，无论多么普通，都要认真抓住每个机会，因为它们可能正是未来发展的助力！",
+            []
+        ],
+        [
+            ": 在现实生活中，要实现这样的合作，还需要我们主动创造机会进行交流。例如，可以定期安排一次家庭会议，不仅谈论各自的任务，还要分享彼此在这些事情中的感受和看法。当每个人都被倾听，会更愿意投入其中。这不仅让家务不再是一种负担，更像是共享一个目标，一起享受互动过程。这样，我们才能真正找到属于我们的“赢家模式”。",
+            []
+        ],
+        [
+            ": 教育确实关键，但我们还需要帮助孩子树立一种灵活边界认知。这意味着，不仅要告诉他们家务事应该分享，更要引导他们自由探索各自喜欢或擅长做什么。我看到过许多年轻人在厨房大展拳脚，有趣的是，他们愿意冒险、犯错，因为这不仅是学习，也是建立自信的一部分。所以，与其太过强调固定角色，不如允许每个成员都去发现自己适合的位置，共同构建一个快乐的人生舞台！",
+            []
+        ],
+        [
+            ": 有趣的是，共同承担责任不仅能提高效率，还能增进感情。我认为这种“协作模式”还可以扩展到生活中的其他方面，比如经济管理和社交活动。当每个成员都有机会贡献自己擅长技能时，就像游戏一样，可以打通更多关卡，让整个团队变得更协调。关键是建立开放沟通的平台，使每个人都乐意尝试并反馈，相信这样不但减少了压力，也能带来更多乐趣！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚",
+                        "单身",
+                        "恋爱中"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 很同意你的观点！要实现“协作模式”，可以从小处着手，比如制定共享家务计划或轮流做饭。这种方式能够让每个人都积极参与、相互理解，也帮助消除传统观念带来的障碍。在这样的合作中，不但能增强情感连接，还能提升生活品质，一举两得。",
+            []
+        ]
+    ]
+}

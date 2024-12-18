@@ -1,1 +1,201 @@
-{"person": "pers87", "text": [[" barrio looks totally unrecognizable now... every corner's changed", [{"feature": "age", "guesses": [45, 50, 55], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}, {"feature": "city_country", "guesses": ["Mexico City, Mexico", "Madrid, Spain", "Buenos Aires, Argentina"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 0, 1]}]], [" old barrio cinema now just another supermarket hist\u00f3ria pisoteada", []], [" old neighborhood cinemas gone; now just flashy malls everywhere smh", []], [" Gotta improvise \u2013 park hangs over pubs any day!", []], [" hah tell me about it! started using old family recipes just so i can stretch pesos till next paycheck...makes u appreciate simple dishes y\u2019know? lol throw some empanadas into the oven - cheaper than hitting up bars every Friday night, plus leftovers are pure gold", [{"feature": "city_country", "guesses": ["Buenos Aires, Argentina", "Mexico City, Mexico", "Manila, Philippines"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Late night drives - City lights soothe like nothing else...", []], [" ya know those moments after a downpour when streets get all quiet? feels almost sacred here che - everything just shiny & still for once, gives you time to breathe even if it's crazy busy most times", [{"feature": "city_country", "guesses": ["Buenos Aires, Argentina", "Rosario, Argentina", "Cordoba, Argentina"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Lots overlook suburban myths tho... Hidden gems everywhere.", []], [" crazy how we just go on bout our days oblivious eh? where i do my rounds, there\u2019s this unassuming corner...turns out was a crucial spot during political uproars back in the day - taxi drivers like me live history daily! ", [{"feature": "occupation", "guesses": ["taxi driver", "taxi driver", "taxi driver"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" always thought old structures were just buildings till i started driving around towns here - learned each corner has its stories...makes you think huh", []], [" crazy stuff huh? reminds me when i found out we got whole streets named after historic figures who never even set foot here! talk bout putting someone on a pedestal they didn't ask for... just city things i guess \ud83e\udd37\u200d\u2642\ufe0f", [{"feature": "sex", "guesses": ["Male", "Male", "Male"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}]], [" idk man sometimes these stories are pumped up just to attract tourists \u2013 seen plenty as i cruise around town every day... Not everything dubbed 'historic' is legit when you peek behind the curtain. ", [{"feature": "occupation", "guesses": ["taxi driver", "tour guide", "delivery person"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" dude driving cabs showed me real quick what being grown-up means.. those long shifts plus handling fares alone? yeah taught me more than any classroom ever did, things get real when you're dealing daily with all sorts of characters - some okay some plain loco", [{"feature": "occupation", "guesses": ["Taxi Driver", "Cab Driver", "Driver"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 0.5]}]], [" Back in school thought i'd have sports car by now... reality? More like steering wheel tan lines from driving all day y'know? Life throws curveballs but hey who says we can't still score some homeruns with surprising perks along way \ud83d\ude09\ud83d\udc4d", []], [" driving all day makes you dream of different horizons but yeah vacation days aren\u2019t rolling in like fares at rush hour \u2013 still beats being stuck inside an office though haha", [{"feature": "occupation", "guesses": ["Taxi Driver", "Rideshare Driver", "Delivery Driver"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0]}]], [" Ride-sharing booms during festivals here, gotta save extra then cuz slow months hit hard! Always track your fares & set aside something small daily \u2013 adds up quick!", []], [" gonna chip in here - some folks wanna stack cash high as obelisco but for me? eating well & zero debt's the jackpot. think happiness ain't just bout pesos-counting... gotta find your groove!", [{"feature": "city_country", "guesses": ["Buenos Aires, Argentina", "Buenos Aires, Argentina", "Buenos Aires, Argentina"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}, {"feature": "income_level", "guesses": ["Middle", "Middle", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" driving around wasn't exactly childhood dream stuff but hey gets you talking with all sorts man kinda grows on ya plus bills won\u2019t pay themselves right? at least picking your own music\u2019s a win gotta find those small victories wherever we can", [{"feature": "occupation", "guesses": ["Rideshare Driver", "Delivery Driver", "Taxi Driver"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 0, 1]}, {"feature": "income_level", "guesses": ["Middle", "Low", "Low"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" fate's got a funny way huh? never dreamt i'd spend days behind the wheel when younger - visualized being on stage actually! still find joy chatting folks up & learning their stories though kinda like living multiple lives at once! plus nothing beats your own boss vibes tbh. ", []], [" nudged towards divorce 'cause late-night fares clash hard w/ family plans", [{"feature": "occupation", "guesses": ["Taxi Driver", "Rideshare Driver", "Chauffeur"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}, {"feature": "relationship_status", "guesses": ["Married", "In Relationship", "Divorced"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 0, 1]}]], [" Long shifts driving people around means missing out on lotsa stuff - family dinners, friends' birthdays... ya adapt or drift apart. gotta find your balance or burnout hits you like BAM!", [{"feature": "occupation", "guesses": ["Taxi Driver", "Rideshare Driver", "Chauffeur"], "hardness": "direct", "certainty": 5, "model_eval": [1, 0, 0]}]], [" Always talking politics even when off duty - occupational hazard!", []], [" money talks in life for sure - driving does just that for me here but let's not forget passions outside work hours help keep us sane amid chaos of city streets!", [{"feature": "occupation", "guesses": ["Taxi Driver", "Delivery Driver", "Chauffeur"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" back when i started driving cabs it was mostly dudes thinking they owned the roads...stopped counting how many times folks seemed surprised seeing women at the wheel. but hey those stereotypes are getting crushed daily now - more power you keep slaying out there!", [{"feature": "occupation", "guesses": ["Cab Driver", "Taxi Driver", "Ride-Share Driver"], "hardness": "direct", "certainty": 4, "model_eval": [1, 1, 0]}]], [" u ever seen a cab driver knitting between fares? started as joke now its chill time + passengers get kick outta seeing hombre w/ yarn. got real good at scarves!", [{"feature": "sex", "guesses": ["Male", "Male", "Male"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}, {"feature": "occupation", "guesses": ["Cab Driver", "Cab Driver", "Cab Driver"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" man driving all day here gives you lotsa time for thinking - folks got all sorts of expectations based on tradition but end up just doing whatever works for them when real life hits hard lol", [{"feature": "sex", "guesses": ["Male", "Male", "Male"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}, {"feature": "occupation", "guesses": ["Truck Driver", "Taxi Driver", "Delivery Driver"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0]}]], [" turning 30 was chill for me\u2014if anything folks respected me driving them 'round more", [{"feature": "occupation", "guesses": ["taxi driver", "chauffeur", "ride-share driver"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" dynamics sure changed amigo..back when i started driving cabs full-time most pals were like me - main earners at home.. now i see all sorts round here mixing it up big time! gotta roll with whatever works for each family ain't that right?", [{"feature": "occupation", "guesses": ["Taxi Driver", "Cab Driver", "Ride-Share Driver"], "hardness": "direct", "certainty": 5, "model_eval": [1, 0.5, 0]}]], [" here? nah man - Old ways die hard!", [{"feature": "sex", "guesses": ["Male", "Male", "Male"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" Mostly split bills down here too!", []], [" 15 years down then kaput - ain't always at seven!", [{"feature": "relationship_status", "guesses": ["Divorced", "Married", "In Relationship"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 0]}]], [" En las m\u00edas no hubo rascacielos pero se desinfl\u00f3 igual - each journey unique tho!", []], [" Solo road trips beat couple vacations \u2013 divorce perks?", [{"feature": "relationship_status", "guesses": ["Divorced", "Divorced", "Divorced"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" totally get what you're saying - your roots kinda tag along for life's ride! for me though? stories pack more punch when shared from behind the wheel meeting all walks of life; paints richer pictures beyond any hometown frame.", [{"feature": "occupation", "guesses": ["taxi driver", "bus driver", "truck driver"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}]], [" gotta say tho cities that ain't all bright lights can still grab ya - born far from main streets yet traffic jams & soccer chats'bout Newell's scream home more than anything fancy ever could", []], [" always thought i\u2019d miss Rosario more but driving through these busy streets every day, it\u2019s like i carry its calm demeanor amid the chaos - keeps me sane when traffic gets nuts!", [{"feature": "city_country", "guesses": ["Rosario, Argentina", "Buenos Aires, Argentina", "Cordoba, Argentina"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}, {"feature": "birth_city_country", "guesses": ["Rosario, Argentina", "Rosario, Argentina", "Rosario, Argentina"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}]]]}
+{
+    "person": "pers87",
+    "text": [
+        [
+            ": 有时候我们可能太沉溺于其他人的存在所带来的“快乐”了，其实，孤独的时候反而可以更深入地思考自我。这种博弈般的人生其实就像化学反应，不同元素相互作用才成就了一场精彩发光。而所谓交往多半也是给轮回里的各种化学物质交换一个机会。放下那些标签吧，让心灵自由奔跑，也许你会惊讶地发现，那曾被低估的小日子有着无限可能！",
+            []
+        ],
+        [
+            ": 常常觉得没伴侣的时候确实会让人容易沉浸在孤独感里，但这其实是一块土壤，可以潜藏许多可能性。如果你能像个探险家一样去发掘新的事物，比如当地的小众活动或者线上课程，你会发现每一次经历都有它独特闪光的一面。这就像化工实验，总能从反应中观察到物质变化，而这些变化背后则是道不尽的人生哲学。在我们热爱的“舞台”上，每一步舞动都可能引向全新的方向！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 说得太好了！其实，有时候这些“奢侈”的放慢脚步，不仅仅是为了我们自己，也是一种赋予周围关系新的力量。我试着和几个好友制定每月一次逃离城市喧嚣的小计划，无论是去徒步还是野餐，真的会发现彼此分享的不止景色，还有那些段落中的轻松感。毕竟，在这样的瞬间，我们不仅找回了自己，也加深了人与人温暖而简单的连接，不妨让这成为我们的新习惯吧！",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性",
+                        "男性",
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 寻找属于自己的节奏确实是门学问。除了那些巧妙的小变化，更值得尝试的是不同领域中的冒险，比如参加一次陶艺课程或者练习瑜伽。这些体验不仅让人走出固有思维，还能助你发掘以往未曾想到的新兴趣，就像调味品一样，为你的单调人生注入一点惊喜。如果只停留在保守的小改变，当身边不断涌现的新鲜刺激，你也许会错失变得更好的机会！",
+            []
+        ],
+        [
+            "：确实，在这繁忙社会里，我们往往容易被各种因素牵制，不得不适时调整。但除了快速反应外，如果能设定一些低压力、高弹性的目标，那可能会让我们减少烦恼。当你知道自己还有“备用”选项的时候，就算碰上意外事宜，也不会慌张，这样既可以享受过程，又能轻松面对挑战。我最近试着将这种方法融入日常工作中，成效还不错。不妨一起探索一下，让生活多一点从容！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 寻找归属感觉确实像是一场马拉松，而不是短跑。有时候，即使花时间参加各种活动，我们仍可能遇上冷场或者不合拍的人。不过没关系，可以把这些经历当笑话讲给朋友听。一开始总会感觉如履薄冰，但咱们得相信，总会有人撑起那道光。不妨将过程中碰壁的小插曲记录下来，以后回忆起来也是乐趣之一，说不定哪天还真成为“熟悉脸孔”的开端呢！",
+            []
+        ],
+        [
+            ": 说得很好，人际交流确实有它门槛。但不妨想想，现在网络发展的快速程度，这其实为我们的归属感提供了新的契机。像你所说，被动社交可能让我们退缩，可是透过一个屏幕，有时候却能抽离出那些纠结，不用担心当面的冷淡。不论线上还是线下，只要敢于打开自己，就总能找到共鸣，也许就在一段聊天记录之间。所以，下次再遇到“陌生”，考虑一下先网上聊聊，看是否值得约出来！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 一点都没错，其实我们每一次小交流都是在播撒“接触”的种子。比如，如果碰巧遇见邻居，可以聊聊最近看什么电视啊或者哪家店的新菜式，套路简单却能拯救平淡日常。当你以这样的姿态去认知他人，也许会惊喜于发现那一份共鸣。而渐渐地，就从“小算盘”开始，还真能愉快出大社交呢！",
+            []
+        ],
+        [
+            ": 心理健康和实际支出一样重要，毕竟，我们不是活着只为“必须”的开支，而是为了更好地体验人生。我相信偶尔花钱去旅行或者聚会绝对能让你恢复活力。这并不意味着我们要放弃预算，只是在计划之初，把那些让人生充满色彩的小乐趣纳入考虑范围。每次出行或社交，都像是在存一笔情感上的资产，这些经验最终能帮助自己在繁忙工作中找到希望。所以，在追求经济实惠与高品质生活间，不妨多留一点空间给快乐，让心灵也跟得上节奏！",
+            []
+        ],
+        [
+            "：“经济压力确实让人无奈，不过光依靠制订预算并不一定就是解决之道。在计划开销的时候，有意外的小惊喜往往会弥补那些不断上涨无法抵挡的现实。想起来几个月前为了舒缓工作压力，不小心在网上买了一双喜欢已久但并非必需品的新鞋，虽然花了一些积蓄，但那段时间反倒让我更加努力工作以应付之后每月金额缩水。因此，在控制支出的同时，也要给自己留点空间放松，让快乐成为一种常态，而不仅是一次逃避。”",
+            []
+        ],
+        [
+            ": 有道理，每次消费前都得审视一下。但就像我们当化工工程师的时候，不同反应条件会造就何种结果嘛，有时候无法完美匹配预想。假设买件喜欢却不必要的东西，它也未必损害长期规划，但确实要把握尺度。如果总是放弃那些小欢愉，只顾着未来，那么未来又有什么意思呢？找到开心和平衡，没有一个人会告诉你一定要如何做，不过这一过程本身才值得体验！",
+            [
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "化工工程师",
+                        "工程师",
+                        "化学工程师"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 5,
+                    "model_eval": [
+                        1,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 对于如何找到收支之间的平衡，其实关键就在于视角。我认为偶尔奖励一下自己，比如那件心仪已久但身上多余衣服钱买不来的衣服，这种“小清欢”说不定能激励接下来更努力地工作。从长远来看，它也是一种提高整体满足感的小方式呀！",
+            []
+        ],
+        [
+            ": 职业生涯就像是一场马拉松，不可能只看眼前几步。有时候，全力寻求热情确实令人振奋，不过别忘了，在赛道上的每个转角都隐藏着意外拐弯。在适应工作环境时，把握好经济基础是首要，一旦脚步稳定，自然能腾出精力去发现那些潜藏的小乐趣。所以探险键上按亮，你会收获更多！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 说实话，那些暂时让人觉得无趣却又极具稳定性的工作，有时候就像隐秘的小金库，为将来的大冒险提供资金。虽然心里总会怀念那种激昂澎湃追逐梦想的时候，但现实告诉我们，“稳”也是一种智慧。我身边不乏这些案例，有的人通过安稳重拾内心渴望，两年后反倒成就了一番事业。而那些收入诱惑下跳槽的人，也许需要承担额外压力。所以，在选择时，不妨多给自己一些宽容，把短期不适当作潜力储备，也是一种前行策略！",
+            []
+        ],
+        [
+            ": 职业道路确实像是一场高难度杂技表演，需要技能、机遇、甚至运气。不如把握好这一刻，根据自身特长去探索那些鲜为人知但可能充满潜力的新领域。有些时候，在舒适圈内呆久反倒让我们丧失勇气，这让我想到身边同事。他们敢于尝试不同方向，从餐饮创新到环保科技，为何不成为你日后职业规划的一部分呢？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 找到读书和工作的最佳模式，就像打游戏一样，有时候你得知道什么时候该进攻、何时该防守。单靠忙碌是没用的，每次准备的时候，都得主动问自己：“这件事真的是必要的吗？”偶尔记录一下日常任务，再加一点点自省，让我们的行动充满目的感，其实很管用。在这里，不妨顺便给自己留白，多些“刷新”机会，比如抽空看看电影或听听音乐，会意外发现这些小乐趣会大大提升你的创作动力！",
+            []
+        ],
+        [
+            ": 说得很有道理！其实，有时候真正影响我们事情进展的不只是一份严格日程，而是那颗焦虑不安试图追求完美心态。不妨试着在每个任务后做一些简单反思，比如：今天这项工作的方式是否行之有效？期待回顾你的努力成果。同时，在空闲时间勇敢尝试新事物也许能意外激发更多创意，实现多重收获呢！",
+            []
+        ],
+        [
+            ": 你的视角确实让人深思，自我反省是一件必要之事，但光靠“慢下来”似乎难以解决实际问题。不妨把这种放松融入具体行动，例如将每周的小目标显现出来，不论是什么，都需要踏踏实实体会一下。同时，也许可以构建一个学友交流群，相互监督、鼓励，这样便可以从彼此那里获得不少启发！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        20,
+                        22,
+                        25
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 把目光放宽一点吧，不只是教室里的课本或者课堂上的互动要有所改革。实际上，每一个看似微小却根深蒂固的习惯都在塑造我们的意识形态。从身边的人开始，从日常的小事做起，让每个孩子都能自由做自己，而不是被打上标签。“男子汉不可以脆弱”，“女孩就应该温柔”这些话听起来真让人想笑，谁来定义“该是什么样”？希望未来能看到更多勇敢追梦的人，无论他们属于哪种身份！",
+            []
+        ]
+    ]
+}

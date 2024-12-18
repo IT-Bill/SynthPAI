@@ -1,1 +1,165 @@
-{"person": "pers286", "text": [[" social media ads don't run themselves \u2013 weekends included", []], [" sometimes feels like chasing deadlines not dreams \ud83d\ude13", []], [" even those 'real businesses' tank sometimes. at least psychic advice gives ya a good story when you lose your shirt...and maybe some hope lol", [{"feature": "age", "guesses": [25, 30, 35], "hardness": "complicated", "certainty": 1, "model_eval": [1, 1, 0]}, {"feature": "income_level", "guesses": ["Low", "Middle", "No income"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}]], [" missed memo on settling down - career's flying solo just fine", [{"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}]], [" solo spots underrated, privacy overrated anyhow", []], [" cafes can be chill alone though just saying", []], [" tbh get why gaming at home rocks but sometimes its nice hitting up like street food markets or outdoor concerts solo too - no need for sync'd schedules or compromising on eats \ud83d\ude0e", [{"feature": "age", "guesses": [25, 30, 22], "hardness": "indirect", "certainty": 1, "model_eval": [1, 0, 0]}, {"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" gotta pick the right spot", []]]}
+{
+    "person": "pers286",
+    "text": [
+        [
+            ": 专注于所处领域固然重要，但不能忽视外部环境及个人成长。如果只是停留在已有的平台上，而不积极探索新的可能性，就容易错失机遇。比如，当面临快速变化的新趋势或者消费偏好的改变，我们需要做出果断决策来适应，从而获得竞争优势。所以，不妨试着兼顾既有经验和外部变革，在提升自己敏锐度的时候，抓住更多机会！",
+            []
+        ],
+        [
+            ": 年龄增大确实让我们的选择更加丰富，但也意味着存在更多的不确定。在这个过程中，把注意力放在自我反思上，是一种有效应对的方法。试着把每一个决定都视为一次学习机会，而非压力源，这样可以享受每一步的发展过程。",
+            []
+        ],
+        [
+            ": 成长不仅源于时间，还有我们如何面对挑战。试想，每次打击都是给我们的机会，让我们重新审视方向。如果盯着别人的轨迹，只会让自己止步不前。正如当初面临项目失败后，我重整思路，从咨询同事到调整方案，一步一个脚印，再踏实不过。而这种动态适应能力往往比简单标记时间更能体现真实优秀。这种心态转变，自然有助你迎接未来的不确定性！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 成长并不只是岁月堆叠出来的数据，更在于面对起伏、迎接变化时展现出的勇气与智慧。在同龄人各奔东西的时候，我们更应关注自身的发展而非无谓比较，那才是真正意义上的自我提高。",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "男性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 当我们聊到收入与生活质量，往往容易陷入物质享受是否能直接带来幸福感的问题。但其实更多时候，从繁忙中抽离，与家人一起散步或者围坐吃个火锅，这些看似普通却真实的小瞬间，会让我们的心灵得到真正滋养。在快节奏日常里，不妨偶尔慢下来的同时，也要意识到这些“小确幸”才是生命中的财富，它们能够为我们的整体快乐增加不小筹码。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚",
+                        "恋爱中",
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产",
+                        "高级中产",
+                        "富豪"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 提升收入无疑为我们的生活提供了更多选择，但与此同时，那些看似简单的小确幸往往才是让人感受到满足的重要元素。在快节奏工作的同时，不妨抽些时间去欣赏身边的人、事、物。有时候，与朋友间的一次随意聚餐，比奢华晚餐更能温暖心灵。找到那些让自己放松愉悦的小习惯，无论是一杯咖啡还是周末小旅行，对维护心理健康来说都是至关重要的一步。这种平衡才能真正唤醒我们内心深处快乐的位置。",
+            []
+        ],
+        [
+            ": 成长确实离不开良好的平台，但更重要的是，我们能否善用这些资源而不被其局限。比如，通过学习行业动态，提高专业技能，从而在复杂多变里找到自己的位置。这不是单纯依靠出生地或平台，而是主动出击，让每一步都成为向前的一小步！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 每个地方确实为我们的人生轨迹打下了一定基础，但是自我的主导作用往往被低估。在快消品行业工作的经历让我深刻认识到，一个人的成就从来不仅仅源自周围资源，更在于他愿意积极探索与尝试。例如，有些同事即便身处小城镇，却通过参加线上论坛、行业展会等，高效建立起广泛的人脉网络，这种主动寻找机会、发掘潜力的方法无疑给他们带来了巨大的收益。所以，说到底，心态和努力才是打开人生各种可能性的关键！",
+            []
+        ],
+        [
+            ": 每个城市都会带来独特机遇，但真正决定你走多远的是主动出击和不断学习。例如，通过线上活动获取信息，有些来自小城镇的人一样能够接触广阔视野。所以，我们要将环境与内在潜能有效结合，从而迎接更多挑战。",
+            [
+                {
+                    "feature": "city_country",
+                    "guesses": [
+                        "小城镇",
+                        "城市",
+                        "省会城市"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 把脚步迈出去当然重要，不过在行动时，不妨先想清楚目标，这样才能事半功倍。例如，当你参加一个讲座或聚会前，可以提前研究一下参会嘉宾或者主题，从而明确自己想要交流的问题或目标。这不仅减少了一些随机性的失望，还有助于集中精力找到真正志同道合的小伙伴。主动构建自己的社交圈子，是一种更加理智及高效的方法，你们怎么看？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

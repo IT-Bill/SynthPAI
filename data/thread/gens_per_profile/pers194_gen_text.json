@@ -1,1 +1,82 @@
-{"person": "pers194", "text": [[" Where memories resonate\u2014even beyond oceans.", []], [" I've seen \"home\" become less of static walls more networks you weave around - that local caf\u00e9 chat or neighbourly favours. It morphs as we do, doesn't it?", []], [" Switched home-brewed coffee; barista visits are history!", []], [" Meal prep Sundays \u2013 saves money & weekday sanity. ", [{"feature": "income_level", "guesses": ["Low", "Middle", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 1]}]], [" Cut gym fees \u2013 park workouts work wonders!", [{"feature": "income_level", "guesses": ["Low", "Middle", "No income"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Maintenance can sting sometimes for sure! Been fixing up old things lying around as DIY projects\u2014feels good using some elbow grease instead of cash.", [{"feature": "income_level", "guesses": ["Low", "Middle", "Low"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}]], [" Small venue concerts are gold - low cost, big vibes! Plus you're up close with future stars.", [{"feature": "income_level", "guesses": ["Low", "Middle", "Low"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" No doubt simplicity has its charm but let\u2019s not dismiss smart splurges\u2014indulging responsibly in passions can amp up life's quality big time too!", [{"feature": "income_level", "guesses": ["Middle", "Middle", "Middle"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 1, 1]}]], [" Tangible ROI matters... \"unicorn breeding\" wasn't it!", [{"feature": "education", "guesses": ["Master's Degree in Business Administration", "Bachelor's degree in Business", "College Degree"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Even managed our fantasy football league!", []], [" Family tech support cuz \"managerial\" ha! CarlsonWarehouse", []], [" Management's definitely embracing diversity too \u2013 noticeable shift over years.", [{"feature": "occupation", "guesses": ["Corporate Employee", "Business Professional", "Manager"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0.5]}]], [" More female leadership, but seriously slow boardroom changeover rates aqu\u00ed. ", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Business", "Master's Degree in Business"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 0, 0.5]}]]]}
+{
+    "person": "pers194",
+    "text": [
+        [
+            ": 投资自己是个不错的主意，但每个人面对经济压力时状况不同。有的人可能暂时不能承担额外费用，因此需要根据自己的具体情况灵活调整策略，而不仅仅依赖于某种固定方法。生活总是在变化，要善于适应！",
+            [
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 制定预算无疑是个重要步骤，不过最关键的是如何保持内心平衡。我觉得，在追求稳定与安全感之余，不妨为生活增添一点乐趣。这不仅仅是消费，更是一种放松自我的方式。设定一个可供“放纵”的基金，让那些偶尔的小奢侈成为激励我们的仪式感，这样日常则能更加充实。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有时候，当我们勇敢地迈出一步，与来自各地的人展开深层次沟通时，会发现无限可能。每一次这样的积累都是成就个人未来的新基石。有意识地超越那些固有边界，真正体验他人的人生故事，不仅能激励自己，还能让我们收获更多非凡之处。",
+            []
+        ],
+        [
+            ": 旅途中的确能唤醒那份温暖，但若始终怀旧，也容易固守舒适区。我认为，回归不仅仅是在寻找儿时记忆，更要用这些经验激励自己去探索未知。因此，在珍惜根植之处的时候，我们也要勇敢面对生活赋予我们的新挑战。这种动态平衡，让我们的人生因不同城市而更加丰富多彩！",
+            []
+        ],
+        [
+            ": 确实，每一次跨出的步伐都蕴含着无限机会。我曾经也在一个看似平静的小城市成长，而如今却发现，通过积极参与不同类型活动，不断接触新的思维模式，可以打开不少向前发展的窗口。追求梦想并非单打独斗，多元化的小伙伴也让人拓宽了眼界。所以，把自己摆在一个更广阔的平台上吧！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

@@ -1,1 +1,76 @@
-{"person": "pers132", "text": [[" Realized it while securing land deals; weighty decisions definitely age you fast!", [{"feature": "age", "guesses": [45, 50, 55], "hardness": "complicated", "certainty": 2, "model_eval": [0, 1, 0]}, {"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Business", "Master's Degree in Real Estate"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 0.5]}, {"feature": "occupation", "guesses": ["real estate developer", "land acquisition specialist", "real estate investor"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0]}]], [" Landmark project approval after months of navigating hurdles really hammered home that adult milestone for me.", []], [" Crazy how these professional mindsets creep up on us, huh? After dealing with project timelines all day, suddenly you're at home scheduling your coffee breaks!", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Business Management", "Master's Degree in Business Administration"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 0, 1]}, {"feature": "income_level", "guesses": ["Middle", "High", "Very High"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Tick-box life events don't equal fulfillment or success. ", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 0.5]}]]]}
+{
+    "person": "pers132",
+    "text": [
+        [
+            ": 对于这类话题，我深有体会。其实找到一种心理上的平衡非常重要。在日常支出中，可以设定一个较合理的小预算，通过轮流投资你的兴趣或喜好，像是隔段时间专注一至两个领域。如果今天买不起你喜欢的一件衣服，不妨把它加进愿望清单，在未来某个时点再去回顾，那份等待本身就成为一种独特乐趣！如此，你既能控制花费，又不失去追求品质之美。而且，多关注一些免费或者优惠活动，也是提升满意度的不二法门！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确实，很容易被怀旧之情所淹没而忽略探索简单却又深刻的滋味。不妨尝试将自己喜欢的家庭菜谱进行一些小改动，比如调整佐料或者搭配，让其中蕴含的人情从舌尖延展到生活中其他细节。我曾经用奶奶做的小豆腐，用香煎方式重新演绎，不仅满足我的好奇心，也让我想起她那温暖笑容。在这种交融中，我们也许能发现过去传承中的崭新面貌。",
+            []
+        ],
+        [
+            ": 关于“熟悉味道”，不仅仅是小时候的一顿饭，更在于我们如何利用这份怀旧来营造新的陪伴。在快节奏生活中，即使只是跟老友一起分享一袋零食，那份快乐依旧存在。所以，不必纠结什么无法回归，而是要懂得把握现在，让寻常中的幸福悄然而至。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 对啊，其实那些关于“家的味道”并不是局限于某一道特定菜肴。在忙碌的时候，只要约上三两好友，在路边摊享受一份炸鸡翅或者几串羊肉串，也是别有风味。这样的聚会不也是一种诉说吗？记得大学时，有次熬夜复习后跑去找朋友，全靠一家24小时的小店撑下来，那顿宵夜成为了一篇盛夏友情文章，而肯德基汉堡反倒成不了我们的主题曲。所以，不妨深入体会平凡瞬间中的微小幸福，它们恰恰构成生活最值得珍惜的一部分！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

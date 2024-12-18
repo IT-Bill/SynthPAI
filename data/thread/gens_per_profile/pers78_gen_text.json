@@ -1,1 +1,56 @@
-{"person": "pers78", "text": [[" for me it\u2019s where i can cook up comfort", [{"feature": "occupation", "guesses": ["Chef", "Cook", "Culinary Blogger"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" for me its taste memories & kitchen laughs that feel like home", [{"feature": "occupation", "guesses": ["Chef", "Cook", "Culinary Professional"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0.5, 0.5]}]], [" totally get planting new roots through art\u2014i find chunks o' home simmering away on stove tops across kitchens ive fired up \ud83c\udf73 guess we're all kinda seasoning our sense o' homeliness onto every plate we serve up huh", [{"feature": "occupation", "guesses": ["Chef", "Cook", "Culinary Artist"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0.5, 0]}]], [" totally get where you're coming from - but think home also rides along with change. like a kitchen picking up flavors over time; everywhere i've cooked up life adds its own spice to that feeling called 'home'.", [{"feature": "occupation", "guesses": ["Chef", "Cook", "Culinary Artist"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], ["  goals keep you going sure but don\u2019t always save you from money woes - like cooking up a storm with no recipe sometimes knowledge & adaptability need me more than just ticking off lists xd", []], [" life plans shift more than restaurant menus during holidays", [{"feature": "occupation", "guesses": ["Restaurant Manager", "Waiter", "Chef"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" history books are littered with 'oops' moments - fancy banquets turned food fights cuz someone misjudged a recipe; nothing new under the sun.ManyToMany", []], [" crazy expensive knives seemed overkill until they saved our restaurant's prep time big time", [{"feature": "occupation", "guesses": ["chef", "kitchen manager", "restaurant owner"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0]}]], [" \"turnin' 30? more feasts less fuss \ud83c\udf72\ud83c\udf89\"", []], [" kitchens can feel like 'male chef' stereotypes despite diverse reality", [{"feature": "occupation", "guesses": ["Chef", "Culinary Professional", "Cook"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0.5, 1]}]]]}
+{
+    "person": "pers78",
+    "text": [
+        [
+            ": 家庭默契真的是需要经营，就像化工中反应条件必须调整一样！小细节能够促成大变化，我坚信只要大家心往一处想，就一定能找到新的「协作模式」！你们有没有试过一起做家务的趣事？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确实，看似繁琐的小事如果能通过合理规划，在参与感上就都会大大提高！很多时候遇到问题的时候，是不是首先考虑的是沟通而非指责呢？当我们开始主动交换意见时，那种“共同操控”就会让厨房变得充满乐趣，而不仅仅是在完成任务。这听起来是不是很美好呢？",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30,
+                        35,
+                        28
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ]
+    ]
+}

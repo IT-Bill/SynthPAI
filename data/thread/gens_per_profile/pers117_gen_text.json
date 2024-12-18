@@ -1,1 +1,79 @@
-{"person": "pers117", "text": [[" Hidden gems boost local biz - not so bad!", []], [" Small plaza fountains here - unnoticed but truly captivating. ", []], [" Market squares at dawn - undiscovered time capsules.", []], [" Hidden rooftop terraces\u2014a silent skyline view. ", []], [" Psychic defenses? That\u2019s one creative way to diversify away risk... It's almost impressive until realizing there are zero tangible returns!", [{"feature": "occupation", "guesses": ["Finance Analyst", "Investment Advisor", "Economist"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0.5, 0]}, {"feature": "income_level", "guesses": ["Middle", "High", "Low"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}]], [" Totally get it; long-term bonds > quick thrills.", []], [" Growth\u2019s natural - priorities evolve just like markets do.      ", []], [" True, they're unique experiences but analyzing patterns helps us make better choices ahead\u2014like studying old fiscal trends without devaluing individual events.", [{"feature": "income_level", "guesses": ["Middle", "High", "Middle"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}]], [" Self-sufficiency blooms; fiscal prudence often follows suit.", []], [" Exploring historical market trends \u2013 research meets relaxation!", [{"feature": "education", "guesses": ["Master's Degree in Economics", "Master's Degree in Finance", "Bachelor's degree in Economics"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "occupation", "guesses": ["Market Research Analyst", "Financial Analyst", "Data Analyst"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0.5, 0]}]], [" Commitment-free means doubling down on learning languages \u2013 good for traveling solo *and* understanding economic reports from different countries!", [{"feature": "education", "guesses": ["Master's Degree in Economics", "Bachelor's degree in Finance", "College Degree"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}, {"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" It's investing - time in self equals compounded interests!", [{"feature": "occupation", "guesses": ["Financial Advisor", "Investment Banker", "Personal Development Coach"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "income_level", "guesses": ["Middle", "High", "Middle"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}]], [" Crafty answer but why not play up single life economics? Less upfront investment on dates means more growth in personal assets \u2013 that usually quiets them down!", [{"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}]], [" Financial freedom's underrated; Why rush?", []], [" Investment choice\u2014my life; respect returns high.", [{"feature": "occupation", "guesses": ["Investment Banker", "Financial Advisor", "Hedge Fund Manager"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0]}, {"feature": "income_level", "guesses": ["High", "Very High", "High"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 1]}]], [" Raising bar for companionship isn't leveling down.", []], [" Personal growth isn't just geography - it's choices made along your journey. Picking up emotional intelligence certainly isn't zip code exclusive; sharp professional demands often sculpt people more than quaint childhood streets might ever do.", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" Local flavors add depth but don't dictate our portfolio of life choices. ", []]]}
+{
+    "person": "pers117",
+    "text": [
+        [
+            ": 回头想想，有时候换个角度去看待自身工作，就像老虎不怕生锈，只会更强。这种因为环境变化而孤注一掷的不成熟做法绝不可取，而是需要将已有能力运用得当，再加上时刻保持敏锐来识别机会。而这就如同垒高书架，不光要注意加新的，也得考虑好基础依然稳固！",
+            []
+        ],
+        [
+            ": 每当想起“模糊化”的概念，我就忍不住想：那岂不是把水果沙拉升华成“果汁冰淇淋”？虽然听起来很诱人，但如果你不知道哪些水果搭配，其实就是一场味觉灾难！所以，在转型前，不妨先探讨什么才是真正能发挥你潜力的位置。而专注于一些特定技能，就像选好了几种上好的食材，即使只做简单的一道菜，也能炸出绝佳口感！人生也是这样，一个明确方向加合理利用资源，比漫无目的探索要聪明得多。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "硕士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有时候，年龄就像一本书，每页都记录着我们的选择与经历。关注别人的故事固然重要，但不要让自己变成个旁观者。不妨把这些作为动力源泉，一同推动自己向前！",
+            []
+        ],
+        [
+            ": 成长概念确实不该被速度绑架，但是，把“慢”作为通往成功的一种绝对途径，也是不够全面。想象一下，如果只是一味享受沿路风景，而缺乏行动力，那这条路又能走多远？观察固然重要，可别忘了：在每一次停留间隙，我们仍需把握机会来推进自己的步伐，两者结合、灵活变通才是明智之举！",
+            []
+        ],
+        [
+            ": 幸福就是个拼图，不只缺一块就能完成。有时候，因为追求效益，我们可能忽视怎样建立那些“真实”的连接。经济能力虽然让我们拥有更多选择，但如果只顾忙碌而忘记联结周围，即便富裕也未必能带来真正快乐。所以，在努力提升收入的时候，不妨偶尔放慢脚步，多陪伴身边的人，毕竟，一个人的繁华总比不上朋友间的一顿温暖晚餐！",
+            []
+        ],
+        [
+            ": 我也深有同感！那段紧贴着简朴的小确幸，总比高楼大厦里的孤独更加触动心底。当年挤火锅店抢菜，我至今记得那笑闹声，而如今即使手握厚厚工资单，如果缺少共享这些乐趣的人，又何以谈得上真正丰富呢？所以，我们不妨主动腾出一些空白，在喧嚣里寻找片刻宁静，与朋友们坐下来喝杯茶、聊聊天，让这种慢活成为一种常态。而不是每次都强调功利，有时候，其实最大的财富就是身边可以倾诉的人与那些美好的瞬间吧！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有人总说“有钱真好”，可那只是句口头禅。其实，高薪背后往往藏着加班、责任和压力，搞得我们仿佛是在攀一座无尽的山。而从某种角度看，一些快乐反而来自于那些低调却真实的人际交往，比如周末去小馆聚餐、边聊边笑，那才是简简单单的人生幸福。这让我意识到，有时候最有效率的不一定就是赚钱，还包括学会停下来欣赏身边的小美好，用心去平衡人生，这才算真正聪明！",
+            []
+        ],
+        [
+            ": 确实，自我提升很重要。但是把所有时间都放在完美自己上貌似有点像只练习唱高音却完全不会跳舞，那样可就少了不少乐趣吧？适当的时候，不妨跟朋友们聊聊天、喝杯咖啡，将那些“吃土ing”的日子稍微调剂一下。毕竟，与他人的互动往往也是让我们不断成长的一部分，所以说，享受单身时光，也要敞开心扉迎接新鲜事物哦！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

@@ -1,1 +1,114 @@
-{"person": "pers66", "text": [[" nah, busy days overshadow any drizzle or shine", []], [" rainy days = netflix & chill vibes \ud83d\ude0c", []], [" for me it clicked when family started expecting me to chip in financially \u2013 talk abt role reversal \ud83d\ude36", [{"feature": "age", "guesses": [20, 22, 25], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" budget's tighter than jeans after holiday feasts \ud83d\ude13 ", [{"feature": "income_level", "guesses": ["Low", "Middle", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" brands = big bucks little buzz", []], [" expensive stuff? more stress than worth tbh", [{"feature": "income_level", "guesses": ["Middle", "Low", "Low"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 1]}]], [" do expensive dinners really taste better tho?", []], [" nurses ain't always soft spoken - 'gentle' gets hectic fast!", []], [" moderation's key even outside work tbh", []], [" society thinks i got my life together but jokes on them 'cause adulthood\u2019s one wild ride rn", []], ["  real talk tho - gotta build a vibe over time 'cos those butterfly moments? they don't pay bills or handle tough times together \ud83d\udcaf", [{"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Engaged"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" relationships are hard work but worth it imo", [{"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Divorced"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" yup everyday commitment keeps that bond \ud83d\udcaf", [{"feature": "relationship_status", "guesses": ["Married", "In Relationship", "Engaged"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" so true! love ain't just finding someone special but also sticking together when things get real sticky \ud83e\udd37\ud83c\udffe\u200d\u2640\ufe0f constant teamwork makes 'the one' more than just a fairytale guesswork", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}, {"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Engaged"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" everybody brings one person...bye bye chill vibes", []], [" nahh upbringing & personal experiences can outweigh any \"birth vibe\" easy", []], [" traditions evolve - finding balance key; doesn't mean losing 'em completely", []]]}
+{
+    "person": "pers66",
+    "text": [
+        [
+            ": 在面对日益复杂的人生选择中，我们需要的不仅是勇气，还有判断和计划。如果单纯依靠大胆尝试而缺乏有效策略，结果往往不仅会令自己迷茫，还可能影响未来发展。因此，每一步都应该围绕长远目标制定具体规划，而不是盲目行动。这种方式能让探索更具成效，让经验真正成为养分。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在面临越来越多抉择的时候，将其当作学习机会固然不错，但我们不能忽视来自家庭期待或市场环境的信息。在这样一个瞬息万变的时代，仅凭自我内部分析很难取得充分结果；我们需要有意识地聆听周围发生的一切。例如，一个投资人的成功往往源于不仅精准把握市场动态，还有善于整合各种内外部信息。这样才能真正厘清思路，而不是让杂音主导我们的判断。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 思考当然重要，但如果我们只是躺在原地沉浸于回忆，那么易被时代抛弃。关键是找到能将过去反思与未来规划结合的方法，这样才能确保自己始终走在人生路上，而不是停驻不前。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在面对身边形形色色的人生选择时，我们其实应该学会尊重不同轨迹背后的故事。有时候，把注意力放回自己身上，通过设定可实现的小目标逐渐积累进步，会让我们感受到更多满足。每一步虽然微小，却构成了人生的大局，这种心态会帮助我们更加从容地应对职业道路上的起伏。例如，当年我自己也是通过制定季度学习计划，实现技能上的迭代更新，才逐渐摸索出适合自己的节奏和方向。这是一种比起随波逐流更为稳妥的方法。",
+            []
+        ],
+        [
+            ": 听到关于“小面”的讨论让我觉得非常亲切。然而，有时候，对这些简单滋味的赞美似乎淡化了某些复杂性。并非每个人都有那样无忧无虑的小孩时光。“家的味道”虽然唤起温暖与归属，但它也反映着多元生活体验中的欢笑与泪水。这意味着我们的社区应同样包容这些复杂历史。在追寻\"家的感觉\"时，我们不妨探讨一下不同背景下形成鲜明对比却又值得铭记的经历，如此才能真正体悟这份独特意义。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 提到家的滋味，我们常常联想到那些承载着情感的小吃，而青山布衣提及理解背后意义时让我想起一个问题：当代生活让许多人易于忽略这些小细节，但其实正是这种连接，让我们不再孤单。不妨思考一下，如今快餐文化盛行，在忙碌之余，是否还有机会为这份传统注入新鲜力量？每一口美食依旧能成为人与人之间、过去与现在的一座桥梁。如果能够把握这份传承，也许会使得我们的经历更加丰富多彩。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

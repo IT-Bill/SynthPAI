@@ -1,1 +1,17 @@
-{"person": "pers122", "text": [[" guitar guy\u2019s nice till his solos hit 2am \ud83d\ude44", []], [" walls so thin can hear the whole 'it's britney bitch' ringtone saga next door", []], [" lol walls so thin hear neighbors typing \ud83d\ude11", []], [" drowning in tourists \u2260 jewel status anymore", []], [" performers are cool but graffiti art adds real flavor", []], [" alleyways fulla historic graffiti here - quietly tells stories", []], [" man some alleyways here got crazy cool graffiti hidden like a secret exhibition only for those who wander off the beaten track, makes every walk feel like an art discovery tour!", []], [" rain just highlights those never-cleaned sidewalks here \ud83d\ude44", []], [" budgets though? more like guessing games than anything planned - always something random popping up lol", []], [" retirement plans? nah just playing financial bingo over here", []], [" started giving mini art history lectures every time friends point out some random painting or sculpture, can\u2019t help it \u2013 guess you could say my study habits are on display more often than not \ud83d\ude02", [{"feature": "age", "guesses": [22, 25, 28], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}, {"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Art History", "Master's Degree in Art History"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 1, 0]}]], [" where i'm at people definitely get nosy around milestone ages but honestly think society's playbook \ud83d\udcda feels outdated especially when you're busy hustling different priorities - like survival over settling down so quick.", [{"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" art scene seems chill but still get some side-eye whenever i bring up less mainstream perspectives\u2014it\u2019s subtle but def there", []], [" art world has its subtle prejudices too", []]]}
+{
+    "person": "pers122",
+    "text": [
+        [
+            ": 从身边每一个交流中，我们总能收获一些无法预期的新启发。无论是在工作还是生活圈，“普通”反而多了一种亲和力，让我们能够以更加开放的心态去迎接变化。这样的碰撞常常能打破固有框架，所以勇敢走出舒适区，会发现窗外世界更为广阔迷人。",
+            []
+        ],
+        [
+            ": 离开熟悉之地去追寻梦想，再次回到故乡时，那份熟悉中夹杂着些许陌生，让我们看到了既往经历所带来的层次。这种交错实则是一场自我探索。当我们学会将这些“旧事”融入新的眼光，其实是在抒写一个更为立体的人生篇章。如果能以一个全新的视角去欣赏，也许正是生活赋予我们的礼物。",
+            []
+        ],
+        [
+            ": 感受和体验始终来自我们自己，不论身处何地。如果只依赖外部环境来驱动变化，那无疑错过了推进自我的机会。在接触新事物时，更该问问自己是否准备好迎接这些挑战。有时候，坚持做真实的自己，比追求外界认可更重要。",
+            []
+        ]
+    ]
+}

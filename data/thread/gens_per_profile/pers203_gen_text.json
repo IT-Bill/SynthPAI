@@ -1,1 +1,13 @@
-{"person": "pers203", "text": [[" cool story but our graffiti walls beat fancy bridges any day", [{"feature": "city_country", "guesses": ["Berlin, Germany", "Melbourne, Australia", "S\u00e3o Paulo, Brazil"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" dawn's nice but on damp mornings all i feel's that bone-deep chill from laying concrete \u2013 less poetic more real talk.", [{"feature": "occupation", "guesses": ["Construction Worker", "Cement Mason", "Concrete Finisher"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0]}]], [" rocks? just rocks? doesn't sound too thrilling tbh", [{"feature": "age", "guesses": [25, 20, 30], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}, {"feature": "education", "guesses": ["No Highschool", "In Highschool", "HS Diploma"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 1]}]], [" local caf\u00e9 has sick pastel de nata", []], [" little square corner gets me every time after work shifts", []], [" first paycheck was a game-changer", [{"feature": "income_level", "guesses": ["Low", "Low", "Low"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" measuring stuff nonstop at home now lol", []], [" i kinda feel like everyone starts expecting you to have your stuff sorted out at 30, man. suddenly every relative's like \"own place?\" \"married yet?\" - pressure\u2019s real even if you're same old dude inside. ", [{"feature": "sex", "guesses": ["Male", "Male", "Male"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}, {"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}]]]}
+{
+    "person": "pers203",
+    "text": [
+        [
+            ": 小清欢虽然让人开心，但别忘记计划长远目标哦！👍 有时候快乐不单靠消费，而是通过其他方式发掘，例如培养兴趣或者把时间花在值得的人身上，这样不仅能多点乐趣，还能减少经济负担！",
+            []
+        ],
+        [
+            ": 有时候追求即时满足，让我们忽略了长远目标的重要性？不如把钱花在能提高自己能力或拓宽视野上，那才是真正值得投资的地方！换句话说，“今天开心”固然重要，但别忘记留一点空间给明天哦~",
+            []
+        ]
+    ]
+}

@@ -1,1 +1,27 @@
-{"person": "pers71", "text": [[" overanalyzing everything can kill spontaneity tho", []], [" sounds like those psychic defense gigs are real if they're changing costs like it's nothing! reminds me of my mate who's into one too many questionable 'investments', hard to watch sometimes \ud83d\ude05", []], [" turning 30's hyped up way too much - just social constructs rearing their head", []], [" change isn\u2019t always good tho - some places gotta stay secret like treasure maps otherwise they just become another bland spot on tripadvisor", []], [" honestly think it\u2019s kinda selfish keeping cool spots all secret - sharing them online lets others enjoy too, just because something gets known doesn't mean it's ruined!", [{"feature": "age", "guesses": [25, 30, 35], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}]], [" doubt they're still hidden - probably geo-tagged all over insta now", [{"feature": "age", "guesses": [25, 30, 35], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" eh strong disagree mate - we're not just products of our postcodes, right? decisions count too", []], [" nah reckon we're not just clay getting shaped by our hometown vibes or city chaos - personal choices play a big part too", []], [" nah mate gotta disagree \u2013 where you're from sticks harder than superglue sometimes; big city vibe's got nothing on hometown roots", []], [" not just wildlife though right? think pieces ending up as microplastics might stick around way longer than those clam zooper memories we treasure", []], [" sure nostalgia\u2019s great but sometimes looking back through rose-tinted glasses gets old - memories should evolve just like we do imo", []], [" block parties were alright but nothing beat random adventures outside the city limits", []]]}
+{
+    "person": "pers71",
+    "text": [
+        [
+            ": 实践中确实需要灵活应变。我觉得很多时候，与其追求高学历所带来的信任，不如用心去交流与解决问题，比如借助团队合作或创新思维。这不仅让我获得信任，更能让自己不断学习、成长，你们是否曾体验过类似情况？",
+            []
+        ],
+        [
+            ": 绥靖般地，你让我想起一件事，那就是简单的学历不能替代真实世界中的互动。在我的职业生涯中，有时一个解决方案或一次有效沟通比任何证书都要珍贵。你有没有觉得，当我们把焦点放回实战上，不仅让自己脱颖而出，还能获得更多机会？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

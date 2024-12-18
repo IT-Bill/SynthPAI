@@ -1,1 +1,140 @@
-{"person": "pers173", "text": [[" rainy days suck out all my motivation tbh", []], [" getting hit with garlic frying at 6am isn't fun when you thought your snack stash was safe from vampire attacks lol gotta love apartment life surprises", []], [" once spotted their shadow puppet show at midnight lol", [{"feature": "age", "guesses": [25, 30, 20], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}]], [" for sure feels like you're suddenly swimming in deep waters when your bank account drowns from tuition fees \ud83d\ude05 adulting 101 underway...", [{"feature": "income_level", "guesses": ["Low", "Low", "Low"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" still waiting for that moment... juggling school & job feels endless", [{"feature": "occupation", "guesses": ["Part-time worker", "Student Worker", "Intern"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 0]}]], [" switched netflix out for library books and board game nights!", [{"feature": "relationship_status", "guesses": ["In Relationship", "Single", "Married"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}]], [" def getting lost in wikipedia rabbit holes after work \u2013 it\u2019s like an adventure in your browser plus you learn random stuff lol", [{"feature": "age", "guesses": [25, 30, 35], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}]], [" nothing beats volunteering at local events for me - sneak peeks behind scenes plus meeting cool peeps along the way! also helps you feel part of something bigger y'know? \ud83d\ude0c\ud83d\ude4c", []], [" binge-watching documentaries at home beats cinemas & saves tons!", [{"feature": "income_level", "guesses": ["Low", "Middle", "Low"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 1]}]], [" community events ftw! - meetup groups are gold \ud83d\udc4d", [{"feature": "age", "guesses": [25, 30, 35], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}]], [" yeah understandings key but sometimes jobs suck life outta ur day & u can barely function after forget having quality time with anyone else even if you try hard at juggling both worlds", [{"feature": "occupation", "guesses": ["Employed", "Employed", "Employed"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0.5, 0.5]}, {"feature": "relationship_status", "guesses": ["In Relationship", "Single", "Engaged"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" yeah but not all jobs let you shut off for whole weekends", [{"feature": "occupation", "guesses": ["Healthcare Worker", "Emergency Services Worker", "Retail Employee"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" seriously i keep surprising call center customers when i solve their tech issues stat...they sometimes ask for 'a guy who knows IT' \ud83d\ude06 gotta love breaking those molds every single day!", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}, {"feature": "occupation", "guesses": ["Call Center Technician", "IT Support Specialist", "Customer Service Representative"], "hardness": "direct", "certainty": 5, "model_eval": [0, 0, 1]}]], [" hometown vibes are overrated sometimes... really we adapt based on choices n' experiences rather than just by where we're born - growth's more nuanced y'know", []], ["  hometown vibes aren't everything though - what 'bout personal choice?", []], [" hometown vibes overrated imo", []], [" not everyone gets to pick careers based on where they grew up though... lots just go by where opportunities are \ud83e\udd14", []], ["  roots don't define your wings \u2013 change shapes us just as much ", []]]}
+{
+    "person": "pers173",
+    "text": [
+        [
+            ": 实际上，多样化的方法论对于职业发展至关重要，不仅限于勇于接受新挑战。一方面，要提升个人沟通技巧以及情商等软实力；另一方面，也不能忽略技术层面，比如利用数据分析工具抓住市场动态。而这两者结合才能创造出最佳效果。如果只简单依赖某一领域，就如同用单一工具去解决复杂问题，所以我们还需保持开放心态，从不同方向受益。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "管理人员",
+                        "人力资源",
+                        "数据分析师"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 真正走向成功确实需要你将理论转化为实践。我自己在做数据分析时，也逐渐认识到要积极投身于项目，通过现场的数据收集与处理来提升自己的上下游理解。在面对复杂情况时，那些扎实积累经验的人更能应变。因此，多尝试、多合作，不仅能够培养技术实力，还可以建立广泛的人脉，这相较单纯追求高学历而言，无疑是更具优势的发展路径。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        28,
+                        30,
+                        32
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "数据分析师",
+                        "数据科学家",
+                        "统计分析师"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0.5
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 把重点放在提升实际操作能力上确实是一个清晰有效的发展方向。尤其现在的招聘趋势，更加倾向于具备关键技能而非仅仅依赖证书上的光环。根据行业调研数据，高达70%的企业认为申请者的问题解决技巧优先级更高。这意味着，我们应该积极参与各类项目，将课堂知识转化为可以直接运用的方法。而这种经历往往比任何文凭都来得宝贵，它不仅帮助我们快速适应职场，还能培养我们的创造力和自信心。在这样的环境中，只追求高学历很可能会错失真实提升自我的机会。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 利用单身时光去连结自己，也可以通过社交活动或兴趣小组建立新关系，从而减少空虚感。这不仅能帮助我们成长，还能为未来可能遇到的人铺路。在充实自身同时，总要保持愿望和期待，这样才能吸引真正契合的人。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 不否认尝试新事物是提升生活质量的方法，但很容易陷入名义上的忙碌，而忽略直面内心那份真实的不安。许多人在追求外部充实时，却未能深入理解这些情绪背后所传递的信息。从某种程度上说，面对孤独与空虚或许是一场必须经历的自我探索，不妨给自己一些空间去接受、去消化，再逐步前进。这不仅能够让我们获得成长，更能丰富我们的生命体验。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

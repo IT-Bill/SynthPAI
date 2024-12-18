@@ -1,1 +1,172 @@
-{"person": "pers12", "text": [[" Slippery stairs notwithstanding, they're testimony to adapting culture over mere utility!", []], [" Architectural beauty here can mask some daily hassles \u2013 like when centuries-old streets aren't really made for modern traffic; charming until you're late for an appointment!", [{"feature": "city_country", "guesses": ["Rome, Italy", "Paris, France", "Prague, Czech Republic"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Historically-themed locales tend more towards pleasing day-trippers than solving resident's gridlocks!", []], [" Baroque flourishes next door\u2014living history feels tangible here!", []], [" Tangled streets echo ancient times\u2014modern life weaving through legacies!", [{"feature": "city_country", "guesses": ["Rome, Italy", "Athens, Greece", "Jerusalem, Israel"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}]], [" That crowded feel? Definitely adds its own character though \u2013 chaos entwined with every brick!", []], [" Street art turns gridlock into impromptu museum visits!", []], [" The key? Dive into those historical corners - ancient parks like timeless islands amid our sea of modern hustle! They create unexpected breaks where you can just breathe... Transport back through centuries over lunch; good old soul food!", []], [" Ever tried dawn visits? Ghostly calm plus epic lighting!", []], [" Ancient ruins make rush tolerable.", [{"feature": "city_country", "guesses": ["Rome, Italy", "Athens, Greece", "Cairo, Egypt"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Eternal City\u2019s tempo - chaotic yet historically grounding for me.", [{"feature": "city_country", "guesses": ["Rome, Italy", "Rome, Italy", "Rome, Italy"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}]], [" History\u2019s richness might not fill wallets but does offer another kind of wealth - strengthens our cultural roots amidst modern chaos.", []], [" The ides of March always remind us that even emperors can have bad days\u2014rainy skies won't stop history class! Plus Italian cafes have the best coffee ambiance for grey days; getting work done feels like part of la dolce vita.", [{"feature": "city_country", "guesses": ["Rome, Italy", "Milan, Italy", "Florence, Italy"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "occupation", "guesses": ["History Teacher", "Educator", "Professor"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0.5, 1]}]], [" Sunrises are great but caffeine\u2019s the real MVP!", []], [" Rainy days are perfect for diving into dusty archives!", [{"feature": "education", "guesses": ["Master's Degree in History", "PhD in History", "College Degree"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0]}, {"feature": "occupation", "guesses": ["Historian", "Archivist", "Academic Researcher"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 0.5]}]], [" Home\u2019s more feeling than place- comfort in familiarity amidst chaos. ", []], [" Every book on my shelf whispers 'casa' no matter the city skyline outside. ", []], [" Definitely feels nostalgic yet alien going back now!", [{"feature": "age", "guesses": [35, 40, 45], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}]], [" Personal growth beats one-size-fits-all milestones \u2013 tastes broaden like good wine!", [{"feature": "age", "guesses": [35, 40, 45], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}, {"feature": "income_level", "guesses": ["Middle", "High", "Very High"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}]], [" It's fascinating how our focus shifts! While designs can excite initially, delving into a place\u2019s past narratives can transform any space from mere brick-and-mortar to something truly magical - at least for some of us ;).", []], [" Absolutely! Those layers turn simple spots into treasure troves of culture. ", []], [" Definitely relate \u2013 books over nightlife now!", [{"feature": "age", "guesses": [35, 40, 45], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Personal evolution mirrors shifting goals \u2013 both enrich one\u2019s journey. ", [{"feature": "age", "guesses": [35, 40, 45], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}]], [" Now treasure calm dinners at sunset.", [{"feature": "income_level", "guesses": ["Middle", "High", "Middle"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}]], [" Finally managed weekly meal-prep! Felt like orchestrating a mini banquet \ud83d\ude02\ud83c\udf5d", []], [" Crafted pasta sauce from scratch recently \u2013 felt like channeling Nonna\u2019s spirit right there in the kitchen! Might be nbd for some but boy oh boy did cooking suddenly feel quite grown-up. Can we consider culinary ventures adult accomplishments? Because if so, signore e signori... *chef's kiss*.", [{"feature": "city_country", "guesses": ["Rome, Italy", "Milan, Italy", "Naples, Italy"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Finally mastered risotto consistency\u2014feels like culinary graduation day!", []], [" Switched from espresso shots - now team tea!", []], [" History teaches us timelines evolve \u2013 embrace your unique journey!", []], [" Totally agree on ditching those old-school timelines! Seen lots of students stress over these things when really life isn\u2019t a race. Milestones? More like guidelines we might consider rather than must-dos!", []], [" Ridiculous thinking everyone fits one mold! Different paths work for different folks. Standards have shifted\u2014what was once \"late\" may now be perfectly on time!", []], [" Life certainly doesn't follow a textbook! Seen enough students stressing about these so-called 'deadlines.' It\u2019s liberating when you realize history itself hardly stuck to any strict timelines \u2013 everyone at their own pace!", [{"feature": "occupation", "guesses": ["Teacher", "Professor", "Educator"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0.5]}]], [" Forget cookie-cutter paths; even empires weren't built in a day!", []], [" Folks show true colors when situations change \u2013 sure \u2013 but don't dismiss adaptation as exposure alone; some evolve alongside your 'milestones'.", []], [" Even historians can\u2019t escape interweaving past knowledge with current gigs!", [{"feature": "education", "guesses": ["Master's Degree in History", "PhD in History", "Bachelor's degree in History"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0]}, {"feature": "occupation", "guesses": ["Historian", "Academic", "Researcher"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 0.5, 0.5]}]], [" Stability can lead into stagnation though... Ever consider that?", []], [" Degrees are more starting points than ironclad paths - got mine thinking lecture halls forever but life\u2019s seriously unpredictable. Sidebar into cyber convos unraveled whole different passions \u2013 who\u2019d have thought?", []], [" Diets change yet chefs adapt; we historians remix too!", [{"feature": "education", "guesses": ["Master's Degree in History", "Bachelor's degree in History", "PhD in History"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 1]}]], [" History helps us avoid past disasters - pretty useful post-apocalypse!", []], [" Yet medicines run out; knowledge doesn't.", []], [" It might seem like knowing ancient emperors won't help with immediate food shortages or building shelters \u2013 yet understanding societal collapse and recovery throughout history provides key strategies that go beyond day-to-day surviving into thriving! \ud83c\udfdb\ufe0f", [{"feature": "occupation", "guesses": ["Historian", "History Professor", "Archaeologist"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Legacies more than stories \u2013 they're warnings; Marcus might not fix a radio but would help sidestep failed leadership pitfalls when rebuilding society from scratch!", []], [" Doesn't always translate into success or satisfaction though. ", []], [" Hardly psychic - Predictable detours expecting crests though not troughs!", []], [" Historical fields like mine throw curveballs all day \u2014 futures are less prescribed more like rolling dice with your skills where luck meets opportunity!", [{"feature": "occupation", "guesses": ["Historian", "Archaeologist", "History Professor"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 1]}]], [" Totally relatable\u2014improvisation's key whether at stoves or sifting through archives!", []], [" I hear ya! History seems dry 'til a trivia bit spices up friendly banters\u2013like linking current fashions back to ancient times during mall hauls with friends. Suddenly everyone's asking you dates and dynasty details over coffee!", [{"feature": "occupation", "guesses": ["Historian", "History Teacher", "History Professor"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" Ditched GPS\u2014opted for an 'ancient' map during road trips; felt epic!", [{"feature": "age", "guesses": [35, 40, 45], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}]], [" Ever caught yourself evaluating architecture styles while just strolling through downtown? Kinda makes you feel like time traveling...", []], [" Histories remind us - trends are cyclical!", []], [" Diving into histories has taught me humility similar to staring at stars\u2014realizing our present woes are mere blips in time\u2019s grand tapestry can truly realign one\u2019s sense of significance!", [{"feature": "age", "guesses": [35, 40, 45], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}]], [" Puzzles over spreadsheets any day \u2013 unforeseen twists fueled ambition here!", []], [" Pivots can reignite passion though!", []], [" Definitely seen colleagues pivot unexpectedly - academia sometimes throws curveballs despite seeming linear. New research areas can surprisingly turn into full-blown passions disrupting not just work usuals but also upending leisure pursuits!", [{"feature": "education", "guesses": ["PhD in some field", "Doctorate in some field", "Master's Degree in some field"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 0.5, 0]}, {"feature": "occupation", "guesses": ["Academic Researcher", "University Professor", "Postdoctoral Fellow"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 1, 0]}]], [" Progress? Outdated attitudes linger in academia's corners. ", [{"feature": "education", "guesses": ["College Degree", "Master's Degree in some field", "PhD in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" Progress? Sure, on paper maybe - lecture halls are diversifying slowly but academic boards? Totally different story! Still feels like walking into Pompeii\u2019s men\u2019s club at times...", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}, {"feature": "education", "guesses": ["PhD in some field", "Doctorate in some field", "Master's Degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0.5, 0]}, {"feature": "occupation", "guesses": ["Academic", "University Faculty", "Professor"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0.5, 1]}]], [" Yep, degrees skyrocketing - boardroom seats? Not so much! ", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 1, 1]}]], [" Academia's shift feels glacial at best.", [{"feature": "education", "guesses": ["PhD in some field", "Master's Degree in some field", "College Degree"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 0]}, {"feature": "occupation", "guesses": ["Professor", "Researcher", "Academic Administrator"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 0]}]], [" Evolution over revolution; patience has been key. ", []], ["  Seems folks overlook how much initial impressions count - Casanova knew his stuff!", []], [" Balance? More like shifting challenges! My take \u2013 sure, surface-level experiences vary widely between genders at any age. But peel back layers - expectations, pressures - guess both deal with their own brand of 'fun'. And don't get me started on geographical quirks; diving into local dating waters feels like switching games entirely sometimes!", []], [" Standards differ; pressure isn't just digital\u2014it\u2019s cultural too.", []], [" Much like history's influence shaping today's norms.", []], ["  Cultural immersion influences you but won\u2019t fit all pieces of life's puzzle together \u2013 takes personal effort too!", [{"feature": "occupation", "guesses": ["Teacher", "Professor", "Educator"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0.5]}]], [" Can't ignore that where you grow up plants cultural seeds in your personality garden! Even if they don't determine everything \u2013 same goes for history \u2013 beginnings matter but so do your own plots' twists & turns later on!", []], [" Historical roots intertwine deeply\u2014can't just snip 'em off!", []], [" Totally shapes tastes & curiosity!", []], [" But sometimes these events risk favoring localism over exposing folks to broader perspectives \u2013 still valuable though!", []], [" Busy doesn't mean disconnect! Amidst chaos you learn different life skills - navigating through crowds becomes second nature.", []], [" Historic roots nurture a love for robust stories and traditions. ", []], [" History-packed streets back home definitely left their mark - kindled love for tales & toughened up along the way!", []], [" A mosaic life - we're piecing together bits from every spot we touch! Adds up to something way more than where it all started.", []]]}
+{
+    "person": "pers12",
+    "text": [
+        [
+            ": 每一道菜都有它存在的意义，就像我们的成长经历一样。有时候，看似平常的大葱炒蛋，却藏着外婆那一份浓浓关爱。在忙碌之余，不妨停下脚步，享受这一份简单却珍贵的人际联系。除了追逐新潮，有意无意间也别忘了，那些伴随着热气腾腾米线而来的笑声和闲聊，是多么让人怀念！这样的连接才是真正值得传承下去的信息呀。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在快节奏里找回家的感觉，其实就是一场怀旧之旅。有时，一碗简单清汤面能唤醒心底最柔软的位置。而说起地方小吃，那种熟悉感总会带来满满惊喜，要不，你觉得小时候抓住一根糖葫芦也算是一种小确幸吗？",
+            []
+        ],
+        [
+            ": 对啊，那份甜蜜绝不仅是味道，更像是一条无形纽带，把我们的回忆紧紧相连。而且，说到将过去和现在结合，其实可以试着邀请朋友们一起做一顿饭，再聊聊天，你会发现这样的互动才是真正让人心安的小确幸！无论多忙，都别忘了偶尔抽个时间用美食把快乐重新拾回吧！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25,
+                        28,
+                        30
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身",
+                        "恋爱中",
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 小时候总是盯着街角那个卖糖葫芦的大叔，不仅因为那酸甜可口，还有每次买完后能和同学们一起聊聊班级趣事。温暖不止来自于美味，还有那些快乐而又单纯的人际关系。在这样一个快节奏生活里，我们很容易忘却这些最朴素但珍贵的小瞬间。这让我意识到，慢下脚步去品尝那些熟悉滋味，不如说是一种重拾童年的方式，让春天般温暖重新回归心田！",
+            []
+        ],
+        [
+            ": 在讨论出生地带来的影响时，不妨想一下，那些“巨大的机会”往往不仅仅来自我们身边的小环境，更源于大都市中的多元文化碰撞。在那里，我们能接触到不同背景的人、各种行业的信息，这些都是培养能力的重要环节。因此，小圈子固然温暖，但也得承认，有时候走出这条路才能迎来真正的发展机遇。每一步都值得深思熟虑！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25,
+                        30,
+                        28
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 一开始，我也是觉得家乡是道枷锁，但慢慢才意识到，其实它是一把双刃剑。有时反抗这些成规让我更加坚定，而当看到过去的小村庄时，那些温暖回忆却又提醒着我要珍惜根基。所以，说到底，我们应善用这双重身份！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 对啊，其实哪怕是在资源有限的小地方，只要我们愿意举起双手，就像投掷炮弹般四处“狙击”那些志趣相投的人生旅伴，总能开辟新的交际空间嘛！靠自己的努力把圈子做大一点、广一点，说不定就能碰撞出奇妙火花。没事儿多出去走一走，与其埋头苦干，不如借助好时机推动一下人生进程！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25,
+                        30,
+                        28
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "city_country",
+                    "guesses": [
+                        "小城市",
+                        "乡镇",
+                        "二线城市"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有时你会发现，人生就像是在市区街头找停车位，有些看似满坑满谷，其实只要耐心寻找，总能找到合适的位置。不过，不仅仅依赖于“运气”，还需认真观察其他人的做法，比如那些独特的小众店铺，他们从不起眼之处引爆出惊喜。所以说，即便生活在一个资源有限的小地方，只要我们动脑筋并付诸实践，一样可以揭开更多人生可能性的大门！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

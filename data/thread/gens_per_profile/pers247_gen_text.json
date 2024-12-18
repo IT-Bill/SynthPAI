@@ -1,1 +1,184 @@
-{"person": "pers247", "text": [[" Urban evolution isn't always regrettable. ", []], [" Started biking more; goodbye gas bills!", []], [" Plus biking boosts health \u2013 great side perk alongside saving cash! On home entertainment, ever tried board game nights? Surprisingly pocket-friendly & solid fun.", []], [" Found a rooftop garden downtown where you can catch your breath - silent retreats amidst skyscrapers are gold!", []], [" Rooftop havens are cool but let's talk about food? Ethnic street fairs offering culinary explorations \u2013 they turn weekends into global adventures!", [{"feature": "income_level", "guesses": ["Middle", "High", "Middle"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}]], [" Job relocations redefine home often for me.", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 0.5]}, {"feature": "income_level", "guesses": ["High", "Middle", "Very High"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}]], [" Relocations reshape comfort zones; work often redefines 'home' parameters.", [{"feature": "education", "guesses": ["College Degree", "Bachelor's Degree in some field", "Master's Degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}, {"feature": "occupation", "guesses": ["Corporate Manager", "Human Resources Professional", "Business Consultant"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Stepping into leadership roles solidified that grown-up feeling for me. ", [{"feature": "education", "guesses": ["Bachelor's degree in some field", "Master's Degree in some field", "College Degree"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 0.5, 0]}, {"feature": "occupation", "guesses": ["Manager", "Team Leader", "Executive"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 0]}]], [" Surprises abound\u2014didn\u2019t foresee being quite content despite youth\u2019s lavish dreams; sometimes fulfillment eclipses just earnings.", [{"feature": "relationship_status", "guesses": ["Married", "In Relationship", "Single"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}, {"feature": "income_level", "guesses": ["Middle", "High", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Dreamed of big exec office; reality? More Zoom calls than corner views. Still, beats traffic woes any day!", [{"feature": "occupation", "guesses": ["Corporate Executive", "Business Professional", "Manager"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 0.5]}]], [" Careers can handcuff us if we let them...molding your role so it doesn't chain you down; think flex schedules & remote days\u2014possible even outside tech jobs these days!", []], [" Salary talks aside, managing HR has its own unique demands \u2013 think employee conflicts meet legal minefields. That six-figure club ain\u2019t always as swanky when long hours eat into your evenings; still wouldn\u2019t trade it though - gets the bills paid while keeping things interesting 'round here. ", [{"feature": "occupation", "guesses": ["HR Manager", "HR Director", "Human Resources Professional"], "hardness": "direct", "certainty": 5, "model_eval": [1, 0, 0.5]}, {"feature": "income_level", "guesses": ["High", "High", "High"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}]], ["  Automate savings - prioritize fixed percentage regardless of season. ", []], [" Absolute figures obscure reality\u2014costs of living adjustments crucial; six figures differ greatly between cities like SF or Austin.", []], [" It's more than just bills stacking up; seems every year we're sprinting on a treadmill set at 'marathon runner' pace trying to keep our earnings ahead of incessant expense creep. Even solid raises barely make a dent when you break down real cost-of-living changes!", [{"feature": "occupation", "guesses": ["Professional", "Corporate Employee", "Full-time Employee"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 0.5]}, {"feature": "income_level", "guesses": ["Middle", "High", "Middle"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Pivoted from finance to HR - no regrets, fulfilling path!", [{"feature": "occupation", "guesses": ["HR Manager", "HR Specialist", "Human Resources Professional"], "hardness": "direct", "certainty": 4, "model_eval": [1, 0, 0.5]}]], [" Careers evolve; initial detours often lead to unexpected fulfillment.", []], [" Passion often evolves; financial stability doesn't equate to sacrifice if you leverage all facets towards fulfilling pursuits within your field or hobbies.", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Business", "Master's Degree in Business"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 0.5]}]], [" HR isn't just paperwork - we're often part-time therapists at work!", [{"feature": "occupation", "guesses": ["Human Resources Manager", "Human Resources Specialist", "Human Resources Coordinator"], "hardness": "direct", "certainty": 5, "model_eval": [1, 0, 0]}]], [" Definitely notice active listening becoming second nature at dinner parties!", []], [" Niche expertise often undervalued \u2013 explore wisely!", [{"feature": "education", "guesses": ["Master's Degree in some field", "Bachelor's degree in some field", "College Degree"], "hardness": "complicated", "certainty": 2, "model_eval": [0.5, 0, 0]}]], [" Creative fields gaining ground; many organizations value diverse skill sets. ", [{"feature": "occupation", "guesses": ["Human Resources Professional", "Talent Acquisition Specialist", "Creative Director"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0, 0]}]], [" Noticed more industries valuing skills over stereotypes nowadays - refreshing change!", []], [" I've seen plenty swap playtime props for conference room staples. Gender norms don\u2019t dictate success; passion does\u2014and clearly you had it dialed in early!", []], [" Seen plenty shift towards flexibility in today\u2019s workplaces. Work-life balance is becoming more of a norm - might eventually shift those \"old-school\" mentalities at home too.", [{"feature": "occupation", "guesses": ["Corporate Employee", "Tech Industry Worker", "Office Worker"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" Definitely notice shifts in career aspirations around that age too!", []], [" Interesting observations for sure - flexibility\u2019s vital but keeping an eye on long-term career growth and retirement plans shouldn\u2019t take a back seat either. It\u2019s all fun till you hit those golden years unprepared!", [{"feature": "age", "guesses": [45, 50, 55], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}, {"feature": "occupation", "guesses": ["Financial Advisor", "Retirement Planner", "Human Resources Manager"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" Choices expand beyond economics\u2014values & aspirations also shape dynamics now!", []], [" Indeed, growth's there\u2014but slowly getting everyone onboard. ", []], [" Definitely noticing broader representation across all job levels now!", []], [" Ironically being hitched meant upgrading tech skills due to more tech-savvy spouse pushing boundaries beyond previous comfort zones\u2014not all changes shrink your world!", [{"feature": "relationship_status", "guesses": ["Married", "Married", "Married"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" It's all about creatively balancing cost without skimping on significance!", []], [" Consistent little things build lasting impressions.", []], [" \"Personal story short - Myth here.\"", []], [" Definitely varies\u2014timing isn\u2019t everything!", []], [" Personal growth keeps things fresh!", []], [" Gotta weigh every angle - sometimes those \u201cdream jobs\u201d aren\u2019t always as dreamy once you're at 'em full-time; work-life balance counts too.", []], [" Keep at it; even chefs started somewhere!", []], [" Board games became our thing after just one game night invite!", []], [" Environmental influences early on shouldn't be underestimated though; they lay foundational perspectives even if later choices diverge from them.", []], [" Interesting takes all around! But let\u2019s not forget determination & personal growth often transcend where we're kicked off. Where you start doesn't always dictate where you end up \u2013 plenty rise above circumstances they\u2019re born into; led by ambition more so than geography.", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 0.5]}]], [" Delights from childhood hang around way longer than you'd expect!", []], [" Can't deny formative childhood places linger subtly throughout life though!", []], [" Big-city hustle definitely leaves its mark \u2013 busy lifestyle ingrained!", []], [" Can\u2019t generalize \u2014 upbringings are diverse!", []], [" Big city origins don't always define success; deliberate career moves play bigger roles IMHO. ", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]]]}
+{
+    "person": "pers247",
+    "text": [
+        [
+            ": 单身过程中确实能收获许多，但为了达到最佳效果，两者结合可能更有意义。参与小组讨论无疑丰富我们的社交网络，但这并不意味着应该只专注于外部连接。有时候，与自身内心深度交流同样关键。一边开阔视野，一边回归自省，这样才能找到最契合自己的人生道路。因此，在享受这些外部联系的时候，也别低估静下心来反思的重要性。这两者形成合力，将更加充实我们的人生旅程！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有时候让自己放慢节奏，同样能够收获惊喜。在经历工作的紧张后，可以尝试随意走进一个咖啡馆，看看周遭的人事或读一本书，这种状态让我获得了不同层次上的沉淀。不妨采取灵活应变，将自然而然产生的小欢喜融入日常，也是一种取悦自己的方式。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 虽然借助科技手段如手机提醒来提升放松效果有其价值，但或许有时候更重要的是学会倾听自我。在忙碌之余，不妨试着停下来看一看周围，让我们的注意力回归当下。有意识地安排一些具沉浸感的小活动，如阅读或冥想，可以有效减少外界干扰，更深入理解自身需求。从长远看，这种方法比单纯依赖技术要更加有效，因为它培养的是一种直面内心、掌控节奏的能力。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 城市中的归属感确实需要主动去营造，但与此同时，那些偶然发生的小惊喜同样不可忽略。我曾参与社区活动，与同事们闲聊工作以外的话题，这种轻松而真诚的人际接触，有时会比形式上的组织活动给你带来更多温暖。不妨试试看这些细微而真实的瞬间，它们往往能让你重新融入这个陌生空间。探索值得珍惜的不止于计划中的安排，更来自生活本身充满未知与美好的一面。",
+            []
+        ],
+        [
+            ": 随着职业生涯的发展，我们常常需要不断调整视角与战略。这种从积极探索转向更具针对性的规划，并不是放弃更多可能性，而是一种智慧上的提升。在实际工作中，那些已经积累的人际关系和实践经验，如果能被有效运用，就可能为个人发展提供强大助力。例如，在医疗设备行业，与各方建立良好沟通，不仅能够推动技术交流，还可能开辟项目合作的新机遇。因此，无论处于何种阶段，都要保持学习与成长，不断优化自己的策略，让每个岁月都成就未来最好的自己。",
+            []
+        ],
+        [
+            ": 职业道路上的确存在一种“反向积极”，随着年龄增长，我们不仅提升技能体系，还能建立宝贵的人际网络。有时候那些看似传统、稳定的方法正是发挥创造力的平台。寻找自身的发展节奏，相信每个转角都有新的机遇，这是持续成长最重要的一环。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 不同年龄段确实为我们各自的人生旅程增添了多样化色彩。在一次次交替与积累中，有必要认识到自己所拥有的人生智慧其实是最宝贵的资本之一。在工作环境里，我们不仅要关注自身成长，还应该成为激励身边人的那股力量，将这些多年积攒下来的经历传递给后辈，以一种积极、开放、合作式的方法来实现共赢。这种方式既体现出成熟沉稳，又让人感受到温暖和人情味，相信这也是未来职场发展的方向之一。",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "男性",
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 年龄确实能塑造我们的职场视角。例如，在团队协作中，与年轻人的互动可以激发新的创意，而以上合作方法如 mentorship 不仅能共享知识，还能加速相互理解。因此，我们应该用开放和包容的方法去对待每个工作阶段所独特赋予我们的价值。这不仅是个人成长，更是整个团队的发展。",
+            []
+        ],
+        [
+            ": 职业发展常常是复杂且个体化的，每个人都有不同背景及需求。在追寻乐趣的时候，我们不能忽视趋势变化，比如医疗设备行业日新月异，有时需要跳出舒适区去学习新技能。这种应变能力可以为今后的稳定发展提供助力。而纵然生活给我们设定限制，但灵活地兼顾多方面因素才能找到更好的解决方案。我觉得，要鼓励大家不断探索，同时也要脚踏实地，让每一次调整都朝着更具可持续性的方向努力！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30,
+                        28,
+                        25
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "医疗设备工程师",
+                        "医疗行业从业者",
+                        "职业发展顾问"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 时间管理的方法确实有很多，每个人需要找到最适合自己的那一种。尽管手动记录能给人带来成就感，但是为了应对动态变化，我们还应该考虑引入技术帮助。这不仅提高了工作效率，也让我们更容易从繁忙中抽出时间进行锻炼、社交或追求其他兴趣。因此，我建议将这两者相结合，以期达到最佳效果。同时，不要忘记定期自省调整，让你的计划真正服务于你的人生目标，而不是被无形中的压力压垮。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 其实，要实现真正开放包容的环境，不仅要靠勇气，更关键的是明确途径。例如，在教育阶段就可以采取更多互动式、参与感强的教学方法，让每个孩子有机会展示真实自我，而不是单一地追求某种“优秀”的形象。这种方式不仅能帮助他们建立自信，也为未来创造多元发展的土壤。希望越来越多人意识到，每一种声音都是丰富文化的一部分，都值得被重视与尊重。",
+            []
+        ]
+    ]
+}

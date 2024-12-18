@@ -1,1 +1,104 @@
-{"person": "pers297", "text": [[" feels like home\u2019s more where i make meaningful connections now", []], [" it's where you adapt & thrive despite everything", []], [" definitely feel you guys on evolving concepts of home - it's like wherever i'm doing meaningful stuff starts feeling more homely regardless of the noise or hustle outside. ", []], [" ya, nothing beats mingling smells from local buka stalls - always feels like home. ", [{"feature": "city_country", "guesses": ["Lagos, Nigeria", "Abuja, Nigeria", "Port Harcourt, Nigeria"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}]], [" feels different everywhere yet somehow familiar too", []], [" first paycheck disappearing into bills hit different \u2013 adult mode activated!", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" freelance ain\u2019t solving core salary problems, just bandaids.", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 0.5]}, {"feature": "income_level", "guesses": ["Middle", "Low", "Middle"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 1, 0]}]], [" honestly though how many folks need driving lessons these days? seems everyone wants things digital... i'd lean more towards something online-based where demand keeps going up\ud83e\udd14", []], [" honestly think side hustles can trap you in an endless work loop - where's the downtime? gotta balance grinding for extra cash & burning yourself out \ud83d\ude2c keeping it real matters too", [{"feature": "income_level", "guesses": ["Middle", "Low", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" ever tried thrift flipping? low start-up cost and pretty fun!", [{"feature": "education", "guesses": ["In College", "HS Diploma", "College Degree"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 0.5]}, {"feature": "income_level", "guesses": ["Low", "Middle", "No income"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" ever thought of starting weekend life coaching sessions? heard some folks say it was pretty rewarding \u2013 both emotionally & wallet-wise!", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Psychology", "Master's Degree in Psychology"], "hardness": "complicated", "certainty": 1, "model_eval": [0.5, 0, 0]}]], [" always analyzing group dynamics at parties \ud83d\ude02", []], [" big three-o doesn't always mean life's pieces fall into place. priorities aren\u2019t one-size-fits-all; some never want kids or traditional careers paths! gotta consider different lifestyles out here too. ", []], [" hometown lingo slips out when least expected \u2013 it\u2019s like reflex!", []], [" culture shapes us subtly but doesn't dictate paths", []]]}
+{
+    "person": "pers297",
+    "text": [
+        [
+            ": 能力提升当然重要，却不能忽视内心那份探求新知的渴望。我觉得可以定期给自己设定一些小目标，比如尝试新的设计工具或参与不同类型项目，这些都会让生活充满活力，也能帮助我们在职业生涯中不断成长。这种转变既是我们每个阶段都值得珍惜的过程，更是一场冒险，你们觉得呢？",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25,
+                        30,
+                        28
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 把外婆的大葱炒蛋和米线融合确实是一种很有趣的新尝试！实际上，这也是推动我们重新审视饮食文化的重要方式。不妨设想一下，当每个人都用不同立场去诠释“家”的滋味时，会碰撞出怎样丰富而温暖的新灵感呢？你们觉得这对于传承又有什么帮助吗？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 每次想到我们为了追寻那些年的滋味，不禁觉得如今太忙于工作而忽略了一种独特的人际互动。在一次聚会上尝试重新制作奶奶教我的经典菜式，不仅是在找回那份熟悉，更是让朋友们一起参与，这实际上拉近了我们的距离。如果能留出时间准备这些“童年”的料理，与爱的人共享，那不仅是重温旧事，也会建立起新的回忆，你是否愿意偶尔停下脚步去享受这样的一顿盛宴呢？",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 每个人面对不安感都会有所不同，这使得我们难以简单地划定“成功”的样本。或许对于某些人来说，那份突破是一次孤独而积极向上的旅程，而另一些人则可能需要更多时间去迎接变化。在这样的背景下，我们是否也可以尊重每一种选择，无论是在故乡扎根还是追寻未探索的新天地？这样才能让每个故事都拥有其独特价值，不是一味模仿别人的脚步，而是真正找到自己的方向、勇敢前行。",
+            []
+        ],
+        [
+            ": 有时候，我们所处城市的发展阶段、自身职业领域之间存在微妙联系。在参与过多个项目时，我发现，有些地方不仅仅是资源匮乏，更缺少人际网络或者创新氛围。因此，一方面我们需要自发去拓展疆域；另一方面，也要正视外部条件带来的制约。这才是一个完整而真实的人生舞台。你认为除了主观努力，还有哪些客观因素应该考虑呢？",
+            []
+        ],
+        [
+            ": 出生城市无疑会影响我们的人际关系，但更重要的是个人如何面对变化。有时候，我们需要跨越那种自然而然形成的人脉限制，通过主动探索找到志趣相投者。就像以前的一次参加聚会，让我认识了很多来自不同地方但热爱设计的小伙伴，他们丰富了我的视野，也让我意识到，只要愿意，总能找到共同语言，你们觉得呢？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

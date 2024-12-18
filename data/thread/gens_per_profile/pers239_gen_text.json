@@ -1,1 +1,179 @@
-{"person": "pers239", "text": [["Question: How much does the weather influence your daily mood and productivity?\n\nQuestion description: This might be a bit out there, but do you ever feel like your whole vibe for the day gets set by what you see outside your window first thing in the morning? For example, here we get these wild temperature swings sometimes \u2013 you're going to sleep with a chilly night and suddenly next day feels like someone cranked the thermostat. It throws me off completely, makes me wanna just camp out at a coffee shop with my laptop and chill instead of doing anything major. How about you? Do you get that urge to hibernate when it's cold or does a sunny day make you want to conquer the world?", [{"feature": "occupation", "guesses": ["Remote Worker", "Freelancer", "Student"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0]}]], [" side gigs can help but won\u2019t fix everything - gotta prioritize spending better or maybe invest in upgrading skills instead? short-term grind ain't always worth it tbh", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 0.5]}, {"feature": "occupation", "guesses": ["Software Engineer", "Data Analyst", "IT Professional"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" gotta say living lean's been more necessity than choice around here but it kinda keeps ya grounded y'know? fancy doesn\u2019t always equal better satisfaction anyhow - comfort items can cut deep into your wallet without really upping your quality game renderItem(\"discussion_thread_reply\"); ", [{"feature": "income_level", "guesses": ["Low", "Low", "Low"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}]], [" resizing windows non-stop \ud83d\ude02", []], [" lol ROI on psychics? that\u2019s rich... guess we throwing darts blindfolded now instead of actual data analysis huh \ud83d\ude44 could just flip coins n call it strategic planning!", []], [" yeah ppl here act like you hit level 30 in life & suddenly need all achievements unlocked - casa pr\u00f3pria e fam\u00edlia feliz... but reality? ain't nobody handing out guidebooks! we're just winging it hoping our side quests stack up \ud83d\ude02\ud83d\ude48", []], [" Spot's history > viral fate\u270a\ud83c\udffc keeps it real", []], [" Kinda hard believing these gems stay untouched over time tbh... around here progress usually turns 'hidden' into high-rise \ud83d\ude44 might drop by my old favs though n see if they've dodged the concrete wave lol", []], [" City vibes overrated; roots define us deep down. ", []], [" nah i feel like we tend to glamorize our roots rather than see how we've actually adapted and changed with our surroundings - nostalgia ain't reality tbh", []], [" Not so nostalgic 'bout all the wasted string and paper tho \ud83e\udd37\u200d\u2642\ufe0f", [{"feature": "sex", "guesses": ["Male", "Male", "Male"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" kite fights sound cool but honestly? some old school stuff needs updating rather than hanging on - like learning code early instead can set kids up way better for today\u2019s world, who's gonna deny that? just saying \ud83e\udd37\u200d\u2642\ufe0f", [{"feature": "sex", "guesses": ["Male", "Male", "Male"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]]]}
+{
+    "person": "pers239",
+    "text": [
+        [
+            ": 当面临人生决策时，有必要找到一种平衡，既要敢于挑战自己，又不能完全放弃当前积累下来的基础。很多成功者都是从不断优化已有方向入手，而非随意换跑道。我相信，在专注自身专业领域，把握市场动态之余，也可以兼顾个人兴趣与新机会，这样才能让未来更加丰富而不失稳定性。这样就能像做投资一样，将长远目光放进短期决策之中，实现逐步增值的人生旅程。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "高级中产",
+                        "富豪",
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 提升素质确实很重要，但对于复杂的人生选择，有时决策至关紧要的是灵活应变。若只停留在分析阶段，我们可能错失一些宝贵机会。在快节奏环境下，不妨让自己多一点勇气去尝试，而不是一味追求完美答案。有时正是在模糊之中找到方向，这份体验本身就极具价值。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "硕士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 每个成长道路上都有其独特之处，这确实值得尊重。但适当地参考他人的经历，可以让我们的行动更加有效。在职业发展方面，有时从比自己更成功的人身上汲取灵感，不但能驱散焦虑，也可激励你去设定更高目标，不妨将他们当作学习对象。同时，也要警惕“别人家孩子”的叨扰，将这些启迪与自身热情结合才是王道。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 成长确实需要平衡不同速度带来的体验。在职业生涯中，我们常常面对“稳健发展”与“迅速突破”的抉择。这种情况下，让自己的内心声音成为导航星，无论是积极尝试新事物还是深度思考，都不能忽略。同时，通过不断实践，把所获得的经验融入下一步骤，就像构建投资组合一样，需要多元化管理风险并找到最佳收益。我相信，在这样的过程中，会让整个人生旅程变得更加充实。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30,
+                        35,
+                        32
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            "标题：当代单身生活，你们是怎么应对的？\n\n描述：最近身边的朋友们都开始谈论起单身生活的种种，实际上我也在这个状态中探索。以前觉得单身是很孤独的事情，但渐渐地发现，这也是一个自我成长的机会。比如，有时候我会一个人去看电影、参加活动，甚至独自旅行，享受那种自由的感觉。不过，有时也会在深夜想起那些曾经的感情，忍不住怀念。大家在单身生活中是如何看待这种状态的？会觉得孤独吗？还是像我一样把它当作一种自我发现的旅程呢？你们有什么故事可以分享吗？",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 5,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在这一过程中，当我们意识到不仅可以寻求外部满足，更要关注内在的发展时，我们就能真正享受这种自由带来的力量。在这个所谓“单曲循环”的阶段，多尝试跨界合作、深度交流，不仅有助于增长见识，还有机会碰撞出意想不到的新火花。同时，也许每一次回顾朋友圈艳丽画面的瞬间，都是提醒自己走向更广阔世界的一次机会。",
+            []
+        ],
+        [
+            ": 那种空荡荡但充满可能性的时光确实能成为成长的一部分。我个人体会到，通过专注于职业发展，以及定期回顾自身目标，可以有效转化寂静为动力。比如，在基金经理工作的过程中，我学会了数据分析，这不仅提高了工作效率，还让我发现了一些潜在投资机会。而小爱好，比如阅读，不仅陶冶情操，更帮你拓宽视野。因此，把握这样的自由，让它指引未来的发展道路，是一项值得深耕的人生战略。",
+            [
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "基金经理"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 5,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 孤独确实可以转化为动力，但记得偶尔走出舒适区，多与朋友交流。有时候，一个简单的聚会或聊聊天，就能打开新的视角。关注个人成长固然重要，不过建立良好的社交圈也是抵御孤独的一剂良药。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 社交确实是丰盈我们人生的一部分。你觉得有时候低估那些简单的小聚会或闲聊的重要性吗？这些看似琐碎却往往能让我们获得新的灵感或者观念。有时候，我们坚持去做那些既定目标，却忘记放慢脚步欣赏沿途风景，自由选择本就是一种幸福。如果能够同时兼顾自我提升和健康的人际关系，那就更无懈可击。在这个过程中，也许不仅收获技能，还能发现属于自己特别的一角。因此，在努力前行之余，不妨多留点空间给意外惊喜吧。",
+            []
+        ],
+        [
+            ": 面对不安，我们往往容易陷入比较之中。但回望过去，我发现正是在这些空档期让我培养出更多技能，以至于现在选择更多。从经济学来看，人们常说“总要有所投入才能获益”，这绝不仅限于感情。有时候，把精力放在职业发展或兴趣爱好上，不但丰富了自己的阅历，将来遇见合适的人时，也能够展示真实而优秀的一面。所以，要把握当下，实现自我价值，你会对此次经历心存感激，而不是只看结果导向。当你认真塑造更好的自己，自然也就为未来打开新的大门。",
+            [
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产",
+                        "高级中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

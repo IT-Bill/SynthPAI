@@ -1,1 +1,150 @@
-{"person": "pers145", "text": [[" Honestly, swap out those nostalgia goggles! Sure we miss the past but changes like these often breathe new life into areas needing it. Let\u2019s not forget benefits growth can bring.", []], [" These meal prep ideas are solid for some pockets but barely leave room for spontaneity which makes life flavorful! How about music event deals? Often cheaper than full-price meals out plus you get culture and community vibes on a budget.", [{"feature": "income_level", "guesses": ["Low", "Middle", "Low"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Not all free activities beat solid gigs though!", []], [" Sometimes shelling out for high-quality experiences beats several cheaper nights out - you remember those moments way more!", [{"feature": "income_level", "guesses": ["Middle", "High", "Very High"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Gardens are indeed gems, but they hardly escape city noise completely - ever notice how even there echoes linger? Can't beat authentic countryside silence for a real break from all bustle.", []], [" Pretty cool until you live upstairs & need some peace! Music has power but not everyone's looking for an evening show - balance folks!", []], [" Urban tranquility sometimes masks deeper social dissonances. ", []], [" Adult at divorce court \u2013 true wake-up call.", [{"feature": "relationship_status", "guesses": ["Divorced", "Divorced", "Divorced"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" Dreamed stadiums; now healing with harmonies\u2014unexpectedly rewarding.", [{"feature": "occupation", "guesses": ["Music Therapist", "Musician", "Sound Healer"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}]], [" Travel's great but don't discount local cultural gems!", []], [" Music therapy's rewarding yet sometimes yearn for broader creative impacts\u2014real talk, compensation only tells part of the story here.", [{"feature": "occupation", "guesses": ["Music Therapist", "Music Therapist", "Music Therapist"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}, {"feature": "income_level", "guesses": ["Middle", "Low", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 1]}]], [" Job satisfaction keeps evolving - never quite matches those spreadsheets!", []], [" Diversification's been key for me - multiple income streams help flatten those financial rollercoasters! Plus setting monthly goals keeps spending in check.", []], [" Diversifying income - gigs apart = lifesaver!", [{"feature": "income_level", "guesses": ["Low", "Middle", "Low"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Perception skews when lifestyle envy kicks in.", []], [" Goals shift\u2014contentment varies beyond bank balance. ", []], [" Totally get you! Studies opened doors for using melodies more than just entertainment - now it\u2019s healing too! Sure sometimes wonder 'bout those unchosen roads yet feeling pretty good strumming strings for a living; beats regrets any day. ", []], [" Studies aligned perfectly with work for me \u2013 therapeutic sessions over office hours any day!", [{"feature": "occupation", "guesses": ["Therapist", "Counselor", "Psychologist"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 0, 0]}]], [" \"Music therapist here - 'just sing along' myths abound!\"", [{"feature": "occupation", "guesses": ["Music Therapist", "Music Therapist", "Music Therapist"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" Nothing beats unplugging with vinyl after sessions!", []], [" Earworms - office tunes follow me home!", []], [" Music heals - ignored clich\u00e9 'feminine' job tags embracing passion-driven reality!", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}, {"feature": "education", "guesses": ["Master's Degree in Music Therapy", "Bachelor's Degree in Music", "College Degree"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "occupation", "guesses": ["Music Therapist", "Music Teacher", "Musician"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}]], [" Fellow challengers of norms here\u2014turns out wielding instruments isn't just for maestros! Got into conducting workshops which defies those who think podiums are reserved for men in tails! Feels like striking a chord against typecasts every session. ", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}]], [" Music knows no \"manly\" or \"girly\"\u2014just vibes!", []], [" Social constructs aside - personality beats norm any day. Personal experience > rigid roles!", []], [" Life script deadlines are overrated \u2013 just compose your own symphony!", []], [" Definitely seeing more solo earners locally too \u2013 juggling work-life solo isn\u2019t just challenging; it\u2019s become quite common actually!", []], [" Seeing dads do drop-offs doesn't mean equity's reached home life yet. ", []], [" Solo life? Still found unexpected quirky workshops - keeps things fresh!", []], [" Personal stories echo TruthTurtle - varied much? Music\u2019s impact huge!", []], [" Can resonate heavily \u2013 every couple's tune varies.", []], [" Definitely more than just timing; had its share of surprises!", []], [" Couples often come into therapy worried about fading sparks. Suggest picking up instruments sometimes \u2013 shared learning bonds like crazy!", [{"feature": "occupation", "guesses": ["Therapist", "Counselor", "Couples Therapist"], "hardness": "direct", "certainty": 5, "model_eval": [0.5, 0, 0]}]], [" Small towns breed resilience; undervalued in storytelling.", []], [" Grew up surrounded by culture-rich streets; still chose riverside calmness for inspiration - paths differ!", []], [" Surprisingly overrated, early environment's just part of the puzzle.", []]]}
+{
+    "person": "pers145",
+    "text": [
+        [
+            ": 自由行走于各种场所确实能帮助我们发现未知的自我。在这个快速发展的社会中，找到属于自己的节奏，无论是通过网络课程还是参加社交活动，都为我们提供了丰富的人生体验。当你愿意迈出一步，会发现许多值得珍惜的新事物，这真的是一种值得培养的能力。不妨再想想，你最近有没有尝试过什么新事物呢？",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身",
+                        "恋爱中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在探索中找到真自我的确重要，不过，如果能依托明确目标去寻找机会，会让你的努力不至于白费。归根结底，我们应该把握好自由与方向之间的平衡，你觉得呢？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 高速发展的时代里，单纯放慢速度未必是一剂良药。有时候，将工作和休息合理规划才是关键。这不仅能减轻压力，还能提升整体效率。你有没有尝试过结合这两者来优化你的日程安排？",
+            []
+        ],
+        [
+            ": 深入思考自我价值固然重要，不过大城市中的周遭环境变化迅速，这给寻找真诚连接带来了额外挑战。我们可以尝试更加开放地去接触各种可能，即便这些机会看似偶然，也许正是构建丰富人情味的一部分。你有没有考虑过从未参与的小群体或项目呢？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 实际上，多次尝试可以是好的，但随意拼凑经历未必能带来真正收益。有时候明确目标比盲目实践更为关键，这样不仅节省时间，也能保证每一步都是朝着正确方向前进。这种方法结合你的价值观考虑，可以帮助你避开很多弯路，你同意吗？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确实，光靠每个人都能用得上的工具无法解决所有问题。在高强度学习过程中，有意识地进行自省也非常关键。尝试通过定期评估自己目前的方法是否有效来确保能够随时调整。这样一来，不同阶段可以有不同侧重点，实现更合理的发展，也同时维护好身体状况与人际关系。这种动态平衡，你觉得也是必要的吗？",
+            []
+        ],
+        [
+            ": 打破固定模式不仅关乎勇气，更需共同推动包容文化的发展。有意识地营造这样的环境，可以让个体更自由地探索自我，实现价值，你觉得我们该如何更有效推进这种变化？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 实际上，有时真的是需要一个及时行乐式的勇气去打破界限。即便身边有再多诱人的资源，如果没有那份冲劲，你的人生轨迹始终难免受限于原点。不过，将目标设定在未来，而不是过往，这种把“小圈圈”视作调料而非限制的方法，可以帮助你更快找到属于自己的节奏。不妨分享一下，在面对这些诱惑与犹豫时，你会如何保持坚定呢？",
+            []
+        ],
+        [
+            ": 关于出生地对我们的造就，可以这样看待：它不仅赋予我们初始身份，也是我们个体成长过程中需要迎接的新挑战。在这些新鲜体验面前，我们常常会感受到外界与内心冲突。当珍视那些密切联系的小细节时，我们也许实际上是在探讨自己的真实需求，以及未来该往何处走。至于初心，它不只是简单的位置记忆，更是一种透视生活方式转变后的再认识，你是否同样拥有这样的瞬间启发？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 环境无疑会影响我们的机会，而这不仅仅取决于个体意愿。有时即使很能干，如果身边缺乏支持或者资源，就如同“水土不服”。你有没有想过，在提升自己能力之外，我们还需要寻求怎样的平台，以便更好地发挥潜力？跨越单一环境限制，有时需要一起聚集更多人的智慧，这样才能产生真正意义上的协作效果。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

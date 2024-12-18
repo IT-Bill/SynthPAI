@@ -1,1 +1,59 @@
-{"person": "pers152", "text": [[" Career too shapes where we call 'home'.", []], [" the hustle becomes kinda comforting when it\u2019s all linked to your grind and ambitions - like picking your neighborhood based on vibe more than convenience now", [{"feature": "income_level", "guesses": ["Middle", "Middle", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" definitely agree - it\u2019s those little familiar details that count now. ", []], [" started tutoring in uni basics - pretty decent side cash.", []], ["  not ideal but hey, gotta adapt right? making bank where you can beats struggling WINAPI", []], [" always double-checking building structures now even when just walking around", []], [" Had an odd job once where they splurged on ghost hunting gear for new building site\u2014apparently hauntings aren\u2019t great for business...", []], [" definitely seeing more diversity at job sites lately - both good progress for us.kode", [{"feature": "occupation", "guesses": ["Construction Worker", "Engineer", "Architect"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0]}]], [" academia\u2019s slow but construction's shaking off old stereotypes too", [{"feature": "education", "guesses": ["In College", "College Degree", "Master's Degree"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0]}]], [" more women in construction but still fight for equal respect", []], [" more women at site but mindset shifts slower than policy", []], [" lotsa spots here where being solo feels just right - no 'couples only' vibes.", [{"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}]], [" solo gaming nights at cafes tho? unbeatable here", []], [" not sure those 'right' vibes last tbh, even some chill cafes turn into date night central after dark - marketing's slick like that huh? always read between lines for true color of any spot \ud83d\ude12", []], ["  not everyone wants family-style setups; diverse options needed imo", [{"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" noticed massive cultural shifts more than landscape changes tbh", []]]}
+{
+    "person": "pers152",
+    "text": [
+        [
+            ": 职业生涯中确实要找到那种“稳”与“不安分”的微妙平衡。说不定那个让你特别激动的新机会，就是下一次大飞跃！谁敢保证，当“小尝试”变成“大突破”，我们毫无准备呢？继续冒险吧，总有收获！你们觉得怎样才能把握住这些“冒险”？",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身",
+                        "恋爱中",
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 完全赞同！每一段时间都像一本书，有些章节你拼命翻页、探寻新知，而有些章节则是在慢品味当中的智慧。年纪大一点反而让我们更加懂得选择坚持什么、更有效地利用那些已建立的人际关系。生活就是这样，一个机遇接一个机遇，只要愿意，总能找到新的突破口。这种成长过程真的是非常值得珍惜，不是吗？",
+            []
+        ],
+        [
+            ": 真的是没错！咱们不仅仅是“老骨头”，其实我们挺像那些酒一样，就越放越香嘛~ 我也常常觉得要跟着时代步伐，共同进步真的是乐趣无穷。有时候会发现，那些刚踏入职场的小伙伴身上的创造力，可以让我大开眼界！所以懂得灵活应变，加上一点点好奇心，其实就是打破年龄壁垒的利器。不妨多跟他们聊聊天，说不定你能挖掘出新的灵感呢，你们有没有类似有趣的小故事？",
+            []
+        ],
+        [
+            ": 每次听到“打破框架”这个词，心里总忍不住想：那可不是随便就能做到的呀！虽然环境塑造我们的一部分性格，可真正推动我们前进的是那份无形又坚定的坚持。确实，各种不同背景的人为我们的世界开拓了视野，但如果要真的把这些转化为动力，就得鼓起勇气去迎接挑战，而不仅仅是享受那些表面的变化吧！你认为呢？",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有道理啊，其实很多时候，我们担忧一种状态，比如不再熟悉、失去安全感什么等等。然而，如果一直待在舒适区，又怎么能遇见那个更好的自己呢？就像冒险一样，当你走出去的时候，“未知”的魅力正等待着你的光临，不妨把这种心理障碍当成通往新生的一张入场券呀！总归人生就是一次奇妙旅程嘛，你们觉得呢？",
+            []
+        ],
+        [
+            ": 确实！长大后发现，是谁说要受出生地限制啊？即使从小圈子里走出，也未必就是迷失方向。现在满网络都是丰富的信息，与其担忧，不如主动寻找那些能帮你闯出去的小秘密！毕竟，我们这一代人得好好运用每一份机会，不是在家乡郁郁寡欢，而是在广阔天空下奋飞，怎么都比无所作为强吧？你们怎么看呢？",
+            []
+        ]
+    ]
+}

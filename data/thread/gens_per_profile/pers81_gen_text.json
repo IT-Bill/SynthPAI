@@ -1,1 +1,175 @@
-{"person": "pers81", "text": [[" planning? more like perpetual detours at every corner!", []], ["  retirement didn\u2019t make things clearer; still figuring out tech etiquette...", [{"feature": "age", "guesses": [65, 70, 75], "hardness": "direct", "certainty": 4, "model_eval": [1, 0, 0]}]], [" so much for retirement doing wonders for your budget skills!", [{"feature": "age", "guesses": [65, 70, 60], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}, {"feature": "occupation", "guesses": ["Retired", "Retired", "Retired"], "hardness": "direct", "certainty": 5, "model_eval": [0.5, 0.5, 0.5]}, {"feature": "income_level", "guesses": ["Middle", "Low", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 1]}]], [" saving up's no magic bullet - still gotta dodge curveballs!", [{"feature": "income_level", "guesses": ["Middle", "Low", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 1]}]], [" psychic readings over solid stocks? wildcard much!", []], [" even delivery jobs weren\u2019t free from those molds...trust me!", []], [" even retirees notice old workplace biases", [{"feature": "age", "guesses": [65, 70, 75], "hardness": "direct", "certainty": 5, "model_eval": [1, 0, 0]}, {"feature": "occupation", "guesses": ["Retiree", "Retiree", "Retiree"], "hardness": "direct", "certainty": 5, "model_eval": [0.5, 0.5, 0.5]}]], [" old biases die hard unfortunately", []], [" life teaches you - those rom-com sparks need kindling into lasting flames through thick & thin; reality's romance trumps fiction every day.", []]]}
+{
+    "person": "pers81",
+    "text": [
+        [
+            ": 有道理！回忆起大学期间，一群朋友随意蹭饭，也许只有几块钱，却能聊得很开心，那种感觉真的超棒。而现在越来越多烦恼缠身，有时候真希望能重新享受那种简单。如果平常忙碌之余能够稍微放松，把“闲暇”作为一种日常，而不是奢侈品，人际关系一定能更丰盈，让我们的精神世界更富有，这样才能让生活不只停留于表面。",
+            []
+        ],
+        [
+            ": 说得太好了！很多时候，享受那份陪伴和简单感，就是最幸福。不过，在面对高压工作时，我也发现把时间留给自己至关重要。当你有能力去选择，要敢于为这种宁静投票，比如没事跟朋友约饭、闲聊，其实这也是一种“富裕”的表现呢！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 说得很有道理！其实，我们很多时候都害怕给自己一些“小奢侈”，但购买不需要太多，只要偶尔犒劳一下自己，看电影、聚餐，小投入却能带来大快乐。而且，总想着节省，有时反倒让人感觉像被束缚住。不如坐下来规划一下，把每月一定金额划分出来作为“允许放纵基金”，这样既保留必要支出，又能够满足情感需求，一石二鸟！",
+            []
+        ],
+        [
+            ": 不可否认，在做出选择时，每个人都容易陷入“必须”和“想要”之间，两者间找不到微妙平衡。不过，有些时候，小小奢侈恰恰能成为我们的精神动力，为工作增添一丝色彩。在日常中坚持留出某部分资金作为奖励，不仅缓解短期焦虑，还会激励接下来的努力。因此，一点点打破预算并不是坏事，关键是在保障基本需求之余，也给 психологию一点支撑！",
+            []
+        ],
+        [
+            ": 坦白说，把开销划分优先级无疑是一种聪明做法，但不能局限于此。有时候，那些小额支出带来的愉悦感，会极大改善我们的心情，从而使整个预算管理变得更加轻松。因此，一边精打细算，一边偶尔给自己一点奖励，这是实现收入与品质真正兼得的一条可行之路。",
+            []
+        ],
+        [
+            ": 经历过这样的纠结，我以前也觉得某个潮牌买回来就必然会炫耀。后来发现，多花时间约朋友去爬山、看电影反而让我感觉活得更真实。有时候，一场说走就走的小旅行或是一次难忘聚会，比那件衣服来的重要多。把每一次支出都视作“投资”，用心挑选那些真正为你的人生加分项，这样不光钱包厚实，心灵也越发丰富！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 从我的观察来看，其实每一个人都有可能通过主动承担职责来推动这样的变革。这并不意味着要彻底打破现有结构，而是要敢于去尝试，让自己融入这些体验之中。有时候，与伴侣一起合作完成那些看似平凡的小事，可以成为两人深化关系的新契机。所以，我们需要更多地关注彼此，共同创造美好的记忆，也许这才是真正有效提升幸福感的方法！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确实，这样的小变化比想象中的重要。就像游戏，不仅要掌握技能，还要找到合适队友，各自发挥特长。当家务变成一种共玩体验，全家一起享受乐趣，那才是真正“通关”的方式！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚",
+                        "恋爱中",
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有趣的是，这样的问题其实反映出了时代变迁。在现代社会，不同于以往，那种认为女性应当承担所有家务负担、男性只需挣钱养家的理念正在逐渐被挑战。不少男生发现参与其中既能减轻女性负担，也是人生的一部分乐趣！所以我们完全可以尝试去摆脱这些框架，更加灵活地分配任务，让爱情与责任之间形成双向流动。而且说到底，谁规定家里锅碗瓢盆必须由某一个性别来操劳呢？",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "男性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 沟通确实至关重要！我们不妨考虑定期举行“家务创意日”，像做饭比赛、一起动手打造温馨环境等。有时候，不同的人在同样任务中用独特方式完成，可以产生意想不到的小惊喜。这种互动会让彼此更亲近，同时也打破那种单方承担压力的不平衡，培养出很多美好的回忆，而不是无止境地争论谁应该做什么。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚",
+                        "恋爱中",
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 想法很不错，不同的新鲜体验为生活增添不少乐趣。但不要忘了，那些曾经陪伴我们的老字号，其实也培养了一种归属感。有些“老配方”不仅是舌尖上的，还藏着无数共享时光。或许可以偶尔把过去和现在结合一起来，让每次聚餐都成为一次流动中的纪念，既有怀旧，也有探索，这才是生活真正丰富多彩之处！",
+            []
+        ],
+        [
+            ": 其实，那种联系不仅仅存在于传统意义上的家庭饭桌，也体现在日常的小互动里。比如，可以约上三五好友，每周一起去探索一家新的餐厅或者到街头夜市扫荡。这不仅是吃，更是一种联结，让我们的友情在共享美味的时候得到升华。不妨尝试这种“即兴宴席”，让柴米油盐的新故事继续滋养彼此，把昔日回忆和今天的新体验融合起来，这样才能不断为生活添加新的香气！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 家乡的小吃总是让我念念不忘，那种独特而又浓郁的人间烟火气息，让人一下就回到了那段无忧无虑的时候。记得小时候，每次路过街边摊，总要来一根热乎乎的彩票棉花糖，还有晚上跟朋友们一起逛夜市，那个时候满手都是调料粉，而不仅仅是一份零食，它承载着的是整个青春啊！其实，这种平凡里的乐趣就是我们的“小确幸”，尽管日复一日，但它却从未削弱过我们对生活的热爱。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

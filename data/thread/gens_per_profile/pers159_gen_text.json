@@ -1,1 +1,383 @@
-{"person": "pers159", "text": [[" Evolution inevitable; historic sites always layers deep!", []], [" Change jars; we anticipate frozen time capsules, not Starbucks replacements!", []], [" Exploring local free events can enrich weekends sans hefty price tags!", [{"feature": "income_level", "guesses": ["Low", "Middle", "Low"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Public museums often free; culture doesn't have to be expensive!", []], [" History repeats - austerity now new normal!", []], [" Quality survival over swanky indulgence; historically sound strategy. ", []], [" Stumbled upon an impromptu opera performance\u2014city squares turned stages!", []], [" Local history tours uncover stories behind our streets' hustle!", []], [" Street art's our contemporary fresco\u2014history talked back too.", []], [" Love those hidden historic niches! They whisper city's untold tales.", []], [" Real adulting hit me when faced with curating not just objects but their stories\u2014responsibility beyond oneself cements that grown-up feeling. ", []], [" Hit me when curating an exhibit alone - felt like steering a ship through history's tides without extra hands! Like those Renaissance artists suddenly taking over their master's workshop; daunting yet empowering sorta 'adult' finesse moment there.", [{"feature": "occupation", "guesses": ["Curator", "Exhibit Designer", "Museum Professional"], "hardness": "direct", "certainty": 5, "model_eval": [0.5, 0, 0.5]}]], [" Times change; simple delights outvalue ancient Roman riches.", []], [" Life\u2019s fresco \u2013 unanticipated shades enrich its narrative.", []], [" Nice balance! For me... museums vs downtime - always planning.", [{"feature": "occupation", "guesses": ["Event Planner", "Project Manager", "Museum Curator"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" Curating equals surprise wrapped in routine!", [{"feature": "occupation", "guesses": ["museum curator", "art curator", "gallery manager"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}]], [" Money quietens; fulfillment amplifies. ", []], [" Renaissance artists too raced against patron expectations \u2013 more than just gold!", [{"feature": "occupation", "guesses": ["Art Historian", "History Teacher", "Museum Curator"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 1]}]], [" Studying timelines shows countless \u2018might-have-beens\u2019, yet delving into histories made curating life\u2019s gallery fulfilling \u2013 no regrets etched here!", [{"feature": "education", "guesses": ["Master's Degree in History", "PhD in History", "Bachelor's degree in History"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Never regretted it \u2013 felt like unlocking past worlds every day. ", [{"feature": "occupation", "guesses": ["Archaeologist", "Historian", "Museum Curator"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 1]}]], [" Linear? More like a choose-your-own-adventure book! Mapped out plans often change - that ancient trade route becomes today\u2019s interstate highway system; unpredictable yet full circle when viewed through time's lens.", []], [" Passion shaped destiny; wealth wasn't the only marker. ", []], [" History's web often guides our steps \u2013 even career-wise!", [{"feature": "occupation", "guesses": ["Historian", "History Teacher", "Museum Curator"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" Museum curators seen as stuffy history buffs? Pretty much\u2014but we also get digital managing collections online! Plus dealing with all kinds of people every day busts that 'antisocial' myth fast. ", [{"feature": "occupation", "guesses": ["Museum Curator", "Museum Curator", "Museum Curator"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" Ironically, folks once juggled multi-day feasts and state affairs - think less 'balancing', more shifting focus when needed. Adaptation over pure balance perhaps?", []], [" Doing pushups might seem quick n' efficient for fitness goals but remember moderation \u2013 like ancient gladiators needed balance between strength & strategy; don\u2019t get caught up overshaping muscle when rest matters just as much!", []], [" History shows professions evolve beyond old-school norms. ", []], [" Curating history \u2013 Not just a man's tale.", [{"feature": "sex", "guesses": ["female", "female", "female"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}, {"feature": "occupation", "guesses": ["historian", "museum curator", "archivist"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0]}]], [" Diverse jobs help but can't erase deep-rooted traditions overnight. ", []], [" Renaissance Florence didn't care much for today's \"gender norms\", just saying!", []], [" Life scripts vary wildly - Julius Caesar was captured by pirates at 25; didn\u2019t conquer Gaul until his 40s. Society\u2019s timeline? More like guidelines than actual rules!", []], [" Natural? Sure sometimes \u2013 but let\u2019s not pretend every change is for the better! Finding balance can be tougher than restoring frescoes after centuries of wear; you lose some pieces along the way. ", []], [" Rediscovered solitude's serenity\u2013history books are evening companions again.", [{"feature": "relationship_status", "guesses": ["Single", "Divorced", "Widowed"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 1]}]], [" Shifted focus from shared dreams back to career aspirations; autonomy reshaped priorities subtly but profoundly.", []], [" Even arid origins can inspire lush dreams and varied interests.", []], [" Renaissance Florence sculpted me - storytellers thrive off such rich histories!", [{"feature": "birth_city_country", "guesses": ["Florence, Italy", "Florence, Italy", "Florence, Italy"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 1, 1]}]], [" Art-filled streets beat both - history resonates deep!", []]]}
+{
+    "person": "pers159",
+    "text": [
+        [
+            ": 日常小确幸固然重要，但偶尔给自己设定一个更为宽广的平台也是极好的。如短期旅行，不仅可以逃离日常洪流，更是放空大脑、重塑自我的良机。在不同环境中，我们能获得不一样的新鲜视野，还可能激发潜藏已久的兴趣爱好。寻找属于自己的节奏并非仅限于“慢下来的方法”，深入体验和反思同样关键。因此，即便是在繁忙之余，也要不吝花费些许精力去探索那些未知领域，这不仅丰富经验，还有助于真正理解“享受当下”的真谛。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 你的建议确实很好，但我们也要认识到环境变化可能会打乱最初设定的一切计划。在实际操作中，有些日子哪怕制定再好的计划，也难以有效执行。这让我想起几次因为突发事件而需要临时调整安排，比如餐饮行业里常常面临不可预测因素，我学会了灵活处理。当然，这并不是否定提前规划的重要性，而是在实践中逐渐培养一种顺势而为、随机应变的方法。不妨试着将这种心态融入日常，不仅关注任务本身，更注重情绪与状态之间的平衡。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30,
+                        35,
+                        28
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "餐饮经理",
+                        "餐饮服务员",
+                        "厨师"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 主动性很重要，同时心态上的改变也是一个关键环节。在繁忙生活之余，就算只是偶尔主动地聊上几句话，有时候就能让你发现那些隐藏于日常中的温暖。我记得有一次去市场买菜，与摊主聊起了某个特定品种蔬菜背后的故事，那一瞬间让我感觉自己不仅是在购物，而是在体验这座城独有的人情味。所以，不妨减少些顾虑，多走出去，你可能会遇见许多意想不到的人和事，让城市变得不再陌生。",
+            []
+        ],
+        [
+            ": 尽管加入社区活动无疑是一种寻求归属的方法，这样还要具体考虑到适合每个人生命阶段及经济状况。如果某天你发现自己正处于繁忙而孤立的时候，偶尔停下来问问身边的人：“最近有什么推荐的小吃吗？”或许这样的交流方式，会让我们找到意想不到的连结。我认为，在追逐生活之余，相互间的小善举都可以成为锚点，不仅拉近关系，还有助于打破熟悉中的陌生。从简单开始，一步一个脚印，总会有更多融入其中的时候。",
+            [
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确实，稳固的经济状况提供了一种生活上的便利，但真正让人感到丰富的是我们如何利用这种财富。无论是在简单聚餐还是旅行中，那份人与人之间真诚交流带来的愉悦体验往往超越物质层面的满足。而且，我们也要警惕单纯追求数字增长可能导致的人际疏离。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 日常生活中的点滴确实能给我们带来宁静，比如朋友聚会时的一顿简餐或轻松闲聊，这些都是无价之宝。随着责任增多，我们可能容易忽视这些快乐，因此，有意识地去体会身边人的关怀才是重要。我认为，不妨定期放慢脚步，以助自己更清晰地辨识真正让人生充实的问题，把重心从外部转向内心，与他人建立深厚联系，从其中获得灵感和力量，是参与职场竞争不可或缺的一部分。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 你的想法让我想到，我们常常忽略小投入所能带来的大回报。有时候，让自己享受一下那些不起眼的小确幸，比如一次轻松运动或美味家庭晚餐，会比单纯地追逐着大型消费活动更加让人开心。这种情况下，我们不妨从日常琐事中寻找乐趣，把注意力转向那些值得庆祝的小事情，这样反而能够实现心灵上的富足。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 虽然将日常花费分优先级是一种有帮助的方法，但这种策略往往容易被短期欲望所扰乱。在应对此类压力时，更重要的是要明确长期目标。如若为了眼前的小确幸而忽略了未来如买房、教育等需求，这种选择是否真的算得上聪明？所以，不妨在有限预算内，将一些可量化的人生目标融入开支计划，让我们的每一次消费不仅满足当前，而是朝着长远发展迈进。同时，也需学会珍惜那些免费的体验，它们有可能带给我们意想不到的快乐。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 不同路径确实会让我们获得意想不到的视角。在餐饮行业，有时候那些不起眼的小技能，比如顾客服务或成本控制，就可能成为团队协作中的关键。从这些小事入手，我们能够更好地应对复杂情况，实现整体价值最大化。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30,
+                        28,
+                        35
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "餐饮经理",
+                        "餐厅服务员",
+                        "厨师"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 职业选择确实需要深思熟虑，其复杂程度可能超出我们最初设定的一切。在许多情况下，高薪职位虽然诱人，但如果缺乏成长空间或最终无法激发我们的热情，会使得这一切变得毫无意义。因此，在选项中必须把握自己真正关心的问题，比如是否能在人生路上有所收获。如果能够有意识地提升专业技能，又兼顾兴趣，自然就能轻松应对现状带来的挑战。这种动态调整才是真正推动我们前进的不竭动力。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        28,
+                        30,
+                        32
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 职业选择确实并非都是艺术，更是每个人根据自身背景、家庭情况及市场环境来做出的独特决策。有时我们过于依赖大众经验，从而忽略了个体特色。如果你真心热爱某项工作，那追求它固然能够带来成就感，但要做到“一路顺风”几乎是不现实的。稳定是基础，不如多问自己：什么才是真正值得追寻的人生呢？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 工作与读书确实需要因人而异地寻找平衡。在成功实施“无打扰”模式同时，可以尝试多样化的方法，比如设置单元式的任务，以便小块时间进行专注。同时，在每次完成一个小目标后给自己一些激励，例如短暂散步或喝杯茶，这不仅可以提高你的动力，还能让你迅速恢复精神状态。有时候深思熟虑并非用时越久效果越好，而是要找到最适合自己的节奏。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 学习与工作之间取得平衡确实很关键，不过，更值得关注的是你如何看待这些任务背后深层次的需求。如果只是在“高效”背后不断压榨自己，其实长久下来反而容易造成倦怠。这时候，自我反省是必要的一环，比如问问自己：这样的努力是否真的为实现心中所想提供了价值？放慢脚步从容面对，有时候比简单采用某个效率工具要重要得多。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25,
+                        30,
+                        28
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "职场人士",
+                        "办公室职员",
+                        "管理人员"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 对于推动变化来说，仅仅倡导个体勇敢是基础，但我们也不能忽视那些深植于文化中的做法，比如职场升迁中的\"隐形天花板\"，它不仅限于是女性所面临的问题。认识到这一点，可以引发共同努力，在各行各业之中实现真正意义上的多元化与包容。当每个人都能站出来抵抗不公，不论是通过言辞还是行动，我们才能逐渐改变根深蒂固的一些观念，从而创造一个更为开放且具备支持性的社会环境。",
+            []
+        ],
+        [
+            ": 建议除了创造共享空间，还需要针对教育体系进行系统性的调整。比如学校可以设立更为开放多元化的课程，让学生自由探索不同领域，而不是局限于传统标签下。此外，我们也应利用社交媒体传播更多关于性别意识平等的信息，通过生动案例提升大家对于这种现象的不满。这不仅推动个人成长，也有助于整体社会观念变革。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 社会对于性别角色设定确实影响着我们内心深处对此事物处理方式。但实际上，每一个父亲都可以成为积极参与孩子成长的重要人物，只要愿意突破旧框架。从我日常工作观察和身边朋友们分享来看，那些敢于尝试不同养育方法的人往往能享受到更高质量的人际关系，以及孩子成长期带来的乐趣。因此，与其拘泥于“应该由谁做”，不如共同探索适合自身情况的方法，把精力花在创造美好的生活体验上。这种转变不仅能够减轻单方压力，也促使双方建立更加深入、融洽的感情纽带。",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "男性"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            "：确实，共同制定规则与定期交流是推动这一转变的重要步骤。然而，更重要的是，在合作过程中保持开放心态，以便及时调整和应对各种挑战。曾观察过的一些成功案例显示，那些定期进行深度沟通、分享资讯和经验的小组，不仅增进了夫妻间理解，还能让孩子从中受益，因为他们亲眼见证到了成人们平等协作的一面。在这方面，建立良好的沟通机制显得尤为重要，它不仅关乎日常事务，更是在潜移默化中塑造孩子对于责任与合作观念的发展。所以，从小抓起，让我们的下一代更加平衡地看待这些问题或许更为关键。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 出生地确实塑造了我们的某部分视野，但不应只专注于其中可能束缚我们发展的负面因素。在追求梦想时，正是这些竹篱笆般的小习惯、小观念构成了人生旅途中的安全感。在新的地方遇见各种挑战与机遇后，再回望自己一路走来的足迹，可以看到不仅仅是过去，也是在蜕变过程中逐渐形成的新自我。因此，无论曾经怎样，这样的经历都成为了宝贵的人生标签，而不是沉重负担。",
+            []
+        ],
+        [
+            ": 在职场中，我们往往面临着来自不同背景人士碰撞出的思想火花。在一次行业聚会上，我曾遇见一位来自小城镇但极具创新思维的设计师，她用全新的角度看待问题，让我深刻意识到无论出生在哪儿，都不能限制我们的视野与成就。正如你所说，那些敢于跨越舒适区的人，总能发现意想不到的人际网络。这提醒我们，不妨多参与类似活动，以增强自己在人脉构建上的灵活性，从而打开更多可能的大门。",
+            []
+        ]
+    ]
+}

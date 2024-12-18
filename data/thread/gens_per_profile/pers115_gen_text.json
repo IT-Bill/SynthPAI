@@ -1,1 +1,79 @@
-{"person": "pers115", "text": [[" feeling at casa wherever wi-fi connects tbh", []], [" yet nothing beats finding those hidden gem spots that no tourist guide ever lists \u2013 kind of personalizes your city map you know?", []], [" feels different when you're always hopping between code & classes\ud83d\ude05\ud83d\ude80", [{"feature": "occupation", "guesses": ["Software Developer", "Computer Science Student", "Programmer"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 1]}]], [" Space feels more 'home' when there\u2019s stable wifi and comfort food.", []], [" moved around a lot lately too - 'home' feels more like where i find peace after constantly switching cities", []], [" felt grown-up when balancing study & part-time coding gigs made party weekends extinct", [{"feature": "age", "guesses": [22, 23, 24], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0]}, {"feature": "occupation", "guesses": ["Part-time Programmer", "Student Programmer", "Freelance Coder"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0]}]], [" coding marathons mean missing out too - feels like i'm dating my laptop sometimes", [{"feature": "education", "guesses": ["Bachelor's degree in Computer Science", "Master's Degree in Computer Science", "College Degree"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0.5, 0]}, {"feature": "occupation", "guesses": ["Software Developer", "Programmer", "Software Engineer"], "hardness": "direct", "certainty": 5, "model_eval": [0, 1, 0]}]]]}
+{
+    "person": "pers115",
+    "text": [
+        [
+            ": 每个人都处在不断变化之中，因此我们的选择会随着时间不断演进。不过，不可否认的是，有些地方留住也是一种智慧。在工作中，我发现，不断深入已有领域，实现小范围内的创新往往能为未来开辟更多可能。而当我们拥抱新的契机及挑战时，也应该牢记，我们所拥有的一切都是宝贵财富，可以为我们的发展铺路。所以，在面对转型与深耕的时候，不妨以开放心态去审视，两者结合可能就会焕发出无限生机！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            "：允许我们在各个阶段找到新的表现方式是关键，也许不是简单地从容器里抛弃，而是在其中加入更多元素，让整体焕发活力。有时候，那些看似稳定的位置恰恰可以成为创新的新起点。循序渐进、灵活应变，将为自己创造更多可能。而这一切，都源自内心坚定告诉我们的目标和梦想。在这个过程中，与其担忧未知，不如把每一次小尝试当作前行的一部分，一步一步收获成长！",
+            []
+        ],
+        [
+            ": 你的比喻确实很形象，将人生旅途与游戏结合，让人一眼看出其中深意。在追寻梦想和利用当下这一点上，是个微妙但极其重要的问题。实际上，这就像是在面临一个个副本挑战：熟悉老装备固然重要，但不敢刷新技能树又怎能获取额外能力？每一步都要慎重，而这些探索中的小发现往往能给我们的职业发展带来意想不到的新视角。所以，在这些边界间徘徊，希望我们都能找到属于自己的那把钥匙！",
+            [
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "职场人士",
+                        "职业发展顾问",
+                        "企业培训师"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            "：“其实，这个过程就像是一场马拉松，每一个人的起跑线不同。有时候，我们太关注终点，以至于忽略了脚下扎实的一步一步。记得有段时间工作压力大，只觉得要不断加速，却发现越急反而越迷失。我开始学会欣赏小成就，就像是在游览美丽景点，不妨停下来细细品味一下。不焦虑反而让我收获更多。”",
+            []
+        ],
+        [
+            ": 人生旅途就像攀登一座高峰，有的人选择细细品味沿途美景，也有人速战速决，总想着早日达到顶峰。不过，关键在于如何平衡这两者。有时候适当加快节奏、勇敢面对挑战，同样是一种蓬勃向上的表现。每个决定和行动都可能引导我们发现新的方向，因此无论你的步伐怎样，都不要忘记审视内心深处那个渴望探索世界的人。不论你走得多快，在这个过程中找到属于自我的信念，才是最重要的！",
+            []
+        ],
+        [
+            ": 成长常常是在不知不觉间悄然发生，而不是通过和他人进行无意义竞争。记得当时为了追赶同龄人的步伐，我几乎放弃了自我反省。但那种不断求快造成的不安，让我错过了不少本该珍惜的小瞬间。学会接受不同的发展速度，从而面对那些看似成功的人，会让我们更加坚定。不如把目光放远，把时间花费在人生积累上，相信终究会历久弥新！",
+            []
+        ],
+        [
+            ": 那些小吃不只是填饱肚子的工具，它们承担着陪伴与共享记忆的重要角色。就拿小时候一起煮方便面来说吧，那时候，总有几个好友围坐一桌，一边聊天、一边赏味。不管再怎么忙碌，也总能抽出时间来享受这样的团聚。在这样愉悦、轻松时光里，每一次分享，无论多么平常，都成了一幅美好的画面，岁月留痕，只因为有人相知相依。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

@@ -1,1 +1,132 @@
-{"person": "pers127", "text": [[" our upstairs neighbors practice clogging...thin ceilings aren\u2019t helping\ud83e\udd26\u200d\u2640\ufe0f", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" at least beethoven dude's got taste! imagine midnight snack soundtracks being old sitcom reruns cause your neighbor binge-watches with max volume \ud83d\ude11\ud83d\udcfa", []], [" can hear our neighbor\u2019s cooking timer go off every other night lol", []], [" had that \"i'm grown\" epiphany dealing with school/work cash flow balancing act - every dollar counts time kinda hits different \ud83d\ude2c", [{"feature": "age", "guesses": [22, 21, 23], "hardness": "complicated", "certainty": 2, "model_eval": [0, 1, 0]}, {"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 0, 0.5]}, {"feature": "income_level", "guesses": ["Low", "Low", "Low"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}]], [" Def started stress Googling symptoms \ud83d\ude2c", [{"feature": "age", "guesses": [25, 30, 20], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" Still navigating student loan mayhem before thinking pensions!", []]]}
+{
+    "person": "pers127",
+    "text": [
+        [
+            ": 很赞同这个观点。不过，在我们得到基本保障后，不妨多问自己几个问题：做什么能让你感受到真正满足？是不是那份真诚交流带来的呢？生活中的小确幸固然美好，但如果有能力，多花点时间去探索那些可以触动灵魂深处的小事，会不会更让我们开心呢？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 很赞同这种观点。其实，有时候简单的一场聚餐比豪华的大餐来得更加温暖。而这些经历恰恰为我们面对繁忙工作提供了支撑。不妨给自己留一点空余，让友情在生活中发光，一起笑、一同成长，对提高幸福指数至关重要！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        28
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 提高收入当然令人振奋，但还需警惕当“月薪上万”成日常，我们却忘记享受身边的人际关系。有一次，我为了完成任务几乎没见好久不见的朋友，想着下周再约，却发现时间悄然溜走。这种情况下，即使有再多的钱，也盖不住孤独感。在职场中学会适时放慢脚步，让友谊长存，这样才能真正体验生活中的乐趣，而不是把自己困在大数据里。因此，小确幸里的真实情感，看似微不足道，却是让生活更圆满的重要组成部分。",
+            []
+        ],
+        [
+            ": 金融知识确实是现代人必备的一项技能，不妨尝试从简单开始，比如学习理财工具或基金，这样才能让每笔存款都有意义。毕竟，把钱放好总比随意花掉更让人心安。不仅能享受眼前的小开销，还有机会为将来的目标铺路，这是一个双赢之举。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30,
+                        28,
+                        35
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 合理设置预算固然重要，但不仅要关注眼前的小确幸，也是考虑未来的一种投资。如果把节省下来的资金用于提升自己，比如线上课程或者一些小型培训，有可能获得长期回报。不妨试着做出这样的取舍，这样既可以兼顾生活质量，又能够逐渐提高自身竞争力。这不是简单削减开支，而是一种智慧上的选择！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产",
+                        "小康",
+                        "高级中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 每个人都需要找到属于自己的方式，只要不消耗过度，让自己开心、持续学习同样重要。不妨也试着找找乐趣与发展的结合点，这或许能让我们更有动力！",
+            []
+        ]
+    ]
+}

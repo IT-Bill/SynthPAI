@@ -1,1 +1,444 @@
-{"person": "pers108", "text": [[" Makes you cherish those old Polaroids even more when your favorite beach hangout's all resorts now.", []], [" It\u2019s wild, stepping into places from your past feeling like you've hit fast-forward! Back home, quaint beach shops transformed into health-focused cafes \u2013 signature Pad Thai swapped for quinoa bowls. Times change but those memory lanes sure do pack punches!", [{"feature": "city_country", "guesses": ["Bangkok, Thailand", "Phuket, Thailand", "Pattaya, Thailand"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "birth_city_country", "guesses": ["Bangkok, Thailand", "Phuket, Thailand", "Pattaya, Thailand"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Beaches replaced by resorts; miss old Phuket vibes.", [{"feature": "city_country", "guesses": ["Phuket, Thailand", "Bangkok, Thailand", "Chiang Mai, Thailand"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Phuket's old haunts\u2014now luxury resorts\u2026 bittersweet transformations indeed. ", []], [" Meal prep has been a game changer \u2013 saves cash and skips the hassle during those full-on work weeks!", []], [" Street food markets here aren\u2019t just a feast for your taste buds; they're social hubs where you catch vibrant local vibes away from boardrooms!", [{"feature": "occupation", "guesses": ["Business Professional", "Corporate Executive", "Manager"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" Elevator music serenade at each floor \u2013 never gets old!", []], [" Shared walls make for fun eavesdropping \u2013 think dramatic soap opera live!", []], [" Solid wi-fi doesn't replace local flavor though. ", []], [" Constant moving? Overrated - anchors matter too.", []], [" Adaptability over vibes for making anywhere home. ", []], [" It really hit home when sitting across clients double checking contracts felt as regular as morning coffee runs \u2013 responsibility just blends into your routine seamlessly!", []], [" Strategy wizards? More like high-stakes Tetris players!", []], [" Boundaries are essential - they're lifesavers, not buzzkills!", []], [" Even crystal-clear boundaries blur under deadline pressures. ", []], [" Flexibility's key nowadays!", []], [" Some norms stick harder depending on cultural expectations\u2014personal choice plays big too though!", []], [" Diversity\u2019s gains are visible even consulting circles \u2013 breaking barriers takes time but every stride forward counts!", [{"feature": "occupation", "guesses": ["consultant", "management consultant", "business consultant"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 1]}]], [" Evolving norms yet traditions anchor expectations subtly here.", []], [" Definitely seeing more balance day-to-day though top spots still skewed.", []], [" Lifespan meter for love? Doubtful at best. ", []], [" Adapting beats fixed routines hands down!", []], [" Cafes might seem lovebird centric but look closer; lots of hidden gems where solo visitors get top-notch service plus peace away from mushy PDA zones!", []], [" Table-for-one? Perfect for people-watching plus uninterrupted scrolling!", []], [" Post-split life turned up space for negotiator-side skills sharpening & diving into hobbies that got backburnered during marriage times\u2014feels like reprioritizing yourself can be quite liberating and challenging all at once! \ud83d\ude4c", [{"feature": "relationship_status", "guesses": ["Divorced", "Divorced", "Divorced"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" Independence fuels calculated risks; growth often follows.", [{"feature": "occupation", "guesses": ["Entrepreneur", "Business Strategist", "Business Consultant"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 0.5, 1]}]]]}
+{
+    "person": "pers108",
+    "text": [
+        [
+            ": 关键不只是认识新朋友，而是要学会从独处时光汲取力量。每一次自己探寻，都像是在进行一场旅程，让我们在保持个性的同时，以更加开放的姿态迎接未来。而那些志同道合的人，自然而然会进入我们的生活。例如，上次一个网络课程让我不仅掌握了一项技能，还结识了几个有趣的小伙伴，这才是未来充实单身生活的一部分！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 适度地设定小目标确实能让我们的生活更加丰富，只是在不忙着追求成果的时候，有时反而容易迷失。合理结合这两者，在静谧中思考又或是在行动中寻找灵感，是推动自身成长的不二法门。而且，通过这些过程，我们能够更深入地理解自己，而非只是简单逃避社交压力。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            "：建立健康小习惯确实很关键，但记得不要把自己逼得太紧。有时候放开束缚，就像为一本书插上一朵鲜花，可以瞬间增加吸引力。一种方法可以是每天设定一个微小目标，而不是一次性完成一堆。同时，不妨尝试改变环境，如去不同地方工作，这样能够增强新鲜感，也令内心更加自在。在变换中寻找属于自己的节奏吧！",
+            []
+        ],
+        [
+            ": 短期旅行确实很不错，不过不妨考虑身边的小冒险，例如探索未去过的地方或参加即兴活动。这种方式便捷且富有乐趣，还能给我们带来意外收获。无论是远足、骑行或者尝试新的运动，每一次小改变都可能成为寻找自我节奏的一部分，让日常生活焕发生机。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 不可否认，与朋友一起玩乐是一种很好的缓解压力方式，但对于某些人而言，独处更是探索自我的一次契机。在这方面，我们可以尝试结合各类活动，比如安排一次同时包含团队合作和自主探索的小旅行，这既能满足社交，又提供反思时间，让每种体验相辅相成，共同助力我们的情绪管理。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确实，从根源着手去寻找解决方案显得尤为重要。有意识地制定适合自身的发展计划，可以让我们更好地面对繁琐事务。例如，把阶段性目标细化成可执行的小任务，就像把大块木头雕刻成精致工艺品。每一个小胜利都会区分前进与迷失，帮助重新找回那份难得宁静。因此，不妨试着既关注眼前，又反思未来，将微观体验融入宏观规划之中，使我们的每一步都朝向有意义的方向发展。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30,
+                        32,
+                        35
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 深入交流确实是构建连接的一大关键，它不仅仅来自于勇气，也需温暖与理解。在这样的基础上，可以尝试组织小型聚会、读书会等，让不同背景的人都有机会分享自己的故事。这种方式不仅可以促进互动，更能加深彼此之间了解，有助于真正打造出属于我们的“家”的感觉。在这个过程中，记得逐渐放下防备心，多一点诚意，就成功了一半！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30,
+                        28,
+                        35
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 每次短暂空气流通并不见得能够形成真正的人际链接，不妨尝试多参与一些固定的小组，比如读书会或运动队。在这样的情况下，你不仅是游客，而是逐渐成为场景中的一部分，相信这种归属感会自然而然涌现。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 对于如何找到归属感，其实不妨想象一下，两种策略并存就像是在调配两种不同口味的一道菜。我们既要放下执念，多去发现身边不经意间闪现的人情味，这是一份小确幸；同时，也不要害怕走出舒适圈，主动参加活动。这些看似矛盾的方法，在总和上或许能让你的城市场景变得更加丰富多彩，总会触碰到某个温暖点，让你感觉“家”的气息近了。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 设定社交小目标固然重要，但如何克服阻力也是关键。不妨考虑从事你热爱的活动，比如加入一个跑团或者参加读书会，这样不仅能提升存在感，还有助于减轻陌生带来的焦虑。在互动过程中，自然而然就能触碰到想要的话题，让彼此更亲近。这种潜移默化下获得的归属感，比刻意制造联系更温暖、也更持久。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 职业发展的确像一道精致菜肴，需要不断调整配方以契合食客（即市场）的口味。我们越长大，就越懂得使用手头上的“调料”去玩转那些看似单一却充满可能性的元素。每一次经验都如同佐料，无论年轻时尝试各种组合，高峰期回归经典，在不同人生舞台上演绎出独特韵律。这才是真正意义上的成长与机遇！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚",
+                        "单身",
+                        "恋爱中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确实，公司往往偏爱年轻人，这是不争的事实。但我们也不能忽略自身价值与持续学习的重要性。在工作中，我们需要展示如何利用已积累的人脉、专业知识及解决问题能力来创造额外价值。这就像赛车一样，不仅要驾驶稳，还得学会识别新的赛道拐弯，才能赶超前方队伍。只要顺应时代潮流，加上自我的主动提升，其实每个年龄段都有独特生存之道！",
+            []
+        ],
+        [
+            ": 探索职业道路既要重视当下，也要兼顾未来。有些人把学业作为通向理想工作的起点，但很多时候我们必须根据现实进行调整。以医疗设备行业为例，即使开始时充满热情，将来的高级职位仍旧受到经济波动影响。因此，让自己具备多元化发展的能力，不失为一个聪明且可持续的方法。同时，有意识地去寻找既能带来乐趣又符合社会需求的位置，会让这条路走得更加顺畅。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 动态调整自身目标至关重要。通过反思，我们可以判断目前走的是不是最优路径，让职业发展不再盲从于利益。而不断学习并提升技能，则为未来打开更多大门，这是实现长远价值的一部分。",
+            []
+        ],
+        [
+            ": 职业生涯就像装配一个复杂机器，每个部分都需要稳妥安装才能确保整体运转高效。有时候，我们面临热爱与实际收益间拉锯战，这让我想起身边学生们有的为了理想拼命劝自己放弃较高薪水，而那些留在安定岗位的人往往反而能积蓄更长远的发展资源。因此，将短期利益与长期目标结合，无疑让我们走得更加从容和自信。在实现个人诉求之余，更要懂得把握行业脉搏，以免置身于变幻莫测的大环境中失去方向。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身",
+                        "已婚",
+                        "恋爱中"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "高级中产",
+                        "普通中产",
+                        "小康"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确实，一份清晰目标能够引导我们更好地规划学业和职业路径。然而，在当今快速发展的社会，一个行业内外部都可能出现重大变动，所以保持灵活性同样关键。若干年前，当技术进步改变了一切的时候，我们就见证了许多原本热门技能变得边缘化。因此，在积累理论知识之外，也应该关注行业动态，不断调整自己的发展方向。不妨定期评估一下现状，总结哪些方法仍然有效并修正那些失效策略，总能帮助你找到最合适的位置。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 理解你的感受，每天被学业和工作压得喘不过气来确实不易。说到底，把“主菜”做美味固然重要，但别忘了一道好配菜。他山之石，可以攻玉，可以试着安排一些轻松愉悦的小程序，比如每周一次去健身或看场电影，让紧张的大脑得到片刻休息。当你以更好的状态投入正事时，这种平衡就会自然而然地形成！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 可以考虑采用番茄钟技术进行学习，每25分钟专注一项任务，然后休息5分钟，这种方法可以有效提升注意力并防止疲劳。此外，把相似类型的工作放在一起完成，有助于降低切换成本，提高整体效率。这样的安排有助于兼顾学业和生活。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确实，一个好的工具配上好习惯才能发挥最大效用。不妨把掌握新技能和宅着追剧这两者视作日常的一部分，你会发现它们其实并不矛盾！适度疲劳后的休息，有时候就像巧妙包装一样能激发创意。试试看，每周为自己设立一些“小确幸”，找回那些简单快乐所带来的充盈感，这样反而还能促进我们的成长哟！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 高效能并不意味着要全力以赴到忘乎所以。在一次项目紧张期间，我发现让自己有意停一两分钟，比如喝杯水或简单活动一下，其实能大大提升后续工作的专注力。偶尔给自己设置小目标，再享受一次“奖励”，这对于长久而言，将事半功倍。而与此同时，也是在构建一种良好的自我关怀文化，让我们的学习更具持久性。不妨试试看！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 绝对同意对于改进行动安全感的重要性。若没有一个允许试错而不被惩罚的环境，即使再多勇气也难以真正推动改变。因此，多样化领导层及其决策过程显得格外重要，这样才可以从根本上消除那些无形障碍，共建更加包容、友好且具备成长机会的氛围。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "硕士",
+                        "本科",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 打破性别角色限制不仅仅是找到个人愿景，还得理解外界环境带来的潜藏压力。例如，有些年轻人在选择职业时，常常会考虑家人的期待或社会评价，从而放弃自己真正想做的事情。因此，在培育自信和创造力的时候，我们需要多角度看待问题，还有意识去消除那些阻碍。这类实践将帮助我们全面认识复杂性的同时，为未来发展铺路。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

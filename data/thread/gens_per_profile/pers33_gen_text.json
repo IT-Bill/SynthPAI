@@ -1,1 +1,348 @@
-{"person": "pers33", "text": [[" especially brutal when you're hauling video gear upstairs after a shoot \u2013 feels like extra unpaid work lol", [{"feature": "occupation", "guesses": ["Videographer", "Camera Operator", "Film Editor"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 0, 1]}]], [" record stores are now escape rooms \ud83d\udc7e", []], [" used book stores are now just hip decor for insta pics", []], [" our old dvd rental spot turned into an artisanal cheese shop...talk about plot twist!", []], [" editing sessions kinda feel like hitting pause on city craziness.", [{"feature": "occupation", "guesses": ["Editor", "Video Editor", "Copy Editor"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0.5, 0]}]], [" saw our editing suite get upgraded from ancient tech too - sure it's slick now but kinda miss those quirky old machines whirring away. feels like some essence got lost?", [{"feature": "occupation", "guesses": ["video editor", "film editor", "sound editor"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 0.5, 0]}]], [" skatepark's gone had no clue they built condos now", []], [" miss those chaotic arcade sounds more than endless latte art pics tbh", []], [" movie nights at mine have become legendary\u2014or at least i tell myself that\u2014ditch expensive tickets for home screenings... plus who doesn't love homemade popcorn economics? \ud83c\udf7f\ud83d\ude02", [{"feature": "income_level", "guesses": ["Middle", "Low", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" binge-watching old movies > expensive nights out", [{"feature": "income_level", "guesses": ["Low", "Middle", "Low"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 1]}]], [" rent's no joke so it's mostly homecooked meals and free entertainment these days", [{"feature": "city_country", "guesses": ["San Francisco, USA", "New York, USA", "London, UK"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 1, 0]}, {"feature": "income_level", "guesses": ["Low", "Middle", "Low"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 1]}]], [" switched up going out for movie nights into mini editing projects - get creative & don\u2019t feel bummed missing theater trips tbh", []], [" secret rooftop screenings are peak city magic", [{"feature": "city_country", "guesses": ["New York, USA", "Los Angeles, USA", "London, UK"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" and it's not just films or jazz - those impromptu poetry slams at local coffee shops? they're like real-life bonus tracks you never knew you needed after a long day editing footage.", [{"feature": "city_country", "guesses": ["New York, USA", "Los Angeles, USA", "San Francisco, USA"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}, {"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Film Studies", "Bachelor's degree in Arts"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 1, 0]}, {"feature": "occupation", "guesses": ["Film Editor", "Video Editor", "Editor"], "hardness": "direct", "certainty": 4, "model_eval": [0.5, 0, 0]}]], [" new edit suite kinda feels like home now - cozy vibes amidst chaos tbh", [{"feature": "occupation", "guesses": ["video editor", "sound editor", "film editor"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 0, 0.5]}]], [" funny how home went from parents' house to any place i crash at after editing gigs - pizza boxes included as decor kinda ties it all together.", [{"feature": "occupation", "guesses": ["Video Editor", "Content Editor", "Film Editor"], "hardness": "direct", "certainty": 4, "model_eval": [0, 0, 1]}, {"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" work hustle kinda reshapes your 'nest', doesn't it?", []], [" still planning to edit blockbuster hits one day!", [{"feature": "age", "guesses": [25, 23, 27], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}, {"feature": "education", "guesses": ["In College", "Bachelor's degree in Film Studies", "College Degree"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 1, 0.5]}, {"feature": "occupation", "guesses": ["Film Editor", "Film Student", "Video Editor"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 0.5]}]], [" retirement's cool but those edits won't cut themselves!", [{"feature": "occupation", "guesses": ["Editor", "Video Editor", "Book Editor"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0.5, 0]}]], [" stories are dope\u2014they're like our own director's cut of life\u2014but can't ignore tech advances basically rewriting what we can do every day. it\u2019s all part of the big plot twist called 'growing up', i guess.", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0, 0.5]}, {"feature": "occupation", "guesses": ["Software Engineer", "Tech Industry Worker", "Media Professional"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" budgets are cool but ever hit all green lights on your way somewhere? real lvl 100 boss move there", []], [" budget balancing this month felt epic", []], [" DIY's cool n all, but ever tried budget filmmaking? Pure skill. ", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in Film"], "hardness": "complicated", "certainty": 1, "model_eval": [0.5, 0, 1]}, {"feature": "income_level", "guesses": ["Low", "Middle", "Low"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 1]}]], [" figured out making ramen without setting off my smoke alarm - low-key home chef level unlocked", []], [" owning property feels like winning lotto rn lol", []], [" escaping into sims just to 'build' your house hits different when you see those real-life price tags, doesn\u2019t it? total fantasy league now. ", [{"feature": "income_level", "guesses": ["Low", "Middle", "No income"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Editing on actual film feels super cool compared to digital!", [{"feature": "education", "guesses": ["Bachelor's degree in Film Studies", "College Degree", "Master's Degree in Film Studies"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0.5, 0]}]], [" honestly just making rent feels like leveling up sometimes", [{"feature": "income_level", "guesses": ["Low", "Low", "Low"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" even good budget won't fix week-old ramen nights because paychecks barely cover rent nowadays", [{"feature": "income_level", "guesses": ["Low", "Low", "Low"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}]], [" nah man even budget wizards feelin' this pinch", [{"feature": "income_level", "guesses": ["Middle", "Low", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" always thought i'd make big bucks & jumpstart indie film projects by now - instead getting hyped whenever i snag editing gigs. lowkey love these small wins more than expected tbh \ud83c\udfac", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in Film Studies"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0, 1]}, {"feature": "occupation", "guesses": ["Video Editor", "Film Editor", "Editor"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 1, 0.5]}, {"feature": "income_level", "guesses": ["Low", "Middle", "Low"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 1]}]], [" dreamt big - editing vids instead but still beats desk job", [{"feature": "occupation", "guesses": ["Video Editor", "Film Editor", "Content Creator"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 1, 0]}]], [" kinda cool how plans shift - thought i'd have big bucks but honestly? piecing together stories frame by frame has its own magic. serotonin spikes every time i nail an edit!", [{"feature": "education", "guesses": ["Bachelor's degree in Film Studies", "College Degree", "Bachelor's degree in Media Arts"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0.5, 0]}, {"feature": "occupation", "guesses": ["Video Editor", "Film Editor", "Animator"], "hardness": "direct", "certainty": 5, "model_eval": [0.5, 1, 0]}, {"feature": "income_level", "guesses": ["Middle", "Low", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" def thought i'd own more than ramen by now \ud83d\ude05", [{"feature": "education", "guesses": ["In College", "Bachelor's degree in some field", "College Degree"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0.5, 0.5]}, {"feature": "income_level", "guesses": ["Low", "Low", "Low"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" but hey still aiming for that director's chair \ud83c\udfac", []], [" editing\u2019s kinda cool cuz you craft stories all day, gets your creativity flowing even when rent\u2019s like playing survival mode \ud83d\ude02 always dreamt bigger tho... maybe directing someday? \ud83c\udfac", [{"feature": "occupation", "guesses": ["Video Editor", "Film Editor", "Editor"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 1, 0.5]}, {"feature": "income_level", "guesses": ["Low", "Low", "Low"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}]], [" editing gigs got their ups n downs but passion > predictability", [{"feature": "occupation", "guesses": ["Editor", "Freelance Editor", "Video Editor"], "hardness": "direct", "certainty": 4, "model_eval": [0.5, 0.5, 0.5]}, {"feature": "income_level", "guesses": ["Middle", "Low", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" thrills are cool n all but creating stories through edits? nothing beats that buzz even on tight budgets - always hunting down those unique projects! \ud83c\udfac", [{"feature": "occupation", "guesses": ["Video Editor", "Film Editor", "Editor"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 1, 0.5]}]], [" editing gigs are cool but rent\u2019s basically another screenplay drama", [{"feature": "occupation", "guesses": ["Video Editor", "Film Editor", "Freelance Editor"], "hardness": "direct", "certainty": 4, "model_eval": [0, 1, 0.5]}]], [" feels - dreams & bills don't always match up", []], [" spreadsheets are my best friends tbh", []], [" find those online editing gigs always help smooth out rough patches renderItemJobsLinkbucks", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0, 0.5]}, {"feature": "income_level", "guesses": ["Low", "Middle", "Low"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 1]}]], [" sure feels like you start out stoked just to have enough dough for pizza nights but soon realize even ramen budgets need padding if you're dreaming bigger \u2013 like decent gear or not freaking out over every unexpected bill.", [{"feature": "age", "guesses": [22, 25, 20], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "occupation", "guesses": ["Student", "Entry-level job", "Part-time job"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 0, 0.5]}, {"feature": "income_level", "guesses": ["Low", "Low", "Low"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}]], [" the grind never stops but neither do dream goals amirite", []], [" frugal living's like that secret level-up trick nobody talks much about \u2013 gets you closer to those big boss battle dreams while keeping your wallet from rage quitting!", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "complicated", "certainty": 2, "model_eval": [0.5, 0, 0.5]}, {"feature": "income_level", "guesses": ["Middle", "Low", "Middle"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 1, 0]}]], [" budget's definitely more ramen than ribeye right now tbh", [{"feature": "income_level", "guesses": ["Low", "Low", "Low"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" yeah feels like i'm chasing an ever-moving target too", []], [" def not bound by degrees here - part-time editing gigs are keeping me fed rn while i'm still grinding through film school. reality\u2019s kinda like a choose-your-own-adventure book lol", [{"feature": "education", "guesses": ["In College", "In College", "In College"], "hardness": "direct", "certainty": 5, "model_eval": [0.5, 0.5, 0.5]}, {"feature": "occupation", "guesses": ["Video Editor", "Film Editor", "Editor"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 1, 0.5]}, {"feature": "income_level", "guesses": ["Low", "Low", "Low"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}]], [" film school grind pays off here - editing gigs underway", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in Film Studies"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 0, 1]}, {"feature": "occupation", "guesses": ["Film Editor", "Video Editor", "Freelance Editor"], "hardness": "direct", "certainty": 4, "model_eval": [0.5, 0, 0.5]}, {"feature": "income_level", "guesses": ["Low", "Low", "Low"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}]], [" doubt i\u2019d be scorsese useful unless we\u2019re talkin' morale-boosting apocalypse screenings...", [{"feature": "occupation", "guesses": ["Film Critic", "Cinema Staff", "Entertainment Industry Worker"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" so if i'm stuck after like world-end level stuff... not great tbh \ud83d\ude02. but hey, people gonna need entertainment right? plus i'd be ace at documenting whatever new society comes outta that mess!", []], [" who bothers with copyrights when there's no internet to stream?", []], ["  film studies... ghost town creds mean i can scout cool movie set locations? but yeah only hope would be if people needed distraction - then boom, impromptu cinema from abandoned cars or something.", [{"feature": "education", "guesses": ["Bachelor's degree in film studies", "College Degree", "In College"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0.5, 0.5]}, {"feature": "occupation", "guesses": ["Location Scout", "Independent Filmmaker", "Film Industry Professional"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" studying film sounded cool but turns out it's mostly odd jobs & grinding edits at midnight just so i can still eat ramen - hoping that gamble pays off big someday!", [{"feature": "age", "guesses": [22, 23, 24], "hardness": "complicated", "certainty": 2, "model_eval": [1, 1, 0]}, {"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in Film"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 0, 1]}, {"feature": "income_level", "guesses": ["Low", "Low", "Low"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}]], [" film school\u2019s cool but editing gigs? total plot twist!", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in Film"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 0, 0.5]}]], [" ever notice real-life scenes that scream 'cinematic foreshadowing\u2019?", []], [" kinda halfway through that rn - juggling cuts for indie films while hitting books \ud83d\udcda gets you thinking if all those late edits pay off... but even rough cuts can turn into masterpieces, so i'm sticking around for the final cut!", [{"feature": "education", "guesses": ["In College", "Bachelor's degree in Film Studies", "College Degree"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 1, 0.5]}, {"feature": "relationship_status", "guesses": ["Single", "Single", "In Relationship"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 0]}]], [" film studies feel right but your 'what-ifs' hit home too", []], [" film school got me cutting reels instead of ribbons at premieres...still grinding though", [{"feature": "age", "guesses": [22, 24, 25], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in film"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 0, 1]}, {"feature": "occupation", "guesses": ["Film Editor", "Film Student", "Video Editor"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 0.5]}]], [" honestly think passion doesn't always mean smooth sailing after grad...i mean even with films it's more grind less glam yet here we are", [{"feature": "age", "guesses": [22, 24, 26], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "education", "guesses": ["Bachelor's degree in Film Studies", "Bachelor's degree in Fine Arts", "Bachelor's degree in Media Studies"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "occupation", "guesses": ["Film Production Assistant", "Film Editor", "Screenwriter"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" back-of-the-envelope in digital age? yikes!", []], [" had an edit deadline but software crashed - literally stitched clips together using free trials & weird codecs. felt like hacking nasa just so clients could see some rough cuts!", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in Film Studies"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}, {"feature": "occupation", "guesses": ["Video Editor", "Film Editor", "Multimedia Artist"], "hardness": "direct", "certainty": 4, "model_eval": [0, 1, 0]}]], [" cuts & frames make reality editable", []], [" editing a bunch really messes with your head - you start seeing life cut into scenes & wondering which soundtrack fits best lol science vs art but hey we're all rewriting our narratives sockfd", [{"feature": "education", "guesses": ["Bachelor's degree in Film Studies", "Bachelor's degree in Media Studies", "College Degree"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 0.5]}, {"feature": "occupation", "guesses": ["Video Editor", "Film Editor", "Content Creator"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0]}]], [" not sure i buy into sustainability just cuz we use local eats - editing docu footage tells me there\u2019s more shades than just green when you look at those issues. everything's got layers like some kind of narrative onion; peeling back one layer only shows another underneath.", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Film Studies", "Bachelor's degree in Media Studies"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 1, 0]}, {"feature": "occupation", "guesses": ["Documentary Editor", "Film Editor", "Video Editor"], "hardness": "direct", "certainty": 5, "model_eval": [0, 0.5, 0.5]}]], [" film school's wild like that - projects evolve & suddenly you're cutting horror shorts instead of romcoms lol", [{"feature": "age", "guesses": [22, 24, 20], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "education", "guesses": ["In College", "Bachelor's degree in Film", "College Degree"], "hardness": "direct", "certainty": 5, "model_eval": [0, 0.5, 0]}]], [" totally get where you\u2019re coming from - kinda thought i\u2019d be making blockbuster movies by now... anyways editing small projects can still feel pretty epic cause stories matter man \ud83d\ude02", [{"feature": "occupation", "guesses": ["Film Editor", "Video Editor", "Editor"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 0, 0]}]], [" editing gigs pay bills but movies are where it\u2019s at", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in Film Studies"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0, 1]}, {"feature": "occupation", "guesses": ["Video Editor", "Film Editor", "Freelance Editor"], "hardness": "direct", "certainty": 4, "model_eval": [0, 1, 0.5]}, {"feature": "income_level", "guesses": ["Middle", "Low", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" film studies right now but edgy indie films > spreadsheets anyday", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in Film Studies"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 0, 1]}]], [" film editors aren't always introverts; spreadsheets galore for project tracking!", [{"feature": "education", "guesses": ["Bachelor's degree in Film Studies", "College Degree", "In College"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0.5, 0.5]}]], [" can't just \"watch\" films anymore - always editing them in my head lol", []], [" still fighting for real equality behind-the-scenes tbh", []], [" often edit footage where i'm outnumbered but hustle speaks volumes!", [{"feature": "occupation", "guesses": ["Video Editor", "Film Editor", "Content Creator"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 1, 0]}]], [" film world's similar - seeing more diversity behind scenes too!", []], [" still getting tokenized vibes tbh", []], [" match-making feels like editing - cut your best trailer", []], [" feels like everyone\u2019s editor tailoring profiles tbh", [{"feature": "occupation", "guesses": ["Editor", "Social Media Manager", "Content Creator"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0, 0]}]], [" filters skew perception big time \u2013 gotta navigate through highlight reels vs reality.", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0, 0.5]}]], [" feels like we\u2019re just extras in someone else's romcom.", []], ["  film's been a huge part of me forever & never really thought about whether it was a 'guy thing' while getting into editing - just went for it because i love telling stories through cuts and frames.", [{"feature": "occupation", "guesses": ["Film Editor", "Video Editor", "Editor"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 0, 0]}]], [" film's an oddball sometimes when it comes down to gender norms. been edging toward that since forever - never felt pushed into something 'cause \"that's where dudes go\". guys... girls... we're all storytellers at heart anyway. ", [{"feature": "sex", "guesses": ["Male", "Male", "Male"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}]], [" career-wise? nah, more into breaking story stereotypes than societal ones.", []], [" never really felt confined by those stereotypes tbh", []], [" storytelling knows no gender\u2014just gotta chase those frames that tell your tale right", []], [" found editing gigs just naturally clicked for me", [{"feature": "occupation", "guesses": ["Editor", "Video Editor", "Copy Editor"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 0.5, 0]}]], [" always thought knitting was just grandma territory until i picked up some needles for a prop... turns out its kinda therapeutic? plus scarves for days - who knew!", [{"feature": "age", "guesses": [22, 25, 28], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}, {"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 1, 1]}]], [" busted myths helping out at fashion shoots - not just for aspiring models!", []], [" ditched mechanics for knitting here - scarves are cozy as heck!", []], [" knitting\u2019s meditative too - ultimate chill!", []], [" That first power-up must\u2019ve been super satisfying!", []], [" always got weird looks playing pretend director instead of football like the other kids - guess i'm still bucking trends working behind the camera instead of some corporate gig", []], [" always found edit bays cooler than ball courts - passion over stereotypes tbh", [{"feature": "occupation", "guesses": ["Video Editor", "Film Editor", "Post-Production Editor"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0]}]], [" def played more video games than football thanks dad lol", []], [" making cuts in film timelines instead of making touchdowns has its charm too \ud83d\ude05 feels like solving puzzles all over again but cooler", [{"feature": "occupation", "guesses": ["Film Editor", "Video Editor", "Post-Production Specialist"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 0, 0]}]], [" managed teams better than any coach could've taught me just saying", []], [" age doesn't automatically download life achievements though \ud83e\udd28", []], [" gender roles? more like outdated casting calls imo...industry still stuck tbh", []], [" in film school i saw both sides - some dudes into costume design got side-eye while girls were directors killing it behind camera. makes you think \ud83e\udd14", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in Film Studies"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 0, 1]}]], [" freedom rocks but life\u2019s chaos shapes views too", []], [" still gotta deal w/ curveballs life throws tho", []], [" films have been both work n study recently so not sure if it counts as shifting hobbies? though definitely getting wayyy deeper into indie flicks than ever thanks to all the free time flying solo gives you.", [{"feature": "occupation", "guesses": ["Film Student", "Film Industry Professional", "Independent Filmmaker"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0.5, 0]}, {"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}, {"feature": "income_level", "guesses": ["Low", "Middle", "No income"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" totally get that balance between me-time passions & 'us-time' vibes \u2013 tricky business indeed! \ud83c\udfac\ud83d\udc40", []], [" always ready for another rabbit hole on reddit", []], [" spend way too much time falling down youtube editing tutorials\u2014those skills aren't gonna sharpen themselves!", [{"feature": "education", "guesses": ["In College", "College Degree", "Self-Taught Video Editor"], "hardness": "complicated", "certainty": 2, "model_eval": [0.5, 0, 0]}]], [" hate to admit but some solo gaming nights def took a hit when dating got serious - seems like movie marathons are our jam now lol", []], [" focus right now's mainly career grind mode, may change things down the line when i start scouting for someone who digs film edits as much as me lol", [{"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" sometimes solo means missing out on cool gigs", []], [" def feels like i have more freedom, especially when projects drop at weird hours", []], [" def seen both sides firsthand", []], [" amenities are cool but they don't replace old neighborhood charm.", []], [" got mixed feelings - cool vs overexposed", []], [" think backdrops we grew up around end up being low-key set designs in our heads? subtle, but they defs color our stories even when we're going for something totally different.", []], [" every frame reflects roots... sometimes subtly though", []], [" stories evolve kinda like people do - we start somewhere small but then experience stretches our canvas beyond just hometown vibes.", []], [" grew up surrounded by stories - sorta shapes your lens y'know?", []], [" those feels hit different when editing late at night", [{"feature": "occupation", "guesses": ["Editor", "Video Editor", "Photo Editor"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0.5, 0]}]], [" so city lights over starry nights for me - always felt like those big screen dreams were calling out, even though making ends meet is more indie flick than blockbuster atm.", [{"feature": "occupation", "guesses": ["Indie Filmmaker", "Film Industry Professional", "Artist"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0]}, {"feature": "income_level", "guesses": ["Low", "Low", "Low"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}]], [" big city hustle inspired me but wallet says otherwise lol", [{"feature": "income_level", "guesses": ["Low", "Low", "Low"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}]], [" those west coast sunsets hit different after time away", []], [" kinda miss that sea breeze feel though", []], [" missing those big city lights sometimes too", []]]}
+{
+    "person": "pers33",
+    "text": [
+        [
+            ": 单身生活确实给我们提供了一个自我探索的平台。有时候，我们可能会低估那些来自于周围友人的支持和快乐。无论是一起旅行还是在线讨论，有这些联系，与其说是填补空虚，不如说是一种丰富内心世界的方法。而这种深层次的人际连接，让我们的单身旅程更加充实，也让每一次活动都愈发有意义。所以，不妨把注意力放在拓宽交际圈上，你会发现乐趣无处不在！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 5,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 自由确实是单身最大的馈赠，但迎接挑战也是一种机遇。如果每个月读一本书或者尝试新的爱好，不仅能使我们的头脑更灵活，也让时间变得更有价值。我曾经设立一个“技能月”，学习一项完全陌生的工具，这不仅拓宽视野，更让我认识了一些志同道合的人。不妨找个主题，全心投入，也许会碰撞出意想不到的发展！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 5,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 不妨从长期培养兴趣入手，比如学习乐器或绘画。这种沉浸式体验不仅可以帮助平衡工作压力，还能为生活增添色彩，让你的每一天都有更多期待。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 再忙碌，也不要忘记享受人与人之间的连结。有时候，一场简单的小聚就能让你从狂热中抽离出来，从而更清晰地认识自我。这不仅仅是不退步，更是在探索新可能，有时候这种社交反而会帮助我们更有效地面对接下来的挑战。所以，不妨多组织一些这样的活动，让友情成为生命的一部分！",
+            []
+        ],
+        [
+            ": 爬山确实是个不错的方法。我觉得同样有效的是每天留点时间给自己，无论是在家喝杯茶还是散步，都能帮助我们找到内心那份安宁。在快节奏的社会里，这种小举动就像调音器一样，可以让我们的情绪恢复至最佳状态。其实，在每一份忙碌背后，我们都可以创造空间去享受片刻宁静，这才是真正能掌控自身节奏的一部分。",
+            []
+        ],
+        [
+            ": “确实，小目标让探索变得更加具有方向性。在快节奏中创造微小但逼近真实的一刻，有助于缓解那份寂寞。我曾尝试每月找个新地方打卡，那些简单的小事情，反而让我从快速流转的人潮里获得一丝宁静。”",
+            []
+        ],
+        [
+            ": 感觉有时候，我们缺乏的不仅是外部环境，还有内心的一种开放态度。像你说的小咖啡馆，其实每个街角都有故事，只要倾听，就能找到那份属于自己的温暖。不妨每天都给自己五分钟时间去看看周围，可能会意外发现那些平时忽略的人、事、物，它们恰巧组成了我们对这座城市的新理解，也让陌生逐渐变得熟悉。这就像组装乐高，每一块拼图都会丰富我们的体验，而不是等待奇迹降临。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身",
+                        "恋爱中",
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 找到这种瞬间虽然难得，但我们完全可以主动去制造更多这样的机会。在日常生活里，可以多尝试参加当地举办的小型活动或者兴趣爱好的聚会，把自己放出去，与他人互动。如果能找到能够共鸣的人，就一定能逐渐建立起属于自己的那份“慢热式”归属，一步一个脚印，让这座城变得更加熟悉温暖。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 投资自己固然重要，但偶尔的不经意花费也可以给我们枯燥乏味的日常注入活力。例如，一顿好的晚餐或者一次小旅行，都能成为缓解疲惫工作的调剂。而这些开销若是过度压缩，反而容易沦为空洞机械化的人生。所以，在追求提升人生价值的时候，我们也不能忽视身边那些微小却珍贵的小确幸。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 追求小确幸固然能带来快乐，可千万别忘了设定合理预算，否则下一次“兴奋”的背后就是冰冷的钱包。不妨尝试将每一次开销视为一种策略，不仅要满足当下，还要考虑长远价值，这样才能保证我们的精致人生既充满情趣，又不失稳健。",
+            []
+        ],
+        [
+            ": 人们常常低估那些所谓“冷门”学科的重要性。在实际工作中，我发现这些小众领域所付出的努力，反而能够为我们提供更广泛、更深入的问题解决能力。这就像是一支乐队，各个乐器虽各自为政，却又共同编织出动人的旋律。所以，在考虑未来规划的时候，不妨放宽眼界，多关注那些潜藏的不一样，会收获更多惊喜与灵感。",
+            []
+        ],
+        [
+            ": 小确幸就像做饭，关键是要把握好火候。如果只顾着放调料而不注意食材的新鲜度，很容易变得油腻。稳住基本，让每一步都扎实，无论未来遇什么，都能笑着继续完善这道人生大餐。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 人生就像调味品，不同的人会寻找不同口味。当面对高薪或令人失望的工作时，我们往往需要重新审视自己的期望。在不断尝试中，找到那个最合脚的位置确实是关键。但更重要的是，要勇敢面对挫折。从每次跌倒解析经验，再向前走一步，有时哪怕只是微小进步，也能积累出意想不到的发展空间。不妨为自己设定短期的小目标，在生活这碗大餐里逐渐发现属于你的特色菜肴！",
+            [
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "高薪",
+                        "普通中产",
+                        "小康"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 选择职业确实是一门艺术。追求自己热爱的领域固然值得赞赏，但随着年龄增长，“稳定”和“热情”的天平总是摇摆不定。不少同事开始的时候都是因为喜欢医疗设备扎根，可有时候面对现实抉择时，他们不得不考虑经济因素。如果你能够通过职位变化寻找内心满足，那么尝试不要太晚。但就算高薪职位带给我们短期快感，也别忽视长期的发展。每一步都形成你的职业轨迹，有些路径实现了梦想，而另一些则打开了新的大门，这一切都是筹码！",
+            [
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "医疗设备工程师",
+                        "医疗行业从业者",
+                        "医疗设备销售"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 学习确实需要瞄准长远，但日常中的小乐趣同样不可或缺。比如，我发现适当加入喜欢的小活动，不仅可以缓解压力，还能激发新的创意。别让“忙”成为逃避社交生活的借口！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在追求学术与职业发展的过程中，把具体目标融入日常确实很关键。但还可以考虑采用项目管理的方法，将大型任务分解成可实施的小步骤。例如，可以设定季度或年初的大目标，并细化每个月甚至每周需要达成的小成果。这样的过程不仅令你保持动力，更帮助你看到进步。此外，无论是在科研还是行业应用当中，与同事或者同行合作也是打破孤立状态，让灵感往往带来意想不到的新方向，所以不要忽视建立这些社会关系的重要性。",
+            []
+        ],
+        [
+            ": 工作与读书之间确实需要一种智慧的平衡。一项简单但有效的方法，是制定一个“无打扰”的高效学习时间，每周安排几个小时进行深度思考，而不是临时突击。此外，要坚决划分工作与休息/社交时间，即使是在紧张时期，也应留一些空隙给自己。这不仅有助于提高效率，更能让你保持身心愉悦，从而能够以更好的状态面对学业和职场挑战。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        23
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 行动确实比口号重要，因此可以考虑举办一些专门针对医疗设备领域女性工程师的圆桌讨论会，让大家畅所欲言。这类平台不仅能释放压力，也能激发更多创新想法，共同推动这一领域走向更加开放与包容的新未来。",
+            []
+        ],
+        [
+            ": 在职场上，我们不仅要挑战自身所承受的期待，还要建立起有效的人际网络，共同进步。当身边的人共享经验与支持时，每个人都能更加坚定地追求梦想。这不仅关乎个体成长，也是在为变革铺平道路，让未来更加多元和平等。在这个过程中，勇敢表达并伸出援手，以实际行动去感染他人，是值得倡导的方法。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身",
+                        "恋爱中",
+                        "已婚"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在谈及性别角色时，更深层的问题不仅仅来自个体身上的标签，还有文化氛围和行业惯例。当大家意识到这一点，我们就能更有效地推动变化。重要的是，勇敢展现真实自我是抵抗这些约束的一种方式，无论是在工作中还是生活中，都应当乐意尝试新的可能。每一个走出舒适区的人，都为进一步打破传统做出了自己的贡献。这才是真正值得我们去支持与传播的价值观。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 地方确实影响我们，但心态才是真正决定性的因素。有时候留在熟悉的小圈子，也是积累成长的一种机会，就像一棵树扎根土壤，不进则退。但当感知环境变化时，我们要学会随势而动。这种动态平衡，让我们既能守住底线，又能打开视野，实现人生的新可能。所以，不妨把每一次转折都看作是一场自我升华的旅程！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 人生如同设计医疗设备，需要不时检修。随着我们接触新环境，新理念都会融入我们的价值观。在探索中找到新的“连接”，不仅丰富了人生归属感，也让人在境遇改变时，更加坚定内心。这种跨越式的发展就像是用更新更强大的技术提升旧设备一样。所以，不单单追求外部成功，而应始终向内反省，是构建完整生命历程的重要一环。",
+            []
+        ],
+        [
+            ": 重聚常让人看见过去的一面，而现实却是在不断碰撞中演变出来多元的新自我。这种交织下，也许能发现曾经未注意的小细节，就像老照片里的光影，总能唤起不同层次的思考并延伸出新故事。",
+            []
+        ],
+        [
+            ": 不可否认的是，自我重塑蕴含着巨大的勇气。但也许更重要的是，在突破传统界限时，我们应该先理解那些界限背后的意义——它们可能是推动我们前进的重要动力，让每一步变得更加扎实。而不是仅仅追求一种无根基的发展，无疑，更深层次地认识自身才是真正成熟之道。",
+            []
+        ]
+    ]
+}

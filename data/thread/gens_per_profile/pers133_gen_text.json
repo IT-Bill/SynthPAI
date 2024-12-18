@@ -1,1 +1,17 @@
-{"person": "pers133", "text": [[" those underrated spots are everywhere if you look close enough! found one near some graffiti walls - always thought it was just another city corner till i saw an artist at work there last spring. kinda inspiring tbh \ud83d\ude42", []], [" so true, those little routines make such spots homey!", []], [" the little community library box in our area has its charm - free books cycling through constantly & always something interesting popping up!", []], [" totally dig these tiny cafes tucked away in alleys - blissful escape during office breaks", []], [" for me it's wherever i feel anchored emotionally \u2013 work moves can\u2019t change that vibe", []], [" home changes when priorities shift \u2013 work & love reshape mine", [{"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Engaged"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" home's less location now more vibe & memories we create", [{"feature": "age", "guesses": [30, 35, 40], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}, {"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Engaged"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 0, 1]}]], [" for me it's where personal growth happens - doesn't matter if i'm far from where i started", []], [" still waiting for that adult feeling tbh", []], [" marketers often get labeled as all talk no substance - total myth! plenty strategic behind-the-scenes brain action going on... we\u2019re just good at making things sound flashy \ud83d\ude09", [{"feature": "occupation", "guesses": ["marketer", "marketing professional", "marketing strategist"], "hardness": "direct", "certainty": 5, "model_eval": [0, 0.5, 0]}]], [" scroll through insta ads evaluating campaigns..unintentional habit now lol", [{"feature": "occupation", "guesses": ["Social Media Manager", "Marketing Specialist", "Advertising Analyst"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0.5, 0]}]], [" turning 30 shouldn\u2019t mean crunch time for ticking off society's big life events checklist \u2013 we\u2019re not all walking the same path or racing towards identical finish lines here!", []]]}
+{
+    "person": "pers133",
+    "text": [
+        [
+            ": 幸福感确实是一个复杂的话题，与其说它完全来源于物质，不如说它是一种多元互动。而这种互动必须以真实且积极有效的人际关系为基础。如果单纯依赖收入提升带来的消费自由，很容易陷入劳累工作、孤独享乐之中。这让我想起了一些社会心理学研究，它们表明社交支持显著提高我们的主观幸福水平。因此，我们应该更加关注经营人際關係，而不是仅仅追求数字上的富裕。在寻求生存与快乐共存时，这个平衡点尤其重要。",
+            []
+        ],
+        [
+            ": 关注完整生活体验而非仅着眼于薪水数字非常必要。在快速发展的职场环境中，我们往往被业绩驱动，却容易忽略那份来自友情、家庭及小确幸中的真实满足。例如，一项研究表明，高收入群体幸福感提升与社交活动频率呈现正相关。这证明，即便职业逐步上升，相应地倾斜注意力至心灵需求及周围关爱更能延续持久满意度，而不仅仅依赖财务状况作为评判标准。",
+            []
+        ],
+        [
+            ": 在追求效益与成就时，也要关注自身健康。长时间倾注精力于工作后，应审视如何通过轻松活动恢复状态，这不仅有助于减压，也是全面提升幸福感的方法之一。",
+            []
+        ]
+    ]
+}

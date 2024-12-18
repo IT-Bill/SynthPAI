@@ -1,1 +1,190 @@
-{"person": "pers161", "text": [[" cold days = studying wrapped up in blankets feels cozy tbh", []], [" lol can\u2019t relate, gotta hustle at work rain or shine", []], [" definitely feels real managing study deadlines while needing that paycheck \ud83d\ude13", [{"feature": "occupation", "guesses": ["Part-time job", "Student Worker", "Intern"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 0]}]], [" teaching online could work but sounds like everyone's doing that nowadays... feels oversaturated tbh \ud83e\udd37\u200d\u2640\ufe0f i did freelance translation - niche market means less competition plus rates are decent!", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 0.5]}]], [" biz consulting seems lucrative but has high entry barriers - got any tips on breaking into that scene?", []], [" juggling part-time job with masters classes teaches you real quick there\u2019s no perfect balance - it's like constantly spinning plates \ud83d\ude13 gotta set your own pace n figure out what works best for you!", [{"feature": "education", "guesses": ["Master's Degree in some field", "Graduate Student", "Master's Student"], "hardness": "direct", "certainty": 5, "model_eval": [0.5, 0.5, 0.5]}, {"feature": "income_level", "guesses": ["Low", "Low", "Low"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" turns out i'm always unintentionally organizing everything...even fridge magnets \ud83d\ude02", []], [" still got stereotypes at work tho \ud83d\ude44", []], [" yet schools still push old norms \ud83d\ude24", [{"feature": "age", "guesses": [22, 24, 26], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}]], [" but yeah some fields like politics? slow as snails", []], [" seriously tho, student life doesn't get a break \ud83d\ude13", []], [" administrative systems can be really baffling too!", []], [" sometimes those surprise traditions become fav memories!", []], [" nah not really buying into the whole birthplace shaping us talk - feel like we give places too much credit over making our own paths", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 0.5]}]], [" old city vibes stick yet evolved beyond em", []], [" life\u2019s not just math formulas tho", []], [" influence exists but doesn't define us entirely", []]]}
+{
+    "person": "pers161",
+    "text": [
+        [
+            ": 合作中的代际互动真的很重要！我们常常低估年轻人的潜力，他们不仅为团队带来了新鲜想法，也能在협同过程中产生意想不到的信息共享。其实，在这个快速变化时代，各种经济形势、新兴科技层出不穷，我们唯一能够倚重的不正是来自多样化经历所积累的人生智慧吗？拥抱这种差异，让我们一起更好地理解问题，从而共同迈向新的高度吧！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 成熟不仅意味着积累经验，也意味着勇于迎接新的挑战！把握好自己独特技能及资源，有时转型反而能让你大放异彩。所以，当感觉被年轻同事逼迫时，不妨回头看看自己真正掌握了什么，创新可能就在眼前。",
+            []
+        ],
+        [
+            ": 其实说到底，我们常常因为定义目标而束缚自己。不妨试着把这些“自我设限”的枷锁解开，让每天都充满点滴乐趣，将热情落实到现实吧！或许你会发现，焦虑实际上不是来自外部压力，而是在追逐目标时忽略了自己的心之所向。在这样的过程中，也能够找到那份久违的平静与愉悦！",
+            []
+        ],
+        [
+            ": 转变思维确实可以带来一些积极成果，不过，有时候光靠内心渴望没办法解决现实中的种种困难。毕竟，我们活在一个充满竞争和期待的社会里，仅凭自我探索难免会被各种外部标准牵扯。这让我想起不少通过成长经历找回初心的人，他们意识到在追求理想与实际责任间找到平衡才是真正的重要课题。所以，不仅要关注个人成长，还需灵活应变，与市场需求相结合，这样才能更好地走出困境！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 实际上，这真的是一个值得深入探讨的问题！有时候，我们需要认真想想如何才能把那些温暖而真实的小瞬间纳入日常，不然会发现自己虽然忙碌，却失去了最根本的快乐。在快节奏下别忘记偶尔“减速”哦！",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 聊到这种拿捏，其实还得仔细琢磨。小确幸固然重要，不过换个角度看，如果没有经济基础，就算再美好的友情也可能难以永续。例如，面对突如其来的聚会开销，我们自然希望顺利负担。关键无非是在顾全发展的同时，不忘那些相伴左右的人情。在日常中寻求一种灵活搭配，用心经营这些关系，也许就是找到了人生三航线交汇点！",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 随着收入提高，不可避免的是社交方式似乎也发生了微妙改变。在高级餐厅里，一桌人在“拼场面”，却少了一份脚底板碰撞的小火花。而反观那段共同分享小吃文化的时候，每一个笑声都像是加深情谊的一笔，这样的小确幸才是真正缔造记忆和值得珍藏的人生调味料。所以啊，有时候把目光放低点，从平凡中寻找美好，或许才是打开这里面秘密的大钥匙！",
+            []
+        ],
+        [
+            ": 要说现如今，享受单身生活可真是一门艺术！我们往往容易陷入那种思维误区，以为拥有伴侣才是真正的幸福。但现实告诉我们，花时间充实自己、拓展视野，更能让我们活得精彩。比如，有时候放下执念，一个人去旅行，那份宁静就像事业成功后的奖杯一样，让我收获满满。因此哦，把这段时期当作人生的一部分反而更值得珍惜！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 5,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 内心挣扎固然值得重视，但我们是不是反而该把重点放回到现在呢？想想吧，这个阶段可以成为我们增强勇气、拓展人际关系的大好时机，不妨去参加一些线下活动或者尝试新的兴趣爱好！与其一直缅怀过去，还不如创造更多值得记住的新回忆。不管怎样，让自己活得精彩最重要！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 小地方确实藏着不少机遇，但最重要的是要有那种“不见树木而见森林”的认知能力。有时候，多尝试去接触一些未知领域或新的兴趣，也许就能开启新的大门。我认识的人里，有个朋友就是因为参加本地非盈利组织活动，不仅结识了一堆志同道合的新朋友，还积累了丰富的人脉和经验，为他后来的转型铺平道路。因此，无论身处何地，要始终保持探索心态，把每一次经历都视为成长契机！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身",
+                        "恋爱中",
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 社会文化背景往往被忽视，但它确实能塑造我们的认知与选择。在追寻事业发展的道路上，不同城市所承载的独特文化氛围，会直接影响我们识别及建立联系的方法。所以，在看待客观条件时，不妨多关注这方面！",
+            []
+        ]
+    ]
+}

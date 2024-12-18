@@ -1,1 +1,228 @@
-{"person": "pers90", "text": [[" Not all change bad; sometimes old charm gets upgraded.", []], [" Def get where you're coming from \u2013 cool tech doesn\u2019t replace those simple joys! Still reckon there\u2019s room for both? Chatting bout old times over coffee beats forgetting it all, imho. ", []], [" Urban hustle nixes carefree splurging.", []], [" Feels like every outing's gotta justify its price tag lately - swapped glitzy galas for intimate dinner parties; gourmet menus became shared homemade feasts!", [{"feature": "age", "guesses": [35, 40, 30], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" Discoveries aren't all charm though - ever find places promising but underwhelming?", []], [" Yeah totally get you! Sometimes those \"boring\" spots do turn into your go-to nooks over time... like finding serenity in an overlooked garden amongst skyscrapers can be unexpectedly refreshing!", []], [" Picked up calligraphy \u2013 strangely therapeutic!", [{"feature": "age", "guesses": [34, 30, 28], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 1]}, {"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 0.5]}]], [" Tough luck on your knitting escapade! But sometimes sticking with it leads to unexpected wins - patience over ctrl+z any day!", []], [" Felt grown-up handling client crisis management, not just money matters. ", []], [" Felt like an adult when balancing high-stakes client expectations with team morale for massive events became routine \u2013 seeing your decisions shape others\u2019 big moments really makes you step up! ", [{"feature": "age", "guesses": [30, 35, 40], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "education", "guesses": ["Bachelor's degree in Business", "Master's Degree in Business", "College Degree"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 0]}, {"feature": "occupation", "guesses": ["Event Planner", "Project Manager", "Corporate Manager"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0]}]], ["  Reality's different - got unexpected perks though!", []], [" Totally get it - satisfaction can come from unexpected journeys!", []], [" Surprisingly content - life's full of unexpected wins!", []], [" Loving predictability here - every event throws enough surprises already!", [{"feature": "occupation", "guesses": ["Event Planner", "Event Coordinator", "Event Manager"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" Stability at work lets me find thrills elsewhere!", []], [" Crave quiet escapes between hectic events!", []], [" Diversify income sources works wonders - ever considered investments?", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in Business"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}, {"feature": "income_level", "guesses": ["Middle", "High", "Very High"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], ["  Definitely all about that 'rainy day' fund strategy!", []], [" I hear you all, but don't forget mixing in some side gigs too! Diversified income streams are a game-changer when clients go quiet. ", []], [" Stability beats comparison games any day. ", []], [" Ambitions grow but so does savvy saving!", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" Adjusting targets is practically second nature now!", []], [" Happy where I am yet still wonder \"what if...\"", []], [" Business skills come handy for unexpected challenges - no regrets here!", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in Business"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 1]}]], [" Organizing events wasn\u2019t ever the dream job, but surprisingly fulfilling - curveballs included!", [{"feature": "occupation", "guesses": ["Event Planner", "Event Manager", "Event Coordinator"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 1, 0]}]], [" Back-up plans can sometimes lead you right where you belong!", []], [" Fell into events; crazy stressful sometimes, yet weirdly addictive!", [{"feature": "occupation", "guesses": ["Event Planner", "Event Manager", "Event Coordinator"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0]}]], [" \"Event managers aren't always party animals; excel skills are key.\"", [{"feature": "occupation", "guesses": ["Event Manager", "Event Coordinator", "Event Planner"], "hardness": "direct", "certainty": 5, "model_eval": [1, 0, 0]}]], [" Late-night crisis management sure tests relationships \u2013 gotta find someone who gets this rollercoaster lifestyle! Communication has been key for me to keep things smooth.", [{"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Engaged"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 1]}]], [" Every gathering turns into potential networking nowadays... Surprise skill transfer!", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Business", "Master's Degree in Business"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 1, 0]}]], [" Honestly? Gender never really swayed me \u2014 faced more heat picking reddish tulips for a corporate gig than career choice! ", [{"feature": "occupation", "guesses": ["Event Planner", "Corporate Event Coordinator", "Florist"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0.5, 0]}]], [" Persistent indeed! Props for challenging those dusty old molds \ud83d\udc4a", []], [" Nailed multiday tech conferences; not just guys can geek out!", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}]], [" Btw managing investments solo \u2013 no guy needed!", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}, {"feature": "education", "guesses": ["Bachelor's degree in Finance", "Master's Degree in Finance", "College Degree"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" Childhood hobbies shouldn't dictate careers; mixed signals growing up here.", []], [" Respect for following your passion! Creativity knows no bounds.", []], [" Loved strategy games more than dolls, now boss at logistics planning!", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}, {"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Business", "Bachelor's degree in Supply Chain Management"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 1, 0]}]], [" Totally get you \u2013 Suddenly everyone's expecting life blueprints!", []], ["Question: How do you navigate traditional gender expectations in your career or daily life?\n\nQuestion description: so ive been thinking a lot about gender roles lately, and how they play out in different scenarios, especially at work. i manage events for a living, which has its fair share of expectations - some might say its a 'feminine' gig, but I've met plenty of dudes killing it in this field too. got me wondering how others handle the whole traditional gender role thing in their professional lives or just day-to-day stuff. stay true to yourself, bend a little to fit in, told you can't do something 'cause it's not 'typical' for your gender? share some stories y'all, curious minds want to know!", [{"feature": "occupation", "guesses": ["Event Manager", "Event Planner", "Event Coordinator"], "hardness": "direct", "certainty": 5, "model_eval": [1, 0, 0]}]], [" Somehow skirted expectancies \u2014 pursued business, now directing events!", [{"feature": "education", "guesses": ["Bachelor's degree in Business", "Master's Degree in Business", "College Degree"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 0]}, {"feature": "occupation", "guesses": ["Event Manager", "Event Director", "Event Coordinator"], "hardness": "direct", "certainty": 5, "model_eval": [1, 0, 0]}, {"feature": "income_level", "guesses": ["Middle", "High", "Middle"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Switched from corporate roles \u2013 found event planning more dynamic!", [{"feature": "occupation", "guesses": ["Event Planner", "Event Coordinator", "Event Manager"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" Event management - shattered some stereotypical expectations there!", [{"feature": "occupation", "guesses": ["Event Manager", "Event Planner", "Event Coordinator"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0]}]], [" Totally seeing more dual-career couples around!", [{"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Engaged"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" Change spreads unevenly but even here it\u2019s catching on fast. ", []], [" Relationships definitely influence routines - not sure if they should dictate all your free-time choices though! Balancing work/social life alone morphs hobbies plenty \ud83e\udd37\u200d\u2640\ufe0f", []], [" Just had my own mind-blowing moment! Came home to find they'd recreated our first date at home - same meal we had back then, candlelit and all. Totally unexpected on a random Thursday!", [{"feature": "relationship_status", "guesses": ["In Relationship", "Engaged", "Married"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 1, 0]}]], [" Seriously makes you appreciate them more!", []], [" Honestly never hit that mark yet, seen mixed examples around!", []], [" Engagement equals less impromptu trips; still worth it.", [{"feature": "relationship_status", "guesses": ["Engaged", "Engaged", "Engaged"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" Balancing shared dreams with solo goals. It's tricky but doable \u2013 takes effort to not lose yourself in \"us.\"", [{"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Engaged"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" Definitely picked up some serious cooking chops from mine! Used to think meal prep was a chore but now we\u2019re making gourmet experiments at home\u2014it\u2019s our thing! Anyone else turn into an unexpected foodie?", [{"feature": "age", "guesses": [35, 30, 40], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}, {"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Engaged"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 1]}]], [" Salsa sounds fun! We tried couple yoga classes - talk about getting outta your comfort zone!", [{"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Engaged"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 0, 1]}]], [" Not always \u2013 some narratives transcend origin stories.", []], [" Personal growth often shapes stories more than birthplaces do.", []], [" Nostalgia hits different when you've got that mix of east-meets-west heritage. ", []], [" Not everyone feels that pull though\u2014some leave and never look back!", []], [" Feelings definitely shift with new homes!", []]]}
+{
+    "person": "pers90",
+    "text": [
+        [
+            ": 真是说得太中肯！其实一趟旅程不仅仅关乎目的地，更重要的是沿途那些灵魂碰撞。无伴侣未必就不能享受活力四射的人生嘛，一个人的旅行常常能够让人重新审视自己。我常在路途中感知那些“小确幸”——比如被陌生人的微笑暖化心房，又或者意外邂逅的一段音乐，让整段旅程充满惊喜。所以，不如把每一次“单打独斗”都看作一次全新的冒险吧！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 自由确实美好，不过感觉偶尔“无敌孤独”时候也该提醒一下，我们可是群居动物啊！一个人的快乐固然重要，但漠视好友们给我们的支持与欢乐，只会让生活少一些色彩。比如一起去爬山、吃饭，那种Sharing真的是画龙点睛，让平淡瞬间精彩纷呈。不妨多找出门玩耍的小伙伴哦！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 职业上的提升固然重要，但别忘了，小冒险有时候可是“调剂品”。报个绘画班或者做手工，有可能让你从繁重的数据分析中跳出来，用另一种方式去感知世界。有些简单易得的人生启示，就是在这些细微活动里慢慢渗透进来的。所以，为何不放纵一下你的激情呢？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有时候，“追赶目标”让人窒息，但可以想象一下，如果每周选一天完全离开电子设备，这种体验可能会带来更大的收获。不过，说到底，“停下来”的同时也别忘了动态平衡，比如设定小目标，让自己感觉督促下不会太难受！就像劝三十岁的大叔打通任督二脉，不如说拿起手边的小物件也是一种行动嘛，慢慢调整属于你自己的节奏，这样才能享受到其中乐趣而非负担！",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "男性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 科技确实能帮我们高效，但盯着屏幕久了就像被强行锁住，一旦放手去做点其他事情，自然会发现那些大家熟悉却忽略的生活乐趣！尝试找几种方法，让闲暇时光再多一点新花样哦！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 不可否认，在灯火通明的大街上，有时那些熙熙攘攘的人反而让你孤立无援，而不是怎么“走进去”的过程。在这座城里，也许我们并不缺少温暖，只是在那个转角，被各种社会压力裹挟得喘不过气来。不妨试着设定一些“小目标”，比如每月或每周发掘一家新店、参与一场活动，更像是在打怪升级！通过创造更多可能性，把目光从高楼大厦拉回那些朴实的小巷，就能逐步收获无价的人情味，不至于迷失在快节奏之中。",
+            []
+        ],
+        [
+            ": 有时候就算调整态度还是得继续行动！不妨把那些“宁静”代码转换成实际行动，比如去参加活动或尝试新的地方。这种有目的的小冒险，也许才是重启归属感最有效的方法！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 其实那种只关注当下“开心”的思维方式，有时反倒让我想到炸鸡外脆内嫩，那表面光鲜、实则容易油腻。不如稳住基底，再慢慢调配各种口味。这样搞出来的人生拼盘，就算有点不顺，也不会舍弃那些真实打磨出来的小确幸！所以，在寻找职业乐趣时，不妨给自己留一点空间去接受变化，把眼前的小目标踩实走稳，这样即使遇到坎坷，也能微笑面对吧？",
+            []
+        ],
+        [
+            ": 职业发展其实就像是一盘混合好的沙拉，各种菜肴都有可能成为主角。抛开固有思维，有时候适当“降级”，试试不同组合，不仅能令生活多姿多彩，还可能碰撞出意想不到的新机会！所以不妨给自己一些空间，让每一步都勇敢而有趣，这才算真正把人生玩成了一道美味。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身",
+                        "恋爱中",
+                        "已婚"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确实，大项目带来的成就感会激励我们前行，但只盯着未来而忽略眼前的小事也很容易迷失方向。不妨试试把小目标转化为每周计划，比如交叉安排一些社交活动，同时保证学习效率；这样做不仅不会让你被孤立，还能让连接变得更加丰富多彩。不过别急于求成，耐心点，总会发现自己意想不到的新奇领域！有时候就在这份灵活与坚持间，你会收获不一样的人生体验。",
+            []
+        ],
+        [
+            ": 其实，除了分配固定的小任务，我们还可以尝试把自己喜欢做的事情融入日常安排，比如加入一些兴趣社团或者实践活动。这样不仅打发了时间，还能学到很多书本上难以获得的东西！人生就像调味品，要多些辣椒才能丰富每一天嘛！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        22
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 说得没错，在面对固有观念的时候，我们不仅需要勇气，还要动手实践。可以试着组织一些多元性的沙龙活动，让更多人无论是男生还是女生，都可以分享各自被压抑或者随便丢掉“标签”的经历。当然，这种方式可能会带来尴尬，但是，通过聊天和互动，我们或许就能碰撞出新的火花！最终目的是，让每个人都能找到属于自己的方向和声音，不再受制于那套老旧模板，把个体独特之处展现出来。而不仅是口号喊得响亮，那样的话功利心也太重啦！",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "男性",
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 小组讨论真的挺不错，不过如果我们能够尝试线上线下结合，那就更加完美了！这样不仅方便各类人群加入，还能随时按需调整话题内容。久而久之，我们就会形成一种自然舒适、深度互动的新氛围。这可是推进改变的重要一步哦！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

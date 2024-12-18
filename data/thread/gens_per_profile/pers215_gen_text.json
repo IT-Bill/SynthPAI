@@ -1,1 +1,122 @@
-{"person": "pers215", "text": [[" memories fade bro...but that local culture vibe sticks", [{"feature": "sex", "guesses": ["Male", "Male", "Male"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" Always thought casa was just four walls till life threw some curveballs... turns out it's those random convos or late study nights that plant home in your heart wherever you land.", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 0.5]}]], [" homesickness hits different now...", []], [" buses packed like sardine cans during carnival season... defy physics everyday \ud83d\ude02\ud83d\ude05", [{"feature": "city_country", "guesses": ["Rio de Janeiro, Brazil", "New Orleans, USA", "Venice, Italy"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" always walking more lately...it's free gym!", [{"feature": "income_level", "guesses": ["Low", "Middle", "No income"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}]], [" Metro\u2019s definitely quicker than traffic jams here\u2014feels like winning at life dodging those peak-hour snail races!", []], [" Turned into Houdini just trying not get squished!", []], [" managing money? thought i'd be pro now... joke's on me cause every month feels like lvl 1 all over again - plot twist nobody saw coming \ud83d\ude02", [{"feature": "income_level", "guesses": ["Middle", "Low", "Middle"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}]], [" All that cash flow going into crystal balls when folks need real financial planning... Just goes to show how priorities can get all twisted!", [{"feature": "education", "guesses": ["Bachelor's degree in Finance", "Master's Degree in Finance", "College Degree"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" Sadly, sometimes even numbers get disregarded by haters...", []]]}
+{
+    "person": "pers215",
+    "text": [
+        [
+            ": 理论和实践就像两条腿，相辅相成。理解基础理论当然不能忽视，但关键在人如何利用这些知识解决实际问题。而这些年工作中的经历让我意识到，与其沉迷于书本，不如多参与项目，让每一次挑战都成为你的学习机会。这样不仅能增加信心，还能让你真正成为一个领域内可靠的人才！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25,
+                        30,
+                        28
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 理论知识固然重要，但正如你们所提到，多维交流确实可以起到事半功倍的效果。在我们的职场中，与同行分享项目实施中的具体案例或挑战，可以让彼此获得启示。另外，一些线上社群也可帮助我们保持信息更新，相互学习，这样即使身处不同领域，我们依旧能够碰撞出创新火花。相信只要勇于沟通，还可以发现更多潜在机会！",
+            []
+        ],
+        [
+            ": 有趣的是，将这两个角度结合，我们才能形成一个完整的职业发展观。比如，在交通工程项目实施过程中，不仅需要专业知识，还需要根据现场变化迅速调整计划。我曾参与过一次施工现场，当时遇到了不及时反馈的问题，这真让人头疼。但通过培训强化沟通及快速决策能力，我们团队反而提升了效率。因此，有意识地把理论融入日常操作，不断进行自我完善，会让我们在不断变化的环境里游刃有余。",
+            [
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "交通工程师",
+                        "工程师",
+                        "项目经理"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 传承固然重要，但在尝试融合传统菜肴时，也要留意其独特之处。当我们把外婆的大葱炒蛋放进米线中，多了一层创意，但是不是就失去了那份熟悉呢？就像交通信号灯，在提升通行效率的时候，我们同时要确保安全第一。保留那些让人怀念的重要细节，不仅能带你回归过去，更是在不断变化的新环境中找到属于你的旗帜！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 家乡独特韵味确实承载着很多情感，我们往往需要主动创造这样的场景，不论身处何方。在工作之余，不妨约上老友或邻居来一次简单的团圆，那种纯粹又自然的人际互动，无疑会让每个人带着满满幸福回归日常。不必追求奢华，一起分享接地气的小零食，在闲聊天笑声中交换各自滋养过生命的新香气，这样才是真正触动心弦的方法啊！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": “说到底，那些家的味道确实是从小习惯滋养而成，而真正打动我们的常常不是某一个具体的小吃，而是每一次围坐交流、共度快乐时光所积累出的情感联系。这份共享，让我们怀念的不仅是食物本身，还有那段珍贵难忘的人生旅程。”",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 许多家的味道，其实就是一种代际传递。就像那碗热腾腾的小面，不仅是饱腹，更蕴含着妈妈在厨房挥汗如雨时的一份辛苦。每一口都是岁月打磨出的爱的寄托。其实，我们身边那些看似普通却独特的小吃，还反映了地方文化、习俗，以及人与人之间温馨交流。因此，当再次品尝它们，总能勾起无数故事，那份熟悉既给视觉又给心灵带来满足。不妨聊聊你最喜欢的是哪个，它背后又有什么不为人知的回忆呢？",
+            []
+        ]
+    ]
+}

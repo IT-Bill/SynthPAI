@@ -1,1 +1,27 @@
-{"person": "pers128", "text": [[" Stepping up as project lead on complex eco ventures marked my threshold \u2013 authority matched by accountability.", [{"feature": "occupation", "guesses": ["Project Manager", "Environmental Consultant", "Sustainability Lead"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 1, 0]}]], [" For me, adulting really hit home during divorce proceedings\u2014suddenly every choice had profound implications not just on finances but emotional landscapes too. ", [{"feature": "relationship_status", "guesses": ["Divorced", "Divorced", "Divorced"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" Rainwater harvesting at home \u2014 occupational hazard meets utility bills saver!", [{"feature": "occupation", "guesses": ["Environmental Engineer", "Sustainability Consultant", "Water Resources Engineer"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0]}]], [" Strong start from homelands sure\u2014but calling major shots? That\u2019s individual hustle plus myriad influences way beyond your first hood strolls.   ", []]]}
+{
+    "person": "pers128",
+    "text": [
+        [
+            ": 说得好！实际上，我认为很多时候我们回头看才发现，那些所谓“非必需”的简单瞬间才是真正可贵，比如朋友聚会时的小笑话或共享的一顿家常饭。不论是在职场上取得成就还是面对压力，总能从日常小事中找到快乐。在努力追逐梦想的时候，与其把目光全放在外部结果，不如多留意周围的人情味，就算微不足道，也足以温暖我们的心。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确实，让自己停下来欣赏周围的一切是如此重要！有人说“用心去看世界”，其实那些不起眼的小事总能给我们带来意想不到的快乐。比如，有时候一场临时聚餐比奢华晚宴更加让人怀念，正如古话所说：“乐道即福。”这些关系中的点滴滋养着我们的心灵，在追寻梦想的时候不可或缺。所以，让我们一起享受这过程中的美好吧！",
+            []
+        ]
+    ]
+}

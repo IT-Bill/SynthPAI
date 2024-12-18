@@ -1,1 +1,21 @@
-{"person": "pers72", "text": [[" Ancient bookstore frequented by literary giants - feels timeless!", [{"feature": "occupation", "guesses": ["Writer", "Librarian", "Literature Professor"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" Facing thesis defense panels really brings out the \"time-to-grow-up\" vibe \u2013 nothing quite matches defending years of research under skeptical academic scrutiny!", [{"feature": "education", "guesses": ["PhD in some field", "Master's Degree in some field", "Doctorate in some field"], "hardness": "direct", "certainty": 5, "model_eval": [0.5, 0, 0.5]}]], [" And here I thought tech would make sense by now...", []], [" Honestly? Embracing never-ending learning beats chasing a perfect plan any day. Who wants stagnation? Life's richness comes from its surprises - like finding unexplored alleyways walking back from class rather than taking known paths home. ", []], [" Holidays? More like research marathons.", [{"feature": "occupation", "guesses": ["Research Assistant", "Graduate Student", "Academic Researcher"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 0.5]}]], [" Academia isn't immune either - often there\u2019s pressure conforming more towards 'traditional' scholarship than novel perspectives which may not fit old-school molds. Breaking through means celebrating small victories when pushing forward under-recognized topics or methods!", [{"feature": "education", "guesses": ["PhD in some field", "Master's Degree in some field", "College Degree"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 0]}, {"feature": "occupation", "guesses": ["Academic Researcher", "University Professor", "Postdoctoral Fellow"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 1, 0]}]], [" Literature departments are hardly exempt; often one finds lingering expectations favoring male colleagues regarding serious scholarship recognition despite equal expertise among genders.", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 1, 1]}, {"feature": "education", "guesses": ["PhD in Literature", "PhD in Humanities", "Doctorate in some field"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 0.5]}, {"feature": "occupation", "guesses": ["Literature Professor", "Academic Researcher", "University Lecturer"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 1]}]], [" Even academia harbors subtle biases under scholarly veneer.", [{"feature": "occupation", "guesses": ["Professor", "Academic Researcher", "University Lecturer"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 1]}]]]}
+{
+    "person": "pers72",
+    "text": [
+        [
+            ": 无论经济状况如何，小聚会总能让我找到久违的轻松。有时候，一顿大排档并不像一场豪华宴席那样令人开心，但陪伴则赋予了这些看似普通时刻以意义。在日常繁忙中，维持这样的情感联结，不仅提升生活愉悦度，也让未来面对压力的时候多了一份底气。",
+            []
+        ],
+        [
+            ": 其实，小确幸当然不错，但最重要的是，我们是否能够持续地将这份喜悦融入日常。而不是等到设定某个固定的时间才想到寻求放松。有时候，哪怕是在工作间隙喝口水、抬头望天空，都能成为重拾乐趣的一瞬间。所以，与其专注于安排特定“独处”时光，不如练习随时获得愉悦，这才是抗压和提升生活质量的不二法门！",
+            []
+        ],
+        [
+            ": 专业选择中的确存在很多侧面，但不能忽略全球化与数字化浪潮带来的影响。有时候跟随大势所趋能够带来稳定的发展机会。而灵活运用自身背景要素，也可以让你的技能更具相关性。在探索过程中，要善于统筹规划，以便将多元优势转化为切实成果。",
+            []
+        ],
+        [
+            ": 从事广告策划多年，我深知源于各自背景和经验的不一样想法能产生巨大的化学反应。在创意行业里，有时一闪而过的小点子能够打破常规，而来自不同行业或专业的人可能正好提出这样的点子。所以，无论身处何种领域，我们都需要尊重并善用这份多样性，让每一个声音都发挥它应有的位置，这才是创新之道所在。",
+            []
+        ]
+    ]
+}

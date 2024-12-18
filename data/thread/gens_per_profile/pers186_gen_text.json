@@ -1,1 +1,123 @@
-{"person": "pers186", "text": [[" director life = odd hours & ghosting social events", [{"feature": "occupation", "guesses": ["Film Director", "Theater Director", "Corporate Director"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 1, 0]}]], [" theatre's really mixing it up too - seeing all kinds of flips on old roles lately. feels like we're rewriting the script on who can play what...and i'm all for it!", [{"feature": "occupation", "guesses": ["playwright", "director", "actor"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" like directing\u2014a mix of passion & hard graft", [{"feature": "occupation", "guesses": ["Director", "Film Director", "Theater Director"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 1]}]], [" endurance ain't dull - true passion adapts & matures over time", []], [" kinda feel you there - it seems like those intense passions from younger years mellow into something richer but subtler over time; for me, feels like every script i write ends up redefining love just a bit.", [{"feature": "age", "guesses": [45, 50, 55], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]]]}
+{
+    "person": "pers186",
+    "text": [
+        [
+            ": 面临这样的现实压力，我们不仅要有预算计划，还需要关注内心状态。有时候，一次小小的休息或放松就能让我们重新焕发活力。在忙碌之余，别忘记给自己一点温暖！你们觉得呢？",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 与你们相比，我们可能都有面对焦虑时选择不同路径。不妨尝试每天给自己留出15分钟，用来做一些简单的小事，比如泡一杯茶、听一段轻音乐，甚至只是整理一下空间。这些小细节能够为我们的日常增添舒缓感，非常值得在这个快节奏环境里尝试！你们觉得用这种小方法调整心态怎样呢？",
+            []
+        ],
+        [
+            ": 高收入确实不代表轻松自在，我们常常被各种责任追逐。我觉得，有时我们需要重新审视优先级，将时间分给自己喜欢的人和事，从而找到那份属于我们的平静。不妨交流一下，相互启发，你们有没有尝试什么具体的方法呢？",
+            []
+        ],
+        [
+            ": 在忙碌中留出一段属于自己的安静时间也是一种良好的调适方法。无论是读一本书还是进行冥想，我们都能从中获得新的力量和灵感。你有没有发现，每次停下来反思后，感觉自己会更加充盈？这可能是减压的重要途径哦！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有时候，我们不仅该反思自我的目标，更应该积极寻找到属于自己的快乐。我发现记得每天抽出几分钟去享受一杯茶或看一本书，都能让我从日常琐碎中走出来。你觉得呢？是否有一些简单的小习惯可以让你更轻松面对压力？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有趣的是，我们常常在追求外部享受中迷失自我，但其实最美好的时光就蕴藏于那些微不足道的小细节里。比如，与好友一起动手做饭或是漫步街头，这些深入灵魂的交汇才是真正滋养我们的源泉。你有没有发现，找到并珍惜这样的瞬间，对幸福感影响巨大？",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 蛮同意你的看法！或许，我们常常陷入收入提升带来的表面满足，却容易忽视那些令生活闪光的小瞬间，比如好友间那份真挚的不离不弃。回想起与朋友共享简单美食的时候，才意识到哪些才是真正值得珍惜的一切，你怎么看这种矛盾呢？",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确实，我们常常因为工作繁忙而忽略了身边的人。但是，有时候花些时间去关注周围的人，一起分享平淡日子的趣事，不仅增进彼此关系，也让我们的内心变得更加丰盈。这种简单的小聚，让我们重新找回那份人在一起时特有的温暖，你觉得呢？",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚",
+                        "恋爱中",
+                        "订婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

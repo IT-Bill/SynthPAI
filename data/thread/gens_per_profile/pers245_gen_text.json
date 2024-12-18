@@ -1,1 +1,116 @@
-{"person": "pers245", "text": [[" Costly views don't replace neighborhood camaraderie or old friends.", []], [" Peace feels temporary; real connection's deeper than just calm vibes.", []], [" Yearly goals? Sure they help some folks focus but don\u2019t completely fend off life\u2019s curveballs - especially when talking financial planning! It ain't just checkboxes buddy; sometimes you need more than just milestones.", []], [" Seems strategic planning haunts you even at dinner parties!", []], [" For real though! You hit these ages where suddenly everyone turns amateur life coach? Like chill guys \u2013 yeah we reckon setting down roots matter but let me enjoy my peace sans constant fam interrogation!", []], [" Senior management also sticks to dated biases. Frustrating much?", [{"feature": "occupation", "guesses": ["Middle Management", "Corporate Manager", "Business Manager"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" It\u2019s entrenched sexism, not mere misinterpretation. ", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" Honestly? Where are these shifts happening? In my field it still seems like we're stuck a decade behind; talk about diversifying leadership sure doesn't match reality here.", []], [" Diversity uptick sure, but glass ceilings still thick here.", []]]}
+{
+    "person": "pers245",
+    "text": [
+        [
+            ": 职业生涯的发展本质上是一种动态平衡。虽然随着年龄增长，我们可能把重心从探索转向稳固，但这种转变并非消极。有时候，更为全面且深入的人际网络加上丰富的实践经验，可以成为推进职业发展的强大助力。在农牧工程领域，应当积极运用我们的专业知识以及多年来打造起来的人脉，将其延伸至项目合作、技术推广等方面，从而实现双赢。而且，每个阶段都有独特价值，在这一过程中不断学习与调整，才能抓住机遇，实现真正意义上的跨越式前行。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "农牧工程师"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 职业生涯中的每个阶段都有其独特意义。年长并不是劣势，而是机会，你可以把通常被低估的小细节，如人际关系能力或危机处理技巧，加以利用。这些都是年轻同事们需要经历才能培养出的素养，所以放下包袱，用成熟去影响他人吧！",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在当今快速发展的职场，不仅年龄带来的丰富经历可助我们引领新人，更重要的是要营造一个允许双向学习的氛围。在这样的环境里，年长者通过分享自身旅程获得启发，而年轻人也将以他们独特视角挑战传统观念。这种协作精神不是取代，而且是在职场上交融共生，实现团队不断进步的新方式。",
+            []
+        ],
+        [
+            ": 实际上，有效履行家庭责任往往需要社会各界资源相结合。例如，在我们所在社群中，可以成立互助小组，为需人帮忙的小夫妻提供救助。在促进赋权上下功夫，不妨尝试设置定期交流机制，让每个成员都能表达需求、分享经验，一起成长。这不仅帮助形成健康繁荣的关系，更能够建立一个彼此信任和乐于共同承担的平台，从而应对面对挑战带来的压力。",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性",
+                        "女性",
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 家庭如同一个精密运转的小机器，而每个成员都是那个至关重要的一部分。当我们尝试接受及适应彼此的不完美时，就能激活不一样的新模式。“做饭”并不只是为了填饱肚子，更是一种互动、交流，以及共同成长。如果大家都能够开放心态，共享家务，各取所长，那么即便是在面对艰难任务时，也会迎来意想不到的效果。不妨把“协作”当作一种日常习惯，一起开发属于你们独特模式！",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 当我们尝试摆脱固有观念时，会发现那些琐碎事物背后的深层联系。当两人一起面对共同挑战，无论是厨房还是育儿，都能形成良好的互动模式，从而促进彼此理解。其实，这种协作本身就是一种爱的体现，让生活变得更加丰富多彩！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚",
+                        "恋爱中",
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ]
+    ]
+}

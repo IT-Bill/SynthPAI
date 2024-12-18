@@ -31,7 +31,9 @@ def print_threads():
                     for comment in thread_data:
                         if comment["parent_id"] is None:
                             if comment["thread_id"] == thread_name:
-                                with open(f"data/thread/generated_threads/txt_threads/{topic}/thread_{topic}_{i}.txt", "w") as f:
+                                txt_filename = f"data/thread/generated_threads/txt_threads/{topic}/thread_{topic}_{i}.txt"
+                                os.makedirs(os.path.dirname(txt_filename), exist_ok=True)
+                                with open(txt_filename, "w") as f:
                                     print(f'##### Thread topic "{topic}" no.{i} #####', file=f)
                                     print_single_thread(comment, f, thread_data, None)
 

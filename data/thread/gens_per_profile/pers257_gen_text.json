@@ -1,1 +1,71 @@
-{"person": "pers257", "text": [[" Even jigsaw puzzles envy my budget!", [{"feature": "income_level", "guesses": ["Low", "Low", "Low"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}]], [" Tell me about it! Feels more like survival tactics than gymnastics at times \u2013 never knew grocery prices could soar higher than local real estate!", []], [" Flashy labels don't match their price tags - overrated much?", []], [" Way too many plush items turn out just smoke n' mirrors! Seen folks happier with less cash than those swamped by debt trying to look rich!", []], [" Retired now - Used to think teachers had endless patience; myth busted!", [{"feature": "age", "guesses": [65, 70, 60], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 1]}]], [" That sneaker game sounds like risky biz!", []], [" And don't get me started on when they start expecting you to have 'proper' savings squirreled away!", []], [" Still untouched? Doubt it's stayed secret. ", []], [" C'mon, no chance it hasn't leaked", []], [" Hometown vibes are overrated \u2013 we change lots!", []], [" Even big moves don't erase early imprints. ", []], [" Kite fights sound fun but pretty niche hobby today. ", []], [" Still miss hands-on craft over tech buzz!", []]]}
+{
+    "person": "pers257",
+    "text": [
+        [
+            ": 自我投资确实是通向更好未来的一条明智道路。在如今这样的环境中，要确保既有舒适度又能追求成长，我们可以将学习变成一种习惯，而不是仅仅看作一个开销。我认为跟朋友一起制定计划，将这段旅程变得更加有趣，也会增强我们的动机。同时，理解何时该放手一些非必要支出，让现阶段的小心思也能够为长远发展铺路，这样不仅减少焦虑，还有机会实现自身价值。希望大家都能找到属于自己的那把钥匙！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 想法固然重要，但不踏实实施又谈何改变？很多时候，即便心里认同平等，但缺少家人的配合和朋友们外部动力，也会让人无从下手。所以，在追求理想状态的时候，不妨尝试多借助周围资源，让彼此能走出舒适区，共同创造一个温暖、开放并富有支持性的环境，这才是持久之道！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 家庭就像一个团队，缺少任何一位成员都无法赢得胜利。因此，仅有意愿是不够，还需实际行动。当我们把共同承担家务作为互动的一部分，就能激发整个家庭更大的活力。在这种方式下，每个人都是既是战斗者，也是伙伴，从容应对琐事带来的各种挑战。我相信，通过这样的努力，不仅能够改善彼此关系，更会创造出愉快舒适的环境！",
+            []
+        ],
+        [
+            ": 有时候，我们所追求的小步骤虽然看似简单，但却充满了挑战。在实际操作中，有效沟通显得至关重要，因为这不是单纯分配任务的问题，而是相互理解和支持。如果只是一味制订计划，却缺乏真诚对话，那么这些“温暖”的举动可能就会沦为空谈。不妨尝试着先敞开心扉，让真实的情感流露出来，再去打造合作模式，那样才能使家庭氛围更具包容与温暖。",
+            []
+        ],
+        [
+            ": 关于家务分工，其实可以尝试把这些任务转化成游戏，比如定期组织“清洁大赛”，看谁能以最快速度完成一项工作，这样不仅提高了积极性，也增进了彼此间的互动。而重要的是，要确保双方都有机会表达自己的想法与需求，共同商量优化方案。有时候，一点小创意就能够改变整个过程，让责任不再显得沉重。我认为这样的方式会帮助我们更平等、轻松地分享家庭事务！",
+            []
+        ],
+        [
+            ": 家庭事务确实应该是双方共担，这不仅能降低一个人的负担，还能让彼此走得更近。不过，我觉得这个过程并不总是一帆风顺。在现实中，有不少男性可能会因为各种压力和习惯，而很难走出那种“只管赚钱”的框架。即便如此，只要愿意尝试，让锅碗瓢盆也成为爱的桥梁，一切都会变得与众不同。有时候，那些平凡的小事正是在生活中创造连接的重要时刻，希望大家都能享受到这样的过程！",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "男性"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

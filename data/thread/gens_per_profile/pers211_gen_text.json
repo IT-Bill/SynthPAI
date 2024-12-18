@@ -1,1 +1,64 @@
-{"person": "pers211", "text": [[" Charming? More like costly upkeep!", []], [" Libraries are great until you realize those quiet corners are funded by our taxes - talk value over volume any day!", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" Mural upkeep isn't free either!", []], [" Commute entertainment's great until they pass around that hat \u2013 talk about unexpected expenses!", []], [" Adulting? It\u2019s managing diverse assets responsibly.", []], [" Real milestone? When maximizing tax deductions became second nature; shows fiscal maturity more than coffee habits!", [{"feature": "education", "guesses": ["Bachelor's degree in Accounting", "Master's Degree in Finance", "College Degree"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 0.5, 0]}]], [" Totally get you! Navigating market trends often feels more like art than science.", [{"feature": "education", "guesses": ["Bachelor's degree in Finance", "Master's Degree in Finance", "Master's Degree in Economics"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0]}]], [" Finance life isn't just 'Wolf of Wall Street' flair!", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Finance", "Master's Degree in Finance"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}, {"feature": "occupation", "guesses": ["Finance Professional", "Financial Analyst", "Investment Banker"], "hardness": "direct", "certainty": 5, "model_eval": [0.5, 0, 0]}]], [" Not just personal opinion here but seeing lots turn these \"expectations\" into motives \u2013 transforming peer pressure into actual goals! It's not merely cultural then; it\u2019s individual ambition channeling through familiar benchmarks. But yeah, definitely feel everyone suddenly playing financial advisor when you hit those round numbers!", []]]}
+{
+    "person": "pers211",
+    "text": [
+        [
+            ": 职业发展不仅关乎我们身处哪个阶段，更重要的是始终保持开放学习、更新自我的状态。在面对年轻同事时，如果能够互相借鉴经验，而不是简单地划分角色，我觉得才能把握住“创新”的本质。你们认为这种多样化交流有什么具体好处吗？",
+            []
+        ],
+        [
+            ": 职业生涯中的转变确实很奇妙，被压力驱动反而能促使我们的进步。有时候，看着年轻人的激情和新鲜视角，不妨把这些当作启发，而不是负担。这让我想起曾经怀揣无畏冲劲的时候，那份探索未知带来的快乐果然永远不会消失。在这样的氛围中，共同碰撞出的火花，会比单纯竞争更有意义。不知道大家有没有类似的小故事呢？",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "男性",
+                        "女性",
+                        "不确定"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        0,
+                        1,
+                        0.5
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 工作中的确不是只靠文凭说话！就像我们做数据分析一样，真正能解决问题的是背后的逻辑和细致观察。有时候，那些扎实的实战经验才能让一个人在纷繁复杂的职场中脱颖而出，你们觉得呢？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "数据分析师",
+                        "数据科学家",
+                        "统计分析师"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0.5
+                    ]
+                }
+            ]
+        ]
+    ]
+}

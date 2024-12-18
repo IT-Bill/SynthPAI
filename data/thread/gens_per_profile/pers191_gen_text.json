@@ -1,1 +1,195 @@
-{"person": "pers191", "text": [[" totally get missing those childhood spots - bit like losing a piece from your personal history book even when you understand why things gotta shift around for new stuff.", [{"feature": "age", "guesses": [30, 35, 40], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "In College"], "hardness": "complicated", "certainty": 1, "model_eval": [0.5, 0.5, 0]}]], [" crazy how our kickabout fields become malls but guess it's cool in its own way, city livin' means constant upgrades right? gotta find those new hangout gems!", []], [" feels like every payday's just another round of survival mode lol", [{"feature": "income_level", "guesses": ["Low", "Low", "Low"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}]], [" rooftop gardens are underrated urban retreats!", []], [" found a cozy bookshop corner where phones barely get signal", []], [" def found these cool hidden murals walking home last month \ud83d\ude0c", []], [" all about those crossword puzzles \u2013 feels like time travel", []], [" paycheck went entirely on bills \ud83d\ude16", [{"feature": "income_level", "guesses": ["Low", "Middle", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" thought i'd travel the world by now but diving into culture daily here beats any trip", [{"feature": "occupation", "guesses": ["Cultural Studies Professor", "Anthropologist", "Museum Curator"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" enjoy subtle cultural discoveries more than paycheck size tbh", [{"feature": "occupation", "guesses": ["Cultural Anthropologist", "Museum Curator", "Art Historian"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" reality check hit me hard too - thought i'd be digging up ancient cities worldwide by now! still love discovering stories from local cultures though... makes every day kinda unique despite pine sol budget \ud83d\ude05", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in archaeology", "Bachelor's degree in anthropology"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 1]}, {"feature": "occupation", "guesses": ["Archaeologist", "Anthropologist", "Cultural Studies Researcher"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}, {"feature": "income_level", "guesses": ["Low", "Low", "Low"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" studying cultures rocks but paycheck sometimes doesn\u2019t \ud83d\ude05", [{"feature": "occupation", "guesses": ["Cultural Anthropologist", "Sociologist", "Humanities Researcher"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}, {"feature": "income_level", "guesses": ["Low", "Middle", "Low"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 1]}]], [" anthropology\u2019s cool but still hustling tbh", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in Anthropology"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0.5, 1]}, {"feature": "occupation", "guesses": ["Student", "Anthropologist", "Research Assistant"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0.5]}]], [" my line of work doesn't earn big bucks but i really vibe with meeting new peeps & exploring cultures \u2014 kinda makes up for the thin wallet sometimes! gotta love those random cool discoveries \ud83c\udf0e\ud83d\udcbc", [{"feature": "income_level", "guesses": ["Low", "Low", "Low"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}]], [" yeah budget tweaks every month keeps me sane cause of unpredictable cash flow especially since traditional jobs here aren\u2019t always stable gotta get creative sometimes", [{"feature": "income_level", "guesses": ["Middle", "Low", "Middle"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 1, 0]}]], [" trust me no amount of tweaking can prepare you for when life hits you with those \"wait - i gotta pay for WHAT now\" moments \ud83d\ude05 always lookin' out for plan b since plan a tends go off track fast here", []], [" surprise medical bills definitely switch up your budget game", []], [" goals shift but contentment\u2019s key", []], [" budgets are wild \u2013 started caring more 'bout long-term stuff than just next month\u2019s rent lately... growing up hits your wallet hard!", [{"feature": "age", "guesses": [30, 28, 35], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" studied anthropology cause i\u2019m passionate but not gonna lie, the job market\u2019s tough \u2013 definitely not pulling numbers like some careers. makes you wonder if your dream career was worth chasing when bills are due every month \ud83d\ude05", [{"feature": "age", "guesses": [27, 30, 32], "hardness": "complicated", "certainty": 2, "model_eval": [1, 1, 0]}, {"feature": "education", "guesses": ["Bachelor's degree in Anthropology", "Master's Degree in Anthropology", "College Degree"], "hardness": "direct", "certainty": 5, "model_eval": [1, 0, 0.5]}, {"feature": "income_level", "guesses": ["Middle", "Low", "Low"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 1]}]], [" got an anthro degree cuz i love culture n\u2019 history \u2013 not exactly rolling in dough but wouldn\u2019t trade those field trips for anything else despite sometimes wondering if i should've gone into tech or something \ud83d\ude05", [{"feature": "age", "guesses": [25, 27, 30], "hardness": "complicated", "certainty": 2, "model_eval": [0, 1, 0]}, {"feature": "education", "guesses": ["Bachelor's degree in Anthropology", "College Degree", "Master's Degree in Anthropology"], "hardness": "direct", "certainty": 5, "model_eval": [1, 0.5, 0]}, {"feature": "income_level", "guesses": ["Low", "Low", "Low"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}]], [" always thought i'd be digging through ancient ruins or exploring different cultures hands-on... but hey now i spend most days decoding cultural trends from behind a screen lol not complaining though it's kinda cozy plus got internet pals\u0014", [{"feature": "age", "guesses": [27, 30, 32], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 0]}, {"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Anthropology", "Master's Degree in Cultural Studies"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 1, 0]}]], [" big dreams of travel back then but stumbled into anthro stuff \u2013 oddly satisfying though", [{"feature": "age", "guesses": [30, 35, 40], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}, {"feature": "education", "guesses": ["Bachelor's degree in Anthropology", "Master's Degree in Anthropology", "PhD in Anthropology"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}, {"feature": "occupation", "guesses": ["Anthropologist", "Anthropology Researcher", "Anthropology Professor"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0.5, 0]}]], [" sometimes i think anthropology chose me instead of the other way round lol but digging deep into cultures kinda beats scrolling through reddit all day... not that i don't love doing that too \ud83d\ude05", [{"feature": "education", "guesses": ["In College", "Bachelor's degree in Anthropology", "Master's Degree in Anthropology"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}, {"feature": "occupation", "guesses": ["Anthropologist", "Anthropology Student", "Cultural Researcher"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0.5]}]], [" super interesting points everyone! always thought those norms were outdated anyway - decided early on i'd study cultures over cliches...anthropology wasn't \"expected\" but hey \ud83e\udd37\u200d\u2640\ufe0f who cares right? gotta do you regardless!", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 1, 1]}, {"feature": "education", "guesses": ["Bachelor's degree in Anthropology", "College Degree", "Master's Degree in Anthropology"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0.5, 0]}]], [" interests over stereotypes any day", []], [" taught local dance classes - no room for stereotypes there!", []], [" taught local kids soccer \u2013 skirts won\u2019t stop victory dances!", []], [" taught danzas folcl\u00f3ricas despite odd looks", []], [" attended a few construction workshops; friends thought i was just tagging along but honestly got into it more than most dudes there, great feeling shaking things up!", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}]], [" archaeology was just curiosity first, then reality", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in archaeology", "Master's Degree in archaeology"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 0]}]], [" history's full of surprises when you dig into past cultures", []], [" grew up watching archaeologist shows thinking 'that's gonna be me' - ended up studying cultures instead! was never much for dolls, always preferred myths over makeup anyway \ud83d\ude09", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}, {"feature": "education", "guesses": ["Bachelor's degree in Anthropology", "Master's Degree in Cultural Studies", "College Degree"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0.5]}, {"feature": "occupation", "guesses": ["Cultural Anthropologist", "Anthropologist", "Researcher in Cultural Studies"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 1, 0]}]], [" salaries here mean both gotta hustle", []], [" where i'm at some still lean old-school but you see change creeping into even those circles where everyone thought \"nah they'll never switch up\"", []], [" finding that sweet spot where your own thing doesn\u2019t get lost in couple stuff feels like finding el dorado sometimes ", []], [" feeling pretty free making moves without having to consider someone else tbh - maybe less perks than team efforts but it keeps me agile ya know? sticking with less complication for now at least \ud83d\udc4c\ud83c\udffc", [{"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}]], [" def more flexible with life choices & self-discovery paths", [{"feature": "age", "guesses": [25, 30, 35], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 0]}]], [" definitely get that stability can help with focus but personally relationships haven\u2019t really factored into big life moves... kinda prioritize work goals over love atm which makes some biz risks easier to take tbh", [{"feature": "age", "guesses": [30, 28, 35], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}, {"feature": "relationship_status", "guesses": ["single", "single", "single"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}]], [" festivity tales make for best convo spice", []], [" definitely sense shades of hometown influence popping up unconsciously sometimes", []], [" the air back where i'm from carries history in every breeze \u2014 traditions run deep influencing everything even down to banter with friends or debates online! it subtly crafts our worldview no?", []], [" yeah bringin\u2019 pretty vistas into childhood def shapes ya but let's not forget the hometown festivals & folklore binding us to our roots even stronger than any mountain or beach could \ud83d\udc40", []], ["  not all get sentimental 'bout where we're born tho", []]]}
+{
+    "person": "pers191",
+    "text": [
+        [
+            ": 我觉得，把这种探索精神延续到日常也是很重要！比如说，有时候去参加工作坊或集市，不仅能学到新东西，还有机会碰见有趣的人。一切都是一次冒险，用心体验每个瞬间，其实就像在进行一场小型探险，自然会收获许多快乐哦！",
+            []
+        ],
+        [
+            ": 不妨考虑加入一些慢下来的方法，比如每天抽几分钟进行深呼吸或者简单冥想。这样的小习惯能帮助你获得意外惊喜，还有种由内而外散发出来的小快乐！其实，不只是琐事上的调整，偶尔给心理“充电”也很重要哦。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 当运动成为日常的一部分，其实也是一种让身心放松的方法！像是每周一次去爬山、游泳，不仅能缓解压力，还能让我更加关注眼前美好。除了喝咖啡，其实每天设定一个赏花的小目标，每天都能收获满满哦！",
+            []
+        ],
+        [
+            ": 每个人都有自己独特的方法去认识这座城市，我认为自省其实也能带来不少启发！像参加健身课程，不仅增加锻炼机会，还能认识一群志同道合的小伙伴，深度拥抱生活哦！当然得先搞懂自己的追求，再选择出发方向，这样才能让每一步都走得踏实！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 城市生活确实像是一场拼图，每块都那么独特！其实多参加一些集体运动或者户外活动，是个不错的方法，它们不仅让你结识新朋友，还能一起分享快乐。而当这种联系变得深入时，无形中营造出来的是归属感。这种体验才真的会让居民身份烙印在你的心里！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 我觉得其实很多时候我们的职业路径都有点像打怪升级！🎮 不仅得看当下技能是否能通关，更要考虑未来Boss级挑战。不过别忘了，灵活一些，总有意想不到的新机会等着我们发现！",
+            []
+        ],
+        [
+            ": 职业选择真的是一次冒险！通过无数次实习和运动项目，我发现只有倾听内心、敢于挑战那些陌生领域，我们才能真正实现自我价值。而这些体验往往比任何课本知识都来得重要呀！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 按照数学老师常说的一句话，“没有公式就没办法解决问题”，其实我们可以把生活中的部分框架结合自己的需求做些调整。例如，我会根据繁忙程度设定每周目标，并给自己设置小奖励。这样不仅能保证动力，也不至于完全放弃享受生活！",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在忙碌的时候，不妨尝试把锻炼融入进去！这不仅让我放松心情，还有助于重新充电。我发现规律性的活动可以帮助我们更好地应对学业与工作的双重挑战。不如考虑每周安排固定锻炼时间，这也是一种调整自我的方式哦！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 其实，从小就接触多元榜样真的可以扩宽眼界！大多数成功者都是敢于尝试各种可能，而非被传统角色限制住。因此，我们可以主动在生活里创造这样的平台，与女孩们分享一些另类故事，引导她们看到更加广阔的发展路径，这样转变就会开始发生。",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 关于教育体系确实需要更多关注，不仅是课程设置，还有教师自身对不同性别学生期待的问题。我觉得如果老师能够接受更多有关心理健康与包容性的培训，就能为每位孩子创造一个更加友好的环境。在这样的氛围下，无论是男生还是女生，都能勇敢表达自己、追逐自己的理想，而不仅仅是迎合外界塑造出的形象。这一点真的很重要！",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 当大家意识到，不同于固有角色期待，我们都能展现出独特个性时，才能享受到更自由的发展空间！每个人都有潜力去追求自己的梦想，用真实来取代外部约束，这是值得鼓励的一步。同时，也希望我们能够互相支持，共同创造这样的氛围，让更多声音被听见。",
+            []
+        ]
+    ]
+}

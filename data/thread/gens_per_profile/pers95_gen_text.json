@@ -1,1 +1,188 @@
-{"person": "pers95", "text": [[" Obscure rock formations downtown - mini geology lessons during lunch walks!", [{"feature": "education", "guesses": ["Bachelor's degree in Geology", "Master's Degree in Geology", "PhD in Geology"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "occupation", "guesses": ["Geologist", "Earth Science Teacher", "Environmental Consultant"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Rugged coastline views at breakwater \u2013 meditative bliss!", []], [" Totally get you \u2013 there's this petite wharf area where I sometimes chill out after work hours; it overlooks rocky shores shaped by ancient volcanic activity - jutting out quietly amidst modern hustle but serves up some awesome reflective moments!", [{"feature": "occupation", "guesses": ["office worker", "professional", "white-collar worker"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0.5]}]], [" Heard that! There\u2019s also an unassuming cafe down one of these side streets\u2014you'd miss it if you blinked\u2014feels like coming home every time.", []], [" Adulthood? More like constant recalibration!", []], [" Yep - life's more improv than script! We adapt our \u201cplans\u201d all the time. Financial stability? More like hit-and-miss even when you're past those 30s hurdles!", []], [" Roles define less nowadays; geology once dude-heavy but change comes quickworkers_Icarus", [{"feature": "occupation", "guesses": ["Geologist", "Geology Researcher", "Geology Professor"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0.5, 0.5]}]], [" Geology's not immune - shaking up norms though!", [{"feature": "occupation", "guesses": ["Geologist", "Geology Researcher", "Geology Professor"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0.5, 0.5]}]]]}
+{
+    "person": "pers95",
+    "text": [
+        [
+            ": 设定小预算无疑是个不错的方法，但还有另一个层面需要考虑，那就是心灵上的需求。有时候，那种深藏于内心、令人愉悦的小瞬间并不是靠花费多少就能获得，比如和朋友一起散步或参加志愿服务。这些体验不仅让人开心，更帮助我们重新定位生命中真正重视什么。追求品质不必抛弃简单，有时其实现自我的过程才是人生最美丽的一部分。",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 真的，很少有人能完全地避免那些“小确幸”。只是要记住，每一次合理支出都应该带来值得回忆的体验，而不是仅仅为了填满口袋里的钱。在享受这些瞬间后，我们往往能得到一种独特的人生滋味，这远比省下来的银两要宝贵得多！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 将“共管”计划进行到底其实是一场不断调整与沟通的小冒险。在这个过程中，我们不妨把目光放远一些，以便更多地关注那些能够拉近我们距离的小细节，比如一起做饭、游戏或者只是享受安静的一段时间。这种亲密感会潜移默化改变我们的观念，使得“谁该做什么”不再重要，而真正值得珍惜的是共同创造美好回忆。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚",
+                        "恋爱中",
+                        "订婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在倡导共享家庭责任时，让下一代理解并践行“没有绝对角色”这一思想至关重要。从日常的小事做起，比如跟孩子一起做饭、打扫卫生，如果父母能够带着他们体验这些过程，自然而然就会塑造一种开放包容的新观念。这不是单纯技能传授的问题，更是一种享受生活的方法！当大家携手共建这样的环境时，我们无疑是在为属于每一个人的美好未来铺路。",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 说得非常好！实际上，让孩子们意识到参与并承担责任的不仅限于父母，可以切换角色与玩耍，是一种激发创造力和合作精神的方法。当所有人都共同参与，无论是做饭还是整理房间，都像是在进行一次多人的快乐游戏。这种经历本身会成为他们品味幸福的重要环节，也能促使下一代理解更多关于爱与关心的重要意义。",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 听你描述奶奶做红烧肉让我想起我的外婆，她常用姜葱制作一道简单却美味的大葱炒蛋，每次聚餐总能成主角。在她身边，总有浓厚的人情冷暖。还有那些热气腾腾的小锅米线，从汤底开始就弥漫着家的氛围。这样的记忆不仅定格了一段美好时光，还教会我去珍惜生活中的每个微小细节。不知道大家有没有尝试过将这些传统滋味融入现代饮食？这样是否能拉近我们与旧日回忆之间那段距离呢？",
+            []
+        ],
+        [
+            ": 在忙碌的生活中，我们可以通过创意料理来保留那些珍贵记忆。我觉得这不仅能发挥我们的创造力，更是让那些陪伴我们成长的人情味重新焕发生机。有时候，一道怀旧又具现代风格的菜肴，不仅是舌尖上的享受，更会成为一种连接，让人与人之间彼此更加贴近。",
+            []
+        ],
+        [
+            ": 说得太好了！其实每一道具有家的味道的菜，都像是一种情感寄托。结合现代元素，我们可以为这些传统佳肴注入新生。比如，将一些流行食材融入老式家庭食谱，不仅给我们的饮食增添多样化，也让下一代更加亲近这些值得珍惜的人文财富。这正体现出“旧瓶装新酒”的魅力，让更多人重新发现那些隐藏在过去的小确幸！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

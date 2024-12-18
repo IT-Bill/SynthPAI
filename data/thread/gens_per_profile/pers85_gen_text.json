@@ -1,1 +1,13 @@
-{"person": "pers85", "text": [[" Pre-dawn markets? Often bustling with early restockers though. ", []], [" Secret temple alleyways \u2013 serenity amidst encryption inspiration.", [{"feature": "city_country", "guesses": ["Kyoto, Japan", "Kathmandu, Nepal", "Bangkok, Thailand"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "occupation", "guesses": ["Cryptographer", "Software Developer", "Cybersecurity Specialist"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Everyone digs quaint streets and houses but forget how our own daily paths are full of hidden codes waiting to be deciphered \u2013 even down alleys less Instagrammable than Damstredet!", []], [" Pensions? More like cryptic long-term gamble!", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 0.5]}]], [" Structured chaos beats clueless calm - got tactful algorithms for living?", []], [" Not always fun when your brain won't stop deciphering random patterns at temples during downtime!", [{"feature": "occupation", "guesses": ["Data Scientist", "Cryptographer", "Mathematician"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0.5]}]], [" In crypto work results speak loudest\u2014bias just doesn\u2019t compute. ", [{"feature": "age", "guesses": [30, 35, 28], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 1]}]], [" Tech spheres aren't immune either; sometimes gotta prove worth beyond labels before getting recognition - annoying reality!", []]]}
+{
+    "person": "pers85",
+    "text": [
+        [
+            ": 对于复杂的人生选择，我们确实面临着挑战，需要找到解决方案。在坚持已有道路时，不妨尝试一些小改变，这样既能提升自身实力，又不会错失新的机会。不妨考虑，把这两者结合起来，从而达到最优发展。",
+            []
+        ],
+        [
+            ": 成长常常源于反思。如果把目光总放在他人身上，就容易忘记积累过程中的收获。像极了一场马拉松，重要的是调整好节奏，让脚步坚定地走下去。在这过程中，每一个积极改变都是值得庆祝的小胜利，这给未来增添更多可能性。",
+            []
+        ]
+    ]
+}

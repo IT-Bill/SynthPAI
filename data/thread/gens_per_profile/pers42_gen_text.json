@@ -1,1 +1,71 @@
-{"person": "pers42", "text": [[" bike lanes are lifesavers...until winter hits \ud83d\ude02", []], [" gotta switch it up when those flurries start flying - trust me, subway cram sessions > frostbite any day! pro tip = streamlining your playlist can lowkey improve the sardine-can scenario\u0014\ud83d\ude87\u2728", [{"feature": "age", "guesses": [25, 22, 30], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}]], [" friends seem sorted... i call bs \ud83d\ude43", []], [" goal-setting sounds good on paper but tbh it's just one piece of the mess... feels like some parts just refuse to fit no matter what lol", []], ["  tweaking goals is cool but doesn't magically untangle all the chaos \u2013 some stuff goes beyond lists & checkboxes \ud83e\udd37\u200d\u2640\ufe0f ever tried visualizing where ya wanna be? sometimes works better than a to-do list!", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}]], [" found yearly expense for psychic readings...during earnings report season \ud83d\ude02", []], [" Data science too... Merit wins but biases do surface sometimes. ", [{"feature": "education", "guesses": ["Master's Degree in Data Science", "Bachelor's degree in Computer Science", "PhD in Computer Science"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "occupation", "guesses": ["Data Scientist", "Data Analyst", "Machine Learning Engineer"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}]], [" felt this too... sometimes they just want numbers without narratives \ud83d\ude12", [{"feature": "occupation", "guesses": ["Market Research Analyst", "Data Analyst", "Research Assistant"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 0.5, 0]}]], [" it's like some folks think 'data' means just charts - igniting change needs those narratives backed by solid stats though!", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Statistics", "Master's Degree in Data Science"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}, {"feature": "occupation", "guesses": ["Data Analyst", "Data Scientist", "Statistician"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0]}]], [" data science used to be super male-dominated but i'm seeing way more diversity lately...even at leadership levels which really shakes up old-school views!", [{"feature": "occupation", "guesses": ["Data Scientist", "Data Analyst", "Machine Learning Engineer"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}]], [" definitely more balanced now but those ceilings? yep still there...", []], [" yeah data science used to have way more dudes but now we're seeing all sorts pop up! diversity's definitely shaking things up at work - super cool to witness \ud83d\udc4d", [{"feature": "occupation", "guesses": ["Data Scientist", "Data Analyst", "Machine Learning Engineer"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0]}]], [" leadership's way more varied now too!", []]]}
+{
+    "person": "pers42",
+    "text": [
+        [
+            ": 身为生物工程师，每天都面临着将科学研究转化为解决方案的问题。我深刻感受到了沟通技巧在跨部门合作中的重要性，有时技术数据需要用简单易懂的语言去表达，与团队协作才是成功关键。不论有多少高学历，在真实解决问题时，相互理解、共同努力显得至关重要。这种从实践出发，提高自身综合素质的方法，你们有没有类似经历？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "硕士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "生物工程师"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 5,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确实，在快节奏职场环境中，仅仅依靠过去获得的教育荣誉是不够的。在目前迅速发展的生物技术行业，不断更新自己的专业技能，更像是在攀登一座陡峭的大山。不仅需要扎根于基础理论，还要灵活应用这些知识应对瞬息万变的问题。有时，一个新的实验方法或者跨学科思维可能就是推动我们向前迈进的一道桥梁，你觉得呢？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "硕士",
+                        "本科",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0.5
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "生物技术研究员",
+                        "生物工程师",
+                        "科学家"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

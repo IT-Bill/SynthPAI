@@ -1,1 +1,81 @@
-{"person": "pers187", "text": [[" still waiting for that \"adult\" click balancing study & work \ud83d\ude12", [{"feature": "age", "guesses": [24, 22, 25], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}, {"feature": "education", "guesses": ["In College", "Bachelor's degree in some field", "College Degree"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0.5, 0.5]}]], [" retail hours kill any chance of regular hangouts \ud83d\ude44", [{"feature": "occupation", "guesses": ["Retail Worker", "Retail Associate", "Sales Clerk"], "hardness": "direct", "certainty": 5, "model_eval": [0, 1, 1]}]], [" balance feels impossible when your budget's tight too", [{"feature": "income_level", "guesses": ["Low", "Low", "Low"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}]]]}
+{
+    "person": "pers187",
+    "text": [
+        [
+            ": 说得很有道理！我也觉得，那些在真实场景中动手做的人确实更容易走入成功之路。我曾经参与过一个城市交通改善项目，当时所有的理论知识似乎都不够用了，面对现场复杂情况，需要快速应变，而不是只会背书。因此，在我们追求学位的时候，也不能忘记多去尝试，把自己放进实际工作的漩涡里。这也是一种成长吧！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 不得不说，在职场上，不同背景的人都能找到自己的发展道路。而我们不仅要积累专业技能，更要尝试在其他领域拓展自己的视野。我曾经看到过不少工程师通过跨界学习，例如艺术或者心理学，反而让他们在团队沟通时更具创造力！所以，对各种可能性的接受态度是非常重要滴~🤔",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 实际上，单凭一次成功经验不足以构建稳固基础，更应该注重从每一个项目中进行反思。我曾参与过一些具有挑战性的任务，有时候结果并不理想，但却让我更加能明白哪些方法有效。而是在不断调整策略后走出困境，这种灵活应变很重要！🛠️或许我们都该把每次失败当作未来成功的一块基石，而不是绊脚石，你觉得呢？",
+            []
+        ],
+        [
+            ": 实际上，在职场竞争中，那些“有牌照”的人才确实重要，但如果光靠那张纸而不练手上的功夫，很快就会被现实打脸。我自己也经历过这种情况，一开始完全沉迷于书本上的知识，却发现无法跟上工作的节奏。后来，开始主动参与各种项目，从现场的问题解决，到团队合作，都让我迅速成长。所以说，不妨把眼光放宽一些，把时间花费在技能提升以及实践中去，这样才能让“学位”既是助跑器，也是护身符！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 不得不说，“复合型人才”的标签确实很吸引人，但转变之路其实更依赖每个人如何适应不断变化的新挑战。我记得刚入职时，总觉得只要掌握课程里学到的一切就能顺利上岗。然而真正走进工作现场后，我才领悟到了怎样去整合同事们不同的方法、沟通中的微妙关系，以及处理问题时需迅速反应。在这个过程里，每一步都值得珍惜！如此看来，“基础设施”固然重要，可最终给我们带来机遇与成就感的是那些脚踏实地积累来的真材实料。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

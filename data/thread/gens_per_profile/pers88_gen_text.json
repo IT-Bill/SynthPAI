@@ -1,1 +1,75 @@
-{"person": "pers88", "text": [[" studio clutter = organized chaos = feels like home nowadays \ud83c\udfa8", [{"feature": "occupation", "guesses": ["Artist", "Painter", "Visual Artist"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 1, 0.5]}]], [" street art et cafes spice up 'home' vibes ici!", []], [" home's less location now, more like wherever i can splash paint & create some chaos amidst order \u2728", [{"feature": "occupation", "guesses": ["Artist", "Painter", "Creative Professional"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 1, 0.5]}]], [" find myself agreeing - home isn't just one place these days. got fam back where i grew up but bits of me have taken root in every studio i've splattered paint in \ud83c\udfa8 sometimes it\u2019s those silent moments under familiar skies that smack you right in the feels & say 'yeah, this is home too'.", [{"feature": "occupation", "guesses": ["Painter", "Visual Artist", "Artist"], "hardness": "indirect", "certainty": 5, "model_eval": [1, 0.5, 0.5]}]], [" adult life\u2019s like painting abstracts unknowingly...anvas toujours surprise!", []], [" times are changing; pressure's still there, just more subtle now", []], [" even art's not free from bias \u2013 talent gets sidelined too", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Fine Arts", "Master's Degree in Fine Arts"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 0, 1]}, {"feature": "occupation", "guesses": ["Artist", "Art Critic", "Art Teacher"], "hardness": "complicated", "certainty": 2, "model_eval": [0.5, 0, 0]}]], [" brushes don\u2019t care if you\u2019re homme or femme - art\u2019s legit equalizing game out here... gotta sway through those silly stigmas like dancing between paint strokes.", [{"feature": "occupation", "guesses": ["Artist", "Painter", "Visual Artist"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 1, 0.5]}]], [" cafes here? chill enough sans date - lotsa artsy joints welcome bohemian vibes only", [{"feature": "occupation", "guesses": ["Artist", "Musician", "Writer"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0, 0]}, {"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" city's def got a duo vibe goin\u2019 strong \ud83d\ude05 solo\u2019s cool too tho; northeastt sipping mint tea at quiet corners beats speed dating anyday! juste un peu de paix \ud83c\udf75\u2728", [{"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]]]}
+{
+    "person": "pers88",
+    "text": [
+        [
+            ": 每当感受到经济压力时，我都会想起那些简单却富有意义的小事，比如约上朋友一起做饭或者共度周末。这种无须大额花费的人际互动，非常及时而愉快，是我舒缓日常焦虑的重要来源。有时候，我们重新审视自身追求，根据需求调整优先级，然后跳出物质限制去拥抱简约，却发现丰富得多。如果我们能够体会这些微妙之处，就如同把每一笔开支都转化为珍贵回忆，让我们的心灵得到滋养，更容易找到那份本真的快乐。",
+            []
+        ],
+        [
+            ": 关于长远的人生体验确实值得重视，但当今复杂多变的现实中，有时候即使是所谓“有意义”的花费，也需要适度调整。例如，当下情况不允许大肆挥霍，你可能还得优先保障好眼前舒适。所以，不妨制定一个灵活方案，可以让自己每个月固定存入一部分钱用于那些其实并非急需但能增添幸福感的小确幸，这样才能真正实现内心和金钱间更好的双赢。我认为这样做既给未来留下余地，又为现在赋予乐趣。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "硕士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "高级中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在当今这样的社会，有时候回头看看那些日常的小欢愉也是一种放松。不妨尝试不同形式的小投入，比如参加一些文化活动或组织聚餐，这不仅提升人生满意度，也许还能收获意想不到的人际连接。一场有趣的话剧、一顿简单但温馨的大餐，都值得我们去珍惜。不必太过苛求那些大规模消费，小确幸才是真正丰富心灵的重要元素。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产",
+                        "小康",
+                        "高级中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ]
+    ]
+}

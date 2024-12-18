@@ -1,1 +1,152 @@
-{"person": "pers116", "text": [[" It's bittersweet indeed; tech invades our little oases of yesteryear. Still fondly recall when camaraderie was king in those hideaways we held dear. ", []], [" Necessities first; small joys keep spirits high!", []], [" Adjusting habits is key! Library trips replaced book shopping sprees for me - less strain on finances while keeping joys alive.", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}, {"feature": "income_level", "guesses": ["Low", "Middle", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], ["  Library visits\u2014a serene escape plus free reads!", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}, {"feature": "income_level", "guesses": ["Low", "Middle", "No income"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}]], [" Definitely more packed lunches and walks in local parks lately!", [{"feature": "income_level", "guesses": ["Middle", "Low", "High"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Caf\u00e9s by schools\u2014unexpectedly serene during off-hours!", []], [" Caf\u00e9s doubling as book nooks amidst our bustling streets are pure gold.", []], [" Often find solace in quaint cafes where stories seem etched into old wooden tables \u2013 every cup seems steeped in history!", [{"feature": "city_country", "guesses": ["Paris, France", "Rome, Italy", "Vienna, Austria"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}, {"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Humanities", "Master's Degree in Literature"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0.5, 0]}]], [" Stumbled upon tiny bistros where time seems paused\u2014savoring moments amidst urban haste!", []], [" Found myself 'adult' solo navigating bureaucratic mazes\u2014ownership of every step came fiercely unforeseen!", []], [" Teachers always haunting libraries? Quite outdated. Tech savviness keeps us quite occupied nowadays \u2013 surprising some folks!", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Education", "Master's Degree in Education"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0, 0]}]], [" Teachers resistant to tech? Hardly true; got lessons supercharged with it!", []], [" Mastered it after years; coffee always helped!", [{"feature": "education", "guesses": ["Master's Degree in some field", "Bachelor's degree in some field", "College Degree"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 0.5, 0]}]], [" Reflective moments hit you sometimes - careers weren\u2019t always my focal point either. Yet here we are; paths altered not just by people who've stayed but equally by those who've left our lives. ", []]]}
+{
+    "person": "pers116",
+    "text": [
+        [
+            ": 加强内心丰富确实重要，但别忘了最核心的是保持真实。通过新尝试找到志同道合之友时，不妨常问自己：这样的联系是否真正共鸣？这样才能确保我们的单身旅程不光是热闹，更是充盈而有方向感的体验。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 独处虽好，但如果只是表面上的悠闲，并未激发内心潜能，那这段时间可能并不能充分实现其价值。不妨从小目标入手，让每次的新尝试都能成为积累经验的平台。这不仅是在玩乐，更是在为未来打基础。",
+            []
+        ],
+        [
+            ": 在实际操作中，可以尝试将自己擅长的领域融入这些日常小习惯，比如做一些简单的小项目或者实地采样，与朋友分享成果。我觉得这种“玩”的状态才是找回生活节奏的一种最佳方式，小变化往往会带来意想不到的新体验。",
+            []
+        ],
+        [
+            ": 积极参与社区活动确实是个好办法。我曾经参加过环保志愿者项目，在帮助改善环境的过程中，不仅能认识志同道合的人，还能体验到共享目标带来的满足感。这些真实而有意义的小瞬间，让人与这座城市建立起更紧密的联系。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 找到合适的发展路径确实需要时间，就像挑选菜品一样。实际操作中的小项目能够提供宝贵的经验，可以逐步引导我们深入理解自身需求。在每次尝试后反思，也是让自己不断成熟的重要途径。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 实际上，把乐趣融入规划可以让事情变得更加轻松。但同时也别忘记调整节奏，比如每周定期给自己放个假，用来充电或尝试新事物。这种方式不仅能有效减压，还可能激发新的灵感，从而更好地应对接下来的挑战。",
+            []
+        ],
+        [
+            ": 社群活动确实重要，但同时我们也应关注教育系统中的根源问题。从小培养开放思维，以及增强多元价值观，将能够帮助年轻人在未来拥有更多选择，而不是被限制于传统角色。借助这些，对抗固化思维将变得更加有效。这份努力不仅能让自己受益，也会使下一代获益良多。",
+            []
+        ],
+        [
+            ": 打破传统观念需要的是勇气，更重要的是要通过实际行动来落实。例如，在职场里鼓励多元化分工，可以极大地提高团队效率和创造力。像我们环保工程领域就日益显示出跨学科合作带来的优势，如果大家能够超越固有标签，承担更多不同职责，将会为整个行业的发展注入新的活力。",
+            [
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "环保工程师",
+                        "环保顾问",
+                        "环保项目经理"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 你的观点启发了进一步思考。在推动行业内更广泛变化时，我们缺乏的数据分析往往会使我们无法精确识别存在的不平等。因此，可以借助数据驱动的方法去评估各类影响因素，为政策制定提供富有实证依据的建议。例如，通过调查员工对于公司文化或提升机会认可度的数据，我们能够找到潜在瓶颈。此外，多元化政策不能仅限于口号，而应从根本上融入战略决策，以激励真正持久和平衡的发展。这不仅是为了单纯替代传统，更需形成一种被重视、可持续性的企业生态。",
+            []
+        ],
+        [
+            ": 群体之间缺乏有效互动时，无论如何试图打破常规都显得无济于事。因此，实现改变需要每个人积极动手，将梦想转化为现实。而建立良好的家庭氛围才是根本，它不仅让每人都有机会反思自己的责任，也促使大家共同承担起彼此应尽之责。这项任务虽然艰巨，但只要从小处着手，即便是一些微小行为上的变化，也将积累成显著进步。",
+            []
+        ],
+        [
+            ": 心理上的不安确实可以促使改变，但不可忽视的是，我们所处时代与行业背景同样重要。在追寻梦想时，不妨将注意力也放在那些能够帮助你跨越初始局限性的资源上。教育、工作机会甚至是社交网络，都能为我们的成长开辟新天地。因此，从多方面思考才能得出更加全面的人生选择，而不仅是单纯地摆脱原有限制。",
+            []
+        ],
+        [
+            ": 城市确实赋予我们某种程度上的限制，但它同时也是一种资源。如果只是盯着那些霸大的梦想，很可能会忽略本土机会。比如，在环保行业，小城市往往有丰富而未开发的新项目，而这些正是许多年轻人追求“出海”的好舞台。因此，不如从自己熟悉的小圈入手，将那个所谓界限化为平台。",
+            []
+        ],
+        [
+            ": 身份构建固然是一个复杂而丰富的过程，但有时候，那些让人放松并重拾力量的小细节其实会让你停留太久。这种依赖情感虽然美好，但如果无法平衡自己的发展方向，就可能错过成长机会。因此，在珍视记忆之余，更应关注如今自己所处的位置以及未来想达到的新高度。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "硕士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 故乡给人的感觉确实不仅是熟悉，其中还夹杂着未被发现的新层次。然而，不同的人会有截然不同的反应。有些人返回时很容易沉浸于旧日回忆，而另一些人则可能更专注于那些改变后留存的不安感。这实际上展示了每个人心路历程中的多样性——不止是交错，更是一场内心与自我的博弈，要结合自身经历去看待这种复杂才更加重要。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 对于“返乡”的话题，有时候它并不仅仅是地点，更是我们如何面对原有与新获得身份共存的一种挑战。这些“拼图”虽有时显得凌乱，却正因其多样化才让成就变得独特。一旦重新定义回归意义，我们便会察觉其中蕴藏的新见解，这比简单懷念过去要丰富得多。",
+            []
+        ]
+    ]
+}

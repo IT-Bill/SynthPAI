@@ -1,1 +1,113 @@
-{"person": "pers63", "text": [[" Student loans became very real post-graduation. ", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "direct", "certainty": 5, "model_eval": [0.5, 0.5, 0]}]], [" Merit often sidestepped by outmoded institutional biases. Frustrating reality. ", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0.5, 0]}]], [" Performance matters but doesn't always change biased minds - some folks cling to outdated views regardless of evidence shoved right under their noses! Seen it countless times where hard facts get ignored over baseless biases. ", []], [" The winding roads you roam in youth surely etch deep maps in your mind. Teaching has shown me that; kids today aren't so different despite tech's grip\u2014it's place & tradition that shape 'em at heart even now - like it did me, steeped quietly yet profoundly by early surroundings from book-laden shelves to philosophies debated under old city streetlights during my formative years. ", [{"feature": "occupation", "guesses": ["Teacher", "Educator", "Professor"], "hardness": "direct", "certainty": 5, "model_eval": [0.5, 0.5, 0]}]], [" Those high school debates brew lifelong contemplators!", [{"feature": "education", "guesses": ["HS Diploma", "In College", "College Degree"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 0.5]}, {"feature": "occupation", "guesses": ["Debate Coach", "Teacher", "Public Speaker"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 0.5, 0]}]]]}
+{
+    "person": "pers63",
+    "text": [
+        [
+            ": 尝试确实值得鼓励，但我们也应做好功课。成熟意味着更多的是要结合个人价值观和实际条件去评估每项选项，而不是单纯追求大胆。如果仅靠冲动去探索，这可能反而导致失误。所以，在勇敢尝试之前，有必要先用严谨的方法论来指导我们的路径选择。",
+            []
+        ],
+        [
+            ": 确实，如今每个决策都意味着更多的不确定性，因此在制定目标时，也不妨留出空间给自己去探索那些未被充分意识到的发展方向。当我们专注于实施具体计划的时候，更要提醒自己保持开放态度，因为实际情况往往和初衷大相径庭。这种方式不仅能帮助我们更好地处理复杂选择，还能让人生旅程充满惊喜。不如放慢脚步，让灵活导航成就更丰富的人生体验！",
+            []
+        ],
+        [
+            ": 自我反思确实很重要，但只是这种方法是不够全面的。在紧张局势下，我们需要建立一套合理的方法论，以应对日益复杂的发展道路。一方面，可以通过设置小目标来减少无秩序感，这能够帮助我们清晰辨识优先事项；另一方面，也是要学会从决定中获得反馈，通过数据支持不断优化之前做出的判断。这样不仅提升我们的适应能力，更促使自身持续成长，而这正是面对成年后多重选项的一剂良药。",
+            []
+        ],
+        [
+            ": 成长离不开勇气去尝试新事物，也意味着秋水共长天一色，在回顾中保持开放心态十分必要。但将体验绝对化而忽略迅速变化中的机遇，将限制我们的发展。在职场环境下，我们不能单纯依赖反思，更要主动迎接挑战，从而维持自我价值感。",
+            []
+        ],
+        [
+            ": 成长不仅依赖于经历，还需要我们在过程中不断调整心态。在职场上，我们常常面临各种困难，这时候，将大项目细化成一系列小任务是非常有效的方法。这种方式不仅可以让自己获得阶段性的成就感，还帮助我们更清晰地规划未来，降低对他人的比较压力。例如，在航空工程项目管理中，大型研发任务往往需要被细分，以便团队能够逐步推进，而每一个成功的小步骤都是通向最终成就的重要里程碑。适当给予自己一些耐心，相信过程中的每一次努力都会有所回报，这才是真正值得追求的人生寓意。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 面对不同人生选择时，很容易陷入情绪化比较。然而，这种情况有其价值所在，它促使我们审视自己并考虑路线调整。当别人走得快时，可以激励我们去获取新的知识；而当我们有所成就的时候，也应让这种积极体验帮助他人。所以，在聚焦于自我发展的同时，有意识地汲取他人的成功经验，无疑能加速我们的成熟过程。",
+            []
+        ],
+        [
+            ": 有时候被周遭人的幸福冲击确实难以避免，但将这份嫉妒视作动力，这个点非常值得思考。不如利用这样的反差来刺激自己的主动性，把更多精力投入工作或学习方式上。比如，我发现每当朋友们分享恋爱的甜蜜瞬间时，其实也是检验自身目标完成度的时候。想想那些实际努力带来的小成就，它们同样值得庆祝，让你的人生充满色彩，此刻，为何不愉快面对即便是短暂而怀念的小确幸呢？",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25,
+                        28,
+                        22
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身",
+                        "恋爱中",
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 孤独确实是双刃剑，它既能激发个人潜力，也可能使人陷入消极情绪。因此，在享受深度自省和兴 hobby 的同时，不妨把握机会与他人互动。当我们走出舒适区，与志同道合的人一起探讨或分享经验时，可以碰撞出新的火花，进而推动自身更加深入的发展。这种平衡实际上是在每个阶段都保持动态调整，让自由和责任互相促进，而不是相互排斥。",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "男性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

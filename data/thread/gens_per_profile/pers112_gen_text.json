@@ -1,1 +1,48 @@
-{"person": "pers112", "text": [[" sorry but idk if moving really changes things that much? sorta feels like you carry your old self wherever you go no matter the scenery swap \ud83c\udfd9\ufe0f\ud83d\udd04\ud83c\udf33", []], [" historical finds =/= ghosts but don't downplay their worth tho", []], [" cool finds actually give real context to our past\ud83d\udc40 just not ghost stuff - still super fascinating minus haunt vibes!", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" life\u2019s more rough draft than final copy tbh", []], [" feels like every month brings some surprise expense - so much for \"predictable\" bills \ud83d\ude12 huge myth tbh", []], [" budget\u2019s more like dodgeball these days \ud83c\udfd0", []], [" higher income \u2260 need for material stuff; more freedom to choose imo \ud83d\udc4d", []], [" academia vs real-world gigs - totally diff story \ud83d\ude24\ud83d\udcaf", []], [" ugh totally get you! film school seems all cool until u realize it's less quentin tarantino & more coffee runs than expected \ud83d\ude02 gotta roll with those punches tho!", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in Film"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 0, 1]}]], [" film school vibes different - doesn't always match reality tho", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in Film"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 0.5]}]], [" yeah feels like all theories crumble under job market pressure", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 0.5]}]], [" crazy stuff happens - saw someone buy 100 pumpkin spice syrups once \ud83c\udf83\ud83e\udd23", []], [" yeah even slinging coffee gets you pigeonholed sometimes - legit skills get overlooked cuz they expect you're just riding out some phase until \"a real job\" comes calling", [{"feature": "occupation", "guesses": ["barista", "coffee shop worker", "cafe employee"], "hardness": "direct", "certainty": 5, "model_eval": [0.5, 0.5, 0.5]}]], [" skill doesn't always beat old habits \ud83d\ude12", []], [" not surprised tbh, some customers see me just serving coffee when i'm juggling much more behind the counter \ud83d\ude44", [{"feature": "occupation", "guesses": ["Barista", "Caf\u00e9 Manager", "Coffee Shop Worker"], "hardness": "direct", "certainty": 5, "model_eval": [0.5, 0, 1]}]], [" honestly think everyone romanticizes things too much early on - just keep it real rather than overthinking 'us vs. me' stuff so soon!", []], [" real growth happens inside too - gotta both be evolving \ud83c\udf00", []], [" but what if goals change?", []], [" glue's not just warm fuzzy feelings; it\u2019s also splitting Netflix bills without drama", []], [" def takes teamwork & real talk", []], [" teaming up sounds cute but feels kinda constraining - lifelong solo artist? \ud83e\udd14", []], [" real talk tho - we grow films where everything wraps up neatly incl romance which isn\u2019t reality? just think solid relationships are part masterpiece part blooper reel \ud83d\ude02\ud83c\udfac", []], [" def more everyday compatibility n' respect than fate tbh", []], [" bet they're not unchanged, just unnoticed changes happening tbh", []], [" big cities can dilute those vibes though", []], [" older techniques had soul though", []], [" yeah busier cities just don't get chill backyard vibes right?", []], [" scheduled bbqs just lack that spontaneous fun factor tbh...kinda makes you miss homegrown traditions sometimes huh?", []]]}
+{
+    "person": "pers112",
+    "text": [
+        [
+            ": 这种看似“完美”的高收入其实就像飞机上的乘客安全演示一样，看上去光鲜亮丽，一但遇上湍流却又是另一番折磨。从面子出发再考虑里子的确值得深思，但别忘了根据现实情况来制定实际可行的方法。例如，可以把钱包鼓起来与灵魂丰盈一起打包，这样才能真正享受你赚来的每一个人民币，而不是被它们牵着鼻子走！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "硕士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "富豪",
+                        "高级中产",
+                        "高级中产"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        0,
+                        1,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 说到底，我们吃的不只是食物，而是陪伴。无论大排档还是五星级餐厅，那份喜悦来源于我们彼此分享生活。如果每次相聚都变得像商业合同，那还不如回归简单，因为真正打动心灵的，是那些温暖的小瞬间，而非奢侈品上的花俏标签。这种神奇吧！",
+            []
+        ],
+        [
+            ": 哈哈，不得不说，在高档餐厅吃饭，有时候反倒感觉像是在拍电影，每个人都装扮得光鲜亮丽，却难以找到熟悉的小火花！就如同乘坐飞机，上升高度越高，视野越宽广，但是却总有种失重感。不如回归本源，与朋友们拥抱街边的小吃，再来几杯啤酒，那才是真正飞起来、放轻松的时候呀！当我们能用心灵去连接，而不仅仅靠口袋里的钞票，大概这就是生活中的“隐形财富”吧！",
+            []
+        ]
+    ]
+}

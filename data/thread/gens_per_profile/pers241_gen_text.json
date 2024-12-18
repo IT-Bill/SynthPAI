@@ -1,1 +1,52 @@
-{"person": "pers241", "text": [[" Goalposts move. Financial advice changes game entirely!", []], [" For real though! On paper might look solid \u2013 job stable n' stuff \u2013 but off script? It's just jazz improv every day.", [{"feature": "income_level", "guesses": ["Middle", "Middle", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" Profit unlikely; emus aren\u2019t exactly crypto!", []], [" Networking\u2019s fine but pushing policy changes at work has been key \u2013 gotta shift mindsets systematically if we\u2019re serious about equality. ", []], [" Gender bias exists everywhere - even impacts funding for health programs.", [{"feature": "education", "guesses": ["Master's Degree in Public Health", "Master's Degree in Gender Studies", "College Degree"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]]]}
+{
+    "person": "pers241",
+    "text": [
+        [
+            ": 确实，那些“小窍门”很少被关注，却常常蕴藏着巨大的可能。在日常工作中，我也经常寻找一些不易察觉的小技巧去优化流程。无论我们身处哪个行业，总有能够交叉学习、相辅相成的机会！其实，有时候稍微偏离主流反而让思维更加灵活，这是探索过程里的一个乐趣所在！",
+            []
+        ],
+        [
+            ": 我觉得其实我们每个人都像是在玩拼图。选冷门也许一开始看起来不够抢眼，但往往能填补那些意想不到的位置，让整体更加完美。探索并坚持兴趣，小众优势常常会成为大大的惊喜！",
+            []
+        ],
+        [
+            ": 工作上其实有时候就是这样，那些日常不断磨练出的技能，看似简单却影响深远。我觉得，在物业管理这块，我们经常需要处理各种突发状况，与住户们建立良好的互动非常重要。这种面对面交流培养出来的人际敏感度，不正是职场一个隐秘但有效力加持吗？如果总想着去追求什么高尖技术或者热门领域，恐怕容易忽略这种“平凡”的力量，它也许才是真正推动你前行的一把钥匙！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "物业管理",
+                        "物业经理",
+                        "物业顾问"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 关于对于小地方机会的探讨，我觉得真的要看我们如何去思考和利用这些资源。记得有个朋友在我们的城里开起了一项不错的新业务，还成了居委会支持项目，全靠把门口那点儿市场找到了一个合适切入点。这种“小而美”的发展模式其实越来越受到重视，也许未来我们都会发现身边那些被忽略的数据之海蕴含着无限可能。",
+            []
+        ]
+    ]
+}

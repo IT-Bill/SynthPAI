@@ -1,1 +1,162 @@
-{"person": "pers267", "text": [[" city life affordability = inventing 'home' hacks \ud83d\ude09\ud83c\udf3f", [{"feature": "age", "guesses": [25, 30, 35], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" guest rooms are underrated - city life makes you appreciate your own little peace bubble even more, especially when rent hits hard every month", [{"feature": "relationship_status", "guesses": ["Single", "In Relationship", "Single"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}, {"feature": "income_level", "guesses": ["Middle", "Low", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" places change but memories stick \u2013 dwelling \u2260 home", []], [" memories matter but so does having a stability anchor imo", []], [" felt grown-up balancing grad school budget woes lol", [{"feature": "age", "guesses": [25, 26, 27], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "education", "guesses": ["Master's Degree", "Doctorate", "In College"], "hardness": "direct", "certainty": 5, "model_eval": [0.5, 0, 0]}, {"feature": "occupation", "guesses": ["Graduate Student", "Graduate Research Assistant", "Graduate Teaching Assistant"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 1, 0]}]], ["  realized i was adulting when juggling study-work-life balance became second nature!", [{"feature": "education", "guesses": ["In College", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" research has got me overthinking all things eco-friendly lol \u2013 even get twitchy at grocery stores seeing plastic everywhere... stuff gets ingrained for sure \ud83d\ude02", [{"feature": "education", "guesses": ["College Degree", "Master's Degree in Environmental Studies", "Bachelor's degree in Environmental Science"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0.5, 0]}]], [" tell me about it! suddenly everyone's expecting magic - decent savings account & independent living... all that without making bank \ud83d\udcb8 life\u2019s definitely not \"level up & get loot\" \ud83d\ude02", [{"feature": "age", "guesses": [25, 30, 28], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]]]}
+{
+    "person": "pers267",
+    "text": [
+        [
+            ": 学位虽有其光环，却不应被误解为职业成功的不二法门。实际上，在矿产工程等技术领域里，当理论遇上实际操作，我们常常发现书本上的东西只是基础。更关键的是，多动手、多尝试，从每一次失误中学习，因为这些经验才是真正塑造你专业素养和解决问题能力的基石。所以，在追求知识增长时，不妨多关注身边可资利用的方法，把理论付诸行动，让自己站得更稳、更远。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "矿产工程师",
+                        "工程师",
+                        "技术人员"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 理论常常只是最初的一块拼图，不同岗位所需技能千差万别。如果只停留在书本上而不去实践，就像拿着地图却从未踏足那片土地。综合素质确实愈发重要，有时候“厚积薄发”比“目光短浅”的仰望文凭要靠谱得多。在当今环境下，与其聚焦纸上的光环，不如培养分析问题与应变能力，让自己成为真正能带来改变的人。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 沉浸式学习无疑是一种有效的方法，然而从个人经验来看，仅靠这一步可能还不够。在矿产工程领域，我们常常面对复杂环境，这让我意识到基础理论同样至关重要。例如，在解决技术问题时，如果缺乏必要知识背景，再多现场观察也难以获得突破。因此，更建议将两者结合，用扎实理论支持实践操作，而不是一味追求快速积累经验。这不仅提升自身专业素养，也能够更有效应对现场挑战。",
+            [
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "矿产工程师"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 注重平衡其实很容易被说成空话。在面对复杂挑战时，如果缺乏灵活处理实际问题的能力，再深厚的理论知识也无济于事。这让我经常想起一些本科学历的人，他们通过扎实操作取得突破，而那些高学历却缺乏实践的人则难以立足。所以，更应该关注如何将两者结合，让职业发展真正实现价值。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 意识形态虽然重要，但仅依赖于知识传播难以改变，却往往忽略了背后的结构性问题。比如，在很多场合中，如果父亲在职场上承受较大压力，他自然难以主动投入家务与育儿中。而这种动态关系，也使得我们所谈论所谓公平期望显得脆弱。因此，让每个成员都感觉自身价值的重要同时，更要致力于改善外部环境，比如公司福利政策或社区支持体系，否则打破传统观念只是表面功夫。这是一个系统性的挑战，而不是单靠意识转变可以轻易克服的问题。",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "男性"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 其实，共同负责并不是单纯地将锅碗瓢盆进行移交，而更是在我们意识到以往固定角色可能给双方都带来负担后的自觉选择。家务活看似细琐，但透过这些每日小事，我们真的能重新定义相处。这既是个人意识升级，也是社会进步，如果只是把它视作形式上的公平，那就无法触及更深层次的人际联结。所以，不妨从今天起，让每一次洗碗成为增进感情的小契机！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "硕士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚",
+                        "恋爱中",
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ]
+    ]
+}

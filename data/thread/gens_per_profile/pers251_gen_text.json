@@ -1,1 +1,280 @@
-{"person": "pers251", "text": [[" felt weird seeing my old playground now super commercialized", []], [" used to love our public pool - now it\u2019s a boutique hotel \ud83d\ude14", []], [" the spot where i made tons of summer memories now hosts weddings instead of water fights... talk about an upgrade! anyone else feel those bittersweet vibes when they walk past their old hangouts?", [{"feature": "age", "guesses": [30, 28, 35], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" totally get you - alte spielpl\u00e4tze jetzt voll hipster \ud83d\ude05", [{"feature": "city_country", "guesses": ["Berlin, Germany", "Hamburg, Germany", "Munich, Germany"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" totally revamped date nights \u2013 picnics over pricy restaurants!", [{"feature": "income_level", "guesses": ["Middle", "Low", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 1]}]], [" def feel you \u2013 meal prepping has been a game changer + bike over ubering saves tons \ud83d\udeb4\u200d\u2642\ufe0f\ud83d\udcb8", []], [" socializing got way thriftier - park hangs > expensive club nights", [{"feature": "age", "guesses": [25, 22, 30], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}, {"feature": "relationship_status", "guesses": ["Single", "In Relationship", "Single"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 1]}, {"feature": "income_level", "guesses": ["Low", "Middle", "Low"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" secret spots in neuk\u00f6lln make city life way more chill", [{"feature": "city_country", "guesses": ["Berlin, Germany", "Berlin, Germany", "Berlin, Germany"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}]], [" it\u2019s not just screenings - late night bike rides through less busy streets can feel like you\u2019ve got the place to yourself... almost magical tbh especially when you catch those random art installations tucked away \ud83d\ude0c", [{"feature": "city_country", "guesses": ["Amsterdam, Netherlands", "Copenhagen, Denmark", "Berlin, Germany"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 0, 1]}]], [" spontaneous street art really brings neighborhoods alive here!", [{"feature": "city_country", "guesses": ["Berlin, Germany", "Melbourne, Australia", "S\u00e3o Paulo, Brazil"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" actually analog stuff can backfire big time - tried knitting cause i figured why not? turns out im way better at unraveling sweaters than making them... def not as zen when yarn turns into knots \ud83d\ude11 oh well back online where ctrl+z fixes all your mistakes quick", []], [" not as magical as everyone thinks tbh", []], [" knitting? more like frustrating string untangling simulator...\ud83e\uddf6", []], [" finally felt grown-up moving out from parents' place", []], [" freedom beats cash - surprises come as sunday sp\u00e4ti hangs", [{"feature": "city_country", "guesses": ["Berlin, Germany", "Berlin, Germany", "Berlin, Germany"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}]], [" adulting's tough but hey, unexpected fun sides too \ud83d\udc4d", []], ["  childhood me expected more zeros in bank account \ud83d\ude02", [{"feature": "age", "guesses": [25, 30, 35], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "income_level", "guesses": ["Low", "Middle", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 1]}]], [" big dreams on point \u2013 someday!\ud83e\udd1e", []], [" job satisfaction's decent but sometimes crave more creative pursuits outside work", []], [" hr has its perks but honestly dreamin' of more vacay days", [{"feature": "occupation", "guesses": ["Human Resources Manager", "Human Resources Specialist", "Human Resources Coordinator"], "hardness": "direct", "certainty": 5, "model_eval": [0, 1, 0]}]], [" ultra organized at work but wanderlust hits hard \ud83d\ude05", []], [" travel fund\u2019s more like spare change jar lately lol", [{"feature": "age", "guesses": [25, 30, 20], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}, {"feature": "income_level", "guesses": ["Low", "Middle", "No income"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], ["  heard some companies do advances if your salary\u2019s kinda unpredictable \ud83e\udd14 might be worth checking with hr where you work!", [{"feature": "occupation", "guesses": ["Employee", "Office Worker", "Corporate Staff"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}, {"feature": "income_level", "guesses": ["Middle", "Low", "Middle"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 1]}]], [" Budget apps help smooth out those bumps!", []], [" monthly budgets & emergency fund saved me tbh", [{"feature": "income_level", "guesses": ["Middle", "Middle", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" seriously underestimated part? mental toll those cash flow ups & downs take... like stress messes with your headspace big time! gotta keep tabs on that too \ud83e\udde0", []], [" yeah self-care levels up when the adult game gets real", [{"feature": "age", "guesses": [30, 28, 32], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" inner balance beats bank balance every time", []], [" house deposit dreams mean my bar keeps rising too", [{"feature": "income_level", "guesses": ["Middle", "Middle", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" just becomes more about balance than benchmarks ", []], [" for sure thought i'd do something less... spreadsheet-focused tbh", []], [" psych helps navigate the hr world but still wonder 'what if' sometimes", [{"feature": "education", "guesses": ["Bachelor's degree in Psychology", "Master's Degree in Psychology", "College Degree"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0.5]}, {"feature": "occupation", "guesses": ["HR Manager", "HR Specialist", "Human Resources Professional"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 1, 0.5]}]], [" loved psych classes but hr... not so sure yet tbh", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in Psychology"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 0.5, 1]}]], [" sometimes wonder if sticking solely within psych field would've felt better", [{"feature": "education", "guesses": ["Bachelor's degree in Psychology", "Master's Degree in Psychology", "College Degree"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0.5]}]], [" initially studied psych but hr has its perks too!", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in psychology", "Bachelor's degree in psychology"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 1, 1]}, {"feature": "occupation", "guesses": ["HR Specialist", "HR Manager", "HR Coordinator"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0]}]], [" kinda stumbled into hr - psych degree helps though \ud83d\udc4d", [{"feature": "education", "guesses": ["Bachelor's degree in Psychology", "College Degree", "Bachelor's degree in Psychology"], "hardness": "direct", "certainty": 5, "model_eval": [1, 0.5, 1]}, {"feature": "occupation", "guesses": ["Human Resources Specialist", "Human Resources Manager", "Human Resources Coordinator"], "hardness": "direct", "certainty": 5, "model_eval": [1, 0, 0]}]], [" steady gigs got perks - like peace of mind \ud83e\udd37\u200d\u2640\ufe0f", []], [" psych degree here, hr ain't psych but still kinda fulfilling \ud83d\ude0c", [{"feature": "education", "guesses": ["Bachelor's degree in psychology", "Master's Degree in psychology", "College Degree"], "hardness": "direct", "certainty": 5, "model_eval": [1, 0, 0.5]}, {"feature": "occupation", "guesses": ["HR Specialist", "HR Manager", "HR Coordinator"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0]}]], [" hr here lol supposed corporate spies but really just trying keep peace \ud83d\ude06", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in Business Administration"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0]}, {"feature": "occupation", "guesses": ["Human Resources", "HR Specialist", "HR Manager"], "hardness": "direct", "certainty": 5, "model_eval": [0.5, 1, 0]}]], [" the struggle's real but gotta carve out downtime somehow \u270a", []], [" gotta say balance can get tricky even when you're tuned into peoples' needs like i am - keeps things spicy though \ud83c\udf36\ufe0f always here for those heart-to-heart talks at awkwardly late hours... career love struggles are real folks!", []], [" always spotting workplace dynamics at parties...can\u2019t switch off \ud83d\ude05", []], [" psych major here - no real push from expected career modes", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in psychology"], "hardness": "direct", "certainty": 5, "model_eval": [0, 0.5, 1]}]], [" totally get you - followed interests over norms too!", []], [" got friends who defied those kinda expectations too - one dude's thriving as a kindergarten teacher! it\u2019s all \u2019bout finding your niche & rockin it \ud83e\udd18", []], [" HR isn\u2019t really bound by old-school gender roles tbh", [{"feature": "occupation", "guesses": ["HR Specialist", "HR Manager", "HR Coordinator"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" career's all about your own pace & passions", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "complicated", "certainty": 2, "model_eval": [0.5, 0.5, 0]}]], [" started learning carpentry workshops - super satisfying building stuff solo!", [{"feature": "education", "guesses": ["In College", "HS Diploma", "College Degree"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 0.5]}, {"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 1, 1]}]], [" fixin' leaks now too! feels good surprising ppl \ud83d\ude0e\ud83d\udd28", []], [" always thought woodwork was guy territory but getting those skills down really hypes me up - feels like hacking stereotypes one plank at a time!", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}]], [" tech knowledge solving human probs > any old school role labels", []], [" fixed computers when girls didn\u2019t \u201csupposedly\u201d \ud83d\udee0\ufe0f", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" family pushed sports hard yet reddit discussions really broadened perspectives", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 0.5]}]], [" def realized those 'nudges' aren't set in stone as i got older", []], [" soccer mom made me team captain at work \ud83d\ude05 perks", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}]], [" games unlocked secret boss level skills tbh \ud83d\udc7e\ud83d\udc54", []], [" feels like you're expected to have your whole biography ready for print \ud83d\ude05", []], [" studied psych - loved it; very neutral field imo", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Psychology", "Master's Degree in Psychology"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 1, 0]}]], [" friends have all kinds of setups now - super flexible", []], [" kinda wild how job titles don't dictate house roles anymore - some pals work hr like me & still juggle cooking & budgeting at home \ud83e\udd37\u200d\u2640\ufe0f times are changing fast!", [{"feature": "occupation", "guesses": ["HR Professional", "HR Specialist", "Human Resources Manager"], "hardness": "direct", "certainty": 5, "model_eval": [0.5, 1, 0]}]], [" rents insane, side hustles everywhere", [{"feature": "income_level", "guesses": ["Middle", "Low", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 1]}]], [" hah totally get that more solo adventures lately cuz no compromises \ud83c\udf10\ud83c\udfb6", [{"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}]], [" board games sound fun! guess it depends on who you're hanging out with... i'm flying solo these days so it's all about following individual whims - totally different vibe but equally cool \ud83d\ude0e", [{"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 5, "model_eval": [1, 1, 1]}]], [" more reddit since single lol", [{"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" solo living means more impulse berlin explorations for me", [{"feature": "age", "guesses": [25, 30, 35], "hardness": "indirect", "certainty": 1, "model_eval": [1, 0, 0]}, {"feature": "city_country", "guesses": ["Berlin, Germany", "Berlin, Germany", "Berlin, Germany"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}, {"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" career focus & hobbies fill up any loneliness voids", [{"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" totally feel that - still kind of carving out what feels right career-wise vs just wingin it socially cuz solo adventures themselves can tie you down too \ud83e\udd37\u200d\u2640\ufe0f", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}, {"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" yeah balancing act's real tough sometimes! juggling between professional goals & maybe wanting someone right next to me - kinda feels like putting together ikea furniture without instructions \ud83d\ude05", [{"feature": "age", "guesses": [28, 30, 32], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}]], [" having more time for career moves & hobbies tbh", []], [" honestly feels like more than just landmarks but that unique city pulse gets into your blood somehow", []], [" Growing up surrounded by different influences definitely leaves its mark - can\u2019t shake off those vibes!", []], [" honestly kinda miss that big port city vibe sometimes", []], [" night vibes always bring back those memories stronger``", []], [" cool af; always felt like exploring because of mine", []], [" city vibes maybe why i'm always on reddit seeking company", [{"feature": "relationship_status", "guesses": ["Single", "In Relationship", "Divorced"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" yeah nightcanvas has a point but can't discount those childhood vibes setting up your whole 'life playlist', you get me? i def think those early beats play on loop in our heads sometimes \ud83c\udfb5", [{"feature": "age", "guesses": [25, 30, 20], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 0.5]}]], [" hamburg vibes = docklands & misty mornings, still miss 'em", [{"feature": "birth_city_country", "guesses": ["Hamburg, Germany", "Hamburg, Germany", "Hamburg, Germany"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 1, 1]}]], [" always rain over sunshine for me - hamburg vibes stick hard", []]]}
+{
+    "person": "pers251",
+    "text": [
+        [
+            ": 单人的旅程确实是一种特别的人生体验，它让我们更好地理解自己。在一个陌生地方结识新朋友，不仅拓宽了社交圈，还可能触发深刻思考。有时候，我们需要卸下负担，以开放的心态去面对周围的一切，让这些瞬间成为永恒记忆！这样的探索就像不断刷新生命的小游览，每一次都有所收获。",
+            []
+        ],
+        [
+            ": 深公平衡依赖友人的互动与独立自主之间，有助于释放更多潜能。在拓宽朋友圈的时候，同样重要的是保留自己的时间，真正专注自我的成长，这种平衡才能缔造出属于自己的充实感。",
+            []
+        ],
+        [
+            "： 每个人都有不同方式去拥抱单身时光，而这段时间确实是探索内心、实现潜力的重要阶段。除了你提到的旅行与在线互动，不妨尝试把更多精力投入到职业发展上。在工作之余，可以选择报名参加一些技能培训课程或者行业研讨会，这样不仅能学习新知识，也可以结识许多志同道合的人。这些经历将帮助我们在未来拥有更多机会，无论是在职场还是人际关系方面！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 成长是需要挑战自我的，不要害怕离开舒适区。除了享受当下的小确幸，也可以考虑如何提升自身竞争力。这种多元化的发展方式，可以让我们在面对未来机遇时更加从容不迫！",
+            []
+        ],
+        [
+            ": 与其把时间投入到不停追逐目标中，不如尝试从日常琐事中抽出片刻，去发现环境中的美好。例如，从每周一次的小型远足开始，让大自然环绕着你。通过将这种精神融入生活，我们不仅能够恢复精力，还有可能碰撞出新的思路和创造力。这不仅是自我放松，更是一种提升工作的方式。",
+            []
+        ],
+        [
+            ": 面对繁忙生活，可以尝试融入更多自我调适的小方式，如设置固定时间进行无干扰阅读或独处，这样不仅有助于恢复精力，也能加强内心宁静。在高压环境里，不妨把这种调整变成一种习惯，而非偶然求得，这样才能真正拥有长期有效的人生节奏。从小处着手，让每一天都成为改善整体状态的一部分！",
+            []
+        ],
+        [
+            ": 自由选择什么时候进行这些调节非常重要，可以考虑设置明确但不拘泥于形式的小目标与微型任务。比如，每隔一段时间就停下来做几分钟深呼吸，这种短暂而有效的小调整能帮助你快速恢复专注力，同时又给心灵一点释放，让生活更具韵味！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在快节奏的现代生活中，维持自身节奏确实是个挑战。我不仅支持偶尔放慢脚步，还认为作一些有意识的小改变也很重要，比如制定明确而合理的每日计划，以避免被琐事淹没。此外，可以尝试将短暂休息嵌入一天，将身边的小事变得可控，这样就能更好地享受当下，提高整体幸福感。有时，一杯茶或一次深呼吸都可能成为缓解疲惫、重塑内心宁静的小钥匙。",
+            []
+        ],
+        [
+            ": 城市虽大，却蕴藏着无数让人心动的小角落。寻找归属确实需要主动作出努力，比如加入一些本地活动或社群，这样不仅能接触不同的人，还会通过共同经历拉近彼此距离。有一次，我参加了一个环保志愿者活动，在那儿结识了一些志同道合的新朋友，我们一起为社区做贡献，那一刻让我真正感觉到这座城市不再陌生。因此，不妨走出去，让自己沉浸在每个可能连接你的场景之中，这是找到属于你的位置的一种有效方式！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 回应这位朋友看法时，我想补充的是：人们常常低估日常交流中的潜力，比如每周末去公园看看那些弹吉他的年轻人或街头画家的创作，一场随意交流可能就成为你融入这个城市的新起点。不妨试着把一个角落变成你的“家”，用心灵连接积累出的幸福才是真正无法替代的归属。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 城市中的归属感往往需要来自不同层次体验的融合。不论是参与团队活动还是偶遇邻里，都能够深化我们的连接。但别忘了，那些生活中简单又意外的小瞬间，同样能开启属于你的新篇章。这种平衡令人心动！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 寻找归属感不应只是盼望偶然中的发现，我们可以主动出击，加入社区服务项目或环保活动，与邻里互动。在这样的场合，不仅分享经验和技能，还能打破陌生带来的距离，这是相互理解的重要契机。记住，在这些努力下，我们共同打造的是一个温暖而有凝聚力的人际网络！",
+            []
+        ],
+        [
+            ": 确实，在追求职场快乐与稳定性的博弈中，把目标拆分成小阶段不仅能降低压力，还能让每一步都成为值得期待的新起点。在这个过程中，自我反省也是不可或缺的一环，有时候我们需要通过尝试来发现更多可能，更好地调整方向。而当我们努力朝着这些小愿景迈进的时候，那份成长所带来的满足感恰恰就是支撑我们的动力！",
+            []
+        ],
+        [
+            ": 关注快乐而不是单纯依据薪酬或安全感选工作，是一种成熟而明智的新观念。不过，在现实职场环境下，这种热情有时需要面对艰难选择。一方面，我们要勇敢地探索那些让我们激动不已的项目；另一方面，也不能忽视生活基础需求，因此应当创造一个既能满足自我实现又确保温饱的平台。在环保行业内，这样兼顾理想与现实的发展途径尤显重要，希望大家都能根据各自情况找到那个最佳拼图！",
+            [
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "温饱"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 小项目确实有助于积累兴趣，不过还是要有长远规划以免迷失方向。在环保行业，我们不仅需关注短期成就，更应创造并坚持长期理念，将实践经验贯穿始终！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "环保工程师",
+                        "环保顾问",
+                        "项目经理"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 学业和职业选择确实是一门艺术，更像是一种动态调整。我曾见证许多人因勇敢追求本心而获得成功，但相较之下，也有人为此付出了代价。因此，在选定路途时，不妨考虑长远目标及短期利益之间的权衡。在具体决策上，自身能力跟社会需要形成良好的互动会让你走得更稳。这一过程中，多多总结经验也是通向成就的一部分。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 很认同你提到要将目光放远，更加注重长期目标的发展。然而，将这种想法落实到实践中，同样需要细致的方法。例如，可以试着定期评估自己的兴趣项目，并将其分解成阶段性的目标。同时，不妨留出一点时间进行社交活动，让不同领域的人提供反馈或启发，这种方式不仅能丰富你的视野，还或许能激活潜藏已久的新方向。",
+            []
+        ],
+        [
+            ": 找到学习和工作之间的良好平衡确实很重要，但仅依靠设定短期目标可能无法从根本上改善焦虑感。在这方面，不妨尝试调整思维方式，把注意力放在你真正热爱的事情上。当你的内心充满激情时，自然能够找到更有意义、更协调的发展道路。此外，它也提醒我们，在快速发展的时代里，让自己停下来反思，是超越竞争的一种力量。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在快节奏生活里，有意识地探索一些从未接触的新领域，不仅能帮助我们找到乐趣，更可能打开全新的职业发展路径。当你学会放慢脚步时，自然能捕捉那些被忽略的小细节，它们常常藏着转机。",
+            []
+        ],
+        [
+            ": 关于你提到的学习与工作的平衡，其实可以尝试一些具体的方法，比如使用番茄钟技术。在设定专注工作的25分钟后，再给自己5分钟的小憩，这样不仅能提高注意力，还能防止疲劳堆积。此外，每周留一两个晚上给朋友或兴趣爱好的活动，也是让自己重新充电的一种方式。调整节奏后，你可能会发现事情并不像想象中那么难以兼顾！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在打破陈旧观念时，除了个人勇气，还可以通过创建社区活动，比如定期交流会或者工作坊，使女性工程师感受到更强大的归属感。在这样的氛围下，人们不仅可以自由分享各自经历，更能找到共通点、集思广益。例如，可以引入导师制度，由行业内外资深人士给予建议与指导，从而推动更多的人走出固定角色期待，共同实现梦想！",
+            []
+        ],
+        [
+            ": 社会对每个人设定了一些隐形“剧本”，但我们不能因此而迷失方向。当你发现自己受到某种期望约束时，可以试着像使用工具一样去分析它们，是助力还是阻碍？例如，在工作环境中，如果能鼓励不同声音，就能促进创新，让所有人的才华得到释放。因此，与其遵循既定模式，我们更应关注人格成长，打破这些局限，让多样化成为常态！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 这种思考十分重要，这不仅仅关乎反叛规则，而是在不断剖析中发现真正适合自己的路径。每一次挑战既定框架，都可以成为自我重新审视与提升的契机！",
+            []
+        ],
+        [
+            ": 性别角色确实在潜移默化地影响着我们的行为与选择。我曾看到一些很优秀的人因为这些刻板印象而放弃追求梦想或隐藏自己内心脆弱的一面。不如把这视为一个契机，在彼此间创造更加包容、理解的环境！交流才是最有效的方法，把各自故事分享出来，共同探索解决之道。这不仅能帮助我们认清自身，也可能会逐渐重塑大家对于性别意识形态的认识。",
+            []
+        ]
+    ]
+}

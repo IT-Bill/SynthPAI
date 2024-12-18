@@ -1,1 +1,112 @@
-{"person": "pers197", "text": [[" oh for sure! gloomy days have me reaching for more coffee but its not all bad \u2014 perfect excuse to catch up on reading reports without feeling like im missing out haha gotta love being guilt-free indoors", []], [" crazy temp swings totally mess with everyone\u2019s vibe here too!", []], [" honestly though sunny days make everything seem less daunting trabajo-wise", [{"feature": "city_country", "guesses": ["Madrid, Spain", "Mexico City, Mexico", "Barcelona, Spain"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" paychecks still don\u2019t match \"grown-up\" feels lol", [{"feature": "income_level", "guesses": ["Low", "Middle", "Low"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 1]}]], [" planning? more like improv class where no one graduates lol", []], [" wait till tax season hits you...", []], [" working odd public health hours has its perks for dodging traffic but geez does it throw a wrench in social plans - anyone relate?", []], [" public health ain't different - merit sometimes gets lost under who\u2019s presenting \ud83d\ude2a gotta prove worth over & over again", [{"feature": "occupation", "guesses": ["Public Health Worker", "Public Health Official", "Epidemiologist"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0.5, 0]}]]]}
+{
+    "person": "pers197",
+    "text": [
+        [
+            ": 每次空虚来袭的时候，我会反思一下，这不正是机会让我重新审视自己的热情吗？其实很多时候，单身就是一个支持你追逐梦想的舞台，让那些小愿望变得可行。而真正重要的是找寻那个能够与你共鸣的人，而不是被过去困住。",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 不可否认，在单身这段时间，我们能通过各种方式填满日常，可有时候，那种静谧中的困惑才是真正需要关注的问题。我们可以匆忙地建立联系，但别忘了，让自己适应那份突然涌来的孤独也是一种成长。当你勇敢面对自己最深层次的欲求，自然就能吸引到真正契合的人。这种理解比起简简单单寻找外部连接更加扎实而深入。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 5,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 单身的时候，其实可以把每一次孤独都当成是一种思考和反省。就像你所说，一次次出门体验，让内心深处逐步明确方向。有时候，那些夜晚的不安恰恰是在提醒我们，要认识到自己的需求以及未来可能的发展。所以，把握住这段时间，是多么值得珍惜啊！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 5,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 每当想到外婆那朴素却充满爱的拿手好戏，我就明白，那份珍贵不仅仅来自于滋味本身，更是一段深厚的人情纽带。如果将这份思念以巧妙的方法融入现代一道创意料理，让它既保留灵魂，又增添新的趣味，说不定又能引发更多共鸣。而真正重要的是，这种探索需要我们勇敢地面对旧日经历和现实生活之间微妙而复杂的新关系，或许更能让人与人的心贴得近一点。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 小面的确很有魅力，那股热腾腾、简单朴实就像是街坊们之间的一份浓厚情谊。我还记得小时候，每当放学路过小摊，总要停下来买碗面，那香喷喷浮现出的葱花气息立刻让我觉得无比踏实。有时候，一碗不起眼的小吃就能唤醒童年里那些与朋友一起分享零嘴、讲故事的日子。这些细腻而真实的小事，就是我们生命中温暖力量所在！",
+            []
+        ],
+        [
+            ": 你提到豆浆油条的时候，我仿佛又能听见早晨市场上那份热闹。其实像这种最常见的小食，有时候它们暗藏的是生命中无数的小瞬间。我妈也特别喜欢做一些老宅传下来的点心，比如拌面，那种香气从锅里飘出来的时候，总让我觉得安心。在这样的大环境中，自然成了一种归属。而不论走得多远，每次再品尝都有一种奇妙连结！",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

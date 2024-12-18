@@ -1,1 +1,120 @@
-{"person": "pers208", "text": [[" first solo budget session hit me hard \u2013 realizing you've got a handle on your own expenses outta nowhere...yeah that was my welcome-to-adulthood wake up call \ud83d\ude02", []], [" crashed servers at work - woke up fast!", []], [" biggest misconception? that we\u2019re all earning crazy money straight outta college haha... trust me \u2013 still waiting for that 'coding millionaire' status \ud83d\ude02 patience is key!", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Computer Science", "Bachelor's degree in Software Engineering"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 0, 0]}, {"feature": "occupation", "guesses": ["Software Developer", "Programmer", "Coder"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0.5, 0.5]}, {"feature": "income_level", "guesses": ["Middle", "Low", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 1]}]], [" techie = coffee addict stereotype rings pretty true here lol", []], [" debugging habits die hard - catch myself proofreading restaurant menus like it's code needing fixes \ud83e\udd13 gotta laugh when waiters see me mumbling regex under my breath!", [{"feature": "occupation", "guesses": ["Software Developer", "Programmer", "Software Engineer"], "hardness": "indirect", "certainty": 5, "model_eval": [1, 0.5, 0.5]}]], [" def agree that hitting milestones doesn\u2019t mean ticking off society\u2019s todos - just more time playing your own game \ud83c\udfae\ud83d\ude80", []]]}
+{
+    "person": "pers208",
+    "text": [
+        [
+            ": 在这种情况下，其实很多人都有类似体验：即便手头紧张，看着卡里余额光鲜亮丽，却依然感觉像是在追赶一个永远也摸不到尾巴的目标。建议试着从不同角度调整一下心态，不妨考虑将部分精力投入兴趣爱好或参与志愿活动，这样既能转移注意力，又可能开拓新的社交圈。有时候展开广泛的人际关系，可以缓解内心的不安，甚至为你提供意想不到的发展机会！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产",
+                        "小康",
+                        "小康"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 无论我们多努力追逐目标，有时真的很容易迷失自我。投入时间去探索自己喜欢的小事情，比如参加手作课程或者加入跑步社群，不仅让人放松，还能收获新朋友。有时候就像烹饪一样，把各种原料合理搭配出来才能做出美味的大餐。所以，为何不试着用心调配你的日常，让每一天都多一点色彩呢？",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 人际连接真的是我们生活中最宝贵的一部分。有时候，一杯咖啡、一顿自制饭菜，其实远胜于豪华餐厅。在追赶高消费的时候，我们可能会迷失方向，不妨放缓脚步，回归那些简单却真实的小瞬间，与好友共享，让快乐从内心流淌出来，就算只是路边摊，也能够让人笑得开心。这才是值得去珍惜的“富足”！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在日常忙碌之余，其实不妨多停下来，把注意力放回身边的人。有时候，一句随意的话、一杯共享饮品，就能让我们重新找回那份温暖。这种真正的人际联系，不会因经济条件变化而消失，而是一种超越金钱、镶嵌在记忆中的持久财富。就是那样一种小情景，让你感觉整个人都充满阳光，无需奢华，只要真实可贵！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

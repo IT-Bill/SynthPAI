@@ -1,1 +1,104 @@
-{"person": "pers289", "text": [[" adulting hits different for everyone - regular bills? still counts \ud83d\udc4c", [{"feature": "age", "guesses": [25, 30, 35], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" realizing i was more excited about kitchenware than clubbing - adulthood hit hard!", []], [" night shifts suck when creativity tanks", [{"feature": "occupation", "guesses": ["Graphic Designer", "Writer", "Software Developer"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" deadlines may suck but they're sometimes stepping stones too... wish things were simpler but don\u2019t we all? gotta find that sweet spot between grind & sanity somehow! \ud83d\ude05", [{"feature": "education", "guesses": ["In College", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0]}]], [" noticed i can't stop critiquing menu layouts when eating out... it's like these fonts & colors won\u2019t let me enjoy my food in peace \ud83d\ude05 perks of always being 'in design mode' lol", [{"feature": "education", "guesses": ["Bachelor's degree in Graphic Design", "Bachelor's degree in Design", "In College studying design"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0.5, 0]}, {"feature": "occupation", "guesses": ["Graphic Designer", "UI/UX Designer", "Web Designer"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0]}]], [" responsibilities definitely ramp up \ud83d\ude05 ", []], [" eh idk my design background kinda makes me appreciate chaotic creative mess cities offer over toughness \u2014 adds color to my work \ud83d\ude0c", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Design", "Master's Degree in Design"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0.5, 0]}, {"feature": "occupation", "guesses": ["Graphic Designer", "Interior Designer", "Product Designer"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}]], [" definitely! feels more balanced when surrounded by creativity \u2013 gotta love those cozy design vibes \ud83d\ude0c", [{"feature": "occupation", "guesses": ["Interior Designer", "Graphic Designer", "Artist"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0.5]}]], [" def feel fairy tale charm sparked creativity\u00fcnstoppable", [{"feature": "occupation", "guesses": ["Creative Writer", "Illustrator", "Graphic Designer"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]]]}
+{
+    "person": "pers289",
+    "text": [
+        [
+            ": 理解你说的新颖调配带来的吸引力，但实际上，每一道简单菜肴往往蕴藏着独特的人生故事，或许我们不妨在保持其原貌上做微小调整，而不是彻底改造。这可更好地传承那些珍贵回忆。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有时候，我们似乎把复杂和繁忙当作掩饰而忽略最基本的人际链接。但其实，一顿精心准备的大排档真的很能抚慰心灵。在这过程中，那些熟悉的滋味不仅让我们重新回想到往昔，更为我们的关系增添厚度。如果有机会，也许可以约上几位老友，在厨房里一起做出那份家的感觉，把故事一一道出，而不单是追求高消费或奢华场景。这种共享默契，让生活更丰富多彩！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身",
+                        "恋爱中",
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 无论是家乡的小吃还是自家制作的新菜，我们都能在其中找到某种形式上的联结。但是，这种怀旧感是否会替代我们现实生活中的真正交流呢？其实，让我们常常去回顾那些充满人情味的小瞬间，同时也需要懂得如何将这些印记融入当前更为快速而复杂的人生之旅。而不是让过去锁住当下的发展。如果只是单纯依靠技巧及分享经验来维系连接，那又何尝不是一种停滞呢？这样的共同体意识值得深思，它不只是在舌尖上，而更应该延伸至心灵吧！",
+            []
+        ],
+        [
+            ": 生活中的这些不起眼小吃确实让人倍感亲切，但若只停留在个人层面，我们或许错过了一幅更丰富多彩的大画卷。试想那些来自不同地方、持有各自独特风味与故事的小炒，那么既传递文化，又激起无形链接。如果能够共享这样的饮食经历，不仅是对冷酷现实的一种调剂，更是在构建一种跨越地域的人际网络。这不正体现了我们的成长吗？期待大家更多精彩故事！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 很同意这点，对于许多人来说，那些庙会上的小吃或街角的小摊不仅是味蕾之享，更是一段故事。在你最爱的菜肴中，又有没有哪一道特别让你联想到某个老友或者难忘瞬间？这样的结合或许真的能催生出更多精彩的新故事！",
+            []
+        ],
+        [
+            ": 小吃所引发的人际互动确实让人感慨万千，这让我想到，通过品尝来自各地的特色菜肴，不仅是在共享美好时光，更是在聆听背后的故事。这些传统背后往往蕴藏着独特的历史、习俗甚至情感，而正是这样的交融，使得我们的交流愈发丰盈。因此，如果有机会，不妨主动去探索那些未曾尝试的小吃，共同开启一段心灵之旅！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身",
+                        "恋爱中",
+                        "已婚"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

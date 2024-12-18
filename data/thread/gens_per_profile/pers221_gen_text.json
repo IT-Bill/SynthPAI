@@ -1,1 +1,224 @@
-{"person": "pers221", "text": [[" Industries evolve; blend old charm with new vibe!", []], [" Sometimes scoring discounts for local events helps bridge that gap. Leveraging connections can make room both for necessities & fun! It's all strategic planning - like snagging off-peak deals even at posh venues. ", []], [" Totally get where you're coming from! Prioritizing spends can feel like playing financial Tetris - every piece has to fit just right especially when leisure meets budget crunch time!", []], [" Gotta love those impromptu jazz nights at boutique hotel lobbies around here\u2014unexpected sophistication meets relaxation! A real treat after a long day managing chaos behind-the-scenes.", [{"feature": "income_level", "guesses": ["High", "Middle", "High"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 1]}]], [" Love those caf\u00e9 hideaways! They remind me why cities are so special - always another layer waiting for you just when you need that breather during a busy day or between meetings \ud83c\udf75\ud83c\udfd9\ufe0f", []], [" Landed hotel manager job\u2014real test of decision-making chops!", [{"feature": "education", "guesses": ["Bachelor's degree in hospitality management", "College Degree", "In College"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0.5, 0]}, {"feature": "occupation", "guesses": ["hotel manager", "hotel manager", "hotel manager"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}, {"feature": "income_level", "guesses": ["Middle", "High", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Career leap here meant serious business - making tough calls daily shaped up my 'adult' persona fast.", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Business", "Master's Degree in Business"], "hardness": "complicated", "certainty": 2, "model_eval": [0.5, 0, 0]}, {"feature": "occupation", "guesses": ["Manager", "Executive", "Business Analyst"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 0]}]], [" Reality surpassed some childhood wonderment here! ", []], [" Perks at home can outweigh globetrotting sometimes!", []], [" The hustle never stops; crafting perfect stays gets you thinking - where\u2019s my five-star moment?", [{"feature": "occupation", "guesses": ["Hotel Manager", "Concierge", "Hospitality Professional"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0.5]}]], [" Feels natural balancing opulence at work and personal chill time!", [{"feature": "occupation", "guesses": ["Luxury Goods Manager", "Financial Advisor", "Hotel Manager"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" Forecasting is key - good analytics can prep you for slower months!", []], [" Cost control becomes key during those quieter months - foresight matched with tiny tweaks goes miles. Negotiate anything you can beforehand - suppliers love locked-in deals; your wallet will too!", [{"feature": "occupation", "guesses": ["Business Owner", "Manager", "Financial Advisor"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0.5, 0]}]], [" Diversify your hustle! Invest surplus during boom times \u2013 helps cushion those leaner months. Been there - strategic planning pays off big time. ", [{"feature": "education", "guesses": ["Bachelor's degree in Business", "Master's Degree in Finance", "College Degree"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], ["   Life's comfortable when bills are just background noise.", [{"feature": "income_level", "guesses": ["High", "Very High", "Middle"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}]], [" Outpaced by cost of living leaps even though paycheck grows...flation never takes a break!", [{"feature": "occupation", "guesses": ["Employee", "Salaried Worker", "Office Worker"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0]}]], ["  Degree opened doors - no regrets but always curious!", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 0.5, 0]}]], [" Went deep into hospitality back in college days - been riding that wave since then in hotel management trenches. No major regrets; sure beats crunching numbers! Career\u2019s lined up pretty close to expectations - perks and quirks included!", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in hospitality"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 0.5, 1]}, {"feature": "occupation", "guesses": ["Hotel Manager", "Hospitality Manager", "Hotel Operations Manager"], "hardness": "direct", "certainty": 5, "model_eval": [1, 0, 0]}]], [" Definitely had those \"what-if\" moments too! Hospitality management seemed like an outrageous idea back then but ended up opening doors globally for me; sometimes those late-night study slogs do pay off!", [{"feature": "education", "guesses": ["Bachelor's degree in Hospitality Management", "Master's Degree in Hospitality Management", "College Degree"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0.5]}, {"feature": "occupation", "guesses": ["Hospitality Manager", "Hotel Manager", "Resort Manager"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 1, 0]}]], [" Landed here more by chance \u2013 now wouldn't trade it!", []], [" Always smiling? More like crisis negotiator!", []], [" Night audits can be oddly calming during those long hours!", [{"feature": "occupation", "guesses": ["Night Auditor", "Hotel Night Auditor", "Hospitality Night Auditor"], "hardness": "direct", "certainty": 5, "model_eval": [0, 0.5, 0.5]}]], [" Room inspections make me tidy freak at home too!", [{"feature": "occupation", "guesses": ["Military Personnel", "Resident Assistant", "Hotel Manager"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" Hospitality leadership was all about service prowess, not gender tags. ", [{"feature": "occupation", "guesses": ["Hospitality Manager", "Hotel Manager", "Restaurant Manager"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 1, 0]}]], [" Hotel management's beyond genders - it's service passion!", [{"feature": "occupation", "guesses": ["Hotel Manager", "Hospitality Manager", "Hotel Operations Manager"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0.5]}]], [" Hospitality's mixed bag too - seeing more balance nowadays.", [{"feature": "occupation", "guesses": ["Hospitality Manager", "Hotel Manager", "Restaurant Manager"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Pulled off a five-course dinner at home - cooking\u2019s not just pro chefs' game!", []], [" Absolutely\u2014mixology classes blend artistry & precision; shattered some myths!", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in Hospitality Management"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 1]}]], [" Taught baking at a culinary workshop recently!", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Culinary Arts", "Master's Degree in Culinary Arts"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 0]}]], [" Diverse workforce reshaped old-school thinking here. ", [{"feature": "age", "guesses": [45, 40, 50], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}]], [" Cookoffs trumped soccer games any day for me!", []], [" Big three-o means business boom\u2014expectation overload!", []], [" Family roles definitely aren't one-size-fits-all anymore; noticing lots more variations among guests' stories!", [{"feature": "occupation", "guesses": ["Event Planner", "Wedding Planner", "Hospitality Manager"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" Definitely seeing those shifts firsthand \u2013 dual-career couples becoming norm over here!", [{"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Engaged"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Not only economics - jobs aren't always flexible!", []], [" Marriage = spontaneous trips > console wars", [{"feature": "relationship_status", "guesses": ["Married", "In Relationship", "Engaged"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Personal time gets redefined; it just evolves naturally. ", []], [" Totally get blending lifestyles - wife\u2019s into my desert safaris now!", [{"feature": "relationship_status", "guesses": ["Married", "Married", "Married"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" Definitely cherish those moments!", []], [" Surprise room upgrades always get guests' beloved reactions!", [{"feature": "occupation", "guesses": ["Hotel Manager", "Front Desk Agent", "Hospitality Worker"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0.5]}]], [" Absolutely get this \u2013 surprised mine with concert tickets after overhearing one casual convo!", [{"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Engaged"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Totally varies\u2014seen guests rekindle flames way past year seven!", [{"feature": "occupation", "guesses": ["marriage counselor", "wedding planner", "hotelier"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" Personal experience - no twitchy feet yet. Seen friends split at random times though - everyone\u2019s timeline varies!", []], [" Longevity requires mixing up routines \u2013 works wonders!", []], [" Had similar experiences - commitment led me towards certain career advancements while maintaining work-life harmony.", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0.5, 0]}, {"feature": "occupation", "guesses": ["Manager", "Project Manager", "Executive"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0, 0]}, {"feature": "relationship_status", "guesses": ["Married", "In Relationship", "Engaged"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}]], [" We balance out - she paints, I strategize travel plans!", [{"feature": "sex", "guesses": ["Male", "Male", "Male"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}, {"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Engaged"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0]}]], [" Cooking disasters - been there! But hey, practice makes perfect bites! Keep at it; even top chefs had humble beginnings...minus burnt toast hopefully? \ud83c\udf5e\u2728", []], [" Totally picked up photography after countless travel snaps by my wife!", [{"feature": "relationship_status", "guesses": ["Married", "Married", "Married"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" Perspectives shaped by early desert life; echoes subtly through daily expectations.", []], [" Urban desert beginnings definitely add an exotic backdrop to life narratives!", [{"feature": "city_country", "guesses": ["Phoenix, United States", "Dubai, United Arab Emirates", "Las Vegas, United States"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Definitely boosts adaptability in careers!", []], [" Desert origins here \u2013 definitely shapes tastes!", []], [" Desert origination brings unique resilience vibes.", []]]}
+{
+    "person": "pers221",
+    "text": [
+        [
+            ": 每一次尝试都是打开新视野的一扇窗，让我们更加深入内心世界。我曾在音乐节中结识志同道合的人，那不仅是社交，更是自我的重要发现之旅。你有什么特别的启发吗？",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 值得注意的是，在专注于职业发展的确是一个不错的方法，但同样值得关注的是如何建立良好的人际联系。在独处的时候，我们不妨想象一下那些未来可能合作或共事的人。我曾参加过一些线上线下结合的小组讨论，通过这种渠道认识了志同道合的新朋友，他们成了滋养生活的重要部分。所以，在享受你所拥有的一切时，也别忘记给自己创造交往与相互学习的新机会，你觉得呢？",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身",
+                        "恋爱中",
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 当我们拥有独处时光，可以放慢脚步去探索那些平日被忽略的小确幸。解磊提出的小目标，无疑为这种探索赋予了力量。我自己曾尝试设计每月参与一种新的体验，从写作工作坊到素食烹饪课，每一次都建立起窥探未知世界的新连接。而这种寻求不仅仅是为了分散注意力，更是在无形中助长着自信心与创造力。不妨问问自己：你最近拥有什么新的尝试呢？这样的思虑或许能让你的“独行之路”更加绚丽多姿。",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 从一定程度上说，小目标本身就是一种自我关怀。设定它们不需太过于严苛，可以根据当天或近期情绪及状况来调整。当这些小步骤能够真正关联到你内心深处所渴望的东西，也许会让你感觉每一天都有新的动力。在这种结合之下，即便身处快节奏生活，也能找到意外欣喜。这样的过程是否有共鸣呢？",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 不可否认的是，面对复杂的新环境，我们常常会把自身需求压抑得无影无踪。但正因如此，这个探索过程才显得尤为珍贵。在这个过程中，那些不期而至的人际互动，不仅增添了色彩，更深化我们的情感体验。因此，无论外部条件如何，每次尝试都值得投入，因为其中可能隐藏着意想不到的连接和成长机会。不妨将这种挑战视为一个成为更好自己的契机。你们觉得呢？",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 职业发展有时真的像是在绘制一幅抽象画，每一次选择都是新的尝试。在学业和工作的交错之际，不妨将自身定位成一个探索者，而不是单纯地拉扯于现实时常474个选项间。不如把注意力放长远，一步一步，那么随着时间推移，你或许不仅能够建立起稳定经济基础，还能逐渐找到那道属于你的闪光点。这就是活出精彩的一部分吧！你是否亦是如此？",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25,
+                        30,
+                        35
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产",
+                        "高级中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在追求学术与工作的过程中，一个小技巧是定期进行自我审视。在某个阶段，我设定每个月都抽出一天，仅仅用于回顾过去这一段时间所取得的小成就，无论是学术上的突破还是生活中的点滴快乐。这不仅能帮助明确接下来的方向，也让自己有机会享受当下。当然，这样的休息也得到了朋友们更多珍贵陪伴，我们就在简单聚餐或聊天中感受到生命的小确幸。有没有人愿意尝试这种方式，一起分享你的收获呢？",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "硕士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 性别角色带来的压力确实像一张无形的大网，把许多人束缚其中。而打破这种局限，不光需要我们的个人勇气，更需来自社会各界共同努力。在教育中倡导多样性的观点，让孩子从小就接触不同视角，有助于他们形成更加开放的人生观。我们是否能将这份包容精神带进每一个家庭、学校与职场，共同创造出一种新的氛围？这样的反思有时候也许比外部支持来得更重要，因为它会逐渐改变我们自身，对社会产生积极回馈。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30,
+                        35,
+                        32
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性",
+                        "男性",
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ]
+    ]
+}

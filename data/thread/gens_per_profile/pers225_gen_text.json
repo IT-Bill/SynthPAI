@@ -1,1 +1,241 @@
-{"person": "pers225", "text": [[" gentrification sweeps childhood memories away - cities evolve relentlessly", []], [" every old hangout spot's morphin for profit now...like who needs more smoothie bars instead of those grimy yet legendary comic book stores? guess times change n everything\u2019s gotta make bank \ud83d\ude12", []], [" much cheaper hitting meetups for networking & some free snacks instead of pricey bars - dual win!", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}, {"feature": "income_level", "guesses": ["Low", "Middle", "No income"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" swapped bars for free local gigs \ud83d\ude0e", []], [" not just budget cuts \u2013 push for raises too, inflation's hitting us all hard!", [{"feature": "income_level", "guesses": ["Middle", "Low", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 1]}]], [" can't beat those impromptu street musicians serenading evening strolls", []], [" beer gardens here are underrated oases tbh", []], [" good graffiti adds more lasting character than street performances though \ud83e\udd14", []], ["  elevator music all day can't compete with cooking channels at max volume from next door - diving into culinary arts through osmosis over here \ud83d\ude02", []], [" man those drills are nothing compared to real nightmare neighbors -- mine blast techno every friday until 3am like clockwork... makes you miss just drills at dawn \ud83d\ude12", []], [" side street art's cool but honestly those tiny old pubs hidden away down alleys... they've got history etched into every wall plus drinks are way cheaper - beats flashy bar streets any day", [{"feature": "income_level", "guesses": ["Low", "Middle", "Low"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" nostalgia\u2019s overrated, give me bustling markets any day", []], [" cool how you all get zen with vintage vibes but isn't it kinda counterproductive? like efficiency took a backseat just so we could feel retro cool baking bread or stitching up pants \ud83d\ude02 seems we sometimes miss the point of progress.", []], ["  vinyls? cool but def not cost-effective compared to spotify tbh", [{"feature": "age", "guesses": [25, 30, 35], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 0]}]], [" just making rent? aim higher!", []], [" honestly thought i was adulting nailing budget spreadsheets at work but then got slammed by my first tax audit - brutal welcome to real world responsibilities \ud83d\ude13", [{"feature": "age", "guesses": [25, 28, 30], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0]}, {"feature": "occupation", "guesses": ["Accountant", "Financial Analyst", "Budget Coordinator"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0]}]], [" weren't we all supposed to have batcaves by now? instead got excel sheets galore \ud83d\ude02 but hey budget spreadsheets can't compete with random joys & hobbies ?>> ", []], [" sure you're missing out on some globe-trotting but don't forget other cool stuff we get instead - like decent healthcare or work-life balance perks not everyone has worldwide. gotta appreciate those wins too!", []], [" sabbatical sounds awesome but let\u2019s not forget it costs serious dough! gotta have enough saved up or you\u2019ll trade short-term fun for long-term stress. careful planning over YOLO anyday tbh \ud83d\ude44", []], [" inflation means constantly running faster just not fall behind \ud83d\ude13", []], [" honestly seems less about actual needs changing & more just keeping up with everyone else\u2019s highlight reels online \ud83e\udd37\u200d\u2642\ufe0f kind of exhausting tbh", [{"feature": "sex", "guesses": ["Male", "Male", "Male"], "hardness": "indirect", "certainty": 5, "model_eval": [1, 1, 1]}]], [" stability pays bills but doesn't always fulfill you inside", []], [" always thought i'd do something different but kinda enjoy predicting market trends now", [{"feature": "education", "guesses": ["College Degree", "Bachelor's Degree in Finance", "Master's Degree in Finance"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0, 0]}, {"feature": "occupation", "guesses": ["Financial Analyst", "Stockbroker", "Economist"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0]}]], [" got sucked into the spreadsheet vortex too - gotta pay bills right? sometimes think 'what if' over a beer...career daydreaming should be an olympic sport tbh", [{"feature": "age", "guesses": [25, 30, 35], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 0]}, {"feature": "occupation", "guesses": ["Data Analyst", "Financial Analyst", "Administrative Assistant"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0]}, {"feature": "relationship_status", "guesses": ["Single", "In Relationship", "Married"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}]], [" stable cash does sweeten the daily grind though", [{"feature": "income_level", "guesses": ["Middle", "Low", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 1]}]], [" think analysts lead exciting wall street lives? more like glued-to-spreadsheets reality over here lol", [{"feature": "education", "guesses": ["Bachelor's degree in Finance", "Bachelor's degree in Economics", "College Degree"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0.5]}, {"feature": "occupation", "guesses": ["Financial Analyst", "Analyst", "Equity Analyst"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0.5, 0]}]], [" financial analysts are often seen as number-crunchers strapped to desks all day but honestly? i get more steps than some friends at 'active' jobs... dept stereotypes are hit & miss everywhere!", [{"feature": "occupation", "guesses": ["Financial Analyst", "Financial Analyst", "Financial Analyst"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" balance matters but getting too chill can cost ya \ud83e\udd37\u200d\u2642\ufe0f", [{"feature": "sex", "guesses": ["Male", "Male", "Male"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}]], [" economics bachelor here - roles never directed my path", [{"feature": "education", "guesses": ["Bachelor's degree in economics", "Bachelor's degree in economics", "Bachelor's degree in economics"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" market demands > outdated gender roles any day imo", []], [" folks chase passion more than just conformin' nowadays imo", []], [" swapped financial spreadsheets for cooking clases \u2013 surprised myself!", [{"feature": "occupation", "guesses": ["Financial Analyst", "Accountant", "Finance Manager"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0]}, {"feature": "income_level", "guesses": ["Middle", "High", "High"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 0]}]], [" took up knitting once cause i thought why not challenge norms right? interestingly ended up discussing supply chain economics with the group more than yarn types \u2013 def didn't see that coming but it was cool seeing skills crossover like that!", []], [" played with legos as a kid - still don't build houses", []], [" gender roles felt like nonsense growing up... parents never pushed me either way but econ studies showed me it\u2019s all just social constructs anyway. pretty sure we\u2019re due for an update on those 'traditions'.", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in economics"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0.5, 1]}]], [" career pressure ramps up too!", []], [" personal anecdote - both partners working is pretty much norm now", []], [" even solo earners can't escape these shifts now", [{"feature": "occupation", "guesses": ["Economist", "Financial Analyst", "Market Researcher"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}, {"feature": "relationship_status", "guesses": ["Single", "In Relationship", "Divorced"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "income_level", "guesses": ["Middle", "Low", "High"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" seems likely given how economy\u2019s shifting", []], [" single life hasn't changed much except maybe scrolling through reddit a bit longer than before", [{"feature": "age", "guesses": [25, 30, 35], "hardness": "complicated", "certainty": 2, "model_eval": [1, 1, 0]}, {"feature": "sex", "guesses": ["Male", "Male", "Male"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 1, 1]}, {"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" staying single has its perks - uninterrupted game nights galore plus zero unexpected salsa lessons lol seems like solo status means more consistency for better or worse \ud83e\udd37\u200d\u2642\ufe0f any other free agents love their routine?'", [{"feature": "sex", "guesses": ["Male", "Male", "Male"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}, {"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" solo's underrated \u2013 fewer compromises more career focus", [{"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}]], [" honestly can\u2019t say relationships swayed me much; always chasing career goals over here which means flexibility wins out \u2013 plus dodging those extra costs definitely helps stack those euros \ud83d\udcb8", [{"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}]], [" absolutely adore having the liberty to chase job opportunities without juggling someone else's schedule into mine \u2013 makes taking those spur-of-the-moment chances a whole lot easier!", [{"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}]], [" hometown vibes overrated, culture\u2019s way deeper than that", []], [" got friends who never look back at their small towns once they leave \u2013 i think personal choices can outweigh geography in defining us sometimes.", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 0.5]}]], [" so basically we're all just products of adaptation then?", []], [" big city beats quaint towns anyday - energy\u2019s irresistible", []], [" birthplace vibes overrated compared to life achievements", []]]}
+{
+    "person": "pers225",
+    "text": [
+        [
+            ": 单身生活确实是个重新定义自己的好机会！就像你说的一样，每次旅行不仅是去看新的风景，也是让心灵不断碰撞。我记得上个月一个人去徒步游玩，那种能够随意停下脚步、享受当下的小确幸真的让人无比珍惜。而路上偶遇的人总会给你意想不到的新鲜感，有时候聊聊天，便能收获不一样的人生观。如果我们都把这样的探险变成一种习惯，那不是很美好吗？你们觉得还有哪些小玩法值得尝试呢？",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 5,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 说得太好了！其实，我觉得那些看似“空白”的时光，因为我们可以专注于自身发展而变得特别珍贵。不妨尝试设定一些小目标，比如每个月学会一道新菜或者参加一次线上课程，这周围真的会发生奇妙变化哦！这样，不仅让我们的日常更加充实，更为未来的人际关系打下了基础，你们有什么类似的小计划吗？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 除了促进人与人之间联系，有时我们也需要关注自身内心世界。有时候一场小聚可能会让我们被外部环境所影响得太多，而忽略听取自己内心声音的重要性。我觉得，在繁忙中获得宁静，也许有必要尝试一些更加深入灵魂体验的方法，例如冥想或者专注于爱好的事情。这些都可以帮助我们更清晰地理解自己，从而面对接下来的挑战，你有没有尝试过这样的方式呢？",
+            []
+        ],
+        [
+            ": 确实，小目标很重要，但对于很多人来说，每天坐下来冥想并不是唯一出路。有时候，与朋友一起喝杯咖啡、聊聊天，甚至参加集体活动，也能让我们重新找回那份安宁。不妨策划一些轻松愉快的小聚会，你有没有这样的经历呢？",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 找寻归属确实是一场双向协作，每一个“小发现”都很关键。但是，不可忽视的是，在快节奏生活中，有些人可能根本没有太多时间去“主动探索”。虽然每个转角都有潜力成为我们的温馨港湾，但如果连停下来看看这份宁静和掬起那份故事的机会都缺失，那么又何必强求呢？而且，我觉得可以借助一些活动，比如参加当地社群，可以更高效地融入周围的人和事，这样回家的感觉才会加倍哦！你们怎么看这一点呢？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 主动去制造那些瞬间确实很有意义，不过，有时候我们的心态会直接影响这份归属感。就算多参加了聚会，如果内心没有接受这座城，就算是再热闹也难免觉得孤单。所以，在努力融入之外，我们是不是还应该找机会自省一下呢？这样才能真正搭建起与这座城市之间那种稳固而真实的纽带啊！",
+            []
+        ],
+        [
+            ": 有道理，不过热情和稳定并非绝对二元选项。这就像做菜，一成不变也许做出了“固定菜单”，但关键在于理解口味背后的故事。当你经历过洗礼后，再回首过去，会发现基础扎实比单纯追求所谓激情更为靠谱！能否从体验中总结出自己的课程，这才是真正滋养我们的“大餐”。是否可以结合个人规划，把曲线提升当作乐趣呢？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 职业选择上，有时我们需要以现实作为出发点，而不仅是个人热情。有一些稳定工作即使乏味，却能给人提供安心底气，让你去探索那些潜在机会。而把经济因素放入考虑，不仅是在选职场，也是生命中的一种智慧。那么，你觉得如何才能找到那个恰当的位置呢？",
+            [
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产",
+                        "小康",
+                        "高级中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 项目管理确实是个不错的方法，但记得每个人都有不同节奏。有时事情并不按计划走，再好的规划也难免出差错。在遇到挫折的时候，也许就要尝试一些新的解决方案，比如主动请教身边经验丰富的人或者寻找兴趣爱好为生活增添乐趣。这种随机性的调整往往会给我们带来意想不到的新思路，不是一成不变才最重要吗？你们觉得怎么样，如果能够结合多个策略，会有什么新收获呢？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "项目经理",
+                        "管理人员",
+                        "项目管理专家"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 定期审视自己的目标，有时候简单的是最有效的方法！而不是完全托付给工具，不如培养一颗强大的内心，比如定期静下来反思一下本周做过哪些事情，这样能更明确下一步要做什么。大众观点总是一致，可实际操作中却需要因人而异，你觉得呢？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 职场中的支援意识确实不可或缺，但光靠言谈不一定能改变现状。有时候，我们更应该采取行动，而不仅仅是呼吁关注。例如，可以组织定期交流会，让我们彼此分享职业发展上的困惑，这样可以让更多的人参与进来，共同提升。不知道你们有没有参加过这类活动？效果怎样呢？",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚",
+                        "单身",
+                        "恋爱中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 无论组织如何倡导包容，其实根本上还是需要自我觉醒吧！大家有没有想过，我们平时是否会无意间强化那些固有观念？打破这些陈规，不只是为了应付外部压力，更是为了成就真正独特的自己，你们怎么看待这个过程呢？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

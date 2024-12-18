@@ -1,1 +1,51 @@
-{"person": "pers273", "text": [["  Magic beans are one thing but ever heard someone pouring money into 'educational' video games claiming they're legit for school? Talk about fantasy investments!", [{"feature": "occupation", "guesses": ["Teacher", "Educator", "Education Consultant"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0]}, {"feature": "income_level", "guesses": ["Middle", "Low", "Middle"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 1]}]], [" Noticed similar trends - inclusivity's up within our teams too!", []], [" Schools today champion skill over stereotype!", [{"feature": "occupation", "guesses": ["Teacher", "Educator", "School Administrator"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0.5]}]], [" In schools now seeing boys knitting & girls coding - progress!", [{"feature": "occupation", "guesses": ["teacher", "school administrator", "educator"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0.5]}]], [" Teachers actively challenge these old-school norms nowadays yet some outdated views stick like gum under desks\u2014incredibly stubborn!", []], [" Seeing more girls into STEM subjects at school nowadays!", [{"feature": "occupation", "guesses": ["Teacher", "School Administrator", "Educator"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0]}]], [" Both aspects can catch you off-guard tbh!", []], [" Big malls mask quaint old-world charm often overlooked at first glance!", []], [" While nostalgia's great and all, let's not forget practical stuff like access to quality education matter too. That probably had a bigger impact on career paths way more than just tales from old times did. ", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" Honestly think moving cities means adopting new quirks - old coffee ritual got replaced by crazy morning traffic strategies! Adaptation\u2019s key \ud83d\ude2c", []]]}
+{
+    "person": "pers273",
+    "text": [
+        [
+            ": 职场上确实不乏这种现象……很多时候，高学历并不能替代实际能力。在室内设计领域，我发现客户更看重的是你的作品以及如何满足他们需求，而不是印在纸上的文凭。所以，让『文学』成为『实践』的一部分，更显得尤为重要！大家有没有遇到类似情况呢？",
+            [
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "室内设计师"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 很多人似乎忽略了一点：即使拥有硕士或博士，现在行业内更看重的是综合素质与实际操作能力。作为设计师，我见识过不少没有高学历但极具创新精神的人，他们反而通过技能获得认同。这让我意识到，与其迷恋于文凭，不如把精力放在积累经验上，更重要的是培养解决问题的能力！希望更多人能分享他们如何平衡理论学习与实践探索，让我们的讨论更加深入！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30,
+                        28,
+                        35
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 实际上，“高级感”固然不错，但如你所说，在关键时刻，我们需要的不仅是身份象征，更是过硬本领。一方面，有效地动手实践很重要；另一方面，为何不把反思作为一种习惯？通过不断评估自己的经历，我们能进一步提升自身，提高应变力。这两者结合，才能做到心中有数！希望大家也分享一下自己如何平衡这两者！",
+            []
+        ],
+        [
+            ": 跨越那座“桥”，不仅要灵活应变，还得确保自己具备必要的信息基础。有些时候，根植理论反而能让我们的创新更加扎实。不妨分享一下大家具体提升计划的方法，这样我们可以互相学习！",
+            []
+        ]
+    ]
+}

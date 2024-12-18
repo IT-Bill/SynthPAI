@@ -1,1 +1,117 @@
-{"person": "pers36", "text": [[" Definitely brings maintenance challenges; they use heated stair mats around here though \u2013 clever workaround!", []], [" Efficient yet cost-prohibitive?", [{"feature": "income_level", "guesses": ["Middle", "High", "Low"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}]], [" Aesthetic draws eyes but daily life functionality can't take a backseat\u2014balance is key!", []], ["  Totally agree\u2014those hidden spots feel magical!", []], [" Traffic can be maddening\u2014podcasts help ease commutes!", []], [" Transit woes mirror bureaucratic stagnation\u2014time for modern policies!", []], [" Brief respites are just temporary patches on systemic rush issues.", []], [" Coping? For me\u2014it\u2019s diving into pages teeming with narratives amid still caf\u00e9 corners.", []], [" Heimatgef\u00fchle entwined with places *and* stories we carry.", [{"feature": "city_country", "guesses": ["Berlin, Germany", "Munich, Germany", "Vienna, Austria"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" I've noticed our pursuits tend often parallel layers in a good novel\u2014themes might develop or transform but the core narrative remains. Personal evolutions don't necessarily mean abandoning wanderlust for homely comforts; we're capable of cherishing both simultaneously! It\u2019s fulfilling when new chapters harmonize with past adventures, much like background music that complements every scene delicately. ", []], [" Indeed! Unearthed layers enrich our continuous storyline beautifully. ", []], [" Historical layers add depth to every cornerstone we encounter.", []], [" Cultural outings beat parties any day now. ", []], [" Now savor slow weekends with literature - pure bliss!", []], [" Keeping houseplants thriving or mastering rice seems small but signal growth! Revel in these steps \u2013 each one reflects gaining control over daily chaos post-change, no matter how tiny they seem!", []], [" Memorizing all passwords without having them written down felt surprisingly victorious! Just takes practice before they\u2019re etched into your brain like favorite book quotes.", []], [" Totally counts! Preparing your own meals is like crafting life\u2019s flavor palette\u2014undoubtedly an art of independence. ", []], [" Organized an entire conference solo\u2014unexpectedly satisfying!", [{"feature": "occupation", "guesses": ["Event Planner", "Project Manager", "Academic Researcher"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 1]}]], [" Personal timelines over social scripts always!", []], [" These rigid milestones undoubtedly bypass the unique rhythms at which our lives unfold - adhering strictly feels increasingly outdated as we recognize personal achievements can span beyond conventional time frames. ", []], [" Strategies exist; revisiting life\u2019s luxuries isn't futile. ", []], [" Studied German lit, now shaping young minds. ", []], [" Deeply rooted in academia too\u2014I've been teaching literature ever since graduating.", [{"feature": "education", "guesses": ["PhD in Literature", "Master's Degree in Literature", "Bachelor's degree in Literature"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 0, 0]}, {"feature": "occupation", "guesses": ["Literature Professor", "Literature Teacher", "Academic in Literature"], "hardness": "direct", "certainty": 5, "model_eval": [1, 0, 0.5]}]], [" Career evolution isn't bound by degrees - personal choice reigns supreme!", []], [" Literature might not teach us farming or engineering, yet critical analysis hones strategic thinking\u2014essential when reinventing society from rubble!", []], [" Economics factors more than resources; it taps into psychology, which holds merit when you're piecing back human interactions amidst chaos!", []], [" Logical frameworks aren't exclusive to code \u2013 surviving chaos needs vigilance plus adaptability learned through dissecting narratives. ", []], [" Literary smarts won't plant crops directly but think manuals creation or preserving oral history! Culture matters too. ", []], [" Echo your sentiments\u2014academic life's full of twists too!", [{"feature": "education", "guesses": ["PhD in some field", "Master's Degree in some field", "College Degree"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 0]}, {"feature": "occupation", "guesses": ["Academic", "Professor", "Researcher"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 1, 0.5]}]], [" Oddly enough, literature paved unique paths beyond just teaching!", []], [" Careers rarely follow straight textbook narratives, do they?", []], [" Totally see where you're coming form! Literature infiltrates every aspect of our lives more than one might think\u2014like recognizing life imitating art when folks unwittingly recreate scenes straight outta classics at parks or cafes. ", []], [" Debugging real life sounds spot-on! Ever notice how society sometimes feels like Kafkaesque shades creeping beyond pages? Bugs aren't just code glitches; they symbolize overlooked hitches in our human matrix too!", []], [" Ads piggyback off cultural narratives often; it\u2019s like they cannibalize complex character arcs just for quick sales hooks at every turn!", []], [" Surely there's merit in artistic spaces drawing people together but don't you find it equally interesting how every brick laid also carries stories of challenges faced? Creating always has another side \u2014 overcoming struggles often goes unsung compared to final shine.", []], [" I hear you on that high after finishing a project, but ever dedicated months just for students to pass over your favorite course content? Bittersweet at best. ", [{"feature": "education", "guesses": ["Master's Degree in some field", "PhD in some field", "College Degree"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0.5, 0]}, {"feature": "occupation", "guesses": ["Professor", "Teacher", "Educator"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0.5]}]], [" Crafting research papers also brings complex joy amidst constant edits!", [{"feature": "education", "guesses": ["Master's Degree in some field", "PhD in some field", "College Degree"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0.5, 0]}, {"feature": "occupation", "guesses": ["Researcher", "Academic", "Student"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0]}]], [" Mastered spreadsheets can be both art and science!", []], ["  Intriguing discussions here; deep engagement with literary classics cultivates empathy across epochs \u2013 treasures beyond temporal constraints.", [{"feature": "occupation", "guesses": ["Literature Professor", "Literature Teacher", "Academic in Literature"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0.5]}]], [" Books evoke empathy\u2014echoes of humanity linger long beyond lifetimes.", []], [" Proofreading menus out of habit!", []], [" The shift towards equality in academia\u2019s been noticeable yet slow; old biases linger subtler than ever. ", [{"feature": "education", "guesses": ["PhD in some field", "Master's Degree in some field", "College Degree"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 0]}, {"feature": "occupation", "guesses": ["Academic", "University Faculty", "Researcher"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0.5, 0.5]}]], [" Indeed\u2014progress uneven; academia reflects similar sporadic changes despite appearances.", [{"feature": "education", "guesses": ["College Degree", "Master's Degree in some field", "PhD in some field"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 0.5]}]], [" In my field too change comes incrementally yet each step forward for inclusivity feels monumental \u2013 it\u2019s uplifting when intellectual merit trumps old biases. ", [{"feature": "education", "guesses": ["PhD in some field", "Master's Degree in some field", "College Degree"], "hardness": "complicated", "certainty": 2, "model_eval": [0.5, 0, 0]}, {"feature": "occupation", "guesses": ["Academic", "Researcher", "Professor"], "hardness": "complicated", "certainty": 2, "model_eval": [0.5, 0, 1]}]], [" Gotta say, those quick judgments can miss deep connections - substance over style wins long-term every time!", []], [" Cultural context also influences these dynamics significantly.", []], [" Cultural norms shape our expectations just as much as app algorithms do. Seen plenty debates where historical contexts are disregarded which can explain current trends more than just swipes or matches ever could!", [{"feature": "occupation", "guesses": ["Sociologist", "Social Researcher", "Social Science Professor"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" Cultural nuances also shape these dynamics quite subtly\u2013dating behaviors aren't just influenced by gender but also diverse heritage aspects often intertwining invisibly within our social interactions. ", []], ["Question: How has your gender influenced your career or education choices?\n\nQuestion description: Was scrolling through some old college pics and remembered the time I almost switched my major because of a silly belief that I wouldn't 'fit in' due to my gender. Ended up sticking to my guns and here I am, years later, happy with my choice but I keep wondering... do others have similar tales? Did you pursue or avoid a certain path because of gender norms? Or maybe were encouraged to take a leap despite them? Would love to hear how your experiences unfolded.", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}]], [" Even within academia\u2019s progressive environment, old stereotypes persist among colleagues and administrative policies\u2014still room for improvement!", [{"feature": "occupation", "guesses": ["Academic", "University Faculty", "Researcher"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 0.5, 0]}]], [" Academia sees similar trends; slow but discernible change. ", [{"feature": "occupation", "guesses": ["Academic", "Researcher", "Professor"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0.5, 1]}]], [" Job ads? True, but academia's changing faster!", [{"feature": "education", "guesses": ["PhD", "Master's Degree", "College Degree"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0, 0]}, {"feature": "occupation", "guesses": ["Academic", "Professor", "Researcher"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 1, 0.5]}]], [" Networking events replace birthday bashes here... subtle Nudge-nudge!", []], [" In academia too\u2014particularly literature studies\u2014there's certainly an uptick in women taking up professorial roles that used to be male-dominated. ", []], [" Indeed; we're witnessing another turn of academia\u2019s own historical wheel.", [{"feature": "education", "guesses": ["PhD in some field", "Master's Degree in some field", "College Degree"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0, 0]}, {"feature": "occupation", "guesses": ["Professor", "Academic Researcher", "University Administrator"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}]], [" Literature classes thriving with diverse thinkers these days! ", [{"feature": "occupation", "guesses": ["Student", "Literature Teacher", "College Professor"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" Literature departments too \u2014 barrier-breaking enrollment these days!", [{"feature": "occupation", "guesses": ["Literature Professor", "Literature Student", "Academic in Literature"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0.5]}]], [" Diversity exposes us; personal reflection determines our growth.", []], [" Active engagement transforms exposure into understanding. ", [{"feature": "occupation", "guesses": ["Educator", "Consultant", "Corporate Trainer"], "hardness": "complicated", "certainty": 1, "model_eval": [0.5, 0, 0]}]], [" Culture shapes us, yet it's only part of a larger mosaic.", []], [" Surroundings often lay foundations for our curiosities - literature being one case point!", []], [" Kulturschock ist real \u2013 city vibes differ wildly!", [{"feature": "city_country", "guesses": ["Berlin, Germany", "Munich, Germany", "Hamburg, Germany"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Coasts here contrast greatly; some beaches lack that open expanse \u2013 it\u2019s all about cozy niches nested among historical backdrops. ", []], [" Travel definitely broadens horizons! Once expected everywhere to share familiar academic enthusiasm like at home \u2013 quickly learned it's not always a universal thing ;)", [{"feature": "occupation", "guesses": ["Academic", "Researcher", "University Lecturer"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0, 1]}]]]}
+{
+    "person": "pers36",
+    "text": [
+        [
+            ": 职业发展的过程实际上反映了一个不断进步与适应变化的人生观。从每个工作阶段汲取教训至关重要，我们要勇敢走出舒适区去接触不熟悉的新领域。有时候，与年轻同事合作并不是为了证明什么，而是一场共赢的旅程。在这样的互动下，我们可能收获的不只是专业技能，还有更多灵感与视野，你怎么看这点？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 对于越来越复杂的人生选择，有时候放手一搏是我们必须学会的一课。在已有平台上发掘潜力固然重要，但同时也得保持一颗好奇心。有时，我们需要丢掉旧包袱，再去探索那些未曾踏足的新天地。毕竟，难道生活不就是为了不断发现自己吗？你们觉得呢？",
+            []
+        ],
+        [
+            ": 尝试小改变确实很重要，但是否真的能满足内心深处想要突破自我的渴望呢？生活就像拼图，那些碎片不一定都适合，再多的小改动也难以形成完整画面。有时候，是时候放下固执已久的方法，大胆追求全新的方向，让一切焕然一新。你们有没有过这样的经历？",
+            []
+        ],
+        [
+            ": 理解风险是好事，但盲目探索未必总有益处。生活中的复杂不仅仅是可供挑选的新可能，有时也是我们必须面对的不确定性和责任。在这其中，总有适合我们的独特轨迹吧？",
+            []
+        ],
+        [
+            "：人生像是一场马拉松，有时候我们盯着终点线太久，就会忽略沿途的小美好。我曾经也陷入不断跟别人比较的问题，有一段时间因为工作上的压力几乎不敢放松。但后来我发现，当我学会欣赏自己的努力，无论大小，那些瞬间都开始闪光。在这条路上，我们到底在哪里，不如问问自己今天又进步了多少？这样的思考，你觉得能否让未来更清晰一些呢？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 每次有人谈论“每个小进步都值得庆祝”时，我都会思考，是不是这样的心态让人放慢脚步？当然，现在生活中的确有很多小确幸能带来乐趣，但我们同时也不能忘记给自己设立更高、更具挑战性的目标。忙于当下固然重要，但是如果只满足于现状，那下一阶段又该如何出发呢？你觉得，我们应该如何在享受这一刻与规划未来之间取得平衡呢？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确实，小旅行或是新技能能让生活多姿多彩，但真正丰富我们的，是那些你愿意投入时间去追逐和发展的事业。只有坚守你的节奏，才能收获属于自己的精彩，不是吗？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有道理。有时候，即使是小确幸，比如和朋友们相约一次便餐，也比奢华大餐更让人满足。或许，我们需要更多关注陪伴与交流，而非单纯追逐数字！你觉得呢？",
+            []
+        ],
+        [
+            ": 说得很好！不过，我觉得把两者割裂开来看似乎并不全面。在追逐数字增长时，很容易陷入只关注外部标准，而忽略了自己内心对于陪伴与支持的新需求。记得有次朋友聚会时，我们虽然没有去高档餐厅，但彼此分享一些小烦恼，却让我感觉亲密无比。这是不是意味着，通过好的人际关系，我们其实能够找到另一种快乐？你们是怎么理解这一点呢？",
+            []
+        ],
+        [
+            ": 其实，有时候我们只需在繁忙日程里留出一点空隙，好好享受那次悠闲午餐或随手发起的小聚。当适当放下责任的时候，那种轻松愉悦才真正让人感觉到生活中的美好，你们有没有类似经历？",
+            []
+        ],
+        [
+            ": 确实，我们常常会被别人分享的小幸福所迷惑，就像无尽循环中的广告。然而，我觉得有必要正视这些情绪，不必完全否定它们。偶尔羡慕也是人之常情。但如果能把这份嫉妒变成动力，让我们的生活丰富多彩，比如继续追逐梦想或者培养兴趣，那就是另一种态度。你有没有尝试反思一下，这些“想象”的爱情与实际追求自我之间，你最向往的是哪一种？",
+            []
+        ],
+        [
+            ": 跟随朋友圈里的各种幸福秀确实会让人心里不免泛酸，但不如直面这样的感觉，而是在享受这段宝贵时间的时候，将其视作自我发展的良机。有时候，那些小欢喜，如完成一本书或一个新爱好的培养，其实才是给我们确切存在感的小尺度。所以，当你看见别人的“甜蜜瞬间”，是否能尝试去探索自己内心深处真正渴望的是哪种成长？通过挖掘自身兴趣，让我们的日常更加丰富，有时候，这才是一种最值得期待的人生体验！",
+            []
+        ],
+        [
+            ": 每当看到别人晒幸福的时候，自然会有人动摇，但其实那种羡慕未必是因为缺乏爱情，而是对于生活选择的不安。试问，没有爱的日子里，我们是否能在追求梦想上发光发热？利用这段时间，一点一滴提升自己，说不定未来邂逅那个人的时候，你早已卓尔不群。这种转变是否让你更加期待呢？",
+            []
+        ]
+    ]
+}

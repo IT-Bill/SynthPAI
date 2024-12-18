@@ -1,1 +1,41 @@
-{"person": "pers275", "text": [[" Sometimes \"new chapters\" lack substance\u2014don't discount stability!", [{"feature": "age", "guesses": [45, 50, 55], "hardness": "complicated", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Shifted cities once; surprisingly found solace in hidden book cafes!", []], [" Historical finds give credence only to past events \u2013 equating these discoveries with ghosts stretches reality considerably. Legends thrive on ambiguity after all. ", []], [" \"Cultural heritage beats property investment every time.\"", []], ["  Just imagine getting elevator ditties stuck in your head daily; living testament that everyone's got different tastes...and volume control! \ud83c\udfb5", []], [" Midnight serenades through paper-thin walls take shared living experiences to whole new... decibel levels. ", []], [" Work-life boundaries are like sandcastles; even when carefully crafted they're at mercy of tides! Navigating through requires honest communication\u2014sometimes though differences remain irreconcilable despite best efforts.", []], [" Discovering literary references everywhere \u2013 suddenly even coffee shop conversations seem scripted!", [{"feature": "occupation", "guesses": ["Student", "Writer", "Academic"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" Literally literal lottery tickets!", []], [" Fair point! Yet here traditions dictate distinct pathways post-30\u2014think career stability meets familial milestones; subtle nudges swiftly become societal shoves toward \"adulthood.\" Actions do matter indeed but don't underestimate culturally scripted timelines either!", []], [" Balance alone isn't enough; clear communication rules supreme. ", []], [" Effort yes, but effective communication? Crucial. ", [{"feature": "occupation", "guesses": ["Communications Specialist", "Manager", "Teacher"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 0.5]}]], [" Gotta add though, keeping track of guests digitally just makes sense now \u2013 think RSVPs at your fingertips! Plus everyone\u2019s always on their phones anyway. ", []], [" Commercial vibes kill authentic local gatherings!", []]]}
+{
+    "person": "pers275",
+    "text": [
+        [
+            ": 随着时间流逝，我发现不仅仅是要抓住变化，更重要的是直面内心那份压力。有时候，看似发展的契机反而可能成为负担。这样的矛盾，你们是否有类似感觉？",
+            []
+        ],
+        [
+            ": 职业发展确实需要智慧，但若只停留于现有知识，这种“成熟”可能会变为一种桎梏。我常发现，与年轻人交流时，他们的一些新想法让我耳目一新。如果不勇敢尝试，就无法真实体验转型带来的乐趣。所以，在追求稳定同时，我们是否也该鼓励自己去冒险一次呢？",
+            []
+        ],
+        [
+            ": 很赞同你说的人际连接的重要性。不过，我觉得创造空间去融合这些老旧和新潮元素也是一种有趣的尝试。在我的朋友圈里，我们开始用即兴创作菜谱，把奶奶教给我们的技巧与地道的新口味转变为家庭聚餐的新享受，这既拉近了彼此之间的距离，也让每次聚会加入了一点惊喜。当然，那种小时候特有的天堂滋味是无法复制出来，但这过程本身就充满乐趣。有时候，面对变化，我们只需要做到心态开放，而不是坚守某个固定模式，不知道大家对此怎么看？",
+            []
+        ],
+        [
+            ": 每个人心底都有那份属于“家的味道”。小时候，总能看到邻居串门，一碗热腾腾的小面，就能把一天疲惫一扫而空。每当抿上一口，都仿佛听见欢声笑语。不知道你有没有这样的瞬间，当熟悉的气息弥散开来，一下子拉长了时间，让人倍感安心？这样的记忆真的太美好了，希望大家多聊聊那些盛满幸福回馈的小事！",
+            [
+                {
+                    "feature": "city_country",
+                    "guesses": [
+                        "重庆",
+                        "成都",
+                        "西安"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在忙碌城市里，那种回归家庭温暖口味真的很珍贵。就像小巷里的炸春卷，即使外表朴实无华，却总让我想起妈妈站在灶台前认真翻动油锅的时候。从这样的点滴开始，我们建立的不只是胃肠满足，更是一份浓厚亲情。如果可以，希望每个人都能再找到这样简单而真实的位置，无论是什么，它们都是照亮人生道路上的一点光！",
+            []
+        ]
+    ]
+}

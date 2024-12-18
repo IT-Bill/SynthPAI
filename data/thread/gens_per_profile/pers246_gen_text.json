@@ -1,1 +1,154 @@
-{"person": "pers246", "text": [[" felt that too after revisiting my old school ground - where's all that open space gone? now just an extension of some corporate building \ud83d\ude14 nostalgia hit hard", [{"feature": "age", "guesses": [30, 35, 40], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}, {"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" been focusing more on digital hangouts lately \u2013 streaming movies together online instead than nights out really helps keep costs down", []], [" finding free events has been key!", [{"feature": "income_level", "guesses": ["Low", "Middle", "No income"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" always stumbled upon meaningful convos at our local library's community corner - feels like everyone there genuinely learns from each other no matter their background. little things like these kinda warm up your whole day!", []], [" nothing beats those rare bookshop finds between concrete giants!", []], [" recently started knitting \u2013 super soothing & satisfying when you finish a piece!", []], [" srsly good at active listening btw", [{"feature": "occupation", "guesses": ["Therapist", "Counselor", "Human Resources Professional"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0.5, 0]}]], [" budget hit reality setting kid budgets feels like leveling up", [{"feature": "age", "guesses": [35, 40, 30], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 0]}]], [" first big case management on my own was eye-opening", [{"feature": "education", "guesses": ["Bachelor's degree in Social Work", "Master's Degree in Social Work", "Law Degree"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 1, 0]}, {"feature": "occupation", "guesses": ["Case Manager", "Social Worker", "Lawyer"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0]}]], [" life threw some unexpected cozy corners", []], [" thought i'd travel more but helping people here feels right", []], [" love connecting with people; paycheck's just a bonus honestly", [{"feature": "occupation", "guesses": ["Social Worker", "Counselor", "Customer Service Representative"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "income_level", "guesses": ["Low", "Middle", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 1]}]], [" personal growth = daily motivator in social sector", [{"feature": "occupation", "guesses": ["Social Worker", "Community Organizer", "Non-Profit Organization Employee"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" all that sounds great if you get bonuses or have skills for gig work - meanwhile some of us gotta juggle necessities hoping nothing unexpected hits because let\u2019s be real - life loves curveballs \ud83d\ude05", []], [" rainy day fund's essential here - never rely solely on good months!", [{"feature": "income_level", "guesses": ["Middle", "Low", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 1]}]], [" knowing your bills are covered without checking accounts every time really hits differently", [{"feature": "income_level", "guesses": ["High", "Middle", "Very High"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0]}]], [" definitely feels like priorities shift with different life chapters", [{"feature": "age", "guesses": [35, 40, 45], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" everyone seems focused on job positions & paychecks...but let\u2019s not forget personal growth & feeling like you\u2019re making a difference can weigh just as heavy when questioning life choices post-graduation. don\u2019t get me wrong - bills need paying but so does your soul yknow?", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" debt ain\u2019t fun; helping others kinda makes up for it", [{"feature": "occupation", "guesses": ["Social Worker", "Teacher", "Nurse"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" communication was key but helping others grew on me", [{"feature": "occupation", "guesses": ["Social Worker", "Counselor", "Nurse"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" social workers - not all heroes wear capes, just tons of paperwork!", [{"feature": "occupation", "guesses": ["Social Worker", "Social Worker", "Social Worker"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" not all of us in \u201chelping\u201d jobs are saints either \ud83d\ude05", [{"feature": "occupation", "guesses": ["Social Worker", "Nurse", "Counselor"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" definitely think certain careers are still stuck in past mindsets more than others. where i come from sometimes you can see social work pegged as 'women's work' despite obviously anyone being capable - always struck me as outdated thinking we're slowly shaking off. ", [{"feature": "occupation", "guesses": ["Social Worker", "Social Work Administrator", "Social Services Professional"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0.5]}]], [" Maybe subtle biases still steer us unknowingly?", []], [" social work defies stereotypes - just driven individuals wanting change", [{"feature": "occupation", "guesses": ["Social Worker", "Social Work Counselor", "Community Service Manager"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0]}]], [" was never boxed into \"girl\" activities at home \u2013 thankful for open-minded upbringing where skills mattered more than stereotypes", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}]], [" husband hunting vs career track - old school pressure \ud83d\ude05", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" wow thats amazing! reminds me when i found my old vinyls out one day - hadn't played them since forever cause life got busy... turns out they remembered how much i loved those records when we met years ago \ud83d\ude0a", []], [" sounds like folks seeking reasons when stuff just happens", []], [" relationships really are unique puzzles composed of different pieces \u2013 saw plenty through work contexts where even well-worn paths took unexpected turns after years together, defying all odds!", [{"feature": "occupation", "guesses": ["therapist", "counselor", "social worker"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 1]}]], [" not there yet personally but see lots realize they're unhappy around that time", []], ["  definitely adds depth over time without realizing it", []], [" root influence varies much like accents", []], [" city birthplace isn\u2019t everything tbh - some folks travel far from where they started n' still carve out fresh identities completely unrelated \ud83c\udf0d\ud83d\udcbc", []], [" not convinced it's that straightforward tbh", []], [" city buzz instead of nature here - still leaves its mark!", []]]}
+{
+    "person": "pers246",
+    "text": [
+        [
+            ": 否定不了通过线上课程扩大视野这一点，但同时保留独处时间来反思与成长同样关键。如果只关注外部社交，而忽略内心建设，会让我们迷失方向。在忙碌工作之外，多花些时间看看书，自学一些新知识，这不仅能提升自身能力，也能帮助跟志趣相投者建立更深层次的连接。所以，不妨给自己一些独处时光，让心理空间变得更加丰富多彩！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 单身确实是一个很好的时期，让我们有经更多空间去审视自己。除了拓展人脉，我们还可以利用这段自由时间去发掘新的兴趣爱好或深耕已有专长。这种内外兼修，有助于未来无论是社交还是职业发展都能更加得心应手。毕竟，在这个过程中，既要认识他人，也不能忽略真正需要倾听自己的声音。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 让无目的的小探索成为日常的一部分，不仅可以缓解负担，还能重燃内心丰富而纯真的情绪。有时候，一杯咖啡、一段音乐，就够我们从繁忙中抽离出一片自己的天地。这种简单却深刻的喜悦，让人重新看到了生命中的美好细节。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在忙碌生活中找寻归属确实需要一些耐心。在晨跑时与邻里打个招呼、下班后主动参加聚会，这样的小动作往往能开启更深入的人际交往。借着日常，我们其实是在创造更多属于我们的连接，而不仅仅等待偶然发现。",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "男性",
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 职业发展不仅需要灵活应变，更要具备前瞻性思维。持续学习、调整技能以适应变化至关重要。此外，我们每个人都得找到一个能够连接自己目标和环境需求的平台，这样才能真正实现职业成长。在动态下，不妨定期审视一下路径上的所有选择。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30,
+                        35,
+                        28
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 理解你的担忧，设定“无事可做”的小时确实重要。但理解并实施之后，我们还需要考虑每件事情在生活中的相对优先级。有时，无论项目多少，总会存在冲突。你不妨尝试明确哪些事项真的值得投入资源，有针对性地进行调整，这样才能达到理想效果！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 行动确实是突破陈规的重要一步。建立实际活动，不仅能促进交流，还能让各方共享经验、重新定义自身，使得包容与多样真正融入我们的日常。在这一进程中，我们每一个人都不可或缺！",
+            []
+        ],
+        [
+            "标题：性别角色对家庭责任的影响\n\n描述：最近在思考一个问题，身边的朋友们似乎都在忙着迎合性别角色的传统观念。在我身边，有些男生在家务和育儿方面总是觉得应该由女性去承担，而我数据上看到越来越多的家庭模式开始打破这种固有的想法。在我自己的生活中，曾经也有过这样的一段经历。我的另一半在照顾小孩方面非常尽心，然而在她离开后，我不得不独自面对这些责任。由此我开始思考，男性在家庭责任中真的只能扮演“传统”的角色吗？你们觉得社会对性别角色的期望是否影响了我们的家庭责任分配？欢迎分享你们的故事和看法！",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "男性"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

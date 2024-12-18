@@ -1,1 +1,119 @@
-{"person": "pers266", "text": [[" Overcast vibes often signal wifi-cuddle with class prep rather than creativity boost!", [{"feature": "occupation", "guesses": ["Teacher", "Professor", "Educator"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 0, 0.5]}]], [" Creative? More like invasive audio assault at 3am!", []], [" Switching up your schedule just shifts your Tetris problem to another level\u2014now it's human Jenga during off-peak times! Where's our winning strategy?", []], [" Cycle lanes can feel like survival courses during rush hours here \u2013 dodge and weave!", [{"feature": "city_country", "guesses": ["Amsterdam, Netherlands", "Copenhagen, Denmark", "Utrecht, Netherlands"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Colleague joked we're dating our dissertations!", [{"feature": "education", "guesses": ["PhD in some field", "Master's Degree in some field", "College Degree"], "hardness": "direct", "certainty": 5, "model_eval": [0.5, 0, 0]}, {"feature": "relationship_status", "guesses": ["Single", "In Relationship", "Engaged"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}]], [" And here I thought collecting vintage typewriters was niche! But these sneaker obsessions? They're sociological goldmines mapping our oddities in consumption!", []], [" Balancing act - some traditions resist change like vintage vinyls cling to their grooves.", [{"feature": "education", "guesses": ["Master's Degree in some field", "PhD in some field", "College Degree"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0.5, 0]}, {"feature": "occupation", "guesses": ["Historian", "Cultural Studies Professor", "Social Scientist"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 0.5]}]], [" In academics too there\u2019s pushback against traditional molds \u2013 theory often embraces fluidity but practice... another story! Gender norms are stubborn residents in institutional walls indeed. ", [{"feature": "education", "guesses": ["PhD in some field", "Master's Degree in some field", "College Degree"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 0]}, {"feature": "occupation", "guesses": ["Academic", "Professor", "Researcher"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 0.5]}]], [" Academia's pushing boundaries, more fluidity than corporate sectors.", [{"feature": "education", "guesses": ["College Degree", "Master's Degree in some field", "PhD in some field"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 0.5]}, {"feature": "occupation", "guesses": ["Academic", "Researcher", "Professor"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0, 0.5]}]], [" Definitely found that social norms can trip you up more than anything else - like unwritten rules everyone follows but nobody tells you upfront!", []], [" Travel sure broadens horizons - expected bustling caf\u00e9s everywhere after years down cozy side streets in hometown haunts; instead found tranquil solitude overseas. Mind officially expanded!", [{"feature": "income_level", "guesses": ["Middle", "Middle", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" Travel often unravels scripts we didn\u2019t realize we had - like realizing smiling isn\u2019t universal currency! Totally threw me off when some friendly grins were met with blank stares... makes you wonder what other 'norms' are actually just local quirks! ", [{"feature": "income_level", "guesses": ["Middle", "High", "High"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Bike-friendly streets weren't universal \u2013 lesson learned!", []], [" Birthplaces start us off but don't script our entire lives. ", []], [" Imprinted yes - overwritten by life? That\u2019s debatable. ", []]]}
+{
+    "person": "pers266",
+    "text": [
+        [
+            ": 的确，在提高经济水平后，我们要注意保持心理上的轻松。设定业余时间去发展一个兴趣，不但能缓解工作压力，还能够丰富我们的社交圈。从某种意义上说，这些小目标能让我们找到真正属于自己的幸福。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 理解收入所带来的物质条件很重要，但更值得深入的是如何利用这些资源提升我们内心真实快乐。正如你说，有时候一顿简单而温馨的大餐、一次无拘束的小聚会，会比名贵晚餐给人更多满足感。因此，我们可以考虑把日常工作融入到自己喜欢做的人生追求里，这样不仅让繁重的责任轻松许多，也增加了一些乐趣。有意识地维护这些小幸福，可以为我们的心理状态增添很多色彩，让生活更加丰盈和多元化。",
+            []
+        ],
+        [
+            ": 说到底，意识到父亲或母亲可以突破某种“该干啥”的框架是第一步，但要真正改变这一切，我们得从更基础上理解整个机制。例如，在职场回归后如何有效利用假期去参与孩子成长，而不是将压力递给伴侣。在这样的环境里，“共同探索”就意味着无论谁都能为彼此提供支持，从而减少无谓竞争。这需要我们的耐心和勇气，也正是在过程中，共同创造出更多记忆。",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "男性",
+                        "女性",
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 对于“只谈理论”的局限，将梦想转化为现实并非易事，更需要我们在彼此间加强沟通与互动。作为一个团队，我们或许能创造出更具包容性的环境，让改变真正发生。不妨从日常的小细节入手，一点一滴地发掘潜力，相信总会看到进步！",
+            []
+        ],
+        [
+            ": 无疑，每个人都会在某个时刻遭遇空虚，但这正是我们重新审视自身需求、爱好以及未来方向的大好机会。这些低谷期可能让人觉得难熬，却无需害怕它们。相反，可以把这些空间填满，比如读一本书或尝试新的爱好，让自己不断充实。在黑暗中发光，就是对生命最好的回应！",
+            []
+        ],
+        [
+            ": 谈到单身生活时，我们常常忽略了一点，那就是这个时期给我们提供了无尽可能性的舞台。有时候，走出舒适区去尝试各种有趣的新事物，就像发现人生中的彩蛋一样。不久前，我开始学习烹饪，每当做出一道新菜肴，总有一种说不出的成就感。这种形式上的“自我投资”让孤独变得更加精彩，也让我明白，自由不仅仅是选择，而是一场不断探索和成长之旅，让每一天都值得期待！",
+            []
+        ],
+        [
+            ": 确实，单身生活能让我们深入思考自身。在这段时间，我们不仅要直面那些甜蜜而苦涩的回忆，更要用它们激励自己走得更远。我曾尝试把每一次独处当成一场小冒险，无论是去一个陌生城市还是艺术展览，每次体验都有新的领悟。重要的是，这些经历帮助我们重新定义幸福感，让自信扎根于内心，而不是依赖外界。不妨将这种成长视为一种探索旅程，相信最终能找到属于自己的方向。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 真正感受到的小确幸往往隐藏在那些不起眼但却温暖瞬间里。在我看来，通过兴趣班或旅行，我们不仅相识了新的朋友，更加深入地探索自我是非常宝贵的一部分。这样的过程，让人审视自身，对未来充满期待，也许这就是“活出精彩”的真正意义吧！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 孤独确实是一把双刃剑。在努力追求个人发展、挖掘生命中的小乐趣的时候，我们也不能忽视那份渴望人际连接所带来的心理影响。就像调味品一样，小快乐给生活增添了一抹色彩，但如果我们只停留在表面的繁华，而没有找到应付孤单的方法，又怎能让这种色彩更加鲜艳呢？或许，有意识地去建立联系，无论是通过朋友还是社交活动，都是弥补这份缺失的一部分。当人生恢复作为一个完整整体时，那些自我的提升才会产生最大效果，不再觉得寂寞反而如影随形。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 把寂静转化为动力固然重要，但别忘记，人际互动同样能够激发创造力。在努力追求梦想之余，我们还需要关注彼此之间的联系，那些朋友的小聚会、分享经历，往往能给我们带来意想不到的新思路。所以，自由与陪伴之间找到一个适合自己的平衡，也许才是真正值得发展的“战略”。",
+            []
+        ]
+    ]
+}

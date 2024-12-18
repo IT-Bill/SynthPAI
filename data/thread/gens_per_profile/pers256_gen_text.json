@@ -1,1 +1,108 @@
-{"person": "pers256", "text": [["Question: Apartment dwellers, how do you deal with the quirks of living so close to others?\n\nQuestion description: so ive been living in this flat for a bit, and recently got new neighbours. they're alright, but their dog has this super weird loud bark that sounds like a person saying \"hello\" in a really hoarse voice. scared the bejeezus out of me the first night I heard it, not gonna lie. made me think there's a ghost or smth lurking around lol. got me thinking though, everyone who's lived in an apartment's got some weird or funny story to tell about their neighbours or thin walls. what's your wild story from living stacked up like canned sardines?", []], [" student loans hit differently once you're paying them off", [{"feature": "age", "guesses": [25, 30, 35], "hardness": "complicated", "certainty": 2, "model_eval": [1, 1, 0]}, {"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "In College"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 0.5, 0]}]], [" def felt grown-up balancing rent & coding deadlines alone", [{"feature": "occupation", "guesses": ["Software Developer", "Software Engineer", "Programmer"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0.5]}, {"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" ha gotta say waking up at 3am realizing there\u2019s a fix for your code does wonders for your sleep pattern \u2014 coffee\u2019s basically my new bestie", [{"feature": "occupation", "guesses": ["Software Engineer", "Programmer", "Developer"], "hardness": "direct", "certainty": 5, "model_eval": [0, 0.5, 1]}]], [" funny that because now i'm always automating mundane stuff at home too... if i can script it, why do it manually? cuts down chore time so i can binge-watch another series lol", [{"feature": "age", "guesses": [25, 30, 35], "hardness": "complicated", "certainty": 2, "model_eval": [1, 1, 0]}, {"feature": "education", "guesses": ["Bachelor's degree in Computer Science", "Master's Degree in Computer Science", "College Degree"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0.5]}, {"feature": "occupation", "guesses": ["Software Engineer", "Programmer", "IT Specialist"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 0.5, 0]}]], [" getting into drills at work means now i catch myself running mental debug scenarios over my morning coffee instead of actually relaxing \ud83d\ude02 kind of trades one stress for another huh?", [{"feature": "occupation", "guesses": ["Software Engineer", "IT Specialist", "Programmer"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 0, 0.5]}]], [" mate it's mad how fast they swap expecting nights out for investment chats once you hit big three-o -- as if binging netflix isn\u2019t valid downtime anymore!", [{"feature": "age", "guesses": [30, 30, 30], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" love's more like finding your player two tbh", []], [" hard work beats fate imo - no fairy tale but definitely a shared spreadsheet for bills & takeout orders \ud83d\ude43", []], [" having someone who's got your back can be reassuring - it\u2019s finding balance between 'me time' & 'we time', isn't easy but worth it when you strike it right", []], [" spot-on - growing up kind seems like leveling up together in co-op mode; not so much player one has entered the game anymore", [{"feature": "age", "guesses": [25, 30, 35], "hardness": "complicated", "certainty": 1, "model_eval": [1, 1, 0]}]]]}
+{
+    "person": "pers256",
+    "text": [
+        [
+            ": 走迷宫确实需要智慧，不过有时候偶遇的小道口也能揭开一片新天地。我觉得很多人会因为害怕错误而紧盯指南针，却忘记享受探索过程。经历多少失败才算丰富？无论如何，那些坎坷都是旅途中的调味剂。不如放下顾虑，对未知保持开放心态，让意外变成今天的一种惊喜吧！",
+            []
+        ],
+        [
+            ": 固然确立长远和短期目标能给人方向感，但难免会遇到那些突如其来的风浪。就像驾驶一艘船，当顺风顺水，一切规划照单全收；但碰上狂风巨浪，又得调转舵盘，有所放弃。这并不是说要抛开所有计划，而是在坚持追求梦想的时候，也要留一个心眼，以适应波动产生的新情况。毕竟，有些美好，是你根本未曾预见却恰好路过的人生礼物。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 不妨试着把注意力聚焦在经过时间筛选后的收获上。每一个小成就，就像种下的一颗种子，虽未必总能迅速发芽，却是在土壤里暗暗生根。当你回顾这些时候，你会发现原来一路走来的过程满是珍贵经验。如果能够用一种包容甚至赞赏的态度去看待“快”或“慢”，或许会增强你的信心。在人生旅程中，每一次尝试都是独一无二，而那些初衷常常蕴含真正驱动我们的力量。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 人生就像滑雪，有的人飞奔而下，有的人则选择缓慢享受。从某种意义上说，高速攀登令人兴奋，但停下来转身欣赏风景同样值得。我们总是想在拼搏与平静之间找到那个微妙平衡点，其实成败都是过程的一部分。有时明白自己为什么走，会比急着往哪里去重要得多。这种深度反思可以真的让我们免于无谓焦虑，更坦然面对未来的不确定。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确实，把书本知识转化为真正解决问题的能力才是关键。有时那些“光环”反而成为负担，让我们忘记初衷。就像在我的工作中，人脉、沟通以及真诚服务客户常常更有效。我相信，每个人都可以根据实践来锻造出自己的独特优势！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 学位就像是一块通行证，它可能让你快速进入某个地方，但真正留住你的，却是那份足够独特力、灵活应变的钱。这种情况下，我们如果把目光只锁定在纸上的荣耀，很可能会被现实狠狠打击。就业市场可比读书严酷得多，有时还真不如那些从基层一步步爬起的人靠谱。所以，把理论知识转化为实践经验，也许才是真正值得追求之路！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在单身的时候，其实就像打开了一扇全新的窗户，让你得以探索世界和内心。不知不觉中，我发现越来越喜欢那些被忽视的小快乐，比如慢慢装饰自己的房间或学习新菜谱。这些小成就同样是人生中的亮点，相较于朋友圈里的炫耀，有时候暖心的小确幸更能令我们微笑。所以，不如乘着这一波单曲循环，在享受相处自身带来的自由同时，把握机会去认识真正热爱的自己！",
+            []
+        ],
+        [
+            ": 自从选择走出那段阴影后，让我意识到，有时太多依赖外界认可反而让我们迷失。在独处中，我们才能真正找到灵魂深处呼唤出来的大声。在追逐梦想之余，也不能忽视那些触动心灵的小快乐！人与人间偶尔碰撞出的火花，正是人生戏剧的一部分，所以有时候去咖啡店或与朋友喝酒，就是为了给这一幅素描添上几笔色彩~",
+            []
+        ]
+    ]
+}

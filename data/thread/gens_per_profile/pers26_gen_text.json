@@ -1,1 +1,51 @@
-{"person": "pers26", "text": [[" old schools here are oddly maze-like inside lol", []], [" flashy malls sprung up where markets used to buzz", []], [" tree-lined streets now parking lots; concrete over canopies?", []], [" our dusty flea market's now an organic food hub!", []], [" love hitting local markets, lowkey downtime sans sky-high glass towers", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "In College"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0.5, 0]}]], [" we have similar tales by us but it\u2019s all bout a creature lurking in one of our markets after dark... even scoffers won\u2019t roam alone at night there", []], [" those old stories are more than just tourist stuff around here\u2014they keep our history alive n make u feel part of something bigger when you share em with friends at night \ud83d\ude05", []], [" heard some wild tokoloshe tales growing up here", []], [" hearing creepy hospital stories never gets old \ud83d\udc7b", []], [" rainy season here turns roads into obstacle courses!", []], [" traffic messes alone are daily battles here \ud83d\ude05", []], ["  love seeing everyone chase their own paths! for me settling down was inevitable with age but those original dreams still smolder beneath all grown-up responsibilities \ud83d\ude0a", [{"feature": "age", "guesses": [35, 40, 45], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "relationship_status", "guesses": ["Married", "In Relationship", "Married"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 1]}]], [" love growing my own veg too, saves money & tastes better!", []], [" learned how essential budget management really is when electricity bills come steady \ud83c\udf1e", []], [" feels like ditching those dated 'life scripts' lifts so much pressure - we get to write our own stories these days.", []], [" life doesn't fit into neat boxes \u2013 careers and family included", []], [" studied nursing; still here but not just bedside care - tons more admin than they tell you!", [{"feature": "occupation", "guesses": ["Nurse Administrator", "Registered Nurse", "Nurse Manager"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 1, 0]}]], [" contented till industry shifts, then plans change quick.", []], [" degrees don't always map out your future paths", []], [" nursing skills are clutch post-disaster - wound care and disease prevention save lives", [{"feature": "occupation", "guesses": ["Nurse", "Registered Nurse", "Emergency Nurse"], "hardness": "direct", "certainty": 5, "model_eval": [1, 0.5, 0.5]}]], ["  know-how plus cool head equals survivor material", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 0.5]}]], [" in healthcare, degrees don't feel like wild cards - pretty straightforward progression.", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in healthcare field", "Master's Degree in healthcare field"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0.5, 0]}, {"feature": "occupation", "guesses": ["Healthcare Professional", "Healthcare Worker", "Medical Staff"], "hardness": "direct", "certainty": 5, "model_eval": [0.5, 0.5, 0.5]}]], [" career paths aren't straight lines, training doesn\u2019t show real chaos", []], [" studying's crucial but real-world skills equally key in any job", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" once used surgical tape for labelling because markers were MIA", [{"feature": "occupation", "guesses": ["Medical Lab Technician", "Research Scientist", "Nurse"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 1]}]], [" tape's temporary \u2013 gotta get creative sometimes but checking safety too!", []], [" careers idealize growth but reality hits hard too", []], [" working with patients shifts your perspective fast\u2014every day serves intense reminders on health\u2019s fragility; there\u2019s no such thing as \u2018minor issues\u2019 when each moment can be critical. makes you appreciate life differently fur sure.", [{"feature": "occupation", "guesses": ["Doctor", "Nurse", "Healthcare Professional"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 1, 0.5]}]], [" seeing people at their most vulnerable really puts everyday stuff into perspective - makes you value simple kindness", []], [" shift work means texts instead of talks sometimes", [{"feature": "occupation", "guesses": ["Nurse", "Police Officer", "Firefighter"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Engaged"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}]], [" flexibility's key yet sometimes feels impossible tbh", []], [" true change feels glacial at times", []], [" nursing sees slow shift - old stereotypes persist though!", [{"feature": "occupation", "guesses": ["Nurse", "Registered Nurse", "Nursing Assistant"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0.5, 0]}]], [" tbh nursing's got its own old-school vibes sometimes", [{"feature": "occupation", "guesses": ["Nurse", "Registered Nurse", "Nursing Assistant"], "hardness": "direct", "certainty": 4, "model_eval": [1, 0.5, 0]}]], [" cultural pressures aren\u2019t accounted for enough here", []], [" both sides got unique pressures thanks to societal expectations", []], [" nursing seemed natural here but pushed past old stereotypes too", [{"feature": "occupation", "guesses": ["nurse", "registered nurse", "nursing staff"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0.5, 0.5]}]], [" always thought nursing was more than just being 'the caring female'. it\u2019s tough out here sometimes\u2014sticking through those shifts takes more grit than people give credit for regardless of gender norms!", [{"feature": "occupation", "guesses": ["nurse", "registered nurse", "nursing staff"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0.5, 0.5]}]], [" culture here does push certain jobs depending on if you're male or female but nursing felt right for me despite that pressure - folks need care everywhere after all", [{"feature": "occupation", "guesses": ["Nurse", "Registered Nurse", "Nursing Staff"], "hardness": "direct", "certainty": 4, "model_eval": [1, 0.5, 0.5]}]], [" roots matter but we write our stories every day too", []], [" feels like everyone's flocking here lately... kinda overwhelming tbh", []], [" progress brings pros and cons alike", []], [" seeing your birthplace evolve can be surreal it's nice seeing improvements but some charm gets lost when everyone knows your once hidden gem i feel that too whenever there\u2019s more bustle than usual at familiar spots", []]]}
+{
+    "person": "pers26",
+    "text": [
+        [
+            ": 有时候，共享任务清单并不够，我们还得学会“唱合作”，及时沟通各自的期待。这对于我们俩而言，其实是更多习惯层面的迁移，这才是真正有意义的小变化。如果能放下固有印象，一起探讨适合你们两人的方式，那过程本身就可能比结果更重要。在这样的环境里成长，对孩子的人生也将大有裨益！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚",
+                        "恋爱中",
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 家庭中的性别角色真没必要那么死板，每个人都可以找到适合自己的方式来分担责任。这让我想起一个朋友，他最近主动承担起更多做饭和带娃任务，结果不仅改进了夫妻间的人际关系，还有利于小孩看到父母共同合作的一面。在这过程中，他还发现自己居然挺喜欢这一切！所以说，不妨尝试着把这些固定思维抛开，让我们的婚姻、亲密关系都有所创新吧。从某种意义上说，我们需要的新鲜空气可不少！",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "男性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确实，建立良好的合作模式离不开沟通。在我们尝试新的责任分配方式时，可以先从小事做起，比如轮流设计周末菜单或共同制定做饭计划。这样既能减轻情绪负担，也能提高参与感。这种不仅限于“谁洗碗”的老旧思维，有助于家庭氛围更加融洽。而且，当孩子看到父母互相支持、主动承担的时候，自然会影响他们未来对于性别角色的认知与选择！",
+            []
+        ],
+        [
+            ": 没错，让男女双方一起干活最关键的是彼此之间要有良好的沟通。有时候这种心理负担不仅来自传统观念，还有我们自身的不安。在生活中适当调侃一下，比如当有人觉得洗碗是女人专属时，你完全可以回应说：“那不如换个运气去搅拌人生的大锅！”其实，增加互动和乐趣是打破僵局的一种妙招，让协作更加轻松自然！",
+            []
+        ]
+    ]
+}

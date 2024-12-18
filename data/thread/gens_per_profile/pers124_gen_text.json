@@ -1,1 +1,95 @@
-{"person": "pers124", "text": [[" old concert hall now just another mall - feels weird", []], [" library memberships rock for free access to scores & recordings!", [{"feature": "occupation", "guesses": ["musician", "music teacher", "music student"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" can't ignore those tight budgets\u2026 i make sure teaching gigs line up before splurging on things like concerts or new strings! sometimes you gotta get resourceful - bartering lessons for gear repairs anyone? \ud83d\ude04", [{"feature": "education", "guesses": ["Bachelor's degree in Music", "College Degree", "Master's Degree in Music"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0.5, 0]}, {"feature": "occupation", "guesses": ["Music Teacher", "Music Instructor", "Instrumental Tutor"], "hardness": "direct", "certainty": 5, "model_eval": [1, 0.5, 0.5]}, {"feature": "income_level", "guesses": ["Low", "Middle", "Low"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], ["  who doesn't love finding that rare vinyl at a flea market? also got mates into trading meals for piano sessions \u2013 turns out we're all trying to dodge those high notes in expenses!", [{"feature": "occupation", "guesses": ["Musician", "Music Teacher", "Piano Tuner"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}, {"feature": "income_level", "guesses": ["Middle", "Low", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 1]}]], [" those quiet corners do little for widespread urban tension though", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in urban studies"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 0.5, 0]}]], [" that sudden shift when you leave a noisy street & find yourself in some cozy cafe with only background chatter & espresso machines... feels like stepping into another world where time slows down just enough for you \u2013 those spots are gold!", []], [" yeah those tiny old record shops tucked away are pure bliss too - nothing beats combing through classic vinyl finds then chilling out there lost in some Beethoven or jazz tunes!", []], [" never imagined teaching tunes beats fancy cars tbh", [{"feature": "occupation", "guesses": ["Music Teacher", "Music Instructor", "Music Educator"], "hardness": "direct", "certainty": 5, "model_eval": [1, 0.5, 0.5]}]], [" thought i'd be rolling in dough by now tbh \ud83d\ude02 turns out job satisfaction doesn't always equal fat stacks", [{"feature": "age", "guesses": [25, 30, 35], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "income_level", "guesses": ["Middle", "Low", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 1]}]], [" perks unexpected but fancy cars? nope", [{"feature": "income_level", "guesses": ["Middle", "Low", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 1]}]], [" budgeting beats grading papers any day though being stuck inside all year gets old quick", [{"feature": "occupation", "guesses": ["Teacher", "Professor", "Educator"], "hardness": "direct", "certainty": 5, "model_eval": [0.5, 0, 0.5]}]], [" ironic how most passionate jobs don't always pay off but we still cling 'em like lifelines", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "In College"], "hardness": "complicated", "certainty": 1, "model_eval": [0.5, 0.5, 0]}, {"feature": "occupation", "guesses": ["Artist", "Social Worker", "Teacher"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}, {"feature": "income_level", "guesses": ["Low", "Middle", "Low"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" splurge less enjoy small stuff feels better gives wiggle room", []], [" not sure slashing spends always works tbh - sometimes stable gigs offer more peace of mind than chasing erratic side hustles no matter how tempting they look initially", []], [" diversifying sounds great if you can do it...but hey let's be real here \u2013 some gigs just aren't flexible enough for side hustles. gotta find those savings where we can right?", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Business", "Bachelor's degree in Finance"], "hardness": "complicated", "certainty": 1, "model_eval": [0.5, 0, 0]}, {"feature": "income_level", "guesses": ["Middle", "Middle", "Middle"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 1, 1]}]], [" financial security's elusive; takes work too", [{"feature": "income_level", "guesses": ["Low", "Middle", "No income"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" frugality becomes an involuntary lifestyle choice tbh", []], [" house deposits overrated tbh", []], [" interesting stories but does anyone else miss their 'what-ifs' sometimes?", []], [" tuning your life away outside class\u2014finger habituation\u2019s real folks!", []], [" never really felt pressured by those norms - always believed notes don't care who plays them, just pour all into teaching kids that love jazzy scales as much as bach\u2019s symphonies", [{"feature": "education", "guesses": ["Bachelor's degree in Music Education", "Master's Degree in Music Education", "College Degree"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 0.5]}, {"feature": "occupation", "guesses": ["Music Teacher", "Music Educator", "Music Instructor"], "hardness": "direct", "certainty": 5, "model_eval": [1, 0.5, 0.5]}]], [" music breaks stereotypes; it's all rhythm & expression over here", []], [" guys leading choirs isn\u2019t unheard of but when you throw kindergarten music classes into the mix people suddenly get surprised \u2013 nothing soft about keeping toddlers in tune though!", [{"feature": "sex", "guesses": ["Male", "Male", "Male"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}, {"feature": "occupation", "guesses": ["Music Teacher", "Choir Director", "Kindergarten Teacher"], "hardness": "direct", "certainty": 4, "model_eval": [1, 0, 0]}]], [" most think teaching music's chill, but try explaining Mozart\u2019s influence on modern soundtracks to skeptical teens - it\u2019s herding cats!", [{"feature": "occupation", "guesses": ["Music Teacher", "Music Educator", "High School Music Teacher"], "hardness": "direct", "certainty": 5, "model_eval": [1, 0.5, 0.5]}]], [" childhood hobbies =/= destiny; i chose notes over norms", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in Music"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 1]}, {"feature": "occupation", "guesses": ["Musician", "Composer", "Music Teacher"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" grew up amidst classical tunes - defying \"normal\" hobbies daily", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}, {"feature": "occupation", "guesses": ["Musician", "Composer", "Music Teacher"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}, {"feature": "relationship_status", "guesses": ["Single", "In Relationship", "Engaged"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}]], [" always got \"music's not manly\" talk - now teach it \ud83d\udc4a", [{"feature": "sex", "guesses": ["Male", "Male", "Male"], "hardness": "indirect", "certainty": 5, "model_eval": [1, 1, 1]}, {"feature": "occupation", "guesses": ["Music Teacher", "Music Instructor", "Music Educator"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0.5, 0.5]}]], [" some enjoy their crescendo into 30s sans pressure here", []], [" got friends who've had total hobby makeovers after moving in together - one even swapped weekly poker nights for pottery classes! guess love can remix your whole playlist \ud83c\udfb6", [{"feature": "age", "guesses": [30, 28, 35], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}]], [" that's cool that you're finding peace on nature trails! i've noticed even without significant other pressures my time gets sucked into random stuff online - though must admit being able to deep dive music blogs has been sweet for lesson planning", [{"feature": "occupation", "guesses": ["Music Teacher", "Music Educator", "Music Instructor"], "hardness": "direct", "certainty": 5, "model_eval": [1, 0.5, 0.5]}]], [" solo means spontaneous travels & gigs over quiet nights", [{"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}]], [" being unattached means impromptu jam sessions any time", [{"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" hometown vibes aren't uniform \u2013 we're not all local lorekeepers", []], [" places don't dictate stories - varied backgrounds make richer tales", []], [" nostalgia\u2019s overrated, stories are more than just geography stats", []], [" interesting take on location - i feel culture plays a huge role too. you grow up around certain vibes & rhythms; that stuff sticks with your tastes forever, even if you don\u2019t realize it!", []], [" def feel more at home among historic streets & classical tunes \ud83c\udfb6", [{"feature": "city_country", "guesses": ["Vienna, Austria", "Prague, Czech Republic", "Rome, Italy"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}, {"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Humanities", "Master's Degree in Humanities"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0, 0]}]], [" city vibes definitely tune your rhythm", []], [" always thought that growing up around lots of old-school music vibes gave me patience and attention for detail \u2013 kinda ingrained respect for practice makes perfect without even realizing it!", [{"feature": "occupation", "guesses": ["Musician", "Music Teacher", "Composer"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" always felt like being surrounded by classical tunes made patience second nature - every note tells its own long story!", [{"feature": "education", "guesses": ["Bachelor's degree in Music", "Master's Degree in Music", "College Degree"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0.5]}, {"feature": "occupation", "guesses": ["Musician", "Music Teacher", "Classical Music Performer"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" that early classical exposure sure sparked creativity", [{"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]]]}
+{
+    "person": "pers124",
+    "text": [
+        [
+            ": 一个其他人的观点很赞，我认为每一次出行，无论是一个人还是跟随伙伴，都特别值得珍惜。一旦你走出去，就可能会遇见那些闪耀着奇妙火花的人和事，甚至看见隐藏在心底许久未发掘的小愿望。在旅行中，我常常感受到那种不可预知性——就像散步偶遇一道美丽彩虹，处处都有惊喜等着我们去发现。所以，把每次“独立冒险”当作一次重生，对自己而言，不也是最大的收获吗？",
+            []
+        ],
+        [
+            ": 自由确实是让我们重新认识自己的绝佳机会。记得有一次，一个人在当地参加陶艺课程，通过那次体验，不仅学会了一项手艺，还结识了一群非常有趣的人。在单身阶段，我们其实可以尝试更多“非典型”的活动，从跑步、摄影到烹饪课程，每一步都可能成为新的冒险与发现。所以别怕走出舒适区，你永远不知道下一个精彩会在哪里等着你！",
+            []
+        ],
+        [
+            ": 虽然提升自己很重要，但想象一下，如果你最近利用单身期做点“小冒险”，比如临时报个陶艺课或参加一次随机聚会，与其忙着铺陈未来，其实这些纯粹而偶然的人生片段，更可能给你带来意想不到的新视角。这不是逃避责任，而是在你繁忙生活之外找到进一步展现自己的机会。所以，把握住当下，小小 эксперимент可能改变你的思维！",
+            []
+        ],
+        [
+            ": 科技确实能帮助我们管理时间，但千万别忘了大自然才是最好的调剂品。艰难的一天结束后，不妨放下手机去户外走一圈，让新鲜空气唤醒每一个细胞，那种真实响亮、令人振奋的感觉，是任何软件都无法替代的。同时，在独处时光里喝杯茶、看看云，也是慢下来滋养灵魂的一部分，不是吗？这样的选择给我们的每日节奏增添了一份厚重的人生味道。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 将这些建议结合起来，并不意味着局限于某种方法，而是为每个人寻找最自在、最自然的方法去接纳这座城市的一部分。有时候选择一项简单但充满乐趣的小事情，比如参加一个本地音乐节或街头集市，都可以让你更容易放下戒备。一切都是从未曾明确过开始，让逐渐发掘真正属于你的那份温暖吧！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25,
+                        28,
+                        30
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确实，在职业发展的过程中，我们每一次调整方向都很关键。就例如当初决定成为旅行顾问时，我并没有按照常规路径，而是在多个尝试后才发现这份工作让我兴奋且有动力不断成长。不过，要记得无论你选择哪条路，都需要适时调整策略，因为市场总是流动变化，会影响我们的机会与体验。因此，把握当下方向同时预留空间给未来可能的新机遇，不妨成为一种策略上的考虑。这不仅是对自我认识的一次挑战，也往往是一场美丽而奇妙的人生探索！",
+            [
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "旅行顾问",
+                        "旅游顾问",
+                        "旅行代理"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 5,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确实，自我记录提供了一种实际可行的方法，可以帮助你跟踪进展。不过，我觉得在执行过程中，也要注意定期回顾。这不仅能够激励自己，还能及时调整方向。例如，当时光匆匆流逝，我发现有些计划总是搁置，那时候给自己设置一个每周小总结，让疲惫变为动力，是让我重拾热情的一大秘诀。在忙碌中，也别忘了找个属于自己的节奏，比如一边喝茶，一边放松心情，再继续干活！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

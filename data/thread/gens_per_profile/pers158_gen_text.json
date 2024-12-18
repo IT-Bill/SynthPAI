@@ -1,1 +1,97 @@
-{"person": "pers158", "text": [[" Childhood officially ended when the ink dried on divorce papers; reality hit like a lorry \u2013 standing solo turns you adult pretty fast!", [{"feature": "relationship_status", "guesses": ["Divorced", "Divorced", "Divorced"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" Always hear we're 'listening gurus'. Funny thing though - catch me zoning out during long meetings like anyone else!", [{"feature": "occupation", "guesses": ["Therapist", "Counselor", "Human Resources Professional"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Schedules clash; sometimes solo dinner becomes habit not choice.", []], [" Can't escape it - catch myself unpicking people's choice of words like puzzle pieces during chats. Makes for lively banter though!", []], [" Dead right! Society has us racing against some fairy tale clock \u2013 barely makes sense if we all live different stories. Just because the calendar flips doesn't mean you've got all those 'adulthood' boxes ticked off automatically \u2013 or ever need to!", [{"feature": "age", "guesses": [30, 35, 40], "hardness": "complicated", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Definitely progressing; still room for improvement though!", []], [" Totally noticed a uptick in dudes joining the therapy game recently\u2014diversity's definitely shaking things up over here too.", [{"feature": "occupation", "guesses": ["Therapist", "Counselor", "Mental Health Professional"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0.5]}]], [" Gendered job prep? Schools finally taking action over rhetoric!", []], [" Sparks may ignite the flame, but it's sharing values that keeps it burning through any weather!", []], [" Evolved expectations just part of life\u2019s growth.", []], [" Been there too - life's thrown its fair share lessons at me. True lasting bonds are part art form requiring growth together despite hiccups along the way!", [{"feature": "relationship_status", "guesses": ["Married", "In Relationship", "Divorced"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]]]}
+{
+    "person": "pers158",
+    "text": [
+        [
+            ": 定期给自己放个假真的很重要！无论是旅行还是简单的一天宅家，都能帮助我们重新找到自我。在忙碌之余，多考虑一下什么能够真正让你放松，有时候就只是一个悠闲的下午或与好友共享美食。不妨试着把爱好融入日常，让它们成为减压的小秘密哦。这种调整可能会大大改善你的心情，让生活不仅仅是奔波，还有属于你的快乐。",
+            [
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 很同意你的看法！其实，小确幸真的能为繁忙和紧张加一点甜味。有时候，一顿简单美味的大餐或者一次与朋友畅聊都可以成为应对压力的小秘诀。同时，也许我们把想要花费更多时间在这些事情上的愿望具体化，把它变成每个月固定的一次约会，这样不仅养成习惯，还会让每个月都有值得期待的小惊喜。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确实是如此！很多时候，真正让人放松与开心的是那些小细节，比如做饭、聊天或者慢慢走。享受当下，不被外界环境左右，是通向幸福的重要一环。这样的时光不仅让人留恋，更能加深彼此層次上的理解和连接。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚",
+                        "恋爱中",
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确实，你们提到的一点很重要。随着收入增加，我们常常忘记那些最能触动心灵的小瞬间。回想起早期和好友一起在街边小吃摊享用简单夜宵，那种乐趣是金钱无法替代的。而当我们身处豪华餐厅，却可能因为忙碌或疲劳而失去了互动，这样一来，美食也就变得单薄。不如继续重视人与人之间真实而温暖连接，无论它发生在哪儿。这些值得珍惜的小快乐永远不会过时！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 说得真好！每次聚餐，无论多么简单的小店，在那样轻松愉悦氛围里，总是充满欢声笑语，这种感觉真的比任何奢华享受都要美好。如果你仔细想想，那些随意却又充满欢乐的小聚其实体现了人与人之间最真实、最宝贵的情感联系。当我们学会从这些小事情中找到快乐，就能体悟到了“内心富足”的真正意义。这也是为什么，有时候放慢脚步，更容易找到那些值得珍藏的小确幸。",
+            [
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

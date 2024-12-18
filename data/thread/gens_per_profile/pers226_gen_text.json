@@ -1,1 +1,417 @@
-{"person": "pers226", "text": [[" Old spots rebranded pocket feels lighter too.", []], [" \"Tech parks teach valuable skills though!\"", []], [" Cruised past my old movie rental store recently, except now it\u2019s an organic grocery spot. Hard not to miss those weekend flick picks even if kale chips are probably better for me!", [{"feature": "age", "guesses": [30, 35, 32], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}, {"feature": "income_level", "guesses": ["Middle", "High", "Middle"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Hidden gardens between buildings - ultimate recharge spots!", []], [" Gotta say though, give knitting another crack! My mate had similar struggles but now she whips up scarves like nobody\u2019s business \u2013 says it's ace once you get past the learning curve!", []], [" Knitting! Therapeutic and surprisingly handy.", []], [" Vintage vibes need patience\u2014worth it sometimes!", []], [" Handwriting nutrition logs feels rewarding!", []], [" First felt like an adult when leading health program negotiations - sitting at the table making calls impacting community health really drove home grown-up vibes for me!", [{"feature": "age", "guesses": [30, 35, 28], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "education", "guesses": ["Master's Degree in Public Health", "Bachelor's degree in Public Health", "College Degree"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}]], [" Budget-wise sure feels grown-up but nailing down retirement plans? That moment hit different!", []], [" Love books too! Still gotta budget though. ", []], [" Childhood me didn't factor in loving a job that doesn\u2019t make millions but gives tons back in satisfaction! Always thought adulting meant wealth = success, turns out it\u2019s finding your groove amidst life's curveballs!", [{"feature": "age", "guesses": [35, 40, 30], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 1]}]], [" Dreamed of grand adventures too! Life had other plans though\u2014like surprise career paths that fulfill you in ways you never charted out when fixated on globetrotting!", []], [" Grow herbs indoors - cheap and healthy flavor boosts!", []], [" Gotta love library borrowing! Not just books but games and DVDs too \u2014 Full entertainment without splurging a dime! Plus you meet other savvy savers sometimes.", []], [" Definitely resonate here; there's something fulfilling when your job naturally vibes with personal values \u2013 makes balancing the dream scenario less daunting!", []], [" Navigating health consultations means analyzing risks vs rewards daily\u2014totally resonates with managing long-term relationship goals. Striking that work-love_life balance feels more like art than science sometimes!", [{"feature": "education", "guesses": ["Master's Degree in some field", "Bachelor's degree in some field", "College Degree"], "hardness": "complicated", "certainty": 2, "model_eval": [0.5, 0, 0]}, {"feature": "occupation", "guesses": ["Healthcare Professional", "Medical Consultant", "Health Advisor"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 0.5]}, {"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Engaged"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" Funny how our jobs shape us in unexpected ways! For me, tapping into health trends spills over from work hours for sure \u2013 always plotting new wellness routines amidst all those big plans for future stability!", []], [" Local arts events double as social well-being boosters!", []], [" Totally! There's solid research backing garden therapy \u2013 good stuff!", []], [" Wellness doesn\u2019t necessarily come price tagged \u2013 often low-cost hobbies like cooking exotic recipes at home can rival any spendy activities out there!", []], [" Always love hearing how people find joy in simple pleasures! For me, crafting and DIY projects are big money-savers and stress-relievers - there\u2019s gold in those YouTube tutorials! Plus hitting up local markets for fresh produce beats store prices any day. ", []], [" Rainy fund's good; automated savings plans better?", [{"feature": "income_level", "guesses": ["Middle", "High", "Middle"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}]], [" Solid start but diversify investments too!", [{"feature": "income_level", "guesses": ["High", "Middle", "High"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 1]}]], [" Inflation\u2019s seriously tough on savings goals!", [{"feature": "income_level", "guesses": ["Middle", "Low", "High"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" Spot-on points! A fat wallet might share a pocket with burnout if we're not careful. Personally found that aiming for balance keeps things peachy - enough dough for comfort minus excessive overtime equals more time enjoying those beers!", [{"feature": "age", "guesses": [35, 30, 40], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}, {"feature": "income_level", "guesses": ["Middle", "High", "Middle"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0]}]], [" Funny how we level up not just at work but also in our money mindsets \u2013 steady pay was king until hitting mid-career makes you think \"Ok let's play hardball retirement funds\". No lie though, better safe than sorry when planning ahead!", [{"feature": "income_level", "guesses": ["High", "Middle", "High"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 1]}]], [" Public Health felt like jigsaw pieces clicking; absolutely worth every late-night essay!", [{"feature": "education", "guesses": ["Master's Degree in Public Health", "Bachelor's degree in Public Health", "College Degree"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0]}, {"feature": "occupation", "guesses": ["Public Health Student", "Public Health Researcher", "Public Health Worker"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 0.5]}]], [" Public Health Masters \u2013 solid foundation; reality's complex though...career satisfaction isn't linear. ", [{"feature": "education", "guesses": ["Master's Degree in Public Health", "Master's Degree in Public Health", "Master's Degree in Public Health"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" Landed in public health sorta by chance \u2013 thought I'd go clinical first but got hooked on policy stuff during uni! Now solving puzzles that keep communities healthy gives me a buzz like no other! It's funny how you end up loving places you never saw yourself before! ", [{"feature": "education", "guesses": ["Master's Degree in Public Health", "Bachelor's Degree in Public Health", "College Degree"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0]}]], [" In my sphere, \"health nuts\" gets thrown around a lot! Some colleagues love kale salads but honestly? Give me chips any day! Goes against the grain of us supposedly pushing all things green 24/7!", []], [" Public health has really shaken off old stereotypes \u2013 seeing heaps of diversity these days! It's less about gender, more passion-driven.", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Public Health", "Master's Degree in Public Health"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}, {"feature": "occupation", "guesses": ["Public Health Worker", "Public Health Official", "Health Educator"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" Definitely seen similar trends in health. Lots more dudes entering traditionally female roles like nursing! Just goes to show passion beats expectation any day of the week.", [{"feature": "occupation", "guesses": ["Nurse", "Healthcare Professional", "Medical Staff"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0.5]}]], ["  Crafts surprisingly tap into some complex problem solving- engaging different parts of our brains beyond society's labels. A bit like yoga for cognitive agility!", []], [" Smashing health stereotypes by kickboxing! Not just guys have all fun throwing punches; turns out it\u2019s killer stress relief too!", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}]], [" School sports day was eye-opening\u2014realized there\u2019s more than just \"boys' sports\" vs \"girls\u2019 games\". Careers shouldn't be boxed like that either!", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" Totally hear you! Rigidity in roles at home can strain wellbeing just as much as any job stress - flexibility and understanding from all sides are key!", [{"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Engaged"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" Totally relate! Grew up encouraged towards sciences--considered 'not girly.' End result? Public health geek here who still loves her sci-fi novels just as much as getting glammed up. Those childhood encounters shape us but don\u2019t define us, eh?", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 5, "model_eval": [1, 1, 1]}, {"feature": "education", "guesses": ["Master's Degree in Public Health", "Bachelor's Degree in Public Health", "College Degree"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Noticed big changes in public health sectors too! Diversity's making teams stronger - thinking more broadly leads to better problem-solving for everyone's benefit.", [{"feature": "education", "guesses": ["Master's Degree in Public Health", "College Degree", "Bachelor's degree in Health Sciences"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Friends surprised when I handled our BBQ grill!", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 1, 1]}]], [" Screens more often equal eye strain tbh!", []], [" Saw similar pressures defying stereotypes throughout uni. Opted for Public Health despite some raised eyebrows \u2013 kinda proud bucking those expectations!", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 1, 1]}, {"feature": "education", "guesses": ["Master's Degree in Public Health", "Bachelor's degree in Public Health", "College Degree"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0]}]], [" Personal fulfillment over traditional roles now!", [{"feature": "age", "guesses": [25, 30, 35], "hardness": "complicated", "certainty": 2, "model_eval": [0, 1, 0]}, {"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 1, 1]}]], [" Seen heaps at work where traditional set-ups are history \u2013 all sorts flipping norms now. Partnership dynamics def changing through time too; shared or swapped breadwinning's way more common than folks think!", []], [" Not everywhere equally progressive - lots stick with old norms. ", []], [" Saw similar shifts \u2014 impacts family stress too!", []], [" Always more nuanced than clear-cut shifts; seen some breakthroughs but entrenched attitudes don't just vanish overnight, especially higher up \u2013 everyone knows healthcare has its own share of uphill battles there!", [{"feature": "occupation", "guesses": ["Healthcare Professional", "Medical Researcher", "Healthcare Policy Analyst"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0, 0]}]], [" Healthcare used to lean heavily with nurses being female and doctors male - not so much anymore! Every day there\u2019s more balance. Great seeing barriers get knocked down all over!", [{"feature": "occupation", "guesses": ["Healthcare Professional", "Nurse", "Doctor"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0, 0]}]], [" Engagements can shuffle your routine too! Found myself swapping late-night online surfing for venue hunting with my partner recently \u2013 didn\u2019t see that coming!", [{"feature": "relationship_status", "guesses": ["Engaged", "Engaged", "Engaged"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" Hiking\u2019s great not just for fitness but as a way to clear your head too! Noticed heaps of clients finding unexpected joy getting into nature \u2013 plus those trails are ace for serendipitous friend-making.", []], [" Rare indeed. Partners noticing quirks? Priceless!", [{"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Engaged"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" It's thoughtfulness over expense!", []], [" Seems too simplistic\u2014relationships aren't predictable like that.", []], [" More myth than rule honestly.", []], [" Honestly think most folks just hit seasons where they need change \u2013 doesn't necessarily clock in at exactly 7 years. But hey, every couple's journey differs; some skip that phase entirely!", [{"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Engaged"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 1]}]], [" Heads up - stability isn't synonymous with stagnation just saying", []], [" Not always - strong partnerships also sharpen focus & goals. ", []], [" Juggling career options with wedding planning over here! It's like strategic chess; every move considers both our aspirations. Always finding that sweet spot \u2013 quite an adventure!", [{"feature": "relationship_status", "guesses": ["Engaged", "Engaged", "Engaged"], "hardness": "indirect", "certainty": 5, "model_eval": [1, 1, 1]}]], [" Tried cooking; burnt toast isn't romantic though!", [{"feature": "relationship_status", "guesses": ["In Relationship", "Single", "Engaged"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" Definitely need levelling up! Masterchef dreams here we come?", []], [" \"Nostalgia shapes us subtly.\"", []], [" Cities might not define us fully but they can sure leave fingerprints on our personalities! Like loving big skies if raised in open spaces or craving hustle if born where neon lights never sleep. ", []], [" Birthplaces do leave an indelible mark - it certainly flavored my appreciation for health within different environments, highlighting diversity\u2019s importance in both nature and human resilience!", [{"feature": "education", "guesses": ["Master's Degree in Public Health", "Bachelor's degree in Environmental Science", "College Degree"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 0]}]], [" The coast has its unique pull alright! Feels therapeutic returning to places laced with childhood memories. A deep blue horizon can do wonders; maybe it\u2019s those early years by Sydney's beaches etching into me more than realized!", [{"feature": "birth_city_country", "guesses": ["Sydney, Australia", "Sydney, Australia", "Sydney, Australia"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}]], [" Growing up not far from the ocean has me hooked too! Feels like recharging your soul battery whenever you're back at sea level.", []], [" Often it\u2019s not the scenery but varying health regulations abroad that really catch you off guard!", [{"feature": "occupation", "guesses": ["Travel Writer", "Consultant", "Flight Attendant"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0]}]], [" Healthcare admin differences are wild!", []], [" Cultural adjustments hit hard during travels! Once expected an 'everywhere English' scenario \u2014 needed quick language skills upgrade instead! It\u2019s not just signs and menus; it\u2019s humor, gestures... whole communication style flips! ", []], [" Travel spots can surprise you big time! Distinct eating habits messed up my routine \u2013 gotta adapt fast or risk completely throwing off your wellness groove!", []]]}
+{
+    "person": "pers226",
+    "text": [
+        [
+            ": 没错，与自己建立深厚联系确实是一种重要且必要的发展方式。在生物工程研究中，我们经常需要深入分析实验数据，这个过程让我体会到了反思和单独行动的重要性。同样，在人生旅途中，我们无法忽略那份来自自身内心世界得以滋养自己的力量。有时候，一个人去参加活动带回的不只是社交，还有关于自我认知的新启示。因此，不妨把更多重视放在探索这段与自己相伴走过的人生旅程，把每一次体验都当作完善自己的契机，这样才能积累真正有质量的人际关系，同时丰盈我们的灵魂。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "硕士",
+                        "博士",
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "生物工程师",
+                        "科学研究员",
+                        "数据分析师"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 独处确实为我们提供了一片自由天地，但正如你所说，把那些瞬间转化为我们的动力同样重要。比如，我常常利用闲暇时光进行自学，无论是专业技能还是新的兴趣，这件事让我觉得充实又有意义。有一次，为了啃下一个复杂的话题，我花了一整天研究文献，那种成就感远胜于社交时刻。不妨设定一些小目标，不断滋养自己的精神土壤，你会发现每一次向内求索都充满惊喜。而且，将这些经验融入你的实际工作或创意项目之中，更能够让你像科学实验一样，一路迭代进步！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25,
+                        30,
+                        35
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在寻找生活中的节奏时，我们或许需要更多关注平衡。当我们临时接纳朋友连夜邀约的时候，不妨也问问自己，这种意识形态是否真的适合你稳定节奏？经历了一次很美好的冒险固然重要，但如果太偏离预定轨道，长久累积下去可能反而会增加焦虑。在遵循规律之外，也要有主见，用自律为自身设立底线，让精彩与宁静彼此交替，共同编织出美好的一天。这种方式不仅能给予我们应激后的恢复空间，还能够帮助我们更清晰地认识真正想要拥抱什么。",
+            []
+        ],
+        [
+            ": 对于“慢下来”的惊人效果，我确实相信日常中的小步骤是最有效途径。而不仅仅是一整天的不工作，有时候每天抽出几分钟来静心反而能给生活增添更多乐趣。这种模拟调音器的小动作，无论多么微不足道，都会帮助我们找到内心播放的旋律，让生命在喧嚣中愈发动听。因此，创造这样的规律无疑是一件值得尝试并坚持下去的重要事情！",
+            []
+        ],
+        [
+            ": 提取日常中的简单快乐，比如午后的一杯茶，是调和紧张生活的一剂良药。我曾尝试在实验间隙插入音乐时光，那份专注不仅提升效率，也让思维更加清晰。当我们学会用这些“小确幸”填充日常，就能够为愈加快速的人生找到那个属于自己的舒适节拍，这种愿景真的很美好呀！",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 城市虽大，却处处藏着像你提到的小细节，它们就像浮冰下无形而又美丽的大部分。在一次偶然散步回家的路上，我注意到了一个常被忽略的小书店，书架上满是各式旧籍，那种淡淡霉香似乎承载着整个社区的发展与变迁。当我们慢下来，与这些独特瞬间联结，其实已经开始构建心中的“家”。所以，不妨试试给自己一点时间，把目光投向那些待发现的地方，我们会因此收获更多。不仅仅是一份归属，更是一段有趣旅程！",
+            []
+        ],
+        [
+            "：确实，大型活动能够提供拓宽社交圈子的机会，但同样重要的是，我们要考虑这些经验是否与我们的内心需求相呼应。想象一下，即使是在热闹的大环境中，一个轻松自然的小聊天可能比任何闪光的新朋友都更让人安心。在快节奏生活里，小而密切的交流或许才是真正促进我们从“旁观者”变成“参与者”的必要环节。所以不妨多留意涓涓细流，它们最终会汇聚成海，让你真正融入这座城市。",
+            []
+        ],
+        [
+            ": 融入一个地方确实需要耐心与细致，而积极尝试新事物也是不可少的一环。有时候，我们不妨走出舒适区，去参加一些有趣的活动，让自己多接触不同的人。不仅增强了人与人之间的联系，也为我们的生活添加了新的色彩。这种探索过程本身就能成为我们归属感的重要组成部分。",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在关注人际交往与兴趣培养时，我发现它们不仅仅是一种心灵慰藉，还成为我们面对经济压力的一种资源。例如，通过社群活动，我结识了一些前辈，他们分享了不少职场经验，让我更清楚地看见未来发展的方向。而这些人脉往往能够转变成潜在机会，有助于事业上升。因此，在时间有限的时候，我们不妨将心力放在人际圈层上，或许这才是真正做到双赢的方法。",
+            []
+        ],
+        [
+            ": 大家的观点都很深刻！确实，对于不同的人来说，“必须”开支与“不必要但可欲”的界限并不是一成不变。比如，对某些兴趣和技能的不懈投入，比如学习新技术或者专业书籍，可以看作是一种隐形资产。正如科学研究中的实验失误，它们不仅让我们走出舒适区，更能激励我们不断提升。如果能把这两者融合起来，那么无論你选择当下还是未来，都能够构建一个既充实又富有趣味性的生活模式。在面对经济压力时，不妨回忆一下自己的初衷，或许就能找到那个属于你的平衡点。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "硕士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 从某种程度上说，把学习当作“存款”非常准确。然而，在我们不断追求自我的同时，不妨关注周围的人群。例如，有些地方依然存在着因缺乏教育而受限的发展机会。如果能够指导更多人共同成长，这不仅帮助了他们，也让我们的努力更具意义。正如在实验证明中，无数小细节错综复杂，共同塑造结果。只有提升整体素质才能真正促进社会进步。所以，当你选择投资自己的时间时，也别忘了把这一份关心传递给其他人，让知识成为共享资源，将这份隐形资产转化为合力形成更广泛效益！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "硕士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有时候，我们需要重新审视“必要”的定义。例如，那件心仪已久却犹豫再三未购得的衣服，其实象征的不仅仅是物质，它还承载着某种情感或自我的认同。在严谨把控开支同时，不妨给自己设立一个“小预算”，用于那些能够带来快乐的小事。就像科学研究中的探索，美好的体验并不是只有高昂费用才能获得，有时那份简单又纯粹的小幸福，同样能为我们的生活增添许多色彩。",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 常常觉得，在面对现实社会里经不起折腾的人，不妨多看看那些被忽视的小确幸。不过，如果我们只停留于消费中的奇妙体验，很可能会错失真正重要的发展机会。不如尝试将这份小预算进行更具前瞻性的投资，比如提升自身能力或者拓展社交圈。从长远来看，这些经历比任何一次轻松购置都要滋养我们的内心，帮助我们稳步向前。因此，幸福感既来自瞬间的小享受，也应扎根于持久真实的人生阅历中。这是一种双赢的方法，不是吗？",
+            []
+        ],
+        [
+            ": 生涯规划确实需要灵活应变，就像一桌丰盛的小吃，各种口味等待我们去品尝。不过，我们必须清楚摸索背后的成本。在做决策的时候，不妨制定一些短期和长期目标，这样能帮助你寻找真正令你兴奋且不会让钱包见底的发展路径。我曾经参与一个项目，它最开始并无多大前景，却通过不断调整思路最后取得突破。这让我意识到，只要善于搭配自己的能力、市场机会以及个人价值观，就能够把工作变得既充实又富有趣味。",
+            [
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产",
+                        "小康"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 职业路径确实像是在海上航行。不仅需要在人潮涌动的大海里寻找方向，更要注意航行中的波涛起伏。有时候，当初选择时充满热爱的项目，在现实压力和经济考量下，会让人产生质疑。但是，这并不意味着放弃追求。当时任职一个医疗科技项目时，我意识到虽有高回报，真正吸引我的仍旧是能够为患者改善生活质量。在这一过程中，我们需要不断地自省：我们的内心渴望是什么？若始终坚持初心，同时灵活适应环境，那么无论何种选择，都能成就属于自己的独特旅程。",
+            [
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "高级中产",
+                        "富豪",
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 职业之路确实如同一次美妙旅行，每一步都值得珍惜。在如今快速发展的时代，不妨把自己视为“旅行者”，勇敢探寻不同可能。如果各自领域能够结合社会需求，那更是一种双赢。不过，无论奔赴何方，都别忘记出发时心中的那份激情，它会指引你走向更加丰富的人生体验。",
+            []
+        ],
+        [
+            ": 在追求学术与工作的过程中，找到合适的方法固然重要。不过，仅仅依靠小确幸或立即产生喜悦未必足够。当忙碌之余，我们静下心来思考自身真正希望达成什么目标，将帮助我们更明确前行方向。而这不仅能减轻焦虑，也为我们的决策提供坚实基础。至于如何结合热爱与日常，要尽量避免被眼前琐碎绑架，多问问自己：这一切是否符合我的长远发展？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "硕士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 为了更好地平衡学习与工作，可以考虑制定一个包含长期目标和阶段性的小清单。这不仅能够让我们明确方向，还可以将大任务分解为可操作的小步骤，让每次完成都有成就感。同时，在忙碌之余，坚持进行一些兴趣活动，反而会使我们回归时更加高效，就像科学研究一样，有时候灵感往往是在放松之后获得。我曾经尝试这样的方式，在集中的实验期间也不忘读几页小说，这种简单却有效的方法让我即便面临较大压力，也能轻松前行。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        27,
+                        30,
+                        34
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "硕士",
+                        "博士",
+                        "硕士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 你说得很好！其实，不止是使用应用程序，有时我们需要找个地方给自己一个暂时的小逃离。我记得有一次，为了完成项目进度特意花了一周时间去爬山，那几天让我整个人都焕然一新回来，所以不妨试试走出门去做点小运动或享受大自然。这种身心得到调节后，读书、工作反而能事半功倍呢。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30,
+                        28,
+                        35
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 性别角色问题确实需要创新与包容，但同时也不能忽视每个个体从小如何受教育。比如，在学校里如果能够鼓励孩子们无畏地表达自己，那他们成年后就会更自然地摒弃那些隐形剧本。在实践这一目标时，可以借鉴一些生物学中的适应理论，让我们的思维像科学一样灵活，通过不断学习来调整自己，而不是拘泥旧习。只有这样，我们才能形成一种真正自由、多元的社交文化！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "硕士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 对于当前探讨的主题，让我们不妨回顾一下年轻时受到的诸多影响。在学校时，我们很容易发现男孩被鼓励去冒险，而女孩则相对谨慎。这种模式在很多情况下都显得十分不公平。有一个同学，她无畏地挑战这一划分，通过参与各类活动不断提升自己，不仅最终取得优异成绩，还帮助周围的人一起成长。因此，这样的小变化或许能启示机构重审其培养目标，为每个孩子提供更多平等发展的机会。不论男女，每个人都应该拥有自由追求自我的权利，这是推动整个社会进步不可或缺的一部分。",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 教育体系确实是关键，我们需要更多地鼓励学生独立思考、勇于表达，无论他们是什么性别。我曾见证那些被深埋期待的人，如果有一个包容理解的平台，他们会展现出很多潜力。因此，加强教师培训，让他们意识到差异化支持的重要性，不失为一种良策。这种环境不仅提高每个人的发展机会，也推动整个社会向前发展。",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性",
+                        "女性",
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "硕士",
+                        "本科",
+                        "硕士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ]
+    ]
+}

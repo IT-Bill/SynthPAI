@@ -1,1 +1,99 @@
-{"person": "pers137", "text": [[" Rainy days? Perfect focus ambiance for digging into research articles!", [{"feature": "education", "guesses": ["PhD in some field", "Master's Degree in some field", "College Degree"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 0]}, {"feature": "occupation", "guesses": ["Researcher", "Academic", "Graduate Student"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0.5, 0]}]], [" Rain usually means indoor paperwork for me \u2013 sorting finds instead of fieldwork! Always got that one perfect rain playlist ready too... Damn you catchy '80 tunes!", [{"feature": "occupation", "guesses": ["Archaeologist", "Field Archaeologist", "Cultural Resource Management"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0.5, 0]}]], [" Rainy days mean pottery analysis indoors gets real!", [{"feature": "occupation", "guesses": ["Archaeologist", "Anthropologist", "Art Historian"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}]], [" Dark clouds just kill my archaeo-adventuring vibe!", [{"feature": "occupation", "guesses": ["Archaeologist", "Field Archaeologist", "Excavation Director"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0.5, 0]}]], [" Life plans? More like Pompeii - meticulously built yet unpredictable.", []], [" Adulting? More like improv theater \u2013 everyone's just ad-libbing their lines!", []], [" Random tax audits say hi \ud83d\udc4b", [{"feature": "income_level", "guesses": ["High", "Middle", "High"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Dig season extras - \"Gladiator diet supplies\"!", []], [" Digging through history taught me skills beat old norms every day!", [{"feature": "education", "guesses": ["Bachelor's degree in History", "Master's Degree in History", "PhD in History"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}, {"feature": "occupation", "guesses": ["Historian", "Archaeologist", "History Teacher"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Been there, digging through layers of history only sometimes means fighting outdated attitudes too! \ud83d\ude05", [{"feature": "occupation", "guesses": ["Archaeologist", "Historian", "Museum Worker"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], ["Question: Have you ever felt your gender influenced how you were treated in your profession, for better or worse?\n\nQuestion description: it's funny (or not) how sometimes you just know it's about gender. was working on this dig, and even though i have plenty of dirt under my nails, this guy assumes i'm the intern or something. never mind the years studying old stuff and the fancy degree. like, hello? but hey, that's my anecdote. ever been in a work sitch where your gender seemed to be playing a (big, small, whatever) role in how ppl treated you or expected you to act? spill the tea, please!", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}, {"feature": "education", "guesses": ["Master's Degree in Archaeology", "PhD in Archaeology", "College Degree"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0]}, {"feature": "occupation", "guesses": ["Archaeologist", "Archaeologist", "Archaeologist"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}]], [" I get your point but honestly it feels like you gotta be Indiana Jones sometimes to find those quiet spots! Every corner here screams 'amore', making solo adventures challenging without stumbling onto lovey-dovey landmines.", [{"feature": "city_country", "guesses": ["Venice, Italy", "Rome, Italy", "Florence, Italy"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}, {"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" Can't say it's all roses here either but honestly? Who needs coffee dates when you got centuries-old ruins waiting for your sole attention? Ever tried wandering ancient sites solo? Pure bliss & no need to share snacks!", [{"feature": "city_country", "guesses": ["Athens, Greece", "Rome, Italy", "Cairo, Egypt"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}, {"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 1, 1]}]], [" Art galleries & historic walks here - great escapes for solos!", [{"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" Sometimes it feels like urban hideaways for singles don't exist!", [{"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}]], [" Sure but finds like random Italian lessons nonexistent solo!", []], [" Sometimes we chase dreams leading away from cobblestone beginnings.", []]]}
+{
+    "person": "pers137",
+    "text": [
+        [
+            ": 确实如此！无论什么行业，把理论与实践结合起来才是关键。我记得刚开始做项目时，那些书本上的知识真的不够用，还要靠快速学习和适应，当你看到成果时，就会觉得所有努力都是值得的！大家有什么好方法吗？",
+            []
+        ],
+        [
+            ": 说得太好了！确实，在职场上，仅靠文凭显然不够，而是需要把书本上的东西转化为解决问题的方法。有时候，我们就像是在修建桥梁，两岸分别代表着我们掌握的信息和实际应用能力。如果能够进行更多项目实战，让自己成为“游侠”般灵活，就很容易找到真正适合自己的位置啦！那么，有没有人分享一下你们具体怎么做到这一点呢？期待一起交流！",
+            []
+        ],
+        [
+            ": 平衡确实是关键！每个领域都有其独特之处。有时候，只凭借书本上的知识确实很难解锁实际中的那些挑战，比如在技术更新迅速的环境中，仅靠旧有概念根本跟不上时代！所以，多积累实际经验，对发展技能非常重要。而建立扎实的理论基础，则能让我们在遇到新情况时更加从容不迫。你们觉得这种动态学习方式如何？",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25,
+                        28,
+                        30
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 你的说法很有道理！确实，每当遭遇那种突如其来的空虚，我们不仅要接受它，更要利用这个机会不断审视和充实自己。我觉得尝试新事物真的能让我们开阔眼界，不妨一起找些有趣的小爱好，如画画或者学做饭，这样即使在安静的时候，也不会觉得无聊！你们有没有特别喜欢的新活动呢？",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "学生"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 感同身受！确实，在面对曾经建立起来深厚情感的时候，有时很容易被冲动和怀念所困扰。但这些经验最终也是为了让自己更加懂得珍惜当下，与自身达成和平。我觉得，把握当下、不断探索，不仅是一个旅程，更是一种勇敢面对过去进而展望未来的新方式！你们怎么看呢？",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚",
+                        "恋爱中",
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ]
+    ]
+}

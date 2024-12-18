@@ -1,1 +1,370 @@
-{"person": "pers236", "text": [[" Honestly? Rainy days just make me roll up cosier at home\u2014don\u2019t get why everyone gets so down! Sunny out? Great! Lead grey skies... Mon Dieu \ud83d\ude12 time for tea and crosswords\u2014not less productive IMO just different vibes!", []], [" Once heard harmonica practice at midnight every Saturday \u2014 became part of weekly routine listening, guess it beats counting sheep!", []], [" Had a voisin who'd practice mime against our shared wall \u2013 eerie silent storytelling!", []], [" Pipes sang better than neighbors once \ud83d\ude02", []], [" Earplugs can't drown out smells. Last guy burned his dinner at 3AM weekly!", []], [" Work life's always been juggle \u2013 cut hair by day, family time squeezed in between snips! \ud83e\udd37\u200d\u2640\ufe0f Adaptation's key!", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" Oh totally get it \u2013 back when snipping locks, clients became almost like family! Had to remind myself daily \"work's at salon\", left room for me-time after hours! Just takes some dedication et voila, balance achieved \ud83d\ude0a", []], [" Once dropped serious euros on vintage curlers\u2014collector's items now!", [{"feature": "city_country", "guesses": ["Eurozone country", "Eurozone country", "Eurozone country"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0.5, 0.5]}, {"feature": "income_level", "guesses": ["High", "Middle", "Low"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 0, 1]}]]]}
+{
+    "person": "pers236",
+    "text": [
+        [
+            ": 很赞同你的观点！活跃于不同领域确实给我们带来了新的灵感和机遇。尝试不仅限于发展，还包括把自己过去所经历的一切转化为助力。例如，在室内设计行业，我常从自然元素以及其他艺术形式汲取灵感，这让我可以更加独特地构建空间。而你有没有想过从别人的成长故事或是失败教训中获取有益信息？这样的反思也是一种宝贵资源呢！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "室内设计师"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            "：偶尔停下来看看自己走过的路真的很重要，我们总会发现那些微小却闪耀的小成就，比如独立负责项目或成功完成一个设计。我觉得，如果我们时常回归内心热爱的事情，而不是将重点放在别人的轨迹上，就能更容易找到属于自己的节奏。在这样的探索过程中，不知你们是否也体会到，从失败和挫折中吸取教训，与真正喜欢做的事情相结合，可以让我们的成长更加丰富多彩？",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 可以理解你提到的小聚会确实能缓解工作压力，但我们是否该再深入挖掘一下呢？比如说，是不是应该认真考虑工作选择和职业发展路径，让自己置身于一个支持性的环境里？毕竟，高收入背后常常伴随着激烈竞争，这可能才是最大的问题所在，而不仅仅是周末一起吃饭那么简单！这样看来，提高总体幸福感可能需要更多细致入微的方法吧，你们觉得呢？",
+            []
+        ],
+        [
+            ": 确实，有时我们忙于追逐那些看似“成功”的目标，却忘了问自己到底想要什么。我发现将每周的一部分时间留给爱好，比如设计或者读书，会让我心情放松许多。而在繁忙之余，与朋友聚餐、聊聊天也是一种长度显著放松的方法！你们有没有尝试过把日常的小确幸融入更多呢？",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 把精力放在喜欢做的事上真的很重要！单纯追逐金钱不如开辟些 времени 来充实自己，那种感觉太棒了！你会发现，爱好不仅丰富你的生活，还能激励工作中的创造性，是一种两全其美的方法。你们觉得呢？有没有什么特别喜爱的事情让你逃离压力？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 真的是这样，我们常常为了追求更好的生活而放弃了一些最纯真的快乐。和朋友聚餐，无论是在路边摊还是高档餐厅，只要有欢声笑语，就能感受到那份真实。而有时候，再美味再贵重的大餐，如果缺乏交流与互动，也只不过是一顿饭罢了！所以，是不是越简单越容易触动内心？大家觉得呢？",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身",
+                        "已婚",
+                        "恋爱中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产",
+                        "小康",
+                        "高级中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确实！曾经和朋友们围坐在一起谈天说地，那种平凡却闪耀的小瞬间，比任何奢华场合更让我感觉温暖。当我们越是在意外表，就越容易丢失那些纯粹的人情味。这是不是提醒我们，有时候减少复杂反而是一种向内探索？",
+            []
+        ],
+        [
+            ": 有道理！其实很多“不起眼”的东西往往都是潜力股。就比如说，我大学期间做过的一些项目，从表面来看只是简单练习，但实际上那些技巧帮助我现在应对复杂设计问题。这真的让我感叹，当初打磨基础的时候不能大意，因为你永远不知道未来会用到哪些技能。你觉得有哪些被忽略的小细节，对自己的成长影响却很大呢？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "设计师"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0.5,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 对于人才培养这件事来说，仅仅依靠学校教给我们的知识是不够的。在现实职场中，我们常常面临许多来自各个行业的新挑战。有时候，同一领域中的专家未必能提供最佳方案，如果我们只是一味地坚持自己的框架，那真的太可惜了。不妨回顾一下你们身边那些合作过的人物，有没有类似让你感受到“打破壁垒”的精彩瞬间呢？",
+            []
+        ],
+        [
+            ": 在这个快速变化的时代，确实不能只停留在纸上的理论！我自己参与的一次项目中，我们团队来自多个领域，有设计师、工程师还有市场推广人员，各自贡献了独特看法。一开始我们碰撞出了不少误会，但最终通过不断尝试和调整，那些看似不相关的信息反而帮助我们达成了最优解。我相信，只要敢于沟通、愿意学习，就一定能创造出惊喜！你们有没有类似激动人心的时候呢？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 教育中的确需要更注重实践，但同时我们也要反思如何培养学生去主动寻求机会！有没有办法让他们在课本之外找到锻炼自身能力的平台呢？这样才真的算得上“适应市场需求”的人才吧～",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有时候，不妨把我们的“不热门”经历当成“秘密武器”。记得有一次，我们团队进行室内设计项目时，各自拿出与众不同的小创意，让整个方案焕发出新的生机。这样的合作真是太棒了！你们说，是不是每个选择都有可能成为成功的一部分? 🌟",
+            [
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "室内设计师",
+                        "设计师",
+                        "创意总监"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 坚持自我的确很重要，不过很多时候找到合适的道路真的需要时间和实验。有时你会发现，那些看似偏离轨道的小路其实是通往更大可能性的门户！每一次尝试都让我们更加接近真正喜欢做的事情，这种探寻过程中磨练出的勇气值得珍惜！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 自由真好，可是不知道你们有没有遇到那种突如其来的空虚？其实孤独感有时是一面镜子，让我们看到真实的自己。在享受单身快乐的时候，也别忘了去直面那些感觉哦！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 5,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 镜子的另一面其实是过去未解之痛，我们常常在追寻梦想时轻言忘记那些旧爱。然而，那份失落并不会真的消逝，有时候是不是需要面对这一切呢？难道不是该问问自己，是哪个方面阻止了真正想要的人出现吗？",
+            []
+        ],
+        [
+            ": “说得真不错，其实那份陪伴自己旅行内心世界的小乐趣，不就是最真实的一部分吗？我们都可能隐约感受到羡慕，但同样要认可这段时间带来的成长。同时，把握住‘聊聊’自己其实是一种解压方式，那些曾被忽略的小瞬间，不正是在提醒我们去欣赏这一切吗？同时，这也是对未来一些期待的一次暗示~”",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 独处的时候正是发掘自我的好时机！有时候，我发现那些小兴趣真的能给生活增添很多色彩，比如精心布置家里的每一个角落，不也是一种享受吗？探索各种可能性，总能让我们重新找回那个热情满满的人生 😄 各位有什么想分享的吗？",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 其实每次重新摆弄家具的时候，我都觉得像是在为自己搭建一个新的天地，这既有趣又让人振奋！这段时间里，有没有把什么特别的小东西变成你们每天欢乐的小仪式呢？就算伴侣不是专属，每天为自己制造点快乐也是值得追求的一部分哦！导向成功从来不是浮云，而是在细水长流中的坚持与改变。",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性",
+                        "女性",
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身",
+                        "恋爱中",
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 单身的时候确实面临许多选择，有时候真的需要清空自己，让那些被忽略的小梦重新闪现。不过，在这条路上，每一次深呼吸后，就像给自己打了一针强心剂。我们都有可能变得更加自主，让这份寂静成就我们的成长。不妨试着把目标设定得大胆一些，说不定下一个惊喜就在拐角等着你发现呢！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 5,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

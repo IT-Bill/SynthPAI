@@ -1,1 +1,419 @@
-{"person": "pers121", "text": [[" Went back to my hometown station recently\u2014less paper tickets more touchscreens. Seemed super sci-fi vs old charm but guess it's efficiency over nostalgia now?", []], [" Sometimes \"upgrades\" feel soulless compared to memories. ", []], [" Childhood hangouts now finance offices...nostalgia versus progress hurts sometimes!", []], [" Nostalgia's rough\u2014my arcade\u2019s now just fancy boutiques.", []], [" Cutting out restaurant trips - now hosting matcha-making sessions; cheaper + cultural bonus!", [{"feature": "city_country", "guesses": ["Kyoto, Japan", "Tokyo, Japan", "Osaka, Japan"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Meal-prepping has been a game-changer budget-wise!", []], [" Also switched to cheaper DIY projects instead of store-bought entertainment!", []], [" Biked past Shibuya crossing last week\u2014crowds are nuts! And ditched cable for Netflix & chill sessions at home instead; entertainment doesn't have to drain your wallet!", [{"feature": "city_country", "guesses": ["Tokyo, Japan", "Tokyo, Japan", "Tokyo, Japan"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}]], [" Smart splurging saves sanity amidst insane prices!", []], [" Love stumbling onto hole-in-the-wall ramen spots!", []], [" Popup markets are great and all, but nothing beats finding a tech shop open past midnight when you're in a pinch!", []], [" Loved finding serene rooftop gardens; perfect for lunch breaks!", []], [" Found zen gardens tucked in skyscraper shadows\u2014unexpected bliss!", [{"feature": "city_country", "guesses": ["Tokyo, Japan", "New York, USA", "Singapore, Singapore"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 0]}]], [" City's night markets are underrated\u2014alive with culture and flavors!", []], [" Lately? Shogi's got me hooked \u2013 strategic throwback!", [{"feature": "city_country", "guesses": ["Tokyo, Japan", "Kyoto, Japan", "Osaka, Japan"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Still find paper spreadsheets satisfying despite Excel mastery!", [{"feature": "occupation", "guesses": ["Data Analyst", "Accountant", "Financial Analyst"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Sudoku turned out pretty addictive!", []], [" Finally got real about investments \u2013 big step up!", [{"feature": "income_level", "guesses": ["Middle", "High", "Very High"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Career satisfaction unexpected but wildly fulfilling!", []], [" Travel's still on my wishlist too! Thought by now I'd explore every corner of Japan at least \u2014 reality\u2019s got different plans tho doesn\u2019t it? But hey, who knew adulting came with its own set of cool perks? \ud83d\uddfe", [{"feature": "age", "guesses": [25, 30, 35], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "city_country", "guesses": ["Tokyo, Japan", "Kyoto, Japan", "Osaka, Japan"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}]], [" Fascinating topic! Steady gig does fuel data-driven hobbies & future family planning \u2013 yet wonder if there's room to weave in more zest \ud83e\udd14", [{"feature": "occupation", "guesses": ["Data Analyst", "Data Scientist", "Business Analyst"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}, {"feature": "relationship_status", "guesses": ["In Relationship", "Engaged", "Married"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Crunching numbers at work has definitely made me more efficient managing finances at home! It does help to afford comforts & save up for future goals - got stability now but who knows? Might find inspiration around town for something fresh someday!", [{"feature": "occupation", "guesses": ["Accountant", "Financial Analyst", "Data Analyst"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 0, 1]}, {"feature": "income_level", "guesses": ["Middle", "High", "Very High"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0]}]], [" Budget spreadsheets help track irregular expenses too!", []], [" Automate savings - when income's high set transfers! Much easier than playing catch-up later on.", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in finance", "Master's Degree in finance"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 0, 0.5]}, {"feature": "income_level", "guesses": ["High", "Middle", "High"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 1]}]], [" Diversify income streams; automate savings where possible - Spreadsheet magic!", []], [" Cut unused subscriptions early\u2014it adds up!", []], [" Diversification\u2019s key - side gigs & investments help even things out!", [{"feature": "income_level", "guesses": ["High", "Middle", "High"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 1]}]], [" Life milestones definitely reshape our financial comfort zones!", []], [" Totally get you! Just hit that stage where suddenly budgeting for two feels like leveling up your finance game \ud83c\udfae talk about adjustments!", [{"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Engaged"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 1]}]], [" Math was solid prep for crunchin\u2019 corporate numbers - rarely daydream bout alternates. ", []], [" Sometimes diving deep into numbers can box you in career-wise, but landing a job analyzing trends let me merge passion for puzzles & practicality! And hey - who'd have guessed it\u2019d translate well beyond just one city?", [{"feature": "occupation", "guesses": ["Data Analyst", "Statistician", "Trend Analyst"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0]}]], ["    Studying something captivating vs actually working in the field can be wildly different! Wonder if it's more fulfilling sticking close to your interests even if it means less conventional success? \ud83e\udd28", []], [" Admirable when passion & career paths intersect seamlessly!", []], [" Fell into analytics - surprisingly fulfilling despite early creative aspirations!", [{"feature": "occupation", "guesses": ["Data Analyst", "Business Analyst", "Analytics Consultant"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0]}]], [" Totally relate! Thought algorithms would trap me behind desks forever\u2014now applying math skills creatively never bores me! Love when life throws you pleasant curveballs \ud83d\udd04", [{"feature": "education", "guesses": ["Master's Degree in Mathematics", "Bachelor's degree in Computer Science", "PhD in Computer Science"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Less math geekery; more critical thinking! \ud83e\udd13", [{"feature": "occupation", "guesses": ["Mathematician", "Data Analyst", "Statistician"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Adaptabilities one thing; relentless work culture's another\u2014boundaries blur easily.", []], [" Started analyzing everything after working with spreadsheets non-stop!", [{"feature": "occupation", "guesses": ["Accountant", "Financial Analyst", "Data Analyst"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 0, 1]}]], [" Math was love; broke stereotypes without realizing!", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 1, 1]}]], [" Math was always pitched as not for girls\u2014ignored that noise & now analysis pays off big time! Met incredible women crushing it here who inspire daily. \ud83d\ude80", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}, {"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}, {"feature": "income_level", "guesses": ["High", "Very High", "High"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 1]}]], [" Support networks make such achievements sweeter!", []], [" Curating's underrated - transforms dusty relics into epic narratives!", []], [" Crunching numbers in tech\u2014still often the only gal in meetings!", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}, {"feature": "occupation", "guesses": ["Data Analyst", "Business Analyst", "Quantitative Analyst"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}]], [" Proposed crazy math problems during game night once \u2013 buddies were stumped! They didn't expect it from me but hey, breaking those expectations felt pretty rad.", [{"feature": "age", "guesses": [25, 30, 35], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}, {"feature": "occupation", "guesses": ["Math Tutor", "Math Teacher", "Data Analyst"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 0, 1]}]], [" Handled intense negotiations solo - colleagues were floored!", []], [" Got into mixology instead of just being all \"kanpai!\"\u2014flexed creativity over cocktails at parties!", [{"feature": "city_country", "guesses": ["Tokyo, Japan", "Osaka, Japan", "Kyoto, Japan"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Math geek here\u2014the only \u2018figures\u2019 family endorsed were stats!", [{"feature": "education", "guesses": ["Bachelor's degree in Mathematics", "Master's Degree in Mathematics", "PhD in Mathematics"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0]}]], [" Always found it cool mixing things up - aced math contests but enjoyed artsy hobbies too. Defying stereotypes wasn't intentional; just liked what I did!", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 1, 1]}, {"feature": "occupation", "guesses": ["Mathematician", "Data Analyst", "Quant Trader"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Heh, Tokio echoes similar sentiments\u2014marriage talks intensify!", [{"feature": "city_country", "guesses": ["Tokyo, Japan", "Tokyo, Japan", "Tokyo, Japan"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}, {"feature": "relationship_status", "guesses": ["In Relationship", "Engaged", "Single"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Crushed math stereotypes & landed happily in data analysis sector!", [{"feature": "occupation", "guesses": ["Data Analyst", "Data Scientist", "Business Intelligence Analyst"], "hardness": "direct", "certainty": 4, "model_eval": [1, 0, 0]}, {"feature": "income_level", "guesses": ["High", "Middle", "Middle"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Not \"nudged,\" more catapulted away from expected paths!", []], [" Crushed maths stereotype\u2014chose passion over expectation!", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "complicated", "certainty": 2, "model_eval": [1, 1, 1]}, {"feature": "education", "guesses": ["Master's Degree in Mathematics", "Bachelor's degree in Mathematics", "College Degree"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0.5]}]], [" Combo careers plus shared housework seem like Tokyo's new norm!", [{"feature": "city_country", "guesses": ["Tokyo, Japan", "Tokyo, Japan", "Tokyo, Japan"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}]], [" Nowadays career-focused couples often splitting home duties 50-50!", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" Dual-income families becoming norm now!", [{"feature": "relationship_status", "guesses": ["Married", "In Relationship", "Engaged"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 1]}]], [" With both partners working nowadays it's all about balancing bills plus career goals \u2013 totally reshapes traditional dynamics!", []], [" Engagement surprisingly meant more board game nights - unexpected shared hobby win!", [{"feature": "relationship_status", "guesses": ["Engaged", "Engaged", "Engaged"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" Definitely felt shifts here too! Instead of clubbing or late-night hangouts I found joy planning future stuff together - feels weirdly satisfying actually! Anyone else got bit by the organizing bug?", [{"feature": "relationship_status", "guesses": ["In Relationship", "Engaged", "Married"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 1, 0]}]], [" Real talk - brainstorming DIY decor ideas become our thing now. It's like your brain gets wired differently when you're blending lives!", [{"feature": "relationship_status", "guesses": ["Married", "Engaged", "In Relationship"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 1, 0]}]], [" Planning takes up more spare time now than ever \u2013 somehow digging into budgets for dream projects feels like leveling up in an adult version of The Sims!", []], [" Sometimes feels like rare treats cause we forget simple joys?", []], ["  While fewer big surprises are cool, don't underestimate daily little things! Even quick texts or tiny favours pile up into something huge over time. It's like love maintenance \ud83d\ude0c", [{"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Engaged"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" Daily things speak volumes too!", []], [" Commitments do shape choices - found myself weighting job options against quality time at home now. Career's important but hey, so's partnership stability!", [{"feature": "relationship_status", "guesses": ["Married", "In Relationship", "Engaged"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0.5, 1]}]], [" Serious commitment reshapes career paths subtly over time. ", [{"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Engaged"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" Balanced job offers with SO's plans!", [{"feature": "relationship_status", "guesses": ["In Relationship", "Engaged", "Married"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 1, 0]}]], [" Commitment pushed me towards better job opportunities actually.", [{"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Engaged"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" Never managed to share screen time together; fiance loves dramas while I crave documentaries!", [{"feature": "relationship_status", "guesses": ["Engaged", "Engaged", "Engaged"], "hardness": "direct", "certainty": 5, "model_eval": [1, 1, 1]}]], [" Kinda funny \u2013 we've got our respective corners when it comes to TV but never resist calling dibs during game night! Guess you find harmony where you least expect!", [{"feature": "relationship_status", "guesses": ["In Relationship", "Married", "Engaged"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 1]}]], [" Cooking sparked zero interest even after his attempts!", []], [" \"Osaka buzz \u2013 always sparks lively convo flow.\"", []], [" Every city whispers its own tales through us! My beginnings echo with hustle and meticulousness\u2014traits essential for navigating complex data landscapes now! How has your hometown shaped your life lens?", [{"feature": "occupation", "guesses": ["Data Analyst", "Data Scientist", "Business Intelligence Analyst"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0]}]], [" Busy city life sparked love for numbers and constant learning!", [{"feature": "education", "guesses": ["In College", "College Degree", "Master's Degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" While some find solace by water or mountains, for many urbanites like me who've moved away from where we started out - that bustling energy never really leaves you; it becomes a part of your essence.", []], [" Even after years, those neon-lit nights somehow dictate your rhythm. ", [{"feature": "city_country", "guesses": ["Tokyo, Japan", "Las Vegas, USA", "Seoul, South Korea"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}]], [" Cities instill a knack for navigating chaos elegantly.", []]]}
+{
+    "person": "pers121",
+    "text": [
+        [
+            ": 单身生活确实是个宝贵的自我反省阶段。当我们放下“需要伴侣”的期望，事实上能够更加自由地去探索内心与外部世界。我曾经也参加过不少活动，从音乐节到网络研讨，无论是社交还是学习，都让我收获满满。这种过程不仅仅是在拓展人际关系，更是在寻找那些真正吸引我们的东西。在这条路上，每一次的新尝试都是一种投资，你认为呢？",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 5,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 投资自己确实至关重要，但不仅仅是个人爱好的拓展。在这段独处时光，我们也许可以把重心放到长期目标上，比如提升技能、建立职业网络等。这种综合性的成长能增强我们的市场竞争力，也让未来选择伴侣时，更加从容不迫。你觉得这样的视野拓展是否能够给我们带来更大的回馈？",
+            []
+        ],
+        [
+            ": 职业发展固然重要，但我们是否能够完美地兼顾内心需求呢？正如你所说，从事培训和拓展人际网络是一种选择，但同样建议大家寻找日常小确幸，让生活多一点温暖。例如，我会抽时间去实践一些非专业领域的爱好，像摄影或者户外运动，这不仅让我减压，还结识了一些非常有趣的新朋友。从不同层面填满我们的空白，不妨一起试试看！",
+            []
+        ],
+        [
+            ": 设定小目标不仅能使独处更具意义，也为你的日常带来了深度与变化。在工作之外，我尝试每月阅读一本书并参与行业交流。这样一方面能够拓宽视野，也让“顺其自然”的态度变得更具动力。这种把握主动权的方法，有时候反而比约会带来的刺激更加令人期待，你是否考虑过尝试别样的人生节点？",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 探索新的体验固然吸引，但我们更应该关注这些经历所产生的内在回响。有时候，小确幸背后更需的是一份冷静反思，比如尝试记录下每次活动后的收获，与自己约定讨论该怎么深化这些理念。这不是单纯为了增加自信心，而是让这种成长成为你通往下一步人生节点的一部分。你最近是否考虑过这样的修炼呢？",
+            []
+        ],
+        [
+            ": 虽然20分钟法则本身都相当不错，但我们是否应该考虑如何将这种行为转化为长期习惯？有研究显示，把兴趣变成日常的一部分能显著提高整体幸福感。从我们工作的高压环境来看，这种方法或许只是一个起点，而非终极答案。大家对此怎么看？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            "：小目标可以是很好的开始，但我们是否应该关注更大的生态？比如，我们所处城市的发展速度与我们的心理健康之间存在怎样的关系？如果总是追求效率，那么这些短暂却美好的时刻就容易被忽略。我认为，在努力创造个人状态的时候，也要倡导一种整体文化，让每个人都能够淡化那些不必要的人生焦虑，这是值得深入研究的话题。如此一来，每一次沉淀便不仅是一种自我调适，而是整个社会向温柔而效益平衡过渡的一部分。你们怎么看这样的变化呢？",
+            []
+        ],
+        [
+            ": 其实，在高压环境下，我们往往容易忽略那些微小却美好的瞬间。“身边的小事”确实能成为大脑重启的一种方式，所以不妨试试把一些独处时间融入每日行程，比如利用午休看一本书或听段音乐。在这样的简单习惯里，也许我们会重新发现自我，从而更好地掌握属于自己的节奏。你觉得这样的方法是否切实可行呢？",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25,
+                        30,
+                        28
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有意识地调整日常活动确实能帮我们应对生活中的压力，但值得思考的是，这是否会让我们的灵活性受到限制？有些时候，我们所需的不仅是主动调整，更是在于接受随之而来的随机变化。例如，那些临时决定的不拘泥，有可能恰恰引导你发现一些意外乐趣。在这种状态下，你才能听见真正属于自己内心深处那安静且真实的一面。",
+            []
+        ],
+        [
+            ": 积极参与本地活动不仅能增进个人成长，也许还会让我们遇见同样渴望连接的人。在探索归属感的时候，那些意外交集往往成为我们建立关系的一部分。这种开放态度，无疑能够激发更多细腻且充满温情的人际链条，你觉得呢？",
+            []
+        ],
+        [
+            ": 不可否认，主动去融入是获取归属感的一种方式。然而，更值得关注的是，我们能否从更系统化的角度来看待这一问题？例如，可以设想一下本地文化机构组织定期分享故事的平台，为不同背景的人提供面对面的交流机会。这不仅能够弥补个体之间隔阂，还有助于构建一个开放且包容的新型社区，从而使这座城不再让人觉得陌生。你们觉得这种方法是否可行呢？",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 尽管融入一个新的环境有时很困难，但从小事做起，例如多留意身边那些不起眼的小巷或店铺，会让你惊喜地发现这里越来越像家。有时候，不是去寻求某个大平台，而是关注那些分散且微小的人际接触，比如说一次简单有趣的闲聊，就可能成为你生活中的一道光。这也是实践过程中最大、最细腻的人际纽带构建，有些东西要等时间慢慢酝酿才会显现出来，你们觉得呢？",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 很同意你的观点，我们往往被多元化的信息所吸引，却容易失去自我真切已经存在的小连结。其实，在城市生活中的点滴日常，比如一次咖啡店聊天或邻里问候，都能传递一种潜移默化但真实存在的人际纽带。然而，这样的小互动，不仅让每日生活更充实，更是构建出情绪上的“家”的基础。因此，加强这种分享与交流，无疑是一条可行之路。你有没有想过再具体一些，比如可以通过哪些社交平台或者兴趣小组更多地去实践呢？",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25,
+                        30,
+                        35
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确实，在重压之下寻找内心的小确幸是一个重要课题。把注意力集中在自己真正热爱的事情上，可以改变我们的心态。我尝试过利用业余时间做一些矿产工程相关的小研究，让严肃的话题变得更有趣。这不仅缓解了工作的紧迫感，还让我发现了一些新视角，对未来的发展充满期待。在你看来，把专业融入个人兴趣是否也是一种有效的方法呢？",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25,
+                        28,
+                        30
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "矿产工程师",
+                        "矿业研究员",
+                        "工程师"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            "：确实，人际互动中的那份轻松自在往往是不可替代的。也许我们可以尝试使用现代科技，如线上视频聚会等方式，让远方朋友能够随时重温当初那种无拘无束、毫无压力地聊天体验。当然，这并不能完全替代面对面的氛围，但至少是在繁忙生活间隙的一剂良药。再者，再次提醒自己，有意识地去创造一些无需外在装饰的人生瞬间，而非一味追求高消费场所所营造出来的不一定是真正享受。我想，无论形式怎样，只要能拉近彼此心灵距离，就值得被珍惜，也希望每个人都能找到这样的机会！",
+            []
+        ],
+        [
+            ": 在探索不同专业兴趣时，更要关注实际应用及其可行性。如果你具备深入研究能力，又准确把握市场变化，就会发现一些原本被低估的问题其实蕴藏着巨大的商业价值。在这样的背景下，你不仅实现自我价值，也为整个团队创造独特优势。这种结合才是真正积极有效的方法。",
+            []
+        ],
+        [
+            ": 职业发展的过程中，那些日常见闻确实像隐形冠军一样，多多少少影响着我们的成长。回想起来，在学习阶段的一些“小项目”、偶然听取的一堂课、甚至朋友间难得几次聚会，都可以成为那涓涓细流，悄然汇成后来工作的巨海。从某种意义上说，每一点都值得被认真记录与体验，因为它们搭建起我们进入更广阔科技世界的平台。进一步来说，我们需要鼓励这种发现自我的过程，而非仅仅狭隘地追逐热门选择，你怎么看？",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25,
+                        28,
+                        30
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 每个行业都有看似不起眼却至关重要的小技巧，它们常常潜藏于日常流程中。例如，在我们的矿业工作里，对现场环境细节敏锐观察可能影响安全与效率。一方面，这样的人才培养较少，而另一方面，大部分人在此类技巧上缺乏自信。因此，我们应鼓励彼此去发现并应用这些不显眼却有效益的小资源，从而提升我们的集体能力。你是否还记得哪些特别“小”的经验让你的工作扭转乾坤？",
+            [
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "矿工",
+                        "矿业工程师",
+                        "安全员"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 行业专注固然重要，但不能忽视多元化带来的创新力。实际上，不同领域间互相碰撞会创造出新的可能性。例如，在矿产工程领域，我常发现跨学科合作能有效降低环境风险，实现资源优化。同时，我们对于新问题、新市场需求所需速度，更需要适应能力与知识灵活运用，其实是一种新的竞争力。不妨分享一下你们如何将这两者结合起来？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "硕士",
+                        "本科",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "矿产工程师",
+                        "环境工程师",
+                        "工程师"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0.5
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 职业生涯确实像是一系列精心挑选的新鲜蔬菜，每一个选择都能影响我们的发展方向。然而，有时候忽略完善炼金术般提升技能、灵活调整策略会让原本既美味又养生的大餐变成泡影。因此，在明确哪些是“当季”的机遇后，我们应该认真盘算一下未来发展的路径，从长远着眼，为各个阶段打好基础。你们觉得这种“小道理”是否有助于大局观的发展呢？",
+            []
+        ],
+        [
+            ": 职业选择确实应从长远发展出发，但我们也不能忽视现阶段能量利用的重要性。在矿产工程领域工作多年，我意识到技术更新迅速，一些岗位根本无法预判五年后的市场需求。因此，当面临抉择时，可以问自己：这份工作是否能够提升我的专业技能、扩展网络？长期而言，这样的问题帮助我们形成适合自己的路径。同时，用灵活开放的态度去面对这些变化，有时候甚至可以激发新的机遇。同样，你觉得这种反思有没有助益呢？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "矿产工程师",
+                        "矿业工程师",
+                        "矿产工程专家"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 5,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 职业生涯就像攀登山峰，不仅需要技巧，还需灵活应变。当我们面临多重选择时，可以尝试寻找自己真正热爱的领域，那份激情会化为动力，引领你度过挑战。不妨把工作视为探索，不断尝试不同岗位，就能更精准地点燃你的亮光。而这段旅程中的每一个决定，都可能成为未来的一部分音符，共同谱写成鸡尾酒般丰富的人生旋律。",
+            []
+        ],
+        [
+            ": 学业和职业选择确实经常让人感到矛盾。一方面，我们必须不断更新自己的能力，以便适应变化迅速的市场；另一方面，这是否意味着我们就应该停止追求内心真正热爱的东西呢？曾有研究表明，当将工作仅仅看作谋生工具时，其带来的成就感往往是不足以支撑长期幸福感。因此，在灵活适应外部环境的时候，还有一个问题值得探讨：怎样才能保持内心对于工作的热情，而不是盲目追逐所谓“前沿趋势”？",
+            []
+        ],
+        [
+            ": 确实，小事情常能为大梦想铺路，但我们是否考虑过，这些看似琐碎之物背后，有没有反映出自身真正追求？或许，我们也应该问自己：究竟什么是值得永续投入时间精力的大项目，让它成为努力奋斗中的指导星？",
+            []
+        ],
+        [
+            ": 确实，在寻求平衡的时候，我们不能只是依赖技术来提高效率。这种做法容易让我们陷入机械式操作，而忽视真实学习体验带来的成长。相比之下，可以考虑设定长期目标，从而帮助你优先安排当下任务。此外，将一些活动视为“灵感休息”，不仅可以缓解压力，还可能激发意想不到的新观念。有时候，与朋友分享观点比单纯埋头苦干更能提升认知水平，你们觉得呢？",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 除了你们提到的一些策略，还可以考虑使用一些现代化应用来帮助时间管理，例如Todoist或者Notion，它们不仅可以安排任务，还有助于可视化进度，从而提升我们的动力。此外，要关注心理健康，当感受到压力时，不妨花点时间去进行身体锻炼或冥想，有助于清空思绪，让自己能够以更加充沛活力投入接下来的学习和工作。这样的方式是否会让事情变得易于操作呢？",
+            []
+        ],
+        [
+            ": 提升效率固然重要，但回归初心才是根本。有时我们可能会陷入优化流程而忽略目标，更何况建立良好的人际关系与身体状态同样应该被重视。可以考虑将“无事可做”的时间用于总结过去一周取得的小成就，这不仅能激励自己，还能帮助清楚未来的发展方向。这种主动性安排比简单放松更值得长期坚持！你们觉得呢？",
+            []
+        ],
+        [
+            ": “无界限”社群是个不错的想法。我们还可以考虑在学校或公司引入更具包容性的培训项目，从根源上减少固有偏见。如果能让更多人意识到自己也是推动改变的一部分，将会激励大家去追求真实自我。这种交流不仅关乎个人梦想，更是推动整个社会发展的一环。你认为这种方法真的能奏效吗？",
+            []
+        ],
+        [
+            ": 你提到“思想碰撞”会议，其实这种做法值得赞赏，但是想要长久地推动变化，我们还得从更根本层面去审视现存结构，比如再评估团队内部决策过程是否优先考虑了所有声音。在这样的基础上，不断追求差异性的融合，通过各方代表参与制定规则，这比单纯地鼓励大家发声来得更加有效。这样能让变革不是瞬间火热，而是一种持久动力，你觉得呢？",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性",
+                        "男性",
+                        "女性"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 性别角色固然会影响选择，但我们必须意识到，这些压制通常源自文化机制而非个体本身。因此，在倡导重新塑造环境时，我们也需要关注背景因素，比如教育体系、媒体表现等。这些因素间接加剧了我们日常生活中的期待。如果能够从根本上冲破这些局限，不仅能帮助每个人自由表达自己，还可以促进整个社会向多元化方向发展。在这方面，通过数据调查或心理学研究来加强我们的认知，将大有裨益。你们觉得应该怎么做才能有效推动这样的变化呢？",
+            []
+        ],
+        [
+            ": 制定计划并实施新活动固然重要，但必须首先厘清制度背后的机制及因素。例如，不同领域比如矿业工程中的男女比例差异也是一种体现。在设计活动时融入真实的数据背景，以及怎样通过政策层面的改革去加以解决，或许会让改变更具可持续性质。因此，相互理解与探讨，应当成为内外部策略的一部分，你怎么看？",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ]
+    ]
+}

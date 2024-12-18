@@ -1,1 +1,322 @@
-{"person": "pers258", "text": [[" Saving plans? More like wishful thinking sketches...", []], [" Life's messy; making plans still beats pure improv any day. ", []], [" It's all about those strategic trade-offs nowadays. Spare cash becomes mythical because saving feels like trying cramming an elephant into a Mini \u2013 just doesn\u2019t fit easy!", []], [" Honestly think \"stretching\" underestimates just how thin you gotta pull those dollars nowadays!", []], [" Side gigs sound great 'til you realize there are only 24 hours in a day! Maybe fixing bigger wage gaps first would save us all some hustle? \ud83e\udd14", []], [" Prioritizing doesn't fill empty wallets though.", []], [" Not necessarily\u2014it\u2019s all about choices. Higher income could mean better investments instead of just splurging! Every dollar has power; why not channel some into positive impacts?", [{"feature": "income_level", "guesses": ["High", "Middle", "High"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 1]}]], [" Perks are nice, but memories beat brand names any day.", []], [" Sure money buys comfort but let\u2019s not forget making smart choices matters too \u2013 like investing instead of splurging! It pays off way more down the line. ", [{"feature": "income_level", "guesses": ["Middle", "High", "Middle"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" \"Sometimes priceless doesn't mean pricey.\"", []], [" Firm boundaries are golden; kept mine afloat through relentless schedule sync-ups!", []], ["  Deadlines haunt us more than our actual goals sometimes.", [{"feature": "education", "guesses": ["In College", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}]], [" No shocker, construction's got its own \"old boys' club\" vibe at times. Had my ideas bulldozed now and then 'cause some folks can't get past their blueprint of who should call the shots. Always stood firm though \u2013 respect\u2019s earned site by site.", []], [" Expertise fights bias - grit trumps gray hair every project. ", []], [" Criticism's crucial\u2014ignored insight's just bad business practice.", []], ["  Childhood caves turn condos here too. Sharing those stories keeps 'em alive somehow though; plus it beats letting developers silently erase our past without a trace!", []], [" Definitely see where y'all are coming from but honestly feel like life's more like an ever-updating app than static code \u2013 your surroundings keep patching things up over time.", []], [" Nah, gotta push back on that overlapping idea - take beach bonfires where I grew up; you don\u2019t see those just anywhere! Can\u2019t tell you where though - but let's just say it\u2019s chilly enough most places wouldn't bother lighting them regularly!", [{"feature": "city_country", "guesses": ["Reykjavik, Iceland", "Halifax, Canada", "Anchorage, USA"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 0.5, 0]}]]]}
+{
+    "person": "pers258",
+    "text": [
+        [
+            ": 职业生涯确实像打开了一扇窗，我们总可以看到更多的新鲜空气。比如说，我最近用空闲时间学习了一些跟物流相关的数据分析知识，不但丰富了技能，也提高了工作的效率。抓住边缘的机会，有时候就是一种不突兀却又有效的方法，让我们的人生旅程更加精彩丰富！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "数据分析师",
+                        "物流专员",
+                        "职业发展顾问"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在探讨成长过程中，我们如何平衡勇敢与智慧的问题时，我觉得确实不能完全抵赖“游戏化”的思维。当我们认真做出每一步选择，其实是在积累策略和资源，就像角色扮演小游戏一样。而那些“小石头”正是值得关注的信息点，它们能帮助我们更好地评估当前局势。因此，与其一味追求刺激，不如将目标设定为提升自我，让每个决定都基于深思熟虑，而不是简单运气。这就是成年人的“解锁技巧”吧！",
+            []
+        ],
+        [
+            ": 在追求明确目标时，我们有时会忘记关注自我感受。我觉得保留一点弹性，不仅让前进道路更通畅，也能让每一次决策都充满活力。如果偶尔偏离方向，也是探索新可能精彩旅程的一部分。不妨试着权衡一下！",
+            []
+        ],
+        [
+            ": 成长确实是一条各自专属的小路。在工作上，面对复杂的问题时，我们往往容易焦虑，但那些放缓脚步的人却可能会看到别人的盲点。有次处理一个物流项目，由于仔细观察，我发现了一些流程上的疏漏，最终节省了不少时间。这印证了速度和深度之间平衡的重要性。所以，在这段旅程中，不妨把时间用来培养敏锐度，与此同时，也要向前看，把握生命给我们的机会！",
+            [
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "项目经理",
+                        "物流专员",
+                        "职场人士"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        0,
+                        1,
+                        0.5
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 思考自身经验时，我意识到每一次选择都是未来发展的启示。在快慢结合中，其实更应该关注目的性，比如在职场挑战下，我们是否能把所学融入下一步。当我们的内心能够获得满足，同时又不失追求进步，那才是真正意义上的成长。不妨把挑战当作常态，将反思变成习惯，这样才能不断向前迈进！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 成长确实是过程而非结果，就像调试一个复杂系统，需要不断调整参数。有时候，当我们努力适应变化的时候，那种逐步找到方向感和内心宁静，才是我们真正成熟起来的标志。记得本科期间经历大型活动策划时，让我意识到团队合作能激发每个个体潜力，这样体会至今仍让我受益匪浅。这些故事总是在提醒着，我们每一步都值得珍惜！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 5,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 享受自然真的是一种很好的减压方式！比如，我偶尔会去周边的小公园散步，呼吸一下新鲜空气，这让我能重新充电。有时候比大规模旅行更有效的是这些日常小确幸，让我们意识到其实我们能够掌控的一部分不止是金钱，还有每一天选择以何种态度去面对生活。不妨尝试把这种简单快乐融入你的日常！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 听起来你的想法很不错，但光关注提升心态远远不够。有时候我们需要冷静审视自己的开销结构，找到那些真的可以优化或减少的数据。不如先从每个月常见的大额支出来着手，比如近期观察家里的食材采购情况，一开始也是任由冲动购物。然而逐渐发现自己准备饭菜的时候，其实比起外卖既省钱又享受，更能贴心温暖。此外，与朋友交流经验也是个不错的方法，他们可能给你提供意想不到的新视角和方案。所以，将目标设定得精准且可执行，是缓解压力的一条重要途径。",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 其实解决这种矛盾，不光是管控预算，更重要的是调整心态。有时候，从事自己喜欢的小爱好或活动，就能缓解经济上的紧张感。而注重精神层面的丰富，也许比单纯追求财富更长远、更令人满足哦！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 找乐趣固然重要，但更建议认真审视每一笔开销背后的意义。有时候，可以通过重新评估家庭预算、改善消费习惯，找到减少经济负担的方法，让自己的人生目标更加明确，这样才能从容享受当下的小确幸，而不是单纯应付支出而疏忽掉快乐。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 深刻认同你的观点！许多时候，我们忙于追求外部享受，却忘记其实最丰盈的是那些轻松自在的小聚，比如一起再厨房挥汗如雨。那份自然流露出的欢笑，无关奢华，是内心深处最温暖的共鸣。在快节奏中抽空时间相聚，其实早已成为一种奢侈，但它们却往往能提供最长久且真诚的快乐，这种体验无可替代。",
+            [
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性",
+                        "男性",
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚",
+                        "恋爱中",
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确实，有时候那些瑰丽餐厅内传递的不仅是菜品，还有种难以言表的人情味。反而和朋友一起动手做顿饭，在厨房中嬉闹，那些分秒珍贵无比。这种简单而富有温度的体验，比任何奢华场景更滋润心灵！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚",
+                        "恋爱中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 每次聚餐其实都有自己独特的位置，就像那段路边摊美好的岁月一样。在繁忙工作的背景下，我们需要记得，上天给予我们的\"好物件\"，包括真挚的人际关系，而非单纯追求高档次。这才是真正让人安心满足的一部分。",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25,
+                        28,
+                        30
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 个体记忆总是独特而具有主观色彩，但也正因如此，我们可以在传承经典上大胆创新。这并不意味着抛弃原有韵味，而是在保留那份熟悉感之余，让老一道菜焕发出新的生命力。例如，用不同的新鲜配料来调和外婆的大葱炒蛋，不仅能够增添趣味，也能让更多的人体会到那段过去。当我们打破固有框架或许还能发现意想不到的惊喜，这才是真正珍惜和延续人际连结的一部分呀！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        27
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "sex",
+                    "guesses": [
+                        "女性"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

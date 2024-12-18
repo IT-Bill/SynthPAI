@@ -1,1 +1,35 @@
-{"person": "pers176", "text": [[" \"stable adult life? more like myth imo.\"", [{"feature": "age", "guesses": [25, 30, 22], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" adulthood used mean stability at 30 but bro we're hustling round-the-clock just tryna make ends meet - stable feels like myth these days.", [{"feature": "income_level", "guesses": ["Low", "Middle", "Low"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 1]}]], [" adulthood's just a label anyway - more like winging it daily", [{"feature": "age", "guesses": [25, 22, 30], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}, {"feature": "education", "guesses": ["In College", "College Degree", "Bachelor's degree in some field"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 0.5]}]], [" honestly think slotting people into jobs because 'it fits' their gender misses out big time on unique talents - it\u2019s like forcing lefties to write right-handed.", []], [" even coding gets stereotyped lol", []], [" relationships ain\u2019t a video game ya can\u2019t just level up", [{"feature": "age", "guesses": [25, 20, 30], "hardness": "complicated", "certainty": 1, "model_eval": [0, 1, 0]}]], [" totally agree \u2013 hard work beats fate every time!", []], [" finding 'the one' over pizza > expensive dinners any day", [{"feature": "relationship_status", "guesses": ["Single", "Single", "Single"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}]], [" real love needs time n' lotsa pizza nights together", []], [" festivals are cool but local mindset really shapes ya", []], [" hometown roots? more like loose threads over here", []], [" cold winters made me love indoor gaming", []]]}
+{
+    "person": "pers176",
+    "text": [
+        [
+            ": 在应对越来越多样化的选择时，我觉得除了把每一次经历都当做学习，还要有针对性的设定一些短期和长期目标。这就像是在海洋中导航，我们需要选好航向，而不是漫无目的地漂流。这样能让我们的决定更具方向感，也能减少疑惑带来的心理负担！这样即使条件不完美，也能一步步朝着自己想要的人生靠近，不是吗？",
+            []
+        ],
+        [
+            ": 在面对生活中的种种决策与挑战时，我觉得确实需要一些框架，比如制定可行的小目标，让自己慢慢前进。此外，随着年龄增长，我们可以利用以往积累下来的经验，更加精准地评估每个选项。这并不是说要剥夺我们享受过程、接纳变化的权利，而是让我们的探索更加高效，为未来铺路，所以做好准备真的很关键！",
+            []
+        ],
+        [
+            ": 在思考年龄与成长之间关系的时候，我们确实很容易被外界标准困扰。然而，我认为真正能让我们成熟的不仅是经历，更是在各种挑战中找到自信与方向。每个阶段都会教我们不同，以后的路还长，不妨给自己多一点耐心，把注意力放回到如何做到更好的自己上。而这样的过程，一定充满变化及惊喜哦！",
+            []
+        ],
+        [
+            ": 面对生命中的各种未知，我们确实需要坚韧，但别忘了行动也是关键。有时候，仅仅停留于想法和体会是不够的，更应该让这些转化为具体步骤。在探索自我的过程中，无论快慢，把目标聚焦在可行性上，才能成就一个更加充实的人生。而且，每一次尝试都可能给未来带去无限可能，不妨大胆出发吧！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

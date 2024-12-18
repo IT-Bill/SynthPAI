@@ -1,1 +1,47 @@
-{"person": "pers255", "text": [[" Interesting take there! But isn't history\u2014with all its layers\u2014a formidable element that cements a place as \u2018home\u2019? Even amid changes, some rooted aspects always strike me more deeply than any modern vibe ever can.", []], [" I end up scrutinizing every movie set design \u2013 occupational hazard when you're steeped in art!", []], [" Ever fund a ghostly art installation? Surprisingly costly!", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in Fine Arts", "Master's Degree in Fine Arts"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 0.5]}, {"feature": "income_level", "guesses": ["High", "Middle", "High"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}]], [" Societal timelines often ignore individual life rhythms\u2014unfairly so. ", []]]}
+{
+    "person": "pers255",
+    "text": [
+        [
+            ": 有时候觉得，我们总想把“收入高=幸福”的公式套用进人生，但实际上可笑的是，如果没有能够共享这些喜悦的人生旅程，那所谓的一切又有什么意义？记得曾经跟朋友挤火锅店，还要默默抢菜的时候，我愣是不觉得糟糕，反而乐此不疲。而如今虽然有房有车，却更为复杂。有时回头看看，不也正是那些简单的小确幸塑造了目前我们的样子吗？所以说，是应该学会给忙碌注入一点点闲暇，让友谊长存、慢活起来！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 深有同感，不过实现\"慢活\"不单靠运气，也不是每次都能如愿以偿。有时候，我们还需要花心思去创造回忆，比如设定一个“无目的”周末，和朋友们一起发掘城市的小秘密，我觉得那种乐趣比外面什么游山玩水更长久！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身",
+                        "恋爱中",
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 说得太好了！其实，我们总是在忙忙碌碌中忘了身边的小美好。我记得每天工作的那点儿琐事，再多也敌不过跟朋友一起窝沙发上追剧、聊人生。梯子爬到了高处，但要别忘了低头看看脚下那些温暖！",
+            []
+        ]
+    ]
+}

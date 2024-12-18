@@ -1,1 +1,173 @@
-{"person": "pers168", "text": [[" Life... expecting Michelin-starred clarity served daily? Think again!", [{"feature": "income_level", "guesses": ["Middle", "High", "Very High"], "hardness": "complicated", "certainty": 1, "model_eval": [1, 0, 0]}]], [" Offbeat investments often mirror social currents more than we think\u2014not always just chasing trends but expressing collective mindset shifts!", []], [" Hardly different really; life goals aren\u2019t linear or universal.", []], [" Academia subtly favors tradition too\u2014attendance isn't acceptance.", [{"feature": "education", "guesses": ["PhD in some field", "Master's Degree in some field", "College Degree"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0, 0]}, {"feature": "occupation", "guesses": ["Academic", "University Professor", "Researcher"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0.5, 0.5]}]], ["  Merit alone doesn\u2019t always tip scales when bias runs deep. ", []]]}
+{
+    "person": "pers168",
+    "text": [
+        [
+            ": 确实，在快节奏生活中，我们常常忽略彼此真正用心交流的重要性。不如尝试定期安排一些无干扰的小聚，那些空间让友谊加深，也能从容地体验并分享每个人的小故事，从而抹去隔阂！",
+            []
+        ],
+        [
+            ": 其实啊，说到底，人可靠的是彼此情谊，而非高档吃喝。从矿产开采中我们可以学到，有时小而精的发展方式反而更有效！跟朋友共享一顿省钱又温馨的大杂烩，什么豪华大餐都比不上！别让追求所谓“优质”忽略了那些最本真的乐趣哦！",
+            []
+        ],
+        [
+            ": 在这方面，小改变确实潜移默化！比如我们可以试着将家务当成一种“任务合作”，制定轮换计划逐步替代传统分工。这样不仅能减轻某一方负担，更加强调团队合作精神，让整个家庭氛围活跃起来！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30,
+                        32,
+                        35
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 2,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚",
+                        "恋爱中",
+                        "订婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 说得没错！其实，我身边就有个例子：一次我们开始一起制定每周家务计划，从简单的小任务做起，比如轮流洗碗。这不仅让大家意识到要共同努力，还增进了我们的交流与默契！渐渐地，这些习惯变成了一种自然，每个人都更加愿意主动参与。从这样的细节入手，有时比空谈理论更具力量呢！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        30,
+                        32,
+                        35
+                    ],
+                    "hardness": "complicated",
+                    "certainty": 3,
+                    "model_eval": [
+                        0,
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚",
+                        "同居",
+                        "订婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 想想以前一家伙儿围着锅台，那种热闹真是无可替代。当我们共同面对家务，就像两颗心靠得更近！其实，在厨房里学会协作，不仅能够解决烦恼，还能让每次洗碗都成为一次“亲密约会”。 难道不是吗？这就是打破旧规矩、发现共生之美的一部分！",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "已婚",
+                        "恋爱中",
+                        "已婚"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 每个城市都有其独特的人际网络以及机遇，这些都是实际职场竞争中的重要因素。正如你说，要学会聪明地利用身边资源！实际上，在一些看似普通的小地方，可以发现不少适合自身发展的平台。在这方面，我也经历过类似，通过积极参与本土项目，从而发掘至今仍然有助于职业进步的新机会。所以，不妨把眼光放宽，看待周围的一切...",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "普通中产"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 职业发展中的确有很多关于地域和人际关系网络的话题值得深入探讨。如果将重点放在沟通与协作上，就能发现，即使身处经济相对落后的地方，通过有效的信息共享，可以弥补某些平台不足。例如，在矿产工程项目中，与全国各地同行建立联系，经常会碰撞出新的思路。这不仅提升了工作效率，还创造出意想不到的新机会！所以，找到适合自己方向的发展方式尤为重要……",
+            [
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "矿产工程师",
+                        "工程师",
+                        "项目经理"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 环境重要，可是我们的视野与决策同样至关重要！就像矿区开发，有时需要长期规划，而不仅仅是当下可得。在小城镇中扬帆起航，你可以找到独特机遇，只要做好战略布局，灵活调动各种资源，就能达成梦想。有时候，小地方反而蕴藏着让人振奋的新可能。所以，无论身处哪种环境，都要懂得如何发掘潜力、驾驭机会！",
+            []
+        ]
+    ]
+}

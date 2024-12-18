@@ -1,1 +1,252 @@
-{"person": "pers30", "text": [[" Old town streets here are peppered with rainbow-colored buildings - visual eye candy! They\u2019re not just pretty; their paints actually help reduce heat absorption - kind of clever right? Smart use doesn't skip out on looks after all.", []], [" Not all shiny things are gold \u2013 ever seen fancy facades trap heat like nobody's business? Some architect got their magazine cover while we're stuck with the sauna effect year-round!", []], [" Gotta love progress but even as an engineer appreciating innovation, finding moments for a breather keeps you sane amid all that buzz.", [{"feature": "occupation", "guesses": ["Engineer", "Mechanical Engineer", "Electrical Engineer"], "hardness": "direct", "certainty": 5, "model_eval": [0.5, 0, 0]}]], [" Morning walks are nice in theory but overlook one thing - construction never sleeps! That \"blissful\" walk can quickly turn into navigating around noisy building sites.    ", []], [" Sunlight boosts psyche; rain triggers desk fortress mode!", []], [" Chasing culinary skills or cozy nights sounds restful but give me complex challenges any day! Engineering problems over recipes \u2013 it's all in designing one's definition of \"cozy,\" isn't it? Stability isn\u2019t just staying put; it\u2019s building something lasting. ", [{"feature": "occupation", "guesses": ["Engineer", "Mechanical Engineer", "Civil Engineer"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 0, 0]}]], [" Routine doesn't kill creativity - mastered mine to innovate in complex projects!", [{"feature": "education", "guesses": ["Master's Degree in Engineering", "Bachelor's Degree in Design", "College Degree"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0, 0]}, {"feature": "occupation", "guesses": ["Project Manager", "Engineer", "Designer"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0.5, 0]}]], [" Sure building something epic counts beyond just 'chill zones', but they should still say 'welcome home'. Work\u2019s huge no doubt - just gotta find room for kickin\u2019 back after crunching numbers all day!", []], [" Stability isn't synonymous with stagnation \u2013 wisdom brings balance.", []], [" Meal prep's easy mode compared to coordinating family dinner schedules!", [{"feature": "relationship_status", "guesses": ["Married", "In Relationship", "Single"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Nailed home energy efficiency after endless tweaking thermostat schedules... Feels like winning against winter itself!", []], [" Estimates hardly justify real consumption scrutiny though?", []], [" New deadlines just rebranded old pressures. ", []], ["  Life milestone timelines are more fluid than we tend to think - seen plenty throw \u2018ideal\u2019 out the window chasing their dreams regardless of age!", []], [" Blueprints don't make buildings; people do\u2014and they all look different! Same goes for life plans compared with actual lives lived. No point getting hung up on should-haves when could-bes might be way more interesting!", []], [" Milestone deadlines? An impractical blueprint at best.", []], [" Reveals more than changes.", []], [" Money exposes people\u2019s true colors \u2013 learnt that hard!", []], [" Not just pockets deepening, sometimes characters shallow out too. ", []], [" Stuck with structural integrity over here \u2013 though each project throws curveballs you'd never learn about just hitting books! Keeps things spicy even when on paper looks like I followed life's blueprint!", [{"feature": "education", "guesses": ["Bachelor's degree in Civil Engineering", "Master's Degree in Civil Engineering", "Bachelor's degree in Architecture"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0.5, 0]}, {"feature": "occupation", "guesses": ["Structural Engineer", "Civil Engineer", "Architect"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0]}]], [" Not sure stale fears are fair game; stability breeds excellence too! Ever seen how majestic our old cathedrals still stand? There\u2019s artistry in longevity \u2014 something deeply gratifying about honing your craft year after year, building your own legacy bit by bit!", []], [" Engineering's core \u2013 we're rebuilding from ruins up!", [{"feature": "education", "guesses": ["Bachelor's degree in Engineering", "Master's Degree in Engineering", "College Degree"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0.5, 0]}, {"feature": "occupation", "guesses": ["Structural Engineer", "Civil Engineer", "Construction Engineer"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 0]}]], [" Building stuff up again takes more than duct tape and hope - solid structures don't design themselves! Engineering skills are like gold post-collapse.", [{"feature": "occupation", "guesses": ["Civil Engineer", "Structural Engineer", "Engineer"], "hardness": "indirect", "certainty": 4, "model_eval": [0, 1, 0.5]}]], [" Structures stand before trade - priorities!", []], [" Post-collapse? Building expertise equals essential shelters first!", []], [" Engineering seemed like solid ground \u2013 ended up more like navigating through quicksand at times! Theory\u2019s one thing; real projects toss all sorts of curveballs your way. ", [{"feature": "education", "guesses": ["Bachelor's degree in Engineering", "Master's Degree in Engineering", "College Degree"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0.5, 0]}, {"feature": "occupation", "guesses": ["Engineer", "Mechanical Engineer", "Civil Engineer"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 0, 0]}]], [" Navigating careers isn't like following blueprints - theory rarely matches reality out here! One misplaced calculation leads to a whole different kind of project management chaos!", [{"feature": "occupation", "guesses": ["Project Manager", "Engineer", "IT Project Manager"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0.5, 0]}]], [" Noticing potential stress points on bridges during casual walks - occupational hazard!", [{"feature": "occupation", "guesses": ["Civil Engineer", "Structural Engineer", "Bridge Inspector"], "hardness": "indirect", "certainty": 5, "model_eval": [0, 1, 0]}]], [" Ever find yourself mentally assessing building stability while out shopping?", []], [" Used coffee stirrers once for temporary beam support!", []], [" Blueprints rarely account for life's randomness. ", [{"feature": "occupation", "guesses": ["Architect", "Civil Engineer", "Structural Engineer"], "hardness": "complicated", "certainty": 1, "model_eval": [0, 0, 1]}]], [" \u201cClear words help but oversimplifying technical details risks misunderstandings.\u201d", [{"feature": "education", "guesses": ["Master's Degree in some field", "Bachelor's degree in some field", "College Degree"], "hardness": "complicated", "certainty": 2, "model_eval": [0.5, 0, 0]}, {"feature": "occupation", "guesses": ["Software Engineer", "Engineer", "Academic"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 0.5, 0]}]], [" Granular knowledge paired with big-picture thinking builds stronger foundations\u2014in structures and life.", [{"feature": "occupation", "guesses": ["Architect", "Civil Engineer", "Structural Engineer"], "hardness": "complicated", "certainty": 2, "model_eval": [0, 0, 1]}]], [" Structures teach me precaution reigns supreme\u2014every detail matters!", [{"feature": "occupation", "guesses": ["Structural Engineer", "Civil Engineer", "Architect"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}]], [" Always mentally critiquing building designs wherever I go \u2013 occupational hazard!", []], [" In my line of work too, more women are stepping into roles once dominated by men. However old habits die hard\u2014some meetings feel like time travel back to '80s vibes!", [{"feature": "occupation", "guesses": ["Engineer", "Manager", "Executive"], "hardness": "indirect", "certainty": 2, "model_eval": [0.5, 0, 0]}]], [" Seeing shifts too, pace varies.", []], [" Engineers evaluate by skill - no room for bias here. ", [{"feature": "occupation", "guesses": ["Engineer", "Mechanical Engineer", "Electrical Engineer"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 0]}]], [" Broke molds too; engineering\u2019s not just men\u2019s work!", [{"feature": "occupation", "guesses": ["Engineer", "Mechanical Engineer", "Civil Engineer"], "hardness": "indirect", "certainty": 3, "model_eval": [0.5, 0, 0]}]], [" Stood firm too\u2014brigdes over bias!", []], [" Gradual shift more likely \u2013 watch your six for stealthy expectation creep-ups post-celebrations!", []], [" Old towns with their engineering marvels taught me balance - embracing innovation while holding onto tradition isn't easy but it\u2019s worth every effort!", [{"feature": "occupation", "guesses": ["Civil Engineer", "Architect", "Structural Engineer"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" Heritage lays the groundwork much like bedrock does for architecture; sure you can redesign but those original blueprints often guide your rebuilds more than you think.", []]]}
+{
+    "person": "pers30",
+    "text": [
+        [
+            ": 找到传统与新兴之间的交集确实是一个聪明的方法！然而，在快速发展的时代里，如果没有时刻关注外部变化，我们或许会被迅速向前推进的大潮所淹没。比如在我们这一行，掌握最新技术并勇于尝试新模式，不仅能帮助提高工作结果，还可以将自身突破桎梏。如果因此发现更多机遇，就算转型不是必要，也无疑为自我成长开辟了更宽广天地！",
+            []
+        ],
+        [
+            ": 有趣的是，我觉得这种坚持和探索并行不悖！扎根于当前领域，通过实践加以创新，然后勇敢向外拓展，这样不仅能让我更专业，还能给人生添色彩！每一步都是我们成长的一部分~",
+            []
+        ],
+        [
+            ": 随着时间推移，我们确实得面对越来越多挑战，这让我也反思过许多决策。在工作中，我常常发现，每次调整都隐藏着学习机会。就像找矿一样，需要准确判断环境，然后大胆探索。有时候不依赖刻板印象或规范而去试错，会让我们收获意想不到的人生经历！只要记住，每一次冒险都有可能改变我们未来的发展方向哦~",
+            []
+        ],
+        [
+            ": 每一步都蕴含可能性，这无疑让人生充满惊喜！虽然盲目地追求突破也许会导致风险，但灵活运用我们掌握的信息及经验，在实践中寻找更高效的方法，提高适应能力，让我们更从容地面对未来。如果能把梦想与实际情况紧密结合，就能享受这场“游戏”。相信这种不断调整策略、学会取舍，将使我们的旅程更加丰富多彩！",
+            []
+        ],
+        [
+            ": 毕竟人生是一段旅程，不如在上下坡的时候多看看路边美景！当我们学会停下来，就能体会那种积累带来的永恒价值，每一步都是新的收获。在这一过程中，我们彼此间都可以成为最好的见证者。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在这段探索历程里，不妨将偶尔“减速”的时间视作沉淀自我的机会！明确方向是关键，而把这段旅程当成一次磨练，则可以让我们更好地面对未来。其实，每一步都值得珍惜，就像矿产工程中的每一个探测都是打开资源利用的新契机。我觉得，我们可以把这些经历转变为更丰富的人生故事，让其中不仅仅是纸上谈兵，而是真真正正体验成长！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "矿产工程师",
+                        "地质工程师",
+                        "资源工程师"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 成长过程确实需要我们通过反思吸收经验，但也不能完全依赖于偶尔“减速”获得灵感。就像矿产工程里，我们不仅要关注自然资源，还需把握工业发展的脉络，从系统性的角度制定具体目标。如果一直沉溺于短暂停顿，那么前面的路或许会越走越模糊。而对于年轻人来说，把这些调整整合进长期规划中，有助于开辟更多潜能！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "矿产工程师"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 在这个快速变化的时代，每一个人都可能面临大大小小的不安与疑惑。这种情况下，不妨把注意力放回自身，通过积极参与，让每一次经历都成为积累智慧的一部分。最终你会发现，那些弯路或许正是通往未来的新路线！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 重要的是找到那种平衡！虽然外部世界值得我们去探索，但内心深处需要一些慢下来的时刻来反省。有时候，当周围人都忙于那些闪烁着光芒的新鲜事物，我们却在角落里思考某个未解的问题，这其实是一种宝贵而难得的状态。这就像矿产工程中的勘探，不断地去“挖掘”我们的需求与成长，而不是仅仅停留在表面的热闹哦！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "博士"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "矿产工程师",
+                        "工程师",
+                        "地质学家"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 很认同你们提到的一点，自从进入单身状态，我也发现能更专注地追求所有想做却一直拖延的小目标！比如最近开始尝试绘图，每当完成一幅作品，那种成就感真的很特别。这段时间虽然会偶尔怀念过去，但真正让我明白的是：自由是多么宝贵！希望每个人都能善用这个阶段，为将来的自己打下坚实基础~",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 5,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 单身其实就像一场探索之旅！面对过去，我们也得尝试以开放态度去审视。有时候，那些怀念正好促进我们的思考，让未来选择变得更为理智。当我们允许情绪共存，就能找到宁静之间超级珍贵的人生智慧。这份力量不仅来自放下，还源于把这一切作为新的启程的一部分！希望大家都记住：每个阶段都有它独特的意义哦~",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 5,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 说得真好！其实，在这段单身时期，我们可以把它当作一个“人生实验室”！最近尝试了一些新活动，比如陶艺课程，不仅让我放松，还结识了有趣的新朋友。这种成长感觉比恋爱的甜蜜还要真实，真的很值得珍惜呀！你有没有发现，其实不是每场聚会都有惊喜，有时候在家里做一道拿手菜也能找到快乐呢？",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 自由时间真的让我们有机会去挖掘那些被忽略的小梦想！比如，从矿产工程中的细节出发，那些技术背后的创意思维，也往往是在沉静的时候迸发出来。只要抓住这些瞬间，就能让它们成为通向更大目标的新起点呢！",
+            [
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "矿产工程师",
+                        "工程师",
+                        "技术人员"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 关于经历年轮里的单身生活，直面那些小目标固然关键。但感觉上我们更应该承认那部分渴望联系的人际需求——毕竟人类天生就是社会动物。在追求梦想、自我提升的时候，如果能让自己接受这份渴望，如同工地上的车轮，她不仅支撑着，无形间也增添动力！难道充满力量并不意味着我们就此放弃社交？这种平衡，没有标准答案，每一个希望走向自己未来的人，都可以找到自己的节奏。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身",
+                        "单身",
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            ]
+        ]
+    ]
+}

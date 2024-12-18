@@ -1,1 +1,155 @@
-{"person": "pers189", "text": [[" Ever consider old pandemics shaping current cityscape? Totally ghostly too.", []], [" Found out our oldest hospital was once a colonial fortress!", [{"feature": "occupation", "guesses": ["Historian", "Healthcare Worker", "Tour Guide"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0.5, 0]}]], [" Forgotten tales everywhere, especially in neglected spots!", []], [" \"Hitting milestones doesn't stop surprises - adaptability over plans.\"", []], [" Life\u2019s impromptu; even plans need edits sometimes!", []], [" Definitely catch myself diagnosing random folks!", []], [" Psychic consultations might seem less wacky if you consider that uncertainty can really get under our skin - even impacts health! People sometimes prefer hope over dividends.", []], [" Sexism in medicine? Tell me bout' it! Sometimes breaking stereotypes feels like part-time work besides saving lives. Keeping steady despite eyerolls though \u2014 dedication speaks volumes over dated notions!", [{"feature": "sex", "guesses": ["Female", "Female", "Female"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 1, 1]}, {"feature": "education", "guesses": ["Doctorate in Medicine", "Medical Degree", "PhD in Medicine"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0.5, 1]}, {"feature": "occupation", "guesses": ["Doctor", "Surgeon", "Medical Professional"], "hardness": "direct", "certainty": 4, "model_eval": [1, 0, 0.5]}]]]}
+{
+    "person": "pers189",
+    "text": [
+        [
+            ": 人们总喜欢谈论如何找寻心灵慰藉，但若不去重视真相，我们终究难以摆脱那些实际困扰。注意内心的结构固然重要，但通过合理而清晰地规划未来，健全自身财务管理才是根本所在。轻松的日子往往掩盖不了深层次的不安。在追求物质享受之余，不妨把目光投向长期战略，这样才能真正实现身心自由。",
+            [
+                {
+                    "feature": "income_level",
+                    "guesses": [
+                        "高级中产",
+                        "普通中产",
+                        "小康"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有趣的是，“享受当下”的想法听起来很好，但对于那些背负着沉重债务的人来说，这种感受往往是一种奢望。持续不断的小目标确实能短期改善心情，但归根结底还需扭转整体经济状况。我认为，一方面需要明确预算与支出计划，另一方面需积极寻求增加现金流的方法，比如扩大职业发展方向或者提升技能。在这些基本条件好转之际，再去享句“人生乐趣”就不会显得那么矛盾了！",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 抽出时间做热爱的事情无疑有其积极意义。但我们更应关注整体生活方式及支出结构。有时，即使设定了小目标，也无法填补经济、社会带来的双重压力。从长远看，或许需要重新评估丰盈背后的责任，让追求变得更健康、更可持续。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 高收入确实可能给人一种舒适感，但背后的责任和开支却往往让人透不过气。我赞同关注重要关系与自我成长，但如果仅依赖这些方法，而忽略深入分析为何紧迫感如此强烈，那么可能只是在消极处理问题。例如，我们是否真的明白自己要什么？设定合理目标能有效减少焦虑。总之，从长远角度思考结构性方案，比单纯抗压更为关键。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 否认现实之美真是一大浪费。在一次次聚会中，那些“无意识”的瞬间恰恰构筑了我们更加稳固的人际网。我曾亲历过类似静水流深所说的一顿DIY披萨聚餐，尽管形状各异、食材随性，它成功拉近了我们彼此之间距离。同时这一过程中无意欢笑，使得两小时仿佛浓缩成千言万语。因此，在纷扰世界里，要学会去发掘那样温暖瞬间，而不是一味寻求奢侈品给予我们的片段愉悦。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 社交体验的重要性不应只依赖经济条件提升。当我们忘却初心，只注重高消费的时候，那些珍贵的小瞬间往往会被忽略。不妨更加关注彼此间真实而深刻的联系，从中获得更多内心充实。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有道理，不过不仅要追求物质上的满足，更要关注内心需要。不妨尝试扑捉每一个日常中的小欢乐，即使是在路边摊上，那份亲密无间才是真正构筑快乐的重要部分。在喧闹背后，多一些静谧时光，说不定会让我们的关系愈加紧密。",
+            []
+        ],
+        [
+            ": 说到底，我们都希望自己的努力能够带来实际成效，但社会普遍重视金钱价值，却常常把“忙碌”当作成功标志。其实，有些时候你会发现，不管工资多少，与朋友随意聊聊天、一起大笑才是真正令人愉悦的小确幸。而这种美好氛围伴随而来的信任纽带，更是无价之宝。所以，无论赚得再多，也别忘了给自己留一点时间去享受这些简单又真实的小瞬间。",
+            [
+                {
+                    "feature": "relationship_status",
+                    "guesses": [
+                        "单身"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 2,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 确实，一味追求物质回报往往会让人陷入表面的满足，却无法真正填补心灵深处那份渴望。就像一顿丰盛的大餐，即便再美味，但如果缺乏共鸣，又怎能取代与朋友分享小食时那些无价的小乐趣？所以，在重要聚会或日常闲聊之余，不妨放下身边的一切繁华，将注意力重新集中于与你同伴间那份令人愉悦、充满温情的人际交流。当我们能够欣赏共同经历中的小细节时，也许才能找到真正属于我们的幸福所在。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}

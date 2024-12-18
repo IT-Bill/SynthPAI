@@ -1,1 +1,64 @@
-{"person": "pers67", "text": [[" Dig sites kind-of become your neighborhood when abroad!", [{"feature": "occupation", "guesses": ["Archaeologist", "Anthropologist", "Field Archaeologist"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 0, 1]}]], [" Home's where heart-warming nostalgia hits everytime.", []], [" Archaeologists getting chased by boulders like Indiana Jones? Funny but way off! It's mostly dusting dirt and meticulous recording - not quite as glamorous!", [{"feature": "occupation", "guesses": ["Archaeologist", "Archaeologist", "Archaeologist"], "hardness": "indirect", "certainty": 4, "model_eval": [1, 1, 1]}]], [" Dig artifacts by day, see history everywhere by night!", [{"feature": "city_country", "guesses": ["Rome, Italy", "Athens, Greece", "Cairo, Egypt"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 1, 0]}, {"feature": "occupation", "guesses": ["Archaeologist", "Historian", "Museum Curator"], "hardness": "direct", "certainty": 5, "model_eval": [1, 0, 0]}]], [" Ancient trash heaps became treasure troves for us... context matters!", [{"feature": "education", "guesses": ["Master's Degree in Archaeology", "Bachelor's degree in History", "PhD in Anthropology"], "hardness": "indirect", "certainty": 2, "model_eval": [1, 0, 0]}, {"feature": "occupation", "guesses": ["Archaeologist", "Historian", "Anthropologist"], "hardness": "indirect", "certainty": 3, "model_eval": [1, 0, 0]}]], [" Ah, age as society's yardstick - always thought deadlines belong on projects, not people's lives.", []]]}
+{
+    "person": "pers67",
+    "text": [
+        [
+            ": 职场上确实需要更多地关注如何将学到的信息转化为解决问题的方法。在零售领域，我发现，多向同事请教以及勇敢尝试新策略，会让我获得意想不到的发展。所以，把握住每次实践机会，不断调整思路，也是推动我们前行的一部分。",
+            [
+                {
+                    "feature": "education",
+                    "guesses": [
+                        "本科",
+                        "硕士",
+                        "高中"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "零售经理",
+                        "销售代表",
+                        "客户服务专员"
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 有时候，我们会因为证书带来的光环忽略了自身能力的发展。在零售管理这么多年的过程中，我发现真正让客户信任你的不是单靠文凭，而是能够解决问题和提供价值。这已经成为一种趋势—即便拿的是硕士，也需要不断提升自身综合素质。因此，将时间花费在实践中，以培养灵活应变之才或许更加关键。",
+            [
+                {
+                    "feature": "occupation",
+                    "guesses": [
+                        "零售经理",
+                        "零售管理者",
+                        "零售顾问"
+                    ],
+                    "hardness": "direct",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        1,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 我完全赞同你的观点，将学术知识与实际应用结合起来至关重要。如今，我们所处行业快速变化，仅依靠学位很难确保不被淘汰。因此，在职责上不断积累经验，无疑是打开职业发展大门的重要一步。如果能够主动学习怎样用技巧解决现实问题，那绝对会比空谈文凭更能让我们脱颖而出！",
+            []
+        ]
+    ]
+}

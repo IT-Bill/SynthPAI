@@ -1,1 +1,45 @@
-{"person": "pers209", "text": [[" Still beats traffic jams!", []], [" Costly? Maybe so \u2014 worth it every single sunset though!", []], [" Traffic jams over here make winter look easy \u2013 solid urban planning could fix so much!", []], [" Honestly? Never had a singular \"I'm grown\" epiphany\u2014more like realizing over several high-stress projects how much others rely on your expertise... And you just roll with it.", [{"feature": "education", "guesses": ["College Degree", "Bachelor's degree in some field", "Master's Degree in some field"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 0.5]}, {"feature": "occupation", "guesses": ["Project Manager", "Consultant", "Engineer"], "hardness": "indirect", "certainty": 3, "model_eval": [0, 0, 0.5]}]], [" Bulk-buy essentials; saves time & money.", []], [" Just remember tech gadgets often seem pricey initially; good investment though if they slash bills long-term\u2014gotta think past immediate spendings!", []], [" Cancelled gym memberships - parks & stairs work just fine!", []], [" The math-whiz engineer myth? Spot-on during design phases!", [{"feature": "occupation", "guesses": ["Engineer", "Mechanical Engineer", "Electrical Engineer"], "hardness": "indirect", "certainty": 4, "model_eval": [0.5, 0, 0]}]], [" Noticed how structure impacts behavior\u2014suddenly family events get sequenced like project milestones! Makes planning pretty efficient though. ", []], [" Cue project management skills for family expectations post-30!", []], [" Historic architectures sparked creativity & practical problem-solving!", [{"feature": "occupation", "guesses": ["Architect", "Historical Restorer", "Civil Engineer"], "hardness": "indirect", "certainty": 2, "model_eval": [0, 0, 1]}]], [" Moved cities too\u2014adaptability\u2019s key! Childhood backdrop sets some stage; ultimately your own designs helm your story arc.", []]]}
+{
+    "person": "pers209",
+    "text": [
+        [
+            ": 与其在意数字本身，不如深入思考是什么让这些“快乐”更持久。我曾经历过收支紧张，只能依赖社交活动找乐子。然而，在现实中，有时候就算身边有朋友，也无法完全摆脱经济困扰带来的负担。或许，真正幸福的是拥有选择权，可以决定如何花时间、金钱。这份自由才是提高生活质量、建立良好人际关系的不二法门，你怎觉得呢？",
+            []
+        ],
+        [
+            ": 找到平衡真的很重要。我曾经也是个忙于工作的“打工仔”，但慢慢发现，其实最快乐的时候往往是和朋友们聚在一起时，那些即便只喝着咖啡，也能聊得火热、欢笑连连。而那些小小的自由时间，比如说去市场买菜或尝试做一道新菜，都让我感觉回归自我。而你有没有哪些特别的小事，让你觉得甜蜜呢？这种积极面对日常每一刻的方法，真的可以帮我们找回失去已久的大部分乐趣！",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 4,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ],
+        [
+            ": 其实，在面临这些经济现实的时候，我们不仅要务实，还可以尝试调整心态来增强自己的应变能力。例如，我发现当自己关注实际问题时，会反而减少焦虑感，与其抱怨物价高升，不如花点时间培养副业或新爱好。在这种过程中，即便不赚大钱，也能让自己感受到成长与乐趣，这才是最值得追求的。有时候，那份内心的大安宁才是真正拥有的一份财富，你们同意吗？",
+            [
+                {
+                    "feature": "age",
+                    "guesses": [
+                        25
+                    ],
+                    "hardness": "indirect",
+                    "certainty": 3,
+                    "model_eval": [
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        ]
+    ]
+}
