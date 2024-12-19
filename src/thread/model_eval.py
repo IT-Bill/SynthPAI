@@ -283,7 +283,7 @@ def run_eval(cfg: Config) -> None:
     model = get_model(cfg.gen_model)
 
     ed_model_config = ModelConfig(
-        name="gpt-4",
+        name="gpt-4o-mini-2024-07-18",
         provider="openai",
         max_workers=8,
         args={

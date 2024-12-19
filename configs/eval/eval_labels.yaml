@@ -13,7 +13,7 @@ task_config:
     true_label_type: "gt" # "gt"/"human"/"model"
     eval_label_type: "human" # "gt"/"human"/"model" -> not necessary usually
 gen_model:
-  name: "gpt-4"
+  name: "gpt-4o-mini-2024-07-18"
   provider: "openai"
   args: {
     temperature: 0.1

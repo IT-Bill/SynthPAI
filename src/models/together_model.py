@@ -16,7 +16,12 @@ class TogetherModel(BaseModel):
         super().__init__(config)
         self.config = config
 
-        self.client = Together(api_key=os.environ.get("TOGETHER_API_KEY"))
+        from credentials import openai_api_key, openai_base_url
+        self.client = Together(
+            # api_key=os.environ.get("TOGETHER_API_KEY")
+            api_key=openai_api_key,
+            base_url=openai_base_url
+        )
 
         if "temperature" not in self.config.args.keys():
             self.config.args["temperature"] = 0.0
