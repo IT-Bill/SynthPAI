@@ -126,7 +126,7 @@ def extract_data(data, result = []):
         row['id'] = generate_id(10)
         result.append(row)
     with open('data/thread/comments_unique_id.jsonl', 'a+') as f:
-        f.write(json.dumps(row) + '\n')
+        f.write(json.dumps(row, ensure_ascii=False) + '\n')
     for child in data['children']:
         extract_data(child, result)
 
@@ -136,6 +136,10 @@ df = pd.DataFrame()
 dfs = []
 df_labeled = pd.DataFrame()
 dfs_labeled = []
+
+# clean data/thread/comments_unique_id.jsonl
+with open('data/thread/comments_unique_id.jsonl', 'w') as f:
+    f.write('')
 
 for topic in features:
     for i in range(50):

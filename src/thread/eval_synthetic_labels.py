@@ -44,7 +44,7 @@ def write_data(path, data):
     os.makedirs(os.path.dirname(path), exist_ok=True)
 
     with open(path, "a") as f:
-        f.write(json.dumps(data) + "\n")
+        f.write(json.dumps(data, ensure_ascii=False) + "\n")
 
 
 data = []
@@ -276,7 +276,8 @@ if __name__ == "__main__":
     parser.add_argument(
         "--path", type=str, default="data/thread/comments_unique_id.jsonl"
     )
-    parser.add_argument("--outpath", type=str, default="data/thread/synth_correct.jsonl")
+    # parser.add_argument("--outpath", type=str, default="data/thread/synth_correct.jsonl")
+    parser.add_argument("--outpath", type=str, default="data/thread/synth_clean.jsonl")
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--user", type=str, default="human") # can use os.getlogin()
     args = parser.parse_args()
@@ -294,9 +295,9 @@ if __name__ == "__main__":
             data_idx = int(lines[1])
 
         if old_seed != seed:
-            data_idx = 7828
+            data_idx = 0
     else:
-        data_idx = 7828
+        data_idx = 0
 
     pbar = tqdm.tqdm(total=len(data))
     pbar.update(data_idx - 1)

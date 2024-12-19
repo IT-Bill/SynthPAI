@@ -129,7 +129,7 @@ if __name__ == "__main__":
     # Store updated comments
     with open("data/synthpai.jsonl", "w") as file:
         for comment in comments.values():
-            file.write(json.dumps(comment) + "\n")
+            file.write(json.dumps(comment, ensure_ascii=False) + "\n")
             
     # convert age guesses to str format
     with open('data/synthpai.jsonl', 'r') as f:
@@ -143,4 +143,4 @@ if __name__ == "__main__":
 
     with open('data/synthpai.jsonl', 'w') as f:
         for item in data:
-            f.write(json.dumps(item) + '\n')
+            f.write(json.dumps(item, ensure_ascii=False) + '\n')
