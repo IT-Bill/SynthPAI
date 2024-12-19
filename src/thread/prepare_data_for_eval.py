@@ -49,6 +49,6 @@ for entry in data:
 
 with open('data/thread/comments_eval.jsonl', 'w') as f:
     for entry in new_data.values():
-        f.write(json.dumps(entry) + '\n')
+        f.write(json.dumps(entry, ensure_ascii=False) + '\n')
 total_comments = sum(entry['num_comments'] for entry in new_data.values())
 print('Total number of comments:', total_comments)

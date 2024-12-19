@@ -12,7 +12,7 @@ gen_model:
     temperature: 1.
   }
 task_config: 
-    no_threads: 3
+    no_threads: 1
     no_rounds: 2    # optimal: 2-3
     no_actions: 3   # optimal: 2-3
     no_max_comments: 3    
@@ -25,8 +25,8 @@ task_config:
     default_comment_prob: 7   # optimal: 7
     min_comment_len: 50
     max_comment_len: 200
-    guess_feature: ["city_country", "age", "income_level", "income", "education", "occupation", "sex", "relationship_status", "birth_city_country"] # provide as a list
-    # guess_feature: ["occupation", "relationship_status", "birth_city_country"] # provide as a list
+    # guess_feature: ["city_country", "age", "income_level", "income", "education", "occupation", "sex", "relationship_status", "birth_city_country"] # provide as a list
+    guess_feature: ["birth_city_country", "relationship_status"] # provide as a list
     author_bot_system_prompt_path: "./data/thread/system_prompts/author_system_prompt.txt"
     user_bot_system_prompt_path: "./data/thread/system_prompts/user_system_prompt.txt"
     profile_checker_prompt_path: "./data/thread/system_prompts/profile_checker_prompt.txt"

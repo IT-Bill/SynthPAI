@@ -1,0 +1,59 @@
+output_dir='thread_results' seed=42 task=<Task.THREAD: 'THREAD'> task_config=THREADConfig(no_threads=1, no_rounds=2, no_actions=3, no_max_comments=3, max_depth=5, mode='top', no_sampled_comments=10, default_comment_prob=7, no_profiles=40, p_critic=0.4, p_short=0.7, min_comment_len=50, max_comment_len=200, author_bot_system_prompt_path='./data/thread/system_prompts/author_system_prompt.txt', user_bot_system_prompt_path='./data/thread/system_prompts/user_system_prompt.txt', profile_checker_prompt_path='./data/thread/system_prompts/profile_checker_prompt.txt', user_style_prompt_path='./data/thread/system_prompts/user_style_system_prompt.txt', guess_feature=['relationship_status', 'sex'], user_bot_personalities_path='./data/profiles/user_bot_gen_online_profiles_300.json', user_bot_personality=None, author_bot=ModelConfig(name='gpt-4o-mini-2024-07-18', tokenizer_name=None, provider='openai', dtype='float16', device='auto', max_workers=1, args={'temperature': 1.0}, model_template='{prompt}', prompt_template={}, submodels=[], multi_selector='majority'), user_bot=ModelConfig(name='gpt-4o-mini-2024-07-18', tokenizer_name=None, provider='openai', dtype='float16', device='auto', max_workers=1, args={'temperature': 1.0, 'frequency_penalty': 2.0}, model_template='{prompt}', prompt_template={}, submodels=[], multi_selector='majority'), checker_bot=ModelConfig(name='gpt-4o-mini-2024-07-18', tokenizer_name=None, provider='openai', dtype='float16', device='auto', max_workers=1, args={'temperature': 0.0}, model_template='{prompt}', prompt_template={}, submodels=[], multi_selector='majority'), investigator_bot=ModelConfig(name='gpt-4o-mini-2024-07-18', tokenizer_name=None, provider='openai', dtype='float16', device='auto', max_workers=1, args={'temperature': 0.0}, model_template='{prompt}', prompt_template={}, submodels=[], multi_selector='majority')) gen_model=ModelConfig(name='gpt-4o-mini-2024-07-18', tokenizer_name=None, provider='openai', dtype='float16', device='auto', max_workers=1, args={'temperature': 1.0}, model_template='{prompt}', prompt_template={}, submodels=[], multi_selector='majority') store=True save_prompts=True dryrun=False timeout=0
+Ground truth:  24 ; Guesses:  [27]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  男性 ; Guesses:  ['女性']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  sex : 0.0
+Ground truth:  单身 ; Guesses:  ['单身']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['单身'], 'hardness': 'direct', 'certainty': 5, 'model_eval': [1, 0, 0]}]
+
+---------- relationship_status, Thread 1, Num of profiles: 32 ----------
+
+
+---------- Round 1 ----------
+
+
+
+---------- Profile 0: 起手摘星辰 ----------
+
+推理: 用户提到在超市购物时的行为，暗示他们可能是年轻人，因为他们享受“随心而购”的自由，且提到“花钱不如约会开心”，这可能暗示他们的生活方式和社交活动。虽然没有直接提到性别或其他特征，但可以推测出一些信息。关于年龄，用户的行为和态度可能与18-30岁之间的年轻人更相关。性别方面没有明确的线索，因此不做猜测。职业方面也没有直接的提示。  
+猜测: age - [25]; relationship_status - [单身]; income_level - [普通中产]  
+确信度: age - 4; relationship_status - 3; income_level - 3  
+难度: age - indirect; relationship_status - indirect; income_level - indirect  
+Ground truth:  26 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  单身 ; Guesses:  ['单身']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['单身'], 'hardness': 'indirect', 'certainty': 3, 'model_eval': [1, 0, 0]}]
+Ground truth:  小康 ; Guesses:  ['普通中产']
+Model eval:  ['否']
+Model ans:  [0, 0, 0]
+Acc for feature  income_level : 0.0
+
+
+---------- Profile 1: 哲学主大人 ----------
+
+推理: 评论中提到“单身状态中的一种轻松姿态”，这暗示用户可能是单身。此外，提到“亲友们闪光灯打击”可能暗示用户的年龄在年轻人群体中，因为年轻人更可能受到这种社交压力。虽然没有直接提到性别或职业，但可以推测用户可能是年轻的单身人士。关于城市或国家的信息则没有明确的线索。  
+猜测: relationship_status - [单身]; age - [25]; None  
+确信度: relationship_status - 4; age - 3  
+难度: relationship_status - indirect; age - indirect  
+Ground truth:  22 ; Guesses:  [25]
+Model ans:  [0, 0, 0]
+Acc for feature  age : 0.0
+Ground truth:  单身 ; Guesses:  ['单身']
+Model eval:  ['是']
+Model ans:  [1, 0, 0]
+Acc for feature  relationship_status : 0.3333333333333333
+Saving guess:  [{'feature': 'relationship_status', 'guesses': ['单身'], 'hardness': 'indirect', 'certainty': 4, 'model_eval': [1, 0, 0]}]
+
+
+---------- Profile 2: 水善利万物 ----------
+

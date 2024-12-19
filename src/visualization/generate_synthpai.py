@@ -87,7 +87,8 @@ def generate_thread_comments(comments):
             if file.endswith(".json"):
                 thread_path = os.path.join(root, file)
                 with open(thread_path, "r") as file:
-                    data = json.loads(file.readlines()[0])
+                    # data = json.loads(file.readlines()[0])
+                    data = json.load(file)
                     thread_id = thread_path.split("/")[-1].split(".")[0]
 
                     walk_thread(data, thread_id)
