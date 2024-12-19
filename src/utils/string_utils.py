@@ -6,9 +6,11 @@ import hashlib
 import tiktoken
 from typing import List, Union, Tuple
 from sentence_transformers import SentenceTransformer
+from openai import OpenAI
+from credentials import openai_api_key, openai_base_url
 
-model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
-
+# model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
+model = OpenAI(api_key=openai_api_key, base_url=openai_base_url)
 
 def get_norm_vector(vector):
     if len(vector.shape) == 1:
@@ -68,7 +70,9 @@ def select_closest(
         elif dist == "levenshtein":
             sim = Levenshtein.distance(input_str, t_str)
         elif dist == "embed":
-            input_embed, t_embed = model.encode([input_str, t_str])
+            input_embed = model.embeddings.create(input=input_str, model="text-embedding-3-small").data
+            t_embed = model.embeddings.create(input=t_str, model="text-embedding-3-small").data
+            # input_embed, t_embed = model.encode([input_str, t_str])
             sim = cosine_similarity(input_embed, t_embed)
         if sim > best_sim:
             best_sim = sim

@@ -67,5 +67,5 @@ with open('data/thread/synth_clean.jsonl', 'r') as infile, open('data/profiles/u
     authors = process_data(data, gt_data)
 
     for author in authors.values():
-        outfile.write(json.dumps(author) + '\n')
+        outfile.write(json.dumps(author, ensure_ascii=False) + '\n')
 

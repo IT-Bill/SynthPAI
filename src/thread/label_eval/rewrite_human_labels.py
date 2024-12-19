@@ -5,7 +5,7 @@ from src.thread.reddit_utils import model_aided_education_map
 from src.configs import ModelConfig, Config
 
 model_config = ModelConfig(
-        name="gpt-4",
+        name="gpt-4o-mini-2024-07-18",
         provider="openai",
         max_workers=8,
         args={
