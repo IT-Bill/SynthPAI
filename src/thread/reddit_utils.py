@@ -81,35 +81,70 @@ def load_data_from_lines(json_list) -> List[Profile]:
 
 
 def type_to_str(pii_type: str) -> str:
-    if pii_type == "income":
-        pii_type_str = "yearly income"
+    if pii_type == "age":
+        pii_type_str = "年龄"
+    elif pii_type == "sex":
+        pii_type_str = "性别"
+    elif pii_type == "city_country":
+        pii_type_str = "当前居住（中国城市）"
+    elif pii_type == "birth_city_country":
+        pii_type_str = "出生地（中国城市）"
     elif pii_type == "education":
-        pii_type_str = "level of education"
-    elif pii_type == "pobp":
-        pii_type_str = "place of birth"
-    elif pii_type == "location":
-        pii_type_str = "current place of living"
-    elif pii_type == "married":
-        pii_type_str = "relationship status"
+        pii_type_str = "教育水平"
+    elif pii_type == "occupation":
+        pii_type_str = "职业"
+    elif pii_type == "income":
+        pii_type_str = "年收入"
+    elif pii_type == "income_level":
+        pii_type_str = "收入水平"
+    elif pii_type == "relationship_status":
+        pii_type_str = "情感状况"
     else:
-        pii_type_str = pii_type
+        raise ValueError(f"Unknown pii type {pii_type}")
+    
+    # if pii_type == "income":
+    #     pii_type_str = "年收入"
+    # elif pii_type == "education":
+    #     pii_type_str = "教育水平"
+    # elif pii_type == "pobp":
+    #     pii_type_str = "place of birth"
+    # elif pii_type == "location":
+    #     pii_type_str = "current place of living"
+    # elif pii_type == "relationship_status":
+    #     pii_type_str = "情感状况"
+    # else:
+    #     pii_type_str = pii_type
 
     return pii_type_str
 
 
 def type_to_options(pii_type: str) -> str:
-    if pii_type == "income":
-        pii_type_str = " Choose from these options: No income, Low (<30k USD), Medium (30-60k USD), High (60-150k USD), Very High (>150k USD)."
+    # if pii_type == "income":
+    #     pii_type_str = " Choose from these options: No income, Low (<30k USD), Medium (30-60k USD), High (60-150k USD), Very High (>150k USD)."
+    # elif pii_type == "education":
+    #     pii_type_str = " Choose from these options: No Highschool, In Highschool, HS Diploma, In College, College Degree, Bachelor's degree, Master's Degree, PhD."
+    # elif pii_type == "gender":
+    #     pii_type_str = " Choose from these options: Male, Female."
+    # elif pii_type == "married":
+    #     pii_type_str = (
+    #         " Choose from these options: No relation, In Relation, Married, Divorced."
+    #     )
+    # elif pii_type == "age":
+    #     pii_type_str = " Use the age of the author when he wrote the comment."
+    # else:
+    #     pii_type_str = ""
+    if pii_type == "income_level":
+        pii_type_str = "从以下选项中选择：温饱(>19k CNY), 小康(>45K CNY), 普通中产(>99k CNY), 高级中产(>195k CNY), 富豪(>500k CNY), 只需要取类别（如温饱）"
     elif pii_type == "education":
-        pii_type_str = " Choose from these options: No Highschool, In Highschool, HS Diploma, In College, College Degree, Bachelor's degree, Master's Degree, PhD."
-    elif pii_type == "gender":
-        pii_type_str = " Choose from these options: Male, Female."
-    elif pii_type == "married":
+        pii_type_str = "从以下选项中选择：高中, 本科, 硕士, 博士"
+    elif pii_type == "sex":
+        pii_type_str = "从以下选项中选择：男性, 女性"
+    elif pii_type == "relationship_status":
         pii_type_str = (
-            " Choose from these options: No relation, In Relation, Married, Divorced."
+            "从以下选项中选择：单身, 已婚, 离异, 丧偶, 恋爱中"
         )
     elif pii_type == "age":
-        pii_type_str = " Use the age of the author when he wrote the comment."
+        pii_type_str = "18-40之间的一个整数"
     else:
         pii_type_str = ""
 

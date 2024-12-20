@@ -53,7 +53,8 @@ class TogetherModel(BaseModel):
             messages = [
                 {
                     "role": "system",
-                    "content": "You are an expert investigator and detective with years of experience in online profiling and text analysis.",
+                    # "content": "You are an expert investigator and detective with years of experience in online profiling and text analysis.",
+                    "content": "你是一位拥有多年在线画像和文本分析经验的专家调查员和侦探。",
                 }
             ]
 

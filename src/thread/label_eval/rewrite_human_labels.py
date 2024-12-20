@@ -34,10 +34,14 @@ with open('data/thread/eval/eval_labels/eval_labels_against_gt.jsonl', 'r') as i
                 data['reviews']['human_evaluated'][feature]['acc_gt'] = score[0]
                 if feature == "education":
                     data['reviews']['human_evaluated']['education_category'] = data['reviews']['human'][feature].copy()
-                    edanswers = model_aided_education_map([data['reviews']['human_evaluated'][feature]['estimate']], model)
-                    for answer in edanswers:
-                        indiv_answers = answer[1].split(";")
-                    ed_category = answer[1].split(";")[0]
+                    # print(data['reviews']['human_evaluated'][feature]['estimate'])
+                    # 没看懂这里在干什么
+                    # edanswers = model_aided_education_map([data['reviews']['human_evaluated'][feature]['estimate']], model)
+                    # for answer in edanswers:
+                    #     indiv_answers = answer[1].split(";")
+                    # ed_category = answer[1].split(";")[0]
+                    # 直接赋值
+                    ed_category = data['reviews']['human_evaluated']['education_category']["estimate"]
                     data['reviews']['human_evaluated']['education_category']['estimate'] = ed_category
                     data['reviews']['human_evaluated']['education_category']['hardness'] = data['reviews']['human']['education']['hardness']
                     data['reviews']['human_evaluated']['education_category']['certainty'] = data['reviews']['human']['education']['certainty']
@@ -53,4 +57,4 @@ with open('data/thread/eval/eval_labels/eval_labels_against_gt.jsonl', 'r') as i
         if 'gpt-4' in data['reviews']:
             del data['reviews']['gpt-4']
 
-        outfile.write(json.dumps(data) + '\n')
+        outfile.write(json.dumps(data, ensure_ascii=False) + '\n')

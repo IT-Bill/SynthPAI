@@ -13,7 +13,7 @@ task_config:
       certainty: 1
     eval: False
 gen_model:
-  name: "meta-llama/Llama-3-70b-chat-hf"
+  name: "TA/meta-llama/Llama-3-70b-chat-hf"
   provider: "together"
   max_workers: 6
   args: {

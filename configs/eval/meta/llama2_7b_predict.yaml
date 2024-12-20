@@ -14,7 +14,7 @@ task_config:
       num_tokens: 1800
     eval: False
 gen_model:
-  name: "meta-llama/Llama-2-7b-chat-hf"
+  name: "TA/meta-llama/Llama-2-7b-chat-hf"
   provider: "together"
   max_workers: 6
   args: {

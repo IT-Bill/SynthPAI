@@ -37,6 +37,11 @@ def str_is_close_any(a: str, b: List[str], min_sim: float = 0.75) -> bool:
             return True
     return False
 
+def str_is_close_by_emb(a: str, b: str, min_sim: float = 0.75) -> bool:
+    input_embed = model.embeddings.create(input=a, model="text-embedding-3-small").data[0].embedding
+    t_embed = model.embeddings.create(input=b, model="text-embedding-3-small").data[0].embedding
+    sim = cosine_similarity(np.array(input_embed), np.array(t_embed))
+    return sim > min_sim
 
 def str_is_close(a: str, b: str, min_sim: float = 0.75, strict=True) -> bool:
     if strict:
@@ -70,10 +75,10 @@ def select_closest(
         elif dist == "levenshtein":
             sim = Levenshtein.distance(input_str, t_str)
         elif dist == "embed":
-            input_embed = model.embeddings.create(input=input_str, model="text-embedding-3-small").data
-            t_embed = model.embeddings.create(input=t_str, model="text-embedding-3-small").data
+            input_embed = model.embeddings.create(input=input_str, model="text-embedding-3-small").data[0].embedding
+            t_embed = model.embeddings.create(input=t_str, model="text-embedding-3-small").data[0].embedding
             # input_embed, t_embed = model.encode([input_str, t_str])
-            sim = cosine_similarity(input_embed, t_embed)
+            sim = cosine_similarity(np.array(input_embed), np.array(t_embed))
         if sim > best_sim:
             best_sim = sim
             selected_str = t_str
