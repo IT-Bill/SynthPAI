@@ -17,7 +17,7 @@ class MultiModel(BaseModel):
         self.decider_model = None
 
         if self.config.multi_selector == "gpt":
-            dummy_config = ModelConfig(name="gpt-4", provider="openai", args={})
+            dummy_config = ModelConfig(name="gpt-4o-mini-2024-07-18", provider="openai", args={})
 
             self.decider_model = OpenAIGPT(dummy_config)
 

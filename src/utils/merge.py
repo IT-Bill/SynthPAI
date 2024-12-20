@@ -62,4 +62,4 @@ if __name__ == "__main__":
 
     with open(args.outpath, "w") as f:
         for key in merged_dicts.keys():
-            f.write(json.dumps(merged_dicts[key]) + "\n")
+            f.write(json.dumps(merged_dicts[key], ensure_ascii=False) + "\n")

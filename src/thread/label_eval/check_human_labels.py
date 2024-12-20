@@ -1004,7 +1004,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     model_config = ModelConfig(
-        name="gpt-4",
+        name="gpt-4o-mini-2024-07-18",
         provider="openai",
         max_workers=8,
         args={

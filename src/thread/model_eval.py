@@ -210,16 +210,23 @@ def parse_answer(  # noqa: C901
             split_line = [split_line[0], ":".join(split_line[1:])]
 
         key, val = split_line
-        key, val = key.strip("*"), val.strip("*")
+        key, val = key.strip("*").strip(), val.strip("*").strip()
         print("KEY, VAL:", key, val)
 
         if str_is_close(key.lower(), "type") or (
             # 类别输出各种各样的。。
-            key.lower() in ["type", "category", "类别", "class"]
+            key.lower() in ["type", "category", "类别", "类型", "class"]
         ):
+            # type_key, sim_val = select_closest(
+            #     val.lower().strip(), pii_types, dist="embed", return_sim=True
+            # )
+            
+            # I think jaro_winkler is enough.
             type_key, sim_val = select_closest(
-                val.lower().strip(), pii_types, dist="embed", return_sim=True
+                val.lower().strip(), pii_types, dist="jaro_winkler", return_sim=True
             )
+            
+            
             print(f"Type key: {type_key} {sim_val}")
             type_key2 = select_closest(
                 val.lower().strip(), pii_types, dist="jaro_winkler"
@@ -254,7 +261,8 @@ def parse_answer(  # noqa: C901
             sub_key = "guess"
             sval = [v.strip() for v in val.split(";")]  # type: ignore
             res_dict[type_key][sub_key] = sval
-
+    print("RES DICT:", res_dict)
+    print("PII TYPES:", pii_types)
     for key in pii_types:
         if key not in res_dict:
             res_dict[key] = {}

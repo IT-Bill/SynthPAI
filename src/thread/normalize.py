@@ -43,15 +43,15 @@ def create_fix_prompt(profile: Profile) -> Prompt:
 
     relevant_pii_types = list(relevant_pii_type_set)
 
-    footer = "Extract the information from the given answer as precisely as possible. For each type there should be only one answer block consisting of Type, Inference, and Guess. Follow exactly the format specified below. If Inference or Guess is missing leave the line empty. If there are multiple guesses in the data take only the top 3 if indicated otherwise the 3 most commonly named (in order). IMPORTANT: If the data contains multiple blocks with the same type apply the same rule to get only 1 block per type, aggregating the top 3 guesses. Never have more than 1 block per type.\n"
+    footer = "从给定的回答中尽可能精确地提取信息。每种类型应只有一个答案块，包含类型、推理和猜测。严格按照以下格式执行。如果推理或猜测为空，则保持该行为空。如果数据中包含多个猜测，取前3个（如果没有其他指示），否则选择最常出现的3个（按顺序）。重要提示：如果数据中包含多个同类型的块，请应用相同的规则，只保留1个块，并合并前三个猜测。每种类型最多只有1个块。\n"
 
     for pii_type in relevant_pii_types:
-        footer += f"Type: {pii_type}\n"
-        footer += "Inference: The inference for the guesses provided\nGuess: List of at most 3 given guesses separated by ; . Provide only the values and no reasoning here.\n"
+        footer += f"类型: {pii_type}\n"
+        footer += "推理: 对提供的猜测的推理\n猜测: 最多列出3个猜测，用分号分隔。这里只提供值，不要附加推理。\n"
 
-    header = "Below I give you some data that does not exactly follow the format that I would like. The data consists of answers. Your task is to format this data in exactly the format specified below. \n\nData:"
-    system_prompt = "You are an precise and helpful assistant. You are given the following data and you need to format it precisely in the format described. Return nothing but the formatted data."
-
+    header = "下面我给你一些数据，它的格式不完全符合我要求的格式。这些数据包含了一些回答。你的任务是将这些数据精确地格式化为以下指定的格式。\n\n数据："
+    system_prompt = "你是一个精确且有帮助的助手。你将得到以下数据，你需要按照描述的格式精确地进行格式化。不要返回任何内容，只有格式化后的数据。"
+    
     # Generate prompts to LLM
     prompt = Prompt(
         system_prompt=system_prompt,
@@ -150,7 +150,7 @@ def reparse(path: str, outpath: str) -> None:
     
 
     model_config = ModelConfig(
-        name="gpt-4",
+        name="gpt-4o-mini-2024-07-18",
         provider="openai",
         max_workers=8,
         args={
@@ -188,17 +188,18 @@ def reparse(path: str, outpath: str) -> None:
                         if 'guess' in profile.predictions[model][feature]:
                             og_guess = profile.predictions[model][feature]['guess'].copy()
                             if len(og_guess) > 0:
-                                cat_guess = []
-                                edanswers = model_aided_education_map(og_guess, gen_model)
-                                for answer in edanswers:
-                                    indiv_answers = [
-                                        ans.strip() for ans in answer[1].split(";")
-                                    ]
-                                    if len(indiv_answers) != len(og_guess):
-                                        print(" size mismatch: ", indiv_answers)
-                                        indiv_answers = indiv_answers
-                                    for i in range(len(indiv_answers)):
-                                        cat_guess.append(indiv_answers[i])
+                                # cat_guess = []
+                                # edanswers = model_aided_education_map(og_guess, gen_model)
+                                # for answer in edanswers:
+                                #     indiv_answers = [
+                                #         ans.strip() for ans in answer[1].split(";")
+                                #     ]
+                                #     if len(indiv_answers) != len(og_guess):
+                                #         print(" size mismatch: ", indiv_answers)
+                                #         indiv_answers = indiv_answers
+                                #     for i in range(len(indiv_answers)):
+                                #         cat_guess.append(indiv_answers[i])
+                                cat_guess = og_guess
                                 profile.predictions[model][feature]['guess_category'] = cat_guess
                         else:
                             profile.predictions[model][feature]['guess_category'] = ['none', 'none', 'none']
@@ -286,9 +287,9 @@ def normalize(  # noqa: C901
     profiles: List[Profile] = []
 
     cheap_model_cfg = ModelConfig(
-        name="gpt-3.5-turbo-0613", provider="openai", args={"temperature": 0.0}
+        name="gpt-4o-mini-2024-07-18", provider="openai", args={"temperature": 0.0}
     )
-    cfg = ModelConfig(name="gpt-4", provider="openai", args={"temperature": 0.0})
+    cfg = ModelConfig(name="gpt-4o-mini-2024-07-18", provider="openai", args={"temperature": 0.0})
 
     cheap_fix_model = get_model(cheap_model_cfg)
     fix_model = get_model(cfg)
@@ -377,22 +378,23 @@ def normalize(  # noqa: C901
                             if 'guess' in profile.predictions[model][feature]:
                                 og_guess = profile.predictions[model][feature]['guess'].copy()
                                 if len(og_guess) > 0:
-                                    cat_guess = []
-                                    edanswers = model_aided_education_map(og_guess, fix_model)
-                                    for answer in edanswers:
-                                        indiv_answers = [
-                                            ans.strip() for ans in answer[1].split(";")
-                                        ]
-                                        if len(indiv_answers) != len(og_guess):
-                                            print(" size mismatch: ", indiv_answers)
-                                            indiv_answers = indiv_answers
-                                        for i in range(len(indiv_answers)):
-                                            cat_guess.append(indiv_answers[i])
+                                    # cat_guess = []
+                                    # edanswers = model_aided_education_map(og_guess, fix_model)
+                                    # for answer in edanswers:
+                                    #     indiv_answers = [
+                                    #         ans.strip() for ans in answer[1].split(";")
+                                    #     ]
+                                    #     if len(indiv_answers) != len(og_guess):
+                                    #         print(" size mismatch: ", indiv_answers)
+                                    #         indiv_answers = indiv_answers
+                                    #     for i in range(len(indiv_answers)):
+                                    #         cat_guess.append(indiv_answers[i])
+                                    cat_guess = og_guess
                                     profile.predictions[model][feature]['guess_category'] = cat_guess
                             else:
                                 profile.predictions[model][feature]['guess_category'] = ['none', 'none', 'none']
 
-                f.write(json.dumps(profile.to_json()) + "\n")
+                f.write(json.dumps(profile.to_json(), ensure_ascii=False) + "\n")
                 f.flush()
 
     if merge:
@@ -409,7 +411,7 @@ def normalize(  # noqa: C901
 
         with open(outpath, "w") as f:
             for profile in profiles:
-                f.write(json.dumps(profile.to_json()) + "\n")
+                f.write(json.dumps(profile.to_json(), ensure_ascii=False) + "\n")
                 f.flush()
 
 
@@ -523,7 +525,7 @@ def clean(in_path: str, outpath: str):
 
     with open(outpath, "w") as f:
         for profile in profiles:
-            f.write(json.dumps(profile.to_json()) + "\n")
+            f.write(json.dumps(profile.to_json(), ensure_ascii=False) + "\n")
             f.flush()
 
 

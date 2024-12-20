@@ -140,7 +140,7 @@ class Profile:
         return cls(username, comments, review_pii, predictions, evaluations)
 
     def to_file(self, file: TextIO) -> None:
-        file.write(json.dumps(self.to_json()) + "\n")
+        file.write(json.dumps(self.to_json(), ensure_ascii=False) + "\n")
         file.flush()
 
     def print(self, include_attributes: bool = True) -> None:
