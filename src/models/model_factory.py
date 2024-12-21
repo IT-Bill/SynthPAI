@@ -9,6 +9,7 @@ from .gcp.gcp_model import GCPModel
 from .together_model import TogetherModel
 from .anthropic_model import AnthropicModel
 from .zhipu_model import ZhipuModel
+from .deepseek_model import DeepseekModel
 
 
 def get_model(config: ModelConfig) -> BaseModel:
@@ -22,6 +23,8 @@ def get_model(config: ModelConfig) -> BaseModel:
         return AnthropicModel(config)
     elif config.provider == "zhipu":
         return ZhipuModel(config)
+    elif config.provider == "deepseek":
+        return DeepseekModel(config)
     elif config.provider == "gcp":
         return GCPModel(config)
     elif config.provider == "loc":
