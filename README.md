@@ -142,7 +142,11 @@ The user can further merge all experiment results into one file and calculate re
 
 ```bash
 bash scripts/merge.sh
+# python src/utils/merge.py --files data/thread/eval/Qwen2.5-7B-Chat/qwen2.5_7b_evaluated.jsonl --outpath data/synthpai_merged_evals.jsonl --merge_key username
+
 bash scripts/record_results.sh
+# python src/visualization/visualize_reddit.py --path data/thread/eval/Llama-3-8b/llama3-8b-chathf_evaluated.jsonl --folder stats --show_stats --model Llama-3-8b > predict_results/meta/llama3-8b.txt
+
 ```
 
 ---

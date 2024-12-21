@@ -5,7 +5,6 @@ from sortedcontainers import SortedDict
 
 
 def merge(a: dict, b: dict, path=[]):
-
     for key in b:
         if key in a:
             if isinstance(a[key], dict) and isinstance(b[key], dict):

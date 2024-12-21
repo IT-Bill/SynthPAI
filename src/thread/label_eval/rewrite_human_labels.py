@@ -25,7 +25,7 @@ model = get_model(config.gen_model)
 
 with open('data/thread/eval/eval_labels/eval_labels_against_gt.jsonl', 'r') as infile, open('data/thread/comments_eval_revised.jsonl', 'w') as outfile:
 
-    for line in infile:
+    for line in infile.readlines():
         data = json.loads(line)
         data['reviews']['human_evaluated'] = {}
         for feature, score in data['evaluations']['human'].items():

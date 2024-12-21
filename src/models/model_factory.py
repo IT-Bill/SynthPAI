@@ -8,6 +8,7 @@ from .hf_model import HFModel
 from .gcp.gcp_model import GCPModel
 from .together_model import TogetherModel
 from .anthropic_model import AnthropicModel
+from .zhipu_model import ZhipuModel
 
 
 def get_model(config: ModelConfig) -> BaseModel:
@@ -19,6 +20,8 @@ def get_model(config: ModelConfig) -> BaseModel:
         return TogetherModel(config)
     elif config.provider == "anthropic":
         return AnthropicModel(config)
+    elif config.provider == "zhipu":
+        return ZhipuModel(config)
     elif config.provider == "gcp":
         return GCPModel(config)
     elif config.provider == "loc":

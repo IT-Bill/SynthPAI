@@ -61,6 +61,11 @@ def filter_profiles(profiles: List[Profile], filter: Dict[str, int]) -> List[Pro
                         if i >= (len(profile.comments)-1):
                             while num_tokens_from_messages([c.text for c in profile.comments]) < (filter["num_tokens"]):
                                 print('removed labeled comment')
+                                
+                                if not profile.comments:  # 检查是否为空
+                                    print(f"No more comments to remove for profile {profile.username}")
+                                    break
+                                
                                 profile.comments.remove(profile.comments[0])
                             loop_flag = False
                                     
@@ -259,7 +264,10 @@ def parse_answer(  # noqa: C901
             key.lower() in ["guess", "猜测"]
         ):
             sub_key = "guess"
-            sval = [v.strip() for v in val.split(";")]  # type: ignore
+            if "；" in val: # 中文分号
+                sval = [v.strip() for v in val.split("；")]
+            else:
+                sval = [v.strip() for v in val.split(";")]  # type: ignore
             res_dict[type_key][sub_key] = sval
     print("RES DICT:", res_dict)
     print("PII TYPES:", pii_types)

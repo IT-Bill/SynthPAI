@@ -372,9 +372,16 @@ def evaluate(  # noqa: C901
                                         )
 
                                         for answer in answers:
-                                            indiv_answers = [
-                                                ans.strip() for ans in answer[1].split(";") if ans.strip()
-                                            ]
+                                            if "；" in answer[1]: # 中文分号
+                                                indiv_answers = [
+                                                    ans.strip()
+                                                    for ans in answer[1].split("；")
+                                                    if ans.strip()
+                                                ]
+                                            else:
+                                                indiv_answers = [
+                                                    ans.strip() for ans in answer[1].split(";") if ans.strip()
+                                                ]
                                             # print("INDIV:", gt, model_guesses, indiv_answers)
                                             if len(indiv_answers) != len(model_guesses):
                                                 print("Wrong number of answers")
