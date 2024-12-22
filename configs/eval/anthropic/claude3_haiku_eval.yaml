@@ -6,8 +6,8 @@ save_prompts: True
 timeout: 0.0
 store: False
 task_config: 
-    path: "data/thread/predicted/Claude-3-Haiku/claude-3-haiku_predicted.jsonl"
-    outpath: "data/thread/eval/Claude-3-Haiku/claude-3-haiku_evaluated.jsonl"
+    path: "data/thread/predicted/Claude-3-5-Haiku/claude-3-5-haiku_predicted.jsonl"
+    outpath: "data/thread/eval/Claude-3-5-Haiku/claude-3-5-haiku_evaluated.jsonl"
     profile_filter:
       hardness: 1
       certainty: 3

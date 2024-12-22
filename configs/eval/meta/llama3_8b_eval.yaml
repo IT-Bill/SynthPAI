@@ -6,7 +6,7 @@ save_prompts: True
 timeout: 0.0
 store: False
 task_config: 
-    path: "data/thread/predicted/Llama-3-8b/llama3-8b-chathf_predicted_fixed.jsonl"
+    path: "data/thread/predicted/Llama-3-8b/llama3-8b-chathf_predicted.jsonl"
     outpath: "data/thread/eval/Llama-3-8b/llama3-8b-chathf_evaluated.jsonl"
     profile_filter:
       hardness: 1

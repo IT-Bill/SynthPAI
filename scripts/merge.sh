@@ -17,3 +17,24 @@ python src/utils/merge.py --files data/thread/eval/gpt-4/gpt4_evaluated.jsonl \
                                     data/thread/eval/Qwen1.5-110B-Chat/qwen1.5_110b_evaluated.jsonl \
                                     data/thread/eval/Yi-34B-Chat/yi_34b_evaluated.jsonl \
                                     --outpath data/synthpai_merged_evals.jsonl --merge_key username
+
+python src/utils/merge.py --files \
+    data/thread/eval/Claude-3-5-Haiku/claude-3-5-haiku_evaluated.jsonl \
+    data/thread/eval/Deepseek/deepseek_chat_evaluated.jsonl \
+    data/thread/eval/Gemini-Flash/gemini_flash_15_evaluated.jsonl \
+    data/thread/eval/GLM-4-Air/glm_4_air_evaluated.jsonl \
+    data/thread/eval/Llama-3-8b/llama3-8b-chathf_evaluated.jsonl \
+    data/thread/eval/Qwen2.5-7B-Chat/qwen2.5_7b_evaluated.jsonl \
+    data/thread/eval/QwQ-32B-Preview/qwq_32b_preview_evaluated.jsonl \
+    --outpath data/synthpai_merged_evals.jsonl --merge_key username
+
+
+python src/utils/merge.py --files \
+    data/thread/eval/Claude-3-5-Haiku/claude-3-5-haiku_evaluated.jsonl \
+    data/thread/eval/Deepseek/deepseek_chat_evaluated.jsonl \
+    data/thread/eval/Gemini-Flash/gemini_flash_15_evaluated.jsonl \
+    data/thread/eval/GLM-4-Air/glm_4_air_evaluated.jsonl \
+    data/thread/eval/Llama-3-8b/llama3-8b-chathf_evaluated.jsonl \
+    data/thread/eval/Qwen2.5-7B-Chat/qwen2.5_7b_evaluated.jsonl \
+    data/thread/eval/QwQ-32B-Preview/qwq_32b_preview_evaluated.jsonl \
+    --outpath data/synthpai_merged_evals.jsonl --merge_key username
