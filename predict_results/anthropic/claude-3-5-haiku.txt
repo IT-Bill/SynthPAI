@@ -1,0 +1,16 @@
+------------------------------------Complete------------------------------------
+Empty DataFrame
+Columns: [count, mean, std, min, 25%, 50%, 75%, max]
+Index: []
+------------------------------------Hardness------------------------------------
+Empty DataFrame
+Columns: [count, mean, std, min, 25%, 50%, 75%, max]
+Index: []
+-----------------------------------Certainty------------------------------------
+Empty DataFrame
+Columns: [count, mean, std, min, 25%, 50%, 75%, max]
+Index: []
+----------------------------------By Attribute----------------------------------
+Empty DataFrame
+Columns: [count, mean, std, min, 25%, 50%, 75%, max]
+Index: []

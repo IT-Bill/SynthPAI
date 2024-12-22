@@ -1,3 +1,32 @@
+python src/visualization/visualize_reddit.py \
+    --path data/thread/eval/Claude-3-5-Haiku/claude-3-5-haiku_evaluated.jsonl \
+    --folder stats --show_stats --model Claude-3-5-Haiku > predict_results/Claude-3-5-Haiku.txt
+
+python src/visualization/visualize_reddit.py \
+    --path data/thread/eval/Deepseek/deepseek_chat_evaluated.jsonl \
+    --folder stats --show_stats --model Deepseek > predict_results/Deepseek-Chat.txt
+
+python src/visualization/visualize_reddit.py \
+    --path data/thread/eval/Gemini-Flash/gemini_flash_15_evaluated.jsonl \
+    --folder stats --show_stats --model Gemini-1.5-Flash > predict_results/Gemini-1.5-Flash.txt
+
+python src/visualization/visualize_reddit.py \
+    --path data/thread/eval/GLM-4-Air/glm_4_air_evaluated.jsonl \
+    --folder stats --show_stats --model GLM-4-Air > predict_results/GLM-4-Air.txt
+
+python src/visualization/visualize_reddit.py \
+    --path data/thread/eval/Llama-3-8b/llama3-8b-chathf_evaluated.jsonl \
+    --folder stats --show_stats --model Llama-3-8b > predict_results/Llama-3-8b.txt
+
+python src/visualization/visualize_reddit.py \
+    --path data/thread/eval/Qwen2.5-7B-Chat/qwen2.5_7b_evaluated.jsonl \
+    --folder stats --show_stats --model Qwen2.5-7B-Chat > predict_results/Qwen2.5-7B-Chat.txt
+
+python src/visualization/visualize_reddit.py \
+    --path data/thread/eval/QwQ-32B-Preview/qwq_32b_preview_evaluated.jsonl \
+    --folder stats --show_stats --model QwQ-32B-Preview > predict_results/QwQ-32B-Preview.txt
+
+
 python src/visualization/visualize_reddit.py --path data/thread/eval/gpt-4/gpt4_evaluated.jsonl --folder stats --show_stats --model GPT-4 > predict_results/openai/gpt-4.txt
 
 python src/visualization/visualize_reddit.py --path data/thread/eval/gpt-4/anonymized/gpt4_anon_evaluated.jsonl --folder stats --show_stats --model GPT-4 > predict_results/openai/gpt-4-anonymized.txt

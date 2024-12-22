@@ -35,14 +35,19 @@ map_model_name = {
     "claude-3-opus-20240229": "Claude-3-Opus",
     "claude-3-sonnet-20240229": "Claude-3-Sonnet",
     "claude-3-haiku-20240307": "Claude-3-Haiku",
+    "claude-3-5-haiku": "Claude-3-5-Haiku",
     "claude-2.1": "Claude-2.1",
     # "Qwen/Qwen1.5-110B-Chat": "Qwen1.5-110B",
-    "TA/Qwen/Qwen2.5-7B-Instruct-Turbo": "Qwen2.5-7B",
     "zero-one-ai/Yi-34B-Chat": "Yi-34B",
     "google/gemma-7b-it": "Gemma-7B",
     "gemini-1.5-pro": "Gemini-1.5-Pro",
     "gemini-1.0-pro": "Gemini-Pro",
     "claude-2.1": "Claude-2.1",
+    "deepseek-chat": "Deepseek",
+    "gemini-1.5-flash-latest": "Gemini-1.5-Flash",
+    "glm-4-air": "GLM-4-Air",
+    "TA/Qwen/Qwen2.5-7B-Instruct-Turbo": "Qwen2.5-7B-Chat",
+    "TA/Qwen/QwQ-32B-Preview": "QwQ-32B-Preview",
 }
 
 sorted_attributes = [
