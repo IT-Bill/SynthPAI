@@ -328,6 +328,9 @@ def get_specfic_stats(
 
     print("By Attribute".center(80, "-"))
     print(attribute)
+    
+    print(hardness.to_dict())
+    print(attribute.to_dict())
 
 
 def plot_dataset(path: str, target_attr: str = "all"):

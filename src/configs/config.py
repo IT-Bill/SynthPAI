@@ -4,12 +4,15 @@ from typing import Any, Dict, List, Optional
 from pydantic import BaseModel as PBM
 from pydantic import Extra, Field
 
+import warnings
+warnings.filterwarnings("ignore", message=r'.*Field "model_template".*')
 
 class Task(Enum):
     THREAD = "THREAD"
     GENSTYLETHREAD = "GENSTYLETHREAD"
     EVAL = "EVAL"
     EVALLabels = "EVALLabels"
+
 
 
 class ModelConfig(PBM):
