@@ -179,8 +179,10 @@ def evaluate(  # noqa: C901
     total_correct = [0] * width
     ctr = 0
 
-    with SafeOpen(config.outpath) as f:
-        offset = len(f.lines)
+    # with SafeOpen(config.outpath) as f:
+    #     offset = len(f.lines)
+    with open(config.outpath, "w", encoding="utf-8") as f:
+        offset = 0
         for profile in tqdm(
             profiles[offset:],
             desc="Evaluating",

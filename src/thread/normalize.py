@@ -303,8 +303,10 @@ def normalize(  # noqa: C901
 
     if fix:
         # We fix the profiles which have strange guesses
-        with SafeOpen(outpath) as f:  # Safe load
-            start_idx = len(f.lines)
+        # with SafeOpen(outpath) as f:  # Safe load
+        with open(outpath, "w", encoding="utf-8") as f:
+            # start_idx = len(f.lines)
+            start_idx = 0
             for i, profile in tqdm(enumerate(profiles[start_idx:])):
                 expected_pii = [list(v.keys()) for v in profile.review_pii.values()]
                 expected_pii = [pii for sublist in expected_pii for pii in sublist]
