@@ -39,3 +39,8 @@ python main.py --config_path configs/eval/mistralai/mixtral_8x22b_instruct_eval.
 # Qwen-1.5-110b predict+eval+prepare output for eval
 python main.py --config_path configs/eval/together/qwen1.5_110b_predict.yaml
 python main.py --config_path configs/eval/together/qwen1.5_110b_eval.yaml
+
+# QwQ
+# [479, 64.0, 25.25, 0, 0, 0, 0, 0, 0, 0]
+
+python src/visualization/visualize_reddit.py --path data/thread/eval/QwQ-32B-Preview/qwq_32b_preview_evaluated.jsonl --folder stats --show_stats --model QwQ-32B-Preview > predict_results/QwQ-32B-Preview.txt

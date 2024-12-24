@@ -1,156 +1,156 @@
 ------------------------------------Complete------------------------------------
                                                         count      mean  \
 model           attribute           hardness certainty                    
-QwQ-32B-Preview Age                 1        4           13.0  0.615385   
-                                    3        3           72.0  0.750000   
-                                             4           27.0  0.481481   
+QwQ-32B-Preview Age                 1        4           13.0  0.769231   
+                                    3        3           72.0  0.805556   
+                                             4           27.0  0.592593   
                                     5        3            2.0  1.000000   
-                Education           1        4           14.0  0.500000   
-                                             5            9.0  0.333333   
-                                    3        3          132.0  0.469697   
-                                             4           23.0  0.434783   
-                Income Level        1        4            4.0  0.250000   
+                Education           1        4           14.0  0.571429   
+                                             5            9.0  0.555556   
+                                    3        3          132.0  0.537879   
+                                             4           23.0  0.565217   
+                Income Level        1        4            4.0  0.000000   
                                              5            2.0  1.000000   
-                                    3        3           58.0  0.431034   
-                                             4           22.0  0.363636   
+                                    3        3           58.0  0.465517   
+                                             4           22.0  0.500000   
                 Location            1        4            1.0  1.000000   
                                     3        3            2.0  0.500000   
-                Occupation          1        4           43.0  0.465116   
-                                             5           22.0  0.409091   
+                Occupation          1        4           43.0  0.488372   
+                                             5           22.0  0.636364   
                                     3        3            9.0  0.444444   
-                                             4           13.0  0.230769   
-                Relationship Status 1        4           13.0  0.461538   
-                                             5           25.0  0.760000   
-                                    3        3           50.0  0.360000   
-                                             4           17.0  0.529412   
-                Sex                 1        4           23.0  0.521739   
+                                             4           13.0  0.307692   
+                Relationship Status 1        4           13.0  0.769231   
+                                             5           25.0  0.880000   
+                                    3        3           50.0  0.460000   
+                                             4           17.0  0.705882   
+                Sex                 1        4           23.0  0.652174   
                                              5            4.0  1.000000   
-                                    3        3           58.0  0.689655   
-                                             4           13.0  0.461538   
+                                    3        3           58.0  0.672414   
+                                             4           13.0  0.538462   
 
                                                              std  min   25%  \
 model           attribute           hardness certainty                        
-QwQ-32B-Preview Age                 1        4          0.506370  0.0  0.00   
-                                    3        3          0.436051  0.0  0.75   
-                                             4          0.509175  0.0  0.00   
+QwQ-32B-Preview Age                 1        4          0.438529  0.0  1.00   
+                                    3        3          0.398550  0.0  1.00   
+                                             4          0.500712  0.0  0.00   
                                     5        3          0.000000  1.0  1.00   
-                Education           1        4          0.518875  0.0  0.00   
-                                             5          0.500000  0.0  0.00   
-                                    3        3          0.500982  0.0  0.00   
+                Education           1        4          0.513553  0.0  0.00   
+                                             5          0.527046  0.0  0.00   
+                                    3        3          0.500462  0.0  0.00   
                                              4          0.506870  0.0  0.00   
-                Income Level        1        4          0.500000  0.0  0.00   
+                Income Level        1        4          0.000000  0.0  0.00   
                                              5          0.000000  1.0  1.00   
-                                    3        3          0.499546  0.0  0.00   
-                                             4          0.492366  0.0  0.00   
+                                    3        3          0.503166  0.0  0.00   
+                                             4          0.511766  0.0  0.00   
                 Location            1        4               NaN  1.0  1.00   
                                     3        3          0.707107  0.0  0.25   
-                Occupation          1        4          0.504685  0.0  0.00   
-                                             5          0.503236  0.0  0.00   
+                Occupation          1        4          0.505781  0.0  0.00   
+                                             5          0.492366  0.0  0.00   
                                     3        3          0.527046  0.0  0.00   
-                                             4          0.438529  0.0  0.00   
-                Relationship Status 1        4          0.518875  0.0  0.00   
-                                             5          0.435890  0.0  1.00   
-                                    3        3          0.484873  0.0  0.00   
-                                             4          0.514496  0.0  0.00   
-                Sex                 1        4          0.510754  0.0  0.00   
+                                             4          0.480384  0.0  0.00   
+                Relationship Status 1        4          0.438529  0.0  1.00   
+                                             5          0.331662  0.0  1.00   
+                                    3        3          0.503457  0.0  0.00   
+                                             4          0.469668  0.0  0.00   
+                Sex                 1        4          0.486985  0.0  0.00   
                                              5          0.000000  1.0  1.00   
-                                    3        3          0.466675  0.0  0.00   
+                                    3        3          0.473432  0.0  0.00   
                                              4          0.518875  0.0  0.00   
 
                                                         50%   75%  max  
 model           attribute           hardness certainty                  
 QwQ-32B-Preview Age                 1        4          1.0  1.00  1.0  
                                     3        3          1.0  1.00  1.0  
-                                             4          0.0  1.00  1.0  
+                                             4          1.0  1.00  1.0  
                                     5        3          1.0  1.00  1.0  
-                Education           1        4          0.5  1.00  1.0  
-                                             5          0.0  1.00  1.0  
-                                    3        3          0.0  1.00  1.0  
-                                             4          0.0  1.00  1.0  
-                Income Level        1        4          0.0  0.25  1.0  
+                Education           1        4          1.0  1.00  1.0  
+                                             5          1.0  1.00  1.0  
+                                    3        3          1.0  1.00  1.0  
+                                             4          1.0  1.00  1.0  
+                Income Level        1        4          0.0  0.00  0.0  
                                              5          1.0  1.00  1.0  
                                     3        3          0.0  1.00  1.0  
-                                             4          0.0  1.00  1.0  
+                                             4          0.5  1.00  1.0  
                 Location            1        4          1.0  1.00  1.0  
                                     3        3          0.5  0.75  1.0  
                 Occupation          1        4          0.0  1.00  1.0  
-                                             5          0.0  1.00  1.0  
+                                             5          1.0  1.00  1.0  
                                     3        3          0.0  1.00  1.0  
-                                             4          0.0  0.00  1.0  
-                Relationship Status 1        4          0.0  1.00  1.0  
+                                             4          0.0  1.00  1.0  
+                Relationship Status 1        4          1.0  1.00  1.0  
                                              5          1.0  1.00  1.0  
                                     3        3          0.0  1.00  1.0  
                                              4          1.0  1.00  1.0  
                 Sex                 1        4          1.0  1.00  1.0  
                                              5          1.0  1.00  1.0  
                                     3        3          1.0  1.00  1.0  
-                                             4          0.0  1.00  1.0  
+                                             4          1.0  1.00  1.0  
 ------------------------------------Hardness------------------------------------
                                               count      mean       std  min  \
 model           attribute           hardness                                   
-QwQ-32B-Preview Age                 1          13.0  0.615385  0.506370  0.0   
-                                    3          99.0  0.676768  0.470091  0.0   
+QwQ-32B-Preview Age                 1          13.0  0.769231  0.438529  0.0   
+                                    3          99.0  0.747475  0.436672  0.0   
                                     5           2.0  1.000000  0.000000  1.0   
-                Education           1          23.0  0.434783  0.506870  0.0   
-                                    3         155.0  0.464516  0.500356  0.0   
-                Income Level        1           6.0  0.500000  0.547723  0.0   
-                                    3          80.0  0.412500  0.495390  0.0   
+                Education           1          23.0  0.565217  0.506870  0.0   
+                                    3         155.0  0.541935  0.499853  0.0   
+                Income Level        1           6.0  0.333333  0.516398  0.0   
+                                    3          80.0  0.475000  0.502525  0.0   
                 Location            1           1.0  1.000000       NaN  1.0   
                                     3           2.0  0.500000  0.707107  0.0   
-                Occupation          1          65.0  0.446154  0.500961  0.0   
-                                    3          22.0  0.318182  0.476731  0.0   
-                Relationship Status 1          38.0  0.657895  0.480783  0.0   
-                                    3          67.0  0.402985  0.494200  0.0   
-                Sex                 1          27.0  0.592593  0.500712  0.0   
+                Occupation          1          65.0  0.538462  0.502398  0.0   
+                                    3          22.0  0.363636  0.492366  0.0   
+                Relationship Status 1          38.0  0.842105  0.369537  0.0   
+                                    3          67.0  0.522388  0.503268  0.0   
+                Sex                 1          27.0  0.703704  0.465322  0.0   
                                     3          71.0  0.647887  0.481028  0.0   
 
                                                25%  50%   75%  max  
 model           attribute           hardness                        
-QwQ-32B-Preview Age                 1         0.00  1.0  1.00  1.0  
-                                    3         0.00  1.0  1.00  1.0  
+QwQ-32B-Preview Age                 1         1.00  1.0  1.00  1.0  
+                                    3         0.50  1.0  1.00  1.0  
                                     5         1.00  1.0  1.00  1.0  
-                Education           1         0.00  0.0  1.00  1.0  
-                                    3         0.00  0.0  1.00  1.0  
-                Income Level        1         0.00  0.5  1.00  1.0  
+                Education           1         0.00  1.0  1.00  1.0  
+                                    3         0.00  1.0  1.00  1.0  
+                Income Level        1         0.00  0.0  0.75  1.0  
                                     3         0.00  0.0  1.00  1.0  
                 Location            1         1.00  1.0  1.00  1.0  
                                     3         0.25  0.5  0.75  1.0  
-                Occupation          1         0.00  0.0  1.00  1.0  
+                Occupation          1         0.00  1.0  1.00  1.0  
                                     3         0.00  0.0  1.00  1.0  
-                Relationship Status 1         0.00  1.0  1.00  1.0  
-                                    3         0.00  0.0  1.00  1.0  
+                Relationship Status 1         1.00  1.0  1.00  1.0  
+                                    3         0.00  1.0  1.00  1.0  
                 Sex                 1         0.00  1.0  1.00  1.0  
                                     3         0.00  1.0  1.00  1.0  
 -----------------------------------Certainty------------------------------------
                                                count      mean       std  min  \
 model           attribute           certainty                                   
-QwQ-32B-Preview Age                 3           74.0  0.756757  0.431969  0.0   
-                                    4           40.0  0.525000  0.505736  0.0   
-                Education           3          132.0  0.469697  0.500982  0.0   
-                                    4           37.0  0.459459  0.505228  0.0   
-                                    5            9.0  0.333333  0.500000  0.0   
-                Income Level        3           58.0  0.431034  0.499546  0.0   
-                                    4           26.0  0.346154  0.485165  0.0   
+QwQ-32B-Preview Age                 3           74.0  0.810811  0.394332  0.0   
+                                    4           40.0  0.650000  0.483046  0.0   
+                Education           3          132.0  0.537879  0.500462  0.0   
+                                    4           37.0  0.567568  0.502247  0.0   
+                                    5            9.0  0.555556  0.527046  0.0   
+                Income Level        3           58.0  0.465517  0.503166  0.0   
+                                    4           26.0  0.423077  0.503831  0.0   
                                     5            2.0  1.000000  0.000000  1.0   
                 Location            3            2.0  0.500000  0.707107  0.0   
                                     4            1.0  1.000000       NaN  1.0   
                 Occupation          3            9.0  0.444444  0.527046  0.0   
-                                    4           56.0  0.410714  0.496416  0.0   
-                                    5           22.0  0.409091  0.503236  0.0   
-                Relationship Status 3           50.0  0.360000  0.484873  0.0   
-                                    4           30.0  0.500000  0.508548  0.0   
-                                    5           25.0  0.760000  0.435890  0.0   
-                Sex                 3           58.0  0.689655  0.466675  0.0   
-                                    4           36.0  0.500000  0.507093  0.0   
+                                    4           56.0  0.446429  0.501621  0.0   
+                                    5           22.0  0.636364  0.492366  0.0   
+                Relationship Status 3           50.0  0.460000  0.503457  0.0   
+                                    4           30.0  0.733333  0.449776  0.0   
+                                    5           25.0  0.880000  0.331662  0.0   
+                Sex                 3           58.0  0.672414  0.473432  0.0   
+                                    4           36.0  0.611111  0.494413  0.0   
                                     5            4.0  1.000000  0.000000  1.0   
 
                                                 25%  50%   75%  max  
 model           attribute           certainty                        
 QwQ-32B-Preview Age                 3          1.00  1.0  1.00  1.0  
                                     4          0.00  1.0  1.00  1.0  
-                Education           3          0.00  0.0  1.00  1.0  
-                                    4          0.00  0.0  1.00  1.0  
-                                    5          0.00  0.0  1.00  1.0  
+                Education           3          0.00  1.0  1.00  1.0  
+                                    4          0.00  1.0  1.00  1.0  
+                                    5          0.00  1.0  1.00  1.0  
                 Income Level        3          0.00  0.0  1.00  1.0  
                                     4          0.00  0.0  1.00  1.0  
                                     5          1.00  1.0  1.00  1.0  
@@ -158,23 +158,23 @@ QwQ-32B-Preview Age                 3          1.00  1.0  1.00  1.0
                                     4          1.00  1.0  1.00  1.0  
                 Occupation          3          0.00  0.0  1.00  1.0  
                                     4          0.00  0.0  1.00  1.0  
-                                    5          0.00  0.0  1.00  1.0  
+                                    5          0.00  1.0  1.00  1.0  
                 Relationship Status 3          0.00  0.0  1.00  1.0  
-                                    4          0.00  0.5  1.00  1.0  
+                                    4          0.25  1.0  1.00  1.0  
                                     5          1.00  1.0  1.00  1.0  
                 Sex                 3          0.00  1.0  1.00  1.0  
-                                    4          0.00  0.5  1.00  1.0  
+                                    4          0.00  1.0  1.00  1.0  
                                     5          1.00  1.0  1.00  1.0  
 ----------------------------------By Attribute----------------------------------
                                      count      mean       std  min  25%  50%  \
 model           attribute                                                       
-QwQ-32B-Preview Age                  114.0  0.675439  0.470278  0.0  0.0  1.0   
-                Education            178.0  0.460674  0.499857  0.0  0.0  0.0   
-                Income Level          86.0  0.418605  0.496224  0.0  0.0  0.0   
+QwQ-32B-Preview Age                  114.0  0.754386  0.432351  0.0  1.0  1.0   
+                Education            178.0  0.544944  0.499381  0.0  0.0  1.0   
+                Income Level          86.0  0.465116  0.501707  0.0  0.0  0.0   
                 Location               3.0  0.666667  0.577350  0.0  0.5  1.0   
-                Occupation            87.0  0.413793  0.495367  0.0  0.0  0.0   
-                Relationship Status  105.0  0.495238  0.502375  0.0  0.0  0.0   
-                Sex                   98.0  0.632653  0.484561  0.0  0.0  1.0   
+                Occupation            87.0  0.494253  0.502865  0.0  0.0  0.0   
+                Relationship Status  105.0  0.638095  0.482856  0.0  0.0  1.0   
+                Sex                   98.0  0.663265  0.475023  0.0  0.0  1.0   
 
                                      75%  max  
 model           attribute                      
@@ -185,5 +185,5 @@ QwQ-32B-Preview Age                  1.0  1.0
                 Occupation           1.0  1.0  
                 Relationship Status  1.0  1.0  
                 Sex                  1.0  1.0  
-{'count': {('QwQ-32B-Preview', 'Age', 1): 13.0, ('QwQ-32B-Preview', 'Age', 3): 99.0, ('QwQ-32B-Preview', 'Age', 5): 2.0, ('QwQ-32B-Preview', 'Education', 1): 23.0, ('QwQ-32B-Preview', 'Education', 3): 155.0, ('QwQ-32B-Preview', 'Income Level', 1): 6.0, ('QwQ-32B-Preview', 'Income Level', 3): 80.0, ('QwQ-32B-Preview', 'Location', 1): 1.0, ('QwQ-32B-Preview', 'Location', 3): 2.0, ('QwQ-32B-Preview', 'Occupation', 1): 65.0, ('QwQ-32B-Preview', 'Occupation', 3): 22.0, ('QwQ-32B-Preview', 'Relationship Status', 1): 38.0, ('QwQ-32B-Preview', 'Relationship Status', 3): 67.0, ('QwQ-32B-Preview', 'Sex', 1): 27.0, ('QwQ-32B-Preview', 'Sex', 3): 71.0}, 'mean': {('QwQ-32B-Preview', 'Age', 1): 0.6153846153846154, ('QwQ-32B-Preview', 'Age', 3): 0.6767676767676768, ('QwQ-32B-Preview', 'Age', 5): 1.0, ('QwQ-32B-Preview', 'Education', 1): 0.43478260869565216, ('QwQ-32B-Preview', 'Education', 3): 0.4645161290322581, ('QwQ-32B-Preview', 'Income Level', 1): 0.5, ('QwQ-32B-Preview', 'Income Level', 3): 0.4125, ('QwQ-32B-Preview', 'Location', 1): 1.0, ('QwQ-32B-Preview', 'Location', 3): 0.5, ('QwQ-32B-Preview', 'Occupation', 1): 0.4461538461538462, ('QwQ-32B-Preview', 'Occupation', 3): 0.3181818181818182, ('QwQ-32B-Preview', 'Relationship Status', 1): 0.6578947368421053, ('QwQ-32B-Preview', 'Relationship Status', 3): 0.40298507462686567, ('QwQ-32B-Preview', 'Sex', 1): 0.5925925925925926, ('QwQ-32B-Preview', 'Sex', 3): 0.647887323943662}, 'std': {('QwQ-32B-Preview', 'Age', 1): 0.5063696835418334, ('QwQ-32B-Preview', 'Age', 3): 0.47009080382677837, ('QwQ-32B-Preview', 'Age', 5): 0.0, ('QwQ-32B-Preview', 'Education', 1): 0.5068698018697019, ('QwQ-32B-Preview', 'Education', 3): 0.5003559688035976, ('QwQ-32B-Preview', 'Income Level', 1): 0.5477225575051661, ('QwQ-32B-Preview', 'Income Level', 3): 0.495390141610694, ('QwQ-32B-Preview', 'Location', 1): nan, ('QwQ-32B-Preview', 'Location', 3): 0.7071067811865476, ('QwQ-32B-Preview', 'Occupation', 1): 0.5009606156790557, ('QwQ-32B-Preview', 'Occupation', 3): 0.4767312946227962, ('QwQ-32B-Preview', 'Relationship Status', 1): 0.48078290821993197, ('QwQ-32B-Preview', 'Relationship Status', 3): 0.4941997354933899, ('QwQ-32B-Preview', 'Sex', 1): 0.5007117441325404, ('QwQ-32B-Preview', 'Sex', 3): 0.48102840870356034}, 'min': {('QwQ-32B-Preview', 'Age', 1): 0.0, ('QwQ-32B-Preview', 'Age', 3): 0.0, ('QwQ-32B-Preview', 'Age', 5): 1.0, ('QwQ-32B-Preview', 'Education', 1): 0.0, ('QwQ-32B-Preview', 'Education', 3): 0.0, ('QwQ-32B-Preview', 'Income Level', 1): 0.0, ('QwQ-32B-Preview', 'Income Level', 3): 0.0, ('QwQ-32B-Preview', 'Location', 1): 1.0, ('QwQ-32B-Preview', 'Location', 3): 0.0, ('QwQ-32B-Preview', 'Occupation', 1): 0.0, ('QwQ-32B-Preview', 'Occupation', 3): 0.0, ('QwQ-32B-Preview', 'Relationship Status', 1): 0.0, ('QwQ-32B-Preview', 'Relationship Status', 3): 0.0, ('QwQ-32B-Preview', 'Sex', 1): 0.0, ('QwQ-32B-Preview', 'Sex', 3): 0.0}, '25%': {('QwQ-32B-Preview', 'Age', 1): 0.0, ('QwQ-32B-Preview', 'Age', 3): 0.0, ('QwQ-32B-Preview', 'Age', 5): 1.0, ('QwQ-32B-Preview', 'Education', 1): 0.0, ('QwQ-32B-Preview', 'Education', 3): 0.0, ('QwQ-32B-Preview', 'Income Level', 1): 0.0, ('QwQ-32B-Preview', 'Income Level', 3): 0.0, ('QwQ-32B-Preview', 'Location', 1): 1.0, ('QwQ-32B-Preview', 'Location', 3): 0.25, ('QwQ-32B-Preview', 'Occupation', 1): 0.0, ('QwQ-32B-Preview', 'Occupation', 3): 0.0, ('QwQ-32B-Preview', 'Relationship Status', 1): 0.0, ('QwQ-32B-Preview', 'Relationship Status', 3): 0.0, ('QwQ-32B-Preview', 'Sex', 1): 0.0, ('QwQ-32B-Preview', 'Sex', 3): 0.0}, '50%': {('QwQ-32B-Preview', 'Age', 1): 1.0, ('QwQ-32B-Preview', 'Age', 3): 1.0, ('QwQ-32B-Preview', 'Age', 5): 1.0, ('QwQ-32B-Preview', 'Education', 1): 0.0, ('QwQ-32B-Preview', 'Education', 3): 0.0, ('QwQ-32B-Preview', 'Income Level', 1): 0.5, ('QwQ-32B-Preview', 'Income Level', 3): 0.0, ('QwQ-32B-Preview', 'Location', 1): 1.0, ('QwQ-32B-Preview', 'Location', 3): 0.5, ('QwQ-32B-Preview', 'Occupation', 1): 0.0, ('QwQ-32B-Preview', 'Occupation', 3): 0.0, ('QwQ-32B-Preview', 'Relationship Status', 1): 1.0, ('QwQ-32B-Preview', 'Relationship Status', 3): 0.0, ('QwQ-32B-Preview', 'Sex', 1): 1.0, ('QwQ-32B-Preview', 'Sex', 3): 1.0}, '75%': {('QwQ-32B-Preview', 'Age', 1): 1.0, ('QwQ-32B-Preview', 'Age', 3): 1.0, ('QwQ-32B-Preview', 'Age', 5): 1.0, ('QwQ-32B-Preview', 'Education', 1): 1.0, ('QwQ-32B-Preview', 'Education', 3): 1.0, ('QwQ-32B-Preview', 'Income Level', 1): 1.0, ('QwQ-32B-Preview', 'Income Level', 3): 1.0, ('QwQ-32B-Preview', 'Location', 1): 1.0, ('QwQ-32B-Preview', 'Location', 3): 0.75, ('QwQ-32B-Preview', 'Occupation', 1): 1.0, ('QwQ-32B-Preview', 'Occupation', 3): 1.0, ('QwQ-32B-Preview', 'Relationship Status', 1): 1.0, ('QwQ-32B-Preview', 'Relationship Status', 3): 1.0, ('QwQ-32B-Preview', 'Sex', 1): 1.0, ('QwQ-32B-Preview', 'Sex', 3): 1.0}, 'max': {('QwQ-32B-Preview', 'Age', 1): 1.0, ('QwQ-32B-Preview', 'Age', 3): 1.0, ('QwQ-32B-Preview', 'Age', 5): 1.0, ('QwQ-32B-Preview', 'Education', 1): 1.0, ('QwQ-32B-Preview', 'Education', 3): 1.0, ('QwQ-32B-Preview', 'Income Level', 1): 1.0, ('QwQ-32B-Preview', 'Income Level', 3): 1.0, ('QwQ-32B-Preview', 'Location', 1): 1.0, ('QwQ-32B-Preview', 'Location', 3): 1.0, ('QwQ-32B-Preview', 'Occupation', 1): 1.0, ('QwQ-32B-Preview', 'Occupation', 3): 1.0, ('QwQ-32B-Preview', 'Relationship Status', 1): 1.0, ('QwQ-32B-Preview', 'Relationship Status', 3): 1.0, ('QwQ-32B-Preview', 'Sex', 1): 1.0, ('QwQ-32B-Preview', 'Sex', 3): 1.0}}
-{'count': {('QwQ-32B-Preview', 'Age'): 114.0, ('QwQ-32B-Preview', 'Education'): 178.0, ('QwQ-32B-Preview', 'Income Level'): 86.0, ('QwQ-32B-Preview', 'Location'): 3.0, ('QwQ-32B-Preview', 'Occupation'): 87.0, ('QwQ-32B-Preview', 'Relationship Status'): 105.0, ('QwQ-32B-Preview', 'Sex'): 98.0}, 'mean': {('QwQ-32B-Preview', 'Age'): 0.6754385964912281, ('QwQ-32B-Preview', 'Education'): 0.4606741573033708, ('QwQ-32B-Preview', 'Income Level'): 0.4186046511627907, ('QwQ-32B-Preview', 'Location'): 0.6666666666666666, ('QwQ-32B-Preview', 'Occupation'): 0.41379310344827586, ('QwQ-32B-Preview', 'Relationship Status'): 0.49523809523809526, ('QwQ-32B-Preview', 'Sex'): 0.6326530612244898}, 'std': {('QwQ-32B-Preview', 'Age'): 0.47027790757756743, ('QwQ-32B-Preview', 'Education'): 0.4998571496566247, ('QwQ-32B-Preview', 'Income Level'): 0.4962237701841368, ('QwQ-32B-Preview', 'Location'): 0.5773502691896258, ('QwQ-32B-Preview', 'Occupation'): 0.49536747313510254, ('QwQ-32B-Preview', 'Relationship Status'): 0.5023753102820169, ('QwQ-32B-Preview', 'Sex'): 0.4845607023571793}, 'min': {('QwQ-32B-Preview', 'Age'): 0.0, ('QwQ-32B-Preview', 'Education'): 0.0, ('QwQ-32B-Preview', 'Income Level'): 0.0, ('QwQ-32B-Preview', 'Location'): 0.0, ('QwQ-32B-Preview', 'Occupation'): 0.0, ('QwQ-32B-Preview', 'Relationship Status'): 0.0, ('QwQ-32B-Preview', 'Sex'): 0.0}, '25%': {('QwQ-32B-Preview', 'Age'): 0.0, ('QwQ-32B-Preview', 'Education'): 0.0, ('QwQ-32B-Preview', 'Income Level'): 0.0, ('QwQ-32B-Preview', 'Location'): 0.5, ('QwQ-32B-Preview', 'Occupation'): 0.0, ('QwQ-32B-Preview', 'Relationship Status'): 0.0, ('QwQ-32B-Preview', 'Sex'): 0.0}, '50%': {('QwQ-32B-Preview', 'Age'): 1.0, ('QwQ-32B-Preview', 'Education'): 0.0, ('QwQ-32B-Preview', 'Income Level'): 0.0, ('QwQ-32B-Preview', 'Location'): 1.0, ('QwQ-32B-Preview', 'Occupation'): 0.0, ('QwQ-32B-Preview', 'Relationship Status'): 0.0, ('QwQ-32B-Preview', 'Sex'): 1.0}, '75%': {('QwQ-32B-Preview', 'Age'): 1.0, ('QwQ-32B-Preview', 'Education'): 1.0, ('QwQ-32B-Preview', 'Income Level'): 1.0, ('QwQ-32B-Preview', 'Location'): 1.0, ('QwQ-32B-Preview', 'Occupation'): 1.0, ('QwQ-32B-Preview', 'Relationship Status'): 1.0, ('QwQ-32B-Preview', 'Sex'): 1.0}, 'max': {('QwQ-32B-Preview', 'Age'): 1.0, ('QwQ-32B-Preview', 'Education'): 1.0, ('QwQ-32B-Preview', 'Income Level'): 1.0, ('QwQ-32B-Preview', 'Location'): 1.0, ('QwQ-32B-Preview', 'Occupation'): 1.0, ('QwQ-32B-Preview', 'Relationship Status'): 1.0, ('QwQ-32B-Preview', 'Sex'): 1.0}}
+{'count': {('QwQ-32B-Preview', 'Age', 1): 13.0, ('QwQ-32B-Preview', 'Age', 3): 99.0, ('QwQ-32B-Preview', 'Age', 5): 2.0, ('QwQ-32B-Preview', 'Education', 1): 23.0, ('QwQ-32B-Preview', 'Education', 3): 155.0, ('QwQ-32B-Preview', 'Income Level', 1): 6.0, ('QwQ-32B-Preview', 'Income Level', 3): 80.0, ('QwQ-32B-Preview', 'Location', 1): 1.0, ('QwQ-32B-Preview', 'Location', 3): 2.0, ('QwQ-32B-Preview', 'Occupation', 1): 65.0, ('QwQ-32B-Preview', 'Occupation', 3): 22.0, ('QwQ-32B-Preview', 'Relationship Status', 1): 38.0, ('QwQ-32B-Preview', 'Relationship Status', 3): 67.0, ('QwQ-32B-Preview', 'Sex', 1): 27.0, ('QwQ-32B-Preview', 'Sex', 3): 71.0}, 'mean': {('QwQ-32B-Preview', 'Age', 1): 0.7692307692307693, ('QwQ-32B-Preview', 'Age', 3): 0.7474747474747475, ('QwQ-32B-Preview', 'Age', 5): 1.0, ('QwQ-32B-Preview', 'Education', 1): 0.5652173913043478, ('QwQ-32B-Preview', 'Education', 3): 0.5419354838709678, ('QwQ-32B-Preview', 'Income Level', 1): 0.3333333333333333, ('QwQ-32B-Preview', 'Income Level', 3): 0.475, ('QwQ-32B-Preview', 'Location', 1): 1.0, ('QwQ-32B-Preview', 'Location', 3): 0.5, ('QwQ-32B-Preview', 'Occupation', 1): 0.5384615384615384, ('QwQ-32B-Preview', 'Occupation', 3): 0.36363636363636365, ('QwQ-32B-Preview', 'Relationship Status', 1): 0.8421052631578947, ('QwQ-32B-Preview', 'Relationship Status', 3): 0.5223880597014925, ('QwQ-32B-Preview', 'Sex', 1): 0.7037037037037037, ('QwQ-32B-Preview', 'Sex', 3): 0.647887323943662}, 'std': {('QwQ-32B-Preview', 'Age', 1): 0.4385290096535146, ('QwQ-32B-Preview', 'Age', 3): 0.4366718831565371, ('QwQ-32B-Preview', 'Age', 5): 0.0, ('QwQ-32B-Preview', 'Education', 1): 0.5068698018697018, ('QwQ-32B-Preview', 'Education', 3): 0.49985335092806754, ('QwQ-32B-Preview', 'Income Level', 1): 0.5163977794943223, ('QwQ-32B-Preview', 'Income Level', 3): 0.5025252685881781, ('QwQ-32B-Preview', 'Location', 1): nan, ('QwQ-32B-Preview', 'Location', 3): 0.7071067811865476, ('QwQ-32B-Preview', 'Occupation', 1): 0.5023980952928128, ('QwQ-32B-Preview', 'Occupation', 3): 0.4923659639173309, ('QwQ-32B-Preview', 'Relationship Status', 1): 0.36953702147663214, ('QwQ-32B-Preview', 'Relationship Status', 3): 0.5032683769612476, ('QwQ-32B-Preview', 'Sex', 1): 0.4653216269680751, ('QwQ-32B-Preview', 'Sex', 3): 0.48102840870356034}, 'min': {('QwQ-32B-Preview', 'Age', 1): 0.0, ('QwQ-32B-Preview', 'Age', 3): 0.0, ('QwQ-32B-Preview', 'Age', 5): 1.0, ('QwQ-32B-Preview', 'Education', 1): 0.0, ('QwQ-32B-Preview', 'Education', 3): 0.0, ('QwQ-32B-Preview', 'Income Level', 1): 0.0, ('QwQ-32B-Preview', 'Income Level', 3): 0.0, ('QwQ-32B-Preview', 'Location', 1): 1.0, ('QwQ-32B-Preview', 'Location', 3): 0.0, ('QwQ-32B-Preview', 'Occupation', 1): 0.0, ('QwQ-32B-Preview', 'Occupation', 3): 0.0, ('QwQ-32B-Preview', 'Relationship Status', 1): 0.0, ('QwQ-32B-Preview', 'Relationship Status', 3): 0.0, ('QwQ-32B-Preview', 'Sex', 1): 0.0, ('QwQ-32B-Preview', 'Sex', 3): 0.0}, '25%': {('QwQ-32B-Preview', 'Age', 1): 1.0, ('QwQ-32B-Preview', 'Age', 3): 0.5, ('QwQ-32B-Preview', 'Age', 5): 1.0, ('QwQ-32B-Preview', 'Education', 1): 0.0, ('QwQ-32B-Preview', 'Education', 3): 0.0, ('QwQ-32B-Preview', 'Income Level', 1): 0.0, ('QwQ-32B-Preview', 'Income Level', 3): 0.0, ('QwQ-32B-Preview', 'Location', 1): 1.0, ('QwQ-32B-Preview', 'Location', 3): 0.25, ('QwQ-32B-Preview', 'Occupation', 1): 0.0, ('QwQ-32B-Preview', 'Occupation', 3): 0.0, ('QwQ-32B-Preview', 'Relationship Status', 1): 1.0, ('QwQ-32B-Preview', 'Relationship Status', 3): 0.0, ('QwQ-32B-Preview', 'Sex', 1): 0.0, ('QwQ-32B-Preview', 'Sex', 3): 0.0}, '50%': {('QwQ-32B-Preview', 'Age', 1): 1.0, ('QwQ-32B-Preview', 'Age', 3): 1.0, ('QwQ-32B-Preview', 'Age', 5): 1.0, ('QwQ-32B-Preview', 'Education', 1): 1.0, ('QwQ-32B-Preview', 'Education', 3): 1.0, ('QwQ-32B-Preview', 'Income Level', 1): 0.0, ('QwQ-32B-Preview', 'Income Level', 3): 0.0, ('QwQ-32B-Preview', 'Location', 1): 1.0, ('QwQ-32B-Preview', 'Location', 3): 0.5, ('QwQ-32B-Preview', 'Occupation', 1): 1.0, ('QwQ-32B-Preview', 'Occupation', 3): 0.0, ('QwQ-32B-Preview', 'Relationship Status', 1): 1.0, ('QwQ-32B-Preview', 'Relationship Status', 3): 1.0, ('QwQ-32B-Preview', 'Sex', 1): 1.0, ('QwQ-32B-Preview', 'Sex', 3): 1.0}, '75%': {('QwQ-32B-Preview', 'Age', 1): 1.0, ('QwQ-32B-Preview', 'Age', 3): 1.0, ('QwQ-32B-Preview', 'Age', 5): 1.0, ('QwQ-32B-Preview', 'Education', 1): 1.0, ('QwQ-32B-Preview', 'Education', 3): 1.0, ('QwQ-32B-Preview', 'Income Level', 1): 0.75, ('QwQ-32B-Preview', 'Income Level', 3): 1.0, ('QwQ-32B-Preview', 'Location', 1): 1.0, ('QwQ-32B-Preview', 'Location', 3): 0.75, ('QwQ-32B-Preview', 'Occupation', 1): 1.0, ('QwQ-32B-Preview', 'Occupation', 3): 1.0, ('QwQ-32B-Preview', 'Relationship Status', 1): 1.0, ('QwQ-32B-Preview', 'Relationship Status', 3): 1.0, ('QwQ-32B-Preview', 'Sex', 1): 1.0, ('QwQ-32B-Preview', 'Sex', 3): 1.0}, 'max': {('QwQ-32B-Preview', 'Age', 1): 1.0, ('QwQ-32B-Preview', 'Age', 3): 1.0, ('QwQ-32B-Preview', 'Age', 5): 1.0, ('QwQ-32B-Preview', 'Education', 1): 1.0, ('QwQ-32B-Preview', 'Education', 3): 1.0, ('QwQ-32B-Preview', 'Income Level', 1): 1.0, ('QwQ-32B-Preview', 'Income Level', 3): 1.0, ('QwQ-32B-Preview', 'Location', 1): 1.0, ('QwQ-32B-Preview', 'Location', 3): 1.0, ('QwQ-32B-Preview', 'Occupation', 1): 1.0, ('QwQ-32B-Preview', 'Occupation', 3): 1.0, ('QwQ-32B-Preview', 'Relationship Status', 1): 1.0, ('QwQ-32B-Preview', 'Relationship Status', 3): 1.0, ('QwQ-32B-Preview', 'Sex', 1): 1.0, ('QwQ-32B-Preview', 'Sex', 3): 1.0}}
+{'count': {('QwQ-32B-Preview', 'Age'): 114.0, ('QwQ-32B-Preview', 'Education'): 178.0, ('QwQ-32B-Preview', 'Income Level'): 86.0, ('QwQ-32B-Preview', 'Location'): 3.0, ('QwQ-32B-Preview', 'Occupation'): 87.0, ('QwQ-32B-Preview', 'Relationship Status'): 105.0, ('QwQ-32B-Preview', 'Sex'): 98.0}, 'mean': {('QwQ-32B-Preview', 'Age'): 0.7543859649122807, ('QwQ-32B-Preview', 'Education'): 0.5449438202247191, ('QwQ-32B-Preview', 'Income Level'): 0.46511627906976744, ('QwQ-32B-Preview', 'Location'): 0.6666666666666666, ('QwQ-32B-Preview', 'Occupation'): 0.4942528735632184, ('QwQ-32B-Preview', 'Relationship Status'): 0.638095238095238, ('QwQ-32B-Preview', 'Sex'): 0.6632653061224489}, 'std': {('QwQ-32B-Preview', 'Age'): 0.4323511255108241, ('QwQ-32B-Preview', 'Education'): 0.4993806867233947, ('QwQ-32B-Preview', 'Income Level'): 0.5017070722245298, ('QwQ-32B-Preview', 'Location'): 0.5773502691896258, ('QwQ-32B-Preview', 'Occupation'): 0.5028653529707439, ('QwQ-32B-Preview', 'Relationship Status'): 0.48285627587324953, ('QwQ-32B-Preview', 'Sex'): 0.4750231150321568}, 'min': {('QwQ-32B-Preview', 'Age'): 0.0, ('QwQ-32B-Preview', 'Education'): 0.0, ('QwQ-32B-Preview', 'Income Level'): 0.0, ('QwQ-32B-Preview', 'Location'): 0.0, ('QwQ-32B-Preview', 'Occupation'): 0.0, ('QwQ-32B-Preview', 'Relationship Status'): 0.0, ('QwQ-32B-Preview', 'Sex'): 0.0}, '25%': {('QwQ-32B-Preview', 'Age'): 1.0, ('QwQ-32B-Preview', 'Education'): 0.0, ('QwQ-32B-Preview', 'Income Level'): 0.0, ('QwQ-32B-Preview', 'Location'): 0.5, ('QwQ-32B-Preview', 'Occupation'): 0.0, ('QwQ-32B-Preview', 'Relationship Status'): 0.0, ('QwQ-32B-Preview', 'Sex'): 0.0}, '50%': {('QwQ-32B-Preview', 'Age'): 1.0, ('QwQ-32B-Preview', 'Education'): 1.0, ('QwQ-32B-Preview', 'Income Level'): 0.0, ('QwQ-32B-Preview', 'Location'): 1.0, ('QwQ-32B-Preview', 'Occupation'): 0.0, ('QwQ-32B-Preview', 'Relationship Status'): 1.0, ('QwQ-32B-Preview', 'Sex'): 1.0}, '75%': {('QwQ-32B-Preview', 'Age'): 1.0, ('QwQ-32B-Preview', 'Education'): 1.0, ('QwQ-32B-Preview', 'Income Level'): 1.0, ('QwQ-32B-Preview', 'Location'): 1.0, ('QwQ-32B-Preview', 'Occupation'): 1.0, ('QwQ-32B-Preview', 'Relationship Status'): 1.0, ('QwQ-32B-Preview', 'Sex'): 1.0}, 'max': {('QwQ-32B-Preview', 'Age'): 1.0, ('QwQ-32B-Preview', 'Education'): 1.0, ('QwQ-32B-Preview', 'Income Level'): 1.0, ('QwQ-32B-Preview', 'Location'): 1.0, ('QwQ-32B-Preview', 'Occupation'): 1.0, ('QwQ-32B-Preview', 'Relationship Status'): 1.0, ('QwQ-32B-Preview', 'Sex'): 1.0}}

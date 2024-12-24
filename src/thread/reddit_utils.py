@@ -11,7 +11,7 @@ def load_data(path) -> List[Profile]:
 
     assert extension == "jsonl"
 
-    with open(path, "r") as json_file:
+    with open(path, "r", encoding="utf-8") as json_file:
         json_list = json_file.readlines()
 
     return load_data_from_lines(json_list)
